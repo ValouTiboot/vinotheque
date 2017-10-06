@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82141
+    [IdTransaction] => 826dcd8f145148dd96e8b184c94cf54c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23128] => Array
+                                (
+                                    [notiers] => 23128
+                                    [lastname] => LESPOUX
+                                    [firstname] => Thierry
+                                    [email] => lespoux.thierry@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => thierry11
+                                    [birthday] => 1949-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 84
+                                    [NbPointsRestants] => 84
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30177
+                                                            [alias] => 33990 NAUJAC-SUR-MER
+                                                            [address1] => 3, Impasse Pierre Charron
+                                                            [address2] => 
+                                                            [city] => NAUJAC-SUR-MER
+                                                            [postcode] => 33990
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LESPOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30178
+                                                            [alias] => 33990 NAUJAC-SUR-MER
+                                                            [address1] => 3, Impasse Pierre Charron
+                                                            [address2] => 
+                                                            [city] => NAUJAC-SUR-MER
+                                                            [postcode] => 33990
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LESPOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,62 @@
+#footer {
+  h4 {
+    text-transform: uppercase;
+  }
+  #footer_before_responsive {
+    background-color: $red;
+    color: white;
+    padding: 35px 0;
+  }
+  #footer_content_responsive {
+    background: url("../img/footer_bouchon.png") 10% bottom no-repeat;
+    #footer_content_bg {
+      background: url("../img/footer_bg.png") 0 bottom repeat-x;
+    }
+    .container {
+      background: url("../img/footer_champagne.png") right -40px no-repeat;
+    }
+    #footer_content div {
+      padding-top: rem(40px);
+      padding-bottom: rem(50px);
+      i {
+        color: $green-darker;
+        &.icon-v-map {
+          float: left;
+          font-size: rem(40px);
+        }
+      }
+      &.customer-service .phone_number {
+        color: $green-darker;
+        font-weight: bold;
+        font-size: rem(23px);
+        line-height: rem(30px);
+      }
+      &.ps-social-follow ul li {
+        display: inline-block;
+        font-size: rem(25px);
+        margin-right: rem(25px);
+      }
+      &.block-contact span {
+        font-size: rem(14px);
+      }
+    }
+  }
+  #footer_after_responsive {
+    background-color: $gray-dark;
+    padding: 25px 0 100px;
+    #footer_after li {
+      margin-bottom: rem(7px);
+    }
+  }
+  #footer_copyright {
+    padding-top: rem(20px);
+    padding-bottom: rem(20px);
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #footer #footer_content_responsive #footer_content div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

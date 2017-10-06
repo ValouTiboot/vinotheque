@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83036
+    [IdTransaction] => 87ed5e7f837547e9a679ceecb49d6014
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36580] => Array
+                                (
+                                    [notiers] => 36580
+                                    [lastname] => BROUTÉ
+                                    [firstname] => Vincent
+                                    [email] => vincent.broute@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => grosbanban
+                                    [birthday] => 1990-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 32
+                                    [NbPointsRestants] => 32
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49151
+                                                            [alias] => 60322 FRANKFURT AM MAIN
+                                                            [address1] => 20, Lersnerstrasse
+                                                            [address2] => 
+                                                            [city] => FRANKFURT AM MAIN
+                                                            [postcode] => 60322
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BROUTÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49152
+                                                            [alias] => 60322 FRANKFURT AM MAIN
+                                                            [address1] => 20, Lersnerstrasse
+                                                            [address2] => 
+                                                            [city] => FRANKFURT AM MAIN
+                                                            [postcode] => 60322
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BROUTÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

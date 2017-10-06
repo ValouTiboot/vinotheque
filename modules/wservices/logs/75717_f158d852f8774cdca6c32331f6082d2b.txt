@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75717
+    [IdTransaction] => f158d852f8774cdca6c32331f6082d2b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31145] => Array
+                                (
+                                    [notiers] => 31145
+                                    [lastname] => BAUDEMONT
+                                    [firstname] => Thierry
+                                    [email] => cialformation@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => Laba2127
+                                    [birthday] => 1967-12-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 859
+                                    [NbPointsRestants] => 859
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40071
+                                                            [alias] => 08500 REVIN
+                                                            [address1] => 47, Rue George sand
+                                                            [address2] => 
+                                                            [city] => REVIN
+                                                            [postcode] => 08500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BAUDEMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40072
+                                                            [alias] => 08500 REVIN
+                                                            [address1] => 47, Rue George sand
+                                                            [address2] => 
+                                                            [city] => REVIN
+                                                            [postcode] => 08500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BAUDEMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

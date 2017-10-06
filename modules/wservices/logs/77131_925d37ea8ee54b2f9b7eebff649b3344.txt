@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77131
+    [IdTransaction] => 925d37ea8ee54b2f9b7eebff649b3344
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34373] => Array
+                                (
+                                    [notiers] => 34373
+                                    [lastname] => VINCENT
+                                    [firstname] => Yves
+                                    [email] => y.vincent.peltzer@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vincen1
+                                    [birthday] => 1956-12-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 338
+                                    [NbPointsRestants] => 338
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45493
+                                                            [alias] => 4170 COMBLAIN AU PONT
+                                                            [address1] => 6, Rue De La Melee
+                                                            [address2] => 
+                                                            [city] => COMBLAIN AU PONT
+                                                            [postcode] => 4170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => VINCENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45494
+                                                            [alias] => 4140 SPRIMONT
+                                                            [address1] => 31, rue de la préalle
+                                                            [address2] => 
+                                                            [city] => SPRIMONT
+                                                            [postcode] => 4140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => VINCENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

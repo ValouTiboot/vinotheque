@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82841
+    [IdTransaction] => 41e698c0728840bdb3c28233a05e0443
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34898] => Array
+                                (
+                                    [notiers] => 34898
+                                    [lastname] => REINLE
+                                    [firstname] => Franck
+                                    [email] => franck.reinle@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Soleil15
+                                    [birthday] => 1973-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 216
+                                    [NbPointsRestants] => 216
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46384
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 51, rue des Orangers
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => REINLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46385
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 52, rue mandron
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => REINLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

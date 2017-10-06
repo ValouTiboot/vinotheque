@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82047
+    [IdTransaction] => b61b344f4cf04e04ad36dab76fcf56b3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31496] => Array
+                                (
+                                    [notiers] => 31496
+                                    [lastname] => PLAZOL
+                                    [firstname] => Thomas
+                                    [email] => tplazol@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Tp06071989
+                                    [birthday] => 1989-06-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40711
+                                                            [alias] => 94100 ST MAUR
+                                                            [address1] => 7, avenue gabriel péri
+                                                            [address2] => 1er étage à droite
+                                                            [city] => ST MAUR
+                                                            [postcode] => 94100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => PLAZOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40712
+                                                            [alias] => 75001 PARIS
+                                                            [address1] => 233, Rue saint honoré
+                                                            [address2] => Agence Favori, 2eme etage
+                                                            [city] => PARIS
+                                                            [postcode] => 75001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => PLAZOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

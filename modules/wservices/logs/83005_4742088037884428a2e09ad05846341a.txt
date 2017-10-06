@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83005
+    [IdTransaction] => 4742088037884428a2e09ad05846341a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29540] => Array
+                                (
+                                    [notiers] => 29540
+                                    [lastname] => ANDRE
+                                    [firstname] => Erwann
+                                    [email] => andreerwann@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => edfgdf35
+                                    [birthday] => 1985-08-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 63
+                                    [NbPointsRestants] => 63
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37314
+                                                            [alias] => 28000 CHARTRES
+                                                            [address1] => 23, rue du grand faubourg
+                                                            [address2] => 
+                                                            [city] => CHARTRES
+                                                            [postcode] => 28000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erwann
+                                                            [lastname] => ANDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37315
+                                                            [alias] => 28000 CHARTRES
+                                                            [address1] => 23, rue du grand faubourg
+                                                            [address2] => 
+                                                            [city] => CHARTRES
+                                                            [postcode] => 28000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erwann
+                                                            [lastname] => ANDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

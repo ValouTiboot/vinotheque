@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80887
+    [IdTransaction] => d6edce6644bd47e9b6e2df4dfd008e65
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31121] => Array
+                                (
+                                    [notiers] => 31121
+                                    [lastname] => VALAZZA
+                                    [firstname] => Mario
+                                    [email] => mario.valazza@ingerop.com
+                                    [id_gender] => 1
+                                    [passwd] => 335533
+                                    [birthday] => 1950-05-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 161
+                                    [NbPointsRestants] => 161
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40036
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 24, SQUARE ST. GERMAIN
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mario
+                                                            [lastname] => VALAZZA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40037
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 24, SQUARE ST. GERMAIN
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mario
+                                                            [lastname] => VALAZZA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

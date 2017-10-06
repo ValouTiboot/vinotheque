@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75880
+    [IdTransaction] => 4a0c9995655f4ea8875e2401823034f9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27193] => Array
+                                (
+                                    [notiers] => 27193
+                                    [lastname] => WEISSLER
+                                    [firstname] => Frederic
+                                    [email] => fweissler@noos.fr
+                                    [id_gender] => 1
+                                    [passwd] => soutine
+                                    [birthday] => 1949-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 156
+                                    [NbPointsRestants] => 156
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33853
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 12, Villa Soutine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => WEISSLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33854
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 12, Villa Soutine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => WEISSLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

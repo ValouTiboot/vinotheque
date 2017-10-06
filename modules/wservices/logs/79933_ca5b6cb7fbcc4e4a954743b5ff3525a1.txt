@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79933
+    [IdTransaction] => ca5b6cb7fbcc4e4a954743b5ff3525a1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32738] => Array
+                                (
+                                    [notiers] => 32738
+                                    [lastname] => SOULIÉ-LOPEZ
+                                    [firstname] => Cyril
+                                    [email] => ambriel_forever@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ambriel33
+                                    [birthday] => 1974-06-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 26
+                                    [NbPointsRestants] => 26
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42650
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 44, Rue Cardinal Lavigerie
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cyril
+                                                            [lastname] => SOULIÉ-LOPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42651
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 44, Rue Cardinal Lavigerie
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cyril
+                                                            [lastname] => SOULIÉ-LOPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

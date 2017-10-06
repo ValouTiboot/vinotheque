@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 7d2fa5a5f47af5d994913f13bb42946d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-26 15:20:06
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => toto
+                                    [firstname] => tata
+                                    [email] => tatatoto@gmail.coim
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [2] => Array
+                                                (
+                                                    [id_address] => 2
+                                                    [noadresse] => 
+                                                    [alias] => supplier
+                                                    [address1] => 767 Fifth Ave.
+                                                    [address2] => 
+                                                    [city] => New York
+                                                    [postcode] => 10153
+                                                    [phone] => (212) 336-1440
+                                                    [phone_mobile] => 
+                                                    [company] => Fashion
+                                                    [firstname] => supplier
+                                                    [lastname] => supplier
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [id_address] => 3
+                                                    [noadresse] => 
+                                                    [alias] => manufacturer
+                                                    [address1] => 767 Fifth Ave.
+                                                    [address2] => 
+                                                    [city] => New York
+                                                    [postcode] => 10154
+                                                    [phone] => (212) 336-1666
+                                                    [phone_mobile] => 
+                                                    [company] => Fashion
+                                                    [firstname] => manufacturer
+                                                    [lastname] => manufacturer
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

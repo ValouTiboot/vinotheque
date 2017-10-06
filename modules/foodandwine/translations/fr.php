@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{foodandwine}prestashop>foodandwine_d5143057cf9c2d3661d88b035634153f'] = 'Pictogrammes Accords et mets';
+$_MODULE['<{foodandwine}prestashop>foodandwine_e3d657de4cdbeed5afa11e4b8cf2232f'] = 'Ajouter des pictogrammes aux produits';
+$_MODULE['<{foodandwine}prestashop>foodandwine_876f23178c29dc2552c0b48bf23cd9bd'] = 'Êtes vous sûr de vouloir désinstaller le module ?';
+$_MODULE['<{foodandwine}prestashop>foodandwine_e98e264206badffe157fb0f107c8a6a8'] = 'Accords et mets';
+$_MODULE['<{foodandwine}prestashop>foodandwine_1989555263b7b56709d6959b01e81fa0'] = 'Viande blanche grillée';
+$_MODULE['<{foodandwine}prestashop>foodandwine_31722de5bd86fcff6f76ccf4a6b726ed'] = 'Viande blanche en sauce';
+$_MODULE['<{foodandwine}prestashop>foodandwine_1269fc82c22fbc99677eb9b43ed67cbf'] = 'Viande rouge grillée';
+$_MODULE['<{foodandwine}prestashop>foodandwine_d15d177ad825bef8f94aa2b90991ff32'] = 'Viande rouge en sauce';
+$_MODULE['<{foodandwine}prestashop>foodandwine_87884053fdee67473284064a7a05e5bf'] = 'Viande rouge crue';
+$_MODULE['<{foodandwine}prestashop>foodandwine_28486ec96092d15cc3671bc14152ecb4'] = 'Viande fumée';
+$_MODULE['<{foodandwine}prestashop>foodandwine_79af0c177db2ee64b7301af6e1d53634'] = 'Jambon';
+$_MODULE['<{foodandwine}prestashop>foodandwine_c442c7a1cbd0cad54f067f7552479eeb'] = 'Charcuterie';
+$_MODULE['<{foodandwine}prestashop>foodandwine_ab92d9fae5ee7975c7735376ec60851b'] = 'Oeufs';
+$_MODULE['<{foodandwine}prestashop>foodandwine_00dfd219ddd96a46d8447d8cb6067635'] = 'Gibier';
+$_MODULE['<{foodandwine}prestashop>foodandwine_7ceca818feda62c5fcdb8bfefa3635cd'] = 'Poisson grillé';
+$_MODULE['<{foodandwine}prestashop>foodandwine_69fbd021776569b88b8a98a3ab1860e1'] = 'Poisson en sauce';
+$_MODULE['<{foodandwine}prestashop>foodandwine_9812422fb3a952a30c019224de03f74a'] = 'Poisson fumé';
+$_MODULE['<{foodandwine}prestashop>foodandwine_a833eb7d964c6aa5a9deed6be91f9029'] = 'Poisson mariné';
+$_MODULE['<{foodandwine}prestashop>foodandwine_5d447d86dbe18e57dede1863d03ac4aa'] = 'Poisson cru';
+$_MODULE['<{foodandwine}prestashop>foodandwine_9d47709a36c579ce19310e576250343a'] = 'Fruits de mer';
+$_MODULE['<{foodandwine}prestashop>foodandwine_56305d12c5695b1aae0256cf2b87897e'] = 'Pâtes et risotto';
+$_MODULE['<{foodandwine}prestashop>foodandwine_7cf2db5ec261a0fa27a502d3196a6f60'] = 'Pizzas';
+$_MODULE['<{foodandwine}prestashop>foodandwine_728006888f148d13027c04e1ffbdc6a7'] = 'Cake, quiches et feuilletés';
+$_MODULE['<{foodandwine}prestashop>foodandwine_11465a9778b596aec9af5297cc46e7f4'] = 'Gratins Fromage à pâte molle';
+$_MODULE['<{foodandwine}prestashop>foodandwine_6ee7517db43603b2df9a2ac465337b2b'] = 'Fromage à pâte dure';
+$_MODULE['<{foodandwine}prestashop>foodandwine_3da7c7867147c2d86e083ecc3afdb606'] = 'Fromage bleu';
+$_MODULE['<{foodandwine}prestashop>foodandwine_b697333f6302bd97988beede135a5417'] = 'Fromage italien';
+$_MODULE['<{foodandwine}prestashop>foodandwine_e9c3349865e8bee90bf3dc761c7e0fae'] = 'Fromage de chèvre';
+$_MODULE['<{foodandwine}prestashop>foodandwine_8fc52ef5f3aae18cf5f12b26906b802c'] = 'Fruits cuits';
+$_MODULE['<{foodandwine}prestashop>foodandwine_f200d4516695d5ff2366001cfb6d7904'] = 'Fruits rouges';
+$_MODULE['<{foodandwine}prestashop>foodandwine_2cf7e04e957caf39616764a2730a7668'] = 'Fruits frais';
+$_MODULE['<{foodandwine}prestashop>foodandwine_3dcda5281cc9ec0438d19e02a0c851f8'] = 'Café et chocolat';
+$_MODULE['<{foodandwine}prestashop>foodandwine_aa336f3fb3af62a03831aeb6f8247f13'] = 'Tartes, cakes et gâteaux';
+$_MODULE['<{foodandwine}prestashop>foodandwine_895af4a9b3a01f1777c637b303bacc8a'] = 'Glaces et sorbets';

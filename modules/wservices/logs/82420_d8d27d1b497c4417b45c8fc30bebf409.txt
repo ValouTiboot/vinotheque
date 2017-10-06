@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82420
+    [IdTransaction] => d8d27d1b497c4417b45c8fc30bebf409
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26169] => Array
+                                (
+                                    [notiers] => 26169
+                                    [lastname] => FRENTZEL
+                                    [firstname] => Matthieu
+                                    [email] => matthieu.frentzel@essec.edu
+                                    [id_gender] => 1
+                                    [passwd] => martine007
+                                    [birthday] => 1989-07-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32268
+                                                            [alias] => 57050 PLAPPEVILLE
+                                                            [address1] => 4, rue des 8 hommes
+                                                            [address2] => 
+                                                            [city] => PLAPPEVILLE
+                                                            [postcode] => 57050
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => FRENTZEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32269
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 54, rue monsieur le prince
+                                                            [address2] => 4e étage droite
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => FRENTZEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

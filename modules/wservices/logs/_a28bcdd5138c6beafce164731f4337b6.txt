@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => a28bcdd5138c6beafce164731f4337b6
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-07-25 15:02:15
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => DOE
+                                    [firstname] => John
+                                    [email] => pub@prestashop.com
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 1970-1-15
+                                    [active] => 1
+                                    [optin] => 1
+                                    [newsletter] => 1
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [1] => Array
+                                                (
+                                                    [id_address] => 1
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 16, Main street
+                                                    [address2] => 2nd floor
+                                                    [city] => Paris 
+                                                    [postcode] => 75002
+                                                    [phone] => 0102030405
+                                                    [phone_mobile] => 
+                                                    [company] => My Company
+                                                    [firstname] => John
+                                                    [lastname] => DOE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 0
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [id_address] => 4
+                                                    [noadresse] => 
+                                                    [alias] => My address
+                                                    [address1] => 16, Main street
+                                                    [address2] => 2nd floor
+                                                    [city] => Miami
+                                                    [postcode] => 33133
+                                                    [phone] => 0102030405
+                                                    [phone_mobile] => 
+                                                    [company] => My Company
+                                                    [firstname] => John
+                                                    [lastname] => DOE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82198
+    [IdTransaction] => a24d5a2edf4d4adcb7362eca1a90422e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33436] => Array
+                                (
+                                    [notiers] => 33436
+                                    [lastname] => MOSER
+                                    [firstname] => Fanny
+                                    [email] => fannymoser@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => zaza3des*
+                                    [birthday] => 1992-04-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 32
+                                    [NbPointsRestants] => 32
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43849
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 32, Rue Marceau
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fanny
+                                                            [lastname] => MOSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43850
+                                                            [alias] => 06230 SAINT-JEAN-CAP-FERRAT
+                                                            [address1] => Port de Saint Jean Cap Ferrat
+                                                            [address2] => 
+                                                            [city] => SAINT-JEAN-CAP-FERRAT
+                                                            [postcode] => 06230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fanny
+                                                            [lastname] => MOSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

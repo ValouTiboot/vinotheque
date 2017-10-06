@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80362
+    [IdTransaction] => 0b4c01aefed74bb0b1167eefb5165dc7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34941] => Array
+                                (
+                                    [notiers] => 34941
+                                    [lastname] => BAILLY / STE BERGONZO
+                                    [firstname] => Thierry
+                                    [email] => thierry@bergonzo.com
+                                    [id_gender] => 1
+                                    [passwd] => leamax
+                                    [birthday] => 1966-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46453
+                                                            [alias] => 69440 MORNANT
+                                                            [address1] => 169, RUE DE LA GARRENNIERE
+                                                            [address2] => 
+                                                            [city] => MORNANT
+                                                            [postcode] => 69440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BAILLY / STE BERGONZO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46454
+                                                            [alias] => 69440 MORNANT
+                                                            [address1] => 169, RUE DE LA GARRENNIERE
+                                                            [address2] => 
+                                                            [city] => MORNANT
+                                                            [postcode] => 69440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BAILLY / STE BERGONZO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 75356
+    [IdTransaction] => ff7286fbcab14c0ea79dae2c429ccc82
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [21863] => Array
+                                (
+                                    [notiers] => 21863
+                                    [lastname] => BUCKINGHAM
+                                    [firstname] => John
+                                    [email] => jpbuckingham@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => buck1972
+                                    [birthday] => 1972-03-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 168
+                                    [NbPointsRestants] => 168
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 28283
+                                                            [alias] => 1291 COMMUGNY
+                                                            [address1] => 3a, chemin du Nant
+                                                            [address2] => 
+                                                            [city] => COMMUGNY
+                                                            [postcode] => 1291
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Buckingham John
+                                                            [firstname] => John
+                                                            [lastname] => BUCKINGHAM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 28284
+                                                            [alias] => 01630 SAINT-GENIS-POUILLY
+                                                            [address1] => 196, rue Blaise Pascal
+                                                            [address2] => 
+                                                            [city] => SAINT-GENIS-POUILLY
+                                                            [postcode] => 01630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Cailleau Christophe
+                                                            [firstname] => John
+                                                            [lastname] => BUCKINGHAM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 28284
+                                                            [alias] => 01630 SAINT-GENIS-POUILLY
+                                                            [address1] => 196, rue Blaise Pascal
+                                                            [address2] => 
+                                                            [city] => SAINT-GENIS-POUILLY
+                                                            [postcode] => 01630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Cailleau Christophe
+                                                            [firstname] => John
+                                                            [lastname] => BUCKINGHAM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81113
+    [IdTransaction] => fb72c4660d0c42789dd391e35fd8dc6c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33474] => Array
+                                (
+                                    [notiers] => 33474
+                                    [lastname] => BARBOT
+                                    [firstname] => Annie
+                                    [email] => gelovigen@skynet.be
+                                    [id_gender] => 2
+                                    [passwd] => 1180vinotheque75
+                                    [birthday] => 1956-11-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 113
+                                    [NbPointsRestants] => 113
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43920
+                                                            [alias] => 1180 BRUXELLES
+                                                            [address1] => 15, Rue des fidèles
+                                                            [address2] => 
+                                                            [city] => BRUXELLES
+                                                            [postcode] => 1180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Annie
+                                                            [lastname] => BARBOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43921
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 12, Rue Louis sabourin
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Annie
+                                                            [lastname] => BARBOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

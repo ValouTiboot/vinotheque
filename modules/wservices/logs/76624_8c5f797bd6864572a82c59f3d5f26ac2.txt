@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76624
+    [IdTransaction] => 8c5f797bd6864572a82c59f3d5f26ac2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35216] => Array
+                                (
+                                    [notiers] => 35216
+                                    [lastname] => MORENO
+                                    [firstname] => Nancy
+                                    [email] => m.nancy.m@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => chouchou92120
+                                    [birthday] => 1985-04-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 61
+                                    [NbPointsRestants] => 61
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46888
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => 11, rue beauséjour
+                                                            [address2] => 
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nancy
+                                                            [lastname] => MORENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46889
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, place de la victoire
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nancy
+                                                            [lastname] => MORENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

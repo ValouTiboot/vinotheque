@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74773
+    [IdTransaction] => 065bf026d4d84481a7e62969918da3dc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28736] => Array
+                                (
+                                    [notiers] => 28736
+                                    [lastname] => DUPANLOUP
+                                    [firstname] => Philippe
+                                    [email] => paixetpaix@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => jolipapa
+                                    [birthday] => 1973-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 239
+                                    [NbPointsRestants] => 239
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36208
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => DUPANLOUP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36209
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 148, Lamarck
+                                                            [address2] => 2ième étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => DUPANLOUP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

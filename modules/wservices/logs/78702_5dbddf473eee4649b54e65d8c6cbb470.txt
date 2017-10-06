@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78702
+    [IdTransaction] => 5dbddf473eee4649b54e65d8c6cbb470
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34574] => Array
+                                (
+                                    [notiers] => 34574
+                                    [lastname] => MOUZAKIS
+                                    [firstname] => Nikolaos
+                                    [email] => mouznik@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pm451990
+                                    [birthday] => 1992-07-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45842
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nikolaos
+                                                            [lastname] => MOUZAKIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45843
+                                                            [alias] => 17123 ATHENS
+                                                            [address1] => 30, Stadiou Nea Smirni Nea Smirni
+                                                            [address2] => Ground Floor/ 1st Floor
+                                                            [city] => ATHENS
+                                                            [postcode] => 17123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nikolaos
+                                                            [lastname] => MOUZAKIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => GR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

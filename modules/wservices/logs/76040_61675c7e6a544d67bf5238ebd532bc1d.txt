@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76040
+    [IdTransaction] => 61675c7e6a544d67bf5238ebd532bc1d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26843] => Array
+                                (
+                                    [notiers] => 26843
+                                    [lastname] => CRETIN
+                                    [firstname] => Guillaume
+                                    [email] => guillaume.cretin@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => Trampass49
+                                    [birthday] => 1971-07-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 504
+                                    [NbPointsRestants] => 504
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33283
+                                                            [alias] => 49320 BRISSAC-QUINCE
+                                                            [address1] => ZA LES FONTENELLES
+                                                            [address2] => 
+                                                            [city] => BRISSAC-QUINCE
+                                                            [postcode] => 49320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => CRETIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33284
+                                                            [alias] => 49320 BRISSAC-QUINCE
+                                                            [address1] => ZA LES FONTENELLES
+                                                            [address2] => 
+                                                            [city] => BRISSAC-QUINCE
+                                                            [postcode] => 49320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => CRETIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

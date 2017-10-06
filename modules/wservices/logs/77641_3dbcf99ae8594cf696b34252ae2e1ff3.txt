@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77641
+    [IdTransaction] => 3dbcf99ae8594cf696b34252ae2e1ff3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29039] => Array
+                                (
+                                    [notiers] => 29039
+                                    [lastname] => HERVET
+                                    [firstname] => Axel
+                                    [email] => axel.rv@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => broopy
+                                    [birthday] => 1980-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 28
+                                    [NbPointsRestants] => 28
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36677
+                                                            [alias] => 22630 QUIOU
+                                                            [address1] => 13, rue des ruettes
+                                                            [address2] => 
+                                                            [city] => QUIOU
+                                                            [postcode] => 22630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Axel
+                                                            [lastname] => HERVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36678
+                                                            [alias] => 78610 PERRAY-EN-YVELINES
+                                                            [address1] => 13 bis, chemin de montfort
+                                                            [address2] => 
+                                                            [city] => PERRAY-EN-YVELINES
+                                                            [postcode] => 78610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Axel
+                                                            [lastname] => HERVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

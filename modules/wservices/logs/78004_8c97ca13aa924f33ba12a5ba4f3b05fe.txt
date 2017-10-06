@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78004
+    [IdTransaction] => 8c97ca13aa924f33ba12a5ba4f3b05fe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33134] => Array
+                                (
+                                    [notiers] => 33134
+                                    [lastname] => LEGARCON
+                                    [firstname] => Carole
+                                    [email] => carole.legarcon@sfr.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1967-03-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 39
+                                    [NbPointsRestants] => 39
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43299
+                                                            [alias] => 79200 PARTHENAY
+                                                            [address1] => 8, HECTOR BERIOZ
+                                                            [address2] => 
+                                                            [city] => PARTHENAY
+                                                            [postcode] => 79200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carole
+                                                            [lastname] => LEGARCON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43300
+                                                            [alias] => 79200 PARTHENAY
+                                                            [address1] => 71, ARISTIDE BRIAND
+                                                            [address2] => 
+                                                            [city] => PARTHENAY
+                                                            [postcode] => 79200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carole
+                                                            [lastname] => LEGARCON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

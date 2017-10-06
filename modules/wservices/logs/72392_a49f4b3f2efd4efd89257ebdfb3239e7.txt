@@ -1,0 +1,370 @@
+Array
+(
+    [NoJSON] => 72392
+    [IdTransaction] => a49f4b3f2efd4efd89257ebdfb3239e7
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016000529] => Array
+                                (
+                                    [reference] => M2016000529
+                                    [id_second_wine] => 
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 41778|130
+                                    [active] => 1
+                                    [name] => Château LA TOUR CARNET
+                                    [wine] => 1
+                                    [wine_date] => 2017-05-04 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Cette appellation située en amont du fleuve s’étend sur 4708 hectares. Les vins d’appellation Haut-Médoc se caractérisent par un équilibre harmonieux, fait de brillance et de générosité. En vieillissant, leur bouquet développe des notes torréfiées, de cèdre, de pruneau ou encore de truffe.
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => CH. LA TOUR CARNET            
+                                    [categories] => Array
+                                        (
+                                            [0] => Haut-Médoc
+                                            [1] => Primeurs
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Charcuterie
+                                            [1] => Viande blanche grillée 
+                                            [2] => Cakes, quiches et feuilletés 
+                                            [3] => Fromage à pâte dure 
+                                            [4] => Viande rouge grillée 
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-la-tour-carnet-001.jpg
+                                                            [legend] => CH. LA TOUR CARNET            
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41778
+                                                                    [1] => 42225
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-la-tour-carnet-002.jpg
+                                                            [legend] => CH. LA TOUR CARNET            
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41778
+                                                                    [1] => 42225
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [url] => chateau-la-tour-carnet-003.jpg
+                                                            [legend] => CH. LA TOUR CARNET            
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41778
+                                                                    [1] => 42225
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [url] => chateau-la-tour-carnet-004.jpg
+                                                            [legend] => CH. LA TOUR CARNET            
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41778
+                                                                    [1] => 42225
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41778
+                                                            [reference] => M2016000529
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 24.3083
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41778
+                                                            [reference] => M2016000529
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 24.3083
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41778
+                                                            [reference] => M2016000529
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 24.3083
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42225
+                                                            [reference] => M2016000529
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 48.6167
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42225
+                                                            [reference] => M2016000529
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 48.6167
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Haut-Médoc
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 4ème cru classé
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Advocate  (Neal Martin) 91-93
+                                                                    [1] => Wine spectator 87-90
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

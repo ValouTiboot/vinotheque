@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79172
+    [IdTransaction] => 8be63cf4e12e4646a02be1fd865bb851
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32509] => Array
+                                (
+                                    [notiers] => 32509
+                                    [lastname] => BLASCO
+                                    [firstname] => Guy
+                                    [email] => g.blasco@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => gb230657
+                                    [birthday] => 1957-06-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42318
+                                                            [alias] => 31320 VIGOULET-AUZIL
+                                                            [address1] => 11, avenue du lac
+                                                            [address2] => 
+                                                            [city] => VIGOULET-AUZIL
+                                                            [postcode] => 31320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => BLASCO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42319
+                                                            [alias] => 31320 VIGOULET-AUZIL
+                                                            [address1] => 11, avenue du lac
+                                                            [address2] => 
+                                                            [city] => VIGOULET-AUZIL
+                                                            [postcode] => 31320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => BLASCO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

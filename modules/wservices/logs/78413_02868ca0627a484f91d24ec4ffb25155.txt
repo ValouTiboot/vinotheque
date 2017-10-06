@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78413
+    [IdTransaction] => 02868ca0627a484f91d24ec4ffb25155
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32959] => Array
+                                (
+                                    [notiers] => 32959
+                                    [lastname] => ROSSIGNOL
+                                    [firstname] => Julien
+                                    [email] => julien.rossignol@myself.com
+                                    [id_gender] => 1
+                                    [passwd] => julien2823
+                                    [birthday] => 1990-05-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42992
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 13, RUE DU MARECHAL GALLIENI
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => ROSSIGNOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43000
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 13, RUE DU MARECHAL GALLIENI
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => ROSSIGNOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

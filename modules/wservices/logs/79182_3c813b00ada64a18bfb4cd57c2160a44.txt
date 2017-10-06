@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79182
+    [IdTransaction] => 3c813b00ada64a18bfb4cd57c2160a44
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32730] => Array
+                                (
+                                    [notiers] => 32730
+                                    [lastname] => BOVIERE
+                                    [firstname] => Laurent
+                                    [email] => laubov@msn.com
+                                    [id_gender] => 1
+                                    [passwd] => bordeaux
+                                    [birthday] => 1964-08-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42637
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 9 bis, jean de la bruyere
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => BOVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42638
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 9 bis, jean de la bruyere
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => BOVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74769
+    [IdTransaction] => f96c47297f414aaa97afc405e5c250f1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29651] => Array
+                                (
+                                    [notiers] => 29651
+                                    [lastname] => BISMUTH
+                                    [firstname] => Daniel
+                                    [email] => danielbismuth@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => jumo2812
+                                    [birthday] => 1951-05-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 77
+                                    [NbPointsRestants] => 77
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37498
+                                                            [alias] => 13007 MARSEILLE
+                                                            [address1] => 2, rue Boudouresque
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => BISMUTH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37499
+                                                            [alias] => 13007 MARSEILLE
+                                                            [address1] => 134, CORNICHE JF KENNEDY
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => BISMUTH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

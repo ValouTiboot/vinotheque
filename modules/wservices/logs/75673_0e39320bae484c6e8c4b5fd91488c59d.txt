@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75673
+    [IdTransaction] => 0e39320bae484c6e8c4b5fd91488c59d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34942] => Array
+                                (
+                                    [notiers] => 34942
+                                    [lastname] => SEMPEY
+                                    [firstname] => Sophie
+                                    [email] => sophie.sempey@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1962-11-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46455
+                                                            [alias] => 33290 BLANQUEFORT
+                                                            [address1] => 4, chemin du bois de geles
+                                                            [address2] => l'autre rive
+                                                            [city] => BLANQUEFORT
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => SEMPEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46456
+                                                            [alias] => 33290 BLANQUEFORT
+                                                            [address1] => 4, chemin du bois de geles
+                                                            [address2] => l'autre rive
+                                                            [city] => BLANQUEFORT
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => SEMPEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

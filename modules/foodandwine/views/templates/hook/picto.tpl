@@ -1,0 +1,1 @@
+{$pictos_link|@print_r}

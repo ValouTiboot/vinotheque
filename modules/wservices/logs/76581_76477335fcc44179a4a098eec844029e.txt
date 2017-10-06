@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76581
+    [IdTransaction] => 76477335fcc44179a4a098eec844029e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30388] => Array
+                                (
+                                    [notiers] => 30388
+                                    [lastname] => FAVRET
+                                    [firstname] => Guillaume
+                                    [email] => acherbonnel1@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => rogerlebeau
+                                    [birthday] => 1983-05-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 71
+                                    [NbPointsRestants] => 71
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38755
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 25, quai de la monnaie
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => FAVRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38756
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 25, quai de la monnaie
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => FAVRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

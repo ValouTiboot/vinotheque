@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75255
+    [IdTransaction] => 4bf0e1f002fa442c81c8386c6399eae4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26120] => Array
+                                (
+                                    [notiers] => 26120
+                                    [lastname] => PERON
+                                    [firstname] => Samuel
+                                    [email] => peronsamuel@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => samuel
+                                    [birthday] => 1974-02-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32207
+                                                            [alias] => 29910 TREGUNC
+                                                            [address1] => kerleo, trévignon
+                                                            [address2] => 
+                                                            [city] => TREGUNC
+                                                            [postcode] => 29910
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Samuel
+                                                            [lastname] => PERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32208
+                                                            [alias] => 29910 TREVIGNON
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => TREVIGNON
+                                                            [postcode] => 29910
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Samuel
+                                                            [lastname] => PERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

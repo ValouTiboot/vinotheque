@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78997
+    [IdTransaction] => c9d63f8d23ee4502ab7c07ff816a7c4d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23103] => Array
+                                (
+                                    [notiers] => 23103
+                                    [lastname] => NILES
+                                    [firstname] => Erick
+                                    [email] => erick-niles@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => ricky1
+                                    [birthday] => 1961-03-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30136
+                                                            [alias] => 77360 VAIRES-SUR-MARNE
+                                                            [address1] => 10, rue des jonquilles
+                                                            [address2] => 
+                                                            [city] => VAIRES-SUR-MARNE
+                                                            [postcode] => 77360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erick
+                                                            [lastname] => NILES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30137
+                                                            [alias] => 77360 VAIRES-SUR-MARNE
+                                                            [address1] => 10, rue des jonquilles
+                                                            [address2] => 
+                                                            [city] => VAIRES-SUR-MARNE
+                                                            [postcode] => 77360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erick
+                                                            [lastname] => NILES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

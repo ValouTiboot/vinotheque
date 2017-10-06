@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79191
+    [IdTransaction] => e4443affedf2485283a0d12ed6afcfbd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34492] => Array
+                                (
+                                    [notiers] => 34492
+                                    [lastname] => VIENNE
+                                    [firstname] => Gregory
+                                    [email] => vienne.gregory@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => juin-90
+                                    [birthday] => 1990-06-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45693
+                                                            [alias] => 06100 NICE
+                                                            [address1] => 71, alfred borriglione
+                                                            [address2] => LE PUGET
+                                                            [city] => NICE
+                                                            [postcode] => 06100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => VIENNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45694
+                                                            [alias] => 06560 VALBONNE
+                                                            [address1] => 175, RUE DU VALLON
+                                                            [address2] => IMMEUBLE ADAMANT
+                                                            [city] => VALBONNE
+                                                            [postcode] => 06560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => VIENNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

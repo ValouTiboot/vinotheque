@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82860
+    [IdTransaction] => fa9e7e6107084559b32c7a7fd894870a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33724] => Array
+                                (
+                                    [notiers] => 33724
+                                    [lastname] => SOUBIRAN
+                                    [firstname] => Antoine
+                                    [email] => a.soubiran@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => antoine82
+                                    [birthday] => 1982-03-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 202
+                                    [NbPointsRestants] => 202
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44369
+                                                            [alias] => 45200 AMILLY
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => AMILLY
+                                                            [postcode] => 45200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => SOUBIRAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44370
+                                                            [alias] => 45200 AMILLY
+                                                            [address1] => 339, rue de l'armoise
+                                                            [address2] => 
+                                                            [city] => AMILLY
+                                                            [postcode] => 45200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => SOUBIRAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

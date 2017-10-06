@@ -1,0 +1,226 @@
+Array
+(
+    [NoJSON] => 97089
+    [IdTransaction] => 3f156c6e6dbb40209f5f0c60aa6f57be
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2014003252] => Array
+                                (
+                                    [reference] => M2014003252
+                                    [id_second_wine] => 
+                                    [id_category_default] => Vins étrangers
+                                    [cache_default_attribute] => 41089
+                                    [active] => 1
+                                    [name] => LA GIRONDA LA LIPPA
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => 
+                                    [description] => Robe rubis intense. Nez intense aux arômes de fruits rouges. Rond, souple et très fruité en bouche avec une longueur très fraîche.
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Barbera D'Asti
+                                            [1] => ITALIE
+                                            [2] => Mini-boutique
+                                            [3] => Piémont
+                                            [4] => Vins étrangers
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Charcuterie
+                                            [1] => Pâtes et risottos
+                                            [2] => Fromage à pâte dure
+                                            [3] => Fromage bleu
+                                        )
+
+                                    [images] => Array
+                                        (
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41089
+                                                            [reference] => M2014003252
+                                                            [shop_quantity] => 8
+                                                            [name] => Format : Bouteille 0,75 L
+                                                            [active] => 1
+                                                            [price] => 12.0833
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 30
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Barbera D'Asti
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 100% Barbera
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2014
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Piémont
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 15-16°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

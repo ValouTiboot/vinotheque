@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81600
+    [IdTransaction] => 5e15343b15584b52bbbd7a6f0a3ae6d2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35342] => Array
+                                (
+                                    [notiers] => 35342
+                                    [lastname] => ESSERS
+                                    [firstname] => Daniel
+                                    [email] => piponada59@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => oudepipo
+                                    [birthday] => 1956-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 110
+                                    [NbPointsRestants] => 110
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47079
+                                                            [alias] => 8630 VEURNE
+                                                            [address1] => 3, Jagersstraat
+                                                            [address2] => 
+                                                            [city] => VEURNE
+                                                            [postcode] => 8630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => ESSERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47080
+                                                            [alias] => 59670 WINNEZEELE
+                                                            [address1] => 515, Route de Watou
+                                                            [address2] => 
+                                                            [city] => WINNEZEELE
+                                                            [postcode] => 59670
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => ESSERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

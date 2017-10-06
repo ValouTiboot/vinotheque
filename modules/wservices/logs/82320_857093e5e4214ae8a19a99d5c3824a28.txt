@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82320
+    [IdTransaction] => 857093e5e4214ae8a19a99d5c3824a28
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30755] => Array
+                                (
+                                    [notiers] => 30755
+                                    [lastname] => GUYON
+                                    [firstname] => Florian
+                                    [email] => immelman@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => gonnet13
+                                    [birthday] => 1987-06-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39407
+                                                            [alias] => 14000 CAEN
+                                                            [address1] => 8, Avenue madame de Segur
+                                                            [address2] => 
+                                                            [city] => CAEN
+                                                            [postcode] => 14000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => GUYON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39408
+                                                            [alias] => 14000 CAEN
+                                                            [address1] => 8, Avenue madame de Segur
+                                                            [address2] => 
+                                                            [city] => CAEN
+                                                            [postcode] => 14000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => GUYON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 47e72f087961d2fa4d9e74d78bc71cd4
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-08-28 17:36:41
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [3] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => test
+                                    [firstname] => test
+                                    [email] => test@test.com
+                                    [id_gender] => 0
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [3] => Array
+                                                (
+                                                    [id_address] => 3
+                                                    [noadresse] => 
+                                                    [alias] => manufacturer
+                                                    [address1] => 767 Fifth Ave.
+                                                    [address2] => 
+                                                    [city] => New York
+                                                    [postcode] => 10154
+                                                    [phone] => (212) 336-1666
+                                                    [phone_mobile] => 
+                                                    [company] => Fashion
+                                                    [firstname] => manufacturer
+                                                    [lastname] => manufacturer
+                                                    [other] => 
+                                                    [active] => 9
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

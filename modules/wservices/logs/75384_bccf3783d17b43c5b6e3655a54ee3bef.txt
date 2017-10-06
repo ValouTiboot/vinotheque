@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75384
+    [IdTransaction] => bccf3783d17b43c5b6e3655a54ee3bef
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31458] => Array
+                                (
+                                    [notiers] => 31458
+                                    [lastname] => MARANON
+                                    [firstname] => Serge
+                                    [email] => martinemaranon@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => lebouscat
+                                    [birthday] => 1954-11-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 99
+                                    [NbPointsRestants] => 99
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40637
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 28, rue de la preceinte
+                                                            [address2] => 3 etage 28
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => MARANON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40638
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 28, rue de la preceinte
+                                                            [address2] => 3 etage 28
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => MARANON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81129
+    [IdTransaction] => 32774966665f43488afbb9b202be967c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30916] => Array
+                                (
+                                    [notiers] => 30916
+                                    [lastname] => CLARION
+                                    [firstname] => Danielle
+                                    [email] => danielleclarion@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1947-01-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 241
+                                    [NbPointsRestants] => 241
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39680
+                                                            [alias] => 06130 GRASSE
+                                                            [address1] => 152, ROUTE CANNES
+                                                            [address2] => 
+                                                            [city] => GRASSE
+                                                            [postcode] => 06130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Danielle
+                                                            [lastname] => CLARION
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39681
+                                                            [alias] => 06110 CANNET
+                                                            [address1] => 6, RUE DE LA PLACETTE
+                                                            [address2] => 
+                                                            [city] => CANNET
+                                                            [postcode] => 06110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Danielle
+                                                            [lastname] => CLARION
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

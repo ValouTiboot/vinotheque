@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74464
+    [IdTransaction] => 3c8e5dc38b614ce49b1e699fa8e09bf1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30992] => Array
+                                (
+                                    [notiers] => 30992
+                                    [lastname] => ENRICO
+                                    [firstname] => Bortolazzi
+                                    [email] => enrico@bortolix.com
+                                    [id_gender] => 1
+                                    [passwd] => pisello
+                                    [birthday] => 1965-01-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 594
+                                    [NbPointsRestants] => 594
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39809
+                                                            [alias] => 40012 CALDERARA DI RENO (BOLOGNA)
+                                                            [address1] => 30/11, Longarola
+                                                            [address2] => 
+                                                            [city] => CALDERARA DI RENO (BOLOGNA)
+                                                            [postcode] => 40012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bortolazzi
+                                                            [lastname] => ENRICO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39810
+                                                            [alias] => 40133 BOLOGNA
+                                                            [address1] => 8, Via Demetrio Martinelli
+                                                            [address2] => 1 etage
+                                                            [city] => BOLOGNA
+                                                            [postcode] => 40133
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bortolazzi
+                                                            [lastname] => ENRICO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

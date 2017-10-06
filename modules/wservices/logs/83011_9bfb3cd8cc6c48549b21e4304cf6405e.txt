@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83011
+    [IdTransaction] => 9bfb3cd8cc6c48549b21e4304cf6405e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30974] => Array
+                                (
+                                    [notiers] => 30974
+                                    [lastname] => TISSOT
+                                    [firstname] => Francoise
+                                    [email] => tissot.francoise@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => celine
+                                    [birthday] => 1945-11-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39778
+                                                            [alias] => 92190 MEUDON
+                                                            [address1] => 10, terre neuve meudon
+                                                            [address2] => 
+                                                            [city] => MEUDON
+                                                            [postcode] => 92190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francoise
+                                                            [lastname] => TISSOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39779
+                                                            [alias] => 78240 CHAMBOURCY
+                                                            [address1] => 4, rue de gramont chambourcy
+                                                            [address2] => 
+                                                            [city] => CHAMBOURCY
+                                                            [postcode] => 78240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francoise
+                                                            [lastname] => TISSOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

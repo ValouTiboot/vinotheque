@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78785
+    [IdTransaction] => b226c49e7a6a4ed0a7938ee7e7ed0dc0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34913] => Array
+                                (
+                                    [notiers] => 34913
+                                    [lastname] => DU FAU
+                                    [firstname] => Olivier
+                                    [email] => olivier.dufau@altrixfinance.fr
+                                    [id_gender] => 1
+                                    [passwd] => BORDEAUX0059
+                                    [birthday] => 1959-02-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46411
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 20, rue des orangers
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => DU FAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46412
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 20, rue des orangers
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => DU FAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

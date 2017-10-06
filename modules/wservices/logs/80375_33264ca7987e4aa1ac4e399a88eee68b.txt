@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80375
+    [IdTransaction] => 33264ca7987e4aa1ac4e399a88eee68b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31518] => Array
+                                (
+                                    [notiers] => 31518
+                                    [lastname] => DAVID
+                                    [firstname] => Isabelle
+                                    [email] => isabeldavid
+                                    [id_gender] => 2
+                                    [passwd] => metisse77
+                                    [birthday] => 1977-06-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 28
+                                    [NbPointsRestants] => 28
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40756
+                                                            [alias] => 77200 TORCY
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => TORCY
+                                                            [postcode] => 77200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40757
+                                                            [alias] => 44380 PORNICHET
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PORNICHET
+                                                            [postcode] => 44380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

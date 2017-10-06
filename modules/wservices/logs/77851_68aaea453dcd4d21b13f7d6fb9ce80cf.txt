@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77851
+    [IdTransaction] => 68aaea453dcd4d21b13f7d6fb9ce80cf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34795] => Array
+                                (
+                                    [notiers] => 34795
+                                    [lastname] => PERRET-GENTIL
+                                    [firstname] => Patrick
+                                    [email] => patrickperretgentil@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => OCT21050PPG
+                                    [birthday] => 1950-10-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 117
+                                    [NbPointsRestants] => 117
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46223
+                                                            [alias] => 03200 VICHY
+                                                            [address1] => 25, Allée des réservoirs
+                                                            [address2] => Escalier A
+                                                            [city] => VICHY
+                                                            [postcode] => 03200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => PERRET-GENTIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46224
+                                                            [alias] => 03200 VICHY
+                                                            [address1] => 25, Allée des réservoirs
+                                                            [address2] => Escalier A
+                                                            [city] => VICHY
+                                                            [postcode] => 03200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => PERRET-GENTIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

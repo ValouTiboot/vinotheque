@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75450
+    [IdTransaction] => 9e169645f77245a1a437f5b7c5ada280
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34172] => Array
+                                (
+                                    [notiers] => 34172
+                                    [lastname] => VIALARD
+                                    [firstname] => Didier
+                                    [email] => latablededidier@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => mamour83
+                                    [birthday] => 1957-10-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 532
+                                    [NbPointsRestants] => 532
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45156
+                                                            [alias] => 83310 GRIMAUD
+                                                            [address1] => 1651, Route du Littoral, Quartier St PONS LES MURES GRIMAUD
+                                                            [address2] => 1651, Route du Littoral, Quartier St PONS LES MURES
+                                                            [city] => GRIMAUD
+                                                            [postcode] => 83310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => VIALARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45157
+                                                            [alias] => 83310 GRIMAUD
+                                                            [address1] => Didier VIALARD GRIMAUD
+                                                            [address2] => ST PONS LES MURES
+                                                            [city] => GRIMAUD
+                                                            [postcode] => 83310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => VIALARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

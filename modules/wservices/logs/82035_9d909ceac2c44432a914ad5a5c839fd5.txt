@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82035
+    [IdTransaction] => 9d909ceac2c44432a914ad5a5c839fd5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25837] => Array
+                                (
+                                    [notiers] => 25837
+                                    [lastname] => BRIAULT
+                                    [firstname] => Erwan
+                                    [email] => erwanbriault@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => floriane
+                                    [birthday] => 1982-01-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 576
+                                    [NbPointsRestants] => 576
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31785
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erwan
+                                                            [lastname] => BRIAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31786
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 159, Rue du palais gallien
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Erwan
+                                                            [lastname] => BRIAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

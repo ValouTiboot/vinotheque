@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79820
+    [IdTransaction] => 4fbc7d6d66674ad1838239154c6b1b68
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25042] => Array
+                                (
+                                    [notiers] => 25042
+                                    [lastname] => ALBERT
+                                    [firstname] => Eric
+                                    [email] => eric.albert79@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1957-09-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 194
+                                    [NbPointsRestants] => 194
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31038
+                                                            [alias] => 79120 LE CHEY
+                                                            [address1] => le chaillou
+                                                            [address2] => 
+                                                            [city] => LE CHEY
+                                                            [postcode] => 79120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => ALBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31039
+                                                            [alias] => 79120 LE CHEY
+                                                            [address1] => le chaillou
+                                                            [address2] => 
+                                                            [city] => LE CHEY
+                                                            [postcode] => 79120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => ALBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77838
+    [IdTransaction] => 2701d6759bec40148a111dba3f85c1af
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34668] => Array
+                                (
+                                    [notiers] => 34668
+                                    [lastname] => MILLET
+                                    [firstname] => Jacques
+                                    [email] => j.millet86@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => leon5302
+                                    [birthday] => 1953-02-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 508
+                                    [NbPointsRestants] => 508
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46010
+                                                            [alias] => 86280 SAINT-BENOIT
+                                                            [address1] => 5, route de Liguge
+                                                            [address2] => 
+                                                            [city] => SAINT-BENOIT
+                                                            [postcode] => 86280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => MILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46011
+                                                            [alias] => 86280 SAINT-BENOIT
+                                                            [address1] => 5, route de Liguge
+                                                            [address2] => 
+                                                            [city] => SAINT-BENOIT
+                                                            [postcode] => 86280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => MILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

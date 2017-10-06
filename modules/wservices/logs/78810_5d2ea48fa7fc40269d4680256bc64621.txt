@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78810
+    [IdTransaction] => 5d2ea48fa7fc40269d4680256bc64621
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35532] => Array
+                                (
+                                    [notiers] => 35532
+                                    [lastname] => MAZZADI
+                                    [firstname] => Franck
+                                    [email] => franck.mazzadi@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => sarouche
+                                    [birthday] => 1962-03-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 86
+                                    [NbPointsRestants] => 86
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47412
+                                                            [alias] => 74930 REIGNIER
+                                                            [address1] => 84, rue des erables
+                                                            [address2] => 
+                                                            [city] => REIGNIER
+                                                            [postcode] => 74930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MAZZADI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47413
+                                                            [alias] => 74930 REIGNIER
+                                                            [address1] => 84, rue des erables
+                                                            [address2] => 
+                                                            [city] => REIGNIER
+                                                            [postcode] => 74930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MAZZADI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 85988
+    [IdTransaction] => 56acf472f20a4c4cb7da7c5b25d00c30
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30784] => Array
+                                (
+                                    [notiers] => 30784
+                                    [lastname] => ROUX-FOUILLET
+                                    [firstname] => Francois
+                                    [email] => f.roux-fouillet@robardey.fr
+                                    [id_gender] => 1
+                                    [passwd] => RXF01914
+                                    [birthday] => 1958-03-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 60
+                                    [NbPointsRestants] => 60
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39463
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 11, RUE DE L'HOPITAL SAINT LOUIS
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => ROUX-FOUILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39464
+                                                            [alias] => 34230 VENDEMIAN
+                                                            [address1] => 6, RUE DE MADAME
+                                                            [address2] => 
+                                                            [city] => VENDEMIAN
+                                                            [postcode] => 34230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => ROUX-FOUILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

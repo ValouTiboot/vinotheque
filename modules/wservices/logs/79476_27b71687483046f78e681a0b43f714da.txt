@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 79476
+    [IdTransaction] => 27b71687483046f78e681a0b43f714da
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32611] => Array
+                                (
+                                    [notiers] => 32611
+                                    [lastname] => MOURIER
+                                    [firstname] => Yvan
+                                    [email] => yvansebalade@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => yvanvinotheque
+                                    [birthday] => 1975-05-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 112
+                                    [NbPointsRestants] => 112
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42472
+                                                            [alias] => 26000 VALENCE
+                                                            [address1] => 9, rue du 6 juin 1944
+                                                            [address2] => Le Chanteclair
+                                                            [city] => VALENCE
+                                                            [postcode] => 26000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yvan
+                                                            [lastname] => MOURIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42473
+                                                            [alias] => 26500 BOURG-LES-VALENCE
+                                                            [address1] => 10 ter, rue Pasteur
+                                                            [address2] => 
+                                                            [city] => BOURG-LES-VALENCE
+                                                            [postcode] => 26500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yvan
+                                                            [lastname] => MOURIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 46600
+                                                            [alias] => 26780 ALLAN
+                                                            [address1] => 1, allée des sources
+                                                            [address2] => 
+                                                            [city] => ALLAN
+                                                            [postcode] => 26780
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yvan
+                                                            [lastname] => MOURIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

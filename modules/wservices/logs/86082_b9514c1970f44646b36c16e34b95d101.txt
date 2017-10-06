@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86082
+    [IdTransaction] => b9514c1970f44646b36c16e34b95d101
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25483] => Array
+                                (
+                                    [notiers] => 25483
+                                    [lastname] => FLORIC
+                                    [firstname] => Bertolus
+                                    [email] => efloric@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => gosseyn
+                                    [birthday] => 1980-10-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 53
+                                    [NbPointsRestants] => 53
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31223
+                                                            [alias] => 92420 VAUCRESSON
+                                                            [address1] => 12, Avenue du Bois de la Marche
+                                                            [address2] => 
+                                                            [city] => VAUCRESSON
+                                                            [postcode] => 92420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertolus
+                                                            [lastname] => FLORIC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31224
+                                                            [alias] => 92420 VAUCRESSON
+                                                            [address1] => 12, Avenue du Bois de la Marche
+                                                            [address2] => 
+                                                            [city] => VAUCRESSON
+                                                            [postcode] => 92420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertolus
+                                                            [lastname] => FLORIC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

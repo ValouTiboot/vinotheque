@@ -1,0 +1,126 @@
+
+/*=======================================================
+            BANNER.TPL
+================================= */
+
+#content > div.panel-heading.clearfix.banner_container {
+  height: 72px !important;
+  margin: 0px !important;
+
+}
+#content > div.panel-heading.clearfix.banner_container > table > tbody > tr > td.text > span > span{
+  text-transform: uppercase;
+}
+.banner_container{
+  background-color: #8ace2a;
+  width: 100%;
+}
+table.banner{
+  width: 100%;
+}
+.text p{
+  margin-top: 1px;
+  text-transform: capitalize;
+  color: #555;
+}
+span.white{
+  color: #fff;
+  font-size: 16px;
+}
+.text{
+  font-family: "Futura", Sans-Serif;
+  letter-spacing: -0.2px;
+  text-align: left;
+  line-height: 17px;
+  width: 50%;
+  padding: 2px 5px 8px 30px;
+  font-size: 15px;
+  min-width: 358px;
+}
+
+.text img{
+  float: left;
+  width: 35px;
+  margin: 15px 15px 15px 0;
+}
+
+
+.logo
+{
+  padding-right: 40px;
+  text-align: right;
+  width: 200px;
+}
+
+.logo img{
+  width: 200px;
+}
+
+.lesbuttons
+{
+  width: 50%;
+  text-align: right;
+  padding-right: 30px;
+  min-width: 150px;
+  position: relative;
+  bottom: 12px;
+}
+
+.lesbuttons img
+{
+  width: 40px;
+  padding: 7px;
+
+}
+
+.lesbuttons a{
+  cursor: pointer;
+  color: transparent;
+}
+
+@media (max-width: 1070px) {
+  #content.nobootstrap{
+    padding: 100px 10px;
+  }
+  .banner .text,
+  .banner .lesbuttons{
+    width: 50%;
+    height: 50px;
+  }
+  .banner .text{
+    padding: 2px 5px 8px 10px;
+  }
+  .lesbuttons{
+    *margin-left: 70px;
+    text-align: right;
+
+  }
+  .lesbuttons #logo202{
+    display: none;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .banner .text,
+  .banner .lesbuttons{
+    width: 100%;
+    display: block;
+  }
+
+  .text{
+        min-width: 320px;
+  }
+  .lesbuttons{
+    position: relative;
+    bottom: 52px;
+    right: 15px;
+  }
+  #content > div.panel-heading.clearfix.banner_container > table > tbody > tr > td.text > span > span{
+    text-transform: none;
+  }
+}
+
+.min {
+  font-size: 15px;
+}

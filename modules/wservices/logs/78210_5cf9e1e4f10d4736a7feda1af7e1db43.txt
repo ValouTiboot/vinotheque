@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78210
+    [IdTransaction] => 5cf9e1e4f10d4736a7feda1af7e1db43
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25517] => Array
+                                (
+                                    [notiers] => 25517
+                                    [lastname] => LESCOURRET
+                                    [firstname] => Patrick
+                                    [email] => steevelo@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => gaztekin
+                                    [birthday] => 1974-07-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 178
+                                    [NbPointsRestants] => 178
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31289
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => 72, RUE DES CINQ CANTONS
+                                                            [address2] => 
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LESCOURRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31290
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => 72, RUE DES CINQ CANTONS
+                                                            [address2] => 
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LESCOURRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

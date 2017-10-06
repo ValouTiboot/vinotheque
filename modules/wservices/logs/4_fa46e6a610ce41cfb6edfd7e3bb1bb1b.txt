@@ -1,0 +1,63 @@
+Array
+(
+    [NoJSON] => 4
+    [IdTransaction] => fa46e6a610ce41cfb6edfd7e3bb1bb1b
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36444] => Array
+                                (
+                                    [notiers] => 36444
+                                    [lastname] => TEST NOM 1 JSON 3 U
+                                    [firstname] => Test Prénom 1 JSON 3 U
+                                    [email] => testnom1json3@test.teu
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 2017-04-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 142 514 545 15412
+                                    [ape] => 1545 K
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [48909] => Array
+                                                        (
+                                                            [noadresse] => 48909
+                                                            [alias] => COSNAC FRANCE
+                                                            [address1] => rue de l'adresse 1
+                                                            [address2] => rue de l'adresse 2
+                                                            [city] => COSNAC
+                                                            [postcode] => 19360
+                                                            [phone] => 5142536859
+                                                            [phone_mobile] => 
+                                                            [company] => test adresse 1 JSON 3
+                                                            [firstname] => Test Prénom 1 JSON 3 U
+                                                            [lastname] => TEST NOM 1 JSON 3 U
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                            [rank] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

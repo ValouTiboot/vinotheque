@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82769
+    [IdTransaction] => 99238aeac3b046cca02a777fe09266c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29134] => Array
+                                (
+                                    [notiers] => 29134
+                                    [lastname] => COURRIER
+                                    [firstname] => Jean marie
+                                    [email] => jeanmariecourrier@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mimine3103
+                                    [birthday] => 1954-03-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 71
+                                    [NbPointsRestants] => 71
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36791
+                                                            [alias] => 92500 RUEIL-MALMAISON
+                                                            [address1] => 12, de la melonniere rueil malmaison
+                                                            [address2] => 2em dt dt 12
+                                                            [city] => RUEIL-MALMAISON
+                                                            [postcode] => 92500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean marie
+                                                            [lastname] => COURRIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36792
+                                                            [alias] => 92500 RUEIL-MALMAISON
+                                                            [address1] => 12, de la melonniere rueil malmaison
+                                                            [address2] => 2 em dt dt 12
+                                                            [city] => RUEIL-MALMAISON
+                                                            [postcode] => 92500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean marie
+                                                            [lastname] => COURRIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

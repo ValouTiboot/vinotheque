@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76978
+    [IdTransaction] => 31b5e884637c46a79baf73949fbbc7e6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33061] => Array
+                                (
+                                    [notiers] => 33061
+                                    [lastname] => SILVESTRE
+                                    [firstname] => Alain
+                                    [email] => alain.silvestre@me.com
+                                    [id_gender] => 1
+                                    [passwd] => As60616061
+                                    [birthday] => 1962-05-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 463
+                                    [NbPointsRestants] => 463
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43165
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 2, george negrevergne
+                                                            [address2] => 
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => SILVESTRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43166
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 2, george negrevergne
+                                                            [address2] => 
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => SILVESTRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

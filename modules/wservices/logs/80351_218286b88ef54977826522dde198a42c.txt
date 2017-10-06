@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80351
+    [IdTransaction] => 218286b88ef54977826522dde198a42c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34962] => Array
+                                (
+                                    [notiers] => 34962
+                                    [lastname] => FOUCHE
+                                    [firstname] => Alain
+                                    [email] => alain_fouche@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => potame17
+                                    [birthday] => 1961-01-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46484
+                                                            [alias] => 33370 BONNETAN
+                                                            [address1] => 52, Allée du Pas Douen
+                                                            [address2] => 
+                                                            [city] => BONNETAN
+                                                            [postcode] => 33370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => FOUCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46485
+                                                            [alias] => 59260 LEZENNES
+                                                            [address1] => rue Chanzy
+                                                            [address2] => 
+                                                            [city] => LEZENNES
+                                                            [postcode] => 59260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => FOUCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

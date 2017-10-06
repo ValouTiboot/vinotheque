@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81995
+    [IdTransaction] => bdb75bc0edf34e9d850eeff3bccd0cc4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31425] => Array
+                                (
+                                    [notiers] => 31425
+                                    [lastname] => GARCIA
+                                    [firstname] => Raoul
+                                    [email] => raoul.garcia41@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => RG160141
+                                    [birthday] => 1941-01-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 148
+                                    [NbPointsRestants] => 148
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40582
+                                                            [alias] => 30900 NIMES
+                                                            [address1] => 411, CHEMIN DU GOLF
+                                                            [address2] => TEE1
+                                                            [city] => NIMES
+                                                            [postcode] => 30900
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Raoul
+                                                            [lastname] => GARCIA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40583
+                                                            [alias] => 93100 MONTREUIL
+                                                            [address1] => 17, rue de l'ACACIA
+                                                            [address2] => 
+                                                            [city] => MONTREUIL
+                                                            [postcode] => 93100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Raoul
+                                                            [lastname] => GARCIA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

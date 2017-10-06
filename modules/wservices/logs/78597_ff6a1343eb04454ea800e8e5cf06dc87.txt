@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78597
+    [IdTransaction] => ff6a1343eb04454ea800e8e5cf06dc87
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26583] => Array
+                                (
+                                    [notiers] => 26583
+                                    [lastname] => VETILLARD
+                                    [firstname] => Gwenel
+                                    [email] => gwenel-vetillard_72@hotamail.fr
+                                    [id_gender] => 1
+                                    [passwd] => azerty72
+                                    [birthday] => 1989-10-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32857
+                                                            [alias] => 72550 QUINTE
+                                                            [address1] => Beausoleil
+                                                            [address2] => 
+                                                            [city] => QUINTE
+                                                            [postcode] => 72550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gwenel
+                                                            [lastname] => VETILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32858
+                                                            [alias] => 72550 QUINTE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => QUINTE
+                                                            [postcode] => 72550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gwenel
+                                                            [lastname] => VETILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

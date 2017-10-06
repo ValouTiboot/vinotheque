@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77349
+    [IdTransaction] => ed0d2c85296b4cec9f3d800c1f067a73
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26611] => Array
+                                (
+                                    [notiers] => 26611
+                                    [lastname] => NGUYEN
+                                    [firstname] => Jean
+                                    [email] => jeannguyen42@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => craq5293
+                                    [birthday] => 1985-10-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1371
+                                    [NbPointsRestants] => 1371
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32909
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 16, rue Jean Bologne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32910
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 16, rue Jean Bologne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

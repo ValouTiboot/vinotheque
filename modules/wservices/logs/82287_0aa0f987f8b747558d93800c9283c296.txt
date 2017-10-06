@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82287
+    [IdTransaction] => 0aa0f987f8b747558d93800c9283c296
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26715] => Array
+                                (
+                                    [notiers] => 26715
+                                    [lastname] => GUICHET
+                                    [firstname] => Antoine
+                                    [email] => antoine.guichet@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => eichhorn
+                                    [birthday] => 1965-06-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 111
+                                    [NbPointsRestants] => 111
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33067
+                                                            [alias] => 95160 MONTMORENCY
+                                                            [address1] => 38, avenue charles de gaulle
+                                                            [address2] => 
+                                                            [city] => MONTMORENCY
+                                                            [postcode] => 95160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => GUICHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33068
+                                                            [alias] => 95160 MONTMORENCY
+                                                            [address1] => 8, rue notre dame
+                                                            [address2] => 
+                                                            [city] => MONTMORENCY
+                                                            [postcode] => 95160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => GUICHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

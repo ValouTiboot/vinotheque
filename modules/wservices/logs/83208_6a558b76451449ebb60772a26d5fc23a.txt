@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83208
+    [IdTransaction] => 6a558b76451449ebb60772a26d5fc23a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32822] => Array
+                                (
+                                    [notiers] => 32822
+                                    [lastname] => DAVID
+                                    [firstname] => Alain
+                                    [email] => lbcadvm@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 19871954MDMCD
+                                    [birthday] => 1952-12-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42781
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42782
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75347
+    [IdTransaction] => b280ace0fe124a7cbefabc3f86034466
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33587] => Array
+                                (
+                                    [notiers] => 33587
+                                    [lastname] => LESTERLIN
+                                    [firstname] => Frank
+                                    [email] => frank.lesterlin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 141414
+                                    [birthday] => 1964-05-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44123
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 34, Rue du Chalet
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frank
+                                                            [lastname] => LESTERLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44124
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 34, Rue du Chalet
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frank
+                                                            [lastname] => LESTERLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

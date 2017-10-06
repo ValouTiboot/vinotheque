@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74730
+    [IdTransaction] => b2dacf170f8d49e6b7209dd9699dc90d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27246] => Array
+                                (
+                                    [notiers] => 27246
+                                    [lastname] => LASSELIN
+                                    [firstname] => Bernard
+                                    [email] => bernard.lasselin@voila.fr
+                                    [id_gender] => 1
+                                    [passwd] => ducati
+                                    [birthday] => 1947-11-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 265
+                                    [NbPointsRestants] => 265
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33943
+                                                            [alias] => 31170 TOURNEFEUILLE
+                                                            [address1] => 33, rue des Fougères
+                                                            [address2] => 
+                                                            [city] => TOURNEFEUILLE
+                                                            [postcode] => 31170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LASSELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33944
+                                                            [alias] => 31170 TOURNEFEUILLE
+                                                            [address1] => 33, rue des Fougères
+                                                            [address2] => 
+                                                            [city] => TOURNEFEUILLE
+                                                            [postcode] => 31170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LASSELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77310
+    [IdTransaction] => 0184d2b5840945159acdd0686854f328
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26003] => Array
+                                (
+                                    [notiers] => 26003
+                                    [lastname] => FOURNIER
+                                    [firstname] => Henri
+                                    [email] => h.fournier@cetab.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1953-11-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32045
+                                                            [alias] => 33320 LE TAILLE MEDOC
+                                                            [address1] => 5, square bechet
+                                                            [address2] => lot l'orée du Médoc
+                                                            [city] => LE TAILLE MEDOC
+                                                            [postcode] => 33320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => FOURNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32046
+                                                            [alias] => 33320 LE TAILLE MEDOC
+                                                            [address1] => 5, square bechet
+                                                            [address2] => lot l'orée du Médoc
+                                                            [city] => LE TAILLE MEDOC
+                                                            [postcode] => 33320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => FOURNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

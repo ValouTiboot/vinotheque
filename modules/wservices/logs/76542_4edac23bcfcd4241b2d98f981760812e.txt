@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76542
+    [IdTransaction] => 4edac23bcfcd4241b2d98f981760812e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31873] => Array
+                                (
+                                    [notiers] => 31873
+                                    [lastname] => PREDEAU
+                                    [firstname] => Freddy
+                                    [email] => freddypredeau@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => ploton
+                                    [birthday] => 1974-03-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 174
+                                    [NbPointsRestants] => 174
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41288
+                                                            [alias] => 86000 POITIERS
+                                                            [address1] => 34, RUE GASTON HULIN
+                                                            [address2] => 
+                                                            [city] => POITIERS
+                                                            [postcode] => 86000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freddy
+                                                            [lastname] => PREDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41289
+                                                            [alias] => 86360 MONTAMISE
+                                                            [address1] => 2, RUE DE MORTIERS
+                                                            [address2] => 
+                                                            [city] => MONTAMISE
+                                                            [postcode] => 86360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freddy
+                                                            [lastname] => PREDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

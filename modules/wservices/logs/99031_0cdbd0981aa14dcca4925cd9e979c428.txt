@@ -1,0 +1,474 @@
+Array
+(
+    [NoJSON] => 99031
+    [IdTransaction] => 0cdbd0981aa14dcca4925cd9e979c428
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2007000217] => Array
+                                (
+                                    [reference] => M2007000217
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 19125|130
+                                    [active] => 1
+                                    [name] => Château DE LAMARQUE
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Cette appellation située en amont du fleuve s’étend sur 4708 hectares. Les vins d’appellation Haut-Médoc se caractérisent par un équilibre harmonieux, fait de brillance et de générosité. En vieillissant, leur bouquet développe des notes torréfiées, de cèdre, de pruneau ou encore de truffe.
+                                    [property] => La seigneurie de Lamarque tient son nom de ce qu’elle était considérée comme une marche-frontière qui eut à défendre le territoire contre les invasions des Normands venus par la Gironde. Les soubassements, les principales défenses et une partie de la chapelle du château datent des XIe et XIIe siècles. Le château actuel fut construit au XIVe siècle, par Pons de Castillon, sur ce qui restait de l’ancienne forteresse. Le duc de Gloucester et Henri V occupèrent le château de Lamarque après que l’Aquitaine eut échu à la Couronne d’Angleterre. Lorsque le roi de France recouvra cette province, Lamarque fut la résidence de plusieurs gouverneurs de Guyenne, et notamment du maréchal de Matignon. Au XVIIe siècle, le duc d’Épernon y apporta d’importantes transformations, au goût de son époque. En 1841, le château de Lamarque devint la propriété du comte de Fumel, descendant d’une des plus anciennes familles du Quercy. Depuis cette époque, le château est resté dans la même famille, puisque Elisabeth-Georgine de Fumel, qui y était née, épousa son cousin Paul Brunet, marquis d’Evry. Aujourd’hui, dans le cadre de la S.C. Gromand d’Evry, Pierre-Gilles Gromand-Brunet d’Evry et son épouse Marie-Hélène, président aux destinées du vignoble. L'oenologue conseil est Jacques Boissenot, héritier spirituel du professeur Emile Peynaud.
+                                    [description] => Couleur rubis foncé, au nez élégant de fruits rouges et de bois toasté. Le vin est dense et bien équilibré, bien que tannique et charpenté. C'est un grand Cru Bourgeois classique, fruité, riche, racé et puissant. Le vin du château de Lamarque se caractérise par une robe profonde et brillante. Ses arômes complexes sont à dominante de fruits rouges, d’épices et de vanille. Il est rond, souple et charnu en bouche. Sa persistance aromatique est intense et longue. 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Haut-Médoc
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Charcuterie
+                                            [1] => Viande blanche grillée
+                                            [2] => Cakes, quiches et feuilletés
+                                            [3] => Fromage à pâte dure
+                                            [4] => Viande rouge grillée
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-de-lamarque.jpg
+                                                            [legend] => CH. DE LAMARQUE
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 18873
+                                                                    [1] => 19125
+                                                                    [2] => 19126
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 18873
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 24
+                                                            [active] => 1
+                                                            [price] => 6.5833
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 156
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.70
+                                                            [id_conditionnement] => 126
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 18873
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 6.5833
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 156
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.80
+                                                            [id_conditionnement] => 166
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 18873
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Carton de 24
+                                                            [active] => 1
+                                                            [price] => 6.5833
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 156
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.60
+                                                            [id_conditionnement] => 177
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19125
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 12.5000
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 22
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19126
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 24.0833
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [cle] => 13
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19126
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 24.0833
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [cle] => 14
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19126
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 24.0833
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [cle] => 15
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 19126
+                                                            [reference] => M2007000217
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 24.0833
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Haut-Médoc
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2007
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

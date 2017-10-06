@@ -1,0 +1,379 @@
+Array
+(
+    [NoJSON] => 320
+    [IdTransaction] => e554db7c5661462c8d28d1395c8716b1
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016000326] => Array
+                                (
+                                    [reference] => M2016000326
+                                    [id_second_wine] => 
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 42016|125
+                                    [active] => 1
+                                    [name] => CH. ORMES DE PEZ    
+                                    [wine] => 1
+                                    [wine_date] => 2017-05-10 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Sur 1226 hectares de vignes, les vins de cette appellation se caractérisent par la diversité aromatique et les nuances multiples qu’ils peuvent révéler, telles que la vanille ou encore le moka. Jeunes, ils sont puissants, tanniques et concentrés. Une fois vieillis, le fruit en pleine maturité apporte rondeur et finesse. 
+                                    [property] => La présence de très anciens ormes, aujourd'hui disparus, a donné son nom à cette propriété, située dans le hameau de Pez, à Saint-Estèphe, et dont les origines remontent au XVIIIème siècle.  rnDans les années 1880, Marie, la soeur de Jean-Charles Cazes `le montagnol` épousa  le maître-vigneron des Ormes de Pez. Devenue veuve, cette énergique personne devint régisseur de la propriété, situation rare  pour une femme, surtout à l'époque ! Le cru appartenait alors à Marcel Alibert, également propriétaire du Château Belgrave à Saint-Laurent et conseiller général de ce canton du Médoc.rnAlibert vendit la propriété à une société civile du Haut-Médoc en 1927 dont l'administrateur général était un Hollandais nommé Dirk Christofel Meiners. Mais lors de la crise économique de 1929, il fit une faillite retentissante.rnLes grands courtiers Louis et Edouard Miailhe rassemblèrent tant bien que mal les morceaux qu'ils pouvaient encore ramasser et Louis Miailhe devint administrateur des Ormes de Pez.rnJean-Charles Cazes  et son fils André, ancien maire de Pauillac, finirent par donner au cru sa stabilité en achetant Les Ormes de Pez juste avant la Seconde Guerre mondiale. C'est aujourd'hui le fils d'André, Jean-Michel Cazes qui continue à gérer la propriété aidé par l'équipe technique du Château Lynch-Bages, menée par Daniel Llose.rn
+                                    [description] => Richesse, finesse et élégance caractérisent ce millésime 2016. Le nez, sur le fruit mêle des notes très classiques de cerise griotte, de mûre, de cassis, à une pointe de réglisse. La bouche, ample et fraîche, révèle des tanins soyeux enrobant une finale d'une grande longueur.
+                                    [description_short] => Château Ormes de Pez
+                                    [categories] => Array
+                                        (
+                                            [0] => Primeurs
+                                            [1] => Rouge
+                                            [2] => Saint-Estephe
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-ormes-de-pez-001.jpg
+                                                            [legend] => CH. ORMES DE PEZ    
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42016
+                                                                    [1] => 42279
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-ormes-de-pez-002.jpg
+                                                            [legend] => CH. ORMES DE PEZ    
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42016
+                                                                    [1] => 42279
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 42016
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 24,7
+                                                            [packaging_weight] => 3,7
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 300
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,3
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 42016
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 24,7
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 300
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 42016
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 24,7
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 300
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 42016
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 24,7
+                                                            [packaging_weight] => 5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 300
+                                                            [available_date] => 
+                                                            [packaging_price] => 1
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 42016
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 24,7
+                                                            [packaging_weight] => 1,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 300
+                                                            [available_date] => 
+                                                            [packaging_price] => 2,75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [id_product_attribute] => 42279
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 49,4
+                                                            [packaging_weight] => 21
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,5
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [id_product_attribute] => 42279
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 49,4
+                                                            [packaging_weight] => 10
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 2
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [id_product_attribute] => 42279
+                                                            [reference] => M2016000326
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 49,4
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 3
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Saint-Estèphe
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 52% Merlot
+                                                                    [1] => 42% Cabernet Sauvignon
+                                                                    [2] => 5% Cabernet Franc
+                                                                    [3] => 1% Petit Verdot
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Enthusiast 93-95
+                                                                    [1] => Wine Advocate  (Neal Martin) 92-94
+                                                                    [2] => James Suckling 93-94
+                                                                    [3] => Revue du Vin de France 16-17/20
+                                                                    [4] => Decanter 93
+                                                                    [5] => Wine spectator 90-93
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

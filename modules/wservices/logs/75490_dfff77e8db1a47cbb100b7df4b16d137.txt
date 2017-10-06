@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75490
+    [IdTransaction] => dfff77e8db1a47cbb100b7df4b16d137
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23042] => Array
+                                (
+                                    [notiers] => 23042
+                                    [lastname] => CAILLIEREZ
+                                    [firstname] => Romain
+                                    [email] => doubraz@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => idefix
+                                    [birthday] => 1982-12-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 198
+                                    [NbPointsRestants] => 198
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30044
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 64, sully
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => CAILLIEREZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30045
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 64, sully
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => CAILLIEREZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

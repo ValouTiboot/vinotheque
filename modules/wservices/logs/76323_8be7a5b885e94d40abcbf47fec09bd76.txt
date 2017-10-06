@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76323
+    [IdTransaction] => 8be7a5b885e94d40abcbf47fec09bd76
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33679] => Array
+                                (
+                                    [notiers] => 33679
+                                    [lastname] => MARTINO
+                                    [firstname] => Franck
+                                    [email] => franck.martino@ymail.com
+                                    [id_gender] => 1
+                                    [passwd] => FACM170712
+                                    [birthday] => 1983-03-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44283
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => 3, impasse lion
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MARTINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44284
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => 16, Bd francois robert
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MARTINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

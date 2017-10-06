@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82365
+    [IdTransaction] => 0f54f8d9f1234747a3f71b3001f12b5f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33103] => Array
+                                (
+                                    [notiers] => 33103
+                                    [lastname] => LOUVANCOUR
+                                    [firstname] => Fred
+                                    [email] => fred.louvancour@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => moise974
+                                    [birthday] => 1970-03-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 252
+                                    [NbPointsRestants] => 252
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43246
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 4, rue ste famille
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fred
+                                                            [lastname] => LOUVANCOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43247
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 4bis, rue des tournelles
+                                                            [address2] => fermé le samedi
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fred
+                                                            [lastname] => LOUVANCOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

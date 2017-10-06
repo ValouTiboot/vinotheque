@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79623
+    [IdTransaction] => ba70ab188bc04c73b35af4d56d71ffb3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32346] => Array
+                                (
+                                    [notiers] => 32346
+                                    [lastname] => TAURINES
+                                    [firstname] => Jerome
+                                    [email] => jtaurines@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => garbage
+                                    [birthday] => 1976-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 205
+                                    [NbPointsRestants] => 205
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42017
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 20, Rue dulong
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => TAURINES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42018
+                                                            [alias] => 31000 TOULOUSE
+                                                            [address1] => 1, rue pierre paul Riquet
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => TAURINES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

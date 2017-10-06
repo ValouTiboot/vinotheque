@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77005
+    [IdTransaction] => 20e6dbe9a429443c906cd0e6978270a5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35049] => Array
+                                (
+                                    [notiers] => 35049
+                                    [lastname] => LIU
+                                    [firstname] => Jia
+                                    [email] => missabordeaux@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => angela1985
+                                    [birthday] => 1985-08-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46611
+                                                            [alias] => 60200 COMPIEGNE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => COMPIEGNE
+                                                            [postcode] => 60200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jia
+                                                            [lastname] => LIU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46612
+                                                            [alias] => 60200 COMPIEGNE
+                                                            [address1] => 10, Allee des Nymphes
+                                                            [address2] => Apt02
+                                                            [city] => COMPIEGNE
+                                                            [postcode] => 60200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jia
+                                                            [lastname] => LIU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

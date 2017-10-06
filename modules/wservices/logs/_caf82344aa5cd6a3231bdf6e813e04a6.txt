@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => caf82344aa5cd6a3231bdf6e813e04a6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-07-25 16:05:55
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36459] => Array
+                                (
+                                    [notiers] => 36459
+                                    [lastname] => Paul
+                                    [firstname] => MORA
+                                    [email] => client4@ebewe.net
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 1985-11-16
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [37] => Array
+                                                (
+                                                    [id_address] => 37
+                                                    [noadresse] => 
+                                                    [alias] => adresse de test
+                                                    [address1] => route du test
+                                                    [address2] => route adresse 2
+                                                    [city] => COSNAC
+                                                    [postcode] => 19360
+                                                    [phone] => 0514256385
+                                                    [phone_mobile] => 
+                                                    [company] => Test  Société
+                                                    [firstname] => MORA
+                                                    [lastname] => Paul
+                                                    [other] => test com
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                            [38] => Array
+                                                (
+                                                    [id_address] => 38
+                                                    [noadresse] => 
+                                                    [alias] => Adresse de test 2
+                                                    [address1] => route du test 2
+                                                    [address2] => 
+                                                    [city] => BRIVE LA GAILLARDE
+                                                    [postcode] => 19100
+                                                    [phone] => 0541589674
+                                                    [phone_mobile] => 
+                                                    [company] => Test  Société
+                                                    [firstname] => MORA
+                                                    [lastname] => Paul
+                                                    [other] => fddvdfb
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 2
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

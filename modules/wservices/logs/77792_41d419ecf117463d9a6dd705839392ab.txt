@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77792
+    [IdTransaction] => 41d419ecf117463d9a6dd705839392ab
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26462] => Array
+                                (
+                                    [notiers] => 26462
+                                    [lastname] => GUY
+                                    [firstname] => André
+                                    [email] => guyandr0@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => JBeCla5rSS
+                                    [birthday] => 1938-11-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 32
+                                    [NbPointsRestants] => 32
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32665
+                                                            [alias] => 13005 MARSEILLE
+                                                            [address1] => 5, boulevard CHAVE Marseille
+                                                            [address2] => 3émé étage
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => GUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32666
+                                                            [alias] => 13005 MARSEILLE
+                                                            [address1] => 5, boulevard CHAVE Marseille
+                                                            [address2] => 3émé étage
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => GUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

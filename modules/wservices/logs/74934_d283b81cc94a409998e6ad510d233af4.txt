@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74934
+    [IdTransaction] => d283b81cc94a409998e6ad510d233af4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31332] => Array
+                                (
+                                    [notiers] => 31332
+                                    [lastname] => LE SAUX
+                                    [firstname] => Aymeric
+                                    [email] => aymericlehiress@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => ay96be51ma60di62
+                                    [birthday] => 1996-09-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 21
+                                    [NbPointsRestants] => 21
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40406
+                                                            [alias] => 67130 SCHIRMECK
+                                                            [address1] => 44, rue des Ecoles
+                                                            [address2] => 
+                                                            [city] => SCHIRMECK
+                                                            [postcode] => 67130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aymeric
+                                                            [lastname] => LE SAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40407
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 72, rue du Guesclin
+                                                            [address2] => 
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aymeric
+                                                            [lastname] => LE SAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

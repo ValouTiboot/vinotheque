@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81810
+    [IdTransaction] => 278065712f1a4564b7ba7e1a55d09757
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33479] => Array
+                                (
+                                    [notiers] => 33479
+                                    [lastname] => ESCALBERT
+                                    [firstname] => Jean marc
+                                    [email] => jeanmarc.escalbert@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => ghtdbn
+                                    [birthday] => 1950-01-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 186
+                                    [NbPointsRestants] => 186
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43930
+                                                            [alias] => 59470 WORMHOUT
+                                                            [address1] => 26 bis, rue d'esuqelbecq
+                                                            [address2] => 
+                                                            [city] => WORMHOUT
+                                                            [postcode] => 59470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean marc
+                                                            [lastname] => ESCALBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43931
+                                                            [alias] => 59470 WORMHOUT
+                                                            [address1] => 26 bis, rue d'esuqelbecq
+                                                            [address2] => 
+                                                            [city] => WORMHOUT
+                                                            [postcode] => 59470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean marc
+                                                            [lastname] => ESCALBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

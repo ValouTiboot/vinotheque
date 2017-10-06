@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80724
+    [IdTransaction] => f5bbb60fb6ba4cca892de434e21640c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28232] => Array
+                                (
+                                    [notiers] => 28232
+                                    [lastname] => SALHAB
+                                    [firstname] => Jessica
+                                    [email] => jessicasalhab@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 12011990
+                                    [birthday] => 1990-01-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 16
+                                    [NbPointsRestants] => 16
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35446
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 67, cours de l'yser
+                                                            [address2] => 8 batiment 2
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jessica
+                                                            [lastname] => SALHAB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35447
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 67, cours de l'yser
+                                                            [address2] => 8 2
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jessica
+                                                            [lastname] => SALHAB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

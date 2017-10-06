@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76306
+    [IdTransaction] => 41093ba4e2ac4bda925c849a486ba022
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30035] => Array
+                                (
+                                    [notiers] => 30035
+                                    [lastname] => CROWE
+                                    [firstname] => Edward
+                                    [email] => edward.crowe@antin-ip.com
+                                    [id_gender] => 1
+                                    [passwd] => Eddie1983
+                                    [birthday] => 1983-12-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 545
+                                    [NbPointsRestants] => 545
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38142
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 181, Rue de la Roquette
+                                                            [address2] => 3G
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edward
+                                                            [lastname] => CROWE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38143
+                                                            [alias] => CF64 1JF PENARTH
+                                                            [address1] => 109, Windsor Road
+                                                            [address2] => 
+                                                            [city] => PENARTH
+                                                            [postcode] => CF64 1JF
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edward
+                                                            [lastname] => CROWE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

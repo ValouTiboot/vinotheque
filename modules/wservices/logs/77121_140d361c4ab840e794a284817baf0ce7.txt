@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77121
+    [IdTransaction] => 140d361c4ab840e794a284817baf0ce7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33100] => Array
+                                (
+                                    [notiers] => 33100
+                                    [lastname] => CORNUDET
+                                    [firstname] => Alexandre
+                                    [email] => sarlderpi@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => alex7468
+                                    [birthday] => 1984-09-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43240
+                                                            [alias] => 91470 FORGES-LES-BAINS
+                                                            [address1] => 21, Rue moque bouteille
+                                                            [address2] => 
+                                                            [city] => FORGES-LES-BAINS
+                                                            [postcode] => 91470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => CORNUDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43241
+                                                            [alias] => 91470 FORGES-LES-BAINS
+                                                            [address1] => 21, Alexandre Cornudet
+                                                            [address2] => 
+                                                            [city] => FORGES-LES-BAINS
+                                                            [postcode] => 91470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => CORNUDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

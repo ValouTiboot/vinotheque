@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78473
+    [IdTransaction] => d1ab313e84b042b28959e9af71112d88
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36012] => Array
+                                (
+                                    [notiers] => 36012
+                                    [lastname] => CALLIER
+                                    [firstname] => Yolande
+                                    [email] => yolandec39@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1925-03-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1991
+                                    [NbPointsRestants] => 1991
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48197
+                                                            [alias] => 01000 SAINT-DENIS-LES-BOURG
+                                                            [address1] => 39, rue du Château
+                                                            [address2] => 
+                                                            [city] => SAINT-DENIS-LES-BOURG
+                                                            [postcode] => 01000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yolande
+                                                            [lastname] => CALLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48198
+                                                            [alias] => 01000 SAINT-DENIS-LES-BOURG
+                                                            [address1] => 39, rue du Château
+                                                            [address2] => 
+                                                            [city] => SAINT-DENIS-LES-BOURG
+                                                            [postcode] => 01000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yolande
+                                                            [lastname] => CALLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

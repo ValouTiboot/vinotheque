@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82799
+    [IdTransaction] => 56d9ef9128ca4f4abbed12275f591d16
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30664] => Array
+                                (
+                                    [notiers] => 30664
+                                    [lastname] => CAZEAUX
+                                    [firstname] => Jean claude
+                                    [email] => jcc.mfc@club-internet.fr
+                                    [id_gender] => 1
+                                    [passwd] => 16021212
+                                    [birthday] => 1939-02-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 169
+                                    [NbPointsRestants] => 169
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39242
+                                                            [alias] => 33120 ARCACHON
+                                                            [address1] => 234, boulevard de la plage
+                                                            [address2] => 
+                                                            [city] => ARCACHON
+                                                            [postcode] => 33120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => CAZEAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39243
+                                                            [alias] => 33120 ARCACHON
+                                                            [address1] => boulevard de la plage
+                                                            [address2] => 
+                                                            [city] => ARCACHON
+                                                            [postcode] => 33120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => CAZEAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

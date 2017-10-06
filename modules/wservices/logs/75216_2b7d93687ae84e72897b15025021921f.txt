@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75216
+    [IdTransaction] => 2b7d93687ae84e72897b15025021921f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31293] => Array
+                                (
+                                    [notiers] => 31293
+                                    [lastname] => JACHENS
+                                    [firstname] => Victor
+                                    [email] => victor@jachens.eu
+                                    [id_gender] => 1
+                                    [passwd] => lizaj888
+                                    [birthday] => 1972-01-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 186
+                                    [NbPointsRestants] => 186
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40337
+                                                            [alias] => 74160 COLLONGES-SOUS-SALEVE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => COLLONGES-SOUS-SALEVE
+                                                            [postcode] => 74160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Victor
+                                                            [lastname] => JACHENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40338
+                                                            [alias] => 74160 COLLONGES-SOUS-SALEVE
+                                                            [address1] => 76 Allee du,
+                                                            [address2] => 
+                                                            [city] => COLLONGES-SOUS-SALEVE
+                                                            [postcode] => 74160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Victor
+                                                            [lastname] => JACHENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

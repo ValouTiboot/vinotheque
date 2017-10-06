@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76734
+    [IdTransaction] => 6ed987aab6a441e1b18920373dd63c0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26646] => Array
+                                (
+                                    [notiers] => 26646
+                                    [lastname] => RUBIN
+                                    [firstname] => Stephane
+                                    [email] => stephanerubin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 19671967
+                                    [birthday] => 1967-12-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 200
+                                    [NbPointsAcquits] => 317
+                                    [NbPointsRestants] => 117
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32969
+                                                            [alias] => 35510 CESSON-SEVIGNE
+                                                            [address1] => 6, RUE DU CHAMP DU MOULIN
+                                                            [address2] => 
+                                                            [city] => CESSON-SEVIGNE
+                                                            [postcode] => 35510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => RUBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32970
+                                                            [alias] => 35510 CESSON-SEVIGNE
+                                                            [address1] => 6, RUE DU CHAMP DU MOULIN
+                                                            [address2] => 
+                                                            [city] => CESSON-SEVIGNE
+                                                            [postcode] => 35510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => RUBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77883
+    [IdTransaction] => 400c24d84e8d400d8a5ee8ec065c22c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31075] => Array
+                                (
+                                    [notiers] => 31075
+                                    [lastname] => BREMBOR
+                                    [firstname] => Georges
+                                    [email] => georges.brembor@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pasdecalais62
+                                    [birthday] => 1956-07-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39952
+                                                            [alias] => 54450 BENAMENIL
+                                                            [address1] => 27, de la libération
+                                                            [address2] => 
+                                                            [city] => BENAMENIL
+                                                            [postcode] => 54450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges
+                                                            [lastname] => BREMBOR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39953
+                                                            [alias] => 54450 BENAMENIL
+                                                            [address1] => 27, LA LIBERATION Bénaménil
+                                                            [address2] => 
+                                                            [city] => BENAMENIL
+                                                            [postcode] => 54450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges
+                                                            [lastname] => BREMBOR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

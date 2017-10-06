@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81608
+    [IdTransaction] => 8b0fca35c7194833b182ae30bf0e3716
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23215] => Array
+                                (
+                                    [notiers] => 23215
+                                    [lastname] => CHAPPELIN
+                                    [firstname] => Vincent
+                                    [email] => vchapi29@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Vivele29
+                                    [birthday] => 1985-04-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 8
+                                    [NbPointsRestants] => 8
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30301
+                                                            [alias] => 29550 SAINT-NIC
+                                                            [address1] => les Océanes,
+                                                            [address2] => appartement 37 batiment B1
+                                                            [city] => SAINT-NIC
+                                                            [postcode] => 29550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => CHAPPELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30302
+                                                            [alias] => 29550 SAINT-NIC
+                                                            [address1] => les océanes
+                                                            [address2] => appartement 37 batiment B1
+                                                            [city] => SAINT-NIC
+                                                            [postcode] => 29550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => CHAPPELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

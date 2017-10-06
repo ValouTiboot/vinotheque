@@ -1,0 +1,251 @@
+Array
+(
+    [NoJSON] => 2543
+    [IdTransaction] => b1e0743309a14e638917634c9bceb83b
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015002705] => Array
+                                (
+                                    [reference] => M2015002705
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40276|183
+                                    [active] => 1
+                                    [name] => ALTO DE CANTENAC BROWN
+                                    [wine] => 0
+                                    [wine_date] => 2016-06-01 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => test appellation !
+                                    [property] => La construction du château fut commencée dans la première moitié du XIXe siècle. John Lewis Brown, fils d'un négociant anglais en était le propriétaire. Vers 1860, le négociant bordelais Armand Lalande achève l'édifice principal. Il entreprend de replanter le vignoble, moderniser les chais et d'améliorer la qualité des vins. En 1987, la famille du Vivier, dernier propriétaire, vend le domaine à la Compagnie du Midi qui entreprend de grands travaux. En 1989, après la fusion du Midi et d'Axa, la gestion est confiée à Jean-Michel Cazes. Le château Cantenac-Brown est un des 3èmes Crus du Médoc Classés en 1855.
+                                    [description] => D’une belle robe or pale, son nez présente des notes d’agrumes et de fruitsrnexotiques.
+                                    [description_short] => ALTO DE CANTENAC BROWN
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => alto-de-cantenac-brown.jpg
+                                                            [legend] => ALTO DE CANTENAC BROWN
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40276
+                                                                    [1] => 40556
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40276
+                                                            [reference] => M2015002705
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 21,6667
+                                                            [packaging_weight] => 8,3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40556
+                                                            [reference] => M2015002705
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 0
+                                                            [packaging_weight] => 8,3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

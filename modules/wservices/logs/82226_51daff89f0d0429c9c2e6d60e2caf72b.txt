@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82226
+    [IdTransaction] => 51daff89f0d0429c9c2e6d60e2caf72b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30786] => Array
+                                (
+                                    [notiers] => 30786
+                                    [lastname] => LURIN
+                                    [firstname] => Philippe
+                                    [email] => lurin.philippe2@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 666
+                                    [birthday] => 1966-01-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 214
+                                    [NbPointsRestants] => 214
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39467
+                                                            [alias] => 38960 SAINT-AUPRE
+                                                            [address1] => 262, chemin du barreau
+                                                            [address2] => 
+                                                            [city] => SAINT-AUPRE
+                                                            [postcode] => 38960
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LURIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39468
+                                                            [alias] => 38960 SAINT-AUPRE
+                                                            [address1] => 262, chemin du barreau
+                                                            [address2] => 
+                                                            [city] => SAINT-AUPRE
+                                                            [postcode] => 38960
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LURIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74600
+    [IdTransaction] => 0e1da60154cd44288fdef75fa31ad1a8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32666] => Array
+                                (
+                                    [notiers] => 32666
+                                    [lastname] => HIOLLE
+                                    [firstname] => Rolland
+                                    [email] => roland.hiolle@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1947-12-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42553
+                                                            [alias] => 74380 CRANVES-SALES
+                                                            [address1] => 310, ROUTE DE LA NUSSANCE
+                                                            [address2] => 
+                                                            [city] => CRANVES-SALES
+                                                            [postcode] => 74380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rolland
+                                                            [lastname] => HIOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42554
+                                                            [alias] => 74380 CRANVES-SALES
+                                                            [address1] => 310, ROUTE DE LA NUSSANCE
+                                                            [address2] => 
+                                                            [city] => CRANVES-SALES
+                                                            [postcode] => 74380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rolland
+                                                            [lastname] => HIOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77450
+    [IdTransaction] => 75b3c015777b47f6bd282c14df6097ee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25607] => Array
+                                (
+                                    [notiers] => 25607
+                                    [lastname] => GUESTAULT
+                                    [firstname] => Emmanuel
+                                    [email] => emmanuelguestault@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => vargas
+                                    [birthday] => 1977-03-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 200
+                                    [NbPointsAcquits] => 249
+                                    [NbPointsRestants] => 49
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31423
+                                                            [alias] => 56800 PLOERMEL
+                                                            [address1] => rue brizeux
+                                                            [address2] => 4 lot marie rose
+                                                            [city] => PLOERMEL
+                                                            [postcode] => 56800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => GUESTAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31424
+                                                            [alias] => 56800 PLOERMEL
+                                                            [address1] => brizeux
+                                                            [address2] => 4 lot marie rose
+                                                            [city] => PLOERMEL
+                                                            [postcode] => 56800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => GUESTAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81124
+    [IdTransaction] => 51e2a67c698144d39706d43a0abdf199
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33303] => Array
+                                (
+                                    [notiers] => 33303
+                                    [lastname] => JOURET
+                                    [firstname] => Johan
+                                    [email] => jojouret@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => toccattaausone3131
+                                    [birthday] => 1980-08-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43611
+                                                            [alias] => 31450 MONTESQUIEU-LAURAGAIS
+                                                            [address1] => 23, Route de nailloux
+                                                            [address2] => 
+                                                            [city] => MONTESQUIEU-LAURAGAIS
+                                                            [postcode] => 31450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Johan
+                                                            [lastname] => JOURET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43612
+                                                            [alias] => 31450 MONTESQUIEU-LAURAGAIS
+                                                            [address1] => 23, Route de nailloux
+                                                            [address2] => 
+                                                            [city] => MONTESQUIEU-LAURAGAIS
+                                                            [postcode] => 31450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Johan
+                                                            [lastname] => JOURET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

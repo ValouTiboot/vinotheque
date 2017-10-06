@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75534
+    [IdTransaction] => c8af7706592a44ffb248fa45ae783ff3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32356] => Array
+                                (
+                                    [notiers] => 32356
+                                    [lastname] => BRUYNEEL
+                                    [firstname] => Bruno
+                                    [email] => bruno_bruyneel@aviva.fr
+                                    [id_gender] => 1
+                                    [passwd] => Bruyneel2
+                                    [birthday] => 1966-05-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 153
+                                    [NbPointsRestants] => 153
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42037
+                                                            [alias] => Paris 75015
+                                                            [address1] => 8 bis rue fondary
+                                                            [address2] => 
+                                                            [city] => 75015
+                                                            [postcode] => Paris
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => BRUYNEEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42038
+                                                            [alias] => 83600 FREJUS
+                                                            [address1] => Quai tambourinaire
+                                                            [address2] => Escalier B Port royal
+                                                            [city] => FREJUS
+                                                            [postcode] => 83600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => BRUYNEEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77073
+    [IdTransaction] => f22d75feee57402da73a60d4c2080596
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34003] => Array
+                                (
+                                    [notiers] => 34003
+                                    [lastname] => MENGHINI
+                                    [firstname] => Rossana
+                                    [email] => rossanamenghini@libero.it
+                                    [id_gender] => 2
+                                    [passwd] => pierrehuard
+                                    [birthday] => 1994-06-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 44
+                                    [NbPointsRestants] => 44
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44863
+                                                            [alias] => 00055 LADISPOLI
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LADISPOLI
+                                                            [postcode] => 00055
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rossana
+                                                            [lastname] => MENGHINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44864
+                                                            [alias] => 00055 LADISPOLI
+                                                            [address1] => 8, via Atene
+                                                            [address2] => 
+                                                            [city] => LADISPOLI
+                                                            [postcode] => 00055
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rossana
+                                                            [lastname] => MENGHINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

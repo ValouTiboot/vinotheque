@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80606
+    [IdTransaction] => 20458a5e96b2452497bcb55b91b44a1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26770] => Array
+                                (
+                                    [notiers] => 26770
+                                    [lastname] => JOURDEUIL
+                                    [firstname] => Frederic
+                                    [email] => fjourdeuil@ascona.fr
+                                    [id_gender] => 1
+                                    [passwd] => Thomas95
+                                    [birthday] => 1961-09-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 235
+                                    [NbPointsRestants] => 235
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33165
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 4, rue caroline
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => JOURDEUIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33166
+                                                            [alias] => 95680 MONTLIGNON
+                                                            [address1] => 102, allee des catalpas
+                                                            [address2] => 
+                                                            [city] => MONTLIGNON
+                                                            [postcode] => 95680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => JOURDEUIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

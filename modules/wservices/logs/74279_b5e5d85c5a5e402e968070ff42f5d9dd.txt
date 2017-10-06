@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74279
+    [IdTransaction] => b5e5d85c5a5e402e968070ff42f5d9dd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35355] => Array
+                                (
+                                    [notiers] => 35355
+                                    [lastname] => BEAUREGARD VALERANNA
+                                    [firstname] => Alexia
+                                    [email] => adria.valeranna@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => aurelie74
+                                    [birthday] => 1978-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47100
+                                                            [alias] => 74330 LOVAGNY
+                                                            [address1] => 750, route de la Gare
+                                                            [address2] => 
+                                                            [city] => LOVAGNY
+                                                            [postcode] => 74330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexia
+                                                            [lastname] => BEAUREGARD VALERANNA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47101
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 269, AVENUE DE FABRON
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexia
+                                                            [lastname] => BEAUREGARD VALERANNA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

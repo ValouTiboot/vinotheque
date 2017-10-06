@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77630
+    [IdTransaction] => 8d0690fd02834c488924cee1aa6f315f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32146] => Array
+                                (
+                                    [notiers] => 32146
+                                    [lastname] => GONOT
+                                    [firstname] => Benoit
+                                    [email] => bgonot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => daredevil
+                                    [birthday] => 1982-10-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 56
+                                    [NbPointsRestants] => 56
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41742
+                                                            [alias] => 44830 BOUAYE
+                                                            [address1] => 20, RUE DES GOELANDS
+                                                            [address2] => 
+                                                            [city] => BOUAYE
+                                                            [postcode] => 44830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => GONOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41743
+                                                            [alias] => 44830 BOUAYE
+                                                            [address1] => 20, RUE DES GOELANDS
+                                                            [address2] => 
+                                                            [city] => BOUAYE
+                                                            [postcode] => 44830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => GONOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

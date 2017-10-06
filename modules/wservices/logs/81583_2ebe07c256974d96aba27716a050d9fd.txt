@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81583
+    [IdTransaction] => 2ebe07c256974d96aba27716a050d9fd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29735] => Array
+                                (
+                                    [notiers] => 29735
+                                    [lastname] => HORI
+                                    [firstname] => Ryota
+                                    [email] => ryota.hori@mhcbeurope.com
+                                    [id_gender] => 1
+                                    [passwd] => kirinbe01
+                                    [birthday] => 1968-02-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 120
+                                    [NbPointsRestants] => 120
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37645
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 1, bis rue de chaillot
+                                                            [address2] => 2eme etage
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ryota
+                                                            [lastname] => HORI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37646
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 1, bis rue de chaillot
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ryota
+                                                            [lastname] => HORI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

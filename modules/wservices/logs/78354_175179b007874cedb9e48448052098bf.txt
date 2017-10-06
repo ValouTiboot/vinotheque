@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78354
+    [IdTransaction] => 175179b007874cedb9e48448052098bf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34345] => Array
+                                (
+                                    [notiers] => 34345
+                                    [lastname] => BAYSSELANCE
+                                    [firstname] => Frédéric
+                                    [email] => fredericbaysselance@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Of710ro.
+                                    [birthday] => 1984-10-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45446
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 7, Rue du Noviciat
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => BAYSSELANCE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45447
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 9, Rue Stendhal
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => BAYSSELANCE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77487
+    [IdTransaction] => 8674d3df6b1c4a808ffce82aa2e9210b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31361] => Array
+                                (
+                                    [notiers] => 31361
+                                    [lastname] => PELLEGRINI
+                                    [firstname] => Charles
+                                    [email] => accueil@cpmediation.com
+                                    [id_gender] => 1
+                                    [passwd] => nounou
+                                    [birthday] => 1938-10-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 102
+                                    [NbPointsRestants] => 102
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40456
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 20, Rue de Boulaivilliers
+                                                            [address2] => Escalier A RDC Gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => PELLEGRINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40457
+                                                            [alias] => 27440 GAILLARBOIS CRESSENVILLE
+                                                            [address1] => 48 bis, Route départementale
+                                                            [address2] => 
+                                                            [city] => GAILLARBOIS CRESSENVILLE
+                                                            [postcode] => 27440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => PELLEGRINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

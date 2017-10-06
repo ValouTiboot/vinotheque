@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82039
+    [IdTransaction] => 903eba03584249f89fa0f7b97c4e13b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25917] => Array
+                                (
+                                    [notiers] => 25917
+                                    [lastname] => BONIN
+                                    [firstname] => Vincent
+                                    [email] => vince.rasta@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Rastafari
+                                    [birthday] => 1980-07-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 118
+                                    [NbPointsRestants] => 118
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31914
+                                                            [alias] => 92360 MEUDON LA FORET
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => MEUDON LA FORET
+                                                            [postcode] => 92360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BONIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31915
+                                                            [alias] => 92360 MEUDON LA FORET
+                                                            [address1] => 6, rue ronsard
+                                                            [address2] => 
+                                                            [city] => MEUDON LA FORET
+                                                            [postcode] => 92360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BONIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

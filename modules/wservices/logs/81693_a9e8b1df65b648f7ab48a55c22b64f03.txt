@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81693
+    [IdTransaction] => a9e8b1df65b648f7ab48a55c22b64f03
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31523] => Array
+                                (
+                                    [notiers] => 31523
+                                    [lastname] => DELERIN
+                                    [firstname] => Nadege
+                                    [email] => nadege.delerin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1968-05-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 40
+                                    [NbPointsRestants] => 40
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40766
+                                                            [alias] => 64100 BILLERE
+                                                            [address1] => 21 BIS, ROUTE DE BAYONNE
+                                                            [address2] => 
+                                                            [city] => BILLERE
+                                                            [postcode] => 64100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadege
+                                                            [lastname] => DELERIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40767
+                                                            [alias] => 64100 BILLERE
+                                                            [address1] => 21 BIS, ROUTE DE BAYONNE
+                                                            [address2] => 
+                                                            [city] => BILLERE
+                                                            [postcode] => 64100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadege
+                                                            [lastname] => DELERIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

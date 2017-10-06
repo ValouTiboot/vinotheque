@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77423
+    [IdTransaction] => c12f49dc657b40ef81d1892c0b4d8f01
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27728] => Array
+                                (
+                                    [notiers] => 27728
+                                    [lastname] => SALLON
+                                    [firstname] => Jerome
+                                    [email] => jerome.sallon@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => jerome
+                                    [birthday] => 1982-08-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1343
+                                    [NbPointsRestants] => 1343
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34683
+                                                            [alias] => 19000 TULLE
+                                                            [address1] => 5 et 7,  Place carnot
+                                                            [address2] => 
+                                                            [city] => TULLE
+                                                            [postcode] => 19000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => SALLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34684
+                                                            [alias] => 19000 TULLE
+                                                            [address1] => 5 et 7,  Place carnot
+                                                            [address2] => 
+                                                            [city] => TULLE
+                                                            [postcode] => 19000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => SALLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

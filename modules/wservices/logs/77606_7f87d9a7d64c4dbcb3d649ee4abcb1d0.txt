@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77606
+    [IdTransaction] => 7f87d9a7d64c4dbcb3d649ee4abcb1d0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34188] => Array
+                                (
+                                    [notiers] => 34188
+                                    [lastname] => FAGE
+                                    [firstname] => Nicolas
+                                    [email] => nicofage@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => dugazizou
+                                    [birthday] => 1981-06-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45182
+                                                            [alias] => 33320 TAILLAN-MEDOC
+                                                            [address1] => 104bis, avenue du stade le taillan medoc
+                                                            [address2] => 
+                                                            [city] => TAILLAN-MEDOC
+                                                            [postcode] => 33320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => FAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45183
+                                                            [alias] => 33320 TAILLAN-MEDOC
+                                                            [address1] => 104bis, avenue du stade le taillan medoc
+                                                            [address2] => 
+                                                            [city] => TAILLAN-MEDOC
+                                                            [postcode] => 33320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => FAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

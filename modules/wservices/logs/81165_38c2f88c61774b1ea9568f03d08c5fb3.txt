@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81165
+    [IdTransaction] => 38c2f88c61774b1ea9568f03d08c5fb3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30583] => Array
+                                (
+                                    [notiers] => 30583
+                                    [lastname] => GARLAIN
+                                    [firstname] => Hélène
+                                    [email] => helene.garlain@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => neptune78
+                                    [birthday] => 1974-02-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1465
+                                    [NbPointsRestants] => 1465
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39108
+                                                            [alias] => 78810 FEUCHEROLLES
+                                                            [address1] => 8, Rue des coulons
+                                                            [address2] => 
+                                                            [city] => FEUCHEROLLES
+                                                            [postcode] => 78810
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => GARLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39109
+                                                            [alias] => 78810 FEUCHEROLLES
+                                                            [address1] => 8, Rue des coulons
+                                                            [address2] => 
+                                                            [city] => FEUCHEROLLES
+                                                            [postcode] => 78810
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => GARLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77325
+    [IdTransaction] => 2fe7fecf96ea4cb29fea4404744847b5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23141] => Array
+                                (
+                                    [notiers] => 23141
+                                    [lastname] => SAVEL
+                                    [firstname] => Guilhèm
+                                    [email] => guilhem.savel@inria.fr
+                                    [id_gender] => 1
+                                    [passwd] => totoduVIN
+                                    [birthday] => 1980-03-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 210
+                                    [NbPointsRestants] => 210
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30198
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => 200, avenue de la Vieille Tour
+                                                            [address2] => livraison 9h 12h
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guilhèm
+                                                            [lastname] => SAVEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30199
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => 200, avenue de la Vieille Tour
+                                                            [address2] => livraison 9h 12h
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guilhèm
+                                                            [lastname] => SAVEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

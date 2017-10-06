@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80966
+    [IdTransaction] => a7830ba4401b4f35b6a41197b34e187e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33748] => Array
+                                (
+                                    [notiers] => 33748
+                                    [lastname] => DURIF
+                                    [firstname] => Nicolas
+                                    [email] => nicolas.durif@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Nexity0203
+                                    [birthday] => 1985-03-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 177
+                                    [NbPointsRestants] => 177
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44415
+                                                            [alias] => 38230 PONT-DE-CHERUY
+                                                            [address1] => NICOLAS DURIF PONT DE CHERUY
+                                                            [address2] => 
+                                                            [city] => PONT-DE-CHERUY
+                                                            [postcode] => 38230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => DURIF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44416
+                                                            [alias] => 38230 PONT-DE-CHERUY
+                                                            [address1] => 39, RUE AIME PINEL PONT DE CHERUY
+                                                            [address2] => 
+                                                            [city] => PONT-DE-CHERUY
+                                                            [postcode] => 38230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => DURIF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

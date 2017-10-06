@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86054
+    [IdTransaction] => ff74d95b73244bdba77a0f5089374a91
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31340] => Array
+                                (
+                                    [notiers] => 31340
+                                    [lastname] => NICOLLEAU
+                                    [firstname] => Joel
+                                    [email] => jelsin@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1956-09-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 363
+                                    [NbPointsRestants] => 363
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40420
+                                                            [alias] => 85000 ROCHE-SUR-YON
+                                                            [address1] => 30, RUE JULES GUESDE
+                                                            [address2] => 
+                                                            [city] => ROCHE-SUR-YON
+                                                            [postcode] => 85000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joel
+                                                            [lastname] => NICOLLEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40421
+                                                            [alias] => 85000 ROCHE-SUR-YON
+                                                            [address1] => 30, RUE JULES GUESDE
+                                                            [address2] => 
+                                                            [city] => ROCHE-SUR-YON
+                                                            [postcode] => 85000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joel
+                                                            [lastname] => NICOLLEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

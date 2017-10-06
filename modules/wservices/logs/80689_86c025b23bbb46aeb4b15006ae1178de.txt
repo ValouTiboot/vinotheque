@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80689
+    [IdTransaction] => 86c025b23bbb46aeb4b15006ae1178de
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24668] => Array
+                                (
+                                    [notiers] => 24668
+                                    [lastname] => MOSNIER
+                                    [firstname] => Jean francois
+                                    [email] => jeanmosnier@aol.fr
+                                    [id_gender] => 1
+                                    [passwd] => taverny
+                                    [birthday] => 1953-05-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 650
+                                    [NbPointsRestants] => 650
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30501
+                                                            [alias] => 95150 TAVERNY
+                                                            [address1] => 3, rue du martrais
+                                                            [address2] => 
+                                                            [city] => TAVERNY
+                                                            [postcode] => 95150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean francois
+                                                            [lastname] => MOSNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30502
+                                                            [alias] => 75009 PARIS
+                                                            [address1] => 12, rue de la Chaussée d'Antin
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean francois
+                                                            [lastname] => MOSNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

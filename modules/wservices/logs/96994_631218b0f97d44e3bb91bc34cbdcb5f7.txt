@@ -1,0 +1,231 @@
+Array
+(
+    [NoJSON] => 96994
+    [IdTransaction] => 631218b0f97d44e3bb91bc34cbdcb5f7
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2012003408] => Array
+                                (
+                                    [reference] => M2012003408
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 42667
+                                    [active] => 1
+                                    [name] => Château DES ANNEREAUX
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Le vignoble Lalande de Pomerol s'étend sur une superficie de 1100 hectares. Le vin Lalande de Pomerol est composée principalement de merlot, mais également de cabernet franc et de cabernet sauvignon. En général, les vins rouges de Lalande de Pomerol possèdent une robe de couleur rouge profonde et intense. Au nez, on décèle des arômes de fruits rouges. Avec le temps, les arômes évoluent vers des notes de cuir, de pruneau et de cacao. En bouche, ce sont des vins souples avec une finale longue. 
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Lalande de Pomerol
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Vin biologique
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Gibier
+                                            [1] => Viande rouge grillée
+                                            [2] => Viande rouge en sauce
+                                        )
+
+                                    [images] => Array
+                                        (
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42667
+                                                            [reference] => M2012003408
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L
+                                                            [active] => 1
+                                                            [price] => 14.1667
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 72
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42668
+                                                            [reference] => M2012003408
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L
+                                                            [active] => 1
+                                                            [price] => 34.9000
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 18
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Lalande de Pomerol
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.500
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2012
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Biologique
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

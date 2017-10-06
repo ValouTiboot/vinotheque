@@ -1,0 +1,386 @@
+Array
+(
+    [NoJSON] => 1939
+    [IdTransaction] => de1f418c9285473e8a971f79b8cca193
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015000546] => Array
+                                (
+                                    [reference] => M2015000546
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40540|125
+                                    [active] => 1
+                                    [name] => SARGET DE GRUAUD LAROSE       
+                                    [wine] => 0
+                                    [wine_date] => 2016-06-01 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => En 1757, Monsieur Gruaud acheta différents vignobles dispersés le long du plateau de Saint Julien Beychevelle et developpa une admirable propriété. Monsieur De Larose, son successeur, y accolla son nom et le vignoble fut ainsi baptisé Gruaud-Larose. Au 19ème siècle, la propriété fut divisée et porta le nom de deux propriétaires Baron Sarget et Monsier Faure. Ensuite, lors du rachat du domaine par Monsieur Cordier, ce dernier lui rendit son non d'origine : Gruaud-Larose.rnAprès l'acquisition de la propriété en 1997 par le Groupe Bernard Taillan Vins, Château Gruaud-Larose confirme la place qu'il mérite depuis plusieurs années parmi les grands crus du médoc.
+                                    [description] => Couleur rubis, brillante, avec des reflets de velours noir.rnNez puissant boisé, avec des notes d'amande, de cerise.rnEn bouche, attaque très agréable, des tannins fins bien enrobés. Notes épicées, boisé bien fondu.
+                                    [description_short] => SARGET DE GRUAUD LAROSE       
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => sarget-de-gruaud-larose-001.jpg
+                                                            [legend] => SARGET DE GRUAUD LAROSE       
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40540
+                                                                    [1] => 40830
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-gruaud-larose-003.jpg
+                                                            [legend] => SARGET DE GRUAUD LAROSE       
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40540
+                                                                    [1] => 40830
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40540
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 16,5
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 144
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40540
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 16,5
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 144
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0,46
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 40540
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 16,5
+                                                            [packaging_weight] => 16
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 144
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 40540
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 16,5
+                                                            [packaging_weight] => 8,3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 144
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 40830
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 33
+                                                            [packaging_weight] => 21
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0,46
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [id_product_attribute] => 40830
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 33
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 4,6
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [id_product_attribute] => 40830
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 33
+                                                            [packaging_weight] => 18
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [id_product_attribute] => 40830
+                                                            [reference] => M2015000546
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 1
+                                                            [active] => 9
+                                                            [price] => 33
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-01 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 301
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Saint-Julien
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 57% Cabernet Sauvignon
+                                                                    [1] => 30% Merlot
+                                                                    [2] => 7% Cabernet Franc
+                                                                    [3] => 4% Petit Verdot
+                                                                    [4] => 2% Malbec
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2ème vin
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => The Wine Advocate 84-86
+                                                                    [1] => James Suckling 90-91
+                                                                    [2] => Decanter 90
+                                                                    [3] => Le Point  14/20
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

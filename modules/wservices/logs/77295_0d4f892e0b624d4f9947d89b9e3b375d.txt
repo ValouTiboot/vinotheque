@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77295
+    [IdTransaction] => 0d4f892e0b624d4f9947d89b9e3b375d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35924] => Array
+                                (
+                                    [notiers] => 35924
+                                    [lastname] => PHILLIPS
+                                    [firstname] => Bernard
+                                    [email] => joe.phillips48@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => bjp136
+                                    [birthday] => 1948-01-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48049
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 16 bis, rue Lauriston
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => PHILLIPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48050
+                                                            [alias] => 77780 BOURRON-MARLOTTE
+                                                            [address1] => 62 bis, rue Murger
+                                                            [address2] => 
+                                                            [city] => BOURRON-MARLOTTE
+                                                            [postcode] => 77780
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => PHILLIPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

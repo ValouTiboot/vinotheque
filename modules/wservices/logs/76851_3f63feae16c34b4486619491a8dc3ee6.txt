@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76851
+    [IdTransaction] => 3f63feae16c34b4486619491a8dc3ee6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34018] => Array
+                                (
+                                    [notiers] => 34018
+                                    [lastname] => WILDT
+                                    [firstname] => Stepan
+                                    [email] => s.wildt@advancy.com
+                                    [id_gender] => 1
+                                    [passwd] => 777776
+                                    [birthday] => 1977-12-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44893
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 12, Bvd des Batignolles
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stepan
+                                                            [lastname] => WILDT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44894
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 12, Bvd des Batignolles
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stepan
+                                                            [lastname] => WILDT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

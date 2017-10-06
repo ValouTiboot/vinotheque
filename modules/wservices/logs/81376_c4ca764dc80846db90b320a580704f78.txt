@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81376
+    [IdTransaction] => c4ca764dc80846db90b320a580704f78
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25745] => Array
+                                (
+                                    [notiers] => 25745
+                                    [lastname] => DECAENS
+                                    [firstname] => Henri
+                                    [email] => h.decaens@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => H76543210
+                                    [birthday] => 1952-07-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 1800
+                                    [NbPointsAcquits] => 2083
+                                    [NbPointsRestants] => 283
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31638
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 110, QUAI CHARLES DE GAULLE
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => DECAENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31639
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 110, QUAI CHARLES DE GAULLE
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => DECAENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80662
+    [IdTransaction] => 1a6ad2f42b7048a393ebf455050c25df
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32152] => Array
+                                (
+                                    [notiers] => 32152
+                                    [lastname] => PITRAS
+                                    [firstname] => Julien
+                                    [email] => julien.pitras@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => oblivion
+                                    [birthday] => 1988-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 237
+                                    [NbPointsRestants] => 237
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41751
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, rue vergniaud
+                                                            [address2] => 1er étage
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => PITRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41752
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, rue vergniaud
+                                                            [address2] => 1er étage
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => PITRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

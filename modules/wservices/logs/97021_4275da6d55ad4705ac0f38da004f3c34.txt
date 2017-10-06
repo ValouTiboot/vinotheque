@@ -1,0 +1,235 @@
+Array
+(
+    [NoJSON] => 97021
+    [IdTransaction] => 4275da6d55ad4705ac0f38da004f3c34
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016003362] => Array
+                                (
+                                    [reference] => M2016003362
+                                    [id_second_wine] => 
+                                    [id_category_default] => Autres régions
+                                    [cache_default_attribute] => 42540
+                                    [active] => 1
+                                    [name] => Domaine DE LA NOBLAIE LA GRANDE OURSE
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Célèbre appellation du Val-de-Loire, le vignoble de Chinon s'étend sur 19 communes réparties de part et d'autre de la Vienne. Les vignes poussent sur des sols argilo-calcaires et produisent l'un des meilleurs vins rouges de Touraine. Souvent comparé au Bourgueil, le Chinon n'en demeure pas moins un vin unique et très apprécié, vinifié à partir de l'unique cépage Cabernet franc. Avec un bouquet caractéristique de violette, ce vin a pour caractéristiques d'être frais, souple et friand. Aromatisé de framboises et de violettes, il offre des saveurs fruitées et légères en bouches lors de sa jeunesse. Une fois vieillit, vous découvrirez des notes plus corsées, plus charpentées. 
+                                    [property] => 
+                                    [description] => Rare et exceptionnel, ce Chinon blanc sec issu du cépage Chenin offre des arômes d'agrumes, de fleurs et de fruits à chair blanche. La belle minéralité de fin de bouche n'est pas sans rappeler son terroir d'origine : le tuffeau. Accord du Chef :Escalope de sandre poêlé, pommes cocotte, sauce au beurre. Restaurant At'Able Cassolette de langoustines et petits gris au Chinon Blanc Patrick Descoubes Restaurant L'Océanic
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Autres régions
+                                            [1] => Chinon
+                                            [2] => Loire
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Vin biologique
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Viandes blanches (porc, volaille, lapin, veau, mouton, agneau)
+                                            [1] => Poisson grillé
+                                            [2] => Poisson en sauce
+                                            [3] => Poisson fumé
+                                            [4] => Fruits de mer
+                                            [5] => Pâtes et risottos
+                                            [6] => Fromage à pâte molle
+                                            [7] => Fromage de chèvre
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => domaine-de-la-noblaie-grande-ourse.jpg
+                                                            [legend] => DOM DE LA NOBLAIE LA GRANDE OURSE
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42540
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42540
+                                                            [reference] => M2016003362
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L
+                                                            [active] => 1
+                                                            [price] => 11.6667
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Chinon
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Biologique
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => De 2017 à 2021
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Loire
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 9-10°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

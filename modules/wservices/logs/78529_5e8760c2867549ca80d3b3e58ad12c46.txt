@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78529
+    [IdTransaction] => 5e8760c2867549ca80d3b3e58ad12c46
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35827] => Array
+                                (
+                                    [notiers] => 35827
+                                    [lastname] => BUTEUX
+                                    [firstname] => François-xavier
+                                    [email] => fx.buteux@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => Fleurs123#
+                                    [birthday] => 1993-03-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 44
+                                    [NbPointsRestants] => 44
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47883
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 3, maucoudinat
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François-xavier
+                                                            [lastname] => BUTEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47884
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 3, maucoudinat
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François-xavier
+                                                            [lastname] => BUTEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80869
+    [IdTransaction] => 6c4a6b0ca9614ee4b03de08f37433e38
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32656] => Array
+                                (
+                                    [notiers] => 32656
+                                    [lastname] => BERNIER
+                                    [firstname] => Antoine
+                                    [email] => antoine.bernier@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => antoine69
+                                    [birthday] => 1988-09-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 172
+                                    [NbPointsRestants] => 172
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42540
+                                                            [alias] => 11400 SOUILHANELS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SOUILHANELS
+                                                            [postcode] => 11400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BERNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42541
+                                                            [alias] => 11400 SOUILHANELS
+                                                            [address1] => 250, Route de Castelnaudary
+                                                            [address2] => Chateau Coquelicot
+                                                            [city] => SOUILHANELS
+                                                            [postcode] => 11400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BERNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

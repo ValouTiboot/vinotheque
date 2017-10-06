@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74752
+    [IdTransaction] => d17a611831a745078edef336493e5e5a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26963] => Array
+                                (
+                                    [notiers] => 26963
+                                    [lastname] => MANDRINO
+                                    [firstname] => Alain
+                                    [email] => a.mandrino@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => andhug
+                                    [birthday] => 1959-02-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1249
+                                    [NbPointsRestants] => 1249
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33469
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 73, boulevard de Cimiez
+                                                            [address2] => centre Regina
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => MANDRINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33470
+                                                            [alias] => 06100 NICE
+                                                            [address1] => 6, avenue Elisabeth
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => MANDRINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

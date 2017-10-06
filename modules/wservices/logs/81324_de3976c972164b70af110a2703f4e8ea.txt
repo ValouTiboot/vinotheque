@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81324
+    [IdTransaction] => de3976c972164b70af110a2703f4e8ea
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36476] => Array
+                                (
+                                    [notiers] => 36476
+                                    [lastname] => LEMOINE
+                                    [firstname] => Charles
+                                    [email] => cpl.lemoine@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => anastasia
+                                    [birthday] => 1989-12-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48968
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 10 rue, LECOURBE
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => LEMOINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48969
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 9 rue, Falguière
+                                                            [address2] => F
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => LEMOINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

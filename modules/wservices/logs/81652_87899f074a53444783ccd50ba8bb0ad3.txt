@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81652
+    [IdTransaction] => 87899f074a53444783ccd50ba8bb0ad3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32350] => Array
+                                (
+                                    [notiers] => 32350
+                                    [lastname] => QUENTIN
+                                    [firstname] => Mickaël
+                                    [email] => m.quentin@numericable.fr
+                                    [id_gender] => 1
+                                    [passwd] => mi04voy
+                                    [birthday] => 1978-09-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 226
+                                    [NbPointsRestants] => 226
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42025
+                                                            [alias] => 78280 GUYANCOURT
+                                                            [address1] => 8, RUE ANDREA PALLADIO
+                                                            [address2] => APPT S BAT D
+                                                            [city] => GUYANCOURT
+                                                            [postcode] => 78280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => QUENTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42026
+                                                            [alias] => 78280 GUYANCOURT
+                                                            [address1] => 8, RUE ANDREA PALLADIO
+                                                            [address2] => APPT S BAT D
+                                                            [city] => GUYANCOURT
+                                                            [postcode] => 78280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => QUENTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

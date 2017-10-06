@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80598
+    [IdTransaction] => 310f22c3bc1f48f59e12e079bbe4ac03
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30586] => Array
+                                (
+                                    [notiers] => 30586
+                                    [lastname] => DURAND
+                                    [firstname] => Pierre-yves
+                                    [email] => dr-pierreyves.durand@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => spidou1
+                                    [birthday] => 1959-01-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 336
+                                    [NbPointsRestants] => 336
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39114
+                                                            [alias] => 36800 NURET-LE-FERRON
+                                                            [address1] => Le Tertre
+                                                            [address2] => 
+                                                            [city] => NURET-LE-FERRON
+                                                            [postcode] => 36800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-yves
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39115
+                                                            [alias] => 36800 NURET-LE-FERRON
+                                                            [address1] => Le Tertre
+                                                            [address2] => 
+                                                            [city] => NURET-LE-FERRON
+                                                            [postcode] => 36800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-yves
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

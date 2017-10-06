@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83281
+    [IdTransaction] => 5b3dd7e7f3ed47319bbb153a380f551d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35662] => Array
+                                (
+                                    [notiers] => 35662
+                                    [lastname] => MIKHAYEL
+                                    [firstname] => Ata samih
+                                    [email] => atamikhayel@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 626642
+                                    [birthday] => 1965-05-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47613
+                                                            [alias] => 74223052 GOIANIA
+                                                            [address1] => RUA T 36 N 2937, AP 1100 GOIANIA
+                                                            [address2] => 
+                                                            [city] => GOIANIA
+                                                            [postcode] => 74223052
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ata samih
+                                                            [lastname] => MIKHAYEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47614
+                                                            [alias] => 34121 TRIESTE
+                                                            [address1] => 15, VIA SAN NICOLÓ
+                                                            [address2] => 
+                                                            [city] => TRIESTE
+                                                            [postcode] => 34121
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ata samih
+                                                            [lastname] => MIKHAYEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

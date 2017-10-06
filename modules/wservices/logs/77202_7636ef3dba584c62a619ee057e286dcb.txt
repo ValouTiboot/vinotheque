@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77202
+    [IdTransaction] => 7636ef3dba584c62a619ee057e286dcb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33853] => Array
+                                (
+                                    [notiers] => 33853
+                                    [lastname] => WALLET
+                                    [firstname] => Barbara
+                                    [email] => barbarawallet@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 252525
+                                    [birthday] => 1969-05-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 55
+                                    [NbPointsRestants] => 55
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44603
+                                                            [alias] => 77130 VILLE-SAINT-JACQUES
+                                                            [address1] => rue grande
+                                                            [address2] => 
+                                                            [city] => VILLE-SAINT-JACQUES
+                                                            [postcode] => 77130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => WALLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44604
+                                                            [alias] => 16200 METAIRIES
+                                                            [address1] => 9, rue de sigogne
+                                                            [address2] => 
+                                                            [city] => METAIRIES
+                                                            [postcode] => 16200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => WALLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

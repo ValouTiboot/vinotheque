@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82996
+    [IdTransaction] => 570793a41289406aa7b13e3086f15ee5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36216] => Array
+                                (
+                                    [notiers] => 36216
+                                    [lastname] => BARET-COLLET
+                                    [firstname] => Philippe
+                                    [email] => philippe.baret-collet@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => FINALIT2
+                                    [birthday] => 1954-08-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48543
+                                                            [alias] => 38000 GRENOBLE
+                                                            [address1] => 16, Maréchal leclerc GRENOBLE
+                                                            [address2] => 3 16 Bd Maréchal LECLERC
+                                                            [city] => GRENOBLE
+                                                            [postcode] => 38000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BARET-COLLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48544
+                                                            [alias] => 38000 GRENOBLE
+                                                            [address1] => 16 Bd Maréc, 16 Bd Maréchal LECLERC GRENOBLE
+                                                            [address2] => 16 Bd Maréchal LECLERC
+                                                            [city] => GRENOBLE
+                                                            [postcode] => 38000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BARET-COLLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79195
+    [IdTransaction] => 50fa9436635440b998da0bddb12a8bbf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35435] => Array
+                                (
+                                    [notiers] => 35435
+                                    [lastname] => REYNARD
+                                    [firstname] => David
+                                    [email] => d.reynard84@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 6081973
+                                    [birthday] => 1973-08-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 113
+                                    [NbPointsRestants] => 113
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47244
+                                                            [alias] => 84100 ORANGE
+                                                            [address1] => 
+                                                            [address2] => 65, avenue Antoine Yrondelle
+                                                            [city] => ORANGE
+                                                            [postcode] => 84100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => REYNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47245
+                                                            [alias] => 13550 PALUDS DE NOVES
+                                                            [address1] => 686, Routes de Noves
+                                                            [address2] => 
+                                                            [city] => PALUDS DE NOVES
+                                                            [postcode] => 13550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => REYNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

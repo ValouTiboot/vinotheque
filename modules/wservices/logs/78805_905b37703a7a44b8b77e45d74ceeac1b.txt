@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78805
+    [IdTransaction] => 905b37703a7a44b8b77e45d74ceeac1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34897] => Array
+                                (
+                                    [notiers] => 34897
+                                    [lastname] => SERAHNI
+                                    [firstname] => Noé
+                                    [email] => myr1504@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => y3R-BB3-Cgz-S5h
+                                    [birthday] => 1983-04-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 86
+                                    [NbPointsRestants] => 86
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46382
+                                                            [alias] => 59000 LILLE
+                                                            [address1] => 228, Rue Solferino
+                                                            [address2] => 
+                                                            [city] => LILLE
+                                                            [postcode] => 59000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Noé
+                                                            [lastname] => SERAHNI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46383
+                                                            [alias] => 59960 NEUVILLE-EN-FERRAIN
+                                                            [address1] => 11, rue Jules Devos
+                                                            [address2] => 
+                                                            [city] => NEUVILLE-EN-FERRAIN
+                                                            [postcode] => 59960
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Noé
+                                                            [lastname] => SERAHNI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

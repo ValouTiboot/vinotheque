@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78534
+    [IdTransaction] => 43474afc94b94fde9102504a29d3339d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31877] => Array
+                                (
+                                    [notiers] => 31877
+                                    [lastname] => JEZEQUEL
+                                    [firstname] => Lionel
+                                    [email] => yoyojezek@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Consign1981
+                                    [birthday] => 1981-05-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41297
+                                                            [alias] => 92300 LEVALLOIS-PERRET
+                                                            [address1] => 31, Rue Voltaire
+                                                            [address2] => Digicode: A5310A, 2ieme etage Gauche Batiment A
+                                                            [city] => LEVALLOIS-PERRET
+                                                            [postcode] => 92300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lionel
+                                                            [lastname] => JEZEQUEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41298
+                                                            [alias] => 92300 LEVALLOIS-PERRET
+                                                            [address1] => 31, Rue Voltaire
+                                                            [address2] => 2ieme etage Gauche A
+                                                            [city] => LEVALLOIS-PERRET
+                                                            [postcode] => 92300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lionel
+                                                            [lastname] => JEZEQUEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

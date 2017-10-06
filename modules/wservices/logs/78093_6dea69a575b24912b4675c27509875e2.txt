@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78093
+    [IdTransaction] => 6dea69a575b24912b4675c27509875e2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36273] => Array
+                                (
+                                    [notiers] => 36273
+                                    [lastname] => DISCHER
+                                    [firstname] => Antoine
+                                    [email] => adischer@hamamatsu.fr
+                                    [id_gender] => 1
+                                    [passwd] => vEEG455v
+                                    [birthday] => 1979-07-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48634
+                                                            [alias] => 92290 CHATENAY-MALABRY
+                                                            [address1] => 1, Grande voie des vignes
+                                                            [address2] => Villa Adelia
+                                                            [city] => CHATENAY-MALABRY
+                                                            [postcode] => 92290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => DISCHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48635
+                                                            [alias] => 91300 MASSY
+                                                            [address1] => 19, Rue du Saule Trapu
+                                                            [address2] => Parc du Moulin de Massy
+                                                            [city] => MASSY
+                                                            [postcode] => 91300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => DISCHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

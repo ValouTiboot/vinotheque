@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77438
+    [IdTransaction] => fd4acf3b1bd64a37bd109c96eb9dca4a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33131] => Array
+                                (
+                                    [notiers] => 33131
+                                    [lastname] => AUBERT
+                                    [firstname] => Guillaume
+                                    [email] => guillaume.obr@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vinsatia
+                                    [birthday] => 1971-08-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43293
+                                                            [alias] => 39160 SAINT-AMOUR
+                                                            [address1] => 11, Route des granges vitte
+                                                            [address2] => 
+                                                            [city] => SAINT-AMOUR
+                                                            [postcode] => 39160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43294
+                                                            [alias] => 39160 SAINT-AMOUR
+                                                            [address1] => 11, Route des granges vitte
+                                                            [address2] => 
+                                                            [city] => SAINT-AMOUR
+                                                            [postcode] => 39160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

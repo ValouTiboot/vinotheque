@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79654
+    [IdTransaction] => 4999053aafee49e98696c9b09de395f0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34677] => Array
+                                (
+                                    [notiers] => 34677
+                                    [lastname] => GENTIL
+                                    [firstname] => Etienne
+                                    [email] => etienne.m.j.gentil@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 826
+                                    [birthday] => 1963-02-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 2310
+                                    [NbPointsRestants] => 2310
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46031
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 45, rue Saint-Dominique
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Etienne
+                                                            [lastname] => GENTIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46032
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 20, avenue du Recteur Poincaré
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Etienne
+                                                            [lastname] => GENTIL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76493
+    [IdTransaction] => 4439246bd307470389c13cbb71470a95
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34005] => Array
+                                (
+                                    [notiers] => 34005
+                                    [lastname] => BRUN
+                                    [firstname] => Antoine
+                                    [email] => antoinebrun@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 23031988lolo
+                                    [birthday] => 1988-03-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 18
+                                    [NbPointsRestants] => 18
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44867
+                                                            [alias] => 29233 CLEDER
+                                                            [address1] => Cosquer CLEDER
+                                                            [address2] => cosquer
+                                                            [city] => CLEDER
+                                                            [postcode] => 29233
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BRUN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44868
+                                                            [alias] => 29233 CLEDER
+                                                            [address1] => Cosquer CLEDER
+                                                            [address2] => cosquer
+                                                            [city] => CLEDER
+                                                            [postcode] => 29233
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BRUN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

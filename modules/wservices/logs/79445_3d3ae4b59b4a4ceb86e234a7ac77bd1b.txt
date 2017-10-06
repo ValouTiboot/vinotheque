@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79445
+    [IdTransaction] => 3d3ae4b59b4a4ceb86e234a7ac77bd1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26641] => Array
+                                (
+                                    [notiers] => 26641
+                                    [lastname] => GAS
+                                    [firstname] => Jean-christophe
+                                    [email] => jcgas@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Capuc1ne
+                                    [birthday] => 1976-03-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1633
+                                    [NbPointsRestants] => 1633
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32959
+                                                            [alias] => 75001 PARIS
+                                                            [address1] => 14, avenue de l'Opéra
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-christophe
+                                                            [lastname] => GAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32960
+                                                            [alias] => 78110 VESINET
+                                                            [address1] => 7, route de la plaine
+                                                            [address2] => 
+                                                            [city] => VESINET
+                                                            [postcode] => 78110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-christophe
+                                                            [lastname] => GAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

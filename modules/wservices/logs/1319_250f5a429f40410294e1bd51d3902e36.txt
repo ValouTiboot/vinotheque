@@ -1,0 +1,317 @@
+Array
+(
+    [NoJSON] => 1319
+    [IdTransaction] => 250f5a429f40410294e1bd51d3902e36
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015002329] => Array
+                                (
+                                    [reference] => M2015002329
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40368|183
+                                    [active] => 1
+                                    [name] => CH. LA TOUR DE BESSAN
+                                    [wine] => 0
+                                    [wine_date] => 2016-04-18 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => Château La Tour de Bessan
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-tour-bessan.jpg
+                                                            [legend] => CH. LA TOUR DE BESSAN
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40368
+                                                                    [1] => 40564
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-la-tour-de-bessan.jpg
+                                                            [legend] => CH. LA TOUR DE BESSAN
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40368
+                                                                    [1] => 40564
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40368
+                                                            [reference] => M2015002329
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 14,375
+                                                            [packaging_weight] => 16
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 120
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40368
+                                                            [reference] => M2015002329
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 14,375
+                                                            [packaging_weight] => 8,3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 120
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 40368
+                                                            [reference] => M2015002329
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 14,375
+                                                            [packaging_weight] => 1,5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 120
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 40564
+                                                            [reference] => M2015002329
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 28,75
+                                                            [packaging_weight] => 18
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 48
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 40564
+                                                            [reference] => M2015002329
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 1
+                                                            [active] => 9
+                                                            [price] => 28,75
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 48
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 301
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Margaux
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Advocate  (Neal Martin) 90-92
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

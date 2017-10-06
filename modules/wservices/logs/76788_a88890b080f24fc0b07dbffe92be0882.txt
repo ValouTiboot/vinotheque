@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76788
+    [IdTransaction] => a88890b080f24fc0b07dbffe92be0882
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25021] => Array
+                                (
+                                    [notiers] => 25021
+                                    [lastname] => GRILLOTTI
+                                    [firstname] => Romain
+                                    [email] => clichyromano@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => romano85
+                                    [birthday] => 1985-07-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30996
+                                                            [alias] => 95350 SAINT-BRICE-SOUS-FORET
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-BRICE-SOUS-FORET
+                                                            [postcode] => 95350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => GRILLOTTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30997
+                                                            [alias] => 95350 SAINT-BRICE-SOUS-FORET
+                                                            [address1] => 35, avenue manet
+                                                            [address2] => 
+                                                            [city] => SAINT-BRICE-SOUS-FORET
+                                                            [postcode] => 95350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => GRILLOTTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

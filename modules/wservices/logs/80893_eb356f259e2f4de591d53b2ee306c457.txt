@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80893
+    [IdTransaction] => eb356f259e2f4de591d53b2ee306c457
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26572] => Array
+                                (
+                                    [notiers] => 26572
+                                    [lastname] => GALZIN
+                                    [firstname] => Pierre
+                                    [email] => piergalzin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => littlekevin
+                                    [birthday] => 1976-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 103
+                                    [NbPointsRestants] => 103
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32835
+                                                            [alias] => 56600 LANESTER
+                                                            [address1] => 41, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => LANESTER
+                                                            [postcode] => 56600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GALZIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32836
+                                                            [alias] => 56600 LANESTER
+                                                            [address1] => 41, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => LANESTER
+                                                            [postcode] => 56600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GALZIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

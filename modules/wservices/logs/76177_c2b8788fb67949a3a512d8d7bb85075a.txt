@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76177
+    [IdTransaction] => c2b8788fb67949a3a512d8d7bb85075a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32521] => Array
+                                (
+                                    [notiers] => 32521
+                                    [lastname] => SODDU
+                                    [firstname] => Romain
+                                    [email] => romane1290@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => cocotiti
+                                    [birthday] => 1990-05-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 60
+                                    [NbPointsRestants] => 60
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42337
+                                                            [alias] => 54135 MEXY
+                                                            [address1] => 17, Rue Jacqueline drouet
+                                                            [address2] => 
+                                                            [city] => MEXY
+                                                            [postcode] => 54135
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => SODDU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42338
+                                                            [alias] => 54135 MEXY
+                                                            [address1] => 17, Rue Jacqueline drouet
+                                                            [address2] => 
+                                                            [city] => MEXY
+                                                            [postcode] => 54135
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => SODDU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

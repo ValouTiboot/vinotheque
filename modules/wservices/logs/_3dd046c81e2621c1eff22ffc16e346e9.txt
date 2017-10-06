@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 3dd046c81e2621c1eff22ffc16e346e9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-07-25 18:44:01
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36464] => Array
+                                (
+                                    [notiers] => 36464
+                                    [lastname] => MORA
+                                    [firstname] => Paul
+                                    [email] => client10@ebewe.net
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 2011-05-02
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [48958] => Array
+                                                (
+                                                    [id_address] => 45
+                                                    [noadresse] => 48958
+                                                    [alias] => Adresse de test
+                                                    [address1] => route du test
+                                                    [address2] => route adresse 2
+                                                    [city] => BRIVE LA GAILLARDE
+                                                    [postcode] => 19100
+                                                    [phone] => 0214142525
+                                                    [phone_mobile] => 
+                                                    [company] => Test  Société
+                                                    [firstname] => Paul
+                                                    [lastname] => MORA
+                                                    [other] => hjkhjk
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                            [46] => Array
+                                                (
+                                                    [id_address] => 46
+                                                    [noadresse] => 
+                                                    [alias] => Adresse de test 2
+                                                    [address1] => route du test 2
+                                                    [address2] => route UPDATE
+                                                    [city] => COSNAC
+                                                    [postcode] => 19360
+                                                    [phone] => 0852639685
+                                                    [phone_mobile] => 
+                                                    [company] => Test  Société
+                                                    [firstname] => Paul
+                                                    [lastname] => MORA
+                                                    [other] => lpppppppppp
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 2
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

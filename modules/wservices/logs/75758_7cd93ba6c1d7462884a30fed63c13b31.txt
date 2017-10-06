@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75758
+    [IdTransaction] => 7cd93ba6c1d7462884a30fed63c13b31
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35056] => Array
+                                (
+                                    [notiers] => 35056
+                                    [lastname] => CAPDETREY
+                                    [firstname] => Laurent
+                                    [email] => laurent.capdetrey@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => bouzette
+                                    [birthday] => 1972-10-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 70
+                                    [NbPointsRestants] => 70
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46623
+                                                            [alias] => 64230 SAUVAGNON
+                                                            [address1] => 10, lotissement les écoles
+                                                            [address2] => 
+                                                            [city] => SAUVAGNON
+                                                            [postcode] => 64230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => CAPDETREY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46624
+                                                            [alias] => 64121 MONTARDON
+                                                            [address1] => 31, Chemin Romas
+                                                            [address2] => 
+                                                            [city] => MONTARDON
+                                                            [postcode] => 64121
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => CAPDETREY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

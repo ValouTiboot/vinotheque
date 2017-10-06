@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80708
+    [IdTransaction] => b73d49b1c3014ea4827da9eed2dc68b4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34446] => Array
+                                (
+                                    [notiers] => 34446
+                                    [lastname] => HOURDIN
+                                    [firstname] => Jean pierre
+                                    [email] => jp.hourdin@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1937-07-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45620
+                                                            [alias] => 41000 BLOIS
+                                                            [address1] => 4 BIS, JEAN BERNIER
+                                                            [address2] => 
+                                                            [city] => BLOIS
+                                                            [postcode] => 41000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => HOURDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45621
+                                                            [alias] => 41000 BLOIS
+                                                            [address1] => 4 BIS, JEAN BERNIER
+                                                            [address2] => 
+                                                            [city] => BLOIS
+                                                            [postcode] => 41000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => HOURDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

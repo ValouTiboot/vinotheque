@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76012
+    [IdTransaction] => b65ad468f1ec4ba7bf4c7338e1f821f2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34447] => Array
+                                (
+                                    [notiers] => 34447
+                                    [lastname] => AUVINET
+                                    [firstname] => Francoise
+                                    [email] => francoise.auvinet@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => courchevel
+                                    [birthday] => 1959-01-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45622
+                                                            [alias] => 53000 KLAVAL
+                                                            [address1] => 14, rue des fosses
+                                                            [address2] => 
+                                                            [city] => KLAVAL
+                                                            [postcode] => 53000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francoise
+                                                            [lastname] => AUVINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45623
+                                                            [alias] => 53000 LAVAL
+                                                            [address1] => 4, avenue des français libres
+                                                            [address2] => 
+                                                            [city] => LAVAL
+                                                            [postcode] => 53000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francoise
+                                                            [lastname] => AUVINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

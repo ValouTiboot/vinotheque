@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 679aa7ddbad1be61363f0ad93de57b4b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-26 15:08:40
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => emilie
+                                    [firstname] => emilie
+                                    [email] => emilie@emilie.com
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 1984-12-12
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [19] => Array
+                                                (
+                                                    [id_address] => 19
+                                                    [noadresse] => 
+                                                    [alias] => adresse de emilie
+                                                    [address1] => 17 rue emilie
+                                                    [address2] => 
+                                                    [city] => emilie
+                                                    [postcode] => 75017
+                                                    [phone] => 0132456789
+                                                    [phone_mobile] => 
+                                                    [company] => emilie
+                                                    [firstname] => emilie
+                                                    [lastname] => emilie
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

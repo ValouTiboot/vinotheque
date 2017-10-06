@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78282
+    [IdTransaction] => 09f7b548b41e4937b16ff99bfe46032d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30179] => Array
+                                (
+                                    [notiers] => 30179
+                                    [lastname] => COUTAREAU
+                                    [firstname] => Jean-arnold
+                                    [email] => ja.coutareau@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => coutareau123
+                                    [birthday] => 1971-06-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 82
+                                    [NbPointsRestants] => 82
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38397
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 34, Rue Mazarine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-arnold
+                                                            [lastname] => COUTAREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38398
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 34, rue Mazarine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-arnold
+                                                            [lastname] => COUTAREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

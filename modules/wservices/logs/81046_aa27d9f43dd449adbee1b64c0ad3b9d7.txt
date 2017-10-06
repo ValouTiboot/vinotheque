@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81046
+    [IdTransaction] => aa27d9f43dd449adbee1b64c0ad3b9d7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33698] => Array
+                                (
+                                    [notiers] => 33698
+                                    [lastname] => NOIROT
+                                    [firstname] => Yves
+                                    [email] => y-noirot@numericable.fr
+                                    [id_gender] => 1
+                                    [passwd] => torionsevy
+                                    [birthday] => 1936-08-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44317
+                                                            [alias] => 33170 GRADIGNAN
+                                                            [address1] => 34, allée du moulin de desclau
+                                                            [address2] => 
+                                                            [city] => GRADIGNAN
+                                                            [postcode] => 33170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => NOIROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44318
+                                                            [alias] => 33170 GRADIGNAN
+                                                            [address1] => 34, allée du moulin de desclau
+                                                            [address2] => 
+                                                            [city] => GRADIGNAN
+                                                            [postcode] => 33170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => NOIROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

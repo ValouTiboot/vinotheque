@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79221
+    [IdTransaction] => ba53a4f69541414db11c3165da834b1f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35629] => Array
+                                (
+                                    [notiers] => 35629
+                                    [lastname] => BLATEAU
+                                    [firstname] => Louis
+                                    [email] => louis.blateau@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 181818
+                                    [birthday] => 1987-05-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47568
+                                                            [alias] => 37110 CHATEAU-RENAULT
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CHATEAU-RENAULT
+                                                            [postcode] => 37110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => BLATEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47569
+                                                            [alias] => 37110 CHATEAU-RENAULT
+                                                            [address1] => 160, rue de la Republique
+                                                            [address2] => 
+                                                            [city] => CHATEAU-RENAULT
+                                                            [postcode] => 37110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => BLATEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

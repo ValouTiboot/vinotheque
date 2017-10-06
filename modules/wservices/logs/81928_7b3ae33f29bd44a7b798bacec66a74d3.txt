@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81928
+    [IdTransaction] => 7b3ae33f29bd44a7b798bacec66a74d3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30487] => Array
+                                (
+                                    [notiers] => 30487
+                                    [lastname] => MASSE
+                                    [firstname] => Yann
+                                    [email] => yann.masse.clement+123@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => yannmasse2105
+                                    [birthday] => 1988-05-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 140
+                                    [NbPointsRestants] => 140
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38937
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 07, RUE DESCOMBES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yann
+                                                            [lastname] => MASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38938
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 07, RUE DESCOMBES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yann
+                                                            [lastname] => MASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

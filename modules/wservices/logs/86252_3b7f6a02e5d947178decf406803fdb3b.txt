@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86252
+    [IdTransaction] => 3b7f6a02e5d947178decf406803fdb3b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35502] => Array
+                                (
+                                    [notiers] => 35502
+                                    [lastname] => GUILLEMAIN
+                                    [firstname] => Maurice
+                                    [email] => maurice.guillemain@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 10020000
+                                    [birthday] => 1953-04-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47368
+                                                            [alias] => 85100 SABLES-D'OLONNE
+                                                            [address1] => 7, Buandieres
+                                                            [address2] => 
+                                                            [city] => SABLES-D'OLONNE
+                                                            [postcode] => 85100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maurice
+                                                            [lastname] => GUILLEMAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47369
+                                                            [alias] => 85100 SABLES-D'OLONNE
+                                                            [address1] => 7, Buandieres
+                                                            [address2] => 
+                                                            [city] => SABLES-D'OLONNE
+                                                            [postcode] => 85100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maurice
+                                                            [lastname] => GUILLEMAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

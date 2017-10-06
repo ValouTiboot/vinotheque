@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82630
+    [IdTransaction] => 0305f0ed02a245918167a12c5d9ceabe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26166] => Array
+                                (
+                                    [notiers] => 26166
+                                    [lastname] => CARTON
+                                    [firstname] => Jean-baptiste
+                                    [email] => jean-baptiste.carton@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1988-02-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32262
+                                                            [alias] => 37270 MOULOUIS SUR LOIRE
+                                                            [address1] => 28 BIS, RUE D'AZAY
+                                                            [address2] => 
+                                                            [city] => MOULOUIS SUR LOIRE
+                                                            [postcode] => 37270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => CARTON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32263
+                                                            [alias] => 37300 JOUE-LES-TOURS
+                                                            [address1] => 11, RUE RENE COTY
+                                                            [address2] => 
+                                                            [city] => JOUE-LES-TOURS
+                                                            [postcode] => 37300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => CARTON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

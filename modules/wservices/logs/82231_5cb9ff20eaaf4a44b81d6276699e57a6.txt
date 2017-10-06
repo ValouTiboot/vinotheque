@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82231
+    [IdTransaction] => 5cb9ff20eaaf4a44b81d6276699e57a6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28614] => Array
+                                (
+                                    [notiers] => 28614
+                                    [lastname] => AUZOLAT
+                                    [firstname] => Jean-pierre
+                                    [email] => connaissanceduvin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 19471961
+                                    [birthday] => 1947-12-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 600
+                                    [NbPointsRestants] => 600
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36008
+                                                            [alias] => 30000 NIMES
+                                                            [address1] => 27, RUE DE SAINT GILLES
+                                                            [address2] => SAMUEL VINCENT
+                                                            [city] => NIMES
+                                                            [postcode] => 30000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => ASSOCIATION CONNAISSANCE DU VIN
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => AUZOLAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36009
+                                                            [alias] => 30900 NIMES
+                                                            [address1] => 16, CHEMIN DES COLLINES
+                                                            [address2] => 
+                                                            [city] => NIMES
+                                                            [postcode] => 30900
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => AUZOLAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

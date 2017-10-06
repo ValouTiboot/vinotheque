@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77046
+    [IdTransaction] => 44597351245e4769b301be01ce7bdf45
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33495] => Array
+                                (
+                                    [notiers] => 33495
+                                    [lastname] => DE BOURGOING
+                                    [firstname] => Silvia
+                                    [email] => silvbourg@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 2030718
+                                    [birthday] => 1960-11-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 171
+                                    [NbPointsRestants] => 171
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43959
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => 21, maréchal Lyautey
+                                                            [address2] => 
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Silvia
+                                                            [lastname] => DE BOURGOING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43960
+                                                            [alias] => 33100 BORDEAUX
+                                                            [address1] => 87, QUAI DE BRAZZA
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Silvia
+                                                            [lastname] => DE BOURGOING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

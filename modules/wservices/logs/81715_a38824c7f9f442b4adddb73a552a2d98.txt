@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81715
+    [IdTransaction] => a38824c7f9f442b4adddb73a552a2d98
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25875] => Array
+                                (
+                                    [notiers] => 25875
+                                    [lastname] => LAFAYE
+                                    [firstname] => Alice
+                                    [email] => alice.lafaye@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => finster33
+                                    [birthday] => 1982-08-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31841
+                                                            [alias] => 33770 SALLES
+                                                            [address1] => 1 ter, route de Bilos
+                                                            [address2] => 
+                                                            [city] => SALLES
+                                                            [postcode] => 33770
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alice
+                                                            [lastname] => LAFAYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31842
+                                                            [alias] => 33770 SALLES
+                                                            [address1] => 1 ter, route de Bilos
+                                                            [address2] => 
+                                                            [city] => SALLES
+                                                            [postcode] => 33770
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alice
+                                                            [lastname] => LAFAYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

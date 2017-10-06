@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74691
+    [IdTransaction] => ccf24878ac5e45dbb05a06dbbf41faba
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32467] => Array
+                                (
+                                    [notiers] => 32467
+                                    [lastname] => MOULINEC
+                                    [firstname] => Philippe
+                                    [email] => philippe.moulinec@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => erwan952
+                                    [birthday] => 1966-06-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 214
+                                    [NbPointsRestants] => 214
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42244
+                                                            [alias] => 95320 SAINT-LEU-LA-FORET
+                                                            [address1] => 2, RUE FRANCOIS COUPERIN
+                                                            [address2] => 
+                                                            [city] => SAINT-LEU-LA-FORET
+                                                            [postcode] => 95320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MOULINEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42245
+                                                            [alias] => 29760 PENMARC H
+                                                            [address1] => 43, RUE DES JONQUILLES
+                                                            [address2] => 
+                                                            [city] => PENMARC H
+                                                            [postcode] => 29760
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MOULINEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

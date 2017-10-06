@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82468
+    [IdTransaction] => 74b66f957964475c971dd50ea1807403
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31195] => Array
+                                (
+                                    [notiers] => 31195
+                                    [lastname] => THIBAULT
+                                    [firstname] => Barbara
+                                    [email] => babthib@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 300877
+                                    [birthday] => 1977-08-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1371
+                                    [NbPointsRestants] => 1371
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40157
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 46, avenue Kléber
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => THIBAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40158
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 46, avenue kleber
+                                                            [address2] => 2eme etage
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => THIBAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

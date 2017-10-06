@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81088
+    [IdTransaction] => c1c9abc76837491a81639451788a78cc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28647] => Array
+                                (
+                                    [notiers] => 28647
+                                    [lastname] => GAUCHOT
+                                    [firstname] => Georges alain
+                                    [email] => lgag@club.fr
+                                    [id_gender] => 1
+                                    [passwd] => St05balT
+                                    [birthday] => 1968-06-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 59
+                                    [NbPointsRestants] => 59
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36066
+                                                            [alias] => 20169 BONIFACIO
+                                                            [address1] => Capo di Figu
+                                                            [address2] => 
+                                                            [city] => BONIFACIO
+                                                            [postcode] => 20169
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges alain
+                                                            [lastname] => GAUCHOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36067
+                                                            [alias] => 37540 SAINT-CYR-SUR-LOIRE
+                                                            [address1] => 26, Quai des Maisons Blanches
+                                                            [address2] => 
+                                                            [city] => SAINT-CYR-SUR-LOIRE
+                                                            [postcode] => 37540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges alain
+                                                            [lastname] => GAUCHOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

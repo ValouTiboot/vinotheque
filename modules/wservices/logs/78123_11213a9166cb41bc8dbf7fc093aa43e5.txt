@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78123
+    [IdTransaction] => 11213a9166cb41bc8dbf7fc093aa43e5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30100] => Array
+                                (
+                                    [notiers] => 30100
+                                    [lastname] => BRASSEUR
+                                    [firstname] => Philippe
+                                    [email] => brassphilo@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mamlopa
+                                    [birthday] => 1955-05-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 37
+                                    [NbPointsRestants] => 37
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38252
+                                                            [alias] => 7500 TOURNAI
+                                                            [address1] => 124, chee de Lille Tournai
+                                                            [address2] => 
+                                                            [city] => TOURNAI
+                                                            [postcode] => 7500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BRASSEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38253
+                                                            [alias] => 7500 TOURNAI
+                                                            [address1] => 124, Chee de Lille Tournai
+                                                            [address2] => 
+                                                            [city] => TOURNAI
+                                                            [postcode] => 7500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BRASSEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77212
+    [IdTransaction] => 476cb944ce094d83b529588ddc1bfada
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33453] => Array
+                                (
+                                    [notiers] => 33453
+                                    [lastname] => ROUYER
+                                    [firstname] => Angeline
+                                    [email] => angelesses@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => spa54lorraine
+                                    [birthday] => 1981-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 15
+                                    [NbPointsRestants] => 15
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43870
+                                                            [alias] => 54113 BULLIGNY
+                                                            [address1] => 25, Rue du bois la dame
+                                                            [address2] => 
+                                                            [city] => BULLIGNY
+                                                            [postcode] => 54113
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Angeline
+                                                            [lastname] => ROUYER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43881
+                                                            [alias] => 54280 CHAMPENOUX
+                                                            [address1] => 6, Impasse de la bergerie
+                                                            [address2] => 
+                                                            [city] => CHAMPENOUX
+                                                            [postcode] => 54280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Angeline
+                                                            [lastname] => ROUYER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

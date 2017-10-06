@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77948
+    [IdTransaction] => 168fd42099444cf3b2bd3e54e5a2bee4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35544] => Array
+                                (
+                                    [notiers] => 35544
+                                    [lastname] => VILMOT
+                                    [firstname] => Sebastien
+                                    [email] => sebvilmot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => chavez
+                                    [birthday] => 1980-08-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 136
+                                    [NbPointsRestants] => 136
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47432
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 2, Francisque sarcey Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => VILMOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47433
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 2, Francisque sarcey Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => VILMOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

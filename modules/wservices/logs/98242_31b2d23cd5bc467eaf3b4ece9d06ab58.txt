@@ -1,0 +1,370 @@
+Array
+(
+    [NoJSON] => 98242
+    [IdTransaction] => 31b2d23cd5bc467eaf3b4ece9d06ab58
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2014000552] => Array
+                                (
+                                    [reference] => M2014000552
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 40133|130
+                                    [active] => 1
+                                    [name] => MOULIN D'ISSAN
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => issan.jpg
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => D’une complexité aromatique plus soutenue, les vins d’appellation Bordeaux supérieur résultent de l’expression de fruit bien mûr, d’arômes floraux, de notes épicées telles que la rose poivrée et parfois boisées telles que le cèdre. Cette palette aromatique plus étendue donne à ces vins plus de puissance et des tannins plus solides ce qui leur permet d’avoir un potentiel d’évolution intéressant. Ils sont néanmoins élaborés avec les mêmes cépages que les vins d’appellation Bordeaux mais sont parfois élevés en fûts de chêne.
+                                    [property] => 3ème Cru Classé, le Château d'Issan, est l'un des plus anciens vignobles du Médoc. Son histoire remonte en effet à l'époque de l'occupation de la Guyenne par les Anglais. Propriété successive de plusieurs familles productrices de vins dont les noms se lisent comme ceux d'un Who's Who à Bordeaux (Ségur - d'Essenault - De Foy-Candale avant la Révolution de 1789;  Duluc- Blanchy- Roy au XIXe siècle), le domaine a reçu au fil des ans les plus hautes récompenses et la faveur aussi bien des amateurs de vins que des chefs d'Etat. L'emblème du château est la suivante : `Pour la table des rois et l'autel des dieux`. (Regum mensis arisque deorum)
+                                    [description] => Moulin d'Issan est un excellent bordeaux Supérieur, souvent récompensé par la presse internationale. Le vin est rond, souple et riche en tanins. Long et élégant, d'un bon rapport qualité/prix, il est charmeur dès la mise en bouteilles. Il est l'un des rares Bordeaux Supérieurs à passer 14 mois en barriques.
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Bordeaux Supérieur
+                                            [2] => Mini-boutique
+                                            [3] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Charcuterie
+                                            [1] => Viande blanche grillée
+                                            [2] => Cakes, quiches et feuilletés
+                                            [3] => Fromage à pâte dure
+                                            [4] => Viande rouge grillée
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => moulin-issan.jpg
+                                                            [legend] => MOULIN D'ISSAN
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40133
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 40133
+                                                            [reference] => M2014000552
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 10.0000
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux Supérieur
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 90% Merlot
+                                                                    [1] => 10% Cabernet Sauvignon
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2014
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

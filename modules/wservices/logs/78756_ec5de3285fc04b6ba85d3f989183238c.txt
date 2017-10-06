@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78756
+    [IdTransaction] => ec5de3285fc04b6ba85d3f989183238c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26092] => Array
+                                (
+                                    [notiers] => 26092
+                                    [lastname] => MOLET
+                                    [firstname] => Jordy
+                                    [email] => jordyperso@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => MAKIKIE&(
+                                    [birthday] => 1984-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 146
+                                    [NbPointsRestants] => 146
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32166
+                                                            [alias] => 10420 NOES-PRES-TROYES
+                                                            [address1] => 23, camille desmoulins
+                                                            [address2] => 
+                                                            [city] => NOES-PRES-TROYES
+                                                            [postcode] => 10420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jordy
+                                                            [lastname] => MOLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32167
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 39 B, du fils
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jordy
+                                                            [lastname] => MOLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

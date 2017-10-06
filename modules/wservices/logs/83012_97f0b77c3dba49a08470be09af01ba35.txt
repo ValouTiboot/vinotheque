@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83012
+    [IdTransaction] => 97f0b77c3dba49a08470be09af01ba35
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23047] => Array
+                                (
+                                    [notiers] => 23047
+                                    [lastname] => CASSAGNE
+                                    [firstname] => Sandra
+                                    [email] => sandra.cdv@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => tsarus
+                                    [birthday] => 1969-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30054
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 25, av de l'epinette
+                                                            [address2] => 9 Rés jardins de l'epinette Bat A
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sandra
+                                                            [lastname] => CASSAGNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30055
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 25, av de l'epinette
+                                                            [address2] => 9 Rés jardins de l'epinette Bat A
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sandra
+                                                            [lastname] => CASSAGNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

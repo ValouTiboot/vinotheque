@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74724
+    [IdTransaction] => d1bbeeaa73c3480fa253696a464b9e6c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30447] => Array
+                                (
+                                    [notiers] => 30447
+                                    [lastname] => MARTIN
+                                    [firstname] => Berengere
+                                    [email] => stephanie.gaudet@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => gabines
+                                    [birthday] => 1979-09-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 31
+                                    [NbPointsRestants] => 31
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38865
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 30, ALLEE HAUSMANN
+                                                            [address2] => APPT 123 BAT D
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Berengere
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38866
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 30, ALLEE HAUSMANN
+                                                            [address2] => APPT 123 BAT D
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Berengere
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

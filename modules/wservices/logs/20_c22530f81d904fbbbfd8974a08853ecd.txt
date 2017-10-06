@@ -1,0 +1,63 @@
+Array
+(
+    [NoJSON] => 20
+    [IdTransaction] => c22530f81d904fbbbfd8974a08853ecd
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36444] => Array
+                                (
+                                    [notiers] => 36444
+                                    [lastname] => TEST NOM 1 JSON 3 P
+                                    [firstname] => Test Prénom 1 JSON 3 U
+                                    [email] => testnom1json3@test.te
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 2017-01-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 1
+                                    [newsletter] => 1
+                                    [siret] => 142 514 545 15412
+                                    [ape] => 1545 K
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [48909] => Array
+                                                        (
+                                                            [noadresse] => 48909
+                                                            [alias] => BRIVE-LA-GAILLARDE FRANCE
+                                                            [address1] => rue de l'adresse 1 U
+                                                            [address2] => rue de l'adresse 2 U
+                                                            [city] => BRIVE-LA-GAILLARDE
+                                                            [postcode] => 19100
+                                                            [phone] => 5142536859
+                                                            [phone_mobile] => 
+                                                            [company] => test adresse 1 JSON 3 U
+                                                            [firstname] => Test Prénom 1 JSON 3 U
+                                                            [lastname] => TEST NOM 1 JSON 3 P
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                            [rank] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,415 @@
+Array
+(
+    [NoJSON] => 98726
+    [IdTransaction] => a9843684c0e04a4d9c1302069abd89d7
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016000295] => Array
+                                (
+                                    [reference] => M2016000295
+                                    [id_second_wine] => M2016000300
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 41871|130
+                                    [active] => 1
+                                    [name] => Château GRAND-PUY-LACOSTE
+                                    [wine] => 1
+                                    [wine_date] => 2017-06-01 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => grand-puy-lacoste.jpg
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Une concentration de grands vins puisque 3 des 5 premiers crus classés en 1855 sont issus de l’appellation Pauillac (1204 hectares). Ces vins qui allient la finesse de la sève et le pouvoir corsé des tannins, font appel à une palette aromatique incroyablement riche : cerise noire, réglisse, griotte, rose, iris, fumé, etc. qui rend chaque dégustation unique. C’est un vin qui, en vieillissant, révèlera peu à peu son bouquet et sa finesse. 
+                                    [property] => Retenu par la fameuse classification de 1855, le Château Grand Puy Lacoste occupe une place à part dans l'histoire des grands crus bordelais. Son origine remonte au début du XVIè siècle. Le nom de `Grand Puy` lui vient de sa situation sur une éminence et le domaine tient sa composante `Lacoste` du début du XVIIIè siècle, quand il fut acheté par la famille du même nom qui le conserva jusqu'à l'épidémie de phylloxéra à la fin du XIXè siècle.rnMais son image fut surtout marquée par un notable pauillacais hors du commun, figure originale, bon vivant, qui en fut le propriétaire jusqu'en 1978 : Raymond Dupin. Avant sa mort en 1980, il cède 90 hectares , au Sud de Pauillac, à la famille BORIE dont il connaissait la rigueur d'exploitation. rnC'est aujourd'hui François-Xavier BORIE qui en est responsable. Il est à l'origine de la rénovation complète des vieilles caves du domain, qui ont pu être achevées à temps pour élaborer le très grand millésime : 1982. La vinification et l'élevage des vins du Château Grand-Puy Lacoste font l'objet de soins très attentifs, constants et méticuleux.
+                                    [description] => Les vins de Grand-Puy-Lacoste, colorés, tanniques, séveux et corsés, sont considérés comme le type parfait d'un Pauillac classique. 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Pauillac
+                                            [1] => Primeurs
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Gibier
+                                            [1] => Viande blanche grillée
+                                            [2] => Fromage à pâte dure
+                                            [3] => Viande rouge grillée
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-grand-puy-lacoste-001.jpg
+                                                            [legend] => CH. GRAND PUY LACOSTE         
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41871
+                                                                    [1] => 42198
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-grand-puy-lacoste-002.jpg
+                                                            [legend] => CH. GRAND PUY LACOSTE         
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41871
+                                                                    [1] => 42198
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [url] => chateau-grand-puy-lacoste-003.jpg
+                                                            [legend] => CH. GRAND PUY LACOSTE         
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41871
+                                                                    [1] => 42198
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [url] => chateau-grand-puy-lacoste-004.jpg
+                                                            [legend] => CH. GRAND PUY LACOSTE         
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41871
+                                                                    [1] => 42198
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41871
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 70.0000
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41871
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 70.0000
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41871
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 70.0000
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41871
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 70.0000
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 41871
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 70.0000
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42198
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 140.0000
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42198
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 140.0000
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42198
+                                                            [reference] => M2016000295
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 140.0000
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Pauillac
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 5ème cru classé
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 12.500
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Enthusiast 92-94
+                                                                    [1] => Wine Advocate  (Neal Martin) 95-97
+                                                                    [2] => James Suckling 96-97
+                                                                    [3] => Wine spectator 94-97
+                                                                    [4] => René Gabriel 18
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

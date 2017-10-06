@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75609
+    [IdTransaction] => ceb2bb4c12ad422d836c78057dae3feb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26116] => Array
+                                (
+                                    [notiers] => 26116
+                                    [lastname] => SPAGIN
+                                    [firstname] => Davyd
+                                    [email] => socarr@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => azerty92
+                                    [birthday] => 1965-06-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32200
+                                                            [alias] => 95100 ARGENTEUIL
+                                                            [address1] => 13, lucien barbier
+                                                            [address2] => 
+                                                            [city] => ARGENTEUIL
+                                                            [postcode] => 95100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davyd
+                                                            [lastname] => SPAGIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32201
+                                                            [alias] => 95100 ARGENTEUIL
+                                                            [address1] => 13, lucien barbier
+                                                            [address2] => 
+                                                            [city] => ARGENTEUIL
+                                                            [postcode] => 95100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davyd
+                                                            [lastname] => SPAGIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

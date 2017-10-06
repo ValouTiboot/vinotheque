@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76665
+    [IdTransaction] => bab6f6a05a19476fa63d150452b598ca
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33749] => Array
+                                (
+                                    [notiers] => 33749
+                                    [lastname] => GARLAIN
+                                    [firstname] => Malko
+                                    [email] => mgarlain@tmt.fr
+                                    [id_gender] => 1
+                                    [passwd] => taraceta
+                                    [birthday] => 1972-04-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 1400
+                                    [NbPointsAcquits] => 4382
+                                    [NbPointsRestants] => 2982
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44417
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Malko
+                                                            [lastname] => GARLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44418
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => 32, Rue Hennemont
+                                                            [address2] => 
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Malko
+                                                            [lastname] => GARLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

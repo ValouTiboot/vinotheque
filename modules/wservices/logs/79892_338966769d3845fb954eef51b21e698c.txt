@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79892
+    [IdTransaction] => 338966769d3845fb954eef51b21e698c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34675] => Array
+                                (
+                                    [notiers] => 34675
+                                    [lastname] => ARENY
+                                    [firstname] => Mathilde
+                                    [email] => mathilde.areny@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1998-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46024
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 269, cours de la somme
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => ARENY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46025
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 269, cours de la somme
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => ARENY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

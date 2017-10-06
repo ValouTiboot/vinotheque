@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76312
+    [IdTransaction] => 38b7dd1a20b645989addc498b3a93321
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26538] => Array
+                                (
+                                    [notiers] => 26538
+                                    [lastname] => TOMAS
+                                    [firstname] => Yvette
+                                    [email] => tomas.yvette@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => oranie
+                                    [birthday] => 1950-05-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 40
+                                    [NbPointsRestants] => 40
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32780
+                                                            [alias] => 31790 SAINT-JORY
+                                                            [address1] => 2, CHEMIN DE TRINCHET
+                                                            [address2] => 33 D
+                                                            [city] => SAINT-JORY
+                                                            [postcode] => 31790
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yvette
+                                                            [lastname] => TOMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32781
+                                                            [alias] => 83700 SAINT-RAPHAEL
+                                                            [address1] => 371, AVENUE JUPITER
+                                                            [address2] => LES JARDINS DE DIANE
+                                                            [city] => SAINT-RAPHAEL
+                                                            [postcode] => 83700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yvette
+                                                            [lastname] => TOMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

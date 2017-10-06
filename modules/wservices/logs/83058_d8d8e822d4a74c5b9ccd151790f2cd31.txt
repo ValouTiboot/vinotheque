@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83058
+    [IdTransaction] => d8d8e822d4a74c5b9ccd151790f2cd31
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32454] => Array
+                                (
+                                    [notiers] => 32454
+                                    [lastname] => TILLARD
+                                    [firstname] => Aurélie
+                                    [email] => atillard@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => Marypoppins33
+                                    [birthday] => 1986-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42219
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 45, COURS D'ALSACE ET LORRAINE
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélie
+                                                            [lastname] => TILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42220
+                                                            [alias] => 17270 MONTGUYON
+                                                            [address1] => Paresse
+                                                            [address2] => 
+                                                            [city] => MONTGUYON
+                                                            [postcode] => 17270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélie
+                                                            [lastname] => TILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

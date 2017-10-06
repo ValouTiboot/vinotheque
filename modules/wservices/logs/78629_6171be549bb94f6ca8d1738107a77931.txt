@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78629
+    [IdTransaction] => 6171be549bb94f6ca8d1738107a77931
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26299] => Array
+                                (
+                                    [notiers] => 26299
+                                    [lastname] => JARDILLIER
+                                    [firstname] => Marie-noëlle
+                                    [email] => mnjardillier@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => rififi
+                                    [birthday] => 1950-12-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 60
+                                    [NbPointsRestants] => 60
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32448
+                                                            [alias] => 03000 MOULINS
+                                                            [address1] => 26, Impasse de la Mûrière
+                                                            [address2] => 
+                                                            [city] => MOULINS
+                                                            [postcode] => 03000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-noëlle
+                                                            [lastname] => JARDILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32449
+                                                            [alias] => 03000 MOULINS
+                                                            [address1] => 26, Impasse de la Mûrière
+                                                            [address2] => 
+                                                            [city] => MOULINS
+                                                            [postcode] => 03000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-noëlle
+                                                            [lastname] => JARDILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

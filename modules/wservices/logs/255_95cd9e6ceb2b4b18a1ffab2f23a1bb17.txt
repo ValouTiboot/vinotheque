@@ -1,0 +1,439 @@
+Array
+(
+    [NoJSON] => 255
+    [IdTransaction] => 95cd9e6ceb2b4b18a1ffab2f23a1bb17
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016000955] => Array
+                                (
+                                    [reference] => M2016000955
+                                    [id_second_wine] => 
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 
+                                    [active] => 1
+                                    [name] => CH. MOULIN SAINT GEORGES
+                                    [wine] => 1
+                                    [wine_date] => 2017-05-04 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Les appellations Saint-Emilion et Saint-Emilion Grand Cru sont géographiquement entrelacées. Elles s’étendent sur neuf communes dont la simple énumération fait déjà rêver. La première est Saint-Emilion, qui constitue l’épicentre du vignoble depuis l’arrivée des moines au VIIIe siècle. Les villages de Saint-Christophe-des-Bardes, Saint-Etienne-de-Lisse, Saint-Hippolyte, Saint-Laurent-des-Combes, Saint-Pey-d’Armens, Saint-Sulpice-de-Faleyrens et Vignonet complètent ce tableau, auquel s'ajoute, pour partie, Libourne. Les domaines, d'une superficie moyenne de 8 ha, comptent en moyenne 65 % de Merlot. Grâce à un terroir riche, chaque propriété produit un vin aux caractéristiques uniques.
+                                    [property] => Situé à 200 mètres de la cité de Saint Emilion, ce vignoble de 7 hectares appartient à la famille Vauthier, propriétaire du Château Ausone, depuis l'aube de ce siècle.  Cultivé avec soin, le château Moulin Saint Georges produit un vin carré et charpenté qui possède une grande aptitude au vieillissement.
+                                    [description] => 
+                                    [description_short] => CH. MOULIN SAINT GEORGES
+                                    [categories] => Array
+                                        (
+                                            [0] => Primeurs
+                                            [1] => Rouge
+                                            [2] => Saint-Émilion Grand Cru
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-moulin-saint-georges.jpg
+                                                            [legend] => CH. MOULIN SAINT GEORGES
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41973
+                                                                    [1] => 42275
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 3,7
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,3
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0,3
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 1,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2,75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 16
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 8,3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [id_product_attribute] => 41973
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 27,5
+                                                            [packaging_weight] => 1,5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [id_product_attribute] => 42275
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 55
+                                                            [packaging_weight] => 21
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,5
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [id_product_attribute] => 42275
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 55
+                                                            [packaging_weight] => 10
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [id_product_attribute] => 42275
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 55
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 3
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [id_product_attribute] => 42275
+                                                            [reference] => M2016000955
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 55
+                                                            [packaging_weight] => 18
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Saint-Émilion Grand Cru
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => -
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Enthusiast 91-93
+                                                                    [1] => Wine Advocate  (Neal Martin) 90-92
+                                                                    [2] => James Suckling 90-91
+                                                                    [3] => Antonio Galloni (Vinous) 88-91
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

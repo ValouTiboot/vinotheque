@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82153
+    [IdTransaction] => 80e2874aaee243e88b9549527be8ce2e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30626] => Array
+                                (
+                                    [notiers] => 30626
+                                    [lastname] => DUTREUILH
+                                    [firstname] => Damien
+                                    [email] => damien.dutreuilh@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => lensois33
+                                    [birthday] => 1989-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 210
+                                    [NbPointsRestants] => 210
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39178
+                                                            [alias] => 33160 SAINT-MEDARD-EN-JALLES
+                                                            [address1] => 1, ALLEE DES MELEZES
+                                                            [address2] => 
+                                                            [city] => SAINT-MEDARD-EN-JALLES
+                                                            [postcode] => 33160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => DUTREUILH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39179
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 63, RUE MOUNEYRA
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => DUTREUILH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79510
+    [IdTransaction] => 003eee85b4f84b5cbe81d131a63b08dd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32558] => Array
+                                (
+                                    [notiers] => 32558
+                                    [lastname] => DESNERCK
+                                    [firstname] => Vincent
+                                    [email] => vincent@dmk-france.fr
+                                    [id_gender] => 1
+                                    [passwd] => Bullit1963
+                                    [birthday] => 1963-02-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 163
+                                    [NbPointsRestants] => 163
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42398
+                                                            [alias] => 59910 BONDUES
+                                                            [address1] => Rue Jean Baptiste Lebas
+                                                            [address2] => Parc d'activité du Vert Bois Immeuble Papillon
+                                                            [city] => BONDUES
+                                                            [postcode] => 59910
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => DESNERCK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42399
+                                                            [alias] => 59910 BONDUES
+                                                            [address1] => Rue Jean Baptiste Lebas
+                                                            [address2] => Parc d'activité du Vert Bois Immeuble Papillon
+                                                            [city] => BONDUES
+                                                            [postcode] => 59910
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => DESNERCK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

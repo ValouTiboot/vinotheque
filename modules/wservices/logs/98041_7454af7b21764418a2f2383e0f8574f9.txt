@@ -1,0 +1,502 @@
+Array
+(
+    [NoJSON] => 98041
+    [IdTransaction] => 7454af7b21764418a2f2383e0f8574f9
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M1984000832] => Array
+                                (
+                                    [reference] => M1984000832
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 37660|130
+                                    [active] => 1
+                                    [name] => Château LA TOUR BLANCHE
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 1987-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Cette appellation s'étend sur 1751 hectares. La plus prestigieuse des appellations de liquoreux produit des vins dont la robe est teintée d’or, à l’image du plus mythique des Sauternes, le premier cru classé supérieur, Château d’Yquem. Le nez exhale des arômes d’amande, de coing, de mangue, d’abricot sec associés à des notes florales d’acacia ou encore de mimosa. Nectar intense, puissant, onctueux, le Sauternes est l’un des rares vins à proposer en bouche une palette aromatique si complexe, presque magique.
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Blanc
+                                            [1] => Bordeaux
+                                            [2] => Sauternes
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Fruits frais
+                                            [1] => Fromage bleu
+                                            [2] => Fromage à pâte dure
+                                            [3] => Viande blanche grillée
+                                            [4] => Gibier
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-la-tour-blanche-blanc-001.jpg
+                                                            [legend] => CH. LA TOUR BLANCHE           
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 37659
+                                                                    [1] => 37660
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37659
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [cle] => 13
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [cle] => 14
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [cle] => 15
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [16] => Array
+                                                        (
+                                                            [cle] => 16
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37660
+                                                            [reference] => M1984000832
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 91.9732
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 4
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Sauternes
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 1er cru classé
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 14.000
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 1984
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 9-10°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

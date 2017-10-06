@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75313
+    [IdTransaction] => c5fbe8cfb4bb49cf994341105503b3a1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28425] => Array
+                                (
+                                    [notiers] => 28425
+                                    [lastname] => RAFFESTIN
+                                    [firstname] => Yann
+                                    [email] => raffestin.yann@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => petrus
+                                    [birthday] => 1973-07-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 210
+                                    [NbPointsRestants] => 210
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35706
+                                                            [alias] => 95190 FONTENAY-EN-PARISIS
+                                                            [address1] => 34, Rue Jean Monnet
+                                                            [address2] => 
+                                                            [city] => FONTENAY-EN-PARISIS
+                                                            [postcode] => 95190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yann
+                                                            [lastname] => RAFFESTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35707
+                                                            [alias] => 95190 FONTENAY-EN-PARISIS
+                                                            [address1] => 34, Rue Jean Monnet
+                                                            [address2] => 
+                                                            [city] => FONTENAY-EN-PARISIS
+                                                            [postcode] => 95190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yann
+                                                            [lastname] => RAFFESTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

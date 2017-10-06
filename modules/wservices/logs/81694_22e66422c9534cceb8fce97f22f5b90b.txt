@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81694
+    [IdTransaction] => 22e66422c9534cceb8fce97f22f5b90b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32529] => Array
+                                (
+                                    [notiers] => 32529
+                                    [lastname] => DUMARTIN
+                                    [firstname] => Julie
+                                    [email] => dumartin.aline@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => julie40
+                                    [birthday] => 1989-09-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42351
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 108 bis, cours saint Louis
+                                                            [address2] => rdc 001 B2
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julie
+                                                            [lastname] => DUMARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42352
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 108 bis, cours saint Louis
+                                                            [address2] => rdc 001 B2
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julie
+                                                            [lastname] => DUMARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

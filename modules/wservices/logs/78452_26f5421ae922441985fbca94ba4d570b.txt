@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78452
+    [IdTransaction] => 26f5421ae922441985fbca94ba4d570b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23101] => Array
+                                (
+                                    [notiers] => 23101
+                                    [lastname] => COUVET
+                                    [firstname] => Jacques
+                                    [email] => couv@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 06nana06160
+                                    [birthday] => 1944-03-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 71
+                                    [NbPointsRestants] => 71
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30131
+                                                            [alias] => 06160 JUAN LES PINS
+                                                            [address1] => 6, avenue des cedres
+                                                            [address2] => 3 ème étage
+                                                            [city] => JUAN LES PINS
+                                                            [postcode] => 06160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => COUVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30132
+                                                            [alias] => 06160 JUAN LES PINS
+                                                            [address1] => 6, avenue des cedres
+                                                            [address2] => 3 ème étage
+                                                            [city] => JUAN LES PINS
+                                                            [postcode] => 06160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => COUVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83378
+    [IdTransaction] => 8b67c618c3ef4e67b935e1ca4bd780a1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25880] => Array
+                                (
+                                    [notiers] => 25880
+                                    [lastname] => LAPINE
+                                    [firstname] => Guillaume
+                                    [email] => guillaume.lapine@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => ossau64
+                                    [birthday] => 1984-11-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 286
+                                    [NbPointsRestants] => 286
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31851
+                                                            [alias] => 64110 MAZERES-LEZONS
+                                                            [address1] => 8, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => MAZERES-LEZONS
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => LAPINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31852
+                                                            [alias] => 64110 MAZERES-LEZONS
+                                                            [address1] => 8, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => MAZERES-LEZONS
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => LAPINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

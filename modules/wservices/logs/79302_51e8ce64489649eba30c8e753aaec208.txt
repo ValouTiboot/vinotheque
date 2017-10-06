@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79302
+    [IdTransaction] => 51e8ce64489649eba30c8e753aaec208
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33704] => Array
+                                (
+                                    [notiers] => 33704
+                                    [lastname] => LECOU
+                                    [firstname] => Yves
+                                    [email] => yves.lecou321@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => moisdon321
+                                    [birthday] => 1942-08-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44321
+                                                            [alias] => 44700 ORVAULT
+                                                            [address1] => 22, Ave. de La PRAUDIERE
+                                                            [address2] => 
+                                                            [city] => ORVAULT
+                                                            [postcode] => 44700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => LECOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44330
+                                                            [alias] => 44700 ORVAULT
+                                                            [address1] => 22, Ave. de La PRAUDIERE
+                                                            [address2] => 
+                                                            [city] => ORVAULT
+                                                            [postcode] => 44700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => LECOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

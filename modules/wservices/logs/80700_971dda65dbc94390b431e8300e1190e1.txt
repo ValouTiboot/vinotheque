@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80700
+    [IdTransaction] => 971dda65dbc94390b431e8300e1190e1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32949] => Array
+                                (
+                                    [notiers] => 32949
+                                    [lastname] => GERGELY
+                                    [firstname] => Nicolas
+                                    [email] => nicolas.gergely@glg.fr
+                                    [id_gender] => 1
+                                    [passwd] => philippe
+                                    [birthday] => 1946-07-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 419
+                                    [NbPointsRestants] => 419
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42981
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 7, claude bernard paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => GERGELY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42982
+                                                            [alias] => 13001 MARSEILLE
+                                                            [address1] => 38, sainte
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => GERGELY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

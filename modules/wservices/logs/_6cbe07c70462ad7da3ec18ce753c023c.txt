@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 6cbe07c70462ad7da3ec18ce753c023c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-09-11 15:28:51
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => Bbb
+                                    [firstname] => Aaa
+                                    [email] => ccc@yopmail.com
+                                    [id_gender] => 0
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [1] => Array
+                                                (
+                                                    [id_address] => 1
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 17 rue du test
+                                                    [address2] => 
+                                                    [city] => Paris
+                                                    [postcode] => 75017
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Aaa
+                                                    [lastname] => Bbb
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

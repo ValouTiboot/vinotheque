@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81801
+    [IdTransaction] => fbcdd583f1dd4a42916861deb943a886
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29107] => Array
+                                (
+                                    [notiers] => 29107
+                                    [lastname] => CANIVET
+                                    [firstname] => Nathalie
+                                    [email] => nathalie.canivet@budget-box.com
+                                    [id_gender] => 1
+                                    [passwd] => argentine
+                                    [birthday] => 1967-09-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 400
+                                    [NbPointsRestants] => 400
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36779
+                                                            [alias] => 76800 SAINT-ETIENNE-DU-ROUVRAY
+                                                            [address1] => 50, RUE ETTORE BUGATTI
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE-DU-ROUVRAY
+                                                            [postcode] => 76800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nathalie
+                                                            [lastname] => CANIVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36780
+                                                            [alias] => 13170 PENNES-MIRABEAU
+                                                            [address1] => PLAN DE CAMPAGNE
+                                                            [address2] => CENTRE COMMERCIAL BARNEOUD
+                                                            [city] => PENNES-MIRABEAU
+                                                            [postcode] => 13170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nathalie
+                                                            [lastname] => CANIVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

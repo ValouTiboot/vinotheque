@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76628
+    [IdTransaction] => 2fe3ec8702f7434da3d4617efcd7bba7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29023] => Array
+                                (
+                                    [notiers] => 29023
+                                    [lastname] => SCHIERER
+                                    [firstname] => Henri
+                                    [email] => henri.schierer@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => retraite
+                                    [birthday] => 1944-04-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 70
+                                    [NbPointsRestants] => 70
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36654
+                                                            [alias] => 93220 GAGNY
+                                                            [address1] => 4, allee maison rouge
+                                                            [address2] => rdch porte 101 hlm
+                                                            [city] => GAGNY
+                                                            [postcode] => 93220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => SCHIERER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36655
+                                                            [alias] => 93220 GAGNY
+                                                            [address1] => 4, allee maison rouge gagny
+                                                            [address2] => rdch porte 101 hlm
+                                                            [city] => GAGNY
+                                                            [postcode] => 93220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Henri
+                                                            [lastname] => SCHIERER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

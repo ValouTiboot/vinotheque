@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82770
+    [IdTransaction] => f7806c6f40b54c4ea32119a0e6c4f47a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32875] => Array
+                                (
+                                    [notiers] => 32875
+                                    [lastname] => GOLITIN
+                                    [firstname] => Yves
+                                    [email] => taffine@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 123456
+                                    [birthday] => 1980-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42868
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 45, rue Lemercier
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => GOLITIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42869
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 45, rue Lemercier
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => GOLITIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

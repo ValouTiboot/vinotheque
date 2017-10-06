@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78662
+    [IdTransaction] => 6f7b0085ab7f4a73adbf6472f2aa718b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32455] => Array
+                                (
+                                    [notiers] => 32455
+                                    [lastname] => AGNIESZKA
+                                    [firstname] => Groth
+                                    [email] => aga.ag13@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Sebogroth13
+                                    [birthday] => 1974-07-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 192
+                                    [NbPointsRestants] => 192
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42221
+                                                            [alias] => 02829 MARKERSDORF
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => MARKERSDORF
+                                                            [postcode] => 02829
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Groth
+                                                            [lastname] => AGNIESZKA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42222
+                                                            [alias] => 02829 MARKERSDORF
+                                                            [address1] => Erlingheimer Ring 1
+                                                            [address2] => 
+                                                            [city] => MARKERSDORF
+                                                            [postcode] => 02829
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Groth
+                                                            [lastname] => AGNIESZKA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

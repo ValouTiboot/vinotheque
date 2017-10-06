@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74312
+    [IdTransaction] => e5d19b5c50414501bc219c04b791f5d2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32084] => Array
+                                (
+                                    [notiers] => 32084
+                                    [lastname] => BARTHELEMY
+                                    [firstname] => Laurence
+                                    [email] => laurencebarthelemy@numericable.fr
+                                    [id_gender] => 2
+                                    [passwd] => justine
+                                    [birthday] => 1973-09-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41629
+                                                            [alias] => 29200 BREST
+                                                            [address1] => 1, La chalotais
+                                                            [address2] => 
+                                                            [city] => BREST
+                                                            [postcode] => 29200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurence
+                                                            [lastname] => BARTHELEMY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41630
+                                                            [alias] => 51000 REIMS
+                                                            [address1] => 51 Bis, Coquebert
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurence
+                                                            [lastname] => BARTHELEMY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

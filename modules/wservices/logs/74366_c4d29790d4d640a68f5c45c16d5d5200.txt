@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74366
+    [IdTransaction] => c4d29790d4d640a68f5c45c16d5d5200
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23152] => Array
+                                (
+                                    [notiers] => 23152
+                                    [lastname] => MULARD
+                                    [firstname] => Marie
+                                    [email] => mariemu@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => 3452VIN3452
+                                    [birthday] => 1963-06-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 285
+                                    [NbPointsRestants] => 285
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30218
+                                                            [alias] => 40180 SAUGNAC-ET-CAMBRAN
+                                                            [address1] => 280, CONDORCET
+                                                            [address2] => 
+                                                            [city] => SAUGNAC-ET-CAMBRAN
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => MULARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30219
+                                                            [alias] => 40180 SAUGNAC-ET-CAMBRAN
+                                                            [address1] => 280, CONDORCET
+                                                            [address2] => 
+                                                            [city] => SAUGNAC-ET-CAMBRAN
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => MULARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

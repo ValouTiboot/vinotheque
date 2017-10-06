@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 70b207b2333f331e9d5785f7adfcc486
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-09-25 17:15:48
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [3] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => noel
+                                    [firstname] => lucie
+                                    [email] => valentin@yateo.com
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 
+                                    [newsletter] => 1
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [4] => Array
+                                                (
+                                                    [id_address] => 4
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 33 rue Linné
+                                                    [address2] => 
+                                                    [city] => Paris
+                                                    [postcode] => 75005
+                                                    [phone] => 158892736
+                                                    [phone_mobile] => 
+                                                    [company] => YATEO
+                                                    [firstname] => Lucie
+                                                    [lastname] => Noël
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

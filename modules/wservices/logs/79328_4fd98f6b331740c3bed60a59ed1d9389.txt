@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79328
+    [IdTransaction] => 4fd98f6b331740c3bed60a59ed1d9389
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35904] => Array
+                                (
+                                    [notiers] => 35904
+                                    [lastname] => CONSTANT
+                                    [firstname] => Matthias
+                                    [email] => matthiasconstant@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => BRIGITTE
+                                    [birthday] => 1991-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48011
+                                                            [alias] => 93110 ROSNY-SOUS-BOIS
+                                                            [address1] => 30, rue du général Leclerc Rosny-Sous-Bois
+                                                            [address2] => 
+                                                            [city] => ROSNY-SOUS-BOIS
+                                                            [postcode] => 93110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthias
+                                                            [lastname] => CONSTANT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48012
+                                                            [alias] => 93110 ROSNY-SOUS-BOIS
+                                                            [address1] => 30, rue du général Leclerc Rosny-Sous-Bois
+                                                            [address2] => 
+                                                            [city] => ROSNY-SOUS-BOIS
+                                                            [postcode] => 93110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthias
+                                                            [lastname] => CONSTANT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

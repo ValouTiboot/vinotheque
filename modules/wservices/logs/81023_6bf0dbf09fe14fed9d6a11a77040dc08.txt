@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81023
+    [IdTransaction] => 6bf0dbf09fe14fed9d6a11a77040dc08
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26961] => Array
+                                (
+                                    [notiers] => 26961
+                                    [lastname] => PAYELLE
+                                    [firstname] => François
+                                    [email] => francois.payelle@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => lonesome
+                                    [birthday] => 1958-02-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33465
+                                                            [alias] => 59223 RONCQ
+                                                            [address1] => 2, Rue VAN DER MEERSCH
+                                                            [address2] => Batiment 11
+                                                            [city] => RONCQ
+                                                            [postcode] => 59223
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => PAYELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33466
+                                                            [alias] => 59223 RONCQ
+                                                            [address1] => 25, Rue MESSAGER
+                                                            [address2] => 
+                                                            [city] => RONCQ
+                                                            [postcode] => 59223
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => PAYELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

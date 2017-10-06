@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77657
+    [IdTransaction] => 17cff82da1ae484ebb44fd5af6e3e284
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35290] => Array
+                                (
+                                    [notiers] => 35290
+                                    [lastname] => SYLVESTRE
+                                    [firstname] => Marie-laure
+                                    [email] => mlsylvestre@caramail.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1948-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 278
+                                    [NbPointsRestants] => 278
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46997
+                                                            [alias] => 42100 SAINT-ETIENNE
+                                                            [address1] => 7, RUE JOSEPH PUPIER
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-laure
+                                                            [lastname] => SYLVESTRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46998
+                                                            [alias] => 42100 SAINT-ETIENNE
+                                                            [address1] => 7, RUE JOSEPH PUPIER
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-laure
+                                                            [lastname] => SYLVESTRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

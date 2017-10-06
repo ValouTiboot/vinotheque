@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78583
+    [IdTransaction] => 884c4afcfbd547a9bf5ceb6cec4daa23
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33613] => Array
+                                (
+                                    [notiers] => 33613
+                                    [lastname] => CAHUZAC
+                                    [firstname] => Lise
+                                    [email] => lisecahuzac@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => cocobrazil
+                                    [birthday] => 1992-03-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 65
+                                    [NbPointsRestants] => 65
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44167
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 85, rue eugène ténot
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lise
+                                                            [lastname] => CAHUZAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44168
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 85, rue eugène ténot
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lise
+                                                            [lastname] => CAHUZAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

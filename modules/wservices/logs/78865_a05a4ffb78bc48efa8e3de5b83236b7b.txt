@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78865
+    [IdTransaction] => a05a4ffb78bc48efa8e3de5b83236b7b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31682] => Array
+                                (
+                                    [notiers] => 31682
+                                    [lastname] => WULKOW
+                                    [firstname] => Anne-gaele
+                                    [email] => anne-gaele@wulkow.net
+                                    [id_gender] => 2
+                                    [passwd] => kado
+                                    [birthday] => 1983-05-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41012
+                                                            [alias] => 76133 KARLSRUHE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => KARLSRUHE
+                                                            [postcode] => 76133
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne-gaele
+                                                            [lastname] => WULKOW
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41013
+                                                            [alias] => 33140 VILLENAVE-D'ORNON
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => VILLENAVE-D'ORNON
+                                                            [postcode] => 33140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne-gaele
+                                                            [lastname] => WULKOW
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

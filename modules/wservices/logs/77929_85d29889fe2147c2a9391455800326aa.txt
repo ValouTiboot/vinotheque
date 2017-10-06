@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77929
+    [IdTransaction] => 85d29889fe2147c2a9391455800326aa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30644] => Array
+                                (
+                                    [notiers] => 30644
+                                    [lastname] => CHARLOUX
+                                    [firstname] => Gaetan
+                                    [email] => gaetan.polo@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vinotheque12
+                                    [birthday] => 1971-03-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39211
+                                                            [alias] => 78730 SAINT-ARNOULT-EN-YVELINES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-ARNOULT-EN-YVELINES
+                                                            [postcode] => 78730
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaetan
+                                                            [lastname] => CHARLOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39212
+                                                            [alias] => 78730 SAINT-ARNOULT-EN-YVELINES
+                                                            [address1] => route d'ablis D988
+                                                            [address2] => 
+                                                            [city] => SAINT-ARNOULT-EN-YVELINES
+                                                            [postcode] => 78730
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaetan
+                                                            [lastname] => CHARLOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

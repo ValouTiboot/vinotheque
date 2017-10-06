@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79058
+    [IdTransaction] => 7214d6962c774d6aadef522560c38143
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32178] => Array
+                                (
+                                    [notiers] => 32178
+                                    [lastname] => BRUNEAU
+                                    [firstname] => Lucie
+                                    [email] => bruneau.lucie@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => lucieb
+                                    [birthday] => 1990-08-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41801
+                                                            [alias] => 95160 MONTMORENCY
+                                                            [address1] => 75, rue des Gallerands
+                                                            [address2] => 
+                                                            [city] => MONTMORENCY
+                                                            [postcode] => 95160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucie
+                                                            [lastname] => BRUNEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41802
+                                                            [alias] => 95160 MONTMORENCY
+                                                            [address1] => 75, rue des Gallerands
+                                                            [address2] => 
+                                                            [city] => MONTMORENCY
+                                                            [postcode] => 95160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucie
+                                                            [lastname] => BRUNEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

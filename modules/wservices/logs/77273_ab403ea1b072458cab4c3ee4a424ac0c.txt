@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77273
+    [IdTransaction] => ab403ea1b072458cab4c3ee4a424ac0c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30804] => Array
+                                (
+                                    [notiers] => 30804
+                                    [lastname] => GOURY
+                                    [firstname] => Guillaume
+                                    [email] => ggoury@procomputer.fr
+                                    [id_gender] => 1
+                                    [passwd] => mlkf56A13
+                                    [birthday] => 1979-12-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39496
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => 3, Allée Cervantes
+                                                            [address2] => Bat A
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => GOURY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39497
+                                                            [alias] => 13321 MARSEILLE CEDEX 16
+                                                            [address1] => 71, Av andrée Roussin BP50067
+                                                            [address2] => 
+                                                            [city] => MARSEILLE CEDEX 16
+                                                            [postcode] => 13321
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => GOURY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

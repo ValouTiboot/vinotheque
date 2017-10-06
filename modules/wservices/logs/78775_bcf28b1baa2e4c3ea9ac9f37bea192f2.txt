@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78775
+    [IdTransaction] => bcf28b1baa2e4c3ea9ac9f37bea192f2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30832] => Array
+                                (
+                                    [notiers] => 30832
+                                    [lastname] => LACLIDE
+                                    [firstname] => Eric
+                                    [email] => ericlaclide@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => qwer1234
+                                    [birthday] => 1968-11-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39544
+                                                            [alias] => 75004 PARIS
+                                                            [address1] => 21, Boulevard Henri IV
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75004
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => LACLIDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39545
+                                                            [alias] => 17520 LONZAC
+                                                            [address1] => 23, Galiot de Genouillac
+                                                            [address2] => 
+                                                            [city] => LONZAC
+                                                            [postcode] => 17520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => LACLIDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

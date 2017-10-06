@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74548
+    [IdTransaction] => b016390161e2416f87494d5c0f9bebc1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28616] => Array
+                                (
+                                    [notiers] => 28616
+                                    [lastname] => GLICKMAN
+                                    [firstname] => Joshua
+                                    [email] => joshglickman@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1970-02-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 958
+                                    [NbPointsRestants] => 958
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36012
+                                                            [alias] => N7 8PL LONDON
+                                                            [address1] => 56D, Ellington Street
+                                                            [address2] => 
+                                                            [city] => LONDON
+                                                            [postcode] => N7 8PL
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joshua
+                                                            [lastname] => GLICKMAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => GB
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36013
+                                                            [alias] => SW6 2ST LONDON
+                                                            [address1] => 71, Townmead Road Fulham
+                                                            [address2] => 
+                                                            [city] => LONDON
+                                                            [postcode] => SW6 2ST
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joshua
+                                                            [lastname] => GLICKMAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => GB
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

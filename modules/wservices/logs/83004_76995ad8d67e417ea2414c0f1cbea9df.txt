@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83004
+    [IdTransaction] => 76995ad8d67e417ea2414c0f1cbea9df
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32147] => Array
+                                (
+                                    [notiers] => 32147
+                                    [lastname] => DIETRICH
+                                    [firstname] => Roxanne
+                                    [email] => roxanne.dietrich@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Architecture33
+                                    [birthday] => 1988-02-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 54
+                                    [NbPointsRestants] => 54
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41744
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 7, avenue de la gare
+                                                            [address2] => 204 B
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roxanne
+                                                            [lastname] => DIETRICH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41745
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 81, avenue de mérignac
+                                                            [address2] => 2
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roxanne
+                                                            [lastname] => DIETRICH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82547
+    [IdTransaction] => 10695e45c8b34c9ba151235dbd609f16
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34289] => Array
+                                (
+                                    [notiers] => 34289
+                                    [lastname] => MILLO
+                                    [firstname] => Marcel
+                                    [email] => ypomil@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => couillon
+                                    [birthday] => 1987-04-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 40
+                                    [NbPointsRestants] => 40
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45344
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => MILLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45345
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => MILLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

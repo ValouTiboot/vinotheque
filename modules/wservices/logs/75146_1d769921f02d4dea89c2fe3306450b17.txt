@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75146
+    [IdTransaction] => 1d769921f02d4dea89c2fe3306450b17
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32763] => Array
+                                (
+                                    [notiers] => 32763
+                                    [lastname] => ANDRE
+                                    [firstname] => Jean luc
+                                    [email] => smb4@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Cayenne2
+                                    [birthday] => 1954-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 174
+                                    [NbPointsRestants] => 174
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42691
+                                                            [alias] => 71400 AUTUN
+                                                            [address1] => 23, RUE DE PARIS AUTUN
+                                                            [address2] => 
+                                                            [city] => AUTUN
+                                                            [postcode] => 71400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean luc
+                                                            [lastname] => ANDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42692
+                                                            [alias] => 71400 AUTUN
+                                                            [address1] => 23, DE PARIS AUTUN
+                                                            [address2] => 
+                                                            [city] => AUTUN
+                                                            [postcode] => 71400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean luc
+                                                            [lastname] => ANDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

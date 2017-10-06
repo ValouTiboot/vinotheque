@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78892
+    [IdTransaction] => 13a55893f3154d38a7c35a58805ca4c2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34124] => Array
+                                (
+                                    [notiers] => 34124
+                                    [lastname] => FERBOS
+                                    [firstname] => Aude
+                                    [email] => a.ferbos@sudouest.fr
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1975-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45077
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aude
+                                                            [lastname] => FERBOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45078
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aude
+                                                            [lastname] => FERBOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

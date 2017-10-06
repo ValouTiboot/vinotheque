@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75622
+    [IdTransaction] => 1e116666edf844839dae228ff4532579
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34542] => Array
+                                (
+                                    [notiers] => 34542
+                                    [lastname] => MILLET
+                                    [firstname] => François
+                                    [email] => franmil7@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pourlavie
+                                    [birthday] => 1986-02-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45788
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 43, rue Paul Berthelot
+                                                            [address2] => Appt 207 Bât C1
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => MILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45789
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 43, rue Paul Berthelot
+                                                            [address2] => Appt 207 Bât C1
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => MILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

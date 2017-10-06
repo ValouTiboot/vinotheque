@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75134
+    [IdTransaction] => 4df0a4820e0740cba442678d1201c769
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33515] => Array
+                                (
+                                    [notiers] => 33515
+                                    [lastname] => GORBENA
+                                    [firstname] => Jean-paul
+                                    [email] => jplgorbena@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => hussard3
+                                    [birthday] => 1946-03-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 108
+                                    [NbPointsRestants] => 108
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43995
+                                                            [alias] => 54700 PONT-A-MOUSSON
+                                                            [address1] => 805, Route de METZ
+                                                            [address2] => 
+                                                            [city] => PONT-A-MOUSSON
+                                                            [postcode] => 54700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-paul
+                                                            [lastname] => GORBENA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43996
+                                                            [alias] => 78340 CLAYES-SOUS-BOIS
+                                                            [address1] => 5, Chemin de la Bretechelle
+                                                            [address2] => 
+                                                            [city] => CLAYES-SOUS-BOIS
+                                                            [postcode] => 78340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-paul
+                                                            [lastname] => GORBENA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

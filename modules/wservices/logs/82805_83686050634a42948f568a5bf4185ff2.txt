@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82805
+    [IdTransaction] => 83686050634a42948f568a5bf4185ff2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31279] => Array
+                                (
+                                    [notiers] => 31279
+                                    [lastname] => SIMONNY
+                                    [firstname] => Claude
+                                    [email] => sclaude10@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => cheminot10100
+                                    [birthday] => 1965-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40310
+                                                            [alias] => 51260 CONFLANS-SUR-SEINE
+                                                            [address1] => 10, Chemin de Lurey Conflans-sur-Seine
+                                                            [address2] => 
+                                                            [city] => CONFLANS-SUR-SEINE
+                                                            [postcode] => 51260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => SIMONNY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40311
+                                                            [alias] => 10100 ROMILLY-SUR-SEINE
+                                                            [address1] => 11, Voie Pontoise
+                                                            [address2] => 
+                                                            [city] => ROMILLY-SUR-SEINE
+                                                            [postcode] => 10100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => SIMONNY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

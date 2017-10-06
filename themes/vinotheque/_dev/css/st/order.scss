@@ -1,0 +1,228 @@
+#connexion-links {
+  color: black;
+  text-transform: uppercase;
+  font-size: rem(14px);
+  font-weight: bold;
+  margin-bottom: rem(20px);
+  a {
+    color: #aeaeae;
+    text-decoration: none;
+  }
+}
+.address-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: rem(15px);
+  .address-item {
+    background-color: white;
+    border: 2px solid $green-dark;
+    padding: 0;
+    flex: 0 0 48%;
+    label {
+      padding: rem(20px) rem(20px) 0;
+      > span, > div {
+        float: left;
+      }
+      .h4 {
+        color: black;
+        text-transform: uppercase;
+        font-size: rem(14px);
+      }
+    }
+    footer {
+      border-top: 1px solid $gray-social;
+      text-transform: uppercase;
+      font-size: rem(12px);
+      padding: rem(10px) rem(20px);
+      a {
+        color: $gray-social;
+        text-decoration: none;
+        margin-right: rem(5px);
+        i {
+          font-size: rem(16px);
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .address-selector .address-item {
+    flex: 0 0 100%;
+    margin-bottom: rem(7px);
+  }
+}
+a.different-address, a.add-address {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #76ccaa;
+  font-weight: bold;
+  font-size: rem(14px);
+  line-height: rem(28px);
+}
+
+#checkout-cart-summary {
+  float: right;
+  width: 30%;
+}
+
+#conditions-to-approve {
+  //margin-top: small-padding;
+  //margin-bottom: 2*small-padding;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      label {
+        cursor: pointer;
+        a {
+          color: $green-even-darker;
+        }
+      }
+    }
+  }
+  button {
+    //padding: small-padding;
+    //margin: small-padding;
+  }
+}
+
+.payment-option, .delivery-option {
+  //border-bottom: 1px solid border-color;
+  //padding-left 2*small-padding;
+  //margin-top: small-padding;
+  //background-color background-color;
+  label {
+    cursor: pointer;
+  }
+}
+.payment-option, .delivery-option, .payment-option label, .delivery-option label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.delivery-options {
+  margin-bottom: rem(25px);
+  .delivery-option {
+    background: white;
+    border: 2px solid $gray-lighter;
+    //border: 2px solid $green-dark;
+    margin: 0 0 rem(7px);
+    padding: rem(20px);
+    .carrier-name {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: rem(14px);
+    }
+    .carrier-delay {
+      font-size: rem(14px);
+    }
+    .carrier-prices {
+      text-align: right;
+      color: $red;
+      text-transform: uppercase;
+      font-size: rem(18px);
+      font-weight: bold;
+    }
+  }
+}
+
+.payment-option label, .delivery-option label {
+  flex-grow: 1;
+  margin: 0;
+  span {
+    flex-grow: 1;
+  }
+}
+#payment-confirmation {
+  button, label {
+    //margin-top: small-padding
+    display: inline-block;
+    cursor: pointer;
+    //padding: 3*small-padding;
+    //margin-top: 3*small-padding;
+    //background-color: cta-background-color;
+    //border: 1px solid cta-color;
+    //color: cta-color;
+    &:disabled {
+      //background-color: disabled-cta-background-color;
+      cursor: default;
+    }
+  }
+}
+.payment-options {
+  .warning {
+    color: orange;
+  }
+}
+.selected-payment-option, [name="select_payment_option"] {
+  min-width: 80px;
+}
+.selected-payment-option {
+  //background-color: cta-background-color;
+  //border: 1px solid cta-color;
+  //color: cta-color;
+}
+.checkout-step {
+  background: $gray-form;
+  border-left: rem(9px) solid $green-border-form;
+  border-top: 1px solid $gray-border-form;
+  padding: 0 rem(20px);
+  margin-bottom: rem(8px);
+  > h1 {
+    padding: rem(20px) 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: rem(16px);
+    color: $green-even-darker;
+    display: flex;
+    align-items: center;
+    .step-number {
+      margin-right: rem(15px);
+    }
+  }
+  .content {
+    padding-bottom: rem(20px);
+    display: none;
+  }
+  .icon-v-check {
+    color: $green-dark;
+    display: none;
+    font-size: rem(50px);
+    margin: 0 -5px 0px -15px;
+  }
+}
+.checkout-step.-reachable {
+  > h1 {
+    cursor: pointer;
+  }
+}
+.checkout-step.-complete {
+  > h1 {
+    //color: green;
+  }
+  .step-number {
+    display: none;
+  }
+  .icon-v-check {
+    display: block;
+  }
+}
+.checkout-step.-current {
+  .content {
+    display: block;
+  }
+}
+.checkout-step {
+  button.continue {
+    padding: 15px 30px 15px 30px;
+    //margin-top: 2*small-padding;
+    &[disabled] {
+      opacity: 0.5;
+    }
+  }
+  .step-number {
+    //margin-right: small-padding;
+  }
+}

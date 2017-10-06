@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79936
+    [IdTransaction] => f4a587bfe3624a95ba94bea97cc5d404
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33520] => Array
+                                (
+                                    [notiers] => 33520
+                                    [lastname] => POURTALET
+                                    [firstname] => Jean
+                                    [email] => jean.pourtalet@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 949713
+                                    [birthday] => 1937-04-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 83
+                                    [NbPointsRestants] => 83
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44004
+                                                            [alias] => 64190 NAVARRENX
+                                                            [address1] => 23, rue du faubourg
+                                                            [address2] => 
+                                                            [city] => NAVARRENX
+                                                            [postcode] => 64190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => POURTALET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44005
+                                                            [alias] => 64190 NAVARRENX
+                                                            [address1] => 23, rue du faubourg
+                                                            [address2] => 
+                                                            [city] => NAVARRENX
+                                                            [postcode] => 64190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => POURTALET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

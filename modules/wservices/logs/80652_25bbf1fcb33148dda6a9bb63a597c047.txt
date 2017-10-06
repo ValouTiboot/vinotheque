@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80652
+    [IdTransaction] => 25bbf1fcb33148dda6a9bb63a597c047
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33796] => Array
+                                (
+                                    [notiers] => 33796
+                                    [lastname] => GBAGUIDI
+                                    [firstname] => Christine
+                                    [email] => christine.gbaguidi@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => NGUESSAN
+                                    [birthday] => 1980-01-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 167
+                                    [NbPointsRestants] => 167
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44509
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 4, MARC CHAGALL MERIGNAC
+                                                            [address2] => Apt 33 LE CLUB E1
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => GBAGUIDI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44510
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 4, MARC CHAGALL
+                                                            [address2] => Apt 33 LE CLUB E1
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => GBAGUIDI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

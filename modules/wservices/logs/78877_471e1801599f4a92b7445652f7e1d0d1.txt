@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78877
+    [IdTransaction] => 471e1801599f4a92b7445652f7e1d0d1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32972] => Array
+                                (
+                                    [notiers] => 32972
+                                    [lastname] => BOZZOLO
+                                    [firstname] => Alexandre
+                                    [email] => abttransports@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => leatransport
+                                    [birthday] => 1982-07-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 148
+                                    [NbPointsRestants] => 148
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43021
+                                                            [alias] => 13740 ROVE
+                                                            [address1] => 10 C, chemin de la bergerie
+                                                            [address2] => 
+                                                            [city] => ROVE
+                                                            [postcode] => 13740
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BOZZOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43022
+                                                            [alias] => 13740 ROVE
+                                                            [address1] => 10 C, chemin de la bergerie
+                                                            [address2] => 
+                                                            [city] => ROVE
+                                                            [postcode] => 13740
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BOZZOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

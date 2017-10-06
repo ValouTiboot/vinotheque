@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78661
+    [IdTransaction] => d54b35c00bc3437fb8731f5b4ca2de16
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29525] => Array
+                                (
+                                    [notiers] => 29525
+                                    [lastname] => CRESCINI
+                                    [firstname] => Stephane
+                                    [email] => stephane.crescini@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 244500
+                                    [birthday] => 1973-04-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37290
+                                                            [alias] => 38190 BERNIN
+                                                            [address1] => 85, Chemin du varvoux
+                                                            [address2] => 
+                                                            [city] => BERNIN
+                                                            [postcode] => 38190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => CRESCINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37291
+                                                            [alias] => 38190 BERNIN
+                                                            [address1] => 85, Chemin du varvoux
+                                                            [address2] => 
+                                                            [city] => BERNIN
+                                                            [postcode] => 38190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => CRESCINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

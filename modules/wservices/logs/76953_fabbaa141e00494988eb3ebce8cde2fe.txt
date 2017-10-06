@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76953
+    [IdTransaction] => fabbaa141e00494988eb3ebce8cde2fe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29479] => Array
+                                (
+                                    [notiers] => 29479
+                                    [lastname] => GRAZIANO
+                                    [firstname] => Eric
+                                    [email] => egraziano@c-gr.com
+                                    [id_gender] => 1
+                                    [passwd] => colonel
+                                    [birthday] => 1952-07-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1008
+                                    [NbPointsRestants] => 1008
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37217
+                                                            [alias] => 42300 VILLEREST
+                                                            [address1] => 1216, chemin de la goutte claire
+                                                            [address2] => 
+                                                            [city] => VILLEREST
+                                                            [postcode] => 42300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => GRAZIANO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37218
+                                                            [alias] => 42300 VILLEREST
+                                                            [address1] => 1216, chemin de la goutte claire
+                                                            [address2] => 
+                                                            [city] => VILLEREST
+                                                            [postcode] => 42300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => GRAZIANO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

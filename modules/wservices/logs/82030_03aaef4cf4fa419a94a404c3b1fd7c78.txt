@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82030
+    [IdTransaction] => 03aaef4cf4fa419a94a404c3b1fd7c78
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30489] => Array
+                                (
+                                    [notiers] => 30489
+                                    [lastname] => RAYSSAC
+                                    [firstname] => Mireille
+                                    [email] => mireille.rayssac@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => Hermione20
+                                    [birthday] => 1960-03-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 231
+                                    [NbPointsRestants] => 231
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38941
+                                                            [alias] => 33380 MIOS
+                                                            [address1] => 4, chemin Lamothe
+                                                            [address2] => 
+                                                            [city] => MIOS
+                                                            [postcode] => 33380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mireille
+                                                            [lastname] => RAYSSAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38942
+                                                            [alias] => 67000 STRASBOURG
+                                                            [address1] => 5, DU GENERAL DE CASTELNEAU
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mireille
+                                                            [lastname] => RAYSSAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

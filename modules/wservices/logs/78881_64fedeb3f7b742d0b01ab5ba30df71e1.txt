@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78881
+    [IdTransaction] => 64fedeb3f7b742d0b01ab5ba30df71e1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36400] => Array
+                                (
+                                    [notiers] => 36400
+                                    [lastname] => PITOLET
+                                    [firstname] => Arnaud
+                                    [email] => apitolet@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => Apho1958/
+                                    [birthday] => 1958-03-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 300
+                                    [NbPointsRestants] => 300
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48832
+                                                            [alias] => 33270 FLOIRAC
+                                                            [address1] => 5, avenue des Mondaults
+                                                            [address2] => 
+                                                            [city] => FLOIRAC
+                                                            [postcode] => 33270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => PITOLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48833
+                                                            [alias] => 33270 FLOIRAC
+                                                            [address1] => 5, avenue des Mondaults
+                                                            [address2] => 
+                                                            [city] => FLOIRAC
+                                                            [postcode] => 33270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => PITOLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

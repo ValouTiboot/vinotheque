@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78018
+    [IdTransaction] => 8d3ec6ab80344822a2d65f70319df6f8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27726] => Array
+                                (
+                                    [notiers] => 27726
+                                    [lastname] => ENTRE MER ET VIN
+                                    [firstname] => Association oenologique
+                                    [email] => l.thomas.boyenval@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => panonica
+                                    [birthday] => 1948-01-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 460
+                                    [NbPointsRestants] => 460
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34679
+                                                            [alias] => 56270 PLOEMEUR
+                                                            [address1] => 25, des aigrettes Lomener
+                                                            [address2] => 
+                                                            [city] => PLOEMEUR
+                                                            [postcode] => 56270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Association oenologique
+                                                            [lastname] => ENTRE MER ET VIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34680
+                                                            [alias] => 56600 LANESTER
+                                                            [address1] => 173, Jean Jaurès
+                                                            [address2] => 
+                                                            [city] => LANESTER
+                                                            [postcode] => 56600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Association oenologique
+                                                            [lastname] => ENTRE MER ET VIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

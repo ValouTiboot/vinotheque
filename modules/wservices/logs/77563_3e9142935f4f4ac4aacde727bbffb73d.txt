@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77563
+    [IdTransaction] => 3e9142935f4f4ac4aacde727bbffb73d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29960] => Array
+                                (
+                                    [notiers] => 29960
+                                    [lastname] => CHARLES
+                                    [firstname] => Matthias
+                                    [email] => matthias.charles@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => vinotheque
+                                    [birthday] => 1979-07-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 98
+                                    [NbPointsRestants] => 98
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38013
+                                                            [alias] => 67100 STRASBOURG
+                                                            [address1] => 7, michel Baltzer
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthias
+                                                            [lastname] => CHARLES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38014
+                                                            [alias] => 67100 STRASBOURG
+                                                            [address1] => 7, RUE michel Baltzer
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthias
+                                                            [lastname] => CHARLES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

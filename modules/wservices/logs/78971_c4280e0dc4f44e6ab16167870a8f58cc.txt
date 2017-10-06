@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78971
+    [IdTransaction] => c4280e0dc4f44e6ab16167870a8f58cc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31615] => Array
+                                (
+                                    [notiers] => 31615
+                                    [lastname] => FAILLENET
+                                    [firstname] => Eric
+                                    [email] => ericfaillenet@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Tyne1234
+                                    [birthday] => 1968-02-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 578
+                                    [NbPointsRestants] => 578
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40898
+                                                            [alias] => 22520 BINIC
+                                                            [address1] => 10, Rue Jolie Brise
+                                                            [address2] => 
+                                                            [city] => BINIC
+                                                            [postcode] => 22520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => FAILLENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40899
+                                                            [alias] => 22520 BINIC
+                                                            [address1] => 10, Rue Jolie Brise
+                                                            [address2] => 
+                                                            [city] => BINIC
+                                                            [postcode] => 22520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => FAILLENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

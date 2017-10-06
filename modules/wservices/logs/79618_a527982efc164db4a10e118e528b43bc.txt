@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79618
+    [IdTransaction] => a527982efc164db4a10e118e528b43bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32478] => Array
+                                (
+                                    [notiers] => 32478
+                                    [lastname] => BITEAU
+                                    [firstname] => Jonathan
+                                    [email] => jonathanbiteau@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => marielle
+                                    [birthday] => 1984-07-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 180
+                                    [NbPointsRestants] => 180
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42260
+                                                            [alias] => 47130 BAZENS
+                                                            [address1] => Lieu-dit Malartic
+                                                            [address2] => 
+                                                            [city] => BAZENS
+                                                            [postcode] => 47130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jonathan
+                                                            [lastname] => BITEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42261
+                                                            [alias] => 47130 BAZENS
+                                                            [address1] => Lieu-dit Malartic
+                                                            [address2] => 
+                                                            [city] => BAZENS
+                                                            [postcode] => 47130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jonathan
+                                                            [lastname] => BITEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

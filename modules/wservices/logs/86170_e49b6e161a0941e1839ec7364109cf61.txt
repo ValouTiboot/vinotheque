@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86170
+    [IdTransaction] => e49b6e161a0941e1839ec7364109cf61
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27506] => Array
+                                (
+                                    [notiers] => 27506
+                                    [lastname] => MAURICE
+                                    [firstname] => Philippe
+                                    [email] => sylvie.maurice63@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => infir1106
+                                    [birthday] => 1963-09-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34330
+                                                            [alias] => 37240 MANTHELAN
+                                                            [address1] => 13, françois rabelais
+                                                            [address2] => 
+                                                            [city] => MANTHELAN
+                                                            [postcode] => 37240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MAURICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34331
+                                                            [alias] => 37160 CELLE-SAINT-AVANT
+                                                            [address1] => Z. A LE POTE,
+                                                            [address2] => 
+                                                            [city] => CELLE-SAINT-AVANT
+                                                            [postcode] => 37160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MAURICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,390 @@
+Array
+(
+    [NoJSON] => 223
+    [IdTransaction] => 37a5f32d0ea44a85b75221eb05558963
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016000528] => Array
+                                (
+                                    [reference] => M2016000528
+                                    [id_second_wine] => 
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 41807|125
+                                    [active] => 1
+                                    [name] => CH. CANTENAC BROWN            
+                                    [wine] => 1
+                                    [wine_date] => 2017-06-01 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 1493 hectares de vignes sur lesquels on trouve le plus grand nombre de crus classés (21) dont un premier cru, le Château Margaux. D’une grande féminité, les vins de Margaux présentent un bouquet subtil qui mêle de délicats arômes fruités tels que la groseille, floraux et épicés. En bouche, la richesse des tanins s’accompagne d’une infinie souplesse.
+                                    [property] => La construction du château fut commencée dans la première moitié du XIXe siècle. John Lewis Brown, fils d'un négociant anglais en était le propriétaire. Vers 1860, le négociant bordelais Armand Lalande achève l'édifice principal. Il entreprend de replanter le vignoble, moderniser les chais et d'améliorer la qualité des vins. En 1987, la famille du Vivier, dernier propriétaire, vend le domaine à la Compagnie du Midi qui entreprend de grands travaux. En 1989, après la fusion du Midi et d'Axa, la gestion est confiée à Jean-Michel Cazes. Le château Cantenac-Brown est un des 3èmes Crus du Médoc Classés en 1855.
+                                    [description] => Une année de stress pour un millésime rarernToutes les qualités d’un millésime exceptionnel sont réunies. Une belle floraison, une maturationrnlongue et complète de tous les cépages, une récolte saine sous un soleil radieux dans larnjournée et des nuits fraîches. Degrés justes, acidité parfaite, tanins gourmands : l’équilibre estrnlà, noble, naturel, sans excès. Un millésime rare.
+                                    [description_short] => Château Cantenac Brown
+                                    [categories] => Array
+                                        (
+                                            [0] => Margaux
+                                            [1] => Primeurs
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-cantenac-brown-001.jpg
+                                                            [legend] => CH. CANTENAC BROWN            
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41807
+                                                                    [1] => 42135
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-cantenac-brown-002.jpg
+                                                            [legend] => CH. CANTENAC BROWN            
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 41807
+                                                                    [1] => 42135
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 41807
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 45,5
+                                                            [packaging_weight] => 3,7
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 60
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,3
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 41807
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 45,5
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 60
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 41807
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 45,5
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 60
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 41807
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 45,5
+                                                            [packaging_weight] => 5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 60
+                                                            [available_date] => 
+                                                            [packaging_price] => 1
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 41807
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 45,5
+                                                            [packaging_weight] => 1,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 60
+                                                            [available_date] => 
+                                                            [packaging_price] => 2,75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [id_product_attribute] => 42135
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 91
+                                                            [packaging_weight] => 21
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 1,5
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [id_product_attribute] => 42135
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 91
+                                                            [packaging_weight] => 10
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 2
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [id_product_attribute] => 42135
+                                                            [reference] => M2016000528
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 91
+                                                            [packaging_weight] => 3
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 
+                                                            [packaging_price] => 3
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Margaux
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 68% Cabernet Sauvignon
+                                                                    [1] => 32% Merlot
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 3ème cru classé
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Enthusiast 94-96
+                                                                    [1] => Wine Advocate  (Neal Martin) 92-94
+                                                                    [2] => Revue du Vin de France 16.5-17.5
+                                                                    [3] => Decanter 94
+                                                                    [4] => Wine spectator 91-94
+                                                                    [5] => Antonio Galloni (Vinous) 89-92
+                                                                    [6] => René Gabriel 17
+                                                                    [7] => Bettane & Desseauve 17-17.5
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

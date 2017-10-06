@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76819
+    [IdTransaction] => dc835cc51fc34319952521e8abe776bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31866] => Array
+                                (
+                                    [notiers] => 31866
+                                    [lastname] => OSSWALD
+                                    [firstname] => Robert
+                                    [email] => robert.oswald.ro@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Nobiallo1401
+                                    [birthday] => 1991-01-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 65
+                                    [NbPointsRestants] => 65
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41277
+                                                            [alias] => 89522 HEIDENHEIM
+                                                            [address1] => Newporterstrasse 3
+                                                            [address2] => 
+                                                            [city] => HEIDENHEIM
+                                                            [postcode] => 89522
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => OSSWALD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41278
+                                                            [alias] => 89522 HEIDENHEIM
+                                                            [address1] => 3, Newporterstrasse
+                                                            [address2] => 
+                                                            [city] => HEIDENHEIM
+                                                            [postcode] => 89522
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => OSSWALD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

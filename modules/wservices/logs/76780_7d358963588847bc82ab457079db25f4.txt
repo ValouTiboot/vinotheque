@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76780
+    [IdTransaction] => 7d358963588847bc82ab457079db25f4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25733] => Array
+                                (
+                                    [notiers] => 25733
+                                    [lastname] => JAINES
+                                    [firstname] => Paul
+                                    [email] => pjaines@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => squidbegone
+                                    [birthday] => 1972-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 167
+                                    [NbPointsRestants] => 167
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31620
+                                                            [alias] => SE13 5AL LONDON
+                                                            [address1] => 3, Boyne Road
+                                                            [address2] => 
+                                                            [city] => LONDON
+                                                            [postcode] => SE13 5AL
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => JAINES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => 
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31621
+                                                            [alias] => 59830 LOUVIL
+                                                            [address1] => 125, Rue Henri Millez
+                                                            [address2] => 
+                                                            [city] => LOUVIL
+                                                            [postcode] => 59830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => JAINES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

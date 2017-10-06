@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76787
+    [IdTransaction] => 57b24de835c84b7f8242f567a14097c1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32420] => Array
+                                (
+                                    [notiers] => 32420
+                                    [lastname] => DAUNOIS
+                                    [firstname] => Charles-henri
+                                    [email] => daunoisc@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => yves2001
+                                    [birthday] => 1981-01-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 270
+                                    [NbPointsRestants] => 270
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42159
+                                                            [alias] => 68440 ESCHENTZWILLER
+                                                            [address1] => 1, des grains
+                                                            [address2] => brise
+                                                            [city] => ESCHENTZWILLER
+                                                            [postcode] => 68440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles-henri
+                                                            [lastname] => DAUNOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42160
+                                                            [alias] => 68440 STEINBRUNN-LE-HAUT
+                                                            [address1] => 3a), de Luemschwiller
+                                                            [address2] => 
+                                                            [city] => STEINBRUNN-LE-HAUT
+                                                            [postcode] => 68440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles-henri
+                                                            [lastname] => DAUNOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

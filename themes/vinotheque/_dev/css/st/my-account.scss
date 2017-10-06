@@ -1,0 +1,222 @@
+#my-account {
+  .page-content {
+    margin-top: rem(60px);
+    .link-list {
+      li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        background: $gray-form;
+        border-left: rem(9px) solid $green-border-form;
+        border-bottom: 1px solid $gray-border-form;
+        margin-bottom: rem(20px);
+        padding: rem(17px);
+        font-size: rem(14px);
+        i {
+          font-size: rem(35px);
+          color: $green-dark;
+          vertical-align: middle;
+        }
+        span {
+          vertical-align: middle;
+          padding-left: rem(10px);
+        }
+      }
+    }
+  }
+  .page-footer a {
+    font-weight: bold;
+    font-size: rem(20px);
+  }
+}
+
+#addresses .address {
+  background-color: white;
+  border: 2px solid $green-dark;
+  margin-bottom: rem(15px);
+  p {
+    padding: 0 rem(20px);
+  }
+  header .h4 {
+    padding: rem(20px) rem(20px) 0;
+    color: black;
+    text-transform: uppercase;
+    font-size: rem(14px);
+  }
+  footer {
+    border-top: 1px solid $gray-social;
+    text-transform: uppercase;
+    font-size: rem(12px);
+    padding: rem(10px) rem(20px);
+    ul {
+      overflow: auto;
+      margin-bottom: 0;
+      li {
+        display: inline-block;
+        float: left;
+        a {
+          color: $gray-social;
+          text-decoration: none;
+          margin-right: rem(5px);
+          i {
+            font-size: rem(16px);
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-order-detail .box {
+  margin-bottom: rem(15px);
+}
+
+#history .label-pill.bright {
+  padding: rem(5px);
+  color: white;
+  font-weight: bold;
+  line-height: rem(22px);
+}
+
+@include media-breakpoint-down(sm) {
+  .page-order-detail {
+    font-size: rem(14px);
+    .box {
+      background: $gray-lighter;
+      padding: rem(10px);
+    }
+    h3 {
+      font-size: $base-font-size;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $gray-darker;
+      margin-bottom: rem(16px);
+    }
+    #order-infos {
+      ul {
+        margin: 0;
+      }
+    }
+    #order-history {
+      .history-lines {
+        .history-line {
+          padding: rem(8px) 0;
+          border-bottom: 1px solid $gray-lighter;
+          &:last-child {
+            border-bottom: 0;
+          }
+          .label {
+            display: inline-block;
+            margin: rem(4px) 0;
+            padding: rem(4px) rem(6px);
+            color: white;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    .addresses {
+      h4 {
+        font-size: $base-font-size;
+        font-weight: 700;
+      }
+    }
+    #order-products {
+      &.return {
+        margin-bottom: rem(16px);
+        th {
+          &.head-checkbox {
+            width: 30px;
+          }
+        }
+        td {
+          padding: 1.375rem 0.75rem;
+          &.qty {
+            min-width: 125px;
+            .current {
+              width: 30%;
+              float: left;
+              text-align: right;
+              padding-right: 0.5rem;
+            }
+            .select {
+              width: 70%;
+              float: left;
+              margin: -0.625rem 0;
+              padding-left: 0.25rem;
+              select {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    .order-items {
+      padding: 0 !important;
+      .order-item {
+        padding: rem(16px) rem(16px) 0;
+        border-bottom: 1px solid $gray-lighter;
+        .checkbox {
+          width: 30px;
+          float: left;
+          padding: 0 rem(15px);
+        }
+        .content {
+          width: calc(100% - 30px);
+          float: left;
+          padding: 0 rem(15px);
+        }
+        .desc {
+          .name {
+            font-weight: bold;
+          }
+          margin-bottom: rem(16px);
+        }
+        .qty {
+          margin-bottom: rem(16px);
+          .q {
+            margin-bottom: rem(4px);
+          }
+          .s {
+            margin-bottom: rem(4px);
+          }
+        }
+      }
+    }
+    .messages {
+      .message {
+        margin-top: rem(8px);
+        border-bottom: 1px solid $gray-lighter;
+        &:last-child {
+          border-bottom: 0;
+        }
+        > div {
+          margin-bottom: rem(8px);
+        }
+      }
+    }
+    .customization {
+      margin-top: rem(12px);
+    }
+  }
+  /*** History page ***/
+  #history {
+    .orders {
+      .order {
+        padding: rem(12px) rem(16px);
+        border-bottom: 1px solid $gray-lighter;
+        .label {
+          display: inline-block;
+          margin: rem(4px) 0;
+          padding: rem(4px) rem(6px);
+          color: white;
+        }
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}

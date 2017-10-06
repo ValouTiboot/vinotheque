@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77799
+    [IdTransaction] => d1564f359e784db1a6a77756e0fd493a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36218] => Array
+                                (
+                                    [notiers] => 36218
+                                    [lastname] => MANCHERON
+                                    [firstname] => Alban
+                                    [email] => alban.mancheron@lirmm.fr
+                                    [id_gender] => 1
+                                    [passwd] => VTBDoccY_01!VTB
+                                    [birthday] => 1976-03-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48547
+                                                            [alias] => 34660 COURNONTERRAL
+                                                            [address1] => 16D, rue des Morilles
+                                                            [address2] => 
+                                                            [city] => COURNONTERRAL
+                                                            [postcode] => 34660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alban
+                                                            [lastname] => MANCHERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48548
+                                                            [alias] => 44100 NANTES
+                                                            [address1] => 40, rue des Frères Amieux
+                                                            [address2] => 
+                                                            [city] => NANTES
+                                                            [postcode] => 44100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alban
+                                                            [lastname] => MANCHERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

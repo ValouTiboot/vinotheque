@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79821
+    [IdTransaction] => 6ad93307d9d746e5a80e6bec31dc42dd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28109] => Array
+                                (
+                                    [notiers] => 28109
+                                    [lastname] => ONILLON
+                                    [firstname] => Michel
+                                    [email] => onilmic@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => pulsat
+                                    [birthday] => 1956-04-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 66
+                                    [NbPointsRestants] => 66
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35251
+                                                            [alias] => 79250 NUEIL-LES-AUBIERS
+                                                            [address1] => magellan
+                                                            [address2] => 
+                                                            [city] => NUEIL-LES-AUBIERS
+                                                            [postcode] => 79250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => ONILLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35252
+                                                            [alias] => 79250 NUEIL-LES-AUBIERS
+                                                            [address1] => magellan
+                                                            [address2] => 
+                                                            [city] => NUEIL-LES-AUBIERS
+                                                            [postcode] => 79250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => ONILLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

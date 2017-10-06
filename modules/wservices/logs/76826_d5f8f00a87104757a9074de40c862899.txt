@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76826
+    [IdTransaction] => d5f8f00a87104757a9074de40c862899
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32368] => Array
+                                (
+                                    [notiers] => 32368
+                                    [lastname] => BERTHE
+                                    [firstname] => Paul
+                                    [email] => paul.tucdual@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => julottin
+                                    [birthday] => 1974-12-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 162
+                                    [NbPointsRestants] => 162
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42061
+                                                            [alias] => 19100 BRIVE
+                                                            [address1] => 03, Maillet de Chassat
+                                                            [address2] => 
+                                                            [city] => BRIVE
+                                                            [postcode] => 19100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => BERTHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42062
+                                                            [alias] => 19100 BRIVE
+                                                            [address1] => 2, Bd Edouard Lachaud
+                                                            [address2] => 1er
+                                                            [city] => BRIVE
+                                                            [postcode] => 19100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => BERTHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

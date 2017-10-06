@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80816
+    [IdTransaction] => 5401197314b24d19a6741b30de1ebf8b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32442] => Array
+                                (
+                                    [notiers] => 32442
+                                    [lastname] => CLAVÉ
+                                    [firstname] => Baptiste
+                                    [email] => baptiste.clave@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => bamelion4023
+                                    [birthday] => 1988-09-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42200
+                                                            [alias] => 40500 SAINT-SEVER
+                                                            [address1] => 13, Borda
+                                                            [address2] => 
+                                                            [city] => SAINT-SEVER
+                                                            [postcode] => 40500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Baptiste
+                                                            [lastname] => CLAVÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42201
+                                                            [alias] => 40500 SAINT-SEVER
+                                                            [address1] => 13, Borda
+                                                            [address2] => 
+                                                            [city] => SAINT-SEVER
+                                                            [postcode] => 40500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Baptiste
+                                                            [lastname] => CLAVÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

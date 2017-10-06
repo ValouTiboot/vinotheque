@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79667
+    [IdTransaction] => 527eaaadc5d044eeabb1e8524e166625
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26539] => Array
+                                (
+                                    [notiers] => 26539
+                                    [lastname] => LANCEMOT
+                                    [firstname] => Gaëlle
+                                    [email] => lancemot.gaelle@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => bambou17
+                                    [birthday] => 1979-12-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 150
+                                    [NbPointsRestants] => 150
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32782
+                                                            [alias] => 17000 ROCHELLE
+                                                            [address1] => 28, rue chef de ville
+                                                            [address2] => 
+                                                            [city] => ROCHELLE
+                                                            [postcode] => 17000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaëlle
+                                                            [lastname] => LANCEMOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32783
+                                                            [alias] => 17000 ROCHELLE
+                                                            [address1] => 12, Cour du temple
+                                                            [address2] => 
+                                                            [city] => ROCHELLE
+                                                            [postcode] => 17000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaëlle
+                                                            [lastname] => LANCEMOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

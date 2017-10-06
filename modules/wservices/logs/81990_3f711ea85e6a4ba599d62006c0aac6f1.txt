@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81990
+    [IdTransaction] => 3f711ea85e6a4ba599d62006c0aac6f1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29852] => Array
+                                (
+                                    [notiers] => 29852
+                                    [lastname] => MEGERIE
+                                    [firstname] => Sami
+                                    [email] => sami_megerie@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => baikal123
+                                    [birthday] => 1982-10-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37837
+                                                            [alias] => 26130 SAINT-RESTITUT
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-RESTITUT
+                                                            [postcode] => 26130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sami
+                                                            [lastname] => MEGERIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37838
+                                                            [alias] => 26130 SAINT-RESTITUT
+                                                            [address1] => 85, Chemin de pradelou
+                                                            [address2] => 
+                                                            [city] => SAINT-RESTITUT
+                                                            [postcode] => 26130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sami
+                                                            [lastname] => MEGERIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

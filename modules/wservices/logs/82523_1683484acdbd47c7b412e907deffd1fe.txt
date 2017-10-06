@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82523
+    [IdTransaction] => 1683484acdbd47c7b412e907deffd1fe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32133] => Array
+                                (
+                                    [notiers] => 32133
+                                    [lastname] => LANGLOIS
+                                    [firstname] => M-ch
+                                    [email] => m-ch.langlois@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => 85426
+                                    [birthday] => 1949-03-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41716
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 22, rue Edgar Faure
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => M-ch
+                                                            [lastname] => LANGLOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41717
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 22, rue Edgar Faure
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => M-ch
+                                                            [lastname] => LANGLOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

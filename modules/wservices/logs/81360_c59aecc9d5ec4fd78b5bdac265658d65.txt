@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81360
+    [IdTransaction] => c59aecc9d5ec4fd78b5bdac265658d65
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28800] => Array
+                                (
+                                    [notiers] => 28800
+                                    [lastname] => GUILHERME
+                                    [firstname] => Avila
+                                    [email] => guilhermelopesavila@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => manu2212
+                                    [birthday] => 1986-01-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 2338
+                                    [NbPointsRestants] => 2338
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36324
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Avila
+                                                            [lastname] => GUILHERME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36325
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 3, VILLA MONCEAU A1903
+                                                            [address2] => 3eme etage INTERPHONE: EMBASSY
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Avila
+                                                            [lastname] => GUILHERME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

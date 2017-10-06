@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76505
+    [IdTransaction] => f52a642adeff4e34a560a566b87cd274
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33665] => Array
+                                (
+                                    [notiers] => 33665
+                                    [lastname] => PHILIPP
+                                    [firstname] => Suppan
+                                    [email] => philsuppan@gmx.at
+                                    [id_gender] => 1
+                                    [passwd] => principe
+                                    [birthday] => 1978-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 123
+                                    [NbPointsRestants] => 123
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44259
+                                                            [alias] => 9082 MARIA WOERTH
+                                                            [address1] => Woertherseesueduferstrasse 185 Haus edith
+                                                            [address2] => 
+                                                            [city] => MARIA WOERTH
+                                                            [postcode] => 9082
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Suppan
+                                                            [lastname] => PHILIPP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => AT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44260
+                                                            [alias] => 9082 MARIA WOERTH
+                                                            [address1] => Woertherseesueduferstrasse 185 Haus edith
+                                                            [address2] => 
+                                                            [city] => MARIA WOERTH
+                                                            [postcode] => 9082
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Suppan
+                                                            [lastname] => PHILIPP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => AT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

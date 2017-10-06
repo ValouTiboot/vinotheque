@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77468
+    [IdTransaction] => 29c3c5a6eaa74592a6fefaf64a7dd5be
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34271] => Array
+                                (
+                                    [notiers] => 34271
+                                    [lastname] => VANNIER
+                                    [firstname] => Bertrand
+                                    [email] => bertrandv@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => reville
+                                    [birthday] => 1966-01-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45312
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 3, rue de l estrapade
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => VANNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45313
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 3, rue de l estrapade
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => VANNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

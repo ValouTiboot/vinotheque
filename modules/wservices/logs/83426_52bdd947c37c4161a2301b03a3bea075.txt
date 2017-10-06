@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83426
+    [IdTransaction] => 52bdd947c37c4161a2301b03a3bea075
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28493] => Array
+                                (
+                                    [notiers] => 28493
+                                    [lastname] => FLAVIO
+                                    [firstname] => Pavan
+                                    [email] => flavio@copav.com.br
+                                    [id_gender] => 1
+                                    [passwd] => Milan0
+                                    [birthday] => 1957-06-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 2682
+                                    [NbPointsRestants] => 2682
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35820
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 24, Rue de la Ville L'Eveque
+                                                            [address2] => 4eme -escalier Astorg
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pavan
+                                                            [lastname] => FLAVIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35821
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 24, Rue de la Ville L'Eveque
+                                                            [address2] => Cave du batiment
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pavan
+                                                            [lastname] => FLAVIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

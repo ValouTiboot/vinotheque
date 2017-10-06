@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83279
+    [IdTransaction] => 71479ecf00f8478b95b96f38cee86d6c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27247] => Array
+                                (
+                                    [notiers] => 27247
+                                    [lastname] => CAMPS
+                                    [firstname] => Steven
+                                    [email] => steven_camps@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => frietje
+                                    [birthday] => 1982-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 60
+                                    [NbPointsRestants] => 60
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33945
+                                                            [alias] => 3950 BOCHOLT
+                                                            [address1] => ringlaan 61
+                                                            [address2] => 
+                                                            [city] => BOCHOLT
+                                                            [postcode] => 3950
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Steven
+                                                            [lastname] => CAMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33946
+                                                            [alias] => 3990 PEER
+                                                            [address1] => hoogveld 6
+                                                            [address2] => 
+                                                            [city] => PEER
+                                                            [postcode] => 3990
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Steven
+                                                            [lastname] => CAMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

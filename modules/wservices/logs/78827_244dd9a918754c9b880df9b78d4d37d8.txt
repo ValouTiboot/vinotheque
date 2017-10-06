@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78827
+    [IdTransaction] => 244dd9a918754c9b880df9b78d4d37d8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27882] => Array
+                                (
+                                    [notiers] => 27882
+                                    [lastname] => JUILLARD
+                                    [firstname] => Pierre-yves
+                                    [email] => pierreyvesjuillard@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 310760
+                                    [birthday] => 1966-05-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 49
+                                    [NbPointsRestants] => 49
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34935
+                                                            [alias] => 12240 CAPELLE-BLEYS
+                                                            [address1] => Montloubet
+                                                            [address2] => 
+                                                            [city] => CAPELLE-BLEYS
+                                                            [postcode] => 12240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-yves
+                                                            [lastname] => JUILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34936
+                                                            [alias] => 12240 CAPELLE-BLEYS
+                                                            [address1] => Montloubet
+                                                            [address2] => 
+                                                            [city] => CAPELLE-BLEYS
+                                                            [postcode] => 12240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-yves
+                                                            [lastname] => JUILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78579
+    [IdTransaction] => bcaa259933e24247bc7052716b0b2d37
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28079] => Array
+                                (
+                                    [notiers] => 28079
+                                    [lastname] => GIACOMONI
+                                    [firstname] => Manuel
+                                    [email] => tradi2a@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => manuel
+                                    [birthday] => 1981-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35193
+                                                            [alias] => 20100 SARTENE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SARTENE
+                                                            [postcode] => 20100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => GIACOMONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35194
+                                                            [alias] => 13007 MARSEILLE
+                                                            [address1] => 81, rue sainte
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => GIACOMONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

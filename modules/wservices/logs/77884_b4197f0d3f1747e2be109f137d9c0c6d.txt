@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77884
+    [IdTransaction] => b4197f0d3f1747e2be109f137d9c0c6d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31812] => Array
+                                (
+                                    [notiers] => 31812
+                                    [lastname] => MORIER
+                                    [firstname] => Jean-luc
+                                    [email] => jean-luc.morier@ville-nevers.fr
+                                    [id_gender] => 1
+                                    [passwd] => mathieu
+                                    [birthday] => 1963-03-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41177
+                                                            [alias] => 58000 NEVERS
+                                                            [address1] => 5 rue, Professeur Anfray
+                                                            [address2] => 
+                                                            [city] => NEVERS
+                                                            [postcode] => 58000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-luc
+                                                            [lastname] => MORIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41178
+                                                            [alias] => 58000 NEVERS
+                                                            [address1] => 5 rue, Professeur Anfray
+                                                            [address2] => 
+                                                            [city] => NEVERS
+                                                            [postcode] => 58000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-luc
+                                                            [lastname] => MORIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

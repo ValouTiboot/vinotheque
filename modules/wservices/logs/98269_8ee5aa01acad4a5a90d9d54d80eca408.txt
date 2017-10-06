@@ -1,0 +1,358 @@
+Array
+(
+    [NoJSON] => 98269
+    [IdTransaction] => 8ee5aa01acad4a5a90d9d54d80eca408
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2014000531] => Array
+                                (
+                                    [reference] => M2014000531
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 39056|131
+                                    [active] => 1
+                                    [name] => Château LILIAN LADOUYS
+                                    [wine] => 0
+                                    [wine_date] => 2015-04-30 00:00:00
+                                    [wine_delivery] => 2017-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Sur 1226 hectares de vignes, les vins de cette appellation se caractérisent par la diversité aromatique et les nuances multiples qu’ils peuvent révéler, telles que la vanille ou encore le moka. Jeunes, ils sont puissants, tanniques et concentrés. Une fois vieillis, le fruit en pleine maturité apporte rondeur et finesse. 
+                                    [property] => Sur la terre de Saint-Estèphe, les vignes de Lilian-Ladouys se trouvent à la croisée des chemins, à un jet de graves de Cos d'Estournel et du château Lafite-Rothschild. rnrnAujourd'hui le vignoble est composé de 90 parcelles réparties sur 48 hectares de vignes. C'est une incroyable mosaïque qui décline tous les sols ou presque de l'appellation Saint-Estèphe. Cela explique la singularité des vins de Lilian-Ladouys. 
+                                    [description] => Robe brillante d'une belle couleur profonde aux reflets violacées. Le nez, très ouvert et dominé par les Merlots issus de sols graveleux sur un socle argilo-calcaire, s'ouvre sur des notes de petits fruits rouges et d'écorce d'orange. A l'aération, le vin prend de l'ampleur et dévoile des arômes de cèdre et de pierre à fusil. La bouche d'une très belle expression est marquée par une attaque friande prolongée par une mâche gourmande. Des tanins poudrés accompagne la finale réhaussée par des notes de moka et d'amandes grillées. 2014 est probablement le meilleur millésime produit depuis la reprise de la propriété par Jacky et Françoise Lorenzetti.
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Mini-boutique
+                                            [2] => Rouge
+                                            [3] => Saint-Estèphe
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Gibier
+                                            [1] => Viande blanche grillée
+                                            [2] => Fromage à pâte dure
+                                            [3] => Viande rouge grillée
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-lilian-ladouys-new.jpg
+                                                            [legend] => CH. LILIAN LADOUYS
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 39056
+                                                                    [1] => 39504
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39056
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 15.8333
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 79
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39056
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 15.8333
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 79
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39056
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 15.8333
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 79
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39056
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 15.8333
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 79
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39056
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 15.8333
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 79
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39504
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 32.4167
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 63
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 39504
+                                                            [reference] => M2014000531
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 32.4167
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 63
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Saint-Estèphe
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 56% Merlot
+                                                                    [1] => 40% Cabernet Sauvignon
+                                                                    [2] => 2% Cabernet Franc
+                                                                    [3] => 2% Petit Verdot
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.500
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2014
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => James Suckling 93
+                                                                    [1] => Decanter 16/20
+                                                                    [2] => Wine spectator 87-90
+                                                                    [3] => Robert Parker 90/100
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

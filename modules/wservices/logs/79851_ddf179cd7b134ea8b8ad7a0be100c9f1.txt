@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79851
+    [IdTransaction] => ddf179cd7b134ea8b8ad7a0be100c9f1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34763] => Array
+                                (
+                                    [notiers] => 34763
+                                    [lastname] => FERRAZZI
+                                    [firstname] => Michel
+                                    [email] => michel.ferrazzi@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => psychana
+                                    [birthday] => 1952-09-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 59
+                                    [NbPointsRestants] => 59
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46178
+                                                            [alias] => 38210 MORETTE
+                                                            [address1] => 24, IMPASSE DES TULIPES
+                                                            [address2] => 
+                                                            [city] => MORETTE
+                                                            [postcode] => 38210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => FERRAZZI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46179
+                                                            [alias] => 38210 MORETTE
+                                                            [address1] => 24, IMPASSE DES TULIPES
+                                                            [address2] => 
+                                                            [city] => MORETTE
+                                                            [postcode] => 38210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => FERRAZZI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

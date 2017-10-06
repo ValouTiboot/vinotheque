@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76798
+    [IdTransaction] => 38e3779959df41538906b31b21fefa5a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27579] => Array
+                                (
+                                    [notiers] => 27579
+                                    [lastname] => PARIS
+                                    [firstname] => Claude
+                                    [email] => cmcparis@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 301045
+                                    [birthday] => 1946-02-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 89
+                                    [NbPointsRestants] => 89
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34443
+                                                            [alias] => 10100 ROMILLY-SUR-SEINE
+                                                            [address1] => 21, jeanne d' arc
+                                                            [address2] => 
+                                                            [city] => ROMILLY-SUR-SEINE
+                                                            [postcode] => 10100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => PARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34444
+                                                            [alias] => 10100 ROMILLY-SUR-SEINE
+                                                            [address1] => 21, jeanne d' arc
+                                                            [address2] => 
+                                                            [city] => ROMILLY-SUR-SEINE
+                                                            [postcode] => 10100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => PARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82972
+    [IdTransaction] => 9e2ffc0e28584be9890ae04859f9a988
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32349] => Array
+                                (
+                                    [notiers] => 32349
+                                    [lastname] => FRANCOIS
+                                    [firstname] => Sebastien
+                                    [email] => sfrancois64@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => calibra
+                                    [birthday] => 1981-08-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 47
+                                    [NbPointsRestants] => 47
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42023
+                                                            [alias] => 64510 MEILLON
+                                                            [address1] => 2, RUE DE LA BRISTETE
+                                                            [address2] => 
+                                                            [city] => MEILLON
+                                                            [postcode] => 64510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => FRANCOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42024
+                                                            [alias] => 64510 MEILLON
+                                                            [address1] => 2, RUE DE LA BRISTETE
+                                                            [address2] => 
+                                                            [city] => MEILLON
+                                                            [postcode] => 64510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => FRANCOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

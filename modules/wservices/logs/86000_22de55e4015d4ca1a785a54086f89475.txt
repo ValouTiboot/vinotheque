@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86000
+    [IdTransaction] => 22de55e4015d4ca1a785a54086f89475
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35968] => Array
+                                (
+                                    [notiers] => 35968
+                                    [lastname] => GREGOIRE
+                                    [firstname] => Frédéric
+                                    [email] => fred.greg.67@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 684971780
+                                    [birthday] => 1968-10-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 135
+                                    [NbPointsRestants] => 135
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48116
+                                                            [alias] => 67550 VENDENHEIM
+                                                            [address1] => 8, RUE DU COTTAGE
+                                                            [address2] => 
+                                                            [city] => VENDENHEIM
+                                                            [postcode] => 67550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => GREGOIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48117
+                                                            [alias] => 67550 VENDENHEIM
+                                                            [address1] => 8, RUE DU COTTAGE
+                                                            [address2] => 
+                                                            [city] => VENDENHEIM
+                                                            [postcode] => 67550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => GREGOIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

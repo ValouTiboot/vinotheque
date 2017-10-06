@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82958
+    [IdTransaction] => 4170da6686f348f58b55169c12d0ad54
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32415] => Array
+                                (
+                                    [notiers] => 32415
+                                    [lastname] => GLEREAN
+                                    [firstname] => Stephane
+                                    [email] => stepatoch@msn.com
+                                    [id_gender] => 1
+                                    [passwd] => Patricia661
+                                    [birthday] => 1978-08-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 52
+                                    [NbPointsRestants] => 52
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42150
+                                                            [alias] => 18220 AZY
+                                                            [address1] => 6, rue de l'eglise
+                                                            [address2] => 
+                                                            [city] => AZY
+                                                            [postcode] => 18220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => GLEREAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42151
+                                                            [alias] => 87000 LIMOGES
+                                                            [address1] => 23, rue du templier
+                                                            [address2] => 
+                                                            [city] => LIMOGES
+                                                            [postcode] => 87000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => GLEREAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

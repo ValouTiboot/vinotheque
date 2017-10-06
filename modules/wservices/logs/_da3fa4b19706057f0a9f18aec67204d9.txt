@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => da3fa4b19706057f0a9f18aec67204d9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-23 16:34:26
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => 
+                                    [firstname] => 
+                                    [email] => 
+                                    [id_gender] => 
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 
+                                    [optin] => 
+                                    [newsletter] => 
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [2] => Array
+                                                (
+                                                    [id_address] => 2
+                                                    [noadresse] => 
+                                                    [alias] => supplier
+                                                    [address1] => 767 Fifth Ave.
+                                                    [address2] => 
+                                                    [city] => New York
+                                                    [postcode] => 10153
+                                                    [phone] => (212) 336-1440
+                                                    [phone_mobile] => 
+                                                    [company] => Fashion
+                                                    [firstname] => supplier
+                                                    [lastname] => supplier
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [id_address] => 3
+                                                    [noadresse] => 
+                                                    [alias] => manufacturer
+                                                    [address1] => 767 Fifth Ave.
+                                                    [address2] => 
+                                                    [city] => New York
+                                                    [postcode] => 10154
+                                                    [phone] => (212) 336-1666
+                                                    [phone_mobile] => 
+                                                    [company] => Fashion
+                                                    [firstname] => manufacturer
+                                                    [lastname] => manufacturer
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

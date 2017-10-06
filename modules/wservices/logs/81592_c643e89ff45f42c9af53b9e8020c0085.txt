@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81592
+    [IdTransaction] => c643e89ff45f42c9af53b9e8020c0085
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29304] => Array
+                                (
+                                    [notiers] => 29304
+                                    [lastname] => CASTAGNÉ
+                                    [firstname] => Philippe
+                                    [email] => pcast33@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1948-08-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 9
+                                    [NbPointsRestants] => 9
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36973
+                                                            [alias] => 33520 BRUGES
+                                                            [address1] => 90, AVENUE CONRAD GAUSSENS
+                                                            [address2] => 
+                                                            [city] => BRUGES
+                                                            [postcode] => 33520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CASTAGNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36974
+                                                            [alias] => 33520 BRUGES
+                                                            [address1] => 90, AVENUE CONRAD GAUSSENS
+                                                            [address2] => 
+                                                            [city] => BRUGES
+                                                            [postcode] => 33520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CASTAGNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

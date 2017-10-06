@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79692
+    [IdTransaction] => 77a3761811bb461eaeac7a8f883efac4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27994] => Array
+                                (
+                                    [notiers] => 27994
+                                    [lastname] => MOTARD
+                                    [firstname] => Yves
+                                    [email] => motard.yves@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 161251
+                                    [birthday] => 1951-12-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 728
+                                    [NbPointsRestants] => 728
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35079
+                                                            [alias] => 33170 GRADIGNAN
+                                                            [address1] => 9, Allée du Haut Vigneau
+                                                            [address2] => 
+                                                            [city] => GRADIGNAN
+                                                            [postcode] => 33170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => MOTARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35080
+                                                            [alias] => 33170 GRADIGNAN
+                                                            [address1] => 9, Allée du Haut Vigneau
+                                                            [address2] => 
+                                                            [city] => GRADIGNAN
+                                                            [postcode] => 33170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => MOTARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

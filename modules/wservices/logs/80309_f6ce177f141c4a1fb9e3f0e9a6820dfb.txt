@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80309
+    [IdTransaction] => f6ce177f141c4a1fb9e3f0e9a6820dfb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28198] => Array
+                                (
+                                    [notiers] => 28198
+                                    [lastname] => LABRO
+                                    [firstname] => Maud
+                                    [email] => labromaud@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => mocha61237
+                                    [birthday] => 1980-08-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 110
+                                    [NbPointsRestants] => 110
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35393
+                                                            [alias] => 69600 OULLINS
+                                                            [address1] => 28, Aulagne
+                                                            [address2] => 
+                                                            [city] => OULLINS
+                                                            [postcode] => 69600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maud
+                                                            [lastname] => LABRO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35394
+                                                            [alias] => 01320 CHALAMONT
+                                                            [address1] => 18, Godet
+                                                            [address2] => 
+                                                            [city] => CHALAMONT
+                                                            [postcode] => 01320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maud
+                                                            [lastname] => LABRO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

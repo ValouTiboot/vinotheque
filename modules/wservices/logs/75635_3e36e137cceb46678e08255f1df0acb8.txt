@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75635
+    [IdTransaction] => 3e36e137cceb46678e08255f1df0acb8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36114] => Array
+                                (
+                                    [notiers] => 36114
+                                    [lastname] => CABANNE
+                                    [firstname] => Jerome
+                                    [email] => jeromecabanne@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 5Wq-73D-53G-NKu
+                                    [birthday] => 1975-07-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48364
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 21, rue Paul Painlevé
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => CABANNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48365
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 21, rue Paul Painlevé
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => CABANNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

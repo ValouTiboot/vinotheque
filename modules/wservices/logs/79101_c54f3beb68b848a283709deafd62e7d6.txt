@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79101
+    [IdTransaction] => c54f3beb68b848a283709deafd62e7d6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23115] => Array
+                                (
+                                    [notiers] => 23115
+                                    [lastname] => ORTEGA
+                                    [firstname] => Jorge
+                                    [email] => lena.hamann@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => NaelandDana
+                                    [birthday] => 1980-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 51
+                                    [NbPointsRestants] => 51
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30161
+                                                            [alias] => 80469 MUNICH
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => MUNICH
+                                                            [postcode] => 80469
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jorge
+                                                            [lastname] => ORTEGA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30162
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 3, rue Eugene Delacroix
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jorge
+                                                            [lastname] => ORTEGA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

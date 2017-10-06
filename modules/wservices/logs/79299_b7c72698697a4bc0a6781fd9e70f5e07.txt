@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79299
+    [IdTransaction] => b7c72698697a4bc0a6781fd9e70f5e07
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30485] => Array
+                                (
+                                    [notiers] => 30485
+                                    [lastname] => BONNAFOUS
+                                    [firstname] => Thierry
+                                    [email] => mxbonnafous@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => rayere60
+                                    [birthday] => 1955-04-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 108
+                                    [NbPointsRestants] => 108
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38933
+                                                            [alias] => 60750 CHOISY-AU-BAC
+                                                            [address1] => 555, RUE VICTOR HUGO CHOISY AU BAC
+                                                            [address2] => 
+                                                            [city] => CHOISY-AU-BAC
+                                                            [postcode] => 60750
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BONNAFOUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38934
+                                                            [alias] => 60750 CHOISY-AU-BAC
+                                                            [address1] => 555, RUE VICTOR HUGO CHOISY AU BAC
+                                                            [address2] => 
+                                                            [city] => CHOISY-AU-BAC
+                                                            [postcode] => 60750
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BONNAFOUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

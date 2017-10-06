@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78509
+    [IdTransaction] => fe2fc331232d418999d24a2abec21521
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30780] => Array
+                                (
+                                    [notiers] => 30780
+                                    [lastname] => RUCHAT
+                                    [firstname] => Fabrice
+                                    [email] => fabrice.ruchat@amcmateriaux.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1977-02-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39456
+                                                            [alias] => 33112 ST LAURENT DU MEDOC
+                                                            [address1] => ZA
+                                                            [address2] => 
+                                                            [city] => ST LAURENT DU MEDOC
+                                                            [postcode] => 33112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => RUCHAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39457
+                                                            [alias] => 33112 ST LAURENT DU MEDOC
+                                                            [address1] => ZA
+                                                            [address2] => 
+                                                            [city] => ST LAURENT DU MEDOC
+                                                            [postcode] => 33112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => RUCHAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86108
+    [IdTransaction] => 18c383d0d7d04e5d943ffa79eb57f559
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30963] => Array
+                                (
+                                    [notiers] => 30963
+                                    [lastname] => UGUEN
+                                    [firstname] => Patrice
+                                    [email] => pat.uguen@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => regate
+                                    [birthday] => 1971-12-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 248
+                                    [NbPointsRestants] => 248
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39759
+                                                            [alias] => 29260 LESNEVEN
+                                                            [address1] => rue Anita Conti
+                                                            [address2] => 
+                                                            [city] => LESNEVEN
+                                                            [postcode] => 29260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrice
+                                                            [lastname] => UGUEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39760
+                                                            [alias] => 29200 BREST
+                                                            [address1] => 1 bis, Rue du Cossquer
+                                                            [address2] => 
+                                                            [city] => BREST
+                                                            [postcode] => 29200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrice
+                                                            [lastname] => UGUEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

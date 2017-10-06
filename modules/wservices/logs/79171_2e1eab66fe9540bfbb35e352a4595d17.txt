@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79171
+    [IdTransaction] => 2e1eab66fe9540bfbb35e352a4595d17
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31030] => Array
+                                (
+                                    [notiers] => 31030
+                                    [lastname] => MANZAC
+                                    [firstname] => François
+                                    [email] => ena506@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => v24mf50lu
+                                    [birthday] => 1946-05-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 80
+                                    [NbPointsRestants] => 80
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39880
+                                                            [alias] => 24380 LACROPTE
+                                                            [address1] => les bouyges
+                                                            [address2] => 
+                                                            [city] => LACROPTE
+                                                            [postcode] => 24380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => MANZAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39881
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 27, rue de la belle fontaine
+                                                            [address2] => rdc
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => MANZAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

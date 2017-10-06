@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82027
+    [IdTransaction] => 19ae377e4be9476fb4c85a9cb6c38f4b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32064] => Array
+                                (
+                                    [notiers] => 32064
+                                    [lastname] => TOSON
+                                    [firstname] => Bernard
+                                    [email] => pierre.toson@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 72chzqa25
+                                    [birthday] => 1954-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41587
+                                                            [alias] => 33610 CANEJAN
+                                                            [address1] => 25, allée des Pimprenelles
+                                                            [address2] => 
+                                                            [city] => CANEJAN
+                                                            [postcode] => 33610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => TOSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41588
+                                                            [alias] => 33610 CANEJAN
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CANEJAN
+                                                            [postcode] => 33610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => TOSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

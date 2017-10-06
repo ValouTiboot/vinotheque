@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 77571
+    [IdTransaction] => 1c6fa9110d3f4822b145969d3d2802b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [14843] => Array
+                                (
+                                    [notiers] => 14843
+                                    [lastname] => BOIVIN
+                                    [firstname] => Regine
+                                    [email] => joel.boivin@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => 111206
+                                    [birthday] => 1966-06-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1853
+                                    [NbPointsRestants] => 1853
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 17168
+                                                            [alias] => 03120 SAINT-PRIX
+                                                            [address1] => vignaud
+                                                            [address2] => 
+                                                            [city] => SAINT-PRIX
+                                                            [postcode] => 03120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme boivin regine
+                                                            [firstname] => Regine
+                                                            [lastname] => BOIVIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 17169
+                                                            [alias] => 03120 LAPALISSE
+                                                            [address1] => chemin des bruyères
+                                                            [address2] => 
+                                                            [city] => LAPALISSE
+                                                            [postcode] => 03120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mlle boivin laure
+                                                            [firstname] => Regine
+                                                            [lastname] => BOIVIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 17169
+                                                            [alias] => 03120 LAPALISSE
+                                                            [address1] => chemin des bruyères
+                                                            [address2] => 
+                                                            [city] => LAPALISSE
+                                                            [postcode] => 03120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mlle boivin laure
+                                                            [firstname] => Regine
+                                                            [lastname] => BOIVIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

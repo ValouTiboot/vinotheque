@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79997
+    [IdTransaction] => 4bd771e2e0dd4f4983e01b6a6ad5dea1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29292] => Array
+                                (
+                                    [notiers] => 29292
+                                    [lastname] => SERAPHINI
+                                    [firstname] => Michelle
+                                    [email] => michelle.seraphini@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1936-09-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 95
+                                    [NbPointsRestants] => 95
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36961
+                                                            [alias] => 74370 VILLAZ
+                                                            [address1] => 468, route du pré fleuri
+                                                            [address2] => 
+                                                            [city] => VILLAZ
+                                                            [postcode] => 74370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michelle
+                                                            [lastname] => SERAPHINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36962
+                                                            [alias] => 74370 VILLAZ
+                                                            [address1] => 468, route du pré fleuri
+                                                            [address2] => 
+                                                            [city] => VILLAZ
+                                                            [postcode] => 74370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michelle
+                                                            [lastname] => SERAPHINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

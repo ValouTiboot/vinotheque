@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83406
+    [IdTransaction] => 8144da1213f44d1080cbe36c09342620
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31011] => Array
+                                (
+                                    [notiers] => 31011
+                                    [lastname] => RÉAU
+                                    [firstname] => Aurélien
+                                    [email] => aurelienr@km-group.fr
+                                    [id_gender] => 1
+                                    [passwd] => azerty179
+                                    [birthday] => 1979-06-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 69
+                                    [NbPointsRestants] => 69
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39844
+                                                            [alias] => 45450 DONNERY
+                                                            [address1] => 194, Rue des vignes
+                                                            [address2] => 
+                                                            [city] => DONNERY
+                                                            [postcode] => 45450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélien
+                                                            [lastname] => RÉAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39845
+                                                            [alias] => 45450 DONNERY
+                                                            [address1] => 194, Rue des vignes
+                                                            [address2] => 
+                                                            [city] => DONNERY
+                                                            [postcode] => 45450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélien
+                                                            [lastname] => RÉAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

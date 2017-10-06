@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74488
+    [IdTransaction] => e0f550c9f815451aab05b8f2772dd07a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27754] => Array
+                                (
+                                    [notiers] => 27754
+                                    [lastname] => FAYOLLE
+                                    [firstname] => Gérard
+                                    [email] => gerard.fayolle@nordnet.fr
+                                    [id_gender] => 1
+                                    [passwd] => villette
+                                    [birthday] => 1952-09-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 376
+                                    [NbPointsRestants] => 376
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34726
+                                                            [alias] => 53270 BLANDOUET
+                                                            [address1] => Le Logis de Chambord
+                                                            [address2] => 
+                                                            [city] => BLANDOUET
+                                                            [postcode] => 53270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gérard
+                                                            [lastname] => FAYOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34727
+                                                            [alias] => 53270 BLANDOUET
+                                                            [address1] => Le Logis de Chambord
+                                                            [address2] => 
+                                                            [city] => BLANDOUET
+                                                            [postcode] => 53270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gérard
+                                                            [lastname] => FAYOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

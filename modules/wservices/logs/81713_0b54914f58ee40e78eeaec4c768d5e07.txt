@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81713
+    [IdTransaction] => 0b54914f58ee40e78eeaec4c768d5e07
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32059] => Array
+                                (
+                                    [notiers] => 32059
+                                    [lastname] => QUITOT
+                                    [firstname] => Bernard
+                                    [email] => bernard.quitot@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => bq091012
+                                    [birthday] => 1949-04-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 117
+                                    [NbPointsRestants] => 117
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41577
+                                                            [alias] => 42100 SAINT-ETIENNE
+                                                            [address1] => 46, Rue Désiré Claude
+                                                            [address2] => 2ème étage
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => QUITOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41578
+                                                            [alias] => 42100 SAINT-ETIENNE
+                                                            [address1] => 46, Rue Désiré Claude
+                                                            [address2] => 2ème étage
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => QUITOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

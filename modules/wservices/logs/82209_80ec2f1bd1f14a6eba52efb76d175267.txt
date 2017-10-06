@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82209
+    [IdTransaction] => 80ec2f1bd1f14a6eba52efb76d175267
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34640] => Array
+                                (
+                                    [notiers] => 34640
+                                    [lastname] => LARRIVIERE
+                                    [firstname] => Claudie
+                                    [email] => larriviere.claudie@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => along1dali
+                                    [birthday] => 1952-03-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 80
+                                    [NbPointsRestants] => 80
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45963
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claudie
+                                                            [lastname] => LARRIVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45964
+                                                            [alias] => 13008 MARSEILLE
+                                                            [address1] => 11, IMPASSE JEAN JACQUES CHARLEY
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claudie
+                                                            [lastname] => LARRIVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

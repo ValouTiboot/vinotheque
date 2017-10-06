@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75719
+    [IdTransaction] => afe2e9f574a5475283c7c8efe8c748a5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25046] => Array
+                                (
+                                    [notiers] => 25046
+                                    [lastname] => TREMOULET
+                                    [firstname] => Pierre
+                                    [email] => pierre.tremoulet@notaires-espagne.com
+                                    [id_gender] => 1
+                                    [passwd] => camillou31
+                                    [birthday] => 1968-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31043
+                                                            [alias] => 31100 TOULOUSE
+                                                            [address1] => 5, CHEMIN RAMELET MOUNDI
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => TREMOULET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31044
+                                                            [alias] => 31100 TOULOUSE
+                                                            [address1] => 78, ROUTE D'ESPAGNE
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => TREMOULET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

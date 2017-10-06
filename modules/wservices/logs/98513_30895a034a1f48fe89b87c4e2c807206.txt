@@ -1,0 +1,393 @@
+Array
+(
+    [NoJSON] => 98513
+    [IdTransaction] => 30895a034a1f48fe89b87c4e2c807206
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2011000335] => Array
+                                (
+                                    [reference] => M2011000335
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 35756|126
+                                    [active] => 1
+                                    [name] => CLOS FOURTET
+                                    [wine] => 0
+                                    [wine_date] => 2014-01-07 17:34:26
+                                    [wine_delivery] => 2014-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => clos-fourtet.jpg
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Les appellations Saint-Emilion et Saint-Emilion Grand Cru sont géographiquement entrelacées. Elles s’étendent sur neuf communes dont la simple énumération fait déjà rêver. La première est Saint-Emilion, qui constitue l’épicentre du vignoble depuis l’arrivée des moines au VIIIe siècle. Les villages de Saint-Christophe-des-Bardes, Saint-Etienne-de-Lisse, Saint-Hippolyte, Saint-Laurent-des-Combes, Saint-Pey-d’Armens, Saint-Sulpice-de-Faleyrens et Vignonet complètent ce tableau, auquel s'ajoute, pour partie, Libourne. Les domaines, d'une superficie moyenne de 8 ha, comptent en moyenne 65 % de Merlot. Grâce à un terroir riche, chaque propriété produit un vin aux caractéristiques uniques.
+                                    [property] => Bâti aux portes de la cité médiévale, c'est un des sites les plus visités. Les familles Ruleau et de Carles ont su mettre en valeur  le vignoble. En 1948, François Lurton rachèta le domaine et apporta un soin méticuleux au vignoble.
+                                    [description] => Guide Hachette : coup de coeur. Après deux années exceptionnelles, nous découvrons cette année un vin classique qui est plus porté par son identité terroir (argiles sableuses et plateau calcaire) qu’une caractéristique du millésime. Ce vin sombre et profond évoque une large palette de fruit : cerise rouge et mure sauvage, le tout rehaussé par de la violette et une pointe de réglisse. Ce vin corsé et mur, exprime en bouche une grande pureté et une précision de grain de tanin. La finale est harmonieuse et fraiche. 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Rouge
+                                            [2] => Saint-Émilion Grand Cru
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                            [1] => Récompenses concours
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Gibier
+                                            [1] => Viande rouge grillée
+                                            [2] => Viande rouge en sauce
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => clos-fourtet-001.jpg
+                                                            [legend] => CLOS FOURTET     
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 35756
+                                                                    [1] => 35768
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => clos-fourtet-002.jpg
+                                                            [legend] => CLOS FOURTET     
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 35756
+                                                                    [1] => 35768
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35756
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 5
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 71.6667
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35756
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 5
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 71.6667
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35756
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 5
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 71.6667
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35756
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 5
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 71.6667
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35768
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 116.6667
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 3
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35768
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 116.6667
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 3
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 35768
+                                                            [reference] => M2011000335
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 116.6667
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 3
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Saint-Émilion Grand Cru
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 89% Merlot
+                                                                    [1] => 7% Cabernet Sauvignon
+                                                                    [2] => 4% Cabernet Franc
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 1er grand cru classé B
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.500
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2011
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Enthusiast 95
+                                                                    [1] => James Suckling 90
+                                                                    [2] => Decanter 16.5
+                                                                    [3] => Wine spectator 93
+                                                                    [4] => Robert Parker 93
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Coup de coeur Guide Hachette
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [cle] => 13
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

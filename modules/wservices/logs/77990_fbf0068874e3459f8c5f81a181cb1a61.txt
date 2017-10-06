@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77990
+    [IdTransaction] => fbf0068874e3459f8c5f81a181cb1a61
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33050] => Array
+                                (
+                                    [notiers] => 33050
+                                    [lastname] => GRIBET
+                                    [firstname] => Arthur
+                                    [email] => a.gribet@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Akiplide55
+                                    [birthday] => 1988-05-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 16
+                                    [NbPointsRestants] => 16
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43146
+                                                            [alias] => 57100 THIONVILLE
+                                                            [address1] => 30, av de guise
+                                                            [address2] => 
+                                                            [city] => THIONVILLE
+                                                            [postcode] => 57100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arthur
+                                                            [lastname] => GRIBET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43147
+                                                            [alias] => 23260 CROCQ
+                                                            [address1] => la core
+                                                            [address2] => 
+                                                            [city] => CROCQ
+                                                            [postcode] => 23260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arthur
+                                                            [lastname] => GRIBET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

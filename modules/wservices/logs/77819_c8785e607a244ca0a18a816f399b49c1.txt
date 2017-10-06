@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77819
+    [IdTransaction] => c8785e607a244ca0a18a816f399b49c1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29637] => Array
+                                (
+                                    [notiers] => 29637
+                                    [lastname] => SMILES
+                                    [firstname] => Rosa
+                                    [email] => smiles.rosa@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => rosetta
+                                    [birthday] => 1990-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37475
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rosa
+                                                            [lastname] => SMILES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37476
+                                                            [alias] => 10124 TORINO
+                                                            [address1] => Rosa Smiles
+                                                            [address2] => 
+                                                            [city] => TORINO
+                                                            [postcode] => 10124
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rosa
+                                                            [lastname] => SMILES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

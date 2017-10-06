@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82821
+    [IdTransaction] => a0c26a97dac044159d47691ada297d4b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26547] => Array
+                                (
+                                    [notiers] => 26547
+                                    [lastname] => HENRY
+                                    [firstname] => Jacques
+                                    [email] => jacqueshenry03@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => bardot1527
+                                    [birthday] => 1979-03-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 147
+                                    [NbPointsRestants] => 147
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32796
+                                                            [alias] => 92120 MONTROUGE
+                                                            [address1] => 3, rue auber
+                                                            [address2] => 1er etage gauche
+                                                            [city] => MONTROUGE
+                                                            [postcode] => 92120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => HENRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32797
+                                                            [alias] => 92120 MONTROUGE
+                                                            [address1] => 3, rue auber
+                                                            [address2] => 1er etage gauche
+                                                            [city] => MONTROUGE
+                                                            [postcode] => 92120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => HENRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

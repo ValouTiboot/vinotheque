@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82519
+    [IdTransaction] => e3a4a65b5ba2483888333871ef081a36
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31250] => Array
+                                (
+                                    [notiers] => 31250
+                                    [lastname] => THIBAULT
+                                    [firstname] => Sarah
+                                    [email] => sarah.thibault33@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => sarah33
+                                    [birthday] => 1977-12-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 17
+                                    [NbPointsRestants] => 17
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40256
+                                                            [alias] => 33140 VILLENAVE-D'ORNON
+                                                            [address1] => 28B, chemin Lalaurie
+                                                            [address2] => 
+                                                            [city] => VILLENAVE-D'ORNON
+                                                            [postcode] => 33140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => THIBAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40257
+                                                            [alias] => 33140 VILLENAVE-D'ORNON
+                                                            [address1] => 28B, chemin Lalaurie
+                                                            [address2] => 
+                                                            [city] => VILLENAVE-D'ORNON
+                                                            [postcode] => 33140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => THIBAULT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

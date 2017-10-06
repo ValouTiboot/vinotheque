@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77286
+    [IdTransaction] => 0de0f98c12d14858a2abc6f98fdce66b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28478] => Array
+                                (
+                                    [notiers] => 28478
+                                    [lastname] => REINHARDT
+                                    [firstname] => Jean pierre
+                                    [email] => jeanpierre.reinhardt@creditmutuel.fr
+                                    [id_gender] => 1
+                                    [passwd] => 250256
+                                    [birthday] => 1956-02-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 329
+                                    [NbPointsRestants] => 329
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35790
+                                                            [alias] => 57540 PETITE-ROSSELLE
+                                                            [address1] => 23, DU LIEUTENANT NAU
+                                                            [address2] => 
+                                                            [city] => PETITE-ROSSELLE
+                                                            [postcode] => 57540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => CREDIT MUTUEL
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => REINHARDT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35791
+                                                            [alias] => 57540 PETITE-ROSSELLE
+                                                            [address1] => 2, DES FLEURS
+                                                            [address2] => 
+                                                            [city] => PETITE-ROSSELLE
+                                                            [postcode] => 57540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => REINHARDT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

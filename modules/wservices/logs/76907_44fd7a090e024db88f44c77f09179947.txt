@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76907
+    [IdTransaction] => 44fd7a090e024db88f44c77f09179947
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32483] => Array
+                                (
+                                    [notiers] => 32483
+                                    [lastname] => MARIN
+                                    [firstname] => Thomas
+                                    [email] => cindythomas@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 7071981
+                                    [birthday] => 1981-10-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42270
+                                                            [alias] => 88100 NAYEMONT-LES-FOSSES
+                                                            [address1] => 20, Chemin de la belle campagne
+                                                            [address2] => 
+                                                            [city] => NAYEMONT-LES-FOSSES
+                                                            [postcode] => 88100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => MARIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42271
+                                                            [alias] => 88100 NAYEMONT-LES-FOSSES
+                                                            [address1] => 20, Chemin de la belle campagne
+                                                            [address2] => 
+                                                            [city] => NAYEMONT-LES-FOSSES
+                                                            [postcode] => 88100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => MARIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

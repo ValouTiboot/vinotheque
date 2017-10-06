@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77126
+    [IdTransaction] => 502ed078896948388a3fecb0f2a3747e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30625] => Array
+                                (
+                                    [notiers] => 30625
+                                    [lastname] => SABIANI
+                                    [firstname] => Pierre
+                                    [email] => sabiani-pierre@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => bonobo06
+                                    [birthday] => 1982-01-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39176
+                                                            [alias] => 06250 MOUGINS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => MOUGINS
+                                                            [postcode] => 06250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => SABIANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39177
+                                                            [alias] => 06250 MOUGINS
+                                                            [address1] => 146, chemin du couchant
+                                                            [address2] => 
+                                                            [city] => MOUGINS
+                                                            [postcode] => 06250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => SABIANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

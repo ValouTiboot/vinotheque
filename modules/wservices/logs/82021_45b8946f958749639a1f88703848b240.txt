@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82021
+    [IdTransaction] => 45b8946f958749639a1f88703848b240
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35231] => Array
+                                (
+                                    [notiers] => 35231
+                                    [lastname] => CUVELIER
+                                    [firstname] => Jean-francois
+                                    [email] => arnaud_cindy@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => azerty
+                                    [birthday] => 1968-02-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46899
+                                                            [alias] => 38240 MEYLAN
+                                                            [address1] => 12, Allée de l'obiou
+                                                            [address2] => Allée de l'obiou
+                                                            [city] => MEYLAN
+                                                            [postcode] => 38240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-francois
+                                                            [lastname] => CUVELIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46909
+                                                            [alias] => 38240 MEYLAN
+                                                            [address1] => 12, JEAN-FRANCOIS CUVELIER
+                                                            [address2] => Allée de l'obiou
+                                                            [city] => MEYLAN
+                                                            [postcode] => 38240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-francois
+                                                            [lastname] => CUVELIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

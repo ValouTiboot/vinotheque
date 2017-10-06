@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75335
+    [IdTransaction] => 47ee0838a4174fdb8ba165b63e27a671
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27910] => Array
+                                (
+                                    [notiers] => 27910
+                                    [lastname] => MARIJON
+                                    [firstname] => Didier
+                                    [email] => carpedia@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => nimol30
+                                    [birthday] => 1958-03-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34983
+                                                            [alias] => 93270 SEVRAN
+                                                            [address1] => 24, Allée Apollinaire
+                                                            [address2] => 
+                                                            [city] => SEVRAN
+                                                            [postcode] => 93270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => MARIJON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34984
+                                                            [alias] => 34090 MONTPELLIER
+                                                            [address1] => 76, rue des Cétoines
+                                                            [address2] => maison 116 résidence campagne première
+                                                            [city] => MONTPELLIER
+                                                            [postcode] => 34090
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => MARIJON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

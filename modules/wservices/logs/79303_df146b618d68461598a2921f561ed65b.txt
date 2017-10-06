@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79303
+    [IdTransaction] => df146b618d68461598a2921f561ed65b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36473] => Array
+                                (
+                                    [notiers] => 36473
+                                    [lastname] => MELNIKOVA
+                                    [firstname] => Elena
+                                    [email] => elena.melnikova73@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => ricordati
+                                    [birthday] => 1973-07-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 151
+                                    [NbPointsRestants] => 151
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48962
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 19, promenade des anglais
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Elena
+                                                            [lastname] => MELNIKOVA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48963
+                                                            [alias] => 13600 CIOTAT
+                                                            [address1] => 46, quai Francois Mitterand 80039
+                                                            [address2] => 
+                                                            [city] => CIOTAT
+                                                            [postcode] => 13600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Elena
+                                                            [lastname] => MELNIKOVA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

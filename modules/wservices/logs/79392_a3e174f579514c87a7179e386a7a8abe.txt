@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79392
+    [IdTransaction] => a3e174f579514c87a7179e386a7a8abe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27631] => Array
+                                (
+                                    [notiers] => 27631
+                                    [lastname] => GROUILLER
+                                    [firstname] => Gilles
+                                    [email] => ggrouiller@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => tropical4
+                                    [birthday] => 1963-12-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 138
+                                    [NbPointsRestants] => 138
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34526
+                                                            [alias] => 98703 PUNAAUIA
+                                                            [address1] => bp 2741
+                                                            [address2] => 
+                                                            [city] => PUNAAUIA
+                                                            [postcode] => 98703
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => GROUILLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34527
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 22, St Didier
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => GROUILLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

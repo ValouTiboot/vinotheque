@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80330
+    [IdTransaction] => 81a1a9aa6713464b83213dbd13caf267
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29062] => Array
+                                (
+                                    [notiers] => 29062
+                                    [lastname] => BONNEL
+                                    [firstname] => Jean pierre
+                                    [email] => jp.bonnel@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => solange
+                                    [birthday] => 1940-03-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36714
+                                                            [alias] => 14123 CORMELLES-LE-ROYAL
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CORMELLES-LE-ROYAL
+                                                            [postcode] => 14123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => BONNEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36715
+                                                            [alias] => 14123 CORMELLES-LE-ROYAL
+                                                            [address1] => 12, d'IFS
+                                                            [address2] => 
+                                                            [city] => CORMELLES-LE-ROYAL
+                                                            [postcode] => 14123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => BONNEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

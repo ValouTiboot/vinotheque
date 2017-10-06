@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81938
+    [IdTransaction] => 017d67633a9d474a9ab24a4ec42531b4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32115] => Array
+                                (
+                                    [notiers] => 32115
+                                    [lastname] => CHAUMIER
+                                    [firstname] => Jeremy
+                                    [email] => jeremychaumier@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => postit1972
+                                    [birthday] => 1972-05-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 126
+                                    [NbPointsRestants] => 126
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41681
+                                                            [alias] => 83700 SAINT-RAPHAEL
+                                                            [address1] => 10, Boulevard sainte Geneviève 83700
+                                                            [address2] => 
+                                                            [city] => SAINT-RAPHAEL
+                                                            [postcode] => 83700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jeremy
+                                                            [lastname] => CHAUMIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41682
+                                                            [alias] => 83700 SAINT-RAPHAEL
+                                                            [address1] => 10, Boulevard sainte Geneviève 83700
+                                                            [address2] => 
+                                                            [city] => SAINT-RAPHAEL
+                                                            [postcode] => 83700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jeremy
+                                                            [lastname] => CHAUMIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

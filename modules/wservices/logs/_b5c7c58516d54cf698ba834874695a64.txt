@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => b5c7c58516d54cf698ba834874695a64
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-09-21 12:16:40
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [7] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => MORA
+                                    [firstname] => Paul
+                                    [email] => client@ebewe.net
+                                    [id_gender] => 0
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [25191] => Array
+                                                (
+                                                    [id_address] => 25191
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 33 hameau des alouettes
+                                                    [address2] => 
+                                                    [city] => Capbreton
+                                                    [postcode] => 40130
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Paul
+                                                    [lastname] => MORA
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

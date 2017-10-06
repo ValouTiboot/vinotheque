@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79387
+    [IdTransaction] => 732c4ce3ac8e44498655b855bd8799f2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28018] => Array
+                                (
+                                    [notiers] => 28018
+                                    [lastname] => L'HUILLIER
+                                    [firstname] => Cedric
+                                    [email] => cedriclhuillier@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vinvin
+                                    [birthday] => 1979-10-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 53
+                                    [NbPointsRestants] => 53
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35118
+                                                            [alias] => 88400 GERARDMER
+                                                            [address1] => 32, boulevard kelsch
+                                                            [address2] => 
+                                                            [city] => GERARDMER
+                                                            [postcode] => 88400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => L'HUILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35119
+                                                            [alias] => 88400 GERARDMER
+                                                            [address1] => 32, boulevard kelsch
+                                                            [address2] => 
+                                                            [city] => GERARDMER
+                                                            [postcode] => 88400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => L'HUILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

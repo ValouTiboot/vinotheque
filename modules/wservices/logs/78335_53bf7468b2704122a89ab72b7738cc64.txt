@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78335
+    [IdTransaction] => 53bf7468b2704122a89ab72b7738cc64
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35715] => Array
+                                (
+                                    [notiers] => 35715
+                                    [lastname] => ANGEL
+                                    [firstname] => Thierry
+                                    [email] => angel@iiiha.net
+                                    [id_gender] => 1
+                                    [passwd] => Vinotheque
+                                    [birthday] => 1963-04-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47697
+                                                            [alias] => 98730 VAITAPE
+                                                            [address1] => BP 1375
+                                                            [address2] => 
+                                                            [city] => VAITAPE
+                                                            [postcode] => 98730
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => ANGEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47698
+                                                            [alias] => 92210 SAINT-CLOUD
+                                                            [address1] => 40, rue du Mont Valérien
+                                                            [address2] => 
+                                                            [city] => SAINT-CLOUD
+                                                            [postcode] => 92210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => ANGEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

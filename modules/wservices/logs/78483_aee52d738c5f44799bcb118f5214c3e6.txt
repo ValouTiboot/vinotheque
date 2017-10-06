@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78483
+    [IdTransaction] => aee52d738c5f44799bcb118f5214c3e6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27573] => Array
+                                (
+                                    [notiers] => 27573
+                                    [lastname] => LOFFROY
+                                    [firstname] => Pascal
+                                    [email] => p.loffroy@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => paloff
+                                    [birthday] => 1960-07-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 114
+                                    [NbPointsRestants] => 114
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34433
+                                                            [alias] => 78260 ACHERES
+                                                            [address1] => croix saint simon
+                                                            [address2] => maison de l'hippodrome
+                                                            [city] => ACHERES
+                                                            [postcode] => 78260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => LOFFROY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34434
+                                                            [alias] => 78100 SAINT-GERMAIN-EN-LAYE
+                                                            [address1] => croix saint simon
+                                                            [address2] => maison de l'hippodrome
+                                                            [city] => SAINT-GERMAIN-EN-LAYE
+                                                            [postcode] => 78100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => LOFFROY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

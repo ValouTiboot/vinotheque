@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76263
+    [IdTransaction] => 1f3aa08c8b1a4dc3bd83427d913edb1c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31022] => Array
+                                (
+                                    [notiers] => 31022
+                                    [lastname] => FLOCH
+                                    [firstname] => Lucas
+                                    [email] => lucasfloch@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => doggy style
+                                    [birthday] => 1990-09-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39867
+                                                            [alias] => 29460 HOPITAL-CAMFROUT
+                                                            [address1] => 1, Clos du Lannec
+                                                            [address2] => 
+                                                            [city] => HOPITAL-CAMFROUT
+                                                            [postcode] => 29460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucas
+                                                            [lastname] => FLOCH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39868
+                                                            [alias] => 29460 HOPITAL-CAMFROUT
+                                                            [address1] => 1, Clos du Lannec
+                                                            [address2] => 
+                                                            [city] => HOPITAL-CAMFROUT
+                                                            [postcode] => 29460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucas
+                                                            [lastname] => FLOCH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

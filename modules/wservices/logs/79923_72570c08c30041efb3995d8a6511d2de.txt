@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79923
+    [IdTransaction] => 72570c08c30041efb3995d8a6511d2de
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25614] => Array
+                                (
+                                    [notiers] => 25614
+                                    [lastname] => LECOEUR
+                                    [firstname] => Franck
+                                    [email] => margouillats974@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => francky
+                                    [birthday] => 1973-08-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 55
+                                    [NbPointsRestants] => 55
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31437
+                                                            [alias] => 97460 ST. PAUL
+                                                            [address1] => 30, Rue de corse
+                                                            [address2] => 
+                                                            [city] => ST. PAUL
+                                                            [postcode] => 97460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => LECOEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31438
+                                                            [alias] => 56870 BADEN
+                                                            [address1] => 1, Pointe du Blair
+                                                            [address2] => 
+                                                            [city] => BADEN
+                                                            [postcode] => 56870
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => LECOEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

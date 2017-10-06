@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81918
+    [IdTransaction] => 1eb64b8de38a40e9830ed0e77e123b06
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34682] => Array
+                                (
+                                    [notiers] => 34682
+                                    [lastname] => HERBOTS
+                                    [firstname] => Medhi
+                                    [email] => medhi.herbots@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => salope
+                                    [birthday] => 1977-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46041
+                                                            [alias] => 6141 FORCHIES LA MARCHE
+                                                            [address1] => 2, d'el Bleuse pierre
+                                                            [address2] => 
+                                                            [city] => FORCHIES LA MARCHE
+                                                            [postcode] => 6141
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Medhi
+                                                            [lastname] => HERBOTS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46042
+                                                            [alias] => 6141 FORCHIES LA MARCHE
+                                                            [address1] => 35, Neuve
+                                                            [address2] => 
+                                                            [city] => FORCHIES LA MARCHE
+                                                            [postcode] => 6141
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Medhi
+                                                            [lastname] => HERBOTS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

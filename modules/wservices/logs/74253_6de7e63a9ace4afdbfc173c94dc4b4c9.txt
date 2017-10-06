@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74253
+    [IdTransaction] => 6de7e63a9ace4afdbfc173c94dc4b4c9
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33430] => Array
+                                (
+                                    [notiers] => 33430
+                                    [lastname] => VERDET
+                                    [firstname] => Thierry
+                                    [email] => t.verdet@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => franceville
+                                    [birthday] => 1952-12-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 621
+                                    [NbPointsRestants] => 621
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43837
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 58, rue de vaugirard
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => VERDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43838
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 58, rue de vaugirard
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => VERDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

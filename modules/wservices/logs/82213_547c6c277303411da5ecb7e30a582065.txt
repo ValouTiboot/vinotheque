@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82213
+    [IdTransaction] => 547c6c277303411da5ecb7e30a582065
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32446] => Array
+                                (
+                                    [notiers] => 32446
+                                    [lastname] => GOURDON
+                                    [firstname] => Marion
+                                    [email] => gourdon.marion@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => abc123dead
+                                    [birthday] => 1989-08-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42208
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 72, Rue Marcadet
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marion
+                                                            [lastname] => GOURDON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42209
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 120, Boulevard de Clichy
+                                                            [address2] => 4eme étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marion
+                                                            [lastname] => GOURDON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

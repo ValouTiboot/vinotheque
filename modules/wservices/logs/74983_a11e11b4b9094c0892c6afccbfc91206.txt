@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74983
+    [IdTransaction] => a11e11b4b9094c0892c6afccbfc91206
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30592] => Array
+                                (
+                                    [notiers] => 30592
+                                    [lastname] => CARDEBAT
+                                    [firstname] => Veronique
+                                    [email] => veroniquecardebat@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Giuliano
+                                    [birthday] => 1960-04-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 124
+                                    [NbPointsRestants] => 124
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39123
+                                                            [alias] => 00179 ROME
+                                                            [address1] => 22, Via Mesopotamia
+                                                            [address2] => 
+                                                            [city] => ROME
+                                                            [postcode] => 00179
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Veronique
+                                                            [lastname] => CARDEBAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39124
+                                                            [alias] => 64000 PAU
+                                                            [address1] => 28, Avenue Federico Garcia Lorca
+                                                            [address2] => 
+                                                            [city] => PAU
+                                                            [postcode] => 64000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Veronique
+                                                            [lastname] => CARDEBAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

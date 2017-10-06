@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 87f233fa12f9943bda518e1522188a2b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-08-22 15:31:26
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [74] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => DAVID
+                                    [firstname] => Jean-Louis
+                                    [email] => davidtest@teste.te
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 2012-06-05
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [61] => Array
+                                                (
+                                                    [id_address] => 61
+                                                    [noadresse] => 
+                                                    [alias] => Adresse de test
+                                                    [address1] => route du test
+                                                    [address2] => 
+                                                    [city] => BRIVE LA GAILLARDE
+                                                    [postcode] => 19100
+                                                    [phone] => 0414251425
+                                                    [phone_mobile] => 
+                                                    [company] => sdscds
+                                                    [firstname] => Jean-Louis
+                                                    [lastname] => DAVID
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

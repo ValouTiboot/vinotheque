@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79509
+    [IdTransaction] => f95b82711ba048628a9f037746556715
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30250] => Array
+                                (
+                                    [notiers] => 30250
+                                    [lastname] => SARRET
+                                    [firstname] => Carole
+                                    [email] => sarretcarole@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => parisrun
+                                    [birthday] => 1973-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 51
+                                    [NbPointsRestants] => 51
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38515
+                                                            [alias] => 69300 CALUIRE
+                                                            [address1] => 86, rue pierre brunier
+                                                            [address2] => 
+                                                            [city] => CALUIRE
+                                                            [postcode] => 69300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carole
+                                                            [lastname] => SARRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38516
+                                                            [alias] => 69300 CALUIRE
+                                                            [address1] => 86, rue pierre brunier
+                                                            [address2] => 
+                                                            [city] => CALUIRE
+                                                            [postcode] => 69300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carole
+                                                            [lastname] => SARRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

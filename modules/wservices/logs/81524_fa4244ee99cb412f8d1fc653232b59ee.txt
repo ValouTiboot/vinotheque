@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81524
+    [IdTransaction] => fa4244ee99cb412f8d1fc653232b59ee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28008] => Array
+                                (
+                                    [notiers] => 28008
+                                    [lastname] => STEPHAN
+                                    [firstname] => Michel
+                                    [email] => andree-stephan@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1937-04-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 459
+                                    [NbPointsRestants] => 459
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35098
+                                                            [alias] => 63100 CLERMONT-FERRAND
+                                                            [address1] => 6 bis, rue fontaine du large
+                                                            [address2] => 
+                                                            [city] => CLERMONT-FERRAND
+                                                            [postcode] => 63100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => STEPHAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35099
+                                                            [alias] => 63100 CLERMONT-FERRAND
+                                                            [address1] => 6 bis, rue fontaine du large
+                                                            [address2] => 
+                                                            [city] => CLERMONT-FERRAND
+                                                            [postcode] => 63100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => STEPHAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

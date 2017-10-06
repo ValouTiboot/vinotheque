@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74585
+    [IdTransaction] => 8b52d2c90227486aa8d5802e309c3303
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34009] => Array
+                                (
+                                    [notiers] => 34009
+                                    [lastname] => MARCELO
+                                    [firstname] => Freitas
+                                    [email] => freitasm1@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mateus23
+                                    [birthday] => 1976-12-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 520
+                                    [NbPointsRestants] => 520
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44874
+                                                            [alias] => 1070-197 LISBOA
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LISBOA
+                                                            [postcode] => 1070-197
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freitas
+                                                            [lastname] => MARCELO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => PT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44877
+                                                            [alias] => 1070-197 LISBOA
+                                                            [address1] => 32-34, Rua Padre Antonio Vieira
+                                                            [address2] => Lux Lisboa Park
+                                                            [city] => LISBOA
+                                                            [postcode] => 1070-197
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freitas
+                                                            [lastname] => MARCELO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => PT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

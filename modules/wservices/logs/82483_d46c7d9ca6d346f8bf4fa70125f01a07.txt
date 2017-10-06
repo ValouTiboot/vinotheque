@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82483
+    [IdTransaction] => d46c7d9ca6d346f8bf4fa70125f01a07
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25747] => Array
+                                (
+                                    [notiers] => 25747
+                                    [lastname] => DEMAY
+                                    [firstname] => Fabien
+                                    [email] => fdemay@utas.edu.au
+                                    [id_gender] => 1
+                                    [passwd] => 222222
+                                    [birthday] => 1989-08-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 21
+                                    [NbPointsRestants] => 21
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31642
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 54, Quai de bacalan
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => DEMAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31643
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 54, Quai de bacalan
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => DEMAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

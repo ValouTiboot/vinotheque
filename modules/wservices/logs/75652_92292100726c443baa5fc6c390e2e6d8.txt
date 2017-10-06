@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75652
+    [IdTransaction] => 92292100726c443baa5fc6c390e2e6d8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31082] => Array
+                                (
+                                    [notiers] => 31082
+                                    [lastname] => LEPAGE
+                                    [firstname] => Yohann
+                                    [email] => yohann.lepage@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => shipping
+                                    [birthday] => 1979-02-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 41
+                                    [NbPointsRestants] => 41
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39966
+                                                            [alias] => 44350 GUERANDE
+                                                            [address1] => 14, avenue de bonne source
+                                                            [address2] => 
+                                                            [city] => GUERANDE
+                                                            [postcode] => 44350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yohann
+                                                            [lastname] => LEPAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39967
+                                                            [alias] => 44350 GUERANDE
+                                                            [address1] => 14, avenue de bonne source
+                                                            [address2] => 
+                                                            [city] => GUERANDE
+                                                            [postcode] => 44350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yohann
+                                                            [lastname] => LEPAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

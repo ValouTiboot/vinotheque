@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79694
+    [IdTransaction] => 8af0acbfb2f8423bb5c7b0ac4cba3c52
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35410] => Array
+                                (
+                                    [notiers] => 35410
+                                    [lastname] => VIGIER
+                                    [firstname] => Jerome
+                                    [email] => vigierfamille@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => Saintlary1
+                                    [birthday] => 1972-01-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47200
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 73, 73 rue Famatina Bordeaux
+                                                            [address2] => 73 rue Famatina
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => VIGIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47201
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 73, 73 rue Famatina Bordeaux
+                                                            [address2] => 73 rue Famatina
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => VIGIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78064
+    [IdTransaction] => fe01de9c84254a47a87255d210f900c6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33225] => Array
+                                (
+                                    [notiers] => 33225
+                                    [lastname] => ROLLAND
+                                    [firstname] => Alison
+                                    [email] => arolland@sushishopgroup.com
+                                    [id_gender] => 2
+                                    [passwd] => sushi123
+                                    [birthday] => 1990-09-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 500
+                                    [NbPointsRestants] => 500
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43472
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 116, RUE DU FBG ST MARTIN
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alison
+                                                            [lastname] => ROLLAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43473
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 116, RUE DU FBG ST MARTIN
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alison
+                                                            [lastname] => ROLLAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79123
+    [IdTransaction] => aa45b370d7e44966bf9f0ccddfc80f0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27349] => Array
+                                (
+                                    [notiers] => 27349
+                                    [lastname] => CHERUBIN
+                                    [firstname] => Franz
+                                    [email] => fcherubin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => franzi1932
+                                    [birthday] => 1932-03-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 128
+                                    [NbPointsRestants] => 128
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34090
+                                                            [alias] => 51300 COURDEMANGES
+                                                            [address1] => 22, des Auges
+                                                            [address2] => 
+                                                            [city] => COURDEMANGES
+                                                            [postcode] => 51300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franz
+                                                            [lastname] => CHERUBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34091
+                                                            [alias] => 51300 COURDEMANGES
+                                                            [address1] => 22, des Auges
+                                                            [address2] => 
+                                                            [city] => COURDEMANGES
+                                                            [postcode] => 51300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franz
+                                                            [lastname] => CHERUBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

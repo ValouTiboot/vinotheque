@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76257
+    [IdTransaction] => 2b655b244fff44c5b176f4555cb03f0d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30572] => Array
+                                (
+                                    [notiers] => 30572
+                                    [lastname] => DEVILLIERS
+                                    [firstname] => Isabelle
+                                    [email] => rafat@lcpad.fr
+                                    [id_gender] => 2
+                                    [passwd] => talatah4
+                                    [birthday] => 1966-05-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39086
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 26, GEORGE  SAND
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => DEVILLIERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39087
+                                                            [alias] => 7880 HOUILLES
+                                                            [address1] => 9, DENIS PAPIN
+                                                            [address2] => 
+                                                            [city] => HOUILLES
+                                                            [postcode] => 7880
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => DEVILLIERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

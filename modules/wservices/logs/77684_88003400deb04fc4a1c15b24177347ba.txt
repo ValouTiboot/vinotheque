@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77684
+    [IdTransaction] => 88003400deb04fc4a1c15b24177347ba
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32438] => Array
+                                (
+                                    [notiers] => 32438
+                                    [lastname] => DENISSE
+                                    [firstname] => Virginie
+                                    [email] => virginie.denisse@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => yuky6yaatp
+                                    [birthday] => 1966-08-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 48
+                                    [NbPointsRestants] => 48
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42193
+                                                            [alias] => 38770 MOTTE-D'AVEILLANS
+                                                            [address1] => 2, ROUTE DE LA ROCHE
+                                                            [address2] => 
+                                                            [city] => MOTTE-D'AVEILLANS
+                                                            [postcode] => 38770
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => DENISSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42194
+                                                            [alias] => 38240 MEYLAN
+                                                            [address1] => 31, AVENUE DU GRANIER
+                                                            [address2] => 
+                                                            [city] => MEYLAN
+                                                            [postcode] => 38240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => DENISSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

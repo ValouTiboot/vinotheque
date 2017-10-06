@@ -1,0 +1,16 @@
+.pagination.total-custom {
+	text-align: center;
+	font-size:0.875rem;
+}
+.pagination.total-custom li {
+		display:inline-block;
+	font-size:0.875rem;
+}
+
+.custom-table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+	font-size:0.875rem;
+}
+.custom-table tbody tr {
+	font-size:0.875rem !important;
+}

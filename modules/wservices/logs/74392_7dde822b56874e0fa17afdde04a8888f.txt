@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74392
+    [IdTransaction] => 7dde822b56874e0fa17afdde04a8888f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28846] => Array
+                                (
+                                    [notiers] => 28846
+                                    [lastname] => LORIOT
+                                    [firstname] => Pierre-alexandre
+                                    [email] => pa.loriot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => phixejie
+                                    [birthday] => 1982-05-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 379
+                                    [NbPointsRestants] => 379
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36371
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 8 BIS, Av Alphonse de Neuville
+                                                            [address2] => 
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-alexandre
+                                                            [lastname] => LORIOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36372
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 8 BIS, Av Alphonse de Neuville
+                                                            [address2] => 
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-alexandre
+                                                            [lastname] => LORIOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

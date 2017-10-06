@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80314
+    [IdTransaction] => d4d56da4eac245588a47d70a7a136d52
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36587] => Array
+                                (
+                                    [notiers] => 36587
+                                    [lastname] => ADDOR
+                                    [firstname] => Bernard
+                                    [email] => arremoun@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => baddor42
+                                    [birthday] => 1942-10-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 216
+                                    [NbPointsRestants] => 216
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49163
+                                                            [alias] => 40180 SORT ENCHALOSSE
+                                                            [address1] => 1851, Route de Poyartin
+                                                            [address2] => 
+                                                            [city] => SORT ENCHALOSSE
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => ADDOR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49164
+                                                            [alias] => 40180 SORT ENCHALOSSE
+                                                            [address1] => 1851, Route de Poyartin
+                                                            [address2] => 
+                                                            [city] => SORT ENCHALOSSE
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => ADDOR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

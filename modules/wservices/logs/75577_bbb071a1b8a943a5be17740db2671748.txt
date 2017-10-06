@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75577
+    [IdTransaction] => bbb071a1b8a943a5be17740db2671748
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32071] => Array
+                                (
+                                    [notiers] => 32071
+                                    [lastname] => MARCUS
+                                    [firstname] => Viitamaki
+                                    [email] => marcus.viitamaki@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Kuningas1
+                                    [birthday] => 1984-07-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 728
+                                    [NbPointsRestants] => 728
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41602
+                                                            [alias] => 00150 HELSINKI
+                                                            [address1] => 
+                                                            [address2] => 25 c 67
+                                                            [city] => HELSINKI
+                                                            [postcode] => 00150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Viitamaki
+                                                            [lastname] => MARCUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FI
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41603
+                                                            [alias] => 00170 HELSINKI
+                                                            [address1] => 
+                                                            [address2] => 19 d 46
+                                                            [city] => HELSINKI
+                                                            [postcode] => 00170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Viitamaki
+                                                            [lastname] => MARCUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FI
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

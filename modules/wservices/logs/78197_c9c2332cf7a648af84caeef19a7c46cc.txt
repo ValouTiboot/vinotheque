@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78197
+    [IdTransaction] => c9c2332cf7a648af84caeef19a7c46cc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35321] => Array
+                                (
+                                    [notiers] => 35321
+                                    [lastname] => VINCENT
+                                    [firstname] => Sophie
+                                    [email] => sophvincent@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Versailles3
+                                    [birthday] => 1969-11-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47041
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 16, de la paroisse
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => VINCENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47042
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 60, Lafaurie de MONBADON
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => VINCENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

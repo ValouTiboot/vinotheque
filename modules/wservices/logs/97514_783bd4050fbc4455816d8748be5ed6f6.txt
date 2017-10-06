@@ -1,0 +1,241 @@
+Array
+(
+    [NoJSON] => 97514
+    [IdTransaction] => 783bd4050fbc4455816d8748be5ed6f6
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2006002462] => Array
+                                (
+                                    [reference] => M2006002462
+                                    [id_second_wine] => 
+                                    [id_category_default] => Autres régions
+                                    [cache_default_attribute] => 34734
+                                    [active] => 1
+                                    [name] => DOMAINE LEROY Aloxe Corton
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Le vin Aloxe Corton Rouge se compose essentiellement de pinot noir, qui lui confère une belle robe rouge rubis, d’une bonne intensité, limpide et brillante. Des notes intenses de framboises fraîchement écrasées, tout en finesse se dégagent. En bouche les Aloxe Corton révèlent des tanins soyeux, associés à des fruits rouges frais. Pour les vieux millésimes, on retrouve des notes caractéristiques d’évolution du Pinot Noir (sous-bois, champignons, notes animales, fruits rouges bien mûrs). Les Aloxe Corton requièrent un minimum de 5 à 10 années pour atteindre leur apogée. 
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Aloxe Corton 
+                                            [1] => Autres régions
+                                            [2] => Bourgogne
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Viande blanche grillée
+                                            [1] => Fromage à pâte molle
+                                            [2] => Viande rouge grillée
+                                            [3] => Viande rouge en sauce
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => leroy-aloxe-corton.jpg
+                                                            [legend] => DOMAINE LEROY ALOXE CORTON
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 34734
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 34734
+                                                            [reference] => M2006002462
+                                                            [shop_quantity] => 6
+                                                            [name] => Format : Bouteille 0,75 L
+                                                            [active] => 1
+                                                            [price] => 150.0000
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 17
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Aloxe Corton 
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 100% Pinot noir
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2006
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => De 2011 à 2018
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bourgogne
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 15-16°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

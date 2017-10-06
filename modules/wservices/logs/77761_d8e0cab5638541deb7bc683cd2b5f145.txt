@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 77761
+    [IdTransaction] => d8e0cab5638541deb7bc683cd2b5f145
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23324] => Array
+                                (
+                                    [notiers] => 23324
+                                    [lastname] => LETOILE
+                                    [firstname] => Jean
+                                    [email] => letoilejean@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1943-09-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 294
+                                    [NbPointsRestants] => 294
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30446
+                                                            [alias] => 33310 LORMONT
+                                                            [address1] => 14, RUE CONDORCET
+                                                            [address2] => 
+                                                            [city] => LORMONT
+                                                            [postcode] => 33310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => LETOILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 30447
+                                                            [alias] => 33310 LORMONT
+                                                            [address1] => 14, RUE CONDORCET
+                                                            [address2] => 
+                                                            [city] => LORMONT
+                                                            [postcode] => 33310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => LETOILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 25948
+                                                            [alias] => LORMONT (France)
+                                                            [address1] => 14 RUE CONDORCET
+                                                            [address2] => 
+                                                            [city] => 
+                                                            [postcode] => 33100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => LETOILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

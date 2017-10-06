@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79822
+    [IdTransaction] => 8b3e988d5a08411d8dd176613ce393cc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29022] => Array
+                                (
+                                    [notiers] => 29022
+                                    [lastname] => BALZER
+                                    [firstname] => Alexandre
+                                    [email] => balzer.a@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => plouf0033
+                                    [birthday] => 1975-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 32
+                                    [NbPointsRestants] => 32
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36652
+                                                            [alias] => 03700 BELLERIVE-SUR-ALLIER
+                                                            [address1] => 16, route de gannat
+                                                            [address2] => 
+                                                            [city] => BELLERIVE-SUR-ALLIER
+                                                            [postcode] => 03700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BALZER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36653
+                                                            [alias] => 03700 BELLERIVE-SUR-ALLIER
+                                                            [address1] => 16, route de gannat
+                                                            [address2] => 
+                                                            [city] => BELLERIVE-SUR-ALLIER
+                                                            [postcode] => 03700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BALZER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

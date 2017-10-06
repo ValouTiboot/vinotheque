@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75805
+    [IdTransaction] => fcb5c3880327480b84c5439ee6320953
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30896] => Array
+                                (
+                                    [notiers] => 30896
+                                    [lastname] => SPARFEL
+                                    [firstname] => Marc-antoine
+                                    [email] => ma.sparfel@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Motdepasse0
+                                    [birthday] => 1993-04-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39652
+                                                            [alias] => 44000 NANTES
+                                                            [address1] => 24, rue Jules Simon
+                                                            [address2] => 
+                                                            [city] => NANTES
+                                                            [postcode] => 44000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc-antoine
+                                                            [lastname] => SPARFEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39653
+                                                            [alias] => 44000 NANTES
+                                                            [address1] => 25, Rue de la rosiere d'Artois
+                                                            [address2] => 4 eme étage
+                                                            [city] => NANTES
+                                                            [postcode] => 44000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc-antoine
+                                                            [lastname] => SPARFEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

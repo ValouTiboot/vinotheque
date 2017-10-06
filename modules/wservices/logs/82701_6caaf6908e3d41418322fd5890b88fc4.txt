@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82701
+    [IdTransaction] => 6caaf6908e3d41418322fd5890b88fc4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35322] => Array
+                                (
+                                    [notiers] => 35322
+                                    [lastname] => GOUTEREDONDE
+                                    [firstname] => Remi
+                                    [email] => remi.gouteredonde@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ausone
+                                    [birthday] => 1987-02-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47043
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 20, rue de PATAY
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => GOUTEREDONDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47044
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 20, rue de PATAY
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => GOUTEREDONDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

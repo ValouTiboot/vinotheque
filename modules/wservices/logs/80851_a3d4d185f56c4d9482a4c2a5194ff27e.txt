@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80851
+    [IdTransaction] => a3d4d185f56c4d9482a4c2a5194ff27e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26192] => Array
+                                (
+                                    [notiers] => 26192
+                                    [lastname] => BARTHELEMY
+                                    [firstname] => Francois
+                                    [email] => fra.barthelemy@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => parsifal
+                                    [birthday] => 1942-03-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32305
+                                                            [alias] => 06300 NICE
+                                                            [address1] => 9, rue des ponchettes
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => BARTHELEMY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32306
+                                                            [alias] => 06420 VALDEBLORE
+                                                            [address1] => la Bolline
+                                                            [address2] => La Chataigneraie
+                                                            [city] => VALDEBLORE
+                                                            [postcode] => 06420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => BARTHELEMY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

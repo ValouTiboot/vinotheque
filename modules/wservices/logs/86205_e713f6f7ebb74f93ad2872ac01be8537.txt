@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86205
+    [IdTransaction] => e713f6f7ebb74f93ad2872ac01be8537
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32289] => Array
+                                (
+                                    [notiers] => 32289
+                                    [lastname] => VITTER
+                                    [firstname] => Franck
+                                    [email] => manuela.francky@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => gevresin
+                                    [birthday] => 1971-03-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 365
+                                    [NbPointsRestants] => 365
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41997
+                                                            [alias] => 25720 ARGUEL
+                                                            [address1] => 6, route de fontain
+                                                            [address2] => 
+                                                            [city] => ARGUEL
+                                                            [postcode] => 25720
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => VITTER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41998
+                                                            [alias] => 25720 ARGUEL
+                                                            [address1] => 6, route de fontain
+                                                            [address2] => 
+                                                            [city] => ARGUEL
+                                                            [postcode] => 25720
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => VITTER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

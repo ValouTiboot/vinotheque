@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74433
+    [IdTransaction] => d065331010a846eaa684e54151e0cc36
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29766] => Array
+                                (
+                                    [notiers] => 29766
+                                    [lastname] => PINSON
+                                    [firstname] => Christophe
+                                    [email] => chp64@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => enloup25
+                                    [birthday] => 1970-08-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 132
+                                    [NbPointsRestants] => 132
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37700
+                                                            [alias] => 64110 SAINT-FAUST
+                                                            [address1] => 100, Chemin Caubet
+                                                            [address2] => Clos CAUBET
+                                                            [city] => SAINT-FAUST
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => PINSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37701
+                                                            [alias] => 64110 SAINT-FAUST
+                                                            [address1] => 100, Chemin Caubet
+                                                            [address2] => Clos Caubet
+                                                            [city] => SAINT-FAUST
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => PINSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

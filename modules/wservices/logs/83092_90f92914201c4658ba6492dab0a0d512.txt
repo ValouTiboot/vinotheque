@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83092
+    [IdTransaction] => 90f92914201c4658ba6492dab0a0d512
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32108] => Array
+                                (
+                                    [notiers] => 32108
+                                    [lastname] => BEROD
+                                    [firstname] => Thierry
+                                    [email] => berodt@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => belgazou
+                                    [birthday] => 1955-05-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 142
+                                    [NbPointsRestants] => 142
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41667
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BEROD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41668
+                                                            [alias] => 13270 FOS-SUR-MER
+                                                            [address1] => rue René Cassin
+                                                            [address2] => 
+                                                            [city] => FOS-SUR-MER
+                                                            [postcode] => 13270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BEROD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

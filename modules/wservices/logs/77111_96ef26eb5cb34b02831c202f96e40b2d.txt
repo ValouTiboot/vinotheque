@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77111
+    [IdTransaction] => 96ef26eb5cb34b02831c202f96e40b2d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25611] => Array
+                                (
+                                    [notiers] => 25611
+                                    [lastname] => COLOGNI
+                                    [firstname] => Philippe
+                                    [email] => phildo12345@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => LACANAU
+                                    [birthday] => 1954-05-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31431
+                                                            [alias] => 33680 LACANAU
+                                                            [address1] => 8, rte de l atlantique
+                                                            [address2] => 
+                                                            [city] => LACANAU
+                                                            [postcode] => 33680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => COLOGNI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31432
+                                                            [alias] => 33680 LACANAU
+                                                            [address1] => 8, rte de l atlantique
+                                                            [address2] => 
+                                                            [city] => LACANAU
+                                                            [postcode] => 33680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => COLOGNI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82233
+    [IdTransaction] => a0e4ae9d26c8428697c5db3b710f9917
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30310] => Array
+                                (
+                                    [notiers] => 30310
+                                    [lastname] => HARDY
+                                    [firstname] => Michel
+                                    [email] => hardymichel@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => renard13
+                                    [birthday] => 1962-10-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38616
+                                                            [alias] => 74700 SALLANCHES
+                                                            [address1] => 383, route du Rosay
+                                                            [address2] => 
+                                                            [city] => SALLANCHES
+                                                            [postcode] => 74700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => HARDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38617
+                                                            [alias] => 74700 SALLANCHES
+                                                            [address1] => 383, route du Rosay
+                                                            [address2] => 
+                                                            [city] => SALLANCHES
+                                                            [postcode] => 74700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => HARDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81476
+    [IdTransaction] => 61d5880c46cb48759b182a44784f5dde
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30504] => Array
+                                (
+                                    [notiers] => 30504
+                                    [lastname] => BORDAS
+                                    [firstname] => Eric
+                                    [email] => e.bordas@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 2052
+                                    [birthday] => 1952-05-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 86
+                                    [NbPointsRestants] => 86
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38965
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 52, avenue de Noes
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => BORDAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38966
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => BORDAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

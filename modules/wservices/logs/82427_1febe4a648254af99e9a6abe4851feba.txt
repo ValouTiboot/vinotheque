@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82427
+    [IdTransaction] => 1febe4a648254af99e9a6abe4851feba
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35269] => Array
+                                (
+                                    [notiers] => 35269
+                                    [lastname] => VERNIER
+                                    [firstname] => Thierry
+                                    [email] => thierry.vernier@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => odithmqp12
+                                    [birthday] => 1980-05-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 79
+                                    [NbPointsRestants] => 79
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46965
+                                                            [alias] => 92000 NANTERRE
+                                                            [address1] => 7, RUE JULES GAUTIER
+                                                            [address2] => 
+                                                            [city] => NANTERRE
+                                                            [postcode] => 92000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => VERNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46966
+                                                            [alias] => 76130 MONT-SAINT-AIGNAN
+                                                            [address1] => 81, ROUTE DE MAROMME
+                                                            [address2] => 
+                                                            [city] => MONT-SAINT-AIGNAN
+                                                            [postcode] => 76130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => VERNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

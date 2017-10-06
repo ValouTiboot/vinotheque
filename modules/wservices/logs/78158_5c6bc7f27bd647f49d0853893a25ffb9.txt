@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78158
+    [IdTransaction] => 5c6bc7f27bd647f49d0853893a25ffb9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36019] => Array
+                                (
+                                    [notiers] => 36019
+                                    [lastname] => LARGE
+                                    [firstname] => Fabien
+                                    [email] => large.fabien@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => m82D5S5svinotheque
+                                    [birthday] => 1984-03-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 159
+                                    [NbPointsRestants] => 159
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48208
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 19, Rue Duret
+                                                            [address2] => Appt 320
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => LARGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48209
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 19, Rue Duret
+                                                            [address2] => Appt 320
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => LARGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83415
+    [IdTransaction] => 883a9cdf10e546e3a431b57530d10c8f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35420] => Array
+                                (
+                                    [notiers] => 35420
+                                    [lastname] => SAFI
+                                    [firstname] => Michel
+                                    [email] => michelsafi@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => papamaman
+                                    [birthday] => 1972-05-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 360
+                                    [NbPointsRestants] => 360
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47220
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => SAFI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47221
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 15, avenue sainte foy
+                                                            [address2] => 6eme gauche A
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => SAFI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

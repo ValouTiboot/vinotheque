@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80183
+    [IdTransaction] => 0e23aebf631f4708a3298a4707e23b1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31039] => Array
+                                (
+                                    [notiers] => 31039
+                                    [lastname] => GIRARD
+                                    [firstname] => Sandrine
+                                    [email] => yougosooxie@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1987-03-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39898
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 19, RUE DES SAINTS PERES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sandrine
+                                                            [lastname] => GIRARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39899
+                                                            [alias] => 40000 MONT-DE-MARSAN
+                                                            [address1] => 15, AVENUE LOUIS TIXIER
+                                                            [address2] => 
+                                                            [city] => MONT-DE-MARSAN
+                                                            [postcode] => 40000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sandrine
+                                                            [lastname] => GIRARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78572
+    [IdTransaction] => c4158fbb04264f5eaa130f55ccbf0a64
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36489] => Array
+                                (
+                                    [notiers] => 36489
+                                    [lastname] => RODRIGUEZ
+                                    [firstname] => Sébastien
+                                    [email] => ivorydia@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => sebast1984
+                                    [birthday] => 1975-08-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 227
+                                    [NbPointsRestants] => 227
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48991
+                                                            [alias] => 24560 SAINT-AUBIN-DE-LANQUAIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-AUBIN-DE-LANQUAIS
+                                                            [postcode] => 24560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sébastien
+                                                            [lastname] => RODRIGUEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48992
+                                                            [alias] => 24560 SAINT-AUBIN-DE-LANQUAIS
+                                                            [address1] => lieu dit maison neuve
+                                                            [address2] => 
+                                                            [city] => SAINT-AUBIN-DE-LANQUAIS
+                                                            [postcode] => 24560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sébastien
+                                                            [lastname] => RODRIGUEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

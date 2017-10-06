@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77240
+    [IdTransaction] => ce2d1eb73a8a4dfd93d6f9c5c51575d0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35323] => Array
+                                (
+                                    [notiers] => 35323
+                                    [lastname] => BERTHIER
+                                    [firstname] => Nicolas
+                                    [email] => nico.berthier2@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => nI020290
+                                    [birthday] => 1990-02-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 53
+                                    [NbPointsRestants] => 53
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47045
+                                                            [alias] => 34090 MONTPELLIER
+                                                            [address1] => 220, Du pioch de boutonnet
+                                                            [address2] => Résidence Les lauréades
+                                                            [city] => MONTPELLIER
+                                                            [postcode] => 34090
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => BERTHIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47046
+                                                            [alias] => 44700 NANTES
+                                                            [address1] => 25, Des Silenes
+                                                            [address2] => 
+                                                            [city] => NANTES
+                                                            [postcode] => 44700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => BERTHIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

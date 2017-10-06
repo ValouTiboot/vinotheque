@@ -1,0 +1,507 @@
+Array
+(
+    [NoJSON] => 72657
+    [IdTransaction] => 6320ad217b6b449b900c688594f6578d
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2011000865] => Array
+                                (
+                                    [reference] => M2011000865
+                                    [id_second_wine] => 
+                                    [id_category_default] => Bordeaux
+                                    [cache_default_attribute] => 37688|130
+                                    [active] => 1
+                                    [name] => LE HAUT-MEDOC DE GISCOURS
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Cette appellation située en amont du fleuve s’étend sur 4708 hectares. Les vins d’appellation Haut-Médoc se caractérisent par un équilibre harmonieux, fait de brillance et de générosité. En vieillissant, leur bouquet développe des notes torréfiées, de cèdre, de pruneau ou encore de truffe.
+                                    [property] => 
+                                    [description] => D'une belle robe carminée légèrement évoluée, ce vin au nez discret et fin exhale des notes de sous-bois mêlées à des arômes de fruits rouges. La bouche équilibrée et d'une belle tenue offre des tanins denses et de caractère. On retrouve une finale longue et parfumée révélant un vin bien construit au potentiel intéressant.
+                                    [description_short] => LE HAUT MEDOC DE GISCOURS
+                                    [categories] => Array
+                                        (
+                                            [0] => Bordeaux
+                                            [1] => Haut-Médoc
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Charcuterie
+                                            [1] => Viande blanche grillée 
+                                            [2] => Cakes, quiches et feuilletés 
+                                            [3] => Fromage à pâte dure 
+                                            [4] => Viande rouge grillée 
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => le-haut-medoc-de-giscours-001.jpg
+                                                            [legend] => LE HAUT MEDOC DE GISCOURS
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 37688
+                                                                    [1] => 37689
+                                                                    [2] => 37690
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37688
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 12.9167
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 900
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37689
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 24
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.70
+                                                            [id_conditionnement] => 126
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37689
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.80
+                                                            [id_conditionnement] => 166
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37689
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Carton de 24
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.60
+                                                            [id_conditionnement] => 177
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37690
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 25.8333
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [cle] => 13
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37690
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 25.8333
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [cle] => 14
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37690
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 25.8333
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [cle] => 15
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 37690
+                                                            [reference] => M2011000865
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 25.8333
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Haut-Médoc
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => -
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2011
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 17-18°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82245
+    [IdTransaction] => 8835fd010c754cdfbb1f46a9fe6b3cac
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29907] => Array
+                                (
+                                    [notiers] => 29907
+                                    [lastname] => JEROME
+                                    [firstname] => Bresson
+                                    [email] => jeromeloisirs@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pobpob
+                                    [birthday] => 1976-09-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37929
+                                                            [alias] => 92438 CHATILLON
+                                                            [address1] => 13, RUE LOUVEAU
+                                                            [address2] => VALISE DIPLOMATIQUE
+                                                            [city] => CHATILLON
+                                                            [postcode] => 92438
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bresson
+                                                            [lastname] => JEROME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37930
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 16, RUE DU PEINTRE LEBRUN
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bresson
+                                                            [lastname] => JEROME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

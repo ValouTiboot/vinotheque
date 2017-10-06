@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80745
+    [IdTransaction] => 31ca8c26047e48fd817f4337f3829a8f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30614] => Array
+                                (
+                                    [notiers] => 30614
+                                    [lastname] => MARIE-CARDINE
+                                    [firstname] => Emmanuel
+                                    [email] => emmanuel.marie-cardine@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => manumanu
+                                    [birthday] => 1968-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 233
+                                    [NbPointsRestants] => 233
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39156
+                                                            [alias] => 92700 COLOMBES
+                                                            [address1] => 14, AVENUE GABRIEL
+                                                            [address2] => 
+                                                            [city] => COLOMBES
+                                                            [postcode] => 92700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => MARIE-CARDINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39157
+                                                            [alias] => 92700 COLOMBES
+                                                            [address1] => 14, AVENUE GABRIEL
+                                                            [address2] => 
+                                                            [city] => COLOMBES
+                                                            [postcode] => 92700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => MARIE-CARDINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

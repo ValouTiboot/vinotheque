@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78005
+    [IdTransaction] => 5f03ca3b352d4cae9d948f87486b34b5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28346] => Array
+                                (
+                                    [notiers] => 28346
+                                    [lastname] => GASPAR
+                                    [firstname] => Suzon
+                                    [email] => suzon.gaspar@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => loicksole
+                                    [birthday] => 1991-03-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35598
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 89, PELLEPORT
+                                                            [address2] => B
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Suzon
+                                                            [lastname] => GASPAR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35599
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 25, Rue des SABLIERES
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Suzon
+                                                            [lastname] => GASPAR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

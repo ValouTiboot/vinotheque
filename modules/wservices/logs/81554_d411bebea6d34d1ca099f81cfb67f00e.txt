@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81554
+    [IdTransaction] => d411bebea6d34d1ca099f81cfb67f00e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34792] => Array
+                                (
+                                    [notiers] => 34792
+                                    [lastname] => JARY
+                                    [firstname] => Yannick
+                                    [email] => yannick.jary@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ab012014
+                                    [birthday] => 1960-07-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 240
+                                    [NbPointsRestants] => 240
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46216
+                                                            [alias] => 34470 PEROLS
+                                                            [address1] => 2656, AV GEORGES FRECHE
+                                                            [address2] => LE LINER
+                                                            [city] => PEROLS
+                                                            [postcode] => 34470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => JARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46217
+                                                            [alias] => 34470 PEROLS
+                                                            [address1] => 2656, AV GEORGES FRECHE
+                                                            [address2] => LE LINER
+                                                            [city] => PEROLS
+                                                            [postcode] => 34470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => JARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

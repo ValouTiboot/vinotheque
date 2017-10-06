@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75645
+    [IdTransaction] => caff2ae2cfdf441d8e742aeaa76e488a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27784] => Array
+                                (
+                                    [notiers] => 27784
+                                    [lastname] => MOITIE
+                                    [firstname] => Jean-baptiste
+                                    [email] => ji_bus@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => leonia384
+                                    [birthday] => 1989-05-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 85
+                                    [NbPointsRestants] => 85
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34778
+                                                            [alias] => 24000 PERIGUEUX
+                                                            [address1] => 23, Carnot
+                                                            [address2] => 
+                                                            [city] => PERIGUEUX
+                                                            [postcode] => 24000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => MOITIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34779
+                                                            [alias] => 24000 PERIGUEUX
+                                                            [address1] => 23, Carnot
+                                                            [address2] => 
+                                                            [city] => PERIGUEUX
+                                                            [postcode] => 24000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => MOITIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

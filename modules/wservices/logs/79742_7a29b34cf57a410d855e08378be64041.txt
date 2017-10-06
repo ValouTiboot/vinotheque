@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79742
+    [IdTransaction] => 7a29b34cf57a410d855e08378be64041
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26960] => Array
+                                (
+                                    [notiers] => 26960
+                                    [lastname] => MORONI
+                                    [firstname] => Franck
+                                    [email] => franck.moroni@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => tibule1702
+                                    [birthday] => 1965-08-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 463
+                                    [NbPointsRestants] => 463
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33463
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => rue rabutin chantal
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MORONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33464
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => rue rabutin chantal
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => MORONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

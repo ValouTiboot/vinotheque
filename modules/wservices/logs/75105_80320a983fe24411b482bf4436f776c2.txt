@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75105
+    [IdTransaction] => 80320a983fe24411b482bf4436f776c2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28535] => Array
+                                (
+                                    [notiers] => 28535
+                                    [lastname] => LASSERRE
+                                    [firstname] => Yannick
+                                    [email] => yannick.lasserre@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 206876
+                                    [birthday] => 1976-06-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 369
+                                    [NbPointsRestants] => 369
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35888
+                                                            [alias] => 33290 PAREMPUYRE
+                                                            [address1] => 74, rue de Landegrand
+                                                            [address2] => 
+                                                            [city] => PAREMPUYRE
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => LASSERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35889
+                                                            [alias] => 33290 PAREMPUYRE
+                                                            [address1] => 74, rue de Landegrand Parempuyre
+                                                            [address2] => 
+                                                            [city] => PAREMPUYRE
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => LASSERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81993
+    [IdTransaction] => 37234584383944ebb6c58e6515f292e1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34740] => Array
+                                (
+                                    [notiers] => 34740
+                                    [lastname] => MOULIE
+                                    [firstname] => Benoit
+                                    [email] => benoit.moulie@numericable.fr
+                                    [id_gender] => 1
+                                    [passwd] => liberte33
+                                    [birthday] => 1917-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 59
+                                    [NbPointsRestants] => 59
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46137
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 40, rue charles marionneau
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => MOULIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46138
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 141, rue emile combes
+                                                            [address2] => 
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => MOULIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>loyaltyupdate</name>
+    <displayName><![CDATA[R&eacute;compenses de fid&eacute;lit&eacute; personnalis&eacute;e]]></displayName>
+    <version><![CDATA[1.5.0]]></version>
+    <description><![CDATA[Modifier les points de fid&eacute;lit&eacute;]]></description>
+    <author><![CDATA[RSI]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de que vouloir supprimer toutes les données ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

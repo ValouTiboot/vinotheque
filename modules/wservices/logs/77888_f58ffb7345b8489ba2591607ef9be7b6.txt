@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77888
+    [IdTransaction] => f58ffb7345b8489ba2591607ef9be7b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36370] => Array
+                                (
+                                    [notiers] => 36370
+                                    [lastname] => MARTIN
+                                    [firstname] => Julien
+                                    [email] => julesmartin@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => presario
+                                    [birthday] => 1979-04-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 149
+                                    [NbPointsRestants] => 149
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48787
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48788
+                                                            [alias] => 74410 SAINT-JORIOZ
+                                                            [address1] => 138, des cottages du chateau
+                                                            [address2] => 
+                                                            [city] => SAINT-JORIOZ
+                                                            [postcode] => 74410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

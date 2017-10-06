@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74807
+    [IdTransaction] => 9e335bf14f2540af8363a37948249623
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24676] => Array
+                                (
+                                    [notiers] => 24676
+                                    [lastname] => LUCIO
+                                    [firstname] => Leonardo
+                                    [email] => leonardo@lucios.com
+                                    [id_gender] => 1
+                                    [passwd] => leo0411
+                                    [birthday] => 1977-11-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30512
+                                                            [alias] => 29101830 VILA VELHA
+                                                            [address1] => 970, Est. Jose Julio de Souza Vila Velha
+                                                            [address2] => 1402 Victor Coser Seraphim
+                                                            [city] => VILA VELHA
+                                                            [postcode] => 29101830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Leonardo
+                                                            [lastname] => LUCIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30513
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 40, Edmond Michelet
+                                                            [address2] => invité 17 au 21 mai Adagio Bordeaux Gambetta
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Leonardo
+                                                            [lastname] => LUCIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

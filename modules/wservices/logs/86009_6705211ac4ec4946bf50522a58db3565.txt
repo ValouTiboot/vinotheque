@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86009
+    [IdTransaction] => 6705211ac4ec4946bf50522a58db3565
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25810] => Array
+                                (
+                                    [notiers] => 25810
+                                    [lastname] => JARNAGE
+                                    [firstname] => Jean pierre
+                                    [email] => jarnage@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1944-07-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31742
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => rue des as
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => JARNAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31743
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => rue des as
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => JARNAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

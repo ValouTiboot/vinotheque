@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76954
+    [IdTransaction] => ee6f08f745914c6ea838b96b1bbcda97
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30450] => Array
+                                (
+                                    [notiers] => 30450
+                                    [lastname] => QUEMIN
+                                    [firstname] => Rene
+                                    [email] => rene.quemin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => bacaoies
+                                    [birthday] => 1935-02-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 738
+                                    [NbPointsRestants] => 738
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38873
+                                                            [alias] => 29242 ILE OUESSANT
+                                                            [address1] => LIEU DIT RUGAIN
+                                                            [address2] => 
+                                                            [city] => ILE OUESSANT
+                                                            [postcode] => 29242
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rene
+                                                            [lastname] => QUEMIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38874
+                                                            [alias] => 29200 BREST
+                                                            [address1] => PORT DE COMMERCE PREMIER ESPERON
+                                                            [address2] => 
+                                                            [city] => BREST
+                                                            [postcode] => 29200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rene
+                                                            [lastname] => QUEMIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75430
+    [IdTransaction] => b09fef7671ca4d699f0e72ce709aba58
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36667] => Array
+                                (
+                                    [notiers] => 36667
+                                    [lastname] => BISMUTH
+                                    [firstname] => Florent
+                                    [email] => florent.bismuth@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => flobi31
+                                    [birthday] => 1985-11-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 72
+                                    [NbPointsRestants] => 72
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49296
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 91, Rue de Monceau
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florent
+                                                            [lastname] => BISMUTH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49297
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 91, Rue de Monceau
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florent
+                                                            [lastname] => BISMUTH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

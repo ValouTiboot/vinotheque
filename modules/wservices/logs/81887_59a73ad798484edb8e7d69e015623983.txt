@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81887
+    [IdTransaction] => 59a73ad798484edb8e7d69e015623983
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33687] => Array
+                                (
+                                    [notiers] => 33687
+                                    [lastname] => DUBARRY
+                                    [firstname] => Charles
+                                    [email] => charleshenry.dubarry@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => bene1663
+                                    [birthday] => 1962-03-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 358
+                                    [NbPointsRestants] => 358
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44293
+                                                            [alias] => 27210 TORPT
+                                                            [address1] => 147, chemin du Bostenney Le Torpt
+                                                            [address2] => 
+                                                            [city] => TORPT
+                                                            [postcode] => 27210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => DUBARRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44294
+                                                            [alias] => 27210 TORPT
+                                                            [address1] => 147, Chemin du Bostenney
+                                                            [address2] => 
+                                                            [city] => TORPT
+                                                            [postcode] => 27210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => DUBARRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

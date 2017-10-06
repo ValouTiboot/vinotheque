@@ -1,0 +1,791 @@
+Array
+(
+    [NoJSON] => 97766
+    [IdTransaction] => 9d356919f3aa4efd88dfbc8a5da22bde
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M0000001580] => Array
+                                (
+                                    [reference] => M0000001580
+                                    [id_second_wine] => 
+                                    [id_category_default] => Champagne
+                                    [cache_default_attribute] => 28916|130
+                                    [active] => 1
+                                    [name] => Champagne LANSON Black Label
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => La Champagne viticole couvre 32902 hectares. La culture de la vigne est surtout concentrée aux alentours de Reims et d’Epernay dans le département de la Marne mais elle comporte aussi un prolongement dans l’Aisne, la Seine-et-Marne et la Haute-Marne et une implantation dans l’Aube. La loi précise que les vins de Champagne doivent, pour mériter l’appellation Champagne, provenir exclusivement de ce vignoble et être transformés sur place, dans des locaux qui ne peuvent recevoir que des vins de Champagne.
+                                    [property] => 
+                                    [description] => 
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Brut
+                                            [1] => Champagne
+                                            [2] => Lanson
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => lanson-black-label-champagne-001.jpg
+                                                            [legend] => LANSON BLACK LABEL
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 28297
+                                                                    [1] => 28298
+                                                                    [2] => 28915
+                                                                    [3] => 28916
+                                                                    [4] => 28920
+                                                                    [5] => 28921
+                                                                    [6] => 29162
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => lanson-black-label-champagne-002.jpg
+                                                            [legend] => LANSON BLACK LABEL
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 28297
+                                                                    [1] => 28298
+                                                                    [2] => 28915
+                                                                    [3] => 28916
+                                                                    [4] => 28920
+                                                                    [5] => 28921
+                                                                    [6] => 29162
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28297
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 24
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.70
+                                                            [id_conditionnement] => 126
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28297
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.80
+                                                            [id_conditionnement] => 166
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28297
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Carton de 24
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.60
+                                                            [id_conditionnement] => 177
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28298
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 24
+                                                            [active] => 9
+                                                            [price] => 12.3333
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.70
+                                                            [id_conditionnement] => 126
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28298
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 9
+                                                            [price] => 12.3333
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.80
+                                                            [id_conditionnement] => 166
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28298
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Demie 0,375 L | Conditionnement : Carton de 24
+                                                            [active] => 9
+                                                            [price] => 12.3333
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.60
+                                                            [id_conditionnement] => 177
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [cle] => 13
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [cle] => 14
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28915
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 9
+                                                            [price] => 122.5000
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [cle] => 15
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 3.700
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.30
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [16] => Array
+                                                        (
+                                                            [cle] => 16
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 20.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [17] => Array
+                                                        (
+                                                            [cle] => 17
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 9.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.30
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [18] => Array
+                                                        (
+                                                            [cle] => 18
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 5.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.00
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [19] => Array
+                                                        (
+                                                            [cle] => 19
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 1.600
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.75
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [20] => Array
+                                                        (
+                                                            [cle] => 20
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 12
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 16.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 174
+                                                        )
+
+                                                    [21] => Array
+                                                        (
+                                                            [cle] => 21
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 8.300
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 183
+                                                        )
+
+                                                    [22] => Array
+                                                        (
+                                                            [cle] => 22
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28916
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 3
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Carton de 1
+                                                            [active] => 1
+                                                            [price] => 23.7500
+                                                            [packaging_weight] => 1.500
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 104
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 298
+                                                        )
+
+                                                    [23] => Array
+                                                        (
+                                                            [cle] => 23
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28920
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [24] => Array
+                                                        (
+                                                            [cle] => 24
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28920
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [25] => Array
+                                                        (
+                                                            [cle] => 25
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28920
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [26] => Array
+                                                        (
+                                                            [cle] => 26
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28920
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                    [27] => Array
+                                                        (
+                                                            [cle] => 27
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28921
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 50.0000
+                                                            [packaging_weight] => 21.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 1
+                                                            [available_date] => 
+                                                            [packaging_price] => 1.50
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [28] => Array
+                                                        (
+                                                            [cle] => 28
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28921
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 50.0000
+                                                            [packaging_weight] => 10.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 1
+                                                            [available_date] => 
+                                                            [packaging_price] => 2.00
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                    [29] => Array
+                                                        (
+                                                            [cle] => 29
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28921
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 50.0000
+                                                            [packaging_weight] => 3.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 1
+                                                            [available_date] => 
+                                                            [packaging_price] => 3.00
+                                                            [id_conditionnement] => 131
+                                                        )
+
+                                                    [30] => Array
+                                                        (
+                                                            [cle] => 30
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 28921
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 1
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Carton de 6
+                                                            [active] => 1
+                                                            [price] => 50.0000
+                                                            [packaging_weight] => 18.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 1
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 181
+                                                        )
+
+                                                    [31] => Array
+                                                        (
+                                                            [cle] => 31
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 29162
+                                                            [reference] => M0000001580
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Balthazar bordelais 12 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 9
+                                                            [price] => 0.0000
+                                                            [packaging_weight] => 30.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 105.00
+                                                            [id_conditionnement] => 142
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Champagne
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 12.500
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Champagne
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

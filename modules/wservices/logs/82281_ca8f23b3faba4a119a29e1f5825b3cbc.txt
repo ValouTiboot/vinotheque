@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82281
+    [IdTransaction] => ca8f23b3faba4a119a29e1f5825b3cbc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34001] => Array
+                                (
+                                    [notiers] => 34001
+                                    [lastname] => UJOL
+                                    [firstname] => Philippe
+                                    [email] => philippeujol@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => florinette
+                                    [birthday] => 1948-07-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 373
+                                    [NbPointsRestants] => 373
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44859
+                                                            [alias] => 33290 PIAN MEDOC
+                                                            [address1] => 43, CHEMIN DES BOUVREUILS
+                                                            [address2] => 
+                                                            [city] => PIAN MEDOC
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => UJOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44860
+                                                            [alias] => 33290 PIAN MEDOC
+                                                            [address1] => 43, CHEMIN DES BOUVREUILS
+                                                            [address2] => 
+                                                            [city] => PIAN MEDOC
+                                                            [postcode] => 33290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => UJOL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

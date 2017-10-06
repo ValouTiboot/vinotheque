@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75662
+    [IdTransaction] => 9a66fb02c43344c6a70cac05b2aa3409
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27716] => Array
+                                (
+                                    [notiers] => 27716
+                                    [lastname] => FOUILLEUX
+                                    [firstname] => Virginie
+                                    [email] => virginie.fouilleux@arkea.com
+                                    [id_gender] => 2
+                                    [passwd] => 120281vf
+                                    [birthday] => 1981-02-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34659
+                                                            [alias] => 29808 BREST CEDEX 9
+                                                            [address1] => 
+                                                            [address2] => Direction Juridique
+                                                            [city] => BREST CEDEX 9
+                                                            [postcode] => 29808
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => FOUILLEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34660
+                                                            [alias] => 29808 BREST CEDEX 9
+                                                            [address1] => 
+                                                            [address2] => Direction Juridique
+                                                            [city] => BREST CEDEX 9
+                                                            [postcode] => 29808
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => FOUILLEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

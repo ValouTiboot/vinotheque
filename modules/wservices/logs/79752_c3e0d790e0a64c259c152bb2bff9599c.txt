@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79752
+    [IdTransaction] => c3e0d790e0a64c259c152bb2bff9599c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29815] => Array
+                                (
+                                    [notiers] => 29815
+                                    [lastname] => VERRIER MISSWALD
+                                    [firstname] => Mathilde
+                                    [email] => mathilde.verrier@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => moi123
+                                    [birthday] => 1987-10-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 41
+                                    [NbPointsRestants] => 41
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37767
+                                                            [alias] => 01170 CESSY
+                                                            [address1] => 721, rue du moulin
+                                                            [address2] => 
+                                                            [city] => CESSY
+                                                            [postcode] => 01170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => VERRIER MISSWALD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37768
+                                                            [alias] => 77320 SANCY-LES-PROVINS
+                                                            [address1] => 4, place de l'église
+                                                            [address2] => 
+                                                            [city] => SANCY-LES-PROVINS
+                                                            [postcode] => 77320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => VERRIER MISSWALD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

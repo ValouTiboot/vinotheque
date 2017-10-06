@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83223
+    [IdTransaction] => a01c3255bc7d4d09b4e5d5edb1841951
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34911] => Array
+                                (
+                                    [notiers] => 34911
+                                    [lastname] => LESEUR
+                                    [firstname] => Jacques
+                                    [email] => j.leseur@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => pauline98
+                                    [birthday] => 1943-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 498
+                                    [NbPointsRestants] => 498
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46407
+                                                            [alias] => 35700 RENNES
+                                                            [address1] => 5, SQUARE ALBERT SCHWEITZER
+                                                            [address2] => 
+                                                            [city] => RENNES
+                                                            [postcode] => 35700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => LESEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46408
+                                                            [alias] => 35700 RENNES
+                                                            [address1] => 5, SQUARE ALBERT SCHWEITZER
+                                                            [address2] => 
+                                                            [city] => RENNES
+                                                            [postcode] => 35700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => LESEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

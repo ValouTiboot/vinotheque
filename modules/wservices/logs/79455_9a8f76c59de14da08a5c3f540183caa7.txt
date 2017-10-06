@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79455
+    [IdTransaction] => 9a8f76c59de14da08a5c3f540183caa7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34283] => Array
+                                (
+                                    [notiers] => 34283
+                                    [lastname] => BOUSQUET
+                                    [firstname] => Romaric
+                                    [email] => 3615romaric@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => forget
+                                    [birthday] => 1975-12-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 601
+                                    [NbPointsRestants] => 601
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45332
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 29, rue EDOUARD NORTIER
+                                                            [address2] => 
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romaric
+                                                            [lastname] => BOUSQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45333
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 29, rue EDOUARD NORTIER
+                                                            [address2] => 
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romaric
+                                                            [lastname] => BOUSQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83220
+    [IdTransaction] => 98894771e64d44d99de9bfd27951467c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36192] => Array
+                                (
+                                    [notiers] => 36192
+                                    [lastname] => KERBOULL
+                                    [firstname] => Vincent
+                                    [email] => vincent.kerboull@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1965-05-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48502
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 5, RUE ESPRIT DES LOIS
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => KERBOULL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48503
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 5, RUE ESPRIT DES LOIS
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => KERBOULL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

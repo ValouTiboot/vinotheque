@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75672
+    [IdTransaction] => 887174db989745ffb9bca0e684e021da
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33801] => Array
+                                (
+                                    [notiers] => 33801
+                                    [lastname] => SMITH-CARADEC
+                                    [firstname] => Catherine
+                                    [email] => csc.mlg@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => chatte
+                                    [birthday] => 1979-08-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 82
+                                    [NbPointsRestants] => 82
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44519
+                                                            [alias] => 60300 SENLIS
+                                                            [address1] => 8, rue de la république senlis
+                                                            [address2] => 8 rue de la republique
+                                                            [city] => SENLIS
+                                                            [postcode] => 60300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => SMITH-CARADEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44520
+                                                            [alias] => 60300 SENLIS
+                                                            [address1] => 8, rue de la république senlis
+                                                            [address2] => 8 rue de la republique
+                                                            [city] => SENLIS
+                                                            [postcode] => 60300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => SMITH-CARADEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

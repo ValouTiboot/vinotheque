@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82220
+    [IdTransaction] => 5ac74511b3d64b1b83d936deac7811fc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33713] => Array
+                                (
+                                    [notiers] => 33713
+                                    [lastname] => CLAVAL
+                                    [firstname] => Amelie
+                                    [email] => bastianchaillouxberthelot@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => tngPPXvs12
+                                    [birthday] => 1989-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 102
+                                    [NbPointsRestants] => 102
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44347
+                                                            [alias] => 33000 LA ROCHELLE
+                                                            [address1] => 12 rue maurice lanoire BORDEAUX
+                                                            [address2] => 
+                                                            [city] => LA ROCHELLE
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Amelie
+                                                            [lastname] => CLAVAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44348
+                                                            [alias] => 17000 ROCHELLE
+                                                            [address1] => 82 rue Emile Normandin La Rochelle
+                                                            [address2] => 
+                                                            [city] => ROCHELLE
+                                                            [postcode] => 17000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Amelie
+                                                            [lastname] => CLAVAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

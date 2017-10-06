@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81937
+    [IdTransaction] => f68c6b5a8b9d41ffa479433e97d831a3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31016] => Array
+                                (
+                                    [notiers] => 31016
+                                    [lastname] => BOURDENS
+                                    [firstname] => Marine
+                                    [email] => marine.bourdens@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1987-05-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 147
+                                    [NbPointsRestants] => 147
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39854
+                                                            [alias] => 47310 AUBIAC
+                                                            [address1] => 2, CHEMIN DE MONDETTE
+                                                            [address2] => 
+                                                            [city] => AUBIAC
+                                                            [postcode] => 47310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marine
+                                                            [lastname] => BOURDENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39855
+                                                            [alias] => 47310 AUBIAC
+                                                            [address1] => 2, CHEMIN DE MONDETTE
+                                                            [address2] => 
+                                                            [city] => AUBIAC
+                                                            [postcode] => 47310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marine
+                                                            [lastname] => BOURDENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

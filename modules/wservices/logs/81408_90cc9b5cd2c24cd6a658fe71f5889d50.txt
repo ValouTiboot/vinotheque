@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81408
+    [IdTransaction] => 90cc9b5cd2c24cd6a658fe71f5889d50
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30147] => Array
+                                (
+                                    [notiers] => 30147
+                                    [lastname] => HOUDOT
+                                    [firstname] => Caroline
+                                    [email] => c.houdot@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => bordeaux33
+                                    [birthday] => 1983-11-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 77
+                                    [NbPointsRestants] => 77
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38340
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 22, Rue frère
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => HOUDOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38341
+                                                            [alias] => 69430 BEAUJEU
+                                                            [address1] => 1, Route de lantignié
+                                                            [address2] => 
+                                                            [city] => BEAUJEU
+                                                            [postcode] => 69430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => HOUDOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

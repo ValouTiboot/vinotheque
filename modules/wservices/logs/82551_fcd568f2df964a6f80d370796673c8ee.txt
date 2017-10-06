@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82551
+    [IdTransaction] => fcd568f2df964a6f80d370796673c8ee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31885] => Array
+                                (
+                                    [notiers] => 31885
+                                    [lastname] => BARRE
+                                    [firstname] => Jerome
+                                    [email] => palbouy@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pa0823
+                                    [birthday] => 1968-12-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 191
+                                    [NbPointsRestants] => 191
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41313
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 63, rue mal foch
+                                                            [address2] => RDC
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => BARRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41314
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 63, rue mal foch
+                                                            [address2] => RDC
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => BARRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80350
+    [IdTransaction] => e2eaf177342f4f1e8380b9c08df7bb2e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31385] => Array
+                                (
+                                    [notiers] => 31385
+                                    [lastname] => MERLOT
+                                    [firstname] => Loïc
+                                    [email] => loic.merlot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 271190lmvinrouge
+                                    [birthday] => 1990-11-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40504
+                                                            [alias] => 62650 BOURTHES
+                                                            [address1] => 60, Rue du crocq
+                                                            [address2] => 
+                                                            [city] => BOURTHES
+                                                            [postcode] => 62650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loïc
+                                                            [lastname] => MERLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40505
+                                                            [alias] => 62650 BOURTHES
+                                                            [address1] => 60, Rue du crocq
+                                                            [address2] => 
+                                                            [city] => BOURTHES
+                                                            [postcode] => 62650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loïc
+                                                            [lastname] => MERLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

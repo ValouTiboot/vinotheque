@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76157
+    [IdTransaction] => 2b32850c3c8a401c9811a730c58657a4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33154] => Array
+                                (
+                                    [notiers] => 33154
+                                    [lastname] => GENOT
+                                    [firstname] => Bernard
+                                    [email] => genot.bernard@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 1950bg1950
+                                    [birthday] => 1950-12-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43336
+                                                            [alias] => 64200 BIARRITZ
+                                                            [address1] => 10, Avenue des Montagnes
+                                                            [address2] => A
+                                                            [city] => BIARRITZ
+                                                            [postcode] => 64200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => GENOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43337
+                                                            [alias] => 64200 BIARRITZ
+                                                            [address1] => 10, Avenue des Montagnes
+                                                            [address2] => A
+                                                            [city] => BIARRITZ
+                                                            [postcode] => 64200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => GENOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

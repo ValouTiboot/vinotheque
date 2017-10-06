@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75832
+    [IdTransaction] => e7cb69500ce94856804eeef9c6e5a130
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31991] => Array
+                                (
+                                    [notiers] => 31991
+                                    [lastname] => QUINSAT
+                                    [firstname] => Pierre
+                                    [email] => p.quinsat@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => 123456789
+                                    [birthday] => 1953-11-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41460
+                                                            [alias] => 69100 VILLEURBANNE
+                                                            [address1] => 1, cours du Docteur Jean Damidot Villeurbanne
+                                                            [address2] => 6ème ètage Le Montaland
+                                                            [city] => VILLEURBANNE
+                                                            [postcode] => 69100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => QUINSAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41461
+                                                            [alias] => 69100 VILLEURBANNE
+                                                            [address1] => 1, cours du Docteur Jean Damidot Villeurbanne
+                                                            [address2] => 6ème ètage Le Montaland
+                                                            [city] => VILLEURBANNE
+                                                            [postcode] => 69100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => QUINSAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

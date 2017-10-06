@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74989
+    [IdTransaction] => 37cb6c78732f401eba35e929399c2ba7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30723] => Array
+                                (
+                                    [notiers] => 30723
+                                    [lastname] => DUC
+                                    [firstname] => Corinne
+                                    [email] => corinneduc@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => mangin91
+                                    [birthday] => 1970-04-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39353
+                                                            [alias] => 91310 LEUVILLE SUR ORGES
+                                                            [address1] => 3, impasse des lilas
+                                                            [address2] => 
+                                                            [city] => LEUVILLE SUR ORGES
+                                                            [postcode] => 91310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Corinne
+                                                            [lastname] => DUC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39354
+                                                            [alias] => 91310 LEUVILLE-SUR-ORGE
+                                                            [address1] => Impasse des lilas
+                                                            [address2] => 
+                                                            [city] => LEUVILLE-SUR-ORGE
+                                                            [postcode] => 91310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Corinne
+                                                            [lastname] => DUC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86118
+    [IdTransaction] => bacc338580d14626a13fd86a03213fb7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30715] => Array
+                                (
+                                    [notiers] => 30715
+                                    [lastname] => BETTEMBOURG
+                                    [firstname] => Francois
+                                    [email] => bob2nar@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vino78
+                                    [birthday] => 1978-08-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 222
+                                    [NbPointsRestants] => 222
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39337
+                                                            [alias] => 76000 ROUEN
+                                                            [address1] => 39, place de la rougemare
+                                                            [address2] => 
+                                                            [city] => ROUEN
+                                                            [postcode] => 76000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => BETTEMBOURG
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39338
+                                                            [alias] => 76650 PETIT-COURONNE
+                                                            [address1] => zone artisanale de la voute
+                                                            [address2] => 
+                                                            [city] => PETIT-COURONNE
+                                                            [postcode] => 76650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => BETTEMBOURG
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

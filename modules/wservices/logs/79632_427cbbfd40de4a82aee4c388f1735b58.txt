@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79632
+    [IdTransaction] => 427cbbfd40de4a82aee4c388f1735b58
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31243] => Array
+                                (
+                                    [notiers] => 31243
+                                    [lastname] => MORICE
+                                    [firstname] => Philippe
+                                    [email] => mrephil@9online.fr
+                                    [id_gender] => 1
+                                    [passwd] => rqwdg8x7
+                                    [birthday] => 1957-09-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 161
+                                    [NbPointsRestants] => 161
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40243
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 6, Pape leon
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MORICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40244
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 6, Pape leon
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MORICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

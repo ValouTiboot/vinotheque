@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76294
+    [IdTransaction] => 40a5693693834ccba79c6b6e7c242013
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33624] => Array
+                                (
+                                    [notiers] => 33624
+                                    [lastname] => BAREZ
+                                    [firstname] => Dominique
+                                    [email] => dominiquebarez@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => clarisse48
+                                    [birthday] => 1950-12-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 550
+                                    [NbPointsRestants] => 550
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44181
+                                                            [alias] => 16100 SAINT-BRICE
+                                                            [address1] => 35, route de nercillac
+                                                            [address2] => 
+                                                            [city] => SAINT-BRICE
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => BAREZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44182
+                                                            [alias] => 16100 ST BRICE
+                                                            [address1] => 35, route de nercillac
+                                                            [address2] => 
+                                                            [city] => ST  BRICE
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => BAREZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

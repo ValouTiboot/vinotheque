@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78076
+    [IdTransaction] => 237559779dbb4d7bae9f93bda4ac7c31
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34741] => Array
+                                (
+                                    [notiers] => 34741
+                                    [lastname] => FOUILHOUX
+                                    [firstname] => Thibault
+                                    [email] => thibault.fouilhoux@neuf.fr
+                                    [id_gender] => 1
+                                    [passwd] => VIfou16wit12
+                                    [birthday] => 1979-05-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 196
+                                    [NbPointsRestants] => 196
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46139
+                                                            [alias] => 33360 CARIGNAN-DE-BORDEAUX
+                                                            [address1] => 8, Chemin croix de riviere
+                                                            [address2] => 
+                                                            [city] => CARIGNAN-DE-BORDEAUX
+                                                            [postcode] => 33360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibault
+                                                            [lastname] => FOUILHOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46140
+                                                            [alias] => 91100 CORBEIL-ESSONNES
+                                                            [address1] => 98 bis, rue du bas coudray
+                                                            [address2] => 
+                                                            [city] => CORBEIL-ESSONNES
+                                                            [postcode] => 91100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibault
+                                                            [lastname] => FOUILHOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

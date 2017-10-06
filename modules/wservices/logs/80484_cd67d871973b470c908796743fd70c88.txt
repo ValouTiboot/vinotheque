@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80484
+    [IdTransaction] => cd67d871973b470c908796743fd70c88
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28931] => Array
+                                (
+                                    [notiers] => 28931
+                                    [lastname] => HIMBER
+                                    [firstname] => Ghislain
+                                    [email] => ghisemail@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => ghisvino13
+                                    [birthday] => 1973-07-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 132
+                                    [NbPointsRestants] => 132
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36517
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 3, Edouard Detaille
+                                                            [address2] => 5e
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ghislain
+                                                            [lastname] => HIMBER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36518
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 3, Edouard Detaille
+                                                            [address2] => 5e
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ghislain
+                                                            [lastname] => HIMBER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

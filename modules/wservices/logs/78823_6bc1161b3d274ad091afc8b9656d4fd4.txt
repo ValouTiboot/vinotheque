@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78823
+    [IdTransaction] => 6bc1161b3d274ad091afc8b9656d4fd4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27058] => Array
+                                (
+                                    [notiers] => 27058
+                                    [lastname] => MICHELIN
+                                    [firstname] => Nicolas
+                                    [email] => nicolas.michelin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => nico05081986
+                                    [birthday] => 1986-08-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 773
+                                    [NbPointsRestants] => 773
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33633
+                                                            [alias] => 25690 LONGEMAISON
+                                                            [address1] => 2, Place de l'église
+                                                            [address2] => 
+                                                            [city] => LONGEMAISON
+                                                            [postcode] => 25690
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => MICHELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33634
+                                                            [alias] => 25690 LONGEMAISON
+                                                            [address1] => 2, Place de l'église
+                                                            [address2] => 
+                                                            [city] => LONGEMAISON
+                                                            [postcode] => 25690
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => MICHELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

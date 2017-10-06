@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79057
+    [IdTransaction] => c1613c5d847043ce9fcd4c7813a32f79
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31684] => Array
+                                (
+                                    [notiers] => 31684
+                                    [lastname] => LAJEUNESSE
+                                    [firstname] => Rachel
+                                    [email] => r.lajeunesse@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => 112233
+                                    [birthday] => 1964-12-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 100
+                                    [NbPointsRestants] => 100
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41016
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 107 bis, route de la reine
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rachel
+                                                            [lastname] => LAJEUNESSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41017
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 107 bis, route de la reine
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rachel
+                                                            [lastname] => LAJEUNESSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

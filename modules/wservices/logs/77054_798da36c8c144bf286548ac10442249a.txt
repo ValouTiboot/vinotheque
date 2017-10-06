@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77054
+    [IdTransaction] => 798da36c8c144bf286548ac10442249a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30581] => Array
+                                (
+                                    [notiers] => 30581
+                                    [lastname] => BERGOT
+                                    [firstname] => Bernard
+                                    [email] => nb.bergot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 150404BB
+                                    [birthday] => 1964-11-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 318
+                                    [NbPointsRestants] => 318
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39104
+                                                            [alias] => 29470 LOPERHET
+                                                            [address1] => 11, Rue du Menez
+                                                            [address2] => 
+                                                            [city] => LOPERHET
+                                                            [postcode] => 29470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => BERGOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39105
+                                                            [alias] => 29470 LOPERHET
+                                                            [address1] => 11, Rue du menez
+                                                            [address2] => 
+                                                            [city] => LOPERHET
+                                                            [postcode] => 29470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => BERGOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

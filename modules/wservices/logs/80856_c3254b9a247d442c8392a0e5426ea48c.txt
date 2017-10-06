@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80856
+    [IdTransaction] => c3254b9a247d442c8392a0e5426ea48c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36571] => Array
+                                (
+                                    [notiers] => 36571
+                                    [lastname] => LABOUROT
+                                    [firstname] => Alain
+                                    [email] => alain.labourot@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => vtoruobal4415
+                                    [birthday] => 1958-06-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49127
+                                                            [alias] => 241150 LALINDE
+                                                            [address1] => CH LE CLUZEL
+                                                            [address2] => 
+                                                            [city] => LALINDE
+                                                            [postcode] => 241150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => LABOUROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49128
+                                                            [alias] => 86380 ST MARTIN LA PALLU
+                                                            [address1] => 17 BIS, Rte de Poitiers vendeuvre du poitou
+                                                            [address2] => 
+                                                            [city] => ST MARTIN LA PALLU
+                                                            [postcode] => 86380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => LABOUROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

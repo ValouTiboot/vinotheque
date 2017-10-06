@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74686
+    [IdTransaction] => b03e45a0ca294dcea69bd947c41062ff
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25905] => Array
+                                (
+                                    [notiers] => 25905
+                                    [lastname] => MESNAGE
+                                    [firstname] => Camille
+                                    [email] => quitolima@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => buenos
+                                    [birthday] => 1979-09-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 128
+                                    [NbPointsRestants] => 128
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31893
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 156,  avenue de versailles
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Camille
+                                                            [lastname] => MESNAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31894
+                                                            [alias] => 25150 MARIGNAC-EN-DIOIS
+                                                            [address1] => grange de félines
+                                                            [address2] => 
+                                                            [city] => MARIGNAC-EN-DIOIS
+                                                            [postcode] => 25150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Camille
+                                                            [lastname] => MESNAGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,303 @@
+Array
+(
+    [NoJSON] => 2618
+    [IdTransaction] => e74057d483784a1c9801498d9b063924
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015000562] => Array
+                                (
+                                    [reference] => M2015000562
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40407|128
+                                    [active] => 1
+                                    [name] => PETIT MOUTON                  
+                                    [wine] => 0
+                                    [wine_date] => 2016-06-16 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => mouton-rothschild.jpg
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => Le Baron Nathaniel de Rothschild, branche anglaise de la Famille, racheta le Château Brane-Mouton en 1853. Il lui donna aussitôt le nom Château Mouton-Rothschild. Malgré l'excellence du cru, aucun membre de la famille ne s'y intéressa véritablement jusqu'en 1922, date à laquelle le Baron Philippe, alors âgé de 20 ans et séduit par le charme de la propriété et son environnement, décida d'en faire l'oeuvre de sa vie.  En 1988, à la mort du Baron Philippe, sa fille Philippine en prit les rennes. Elle s'applique à améliorer rigoureusement la qualité et la réputation du Château Mouton Rothschild dont la devise proclame fièrement `Premier je suis, second je fus, Mouton ne change`.
+                                    [description] => Le nez est exubérant et intense, presque solaire. Il révèle une parfaite maturité du fruit qui se prolonge sur des arômes de mûres, de pain grillé, de café et de moka.rnRondeur et élégance se retrouvent à l’attaque. La matière mûre, d’un beau velouté tendant vers le soyeux, révèle un toucher de bouche remarquable de douceur et de finesse, avec un côté salin très agréable.rnLa structure tannique bien présente, mais déjà fondue, procure au vin une finale longue et savoureuse associant des notes florales et fruitées.
+                                    [description_short] => Le Petit Mouton de Mouton Rothschild
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => le-petit-mouton-de-mouton-rothschild-001.jpg
+                                                            [legend] => PETIT MOUTON                  
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40407
+                                                                    [1] => 40674
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40407
+                                                            [reference] => M2015000562
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 120
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 24
+                                                            [available_date] => 2016-06-16 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40407
+                                                            [reference] => M2015000562
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 120
+                                                            [packaging_weight] => 1,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 24
+                                                            [available_date] => 2016-06-16 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 40674
+                                                            [reference] => M2015000562
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 9
+                                                            [price] => 240
+                                                            [packaging_weight] => 21
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-16 08:30:00
+                                                            [packaging_price] => 0,46
+                                                            [id_conditionnement] => 127
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 40674
+                                                            [reference] => M2015000562
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 9
+                                                            [price] => 240
+                                                            [packaging_weight] => 10
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 12
+                                                            [available_date] => 2016-06-16 08:30:00
+                                                            [packaging_price] => 0,46
+                                                            [id_conditionnement] => 130
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Pauillac
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 78% Cabernet Sauvignon
+                                                                    [1] => 17% Merlot
+                                                                    [2] => 5% Cabernet Franc
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2ème vin
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => The Wine Advocate 91-93
+                                                                    [1] => Wine Enthusiast 91-93
+                                                                    [2] => James Suckling 93-94
+                                                                    [3] => Decanter 92
+                                                                    [4] => René Gabriel 17
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

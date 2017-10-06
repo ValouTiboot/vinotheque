@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75370
+    [IdTransaction] => 1461d1a87ac945c6b3b26effbc9775ce
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35275] => Array
+                                (
+                                    [notiers] => 35275
+                                    [lastname] => DURAND
+                                    [firstname] => Marie-france
+                                    [email] => jb33500@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => vanille
+                                    [birthday] => 1955-04-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 40
+                                    [NbPointsRestants] => 40
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46972
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 10, Quai du Priourat
+                                                            [address2] => 
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-france
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46973
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 113, avenue de la roudet
+                                                            [address2] => 
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-france
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

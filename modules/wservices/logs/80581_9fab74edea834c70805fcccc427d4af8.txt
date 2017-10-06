@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80581
+    [IdTransaction] => 9fab74edea834c70805fcccc427d4af8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34319] => Array
+                                (
+                                    [notiers] => 34319
+                                    [lastname] => MASSÉ
+                                    [firstname] => Damien
+                                    [email] => toto2050@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => hs7376aivinotheque
+                                    [birthday] => 1987-09-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 74
+                                    [NbPointsRestants] => 74
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45402
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 239, Boulevard Jean Jaurès
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => MASSÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45403
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 239, Boulevard Jean Jaurès
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => MASSÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

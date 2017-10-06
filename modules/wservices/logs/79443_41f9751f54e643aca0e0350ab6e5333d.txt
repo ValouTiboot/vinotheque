@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79443
+    [IdTransaction] => 41f9751f54e643aca0e0350ab6e5333d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35153] => Array
+                                (
+                                    [notiers] => 35153
+                                    [lastname] => MARSY
+                                    [firstname] => Alain
+                                    [email] => alain.marsy@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 758146
+                                    [birthday] => 1946-01-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 120
+                                    [NbPointsRestants] => 120
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46776
+                                                            [alias] => 77310 SAINT-FARGEAU-PONTHIERRY
+                                                            [address1] => 17, allée de la faisanderie Hameau de Villers
+                                                            [address2] => 
+                                                            [city] => SAINT-FARGEAU-PONTHIERRY
+                                                            [postcode] => 77310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => MARSY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46777
+                                                            [alias] => 77310 SAINT-FARGEAU-PONTHIERRY
+                                                            [address1] => 17, allée de la faisanderie Hameau de Villers
+                                                            [address2] => 
+                                                            [city] => SAINT-FARGEAU-PONTHIERRY
+                                                            [postcode] => 77310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => MARSY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82763
+    [IdTransaction] => f48c3d5592b544b9be7228bfea9269d1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26834] => Array
+                                (
+                                    [notiers] => 26834
+                                    [lastname] => MARTIN
+                                    [firstname] => David
+                                    [email] => martalba@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 23062306
+                                    [birthday] => 1976-06-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 618
+                                    [NbPointsRestants] => 618
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33266
+                                                            [alias] => 91250 SAINTRY-SUR-SEINE
+                                                            [address1] => 48, rue du port aux sablons
+                                                            [address2] => 
+                                                            [city] => SAINTRY-SUR-SEINE
+                                                            [postcode] => 91250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33267
+                                                            [alias] => 91250 SAINTRY-SUR-SEINE
+                                                            [address1] => 48, rue du port aux sablons
+                                                            [address2] => 
+                                                            [city] => SAINTRY-SUR-SEINE
+                                                            [postcode] => 91250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => MARTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

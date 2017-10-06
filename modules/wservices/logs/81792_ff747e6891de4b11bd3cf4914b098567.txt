@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81792
+    [IdTransaction] => ff747e6891de4b11bd3cf4914b098567
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32550] => Array
+                                (
+                                    [notiers] => 32550
+                                    [lastname] => LEVADOUX
+                                    [firstname] => Luc
+                                    [email] => contact@sarl-certa.fr
+                                    [id_gender] => 1
+                                    [passwd] => CERTA93330
+                                    [birthday] => 1960-11-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 86
+                                    [NbPointsRestants] => 86
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42385
+                                                            [alias] => 93330 NEUILLY-SUR-MARNE
+                                                            [address1] => 97, RUE DES FRERES LUMIERE - ZI DES CHANOUX
+                                                            [address2] => 
+                                                            [city] => NEUILLY-SUR-MARNE
+                                                            [postcode] => 93330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => LEVADOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42386
+                                                            [alias] => 33270 BOUILLAC
+                                                            [address1] => 5, SENTIER DU COSTERIOU
+                                                            [address2] => 
+                                                            [city] => BOUILLAC
+                                                            [postcode] => 33270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => LEVADOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

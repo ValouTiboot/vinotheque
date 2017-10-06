@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79887
+    [IdTransaction] => 866d8096560a4170aceab8aa681c059c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30706] => Array
+                                (
+                                    [notiers] => 30706
+                                    [lastname] => CANTIUS
+                                    [firstname] => Armelle
+                                    [email] => armelle.cantius@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1940-08-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 155
+                                    [NbPointsRestants] => 155
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39319
+                                                            [alias] => 91700 VILLIERS-SUR-ORGE
+                                                            [address1] => 33, VOIE DES MARES
+                                                            [address2] => 
+                                                            [city] => VILLIERS-SUR-ORGE
+                                                            [postcode] => 91700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armelle
+                                                            [lastname] => CANTIUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39320
+                                                            [alias] => 91700 VILLIERS-SUR-ORGE
+                                                            [address1] => 33, VOIE DES MARES
+                                                            [address2] => 
+                                                            [city] => VILLIERS-SUR-ORGE
+                                                            [postcode] => 91700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armelle
+                                                            [lastname] => CANTIUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

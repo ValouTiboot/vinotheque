@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78254
+    [IdTransaction] => 104355a0a2e74c4c816e2a27840746e0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32733] => Array
+                                (
+                                    [notiers] => 32733
+                                    [lastname] => DEGREAUX
+                                    [firstname] => Kevin
+                                    [email] => kevin.degreaux@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => Lehcar2
+                                    [birthday] => 1982-07-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42643
+                                                            [alias] => 62138 AUCHY-LES-MINES
+                                                            [address1] => 3, rue du calvaire
+                                                            [address2] => 
+                                                            [city] => AUCHY-LES-MINES
+                                                            [postcode] => 62138
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Kevin
+                                                            [lastname] => DEGREAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42644
+                                                            [alias] => 62138 AUCHY-LES-MINES
+                                                            [address1] => 3, rue du calvaire
+                                                            [address2] => 
+                                                            [city] => AUCHY-LES-MINES
+                                                            [postcode] => 62138
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Kevin
+                                                            [lastname] => DEGREAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

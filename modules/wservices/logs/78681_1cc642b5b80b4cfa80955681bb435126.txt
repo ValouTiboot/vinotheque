@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78681
+    [IdTransaction] => 1cc642b5b80b4cfa80955681bb435126
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28903] => Array
+                                (
+                                    [notiers] => 28903
+                                    [lastname] => QUESNEL
+                                    [firstname] => Damien
+                                    [email] => damienq@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pinard
+                                    [birthday] => 1974-10-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 74
+                                    [NbPointsRestants] => 74
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36471
+                                                            [alias] => 78650 BEYNES
+                                                            [address1] => 7, Route de frileuse
+                                                            [address2] => 
+                                                            [city] => BEYNES
+                                                            [postcode] => 78650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => QUESNEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36472
+                                                            [alias] => 78650 BEYNES
+                                                            [address1] => 7, Route de frileuse
+                                                            [address2] => 
+                                                            [city] => BEYNES
+                                                            [postcode] => 78650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => QUESNEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

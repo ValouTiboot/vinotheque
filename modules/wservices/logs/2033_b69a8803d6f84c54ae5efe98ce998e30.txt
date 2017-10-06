@@ -1,0 +1,336 @@
+Array
+(
+    [NoJSON] => 2033
+    [IdTransaction] => b69a8803d6f84c54ae5efe98ce998e30
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015000061] => Array
+                                (
+                                    [reference] => M2015000061
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40281|125
+                                    [active] => 1
+                                    [name] => CH. HAUT BRION
+                                    [wine] => 0
+                                    [wine_date] => 2016-06-15 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => Le Château Haut-Brion fut, si l'on peut dire, premier en tout. Doyen des crus bordelais, son histoire débute en 1553 lorsque Jean de Pontac achète le fief de Haut-Brion. Un siècle plus tard son petit fils crée la notion de cru à une époque où la plupart des vins étaient vendus anonymement. Déjà soucieux de la qualité il s'ouvre à la science de la vinification et pratique l' ouillage, le soutirage et devient un adepte du vieillissement en barriques. Plus tard, en 1855, ce Graves intègre logiquement le rang des premiers crus classés aux côtés des médocains. rnEntre temps le Château a connu d'illustres propriétaires dont Commynes, Beyermann, et surtout Talleyrand, tous animés du même souci de qualité. En 1935 il est acheté par Clarence Dillon, et demeure actuellement la propriété de ses descendants. Les siècles de succès n'ont pas endormi la volonté d'innovation : dans les années 1960 le domaine est le premier à utiliser de nouvelles cuves de fermentation en inox, plus récemment il a été le premier à rechercher l'amélioration de ses cépages par la sélection clonale. Jean-Bernard Delmas, l'actuel directeur, poursuit aujourd'hui cette quête de la qualité qui caractérise si bien ce magnifique domaine.
+                                    [description] => Le fruit domine les fleurs. C'est tout d'abord le sauvignon mûr dominé par la menthe fraîche anisée, le muscat et le musc plus lourd avec des notes d'amande et de noisette un rien pralinée.rnMais les fleurs sont aussi présentes : celle de vigne, si délicate et fine et qui ne se mélange pas à la menthe, le sureau et le tilleul.rnLa structure est à la fois fine et grasse, onctueuse, très complexe. On y retrouve les arômes de vin liquoreux : amande grillée, très léger encens et cire. Grande longueur en bouche.
+                                    [description_short] => CH. HAUT BRION
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-haut-brion-blanc.jpg
+                                                            [legend] => CH. HAUT BRION
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40281
+                                                                    [1] => 41010
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40281
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2
+                                                            [active] => 1
+                                                            [price] => 685
+                                                            [packaging_weight] => 3,7
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 9
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 26
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40281
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 685
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 9
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 40281
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 685
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 9
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [id_product_attribute] => 40281
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3
+                                                            [active] => 1
+                                                            [price] => 685
+                                                            [packaging_weight] => 5
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 9
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0,77
+                                                            [id_conditionnement] => 129
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [id_product_attribute] => 40281
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1
+                                                            [active] => 1
+                                                            [price] => 685
+                                                            [packaging_weight] => 1,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 9
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 1,89
+                                                            [id_conditionnement] => 168
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [id_product_attribute] => 41010
+                                                            [reference] => M2015000061
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L
+                                                            [active] => 9
+                                                            [price] => 0
+                                                            [packaging_weight] => 
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Pessac-Léognan
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 63% Sémillon
+                                                                    [1] => 37% Sauvignon
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 1er cru classé
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => The Wine Advocate 94-96
+                                                                    [1] => Wine Enthusiast 95-97
+                                                                    [2] => James Suckling 97-98
+                                                                    [3] => Decanter 97
+                                                                    [4] => René Gabriel 19
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

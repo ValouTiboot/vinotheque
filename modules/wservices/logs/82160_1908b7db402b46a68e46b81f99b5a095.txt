@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82160
+    [IdTransaction] => 1908b7db402b46a68e46b81f99b5a095
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27107] => Array
+                                (
+                                    [notiers] => 27107
+                                    [lastname] => PATURAUD
+                                    [firstname] => Adrien
+                                    [email] => adrien.paturaud@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => jeanne
+                                    [birthday] => 1979-03-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 164
+                                    [NbPointsRestants] => 164
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33713
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 114, avenue des Champs Elysées
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Adrien
+                                                            [lastname] => PATURAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33714
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 114, avenue des Champs Elysées
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Adrien
+                                                            [lastname] => PATURAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

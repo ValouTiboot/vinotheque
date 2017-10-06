@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82105
+    [IdTransaction] => 5ffde356d6e347cb8051dc1107131278
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30720] => Array
+                                (
+                                    [notiers] => 30720
+                                    [lastname] => GALLAY
+                                    [firstname] => Robert
+                                    [email] => rbgallay@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vanille
+                                    [birthday] => 1952-09-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 323
+                                    [NbPointsRestants] => 323
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39347
+                                                            [alias] => 74140 DOUVAINE
+                                                            [address1] => 38, Avenue des Acacias
+                                                            [address2] => 
+                                                            [city] => DOUVAINE
+                                                            [postcode] => 74140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => GALLAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39348
+                                                            [alias] => 74140 DOUVAINE
+                                                            [address1] => 38, Avenue des Acacias
+                                                            [address2] => 
+                                                            [city] => DOUVAINE
+                                                            [postcode] => 74140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => GALLAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

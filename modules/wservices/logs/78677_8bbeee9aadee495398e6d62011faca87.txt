@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78677
+    [IdTransaction] => 8bbeee9aadee495398e6d62011faca87
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25843] => Array
+                                (
+                                    [notiers] => 25843
+                                    [lastname] => DARRACQ
+                                    [firstname] => Romain
+                                    [email] => romaindarracq@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Marie47
+                                    [birthday] => 1984-10-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 110
+                                    [NbPointsRestants] => 110
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31799
+                                                            [alias] => 33210 LANGON
+                                                            [address1] => 16, route de roaillan
+                                                            [address2] => 
+                                                            [city] => LANGON
+                                                            [postcode] => 33210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => DARRACQ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31800
+                                                            [alias] => 33210 LANGON
+                                                            [address1] => 16, route de roaillan
+                                                            [address2] => 
+                                                            [city] => LANGON
+                                                            [postcode] => 33210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romain
+                                                            [lastname] => DARRACQ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

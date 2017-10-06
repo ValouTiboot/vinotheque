@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78817
+    [IdTransaction] => 6489e14638864ccc8c077c7bc58c97fc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35442] => Array
+                                (
+                                    [notiers] => 35442
+                                    [lastname] => LACROIX
+                                    [firstname] => Patrick
+                                    [email] => pvlacroix@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => julia280270
+                                    [birthday] => 1970-02-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47257
+                                                            [alias] => 33340 LESPARRE-MEDOC
+                                                            [address1] => 8, cours du maréchal leclerc
+                                                            [address2] => 
+                                                            [city] => LESPARRE-MEDOC
+                                                            [postcode] => 33340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LACROIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47258
+                                                            [alias] => 33340 GAILLAN-EN-MEDOC
+                                                            [address1] => 1bis, route de bourgueyraud
+                                                            [address2] => 
+                                                            [city] => GAILLAN-EN-MEDOC
+                                                            [postcode] => 33340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LACROIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

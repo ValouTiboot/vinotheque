@@ -1,0 +1,34 @@
+
+.pagination.total-custom {
+	text-align: center;
+	font-size:0.875rem;
+	width:100%;
+}
+.pagination.total-custom li {
+	display:inline-block;
+	font-size:14px;
+}
+
+.custom-table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+	font-size:0.875rem;
+}
+.custom-table tbody tr {
+	font-size:0.875rem !important;
+}
+.custom-table tbody tr td{
+	font-size:15px !important;
+}
+.pagination.total-custom-full {
+	width:100%;
+}
+.cart_navigation_extra .cart_voucher {display:none;}
+#cart_summary .cart_total_price .title-offers, #cart_summary .cart_total_price  #display_cart_vouchers {display:none;}
+.cart_total_price .cart_voucher .promo-discounts  {display:block !important;}
+#cart_summary .cart_discount_name {visibility:hidden;}
+.cart_total_price #voucher .cart_voucher {
+    display: none;
+}
+.cart_total_price #voucher .cart_voucher:last-child {
+    display: block;
+}

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86094
+    [IdTransaction] => 1118bd453a334ac18cf187b2b3b9e5dc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26550] => Array
+                                (
+                                    [notiers] => 26550
+                                    [lastname] => BRUNNER
+                                    [firstname] => Stephane
+                                    [email] => brunnerstephane@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => pierre2104
+                                    [birthday] => 1970-06-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 382
+                                    [NbPointsRestants] => 382
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32802
+                                                            [alias] => 91200 ATHIS-MONS
+                                                            [address1] => 44, rue  du Parc d'Athis
+                                                            [address2] => 
+                                                            [city] => ATHIS-MONS
+                                                            [postcode] => 91200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => BRUNNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32803
+                                                            [alias] => 91200 ATHIS-MONS
+                                                            [address1] => 44, rue  du Parc d'Athis
+                                                            [address2] => 
+                                                            [city] => ATHIS-MONS
+                                                            [postcode] => 91200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephane
+                                                            [lastname] => BRUNNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

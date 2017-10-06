@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81543
+    [IdTransaction] => 216c0213565243e0a501847f7c6120fd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33510] => Array
+                                (
+                                    [notiers] => 33510
+                                    [lastname] => FOURNEREAU
+                                    [firstname] => Fabrice
+                                    [email] => fabou111@msn.com
+                                    [id_gender] => 1
+                                    [passwd] => patanegra
+                                    [birthday] => 1980-09-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43985
+                                                            [alias] => 31470 SAINT-LYS
+                                                            [address1] => Place nationale
+                                                            [address2] => Appartement 5 , 1er étage 16
+                                                            [city] => SAINT-LYS
+                                                            [postcode] => 31470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => FOURNEREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43986
+                                                            [alias] => 31470 SAINT-LYS
+                                                            [address1] => Place nationale
+                                                            [address2] => Appartement 5 , 1er étage 16
+                                                            [city] => SAINT-LYS
+                                                            [postcode] => 31470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => FOURNEREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

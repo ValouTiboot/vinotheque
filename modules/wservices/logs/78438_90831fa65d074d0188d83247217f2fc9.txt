@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78438
+    [IdTransaction] => 90831fa65d074d0188d83247217f2fc9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23027] => Array
+                                (
+                                    [notiers] => 23027
+                                    [lastname] => DUPUY
+                                    [firstname] => Thibaut
+                                    [email] => thibdpy@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => groslard
+                                    [birthday] => 1983-05-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 62
+                                    [NbPointsRestants] => 62
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30014
+                                                            [alias] => 47520 PASSAGE
+                                                            [address1] => 6, rue Nicolas Copernik
+                                                            [address2] => 
+                                                            [city] => PASSAGE
+                                                            [postcode] => 47520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibaut
+                                                            [lastname] => DUPUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30021
+                                                            [alias] => 47520 PASSAGE
+                                                            [address1] => 6, rue Nicolas Copernik
+                                                            [address2] => 
+                                                            [city] => PASSAGE
+                                                            [postcode] => 47520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibaut
+                                                            [lastname] => DUPUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

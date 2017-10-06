@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79765
+    [IdTransaction] => 84fecf99ecc34b2692c97e6ed73e2887
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28598] => Array
+                                (
+                                    [notiers] => 28598
+                                    [lastname] => BROCHARD
+                                    [firstname] => Didier
+                                    [email] => brochdi@voila.fr
+                                    [id_gender] => 1
+                                    [passwd] => brigitte
+                                    [birthday] => 1954-10-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35980
+                                                            [alias] => 92120 MONTROUGE
+                                                            [address1] => 3, RUE EDGAR QUINET
+                                                            [address2] => 
+                                                            [city] => MONTROUGE
+                                                            [postcode] => 92120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => BROCHARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35981
+                                                            [alias] => 92120 MONTROUGE
+                                                            [address1] => 3, RUE EDGAR QUINET
+                                                            [address2] => 
+                                                            [city] => MONTROUGE
+                                                            [postcode] => 92120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => BROCHARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

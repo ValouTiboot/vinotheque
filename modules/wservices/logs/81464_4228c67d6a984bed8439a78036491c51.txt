@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81464
+    [IdTransaction] => 4228c67d6a984bed8439a78036491c51
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31845] => Array
+                                (
+                                    [notiers] => 31845
+                                    [lastname] => BARBIER
+                                    [firstname] => Jerome
+                                    [email] => jeromebarbier01@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => pauline500
+                                    [birthday] => 1970-11-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 179
+                                    [NbPointsRestants] => 179
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41236
+                                                            [alias] => 6180 COURCELLES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => COURCELLES
+                                                            [postcode] => 6180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => BARBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41237
+                                                            [alias] => 6180 COURCELLES
+                                                            [address1] => 13/2/1, place jean-ransy
+                                                            [address2] => 
+                                                            [city] => COURCELLES
+                                                            [postcode] => 6180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => BARBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

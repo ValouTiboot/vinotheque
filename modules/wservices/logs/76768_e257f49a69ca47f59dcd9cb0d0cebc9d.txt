@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76768
+    [IdTransaction] => e257f49a69ca47f59dcd9cb0d0cebc9d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35976] => Array
+                                (
+                                    [notiers] => 35976
+                                    [lastname] => BERGEON
+                                    [firstname] => Damien
+                                    [email] => dambergeon@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => Damien0803
+                                    [birthday] => 1983-10-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 82
+                                    [NbPointsRestants] => 82
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48132
+                                                            [alias] => 33460 MARGAUX
+                                                            [address1] => 14, Rue Gambetta
+                                                            [address2] => 
+                                                            [city] => MARGAUX
+                                                            [postcode] => 33460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => BERGEON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48133
+                                                            [alias] => 33460 MARGAUX
+                                                            [address1] => 14, Rue Gambetta
+                                                            [address2] => 
+                                                            [city] => MARGAUX
+                                                            [postcode] => 33460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => BERGEON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

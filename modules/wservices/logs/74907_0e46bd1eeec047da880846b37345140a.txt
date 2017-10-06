@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74907
+    [IdTransaction] => 0e46bd1eeec047da880846b37345140a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26429] => Array
+                                (
+                                    [notiers] => 26429
+                                    [lastname] => CANOLLE
+                                    [firstname] => Jean
+                                    [email] => jcanolle@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => jako
+                                    [birthday] => 1982-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32617
+                                                            [alias] => 78370 PLAISIR
+                                                            [address1] => 47, rue de la gare
+                                                            [address2] => 
+                                                            [city] => PLAISIR
+                                                            [postcode] => 78370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => CANOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32618
+                                                            [alias] => 78370 PLAISIR
+                                                            [address1] => 47, rue de la gare
+                                                            [address2] => 
+                                                            [city] => PLAISIR
+                                                            [postcode] => 78370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => CANOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

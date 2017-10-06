@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80672
+    [IdTransaction] => 5f9b481dc86644318319fac56d865501
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36433] => Array
+                                (
+                                    [notiers] => 36433
+                                    [lastname] => LECOMTE
+                                    [firstname] => Nadine
+                                    [email] => nadinelecomte2@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => GRINGO44
+                                    [birthday] => 1960-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48888
+                                                            [alias] => 44240 CHAPELLE-SUR-ERDRE
+                                                            [address1] => 7, POTRIC
+                                                            [address2] => 
+                                                            [city] => CHAPELLE-SUR-ERDRE
+                                                            [postcode] => 44240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadine
+                                                            [lastname] => LECOMTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48889
+                                                            [alias] => 44240 CHAPELLE-SUR-ERDRE
+                                                            [address1] => 7 RUE DU PET, nadine lecomte
+                                                            [address2] => 
+                                                            [city] => CHAPELLE-SUR-ERDRE
+                                                            [postcode] => 44240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadine
+                                                            [lastname] => LECOMTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

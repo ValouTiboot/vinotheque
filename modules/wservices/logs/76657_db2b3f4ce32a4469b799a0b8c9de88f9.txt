@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 76657
+    [IdTransaction] => db2b3f4ce32a4469b799a0b8c9de88f9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [17913] => Array
+                                (
+                                    [notiers] => 17913
+                                    [lastname] => SCHULZ
+                                    [firstname] => Catherine
+                                    [email] => catherine.schulz@caissedesdepots.fr
+                                    [id_gender] => 2
+                                    [passwd] => joujou
+                                    [birthday] => 1963-10-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 73
+                                    [NbPointsRestants] => 73
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 22042
+                                                            [alias] => 49000 ANGERS
+                                                            [address1] => 5, Desportes
+                                                            [address2] => 
+                                                            [city] => ANGERS
+                                                            [postcode] => 49000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme SCHULZ Catherine
+                                                            [firstname] => Catherine
+                                                            [lastname] => SCHULZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 22043
+                                                            [alias] => 40110 GARROSSE
+                                                            [address1] => 114 Avenue, des Pins Francs
+                                                            [address2] => 
+                                                            [city] => GARROSSE
+                                                            [postcode] => 40110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr SCHULZ Bernard
+                                                            [firstname] => Catherine
+                                                            [lastname] => SCHULZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 22043
+                                                            [alias] => 40110 GARROSSE
+                                                            [address1] => 114 Avenue, des Pins Francs
+                                                            [address2] => 
+                                                            [city] => GARROSSE
+                                                            [postcode] => 40110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr SCHULZ Bernard
+                                                            [firstname] => Catherine
+                                                            [lastname] => SCHULZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

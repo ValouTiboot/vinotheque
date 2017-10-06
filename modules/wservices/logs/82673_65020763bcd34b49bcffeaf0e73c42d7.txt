@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82673
+    [IdTransaction] => 65020763bcd34b49bcffeaf0e73c42d7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29635] => Array
+                                (
+                                    [notiers] => 29635
+                                    [lastname] => MARCHAND
+                                    [firstname] => Pierre-olivier
+                                    [email] => pomarchand@me.com
+                                    [id_gender] => 1
+                                    [passwd] => lamproie
+                                    [birthday] => 1978-04-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37471
+                                                            [alias] => 41000 ST SULPICE
+                                                            [address1] => 2, Rue des Tournesols
+                                                            [address2] => 
+                                                            [city] => ST SULPICE
+                                                            [postcode] => 41000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-olivier
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37472
+                                                            [alias] => 41000 ST SULPICE
+                                                            [address1] => 2, Rue des Tournesols
+                                                            [address2] => 
+                                                            [city] => ST SULPICE
+                                                            [postcode] => 41000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-olivier
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

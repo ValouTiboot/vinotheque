@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75743
+    [IdTransaction] => 159ab4848d4042b798c7e193aa5d8f13
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36264] => Array
+                                (
+                                    [notiers] => 36264
+                                    [lastname] => FRIZON
+                                    [firstname] => Patrice
+                                    [email] => patrice.frizon@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => CHERUBINS/33
+                                    [birthday] => 1959-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 719
+                                    [NbPointsRestants] => 719
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48618
+                                                            [alias] => 40200 MIMIZAN
+                                                            [address1] => 19, ALLEE DU RAZ
+                                                            [address2] => 
+                                                            [city] => MIMIZAN
+                                                            [postcode] => 40200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrice
+                                                            [lastname] => FRIZON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48619
+                                                            [alias] => 40200 MIMIZAN
+                                                            [address1] => 19, ALLEE DU RAZ
+                                                            [address2] => 
+                                                            [city] => MIMIZAN
+                                                            [postcode] => 40200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrice
+                                                            [lastname] => FRIZON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

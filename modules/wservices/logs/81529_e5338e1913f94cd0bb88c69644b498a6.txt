@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81529
+    [IdTransaction] => e5338e1913f94cd0bb88c69644b498a6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27905] => Array
+                                (
+                                    [notiers] => 27905
+                                    [lastname] => DEBELLEIX
+                                    [firstname] => Cécile
+                                    [email] => ceciledebelleix@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 8081967
+                                    [birthday] => 1967-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1295
+                                    [NbPointsRestants] => 1295
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34973
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 33, RUE ROGER ALLO
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cécile
+                                                            [lastname] => DEBELLEIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34974
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 32, DE COURCELLES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cécile
+                                                            [lastname] => DEBELLEIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82503
+    [IdTransaction] => 6e48f062311749f8a8c93ceb6615e55d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30313] => Array
+                                (
+                                    [notiers] => 30313
+                                    [lastname] => JOSSERAND
+                                    [firstname] => Jean-marc
+                                    [email] => jmjoss@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => vilapikos
+                                    [birthday] => 1980-08-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38622
+                                                            [alias] => 38330 ST NAZAIRELES EYMES
+                                                            [address1] => 298, Chemin du manival
+                                                            [address2] => 
+                                                            [city] => ST NAZAIRELES EYMES
+                                                            [postcode] => 38330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marc
+                                                            [lastname] => JOSSERAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38623
+                                                            [alias] => 56360 LE PALAIS BELLE ILE EN MER
+                                                            [address1] => Lieu dit, Kerloréal
+                                                            [address2] => 
+                                                            [city] => LE PALAIS BELLE ILE EN MER
+                                                            [postcode] => 56360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marc
+                                                            [lastname] => JOSSERAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

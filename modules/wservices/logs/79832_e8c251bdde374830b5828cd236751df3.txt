@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79832
+    [IdTransaction] => e8c251bdde374830b5828cd236751df3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29879] => Array
+                                (
+                                    [notiers] => 29879
+                                    [lastname] => LAPEYRE
+                                    [firstname] => Olivier
+                                    [email] => lapeyreolivier@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Malacourt63
+                                    [birthday] => 1970-09-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37884
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 86, Rue du Bac
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => LAPEYRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37885
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 86, Rue du Bac
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => LAPEYRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

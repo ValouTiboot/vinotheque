@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74602
+    [IdTransaction] => d12a07c4c77d4fee9f8c2baab621127d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34543] => Array
+                                (
+                                    [notiers] => 34543
+                                    [lastname] => DIAMI
+                                    [firstname] => Marie
+                                    [email] => mariediami@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1984-06-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 176
+                                    [NbPointsRestants] => 176
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45790
+                                                            [alias] => 93400 SAINT-OUEN
+                                                            [address1] => 45, RUE ALBERT DHALENNE
+                                                            [address2] => 
+                                                            [city] => SAINT-OUEN
+                                                            [postcode] => 93400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => DIAMI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45791
+                                                            [alias] => 93400 SAINT-OUEN
+                                                            [address1] => 45, RUE ALBERT DHALENNE
+                                                            [address2] => 
+                                                            [city] => SAINT-OUEN
+                                                            [postcode] => 93400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => DIAMI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

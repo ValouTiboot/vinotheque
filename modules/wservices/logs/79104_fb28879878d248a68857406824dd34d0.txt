@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79104
+    [IdTransaction] => fb28879878d248a68857406824dd34d0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34515] => Array
+                                (
+                                    [notiers] => 34515
+                                    [lastname] => GAILLARD
+                                    [firstname] => Christophe
+                                    [email] => chris.gaillard@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ch0682572508
+                                    [birthday] => 1981-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 37
+                                    [NbPointsRestants] => 37
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45737
+                                                            [alias] => 74350 VOVRAY-EN-BORNES
+                                                            [address1] => 73, IMPASSE DU CHATEAU
+                                                            [address2] => 
+                                                            [city] => VOVRAY-EN-BORNES
+                                                            [postcode] => 74350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => GAILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45738
+                                                            [alias] => 74370 PRINGY
+                                                            [address1] => 475, ROUTE DES VERNES
+                                                            [address2] => 1er étage à gauche
+                                                            [city] => PRINGY
+                                                            [postcode] => 74370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => GAILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

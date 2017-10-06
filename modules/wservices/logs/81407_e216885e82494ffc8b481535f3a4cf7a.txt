@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81407
+    [IdTransaction] => e216885e82494ffc8b481535f3a4cf7a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26888] => Array
+                                (
+                                    [notiers] => 26888
+                                    [lastname] => SIMON
+                                    [firstname] => Ludovic
+                                    [email] => ludodespe@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ludovic
+                                    [birthday] => 1982-11-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 261
+                                    [NbPointsRestants] => 261
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33360
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 37, cours saint louis
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => SIMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33361
+                                                            [alias] => 33480 CASTELNAU-DE-MEDOC
+                                                            [address1] => 73, AV GAMBETTA
+                                                            [address2] => 
+                                                            [city] => CASTELNAU-DE-MEDOC
+                                                            [postcode] => 33480
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => SIMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

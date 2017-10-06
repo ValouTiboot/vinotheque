@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74862
+    [IdTransaction] => 0734ac21894d4b53a01ccb4630e9a5bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28600] => Array
+                                (
+                                    [notiers] => 28600
+                                    [lastname] => TERRASSE
+                                    [firstname] => Yannick
+                                    [email] => celinepires3302@neuf.fr
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1967-10-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 199
+                                    [NbPointsRestants] => 199
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35984
+                                                            [alias] => 33650 SAINT-MORILLON
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINT-MORILLON
+                                                            [postcode] => 33650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => TERRASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35985
+                                                            [alias] => 33650 SAINT-MORILLON
+                                                            [address1] => 331, rue Dariet
+                                                            [address2] => 
+                                                            [city] => SAINT-MORILLON
+                                                            [postcode] => 33650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => TERRASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

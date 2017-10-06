@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82780
+    [IdTransaction] => 54fb04fbd8d04e72b44e4754c13fc68d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29510] => Array
+                                (
+                                    [notiers] => 29510
+                                    [lastname] => GROS
+                                    [firstname] => Jean-claude
+                                    [email] => jeanclaude.gros@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => sorg1953
+                                    [birthday] => 1953-05-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37268
+                                                            [alias] => 33240 SAINT-GENES-DE-FRONSAC
+                                                            [address1] => 29, Aristide Godineau
+                                                            [address2] => 
+                                                            [city] => SAINT-GENES-DE-FRONSAC
+                                                            [postcode] => 33240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => GROS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37269
+                                                            [alias] => 33240 SAINT-GENES-DE-FRONSAC
+                                                            [address1] => 29, Aristide Godineau
+                                                            [address2] => 
+                                                            [city] => SAINT-GENES-DE-FRONSAC
+                                                            [postcode] => 33240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => GROS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

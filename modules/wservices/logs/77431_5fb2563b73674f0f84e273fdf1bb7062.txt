@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77431
+    [IdTransaction] => 5fb2563b73674f0f84e273fdf1bb7062
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31413] => Array
+                                (
+                                    [notiers] => 31413
+                                    [lastname] => LEBLANC
+                                    [firstname] => Sacha
+                                    [email] => sacha.leblanc@layconcept.com
+                                    [id_gender] => 1
+                                    [passwd] => luynes37230
+                                    [birthday] => 1970-08-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 25
+                                    [NbPointsRestants] => 25
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40558
+                                                            [alias] => 37230 LUYNES
+                                                            [address1] => ZI LES PINS, ROUTE DE PERNAY
+                                                            [address2] => 
+                                                            [city] => LUYNES
+                                                            [postcode] => 37230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sacha
+                                                            [lastname] => LEBLANC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40559
+                                                            [alias] => 37230 LUYNES
+                                                            [address1] => ZI LES PINS, ROUTE DE PERNAY
+                                                            [address2] => 
+                                                            [city] => LUYNES
+                                                            [postcode] => 37230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sacha
+                                                            [lastname] => LEBLANC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

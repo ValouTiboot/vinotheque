@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75180
+    [IdTransaction] => e3d288a8a34f4ac49a995e13bb3900f6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26369] => Array
+                                (
+                                    [notiers] => 26369
+                                    [lastname] => BONNIN
+                                    [firstname] => Vincent
+                                    [email] => mignoterie@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => cecile3068
+                                    [birthday] => 1976-09-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 14
+                                    [NbPointsRestants] => 14
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32534
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 54, Cours d Albret
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BONNIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32535
+                                                            [alias] => 33230 MARANSIN
+                                                            [address1] => 3, lieu dit le terrier
+                                                            [address2] => 
+                                                            [city] => MARANSIN
+                                                            [postcode] => 33230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BONNIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74779
+    [IdTransaction] => 877f868a0e134817bb6cdb19d3df49cf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36632] => Array
+                                (
+                                    [notiers] => 36632
+                                    [lastname] => BABINEAU
+                                    [firstname] => Marc
+                                    [email] => marcbab@me.com
+                                    [id_gender] => 1
+                                    [passwd] => Irasema2
+                                    [birthday] => 1964-12-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 94
+                                    [NbPointsRestants] => 94
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49236
+                                                            [alias] => 4052 BEAUFAYS
+                                                            [address1] => 68, route de l'abbaye
+                                                            [address2] => 
+                                                            [city] => BEAUFAYS
+                                                            [postcode] => 4052
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => BABINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49237
+                                                            [alias] => 08320 AUBRIVES
+                                                            [address1] => 1 bis, rue du general sarrail
+                                                            [address2] => 
+                                                            [city] => AUBRIVES
+                                                            [postcode] => 08320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => BABINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

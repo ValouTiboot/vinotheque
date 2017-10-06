@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76399
+    [IdTransaction] => 74b5bc7f7def4580ad7d4532e3c0c085
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26791] => Array
+                                (
+                                    [notiers] => 26791
+                                    [lastname] => CASTELLANI
+                                    [firstname] => Alain
+                                    [email] => site340@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => calvi340
+                                    [birthday] => 1946-09-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 192
+                                    [NbPointsRestants] => 192
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33204
+                                                            [alias] => 34280 GRANDE-MOTTE
+                                                            [address1] => 53, Allée des Aigrettes
+                                                            [address2] => 
+                                                            [city] => GRANDE-MOTTE
+                                                            [postcode] => 34280
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CASTELLANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33205
+                                                            [alias] => 85480 FOUGERE
+                                                            [address1] => 94, RUE DE LA FORET
+                                                            [address2] => 
+                                                            [city] => FOUGERE
+                                                            [postcode] => 85480
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CASTELLANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

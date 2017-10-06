@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83361
+    [IdTransaction] => fa4b8f274c4c4fe68487367a12901bc5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31539] => Array
+                                (
+                                    [notiers] => 31539
+                                    [lastname] => CARAES
+                                    [firstname] => Louis
+                                    [email] => louis.rock@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 04pourri
+                                    [birthday] => 1979-06-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 336
+                                    [NbPointsRestants] => 336
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40794
+                                                            [alias] => 04130 VOLX
+                                                            [address1] => 2, rue des lavandins
+                                                            [address2] => 
+                                                            [city] => VOLX
+                                                            [postcode] => 04130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => CARAES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40795
+                                                            [alias] => 55000 BRILLON-EN-BARROIS
+                                                            [address1] => 12, rue des vignes
+                                                            [address2] => 
+                                                            [city] => BRILLON-EN-BARROIS
+                                                            [postcode] => 55000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => CARAES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

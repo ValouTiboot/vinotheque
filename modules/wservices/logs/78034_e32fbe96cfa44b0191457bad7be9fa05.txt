@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78034
+    [IdTransaction] => e32fbe96cfa44b0191457bad7be9fa05
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28594] => Array
+                                (
+                                    [notiers] => 28594
+                                    [lastname] => BATTISTI
+                                    [firstname] => Colin
+                                    [email] => cinefiche@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => coolcool
+                                    [birthday] => 1988-10-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 747
+                                    [NbPointsRestants] => 747
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35972
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 20, sainte cecile bordeaux
+                                                            [address2] => appartement 45D
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Colin
+                                                            [lastname] => BATTISTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35973
+                                                            [alias] => 35510 CESSON-SEVIGNE
+                                                            [address1] => 10, rue de la rivière
+                                                            [address2] => 
+                                                            [city] => CESSON-SEVIGNE
+                                                            [postcode] => 35510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Colin
+                                                            [lastname] => BATTISTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76154
+    [IdTransaction] => 207c2be48d904eb7b00037edbcd20264
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32741] => Array
+                                (
+                                    [notiers] => 32741
+                                    [lastname] => CACERES
+                                    [firstname] => Bertrand
+                                    [email] => bertrandcaceres@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => cachou
+                                    [birthday] => 1968-01-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42656
+                                                            [alias] => 92220 BAGNEUX
+                                                            [address1] => 22, rue des olivettes
+                                                            [address2] => 
+                                                            [city] => BAGNEUX
+                                                            [postcode] => 92220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => CACERES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42657
+                                                            [alias] => 92220 BAGNEUX
+                                                            [address1] => 22, rue des olivettes
+                                                            [address2] => 
+                                                            [city] => BAGNEUX
+                                                            [postcode] => 92220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => CACERES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

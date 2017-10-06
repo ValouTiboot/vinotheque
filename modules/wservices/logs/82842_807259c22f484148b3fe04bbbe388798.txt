@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82842
+    [IdTransaction] => 807259c22f484148b3fe04bbbe388798
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28136] => Array
+                                (
+                                    [notiers] => 28136
+                                    [lastname] => PINSOLLE
+                                    [firstname] => Quentin
+                                    [email] => quentin.pinsolle@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => 123vino
+                                    [birthday] => 1990-07-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 47
+                                    [NbPointsRestants] => 47
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35299
+                                                            [alias] => 33138 LANTON
+                                                            [address1] => 30, avenue Paul Valéry
+                                                            [address2] => 
+                                                            [city] => LANTON
+                                                            [postcode] => 33138
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Quentin
+                                                            [lastname] => PINSOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35300
+                                                            [alias] => 33138 LANTON
+                                                            [address1] => 30, avenue Paul Valéry
+                                                            [address2] => 
+                                                            [city] => LANTON
+                                                            [postcode] => 33138
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Quentin
+                                                            [lastname] => PINSOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

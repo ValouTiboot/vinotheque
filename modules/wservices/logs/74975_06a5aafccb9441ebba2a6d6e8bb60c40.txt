@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74975
+    [IdTransaction] => 06a5aafccb9441ebba2a6d6e8bb60c40
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31678] => Array
+                                (
+                                    [notiers] => 31678
+                                    [lastname] => COLLIGNAN.FR
+                                    [firstname] => Paul
+                                    [email] => public@collignan.fr
+                                    [id_gender] => 1
+                                    [passwd] => leSta6,vntq
+                                    [birthday] => 1985-01-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41004
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 24, rue Charles Monselet
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => COLLIGNAN.FR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41005
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 24, rue Charles Monselet
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => COLLIGNAN.FR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83412
+    [IdTransaction] => 632b710578ae4101955ba5f0fb33da4d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29968] => Array
+                                (
+                                    [notiers] => 29968
+                                    [lastname] => LOPEZ
+                                    [firstname] => Yohann
+                                    [email] => lopezyohann@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => rototo
+                                    [birthday] => 1980-06-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 48
+                                    [NbPointsRestants] => 48
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38030
+                                                            [alias] => 41160 BUSLOUP
+                                                            [address1] => 10, rue des tirelles
+                                                            [address2] => 
+                                                            [city] => BUSLOUP
+                                                            [postcode] => 41160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yohann
+                                                            [lastname] => LOPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38031
+                                                            [alias] => 41190 SAINT-LUBIN-EN-VERGONNOIS
+                                                            [address1] => 8, rue de la pierre levee
+                                                            [address2] => 
+                                                            [city] => SAINT-LUBIN-EN-VERGONNOIS
+                                                            [postcode] => 41190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yohann
+                                                            [lastname] => LOPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

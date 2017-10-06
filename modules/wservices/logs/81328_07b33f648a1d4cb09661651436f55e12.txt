@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81328
+    [IdTransaction] => 07b33f648a1d4cb09661651436f55e12
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32531] => Array
+                                (
+                                    [notiers] => 32531
+                                    [lastname] => GUEGUEN
+                                    [firstname] => Mickael
+                                    [email] => mickgueguen@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => e20701042
+                                    [birthday] => 1989-05-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42355
+                                                            [alias] => 29000 QUIMPER
+                                                            [address1] => 7, Allée du verger
+                                                            [address2] => 
+                                                            [city] => QUIMPER
+                                                            [postcode] => 29000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickael
+                                                            [lastname] => GUEGUEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42356
+                                                            [alias] => 29000 QUIMPER
+                                                            [address1] => 7, Allée du verger
+                                                            [address2] => 
+                                                            [city] => QUIMPER
+                                                            [postcode] => 29000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickael
+                                                            [lastname] => GUEGUEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

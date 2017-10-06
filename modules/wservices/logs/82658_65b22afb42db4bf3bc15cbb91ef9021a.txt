@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82658
+    [IdTransaction] => 65b22afb42db4bf3bc15cbb91ef9021a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33418] => Array
+                                (
+                                    [notiers] => 33418
+                                    [lastname] => PERE
+                                    [firstname] => Jean jacques
+                                    [email] => jjpere@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => amazonial
+                                    [birthday] => 1950-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43817
+                                                            [alias] => 75012 PARIS
+                                                            [address1] => 240, charenton
+                                                            [address2] => Escalier  B
+                                                            [city] => PARIS
+                                                            [postcode] => 75012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => PERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43818
+                                                            [alias] => 75012 PARIS
+                                                            [address1] => 240, charenton
+                                                            [address2] => ESCALIER B code 4780 2è etage face ascenseur
+                                                            [city] => PARIS
+                                                            [postcode] => 75012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => PERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

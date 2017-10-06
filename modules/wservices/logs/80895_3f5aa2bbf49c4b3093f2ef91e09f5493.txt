@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80895
+    [IdTransaction] => 3f5aa2bbf49c4b3093f2ef91e09f5493
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32588] => Array
+                                (
+                                    [notiers] => 32588
+                                    [lastname] => CUSSAC
+                                    [firstname] => Guillaume
+                                    [email] => cussac33@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 46059194gC
+                                    [birthday] => 1993-10-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42441
+                                                            [alias] => 33260 TESTE-DE-BUCH
+                                                            [address1] => 22, rue du paradis des canards
+                                                            [address2] => 
+                                                            [city] => TESTE-DE-BUCH
+                                                            [postcode] => 33260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => CUSSAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42442
+                                                            [alias] => 33260 TESTE-DE-BUCH
+                                                            [address1] => 22, rue du paradis des canards
+                                                            [address2] => 
+                                                            [city] => TESTE-DE-BUCH
+                                                            [postcode] => 33260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => CUSSAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

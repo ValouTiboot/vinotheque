@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77827
+    [IdTransaction] => dd1af86b4da5470680510ed6ea821e48
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33546] => Array
+                                (
+                                    [notiers] => 33546
+                                    [lastname] => GAUCHET
+                                    [firstname] => Cedric
+                                    [email] => chezcedric@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => maggic
+                                    [birthday] => 1978-06-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44057
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 12B, rue Pergolese
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => GAUCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44058
+                                                            [alias] => 33370 ARTIGUES-PRES-BORDEAUX
+                                                            [address1] => 35, avenue de Lestrille
+                                                            [address2] => 
+                                                            [city] => ARTIGUES-PRES-BORDEAUX
+                                                            [postcode] => 33370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => GAUCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

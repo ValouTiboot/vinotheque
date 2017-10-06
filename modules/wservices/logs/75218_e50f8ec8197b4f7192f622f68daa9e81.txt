@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75218
+    [IdTransaction] => e50f8ec8197b4f7192f622f68daa9e81
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25510] => Array
+                                (
+                                    [notiers] => 25510
+                                    [lastname] => BERTRAND
+                                    [firstname] => Mathieu
+                                    [email] => yakouman@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => andromede
+                                    [birthday] => 1986-10-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 153
+                                    [NbPointsRestants] => 153
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31272
+                                                            [alias] => 68480 VIEUX-FERRETTE
+                                                            [address1] => 28, rue du Château
+                                                            [address2] => 
+                                                            [city] => VIEUX-FERRETTE
+                                                            [postcode] => 68480
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => BERTRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31273
+                                                            [alias] => 68480 VIEUX-FERRETTE
+                                                            [address1] => 28, rue du Château
+                                                            [address2] => 
+                                                            [city] => VIEUX-FERRETTE
+                                                            [postcode] => 68480
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => BERTRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77997
+    [IdTransaction] => 8640d77df4ad42ce993ca88c1a712983
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31880] => Array
+                                (
+                                    [notiers] => 31880
+                                    [lastname] => BESSI
+                                    [firstname] => Brice
+                                    [email] => bessib@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => vermont07
+                                    [birthday] => 1984-09-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 200
+                                    [NbPointsAcquits] => 862
+                                    [NbPointsRestants] => 662
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41303
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 25, Chemin du Haut Magnan
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brice
+                                                            [lastname] => BESSI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41304
+                                                            [alias] => 06000 NICE
+                                                            [address1] => 25, Chemin du Haut Magnan
+                                                            [address2] => 
+                                                            [city] => NICE
+                                                            [postcode] => 06000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brice
+                                                            [lastname] => BESSI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

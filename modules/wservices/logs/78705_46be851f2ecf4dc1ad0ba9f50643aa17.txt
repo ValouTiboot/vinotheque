@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78705
+    [IdTransaction] => 46be851f2ecf4dc1ad0ba9f50643aa17
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36120] => Array
+                                (
+                                    [notiers] => 36120
+                                    [lastname] => OLLIER
+                                    [firstname] => Andre-pierre
+                                    [email] => andre-pierre.ollier@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1951-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48376
+                                                            [alias] => 59242 TEMPLEUVE
+                                                            [address1] => 36, rue de lille
+                                                            [address2] => 
+                                                            [city] => TEMPLEUVE
+                                                            [postcode] => 59242
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Andre-pierre
+                                                            [lastname] => OLLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48377
+                                                            [alias] => 59242 TEMPLEUVE
+                                                            [address1] => 36, rue de lille
+                                                            [address2] => 
+                                                            [city] => TEMPLEUVE
+                                                            [postcode] => 59242
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Andre-pierre
+                                                            [lastname] => OLLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

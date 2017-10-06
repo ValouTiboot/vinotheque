@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75310
+    [IdTransaction] => 77ca4983172647caabf2b3ace2a94782
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33089] => Array
+                                (
+                                    [notiers] => 33089
+                                    [lastname] => BARIOULET
+                                    [firstname] => Annie
+                                    [email] => anniebarioulet@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 12411241
+                                    [birthday] => 1966-09-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 74
+                                    [NbPointsRestants] => 74
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43217
+                                                            [alias] => 33100 BORDEAUX
+                                                            [address1] => 51, RUE DE CHATEAUNEUF
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Annie
+                                                            [lastname] => BARIOULET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43218
+                                                            [alias] => 33100 BORDEAUX
+                                                            [address1] => 51, RUE DE CHATEAUNEUF
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Annie
+                                                            [lastname] => BARIOULET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

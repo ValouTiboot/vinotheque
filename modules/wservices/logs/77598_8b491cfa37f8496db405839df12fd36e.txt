@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77598
+    [IdTransaction] => 8b491cfa37f8496db405839df12fd36e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31281] => Array
+                                (
+                                    [notiers] => 31281
+                                    [lastname] => CLUNET
+                                    [firstname] => Franck
+                                    [email] => franck@sublime.pro
+                                    [id_gender] => 1
+                                    [passwd] => 53545354
+                                    [birthday] => 1963-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 126
+                                    [NbPointsRestants] => 126
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40314
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 24, rue Lepic
+                                                            [address2] => 1er gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => CLUNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40315
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 24, rue Lepic
+                                                            [address2] => 1er gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => CLUNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75371
+    [IdTransaction] => 13dc601c897949a8b79dcfc8ffab2af0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30248] => Array
+                                (
+                                    [notiers] => 30248
+                                    [lastname] => COUDERC
+                                    [firstname] => Martine
+                                    [email] => martine.couderc341@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => 52mc33
+                                    [birthday] => 1947-11-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 171
+                                    [NbPointsRestants] => 171
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38511
+                                                            [alias] => 75018 PARIS
+                                                            [address1] => 12, Rue Ferdinand Flocon
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75018
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martine
+                                                            [lastname] => COUDERC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38512
+                                                            [alias] => OX26 6YZ BICESTER
+                                                            [address1] => 91, Heron Drive
+                                                            [address2] => 
+                                                            [city] => BICESTER
+                                                            [postcode] => OX26 6YZ
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martine
+                                                            [lastname] => COUDERC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => GB
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

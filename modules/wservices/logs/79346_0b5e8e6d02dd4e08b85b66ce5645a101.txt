@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79346
+    [IdTransaction] => 0b5e8e6d02dd4e08b85b66ce5645a101
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33571] => Array
+                                (
+                                    [notiers] => 33571
+                                    [lastname] => ABBEY
+                                    [firstname] => Shep
+                                    [email] => shep@abbeyandolivier.ca
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1957-01-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44100
+                                                            [alias] => VT05474 NORTH HERO
+                                                            [address1] => 471, NORTH END ROAD
+                                                            [address2] => 
+                                                            [city] => NORTH HERO
+                                                            [postcode] => VT05474
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Shep
+                                                            [lastname] => ABBEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44101
+                                                            [alias] => VT05474 NORTH HERO
+                                                            [address1] => 471, NORTH END ROAD
+                                                            [address2] => 
+                                                            [city] => NORTH HERO
+                                                            [postcode] => VT05474
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Shep
+                                                            [lastname] => ABBEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

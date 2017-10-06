@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75583
+    [IdTransaction] => 9acf102f16f34828ba32dd29249dfd38
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32030] => Array
+                                (
+                                    [notiers] => 32030
+                                    [lastname] => ALTIMANI
+                                    [firstname] => Caroline
+                                    [email] => caroline@altimani.net
+                                    [id_gender] => 2
+                                    [passwd] => PerfectPW2015*
+                                    [birthday] => 1979-04-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41528
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 3, Rue de la Pastorale
+                                                            [address2] => 
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => ALTIMANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41529
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 3, Rue de la Pastorale
+                                                            [address2] => code porte 13735
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => ALTIMANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

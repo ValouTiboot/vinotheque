@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74569
+    [IdTransaction] => e83677dcccdc467db38231bcc5f4be06
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32171] => Array
+                                (
+                                    [notiers] => 32171
+                                    [lastname] => ROULLIES
+                                    [firstname] => Sophie
+                                    [email] => sophieroullies@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => Nina2015
+                                    [birthday] => 1981-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 53
+                                    [NbPointsRestants] => 53
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41790
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 88, AVENUE DES TERNES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => ROULLIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41791
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 10, RUE DE L'AMIRAL HAMELIN
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => ROULLIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

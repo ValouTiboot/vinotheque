@@ -1,0 +1,270 @@
+Array
+(
+    [NoJSON] => 543
+    [IdTransaction] => b8bf5327637f444e8151cb41d741c5db
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-18
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016003335] => Array
+                                (
+                                    [reference] => M2016003335
+                                    [id_second_wine] => 
+                                    [id_category_default] => Primeurs
+                                    [cache_default_attribute] => 42104|125
+                                    [active] => 1
+                                    [name] => CLOS DE BOUARD
+                                    [wine] => 1
+                                    [wine_date] => 2017-04-18 00:00:00
+                                    [wine_delivery] => 2019-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => L'appellation Montagne Saint-Émilion est située dans une région pleine de charme, rythmée par des collines et dominée par de prestigieuses demeures historiques et églises romanes. Les sols sont très variés et l'encépagement est le même qu'à Saint-Émilion. Entre Pomerol à l'ouest et Saint-Émilion au Sud, le vignoble de Montagne Saint-Émilion se niche au milieu des terroirs les plus prestigieux du libournais et s'étend sur plus de 1600 ha. Les vins ont une bonne assise tannique discrète, grâce à leur finesse et leur complexité. Leur évolution aboutit à une palette aromatique riche et variée typique de ce lieu, où se mêlent avec délicatesse, les fruits, le minéral et les épices.
+                                    [property] => Château Clos de Boüard possède un terroir bien exposé, de 30 hectares, sur la commune de Parsac,rnhistoriquement réputée pour la richesse et la qualité de ses terroirs exceptionnels Argilo-Calcaire.rnSituée à proximité de Grands Crus Classés et assimilés de Saint-Emilion : les châteaux Fombrauge,rnLaroque, Rocheyron, Croix de Labrie, Château Louis, Fleur Cardinale, Valandraud et TroplongrnMondot. La propriété bénéficie d’une biodiversité et d’un éco-système privilégiés avec une forternprésence de vieilles vignes. Des investissements de restructuration du vignoble sont en cours afinrnd’élaborer des vins de grande qualité aux tanins soyeux, veloutés, respectueux du fruit, plein d’élégance,rnde gourmandise et de fraîcheur, des vins signature du savoir-faire et de l’expertise familiale.
+                                    [description] => Le vin présente une belle robe profonde et dense, le nez est intense sur les fruits frais bien mûrs (fraise etrncerise) des notes de fumée, d’épices douces et un élégant caractère floral. Un vin gourmand, charmeurrnet harmonieux aux tannins riches et soyeux. La finale est intense, longue et fraiche. Accessible dansrnsa jeunesse grâce à son équilibre, la précision de ses tanins et sa tension, ce cru présente un grandrnpotentiel de garde pour les plus patients.
+                                    [description_short] => CLOS DE BOUARD
+                                    [categories] => Array
+                                        (
+                                            [0] => Montagne Saint-Émilion
+                                            [1] => Primeurs
+                                            [2] => Rouge
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-clos-de-bouard.jpg
+                                                            [legend] => CLOS DE BOUARD
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42104
+                                                                    [1] => 42352
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => clos-de-bouard.jpg
+                                                            [legend] => CLOS DE BOUARD
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42104
+                                                                    [1] => 42352
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 42104
+                                                            [reference] => M2016003335
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 21,25
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 0
+                                                            [quantity] => 120
+                                                            [available_date] => 
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 42352
+                                                            [reference] => M2016003335
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L
+                                                            [active] => 1
+                                                            [price] => 42,5
+                                                            [packaging_weight] => 
+                                                            [minimal_quantity] => 0
+                                                            [quantity] => 24
+                                                            [available_date] => 
+                                                            [packaging_price] => 
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Montagne Saint-Émilion
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => -
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rouge
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Wine Advocate  (Neal Martin) 91-93
+                                                                    [1] => James Suckling 93-94
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79386
+    [IdTransaction] => d67e3525840c431e890c00f83d0b36b3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27055] => Array
+                                (
+                                    [notiers] => 27055
+                                    [lastname] => AUBERT
+                                    [firstname] => Frank
+                                    [email] => frank.aubert@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => HermeS1407
+                                    [birthday] => 1969-11-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33627
+                                                            [alias] => 68210 HECKEN
+                                                            [address1] => 8 BIS, RUE PRINCIPALE
+                                                            [address2] => 
+                                                            [city] => HECKEN
+                                                            [postcode] => 68210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frank
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33628
+                                                            [alias] => 68210 HECKEN
+                                                            [address1] => 8 BIS, RUE PRINCIPALE
+                                                            [address2] => 
+                                                            [city] => HECKEN
+                                                            [postcode] => 68210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frank
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

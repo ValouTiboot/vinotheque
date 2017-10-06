@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81712
+    [IdTransaction] => d516d939785e499baf39b71f3945e41a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29211] => Array
+                                (
+                                    [notiers] => 29211
+                                    [lastname] => DAVID
+                                    [firstname] => Maxime
+                                    [email] => robin.lesage8@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => zorros
+                                    [birthday] => 1991-06-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36838
+                                                            [alias] => 31170 TOURNEFEUILLE
+                                                            [address1] => 311, avenue de lardenne
+                                                            [address2] => 
+                                                            [city] => TOURNEFEUILLE
+                                                            [postcode] => 31170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36839
+                                                            [alias] => 31170 TOURNEFEUILLE
+                                                            [address1] => 311, avenue de lardenne
+                                                            [address2] => 
+                                                            [city] => TOURNEFEUILLE
+                                                            [postcode] => 31170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

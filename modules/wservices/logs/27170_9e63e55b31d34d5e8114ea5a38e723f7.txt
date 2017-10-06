@@ -1,0 +1,63 @@
+Array
+(
+    [NoJSON] => 27170
+    [IdTransaction] => 9e63e55b31d34d5e8114ea5a38e723f7
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => /Date(1503582465810-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27883] => Array
+                                (
+                                    [notiers] => 27883
+                                    [lastname] => TEST
+                                    [firstname] => Test
+                                    [email] => test@test.fr
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 1960-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [] => Array
+                                                        (
+                                                            [rank] => 
+                                                            [noadresse] => 34938
+                                                            [alias] => 10000 BERLIN
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BERLIN
+                                                            [postcode] => 10000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Test
+                                                            [lastname] => TEST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

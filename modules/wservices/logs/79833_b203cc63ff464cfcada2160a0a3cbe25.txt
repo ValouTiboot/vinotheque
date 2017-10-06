@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79833
+    [IdTransaction] => b203cc63ff464cfcada2160a0a3cbe25
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30736] => Array
+                                (
+                                    [notiers] => 30736
+                                    [lastname] => MARCHAND
+                                    [firstname] => Philippe
+                                    [email] => p.marchand827@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => VIPERE
+                                    [birthday] => 1964-06-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39373
+                                                            [alias] => 69003 LYON
+                                                            [address1] => 29, rue Sainte Anne de BARABAN
+                                                            [address2] => 3eme etage
+                                                            [city] => LYON
+                                                            [postcode] => 69003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39374
+                                                            [alias] => 69003 LYON
+                                                            [address1] => 29, rue Sainte Anne de BARAB
+                                                            [address2] => 3eme étage
+                                                            [city] => LYON
+                                                            [postcode] => 69003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

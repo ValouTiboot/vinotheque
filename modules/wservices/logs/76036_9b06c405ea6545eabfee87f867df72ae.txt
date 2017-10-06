@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76036
+    [IdTransaction] => 9b06c405ea6545eabfee87f867df72ae
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30264] => Array
+                                (
+                                    [notiers] => 30264
+                                    [lastname] => HEBRART
+                                    [firstname] => Florence
+                                    [email] => florence.hebrart@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => M0tdepasse
+                                    [birthday] => 1966-06-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38538
+                                                            [alias] => 74440 RIVIERE-ENVERSE
+                                                            [address1] => Le plan Marvel
+                                                            [address2] => 
+                                                            [city] => RIVIERE-ENVERSE
+                                                            [postcode] => 74440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florence
+                                                            [lastname] => HEBRART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38539
+                                                            [alias] => 74160 SAINT-JULIEN-EN-GENEVOIS
+                                                            [address1] => 19, Allée des Cèdres
+                                                            [address2] => 
+                                                            [city] => SAINT-JULIEN-EN-GENEVOIS
+                                                            [postcode] => 74160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florence
+                                                            [lastname] => HEBRART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

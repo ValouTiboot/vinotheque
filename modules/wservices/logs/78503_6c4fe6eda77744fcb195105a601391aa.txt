@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78503
+    [IdTransaction] => 6c4fe6eda77744fcb195105a601391aa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27846] => Array
+                                (
+                                    [notiers] => 27846
+                                    [lastname] => PAVIOTTI
+                                    [firstname] => Philippe
+                                    [email] => spi.paviotti@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => r5i7n95r
+                                    [birthday] => 1959-03-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34868
+                                                            [alias] => 30330 GAUJAC
+                                                            [address1] => Chemin de Barbotte Cidex 3580
+                                                            [address2] => 
+                                                            [city] => GAUJAC
+                                                            [postcode] => 30330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => PAVIOTTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34869
+                                                            [alias] => 11200 BIZANET
+                                                            [address1] => 6, rue du Plan d'eau
+                                                            [address2] => 
+                                                            [city] => BIZANET
+                                                            [postcode] => 11200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => PAVIOTTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

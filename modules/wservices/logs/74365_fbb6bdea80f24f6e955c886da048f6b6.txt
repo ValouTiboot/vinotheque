@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74365
+    [IdTransaction] => fbb6bdea80f24f6e955c886da048f6b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33042] => Array
+                                (
+                                    [notiers] => 33042
+                                    [lastname] => PASQUIER
+                                    [firstname] => Bernard
+                                    [email] => pasquierbernard33@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pasquier
+                                    [birthday] => 1961-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43130
+                                                            [alias] => 92700 COLOMBES
+                                                            [address1] => 48, RUE EDOUARD VAILLANT
+                                                            [address2] => 
+                                                            [city] => COLOMBES
+                                                            [postcode] => 92700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => PASQUIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43131
+                                                            [alias] => 92700 COLOMBES
+                                                            [address1] => 48, RUE EDOUARD VAILLANT
+                                                            [address2] => 
+                                                            [city] => COLOMBES
+                                                            [postcode] => 92700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => PASQUIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

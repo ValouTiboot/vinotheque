@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81846
+    [IdTransaction] => 8755558a1dc64bfeb18e38ad6c4a9a5a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27722] => Array
+                                (
+                                    [notiers] => 27722
+                                    [lastname] => CAZAUX
+                                    [firstname] => Audrey
+                                    [email] => audrey.cazaux@bnpparibas.com
+                                    [id_gender] => 2
+                                    [passwd] => bertrand
+                                    [birthday] => 1984-05-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34671
+                                                            [alias] => 31800 LARCAN
+                                                            [address1] => 20, hourcade
+                                                            [address2] => 
+                                                            [city] => LARCAN
+                                                            [postcode] => 31800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Audrey
+                                                            [lastname] => CAZAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34672
+                                                            [alias] => 31800 LARCAN
+                                                            [address1] => 20, hourcade
+                                                            [address2] => 
+                                                            [city] => LARCAN
+                                                            [postcode] => 31800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Audrey
+                                                            [lastname] => CAZAUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

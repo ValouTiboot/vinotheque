@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76714
+    [IdTransaction] => 72323a2080f4408993f48553fcb41eba
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26589] => Array
+                                (
+                                    [notiers] => 26589
+                                    [lastname] => BJOERN
+                                    [firstname] => Albrecht
+                                    [email] => bjoern_albrecht@mckinsey.com
+                                    [id_gender] => 1
+                                    [passwd] => fc5y0240
+                                    [birthday] => 1973-11-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 239
+                                    [NbPointsRestants] => 239
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32869
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 9, Boulevard St Michel
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Albrecht
+                                                            [lastname] => BJOERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32870
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 9, Boulevard St Michel
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Albrecht
+                                                            [lastname] => BJOERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 78463
+    [IdTransaction] => 874e038213204c21a5c041c7e7c8eddc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [20109] => Array
+                                (
+                                    [notiers] => 20109
+                                    [lastname] => DE LOTURE
+                                    [firstname] => Brigitte
+                                    [email] => b.deloture@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => canard
+                                    [birthday] => 1966-04-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 25506
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 10, rue Henri Duchêne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme de LOTURE Brigitte
+                                                            [firstname] => Brigitte
+                                                            [lastname] => DE LOTURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 25507
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr BECHADE Dominique
+                                                            [firstname] => Brigitte
+                                                            [lastname] => DE LOTURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 25507
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr BECHADE Dominique
+                                                            [firstname] => Brigitte
+                                                            [lastname] => DE LOTURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79730
+    [IdTransaction] => 0c7f538db4054473a3e89e7bee127076
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26980] => Array
+                                (
+                                    [notiers] => 26980
+                                    [lastname] => BARQUISSAU
+                                    [firstname] => Xavier
+                                    [email] => xbarquissau@noos.fr
+                                    [id_gender] => 1
+                                    [passwd] => xbpar18
+                                    [birthday] => 1960-12-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1269
+                                    [NbPointsRestants] => 1269
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33503
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 7, rue pestalozzi
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => BARQUISSAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33504
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 7, rue pestalozzi
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => BARQUISSAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

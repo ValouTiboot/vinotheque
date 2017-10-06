@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80017
+    [IdTransaction] => 46cbdefbbc094d3487f08ed66c4183b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32590] => Array
+                                (
+                                    [notiers] => 32590
+                                    [lastname] => DANIELE
+                                    [firstname] => Bonnet
+                                    [email] => dany.boon.nez@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => bd6491
+                                    [birthday] => 1946-12-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42445
+                                                            [alias] => 14000 CAEN
+                                                            [address1] => 73, Boulevard Vanier
+                                                            [address2] => Résidence Perspectives
+                                                            [city] => CAEN
+                                                            [postcode] => 14000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bonnet
+                                                            [lastname] => DANIELE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42446
+                                                            [alias] => 14000 CAEN
+                                                            [address1] => 73, Boulevard Vanier
+                                                            [address2] => Résidence Perspectives
+                                                            [city] => CAEN
+                                                            [postcode] => 14000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bonnet
+                                                            [lastname] => DANIELE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

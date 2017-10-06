@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81653
+    [IdTransaction] => 12135f62dc4e4cfba4efd6398ab03e0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34483] => Array
+                                (
+                                    [notiers] => 34483
+                                    [lastname] => LAMBERT
+                                    [firstname] => Claude
+                                    [email] => lambert.claude4@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => IGTS12IG
+                                    [birthday] => 1951-02-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 69
+                                    [NbPointsRestants] => 69
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45680
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 9, Rue des Champs
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => LAMBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45681
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 9, Rue des Champs
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claude
+                                                            [lastname] => LAMBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

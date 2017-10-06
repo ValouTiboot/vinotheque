@@ -1,0 +1,316 @@
+Array
+(
+    [NoJSON] => 2223
+    [IdTransaction] => d3fd8fccec1d409587ebace9b15c969e
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => 2017-07-13
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2015000074] => Array
+                                (
+                                    [reference] => M2015000074
+                                    [id_second_wine] => 
+                                    [id_category_default] => 
+                                    [cache_default_attribute] => 40293|125
+                                    [active] => 1
+                                    [name] => CH. SMITH HAUT LAFITTE        
+                                    [wine] => 0
+                                    [wine_date] => 2016-06-01 00:00:00
+                                    [wine_delivery] => 2018-01-31 00:00:00
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => 
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => 
+                                    [property] => Grâce à sa longue histoire et à sa réputation, Château Smith-Haut-Lafitte, figure parmi les tout premiers grands crus classés des Graves. Parmi ses nombreux propriétaires dont la chronologie remonte jusqu'en 1549, on retiendra l'Ecossais Georges Smith qui acheta la propriété au 18ème siècle, lui légua son nom et y fit construire une chartreuse. Nous citerons également Monsieur Duffour-Dubergier, maire de Bordeaux de 1842 à 1848, président de la Chambre de Commerce en 1855 et expert en vins. Son action dynamique et son  remarquable travail valut au Château Smith Haut-Lafitte de remporter  la Grande Médaille d'or du Ministère en 1876 au titre du meilleur vignoble du département. En 1990, Daniel Cathiard tomba amoureux de ce vignoble. Il entreprit de grands travaux de modernisation et de rénovation qui donnent aujourd'hui au domaine un nouveau visage.
+                                    [description] => Dès le premier nez ce vin nous entraîne vers une palette aromatique dernfruits et de fleurs blanches : des notes d’agrumes, de pêche blanche, dernpoire et de fleur d’acacia. L’agitation révèle ensuite des arômes plus épicésrnd’anis étoilé et d’eucalyptus.rnAprès une attaque vive et tendue, la bouche toute en concentration etrnpuissance se montre très équilibrée avec une belle texture suave. Ce vin,rnfraîs et élégant offre après les agrumes des fruits à chair blanche, desrnépices douces et des notes de pierre à fusil et d’âtre très complexes etrncaractéristiques de notre grand terroir de graves Gunziennes.
+                                    [description_short] => CH. SMITH HAUT LAFITTE        
+                                    [categories] => Array
+                                        (
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                            [0] => Notation
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => chateau-smith-haut-lafite-blanc-001.jpg
+                                                            [legend] => CH. SMITH HAUT LAFITTE        
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40293
+                                                                    [1] => 41020
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [url] => chateau-smith-haut-lafite-003.jpg
+                                                            [legend] => CH. SMITH HAUT LAFITTE        
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40293
+                                                                    [1] => 41020
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [url] => chateau-smith-haut-lafite-004.jpg
+                                                            [legend] => CH. SMITH HAUT LAFITTE        
+                                                            [cover] => 
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 40293
+                                                                    [1] => 41020
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [id_product_attribute] => 40293
+                                                            [reference] => M2015000074
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12
+                                                            [active] => 1
+                                                            [price] => 72
+                                                            [packaging_weight] => 20
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 6
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0
+                                                            [id_conditionnement] => 125
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [id_product_attribute] => 40293
+                                                            [reference] => M2015000074
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6
+                                                            [active] => 1
+                                                            [price] => 72
+                                                            [packaging_weight] => 9,6
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 6
+                                                            [available_date] => 2016-10-20 08:30:00
+                                                            [packaging_price] => 0,46
+                                                            [id_conditionnement] => 128
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [id_product_attribute] => 41020
+                                                            [reference] => M2015000074
+                                                            [shop_quantity] => 0
+                                                            [name] => Format : Magnum 1,50 L
+                                                            [active] => 9
+                                                            [price] => 0
+                                                            [packaging_weight] => 
+                                                            [minimal_quantity] => 12
+                                                            [quantity] => 0
+                                                            [available_date] => 
+                                                            [packaging_price] => 
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Pessac-Léognan
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 90% Sauvignon blanc
+                                                                    [1] => 5% Sémillon
+                                                                    [2] => 5% Sauvigon gris
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => -
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Blanc
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2015
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Notations
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => The Wine Advocate 94-96
+                                                                    [1] => Wine Enthusiast 94-96
+                                                                    [2] => James Suckling 96-97
+                                                                    [3] => Decanter 96
+                                                                    [4] => Wine spectator 95-98
+                                                                    [5] => René Gabriel 19
+                                                                    [6] => Le Point  15.5/16
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Récompenses
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Bordeaux
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [cle] => 12
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

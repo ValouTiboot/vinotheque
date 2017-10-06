@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75611
+    [IdTransaction] => 15b027839a5f4c5ba2352dbdd3cb4537
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29679] => Array
+                                (
+                                    [notiers] => 29679
+                                    [lastname] => CLERGERIE
+                                    [firstname] => Aurelie
+                                    [email] => aurelie.clergerie@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1982-12-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37540
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurelie
+                                                            [lastname] => CLERGERIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37541
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 127, RUE DE TURENNES
+                                                            [address2] => 133
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurelie
+                                                            [lastname] => CLERGERIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

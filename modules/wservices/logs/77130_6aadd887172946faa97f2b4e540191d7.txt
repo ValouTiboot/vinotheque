@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77130
+    [IdTransaction] => 6aadd887172946faa97f2b4e540191d7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32756] => Array
+                                (
+                                    [notiers] => 32756
+                                    [lastname] => RICHERT
+                                    [firstname] => Didier
+                                    [email] => didrichert@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => didric57
+                                    [birthday] => 1957-07-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42683
+                                                            [alias] => 72150 GRAND-LUCE
+                                                            [address1] => 4, rue du saut du loup LE GRAND LUCE
+                                                            [address2] => 
+                                                            [city] => GRAND-LUCE
+                                                            [postcode] => 72150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => RICHERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42684
+                                                            [alias] => 72150 GRAND-LUCE
+                                                            [address1] => 4, rue du saut du loup LE GRAND LUCE
+                                                            [address2] => 
+                                                            [city] => GRAND-LUCE
+                                                            [postcode] => 72150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => RICHERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78989
+    [IdTransaction] => cb9f90cdd0bb4b9a864c7bb8765a6228
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28891] => Array
+                                (
+                                    [notiers] => 28891
+                                    [lastname] => PINOS
+                                    [firstname] => Fabienne
+                                    [email] => alix_bdx@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => megg007
+                                    [birthday] => 1972-06-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 111
+                                    [NbPointsRestants] => 111
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36450
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 33, RUE JOSEPH LE BRIX
+                                                            [address2] => LES MAISONS BLANCHES
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabienne
+                                                            [lastname] => PINOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36451
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 33, RUE JOSEPH LE BRIX
+                                                            [address2] => LES MAISONS BLANCHES
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabienne
+                                                            [lastname] => PINOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

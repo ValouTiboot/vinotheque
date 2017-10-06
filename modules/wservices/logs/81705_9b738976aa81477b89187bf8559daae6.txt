@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81705
+    [IdTransaction] => 9b738976aa81477b89187bf8559daae6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34517] => Array
+                                (
+                                    [notiers] => 34517
+                                    [lastname] => JUMELLE
+                                    [firstname] => Bénédicte
+                                    [email] => ben.jumelle@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => bjscsvpc
+                                    [birthday] => 1966-12-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 37
+                                    [NbPointsRestants] => 37
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45741
+                                                            [alias] => 78540 VERNOUILLET
+                                                            [address1] => 8, rue du Châtelet
+                                                            [address2] => 
+                                                            [city] => VERNOUILLET
+                                                            [postcode] => 78540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bénédicte
+                                                            [lastname] => JUMELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45742
+                                                            [alias] => 78540 VERNOUILLET
+                                                            [address1] => 8, Rue du Châtelet
+                                                            [address2] => 
+                                                            [city] => VERNOUILLET
+                                                            [postcode] => 78540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bénédicte
+                                                            [lastname] => JUMELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

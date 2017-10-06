@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77356
+    [IdTransaction] => a43bfef6d415457d9dbdffbd12a47d3a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25897] => Array
+                                (
+                                    [notiers] => 25897
+                                    [lastname] => JULIEN
+                                    [firstname] => Amaury
+                                    [email] => mobamix@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => As061009
+                                    [birthday] => 1987-03-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31879
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 19 bis, Place Blaise Pascal
+                                                            [address2] => 
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Amaury
+                                                            [lastname] => JULIEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31880
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 19 bis, Place Blaise Pascal
+                                                            [address2] => 
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Amaury
+                                                            [lastname] => JULIEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

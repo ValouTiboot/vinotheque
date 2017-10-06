@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80390
+    [IdTransaction] => 7f0ea0c33e8049f0b4135c3904858645
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31502] => Array
+                                (
+                                    [notiers] => 31502
+                                    [lastname] => MERMINOD
+                                    [firstname] => Alexis
+                                    [email] => alexis.merminod@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => mermoude
+                                    [birthday] => 1992-01-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 92
+                                    [NbPointsRestants] => 92
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40723
+                                                            [alias] => 91700 SAINTE-GENEVIEVE-DES-BOIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SAINTE-GENEVIEVE-DES-BOIS
+                                                            [postcode] => 91700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexis
+                                                            [lastname] => MERMINOD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40724
+                                                            [alias] => 91700 SAINTE-GENEVIEVE-DES-BOIS
+                                                            [address1] => 38, Rue du long foin
+                                                            [address2] => 
+                                                            [city] => SAINTE-GENEVIEVE-DES-BOIS
+                                                            [postcode] => 91700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexis
+                                                            [lastname] => MERMINOD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78627
+    [IdTransaction] => e1f3f7c28f094c3389fd4b3a2c31d93c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30863] => Array
+                                (
+                                    [notiers] => 30863
+                                    [lastname] => COUTEAU
+                                    [firstname] => Cati
+                                    [email] => caticouteau@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1945-02-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 330
+                                    [NbPointsRestants] => 330
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39589
+                                                            [alias] => 75019 PARIS
+                                                            [address1] => 30, rue du plateau BP 20
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75019
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cati
+                                                            [lastname] => COUTEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39590
+                                                            [alias] => 75019 PARIS
+                                                            [address1] => 30, du plateau BP20
+                                                            [address2] => 4éme étage immeuble
+                                                            [city] => PARIS
+                                                            [postcode] => 75019
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cati
+                                                            [lastname] => COUTEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

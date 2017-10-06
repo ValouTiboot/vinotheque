@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82730
+    [IdTransaction] => 698efb3e99f249fcb15061e4a896fe85
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27234] => Array
+                                (
+                                    [notiers] => 27234
+                                    [lastname] => AUBERCY
+                                    [firstname] => Xavier
+                                    [email] => xavieraubercy@me.com
+                                    [id_gender] => 1
+                                    [passwd] => Dantes
+                                    [birthday] => 1970-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 234
+                                    [NbPointsRestants] => 234
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33923
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 34, rue Vivienne
+                                                            [address2] => Magasin
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => AUBERCY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33924
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 34, Rue Vivienne
+                                                            [address2] => Magasin
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => AUBERCY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

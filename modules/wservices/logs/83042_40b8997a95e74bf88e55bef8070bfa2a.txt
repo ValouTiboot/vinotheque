@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83042
+    [IdTransaction] => 40b8997a95e74bf88e55bef8070bfa2a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25809] => Array
+                                (
+                                    [notiers] => 25809
+                                    [lastname] => CYR
+                                    [firstname] => Christopher
+                                    [email] => c.cyr@komet.fr
+                                    [id_gender] => 1
+                                    [passwd] => ALEX19
+                                    [birthday] => 1974-12-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 102
+                                    [NbPointsRestants] => 102
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31740
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 63, avenue de la grande armée
+                                                            [address2] => 4 eme étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christopher
+                                                            [lastname] => CYR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31741
+                                                            [alias] => 75012 PARIS
+                                                            [address1] => 11, rue de reuilly
+                                                            [address2] => 1er étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christopher
+                                                            [lastname] => CYR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

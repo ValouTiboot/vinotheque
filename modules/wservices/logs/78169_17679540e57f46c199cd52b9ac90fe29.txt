@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78169
+    [IdTransaction] => 17679540e57f46c199cd52b9ac90fe29
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32645] => Array
+                                (
+                                    [notiers] => 32645
+                                    [lastname] => LEJEUNE
+                                    [firstname] => Alexandre
+                                    [email] => alexandrelejeune80@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 585100
+                                    [birthday] => 1980-11-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42525
+                                                            [alias] => 29360 CLOHARS-CARNOET
+                                                            [address1] => 1, allée du levant
+                                                            [address2] => 
+                                                            [city] => CLOHARS-CARNOET
+                                                            [postcode] => 29360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => LEJEUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42526
+                                                            [alias] => 29360 CLOHARS-CARNOET
+                                                            [address1] => 1, allée du levant
+                                                            [address2] => 
+                                                            [city] => CLOHARS-CARNOET
+                                                            [postcode] => 29360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => LEJEUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

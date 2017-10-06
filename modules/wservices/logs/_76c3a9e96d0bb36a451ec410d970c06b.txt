@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 76c3a9e96d0bb36a451ec410d970c06b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-27 16:26:58
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [48] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => Saint Martin
+                                    [firstname] => Mélanie
+                                    [email] => m.saintmartin@dubos.com
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 1991-10-08
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [27] => Array
+                                                (
+                                                    [id_address] => 27
+                                                    [noadresse] => 
+                                                    [alias] => maison
+                                                    [address1] => 8 cours du 30 juillet
+                                                    [address2] => 
+                                                    [city] => Bordeaux
+                                                    [postcode] => 33000
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Mélanie
+                                                    [lastname] => Saint Martin
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

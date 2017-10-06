@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77219
+    [IdTransaction] => 05e39da2251247f494e143eb2ad56a99
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30097] => Array
+                                (
+                                    [notiers] => 30097
+                                    [lastname] => FERNANDEZ
+                                    [firstname] => Damien
+                                    [email] => fernandez.damien@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => enzolysa
+                                    [birthday] => 1985-04-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 85
+                                    [NbPointsRestants] => 85
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38246
+                                                            [alias] => 14150 OUISTREHAM
+                                                            [address1] => 14, rue jean jacques rousseau
+                                                            [address2] => 
+                                                            [city] => OUISTREHAM
+                                                            [postcode] => 14150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => FERNANDEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38247
+                                                            [alias] => 14150 OUISTREHAM
+                                                            [address1] => 14, rue jean jacques rousseau
+                                                            [address2] => 
+                                                            [city] => OUISTREHAM
+                                                            [postcode] => 14150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => FERNANDEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

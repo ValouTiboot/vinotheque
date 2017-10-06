@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78283
+    [IdTransaction] => d0c5478758f6491fb393c1408f8c7f0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31129] => Array
+                                (
+                                    [notiers] => 31129
+                                    [lastname] => CARIGLIO
+                                    [firstname] => Michel
+                                    [email] => michelcariglio@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => clamart
+                                    [birthday] => 1956-08-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 519
+                                    [NbPointsRestants] => 519
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40047
+                                                            [alias] => 61340 PREAUX-DU-PERCHE
+                                                            [address1] => lieu dit la louvetiere
+                                                            [address2] => 
+                                                            [city] => PREAUX-DU-PERCHE
+                                                            [postcode] => 61340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CARIGLIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40048
+                                                            [alias] => 61340 PREAUX-DU-PERCHE
+                                                            [address1] => lieu dit la louvetiere
+                                                            [address2] => 
+                                                            [city] => PREAUX-DU-PERCHE
+                                                            [postcode] => 61340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CARIGLIO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

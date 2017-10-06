@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76935
+    [IdTransaction] => b127cf5b9dc24ae982f7fc3e5912a5ed
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36109] => Array
+                                (
+                                    [notiers] => 36109
+                                    [lastname] => PETITCOLLIN
+                                    [firstname] => Virginie
+                                    [email] => v.petitcollin@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => rv220100
+                                    [birthday] => 1980-03-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48356
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 57, sainte monique
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => PETITCOLLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48357
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 57, sainte monique
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Virginie
+                                                            [lastname] => PETITCOLLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

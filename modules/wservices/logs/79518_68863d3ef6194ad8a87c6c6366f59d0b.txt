@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79518
+    [IdTransaction] => 68863d3ef6194ad8a87c6c6366f59d0b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33156] => Array
+                                (
+                                    [notiers] => 33156
+                                    [lastname] => BIDET
+                                    [firstname] => Bruno
+                                    [email] => b.bidet@pau.fr
+                                    [id_gender] => 1
+                                    [passwd] => SOURCE8PAU37
+                                    [birthday] => 1957-01-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43340
+                                                            [alias] => 64320 BIZANOS
+                                                            [address1] => 10, avenue Beau Site BIZANOS
+                                                            [address2] => 
+                                                            [city] => BIZANOS
+                                                            [postcode] => 64320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => BIDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43341
+                                                            [alias] => 64320 BIZANOS
+                                                            [address1] => 10, avenue Beau Site BIZANOS
+                                                            [address2] => 
+                                                            [city] => BIZANOS
+                                                            [postcode] => 64320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => BIDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

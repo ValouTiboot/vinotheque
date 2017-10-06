@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83324
+    [IdTransaction] => 6532c40548be4f16a7b2e3ea78f2f531
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27758] => Array
+                                (
+                                    [notiers] => 27758
+                                    [lastname] => MULTIBAC
+                                    [firstname] => Sté
+                                    [email] => hl2c@hl2c.fr
+                                    [id_gender] => 1
+                                    [passwd] => jas9330
+                                    [birthday] => 1955-03-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 493
+                                    [NbPointsRestants] => 493
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34734
+                                                            [alias] => 31400 TOULOUSE
+                                                            [address1] => 26, Rue Bégué David
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => MULTIBAC
+                                                            [firstname] => Sté
+                                                            [lastname] => MULTIBAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34735
+                                                            [alias] => 31000 TOULOUSE
+                                                            [address1] => 7, allées PAUL FEUGA
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sté
+                                                            [lastname] => MULTIBAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

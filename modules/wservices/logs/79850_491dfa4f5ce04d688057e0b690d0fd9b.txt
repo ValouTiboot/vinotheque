@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79850
+    [IdTransaction] => 491dfa4f5ce04d688057e0b690d0fd9b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34306] => Array
+                                (
+                                    [notiers] => 34306
+                                    [lastname] => FAIVRE
+                                    [firstname] => Mickaël
+                                    [email] => mickael.faivre1@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 03021979mickael
+                                    [birthday] => 1979-02-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45379
+                                                            [alias] => 25360 BOUCLANS
+                                                            [address1] => 13, rue du Prévot
+                                                            [address2] => 
+                                                            [city] => BOUCLANS
+                                                            [postcode] => 25360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => FAIVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45380
+                                                            [alias] => 25360 BOUCLANS
+                                                            [address1] => 13, rue du Prévot
+                                                            [address2] => 
+                                                            [city] => BOUCLANS
+                                                            [postcode] => 25360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => FAIVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75744
+    [IdTransaction] => 3c37a4204cdb412d9a1d2c8252fc491b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32784] => Array
+                                (
+                                    [notiers] => 32784
+                                    [lastname] => PUONS
+                                    [firstname] => Richard
+                                    [email] => puons@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 135791113
+                                    [birthday] => 1948-04-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42720
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 3, chemin de boisgelin
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Richard
+                                                            [lastname] => PUONS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42721
+                                                            [alias] => 13500 MARTIGUES
+                                                            [address1] => 9 bis, rue amavet
+                                                            [address2] => 
+                                                            [city] => MARTIGUES
+                                                            [postcode] => 13500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Richard
+                                                            [lastname] => PUONS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

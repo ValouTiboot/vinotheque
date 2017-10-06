@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78750
+    [IdTransaction] => bcbd73cf1e284c998a690defc9028154
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32791] => Array
+                                (
+                                    [notiers] => 32791
+                                    [lastname] => PETER
+                                    [firstname] => Bottelier
+                                    [email] => pbottelier@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => clonsilla1
+                                    [birthday] => 1980-02-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 403
+                                    [NbPointsRestants] => 403
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42734
+                                                            [alias] => D13 PORTMARNOCK
+                                                            [address1] => 7 The Kilns, Station Road
+                                                            [address2] => 
+                                                            [city] => PORTMARNOCK
+                                                            [postcode] => D13
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bottelier
+                                                            [lastname] => PETER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42735
+                                                            [alias] => D13 PORTMARNOCK
+                                                            [address1] => 7 The Kilns, Station Road
+                                                            [address2] => 
+                                                            [city] => PORTMARNOCK
+                                                            [postcode] => D13
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bottelier
+                                                            [lastname] => PETER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

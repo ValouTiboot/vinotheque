@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77327
+    [IdTransaction] => 218d3694dfe34417a79075de72571ab9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25622] => Array
+                                (
+                                    [notiers] => 25622
+                                    [lastname] => MAURO
+                                    [firstname] => Frederic
+                                    [email] => frmauro@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => squale63
+                                    [birthday] => 1963-10-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31449
+                                                            [alias] => 1180 UCCLE
+                                                            [address1] => 210, avenue de Messidor
+                                                            [address2] => 
+                                                            [city] => UCCLE
+                                                            [postcode] => 1180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => MAURO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31450
+                                                            [alias] => 1108 UCCLE
+                                                            [address1] => 210, avenue de Messidor
+                                                            [address2] => 
+                                                            [city] => UCCLE
+                                                            [postcode] => 1108
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => MAURO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

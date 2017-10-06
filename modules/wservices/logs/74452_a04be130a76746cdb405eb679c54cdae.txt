@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74452
+    [IdTransaction] => a04be130a76746cdb405eb679c54cdae
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35512] => Array
+                                (
+                                    [notiers] => 35512
+                                    [lastname] => PINEDA
+                                    [firstname] => David
+                                    [email] => david.pineda@veolia.com
+                                    [id_gender] => 1
+                                    [passwd] => Garbage31
+                                    [birthday] => 1971-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47382
+                                                            [alias] => 31000 TOULOUSE
+                                                            [address1] => 94, boulevard de la Marquette
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => PINEDA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47383
+                                                            [alias] => 31504 TOULOUSE CEDEX 5
+                                                            [address1] => 22, avenue Marcel Dasault 35093
+                                                            [address2] => 
+                                                            [city] => TOULOUSE CEDEX 5
+                                                            [postcode] => 31504
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => PINEDA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81641
+    [IdTransaction] => 6c8784fc81ad46bdb85599d60a977097
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28325] => Array
+                                (
+                                    [notiers] => 28325
+                                    [lastname] => JOHANET
+                                    [firstname] => Aude
+                                    [email] => aude.johanet@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => Tallfaktor74
+                                    [birthday] => 1988-06-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35557
+                                                            [alias] => 59820 GRAVELINES
+                                                            [address1] => 13, boulevard Haussmann
+                                                            [address2] => 
+                                                            [city] => GRAVELINES
+                                                            [postcode] => 59820
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aude
+                                                            [lastname] => JOHANET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35558
+                                                            [alias] => 53000 LAVAL
+                                                            [address1] => 26, Grande rue
+                                                            [address2] => 
+                                                            [city] => LAVAL
+                                                            [postcode] => 53000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aude
+                                                            [lastname] => JOHANET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

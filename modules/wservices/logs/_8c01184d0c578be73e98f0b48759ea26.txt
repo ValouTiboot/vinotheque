@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 8c01184d0c578be73e98f0b48759ea26
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-09-20 11:31:03
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [9492] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => zzz
+                                    [firstname] => zzz
+                                    [email] => zzz@zzz.com
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [25189] => Array
+                                                (
+                                                    [id_address] => 25189
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 17 rue du test
+                                                    [address2] => 
+                                                    [city] => zzz
+                                                    [postcode] => 75017
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => zzz
+                                                    [lastname] => zzz
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

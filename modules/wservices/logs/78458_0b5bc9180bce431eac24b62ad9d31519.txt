@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78458
+    [IdTransaction] => 0b5bc9180bce431eac24b62ad9d31519
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34245] => Array
+                                (
+                                    [notiers] => 34245
+                                    [lastname] => CASTETS
+                                    [firstname] => Mathilde
+                                    [email] => mathilde.castets@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => Fantasia9
+                                    [birthday] => 1993-12-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 22
+                                    [NbPointsRestants] => 22
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45270
+                                                            [alias] => 33150 CENON
+                                                            [address1] => 14, Rue Lucien Granet
+                                                            [address2] => 
+                                                            [city] => CENON
+                                                            [postcode] => 33150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => CASTETS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45271
+                                                            [alias] => 94400 VITRY-SUR-SEINE
+                                                            [address1] => 2, Avenue Youri Gagarine
+                                                            [address2] => Mairie de Vitry sur Seine
+                                                            [city] => VITRY-SUR-SEINE
+                                                            [postcode] => 94400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathilde
+                                                            [lastname] => CASTETS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

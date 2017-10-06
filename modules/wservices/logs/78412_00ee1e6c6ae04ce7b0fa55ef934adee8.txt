@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78412
+    [IdTransaction] => 00ee1e6c6ae04ce7b0fa55ef934adee8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34621] => Array
+                                (
+                                    [notiers] => 34621
+                                    [lastname] => TISNÉ
+                                    [firstname] => Hélène
+                                    [email] => h_tisne@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => 3Agulhas1
+                                    [birthday] => 1947-10-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 252
+                                    [NbPointsRestants] => 252
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45929
+                                                            [alias] => 64100 BAYONNE
+                                                            [address1] => 3, ALLEES PAULMY Bayonne
+                                                            [address2] => Appartement 402 Résidence La Féria
+                                                            [city] => BAYONNE
+                                                            [postcode] => 64100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => TISNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45930
+                                                            [alias] => 64100 BAYONNE
+                                                            [address1] => 3, ALLEES PAULMY Bayonne
+                                                            [address2] => Appartement 402 Résidence La Féria
+                                                            [city] => BAYONNE
+                                                            [postcode] => 64100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => TISNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

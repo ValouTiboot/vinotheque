@@ -1,0 +1,82 @@
+Array
+(
+    [NoJSON] => 233
+    [IdTransaction] => 5289a8999f2d4c45a3e2dd98a7bd2707
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-23
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [1010] => Array
+                                (
+                                    [notiers] => 1010
+                                    [lastname] => TEST
+                                    [firstname] => CECILE
+                                    [email] => thunevin@thunevin.com
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 45
+                                    [ape] => 513J
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [342] => Array
+                                                        (
+                                                            [noadresse] => 342
+                                                            [alias] => 33330 SAINT-EMILION
+                                                            [address1] => 6 rue Guadet
+                                                            [address2] => BP 88
+                                                            [city] => SAINT-EMILION
+                                                            [postcode] => 33330
+                                                            [phone] => 0557550913
+                                                            [phone_mobile] => 
+                                                            [company] => THUNEVIN
+                                                            [firstname] => CECILE
+                                                            [lastname] => TEST
+                                                            [other] => FF
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                            [rank] => 
+                                                        )
+
+                                                    [343] => Array
+                                                        (
+                                                            [noadresse] => 343
+                                                            [alias] => 33350 SAINT-MAGNE-DE-CASTILLON
+                                                            [address1] => TEST
+                                                            [address2] => 
+                                                            [city] => SAINT-MAGNE-DE-CASTILLON
+                                                            [postcode] => 33350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => THUNEVIN
+                                                            [firstname] => CECILE
+                                                            [lastname] => TEST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                            [rank] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80384
+    [IdTransaction] => 83681830806a42bea0d1293e2e1ecbc1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30315] => Array
+                                (
+                                    [notiers] => 30315
+                                    [lastname] => LACHAUD
+                                    [firstname] => Paul-marc
+                                    [email] => paulmarclachaud@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => 99901815
+                                    [birthday] => 1978-04-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38626
+                                                            [alias] => 22430 ERQUY
+                                                            [address1] => 2, Place de la Bastille
+                                                            [address2] => 
+                                                            [city] => ERQUY
+                                                            [postcode] => 22430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul-marc
+                                                            [lastname] => LACHAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38627
+                                                            [alias] => 22430 ERQUY
+                                                            [address1] => 2, Place de la Bastille
+                                                            [address2] => 
+                                                            [city] => ERQUY
+                                                            [postcode] => 22430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul-marc
+                                                            [lastname] => LACHAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

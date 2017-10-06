@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82967
+    [IdTransaction] => 1d4ff6cebb264adc989141f06971569e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33420] => Array
+                                (
+                                    [notiers] => 33420
+                                    [lastname] => GUILLON
+                                    [firstname] => Laurent
+                                    [email] => lcele.guillon@dbmail.com
+                                    [id_gender] => 1
+                                    [passwd] => edloem2921
+                                    [birthday] => 1968-06-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 828
+                                    [NbPointsRestants] => 828
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43821
+                                                            [alias] => 57000 METZ
+                                                            [address1] => 17, avenue Foch
+                                                            [address2] => 4ème étage
+                                                            [city] => METZ
+                                                            [postcode] => 57000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GUILLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43822
+                                                            [alias] => 57070 METZ
+                                                            [address1] => 1, rue de Vercly
+                                                            [address2] => 
+                                                            [city] => METZ
+                                                            [postcode] => 57070
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GUILLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

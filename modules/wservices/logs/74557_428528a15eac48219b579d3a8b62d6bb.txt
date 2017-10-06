@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74557
+    [IdTransaction] => 428528a15eac48219b579d3a8b62d6bb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34346] => Array
+                                (
+                                    [notiers] => 34346
+                                    [lastname] => BOUJU
+                                    [firstname] => Emile
+                                    [email] => emilebouju@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => bouju7226
+                                    [birthday] => 1997-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 15
+                                    [NbPointsRestants] => 15
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45448
+                                                            [alias] => 72500 DISSAY-SOUS-COURCILLON
+                                                            [address1] => 4, Place de la mairie
+                                                            [address2] => 
+                                                            [city] => DISSAY-SOUS-COURCILLON
+                                                            [postcode] => 72500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emile
+                                                            [lastname] => BOUJU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45449
+                                                            [alias] => 72500 DISSAY-SOUS-COURCILLON
+                                                            [address1] => 4, Place de la mairie
+                                                            [address2] => 
+                                                            [city] => DISSAY-SOUS-COURCILLON
+                                                            [postcode] => 72500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emile
+                                                            [lastname] => BOUJU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

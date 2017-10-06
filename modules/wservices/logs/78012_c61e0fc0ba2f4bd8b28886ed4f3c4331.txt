@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78012
+    [IdTransaction] => c61e0fc0ba2f4bd8b28886ed4f3c4331
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30584] => Array
+                                (
+                                    [notiers] => 30584
+                                    [lastname] => HESNARD
+                                    [firstname] => Armelle
+                                    [email] => armelle.h@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 321ellemra
+                                    [birthday] => 1971-01-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 65
+                                    [NbPointsRestants] => 65
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39110
+                                                            [alias] => 56270 PLOEMEUR
+                                                            [address1] => 14, IMPASSE FORBIN
+                                                            [address2] => 
+                                                            [city] => PLOEMEUR
+                                                            [postcode] => 56270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armelle
+                                                            [lastname] => HESNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39111
+                                                            [alias] => 56270 PLOEMEUR
+                                                            [address1] => 14, IMPASSE FORBIN
+                                                            [address2] => 
+                                                            [city] => PLOEMEUR
+                                                            [postcode] => 56270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armelle
+                                                            [lastname] => HESNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75525
+    [IdTransaction] => f59f9ac1df3f4b1a968d70783f214f5a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33432] => Array
+                                (
+                                    [notiers] => 33432
+                                    [lastname] => VEYRAT
+                                    [firstname] => Eric
+                                    [email] => veyrat
+                                    [id_gender] => 1
+                                    [passwd] => Satho1966
+                                    [birthday] => 1969-10-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43841
+                                                            [alias] => 89100 SOUCY
+                                                            [address1] => 24, Route de Voisines
+                                                            [address2] => 
+                                                            [city] => SOUCY
+                                                            [postcode] => 89100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => VEYRAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43842
+                                                            [alias] => 89100 SOUCY
+                                                            [address1] => 24, Route de, Route de Voisines
+                                                            [address2] => 
+                                                            [city] => SOUCY
+                                                            [postcode] => 89100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => VEYRAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

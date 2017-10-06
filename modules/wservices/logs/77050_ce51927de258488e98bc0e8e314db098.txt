@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77050
+    [IdTransaction] => ce51927de258488e98bc0e8e314db098
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32148] => Array
+                                (
+                                    [notiers] => 32148
+                                    [lastname] => MEILLEURAT
+                                    [firstname] => Benjamin
+                                    [email] => ben0033@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => AZD093ml
+                                    [birthday] => 1976-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 47
+                                    [NbPointsRestants] => 47
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41741
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 123, cours alsace et lorraine
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => MEILLEURAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41746
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 123, cours alsace et lorraine
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => MEILLEURAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

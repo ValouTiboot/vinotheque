@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77243
+    [IdTransaction] => a4d59ec82ca247b9b6b006f688ade3f4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33239] => Array
+                                (
+                                    [notiers] => 33239
+                                    [lastname] => THEVENET
+                                    [firstname] => Julien
+                                    [email] => julienthevenet@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => julien1986
+                                    [birthday] => 1986-03-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 200
+                                    [NbPointsRestants] => 200
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43498
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => THEVENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43499
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => Aristide de sousa mendes
+                                                            [address2] => 58 H
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => THEVENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

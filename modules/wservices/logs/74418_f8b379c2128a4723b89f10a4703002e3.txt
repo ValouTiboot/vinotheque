@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74418
+    [IdTransaction] => f8b379c2128a4723b89f10a4703002e3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34378] => Array
+                                (
+                                    [notiers] => 34378
+                                    [lastname] => DESCAMPS
+                                    [firstname] => Laurent
+                                    [email] => ldescamps@antologia.fr
+                                    [id_gender] => 1
+                                    [passwd] => ikjeft01
+                                    [birthday] => 1970-08-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 92
+                                    [NbPointsRestants] => 92
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45503
+                                                            [alias] => 59450 SIN-LE-NOBLE
+                                                            [address1] => 182, Ambroise Croizat
+                                                            [address2] => résidence le clos des sources
+                                                            [city] => SIN-LE-NOBLE
+                                                            [postcode] => 59450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => DESCAMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45504
+                                                            [alias] => 59450 SIN-LE-NOBLE
+                                                            [address1] => 182, Ambroise Croizat
+                                                            [address2] => résidence le clos des sources
+                                                            [city] => SIN-LE-NOBLE
+                                                            [postcode] => 59450
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => DESCAMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

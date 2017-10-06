@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80615
+    [IdTransaction] => c2a46361204847e4b728568e3713d18b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34467] => Array
+                                (
+                                    [notiers] => 34467
+                                    [lastname] => MARCHAND
+                                    [firstname] => Pierre
+                                    [email] => pedro_09@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 9900
+                                    [birthday] => 1987-10-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 159
+                                    [NbPointsRestants] => 159
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45658
+                                                            [alias] => 58130 GUERIGNY
+                                                            [address1] => 5 rue, alfred massé
+                                                            [address2] => 
+                                                            [city] => GUERIGNY
+                                                            [postcode] => 58130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45659
+                                                            [alias] => 58130 GUERIGNY
+                                                            [address1] => 5 rue, allfred massé
+                                                            [address2] => 
+                                                            [city] => GUERIGNY
+                                                            [postcode] => 58130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

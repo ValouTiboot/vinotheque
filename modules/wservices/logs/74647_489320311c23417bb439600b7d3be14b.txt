@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74647
+    [IdTransaction] => 489320311c23417bb439600b7d3be14b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26510] => Array
+                                (
+                                    [notiers] => 26510
+                                    [lastname] => BAI
+                                    [firstname] => Ziou
+                                    [email] => ziou_bai@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => $gBS5j
+                                    [birthday] => 1987-04-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1900
+                                    [NbPointsRestants] => 1900
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32733
+                                                            [alias] => 73430 AALEN
+                                                            [address1] => 25, Mittelbachstrasse
+                                                            [address2] => 
+                                                            [city] => AALEN
+                                                            [postcode] => 73430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ziou
+                                                            [lastname] => BAI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32734
+                                                            [alias] => 73430 AALEN
+                                                            [address1] => 25, Mittelbachstrasse
+                                                            [address2] => 
+                                                            [city] => AALEN
+                                                            [postcode] => 73430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ziou
+                                                            [lastname] => BAI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

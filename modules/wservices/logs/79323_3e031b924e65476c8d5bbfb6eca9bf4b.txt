@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79323
+    [IdTransaction] => 3e031b924e65476c8d5bbfb6eca9bf4b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27420] => Array
+                                (
+                                    [notiers] => 27420
+                                    [lastname] => DESJARDINS
+                                    [firstname] => Pascal
+                                    [email] => pascal.desjardins28@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 17royan
+                                    [birthday] => 1967-10-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 44
+                                    [NbPointsRestants] => 44
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34201
+                                                            [alias] => 27930 GUICHAINVILLE
+                                                            [address1] => 5, Résidence les oiseaux
+                                                            [address2] => 
+                                                            [city] => GUICHAINVILLE
+                                                            [postcode] => 27930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => DESJARDINS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34202
+                                                            [alias] => 27930 GUICHAINVILLE
+                                                            [address1] => 5, Résidence les oiseaux
+                                                            [address2] => 
+                                                            [city] => GUICHAINVILLE
+                                                            [postcode] => 27930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => DESJARDINS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

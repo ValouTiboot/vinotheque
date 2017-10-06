@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86023
+    [IdTransaction] => d32a9675d3724322a9a7b2ce04bb4eca
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30222] => Array
+                                (
+                                    [notiers] => 30222
+                                    [lastname] => JACOTOT
+                                    [firstname] => Valérie
+                                    [email] => valeriejacotot@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => 3670SANDRINE
+                                    [birthday] => 1980-09-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38462
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 194, avenue de Versailles
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Valérie
+                                                            [lastname] => JACOTOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38463
+                                                            [alias] => 57070 METZ
+                                                            [address1] => 10, rue des Hauts Peupliers Metz
+                                                            [address2] => 
+                                                            [city] => METZ
+                                                            [postcode] => 57070
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Valérie
+                                                            [lastname] => JACOTOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

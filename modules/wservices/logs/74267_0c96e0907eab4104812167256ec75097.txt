@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74267
+    [IdTransaction] => 0c96e0907eab4104812167256ec75097
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26775] => Array
+                                (
+                                    [notiers] => 26775
+                                    [lastname] => BOUVET
+                                    [firstname] => Julien
+                                    [email] => jubouvet@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => convention
+                                    [birthday] => 1981-05-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33175
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 226, Saint-Denis
+                                                            [address2] => 4è droite A
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => BOUVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33176
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 226, Saint-Denis
+                                                            [address2] => 4è droite A
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => BOUVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

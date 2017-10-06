@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78885
+    [IdTransaction] => acc22cc9c36d40d1ac486a49f30d707e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25462] => Array
+                                (
+                                    [notiers] => 25462
+                                    [lastname] => LE TOQUIN
+                                    [firstname] => Gérard
+                                    [email] => christiane.letoquin@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => coutrio
+                                    [birthday] => 1942-06-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 828
+                                    [NbPointsRestants] => 828
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31185
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 13, rue jacques dulud
+                                                            [address2] => déposer chez la gardienne code 623A5
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gérard
+                                                            [lastname] => LE TOQUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31186
+                                                            [alias] => 92200 NEUILLY-SUR-SEINE
+                                                            [address1] => 13, rue jacques dulud
+                                                            [address2] => deposer chez la gardienne code 623A5
+                                                            [city] => NEUILLY-SUR-SEINE
+                                                            [postcode] => 92200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gérard
+                                                            [lastname] => LE TOQUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

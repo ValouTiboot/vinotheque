@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79379
+    [IdTransaction] => 0ba0c7ea4095436ea258ab2247afa1b7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34494] => Array
+                                (
+                                    [notiers] => 34494
+                                    [lastname] => DELABIE
+                                    [firstname] => Xavier
+                                    [email] => xavier2512@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => govarta123
+                                    [birthday] => 1969-12-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 39
+                                    [NbPointsRestants] => 39
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45697
+                                                            [alias] => 80140 ANDAINVILLE
+                                                            [address1] => 26, rue de villers andainville
+                                                            [address2] => 
+                                                            [city] => ANDAINVILLE
+                                                            [postcode] => 80140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => DELABIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45698
+                                                            [alias] => 80140 OISEMONT
+                                                            [address1] => 7, rue roger salengro oisemont
+                                                            [address2] => 
+                                                            [city] => OISEMONT
+                                                            [postcode] => 80140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => DELABIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

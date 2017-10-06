@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76490
+    [IdTransaction] => c0bb506caa124a71a0f0bb79afebe83b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28956] => Array
+                                (
+                                    [notiers] => 28956
+                                    [lastname] => VALENTIN
+                                    [firstname] => Franck
+                                    [email] => franck valentin@cegetel.net
+                                    [id_gender] => 1
+                                    [passwd] => toscane
+                                    [birthday] => 1959-12-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36551
+                                                            [alias] => 59200 TOURCOING
+                                                            [address1] => 121, Bois d'achelles Tourcoing
+                                                            [address2] => 
+                                                            [city] => TOURCOING
+                                                            [postcode] => 59200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => VALENTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36552
+                                                            [alias] => 59200 TOURCOING
+                                                            [address1] => 121, Bois d'achelles Tourcoing
+                                                            [address2] => 
+                                                            [city] => TOURCOING
+                                                            [postcode] => 59200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => VALENTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

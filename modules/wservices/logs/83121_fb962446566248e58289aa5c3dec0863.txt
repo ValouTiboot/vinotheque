@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83121
+    [IdTransaction] => fb962446566248e58289aa5c3dec0863
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33906] => Array
+                                (
+                                    [notiers] => 33906
+                                    [lastname] => SABATIER
+                                    [firstname] => Maurice
+                                    [email] => mauricesabatier@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => glouglou
+                                    [birthday] => 1931-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 216
+                                    [NbPointsRestants] => 216
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44693
+                                                            [alias] => 69001 LYON
+                                                            [address1] => 1, du bât d'argent lyon
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maurice
+                                                            [lastname] => SABATIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44694
+                                                            [alias] => 69001 LYON
+                                                            [address1] => 1, du bât d'argent lyon
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maurice
+                                                            [lastname] => SABATIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

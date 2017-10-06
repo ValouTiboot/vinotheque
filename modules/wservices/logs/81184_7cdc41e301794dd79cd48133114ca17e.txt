@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81184
+    [IdTransaction] => 7cdc41e301794dd79cd48133114ca17e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26604] => Array
+                                (
+                                    [notiers] => 26604
+                                    [lastname] => LAZORTHES
+                                    [firstname] => Franck
+                                    [email] => lazorthes.f@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1941-05-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 598
+                                    [NbPointsRestants] => 598
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32895
+                                                            [alias] => 31400 TOULOUSE
+                                                            [address1] => 33, RUE SAINT LUC
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => LAZORTHES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32896
+                                                            [alias] => 31400 TOULOUSE
+                                                            [address1] => 33, RUE SAINT LUC
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => LAZORTHES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

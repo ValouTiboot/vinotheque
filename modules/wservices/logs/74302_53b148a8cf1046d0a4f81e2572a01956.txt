@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74302
+    [IdTransaction] => 53b148a8cf1046d0a4f81e2572a01956
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36149] => Array
+                                (
+                                    [notiers] => 36149
+                                    [lastname] => DESNOYER
+                                    [firstname] => Fabrice
+                                    [email] => jean-marc.dubreuil@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 42264226
+                                    [birthday] => 1967-06-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48420
+                                                            [alias] => 44410 ASSERAC
+                                                            [address1] => 2, chemin du grand clos kermoret
+                                                            [address2] => 
+                                                            [city] => ASSERAC
+                                                            [postcode] => 44410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => DESNOYER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48421
+                                                            [alias] => 44410 ASSERAC
+                                                            [address1] => 2, chemin du grand clos kermoret
+                                                            [address2] => 
+                                                            [city] => ASSERAC
+                                                            [postcode] => 44410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => DESNOYER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

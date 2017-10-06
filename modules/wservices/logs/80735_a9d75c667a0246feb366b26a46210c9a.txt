@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80735
+    [IdTransaction] => a9d75c667a0246feb366b26a46210c9a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32534] => Array
+                                (
+                                    [notiers] => 32534
+                                    [lastname] => ORIOT
+                                    [firstname] => Emmanuel
+                                    [email] => emmanueloriot@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => ga022315
+                                    [birthday] => 1969-08-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42361
+                                                            [alias] => 14123 FLEURY-SUR-ORNE
+                                                            [address1] => 27, rue de la baronnie
+                                                            [address2] => 
+                                                            [city] => FLEURY-SUR-ORNE
+                                                            [postcode] => 14123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => ORIOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42362
+                                                            [alias] => 14980 ROTS
+                                                            [address1] => 25, route de caen
+                                                            [address2] => 
+                                                            [city] => ROTS
+                                                            [postcode] => 14980
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => ORIOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

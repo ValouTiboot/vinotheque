@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76744
+    [IdTransaction] => b5115fddabfd4b20858b8a19f760fe41
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26170] => Array
+                                (
+                                    [notiers] => 26170
+                                    [lastname] => RAPEZ
+                                    [firstname] => Christian
+                                    [email] => christian.rapez@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => Martine
+                                    [birthday] => 1967-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32270
+                                                            [alias] => 11000 CARCASSONNE
+                                                            [address1] => 13, Rue du vent d'Espagne
+                                                            [address2] => 
+                                                            [city] => CARCASSONNE
+                                                            [postcode] => 11000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => RAPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32271
+                                                            [alias] => 77550 MOISSY-CRAMAYEL
+                                                            [address1] => 78, Rue de la fosse aux renards
+                                                            [address2] => 
+                                                            [city] => MOISSY-CRAMAYEL
+                                                            [postcode] => 77550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => RAPEZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

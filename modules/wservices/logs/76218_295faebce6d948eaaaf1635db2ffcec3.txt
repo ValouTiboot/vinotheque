@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76218
+    [IdTransaction] => 295faebce6d948eaaaf1635db2ffcec3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28976] => Array
+                                (
+                                    [notiers] => 28976
+                                    [lastname] => MOATI
+                                    [firstname] => Pierre-emmanuel
+                                    [email] => pierreemmanuelmoati@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Clei:877
+                                    [birthday] => 1989-06-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36574
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-emmanuel
+                                                            [lastname] => MOATI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36575
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 11, Desbordes Valmore
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-emmanuel
+                                                            [lastname] => MOATI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

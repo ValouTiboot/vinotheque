@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77156
+    [IdTransaction] => f6b8c777f48b4a9db556a05e25be8c08
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35751] => Array
+                                (
+                                    [notiers] => 35751
+                                    [lastname] => CARRAS
+                                    [firstname] => Anne
+                                    [email] => annecarras@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => jean3945
+                                    [birthday] => 1966-11-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 650
+                                    [NbPointsRestants] => 650
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47751
+                                                            [alias] => 60500 VINEUIL-SAINT-FIRMIN
+                                                            [address1] => 2 Bis, Rue du plan
+                                                            [address2] => 
+                                                            [city] => VINEUIL-SAINT-FIRMIN
+                                                            [postcode] => 60500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => CARRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47752
+                                                            [alias] => 60500 VINEUIL-SAINT-FIRMIN
+                                                            [address1] => 2 Bis, Rue du plan
+                                                            [address2] => 
+                                                            [city] => VINEUIL-SAINT-FIRMIN
+                                                            [postcode] => 60500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => CARRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75452
+    [IdTransaction] => addf8313ad934be7a9e6e35cd093cf53
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33190] => Array
+                                (
+                                    [notiers] => 33190
+                                    [lastname] => SALOMON
+                                    [firstname] => David
+                                    [email] => achat.quaidesvins@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 7145
+                                    [birthday] => 1968-02-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 161
+                                    [NbPointsRestants] => 161
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43404
+                                                            [alias] => 33520 BRUGES
+                                                            [address1] => 8, JEAN LOUIS VILLEMIN Bruges
+                                                            [address2] => 
+                                                            [city] => BRUGES
+                                                            [postcode] => 33520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => SALOMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43405
+                                                            [alias] => 33320 EYSINES
+                                                            [address1] => 77, DU HAILLAN
+                                                            [address2] => 
+                                                            [city] => EYSINES
+                                                            [postcode] => 33320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => SALOMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

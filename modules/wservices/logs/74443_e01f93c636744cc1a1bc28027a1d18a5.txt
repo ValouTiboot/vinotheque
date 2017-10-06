@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74443
+    [IdTransaction] => e01f93c636744cc1a1bc28027a1d18a5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32395] => Array
+                                (
+                                    [notiers] => 32395
+                                    [lastname] => PAILLISSER
+                                    [firstname] => Marie-claude
+                                    [email] => marie-claude.paillisser@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => stigvinotheque
+                                    [birthday] => 1953-12-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 336
+                                    [NbPointsRestants] => 336
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42112
+                                                            [alias] => 31650 SAINT-ORENS-DE-GAMEVILLE
+                                                            [address1] => 33Ter, rue du Bousquet
+                                                            [address2] => 
+                                                            [city] => SAINT-ORENS-DE-GAMEVILLE
+                                                            [postcode] => 31650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-claude
+                                                            [lastname] => PAILLISSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42113
+                                                            [alias] => 31650 SAINT-ORENS-DE-GAMEVILLE
+                                                            [address1] => 33Ter, rue du Bousquet
+                                                            [address2] => 
+                                                            [city] => SAINT-ORENS-DE-GAMEVILLE
+                                                            [postcode] => 31650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-claude
+                                                            [lastname] => PAILLISSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

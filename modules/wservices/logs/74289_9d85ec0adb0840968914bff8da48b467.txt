@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74289
+    [IdTransaction] => 9d85ec0adb0840968914bff8da48b467
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35335] => Array
+                                (
+                                    [notiers] => 35335
+                                    [lastname] => CAVARROC
+                                    [firstname] => Philippe
+                                    [email] => philippe.cavarroc@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 100178
+                                    [birthday] => 1978-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 460
+                                    [NbPointsRestants] => 460
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47069
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 34, rue de Bassano
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CAVARROC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47070
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 86, avenue des Tèrnes
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CAVARROC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83383
+    [IdTransaction] => 206b466ce1034f768a87414958c101d0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31185] => Array
+                                (
+                                    [notiers] => 31185
+                                    [lastname] => HENISSE
+                                    [firstname] => Pascal
+                                    [email] => henissepascal@noos.fr
+                                    [id_gender] => 1
+                                    [passwd] => leclaire20
+                                    [birthday] => 1966-12-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40139
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 21, cité leclaire
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => HENISSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40140
+                                                            [alias] => 70400 CHENEBIER
+                                                            [address1] => 31, grande rue
+                                                            [address2] => 
+                                                            [city] => CHENEBIER
+                                                            [postcode] => 70400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => HENISSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

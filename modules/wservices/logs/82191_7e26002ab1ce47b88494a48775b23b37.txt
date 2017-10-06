@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82191
+    [IdTransaction] => 7e26002ab1ce47b88494a48775b23b37
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35857] => Array
+                                (
+                                    [notiers] => 35857
+                                    [lastname] => CREIGNOU
+                                    [firstname] => Laurent
+                                    [email] => creignlv@club-internet.fr
+                                    [id_gender] => 1
+                                    [passwd] => biniou104
+                                    [birthday] => 1964-12-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 220
+                                    [NbPointsRestants] => 220
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47933
+                                                            [alias] => 78600 MAISONS-LAFFITTE
+                                                            [address1] => 42, rue de La Muette
+                                                            [address2] => 
+                                                            [city] => MAISONS-LAFFITTE
+                                                            [postcode] => 78600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => CREIGNOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47934
+                                                            [alias] => 78600 MAISONS-LAFFITTE
+                                                            [address1] => 42, rue de la Muette
+                                                            [address2] => gardien Debussy
+                                                            [city] => MAISONS-LAFFITTE
+                                                            [postcode] => 78600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => CREIGNOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

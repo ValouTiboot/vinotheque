@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78897
+    [IdTransaction] => ecf5cae7b42f446792fb574159a6cecc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29224] => Array
+                                (
+                                    [notiers] => 29224
+                                    [lastname] => FRICONNEAU
+                                    [firstname] => Claudze
+                                    [email] => claude.friconneau@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 8516
+                                    [birthday] => 1935-01-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 637
+                                    [NbPointsRestants] => 637
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36864
+                                                            [alias] => 04100 MANOSQUE
+                                                            [address1] => 59, Impasse de la Farigoule
+                                                            [address2] => 
+                                                            [city] => MANOSQUE
+                                                            [postcode] => 04100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claudze
+                                                            [lastname] => FRICONNEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36865
+                                                            [alias] => 92600 ASNIERES
+                                                            [address1] => 29, rue des Bruyères
+                                                            [address2] => 
+                                                            [city] => ASNIERES
+                                                            [postcode] => 92600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Claudze
+                                                            [lastname] => FRICONNEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

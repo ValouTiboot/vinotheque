@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80902
+    [IdTransaction] => 1c3aba7bedd64ac8bfe857257c67a54f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33603] => Array
+                                (
+                                    [notiers] => 33603
+                                    [lastname] => BOUVIER
+                                    [firstname] => Simonne
+                                    [email] => simonne.larousseliere@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1945-05-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 169
+                                    [NbPointsRestants] => 169
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44149
+                                                            [alias] => 61240 AUTHIEUX-DU-PUITS
+                                                            [address1] => Les Authieux-du-Puits
+                                                            [address2] => 
+                                                            [city] => AUTHIEUX-DU-PUITS
+                                                            [postcode] => 61240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Simonne
+                                                            [lastname] => BOUVIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44150
+                                                            [alias] => 61240 AUTHIEUX-DU-PUITS
+                                                            [address1] => Les Authieux-du-Puits
+                                                            [address2] => 
+                                                            [city] => AUTHIEUX-DU-PUITS
+                                                            [postcode] => 61240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Simonne
+                                                            [lastname] => BOUVIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

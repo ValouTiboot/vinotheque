@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77742
+    [IdTransaction] => f5c924af0d09427db6e0de7c8dac7982
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34021] => Array
+                                (
+                                    [notiers] => 34021
+                                    [lastname] => DESGLAND
+                                    [firstname] => Benoit
+                                    [email] => benoit.desgland@ca-paris.fr
+                                    [id_gender] => 1
+                                    [passwd] => BURANO01
+                                    [birthday] => 1972-12-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 250
+                                    [NbPointsRestants] => 250
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44899
+                                                            [alias] => 95520 OSNY
+                                                            [address1] => 7, Rue Saint Jean
+                                                            [address2] => 
+                                                            [city] => OSNY
+                                                            [postcode] => 95520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => DESGLAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44900
+                                                            [alias] => 95520 OSNY
+                                                            [address1] => 7, Rue Saint Jean
+                                                            [address2] => 
+                                                            [city] => OSNY
+                                                            [postcode] => 95520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => DESGLAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

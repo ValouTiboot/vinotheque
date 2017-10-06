@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77245
+    [IdTransaction] => 802381c79f75487c838114e4ff21e5a1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36475] => Array
+                                (
+                                    [notiers] => 36475
+                                    [lastname] => FEYDY
+                                    [firstname] => Renaud
+                                    [email] => renfeydy@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => odyssee
+                                    [birthday] => 1975-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 139
+                                    [NbPointsRestants] => 139
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48966
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 183, Boulevard brune
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renaud
+                                                            [lastname] => FEYDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48967
+                                                            [alias] => 24350 BUSSAC
+                                                            [address1] => Les jalajoux
+                                                            [address2] => 
+                                                            [city] => BUSSAC
+                                                            [postcode] => 24350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renaud
+                                                            [lastname] => FEYDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

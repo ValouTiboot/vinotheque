@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79553
+    [IdTransaction] => 0ed5d831073e4c98a66d4c381615ed8e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26586] => Array
+                                (
+                                    [notiers] => 26586
+                                    [lastname] => DIELS
+                                    [firstname] => Olivier
+                                    [email] => olivier.diels@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => RvF584Em187
+                                    [birthday] => 1981-06-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 420
+                                    [NbPointsRestants] => 420
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32863
+                                                            [alias] => 21000 DIJON
+                                                            [address1] => 19C, rue Caroline Aigle
+                                                            [address2] => les jardins d'Alix
+                                                            [city] => DIJON
+                                                            [postcode] => 21000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => DIELS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32864
+                                                            [alias] => 21000 DIJON
+                                                            [address1] => 19C, rue Caroline Aigle
+                                                            [address2] => les jardins d'Alix
+                                                            [city] => DIJON
+                                                            [postcode] => 21000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => DIELS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

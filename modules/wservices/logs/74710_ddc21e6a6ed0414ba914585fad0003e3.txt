@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74710
+    [IdTransaction] => ddc21e6a6ed0414ba914585fad0003e3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36073] => Array
+                                (
+                                    [notiers] => 36073
+                                    [lastname] => LORRAIN
+                                    [firstname] => David
+                                    [email] => davidlorrain@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => G@limao1
+                                    [birthday] => 1987-09-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48305
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 1, avenue Raymond Boivin
+                                                            [address2] => appartement 2
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => LORRAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48306
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 1, Avenue Raymond Boivin
+                                                            [address2] => appartement 2
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => LORRAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75807
+    [IdTransaction] => 6d1ba17346d944858fb70e22dd3b79a2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25513] => Array
+                                (
+                                    [notiers] => 25513
+                                    [lastname] => GOY
+                                    [firstname] => Mickaël
+                                    [email] => goy.mickael@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => villeneuve
+                                    [birthday] => 1991-12-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31281
+                                                            [alias] => 06270 VILLENEUVE-LOUBET
+                                                            [address1] => 12, Avenue du Bosquet
+                                                            [address2] => Bâtiment B
+                                                            [city] => VILLENEUVE-LOUBET
+                                                            [postcode] => 06270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => GOY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31282
+                                                            [alias] => 06270 VILLENEUVE-LOUBET
+                                                            [address1] => 12, Avenue du Bosquet
+                                                            [address2] => Bâtiment B
+                                                            [city] => VILLENEUVE-LOUBET
+                                                            [postcode] => 06270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mickaël
+                                                            [lastname] => GOY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

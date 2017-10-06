@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80801
+    [IdTransaction] => 38d6e91467534bf88c17132ec4fc0581
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33270] => Array
+                                (
+                                    [notiers] => 33270
+                                    [lastname] => LETOURNEUR
+                                    [firstname] => Philippe
+                                    [email] => philippe.letourneur@mac.com
+                                    [id_gender] => 1
+                                    [passwd] => realisateur
+                                    [birthday] => 1981-02-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43552
+                                                            [alias] => 92320 CHATILLON
+                                                            [address1] => 8, Allée Maryse Bastié
+                                                            [address2] => 
+                                                            [city] => CHATILLON
+                                                            [postcode] => 92320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LETOURNEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43553
+                                                            [alias] => 92320 CHATILLON
+                                                            [address1] => 8, Allée Maryse Bastié
+                                                            [address2] => 
+                                                            [city] => CHATILLON
+                                                            [postcode] => 92320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LETOURNEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79972
+    [IdTransaction] => 79277f8f390b4d979dd14ef67021a448
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24936] => Array
+                                (
+                                    [notiers] => 24936
+                                    [lastname] => CLOTTE
+                                    [firstname] => Alain
+                                    [email] => alain.clotte@colas.com
+                                    [id_gender] => 1
+                                    [passwd] => Munich09
+                                    [birthday] => 1957-11-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 17450
+                                    [NbPointsAcquits] => 18616
+                                    [NbPointsRestants] => 1166
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30883
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 252, rue de vaugirard
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CLOTTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30884
+                                                            [alias] => 81543 MUNICH
+                                                            [address1] => 21 E, Sommerstrasse
+                                                            [address2] => E
+                                                            [city] => MUNICH
+                                                            [postcode] => 81543
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CLOTTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

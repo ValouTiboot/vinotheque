@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79531
+    [IdTransaction] => 056fc48fe12646b391a3ee10ec8a8bc5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26866] => Array
+                                (
+                                    [notiers] => 26866
+                                    [lastname] => MARCOUX
+                                    [firstname] => Louis
+                                    [email] => marcoux.louis@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => oz12ep01
+                                    [birthday] => 1940-01-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 302
+                                    [NbPointsRestants] => 302
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33318
+                                                            [alias] => 33390 CARS
+                                                            [address1] => 15, 'Prends-Garde'
+                                                            [address2] => 
+                                                            [city] => CARS
+                                                            [postcode] => 33390
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => MARCOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33319
+                                                            [alias] => 33390 CARS
+                                                            [address1] => 15, 'Prends-Garde'
+                                                            [address2] => 
+                                                            [city] => CARS
+                                                            [postcode] => 33390
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => MARCOUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86124
+    [IdTransaction] => 474bf13b52d34c17a94b8945bb9ff5e7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30800] => Array
+                                (
+                                    [notiers] => 30800
+                                    [lastname] => MCCRACKEN
+                                    [firstname] => Timothy
+                                    [email] => tmccracken@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => vin1855vx
+                                    [birthday] => 1968-09-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1764
+                                    [NbPointsRestants] => 1764
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39488
+                                                            [alias] => 75004 PARIS
+                                                            [address1] => 35, Rue Saint Paul
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75004
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Timothy
+                                                            [lastname] => MCCRACKEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39489
+                                                            [alias] => 75004 PARIS
+                                                            [address1] => 35, Rue Saint Paul
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75004
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Timothy
+                                                            [lastname] => MCCRACKEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

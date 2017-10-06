@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77811
+    [IdTransaction] => dd445d673d434af4b0f4a9aea00375b2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23242] => Array
+                                (
+                                    [notiers] => 23242
+                                    [lastname] => JANKOWSKI
+                                    [firstname] => David
+                                    [email] => david.janko@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => austin
+                                    [birthday] => 1966-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1771
+                                    [NbPointsRestants] => 1771
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30336
+                                                            [alias] => 94230 CACHAN
+                                                            [address1] => 80, BVD DE LA VANNE
+                                                            [address2] => 
+                                                            [city] => CACHAN
+                                                            [postcode] => 94230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => JANKOWSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30337
+                                                            [alias] => 94230 CACHAN
+                                                            [address1] => 80, BVD DE LA VANNE
+                                                            [address2] => 
+                                                            [city] => CACHAN
+                                                            [postcode] => 94230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => JANKOWSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

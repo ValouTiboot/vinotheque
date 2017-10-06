@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81637
+    [IdTransaction] => 7e5947cb49c443f7b8cecdf6ed6cdd76
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33210] => Array
+                                (
+                                    [notiers] => 33210
+                                    [lastname] => SELLOM
+                                    [firstname] => Nanda
+                                    [email] => nandasellom33@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Alainpeters
+                                    [birthday] => 1986-02-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 134
+                                    [NbPointsRestants] => 134
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43443
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 94B, avenue de magonty
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nanda
+                                                            [lastname] => SELLOM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43444
+                                                            [alias] => 13009 MARSEILLE
+                                                            [address1] => 249, Hôpital Salvator Bd sainte marguerite
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nanda
+                                                            [lastname] => SELLOM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

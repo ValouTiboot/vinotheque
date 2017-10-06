@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78744
+    [IdTransaction] => 2b65afd5cdb341a9b0e6fba7f745a6d9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34808] => Array
+                                (
+                                    [notiers] => 34808
+                                    [lastname] => MARAIS
+                                    [firstname] => Christophe
+                                    [email] => chrismarais2769@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => toto2769
+                                    [birthday] => 1969-01-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 44
+                                    [NbPointsRestants] => 44
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46243
+                                                            [alias] => 14610 BASLY
+                                                            [address1] => 1, Rue du Bac du port
+                                                            [address2] => 
+                                                            [city] => BASLY
+                                                            [postcode] => 14610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => MARAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46244
+                                                            [alias] => 14610 BASLY
+                                                            [address1] => 1, Rue du Bac du port
+                                                            [address2] => 
+                                                            [city] => BASLY
+                                                            [postcode] => 14610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => MARAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

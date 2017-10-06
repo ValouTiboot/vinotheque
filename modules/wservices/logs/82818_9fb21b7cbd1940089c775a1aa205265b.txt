@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82818
+    [IdTransaction] => 9fb21b7cbd1940089c775a1aa205265b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30680] => Array
+                                (
+                                    [notiers] => 30680
+                                    [lastname] => CE
+                                    [firstname] => Cic
+                                    [email] => cordiegi@cmcic-am.fr
+                                    [id_gender] => 1
+                                    [passwd] => pimpampoum12
+                                    [birthday] => 1970-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39274
+                                                            [alias] => 75009 PARIS
+                                                            [address1] => 6, Avenue de Provence
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cic
+                                                            [lastname] => CE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39275
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 4, Rue Gaillon
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cic
+                                                            [lastname] => CE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74446
+    [IdTransaction] => 8a25c1ab310043faadc3f6b447dd06a2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28485] => Array
+                                (
+                                    [notiers] => 28485
+                                    [lastname] => PETROV
+                                    [firstname] => Konstantin
+                                    [email] => seleniel@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => smiles
+                                    [birthday] => 1977-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 1400
+                                    [NbPointsAcquits] => 1888
+                                    [NbPointsRestants] => 488
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35803
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 9, rue Laplace
+                                                            [address2] => 34 Esc. B
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Konstantin
+                                                            [lastname] => PETROV
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35804
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 9, rue Laplace
+                                                            [address2] => 34 Esc. B code A905B
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Konstantin
+                                                            [lastname] => PETROV
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

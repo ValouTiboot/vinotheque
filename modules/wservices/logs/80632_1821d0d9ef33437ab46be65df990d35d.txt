@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80632
+    [IdTransaction] => 1821d0d9ef33437ab46be65df990d35d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27034] => Array
+                                (
+                                    [notiers] => 27034
+                                    [lastname] => SELIDEV-DEVENEY
+                                    [firstname] => Lionel
+                                    [email] => lioneldeveney@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1973-07-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33597
+                                                            [alias] => 38700 CORENC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CORENC
+                                                            [postcode] => 38700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => SARL SELIDEV
+                                                            [firstname] => Lionel
+                                                            [lastname] => SELIDEV-DEVENEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33598
+                                                            [alias] => 38700 CORENC
+                                                            [address1] => 5, ALLEE DES HETRES
+                                                            [address2] => 
+                                                            [city] => CORENC
+                                                            [postcode] => 38700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lionel
+                                                            [lastname] => SELIDEV-DEVENEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76292
+    [IdTransaction] => 1745f54c24e544e8b73c3722870ac117
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29945] => Array
+                                (
+                                    [notiers] => 29945
+                                    [lastname] => RAVANELLO
+                                    [firstname] => Catherine
+                                    [email] => ravacath@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => cath2818
+                                    [birthday] => 1960-02-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 155
+                                    [NbPointsRestants] => 155
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37986
+                                                            [alias] => 06130 GRASSE
+                                                            [address1] => 27, Allee Stella Bella
+                                                            [address2] => 
+                                                            [city] => GRASSE
+                                                            [postcode] => 06130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => RAVANELLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37987
+                                                            [alias] => 67000 STRASBOURG
+                                                            [address1] => 3, Rue de la somme
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => RAVANELLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

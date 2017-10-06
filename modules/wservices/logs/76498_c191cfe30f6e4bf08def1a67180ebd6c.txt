@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76498
+    [IdTransaction] => c191cfe30f6e4bf08def1a67180ebd6c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26740] => Array
+                                (
+                                    [notiers] => 26740
+                                    [lastname] => LALLEMENT
+                                    [firstname] => Roger
+                                    [email] => roger.lallement@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1939-10-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 507
+                                    [NbPointsRestants] => 507
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33113
+                                                            [alias] => 94210 LA VARENNE ST HILAIRE
+                                                            [address1] => 37 bis, avenue albert 1er
+                                                            [address2] => 
+                                                            [city] => LA VARENNE ST HILAIRE
+                                                            [postcode] => 94210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => LALLEMENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33114
+                                                            [alias] => 94210 LA VARENNE ST HILAIRE
+                                                            [address1] => 37 bis, avenue albert 1er
+                                                            [address2] => 
+                                                            [city] => LA VARENNE ST HILAIRE
+                                                            [postcode] => 94210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => LALLEMENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

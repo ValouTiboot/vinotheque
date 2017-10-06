@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76138
+    [IdTransaction] => 298562b7351f4e3e9f8dc4506b37515d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28904] => Array
+                                (
+                                    [notiers] => 28904
+                                    [lastname] => KERSAUDY
+                                    [firstname] => Loic
+                                    [email] => loic.kersaudy@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1979-09-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36473
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loic
+                                                            [lastname] => KERSAUDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36474
+                                                            [alias] => 33130 BEGLES
+                                                            [address1] => 13, Passage deysson
+                                                            [address2] => 
+                                                            [city] => BEGLES
+                                                            [postcode] => 33130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loic
+                                                            [lastname] => KERSAUDY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

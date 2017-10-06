@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78308
+    [IdTransaction] => 0380fdf844534d699c63521364f49a40
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33490] => Array
+                                (
+                                    [notiers] => 33490
+                                    [lastname] => PARISELLE
+                                    [firstname] => Bernadette
+                                    [email] => bbraem@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => moutarde
+                                    [birthday] => 1971-09-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 454
+                                    [NbPointsRestants] => 454
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43949
+                                                            [alias] => 20110 CAMPOMORO
+                                                            [address1] => 3, LES HAUTS DE PALAVONE CAMPOMORO
+                                                            [address2] => 
+                                                            [city] => CAMPOMORO
+                                                            [postcode] => 20110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernadette
+                                                            [lastname] => PARISELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43950
+                                                            [alias] => 24410 SAINT-AULAYE
+                                                            [address1] => RUE DU MOULIN
+                                                            [address2] => 
+                                                            [city] => SAINT-AULAYE
+                                                            [postcode] => 24410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernadette
+                                                            [lastname] => PARISELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

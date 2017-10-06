@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74422
+    [IdTransaction] => 96dfa3cf7b654d539f7a9be09821e5a3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32727] => Array
+                                (
+                                    [notiers] => 32727
+                                    [lastname] => CHOBAUT
+                                    [firstname] => Mathieu
+                                    [email] => mathieuchobaut@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => Med08use
+                                    [birthday] => 1975-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 992
+                                    [NbPointsRestants] => 992
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42631
+                                                            [alias] => 25410 SAINT-VIT
+                                                            [address1] => 4, Rue des Chardons
+                                                            [address2] => 
+                                                            [city] => SAINT-VIT
+                                                            [postcode] => 25410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => CHOBAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42632
+                                                            [alias] => 25410 SAINT-VIT
+                                                            [address1] => 9, Rue du tremblois
+                                                            [address2] => 
+                                                            [city] => SAINT-VIT
+                                                            [postcode] => 25410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => CHOBAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

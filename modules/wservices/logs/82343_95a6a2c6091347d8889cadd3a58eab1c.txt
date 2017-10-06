@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82343
+    [IdTransaction] => 95a6a2c6091347d8889cadd3a58eab1c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25429] => Array
+                                (
+                                    [notiers] => 25429
+                                    [lastname] => GUERRINI
+                                    [firstname] => Evelyne
+                                    [email] => liaisonet@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => rta123
+                                    [birthday] => 1978-01-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 1650
+                                    [NbPointsAcquits] => 1973
+                                    [NbPointsRestants] => 323
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31134
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 7, chemin des prats
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Evelyne
+                                                            [lastname] => GUERRINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31135
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 7, chemin des prats
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Evelyne
+                                                            [lastname] => GUERRINI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

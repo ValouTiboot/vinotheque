@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76422
+    [IdTransaction] => 7edae3880339475a94936283aeb295f6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34416] => Array
+                                (
+                                    [notiers] => 34416
+                                    [lastname] => PONDAVEN
+                                    [firstname] => Matthieu
+                                    [email] => pondaven.matthieu@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ponpon
+                                    [birthday] => 1982-11-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45570
+                                                            [alias] => 33310 LORMONT
+                                                            [address1] => 12, Rue Marcel boette
+                                                            [address2] => 
+                                                            [city] => LORMONT
+                                                            [postcode] => 33310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => PONDAVEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45571
+                                                            [alias] => 33310 LORMONT
+                                                            [address1] => 12, Rue Marcel boette
+                                                            [address2] => 
+                                                            [city] => LORMONT
+                                                            [postcode] => 33310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => PONDAVEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

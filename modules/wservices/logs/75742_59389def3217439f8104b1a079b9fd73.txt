@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75742
+    [IdTransaction] => 59389def3217439f8104b1a079b9fd73
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34140] => Array
+                                (
+                                    [notiers] => 34140
+                                    [lastname] => LANOT
+                                    [firstname] => Patrick
+                                    [email] => patrick.p.lanot@gsk.com
+                                    [id_gender] => 1
+                                    [passwd] => PXL8492VIN
+                                    [birthday] => 1968-09-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 485
+                                    [NbPointsRestants] => 485
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45100
+                                                            [alias] => 78440 GUITRANCOURT
+                                                            [address1] => 6, ruelle des bergeries
+                                                            [address2] => 
+                                                            [city] => GUITRANCOURT
+                                                            [postcode] => 78440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LANOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45101
+                                                            [alias] => 78164 MARLY-LE-ROI
+                                                            [address1] => 100, ROUTE DE VERSAILLE
+                                                            [address2] => 
+                                                            [city] => MARLY-LE-ROI
+                                                            [postcode] => 78164
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LANOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

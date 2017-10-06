@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75892
+    [IdTransaction] => ee90a75616bc47748a1ba605072b0062
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25684] => Array
+                                (
+                                    [notiers] => 25684
+                                    [lastname] => BAUCHET
+                                    [firstname] => Celine
+                                    [email] => bccj@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => sept-18
+                                    [birthday] => 1980-09-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31543
+                                                            [alias] => 87100 LIMOGES
+                                                            [address1] => 56, saint christophe
+                                                            [address2] => 
+                                                            [city] => LIMOGES
+                                                            [postcode] => 87100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Celine
+                                                            [lastname] => BAUCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31544
+                                                            [alias] => 87100 LIMOGES
+                                                            [address1] => 56, saint christophe
+                                                            [address2] => 
+                                                            [city] => LIMOGES
+                                                            [postcode] => 87100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Celine
+                                                            [lastname] => BAUCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

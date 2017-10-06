@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79863
+    [IdTransaction] => 880741b38a0145c686e7f74aeefb4232
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34431] => Array
+                                (
+                                    [notiers] => 34431
+                                    [lastname] => REGLAT
+                                    [firstname] => François-xavier
+                                    [email] => tryptic.services@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => VALERIE
+                                    [birthday] => 1987-10-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 350
+                                    [NbPointsRestants] => 350
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45595
+                                                            [alias] => 31400 TOULOUSE
+                                                            [address1] => 56, rue Alfred Duméril
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François-xavier
+                                                            [lastname] => REGLAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45596
+                                                            [alias] => 31000 TOULOUSE
+                                                            [address1] => 5, rue des Prêtres
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François-xavier
+                                                            [lastname] => REGLAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

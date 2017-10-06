@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77459
+    [IdTransaction] => a6714fff7d77416d8a2b2bd835b2f7ca
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34557] => Array
+                                (
+                                    [notiers] => 34557
+                                    [lastname] => RUAS
+                                    [firstname] => Georges
+                                    [email] => georges.ruas@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 1vinotheque1
+                                    [birthday] => 1954-01-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 224
+                                    [NbPointsRestants] => 224
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45815
+                                                            [alias] => 13012 MARSEILLE
+                                                            [address1] => 14, Impasse Sainte Germaine
+                                                            [address2] => Le Clos des Cèdres M
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges
+                                                            [lastname] => RUAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45816
+                                                            [alias] => 13012 MARSEILLE
+                                                            [address1] => 14, Impasse Sainte Germaine
+                                                            [address2] => Le Clos des Cèdres M
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Georges
+                                                            [lastname] => RUAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

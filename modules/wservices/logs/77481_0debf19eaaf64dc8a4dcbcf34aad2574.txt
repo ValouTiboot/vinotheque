@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77481
+    [IdTransaction] => 0debf19eaaf64dc8a4dcbcf34aad2574
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30452] => Array
+                                (
+                                    [notiers] => 30452
+                                    [lastname] => JOUENNE
+                                    [firstname] => Maxime
+                                    [email] => max.jouenne@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 231100
+                                    [birthday] => 1986-06-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 231
+                                    [NbPointsRestants] => 231
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38877
+                                                            [alias] => 50260 BRICQUEBEC
+                                                            [address1] => 2, RUE DU PONT D'AIZY
+                                                            [address2] => 
+                                                            [city] => BRICQUEBEC
+                                                            [postcode] => 50260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => JOUENNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38878
+                                                            [alias] => 50260 BRICQUEBEC
+                                                            [address1] => 2, RUE DU PONT D'AIZY
+                                                            [address2] => 
+                                                            [city] => BRICQUEBEC
+                                                            [postcode] => 50260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => JOUENNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76793
+    [IdTransaction] => 31bacbd1be024959b872779df9528f29
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34403] => Array
+                                (
+                                    [notiers] => 34403
+                                    [lastname] => LAVILLONNIERE
+                                    [firstname] => Anne
+                                    [email] => anne-colette.lavillonniere@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => quebenou
+                                    [birthday] => 1961-07-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45546
+                                                            [alias] => 29170 SAINT-EVARZEC
+                                                            [address1] => 6 allée carn Yan Saint evarzec
+                                                            [address2] => 
+                                                            [city] => SAINT-EVARZEC
+                                                            [postcode] => 29170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => LAVILLONNIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45547
+                                                            [alias] => 29170 SAINT-EVARZEC
+                                                            [address1] => Anne Lavillonniere
+                                                            [address2] => 6 allée carn Yan
+                                                            [city] => SAINT-EVARZEC
+                                                            [postcode] => 29170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => LAVILLONNIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83304
+    [IdTransaction] => 7ac5744ae0924cd8935bc0d8ac5a0ec1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25675] => Array
+                                (
+                                    [notiers] => 25675
+                                    [lastname] => CHARRIAUT
+                                    [firstname] => Faizath
+                                    [email] => faizathc@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1967-11-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 46
+                                    [NbPointsRestants] => 46
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31523
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 11 bis, rue de thann
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Faizath
+                                                            [lastname] => CHARRIAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31524
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 11 bis, rue de thann
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Faizath
+                                                            [lastname] => CHARRIAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74699
+    [IdTransaction] => 4e9e68e65e114486b91296c0ef3b8cce
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33952] => Array
+                                (
+                                    [notiers] => 33952
+                                    [lastname] => PINCEMAILLE
+                                    [firstname] => Marin
+                                    [email] => marin.pincemaille@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => adidas
+                                    [birthday] => 1992-04-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 77
+                                    [NbPointsRestants] => 77
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44778
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 24, Rue Frémicourt
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marin
+                                                            [lastname] => PINCEMAILLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44779
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 24, Rue Frémicourt
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marin
+                                                            [lastname] => PINCEMAILLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

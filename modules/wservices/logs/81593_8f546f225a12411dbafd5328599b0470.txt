@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81593
+    [IdTransaction] => 8f546f225a12411dbafd5328599b0470
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29715] => Array
+                                (
+                                    [notiers] => 29715
+                                    [lastname] => SAUDEMON
+                                    [firstname] => Victor
+                                    [email] => victor.saudemon@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => rynite
+                                    [birthday] => 1988-05-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 900
+                                    [NbPointsAcquits] => 1108
+                                    [NbPointsRestants] => 208
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37611
+                                                            [alias] => 58000 ST ELOI
+                                                            [address1] => 6, rue des hortensias
+                                                            [address2] => 
+                                                            [city] => ST ELOI
+                                                            [postcode] => 58000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Victor
+                                                            [lastname] => SAUDEMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37612
+                                                            [alias] => 37170 CHAMBRAY-LES-TOURS
+                                                            [address1] => 14, rue de la grenouillère
+                                                            [address2] => 
+                                                            [city] => CHAMBRAY-LES-TOURS
+                                                            [postcode] => 37170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Victor
+                                                            [lastname] => SAUDEMON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

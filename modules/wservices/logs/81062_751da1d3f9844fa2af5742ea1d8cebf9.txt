@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81062
+    [IdTransaction] => 751da1d3f9844fa2af5742ea1d8cebf9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28989] => Array
+                                (
+                                    [notiers] => 28989
+                                    [lastname] => BOILE
+                                    [firstname] => Tristan
+                                    [email] => boiletristan@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => trist6960#
+                                    [birthday] => 1978-08-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1020
+                                    [NbPointsRestants] => 1020
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36602
+                                                            [alias] => 75003 PARIS
+                                                            [address1] => 30, notre dame de nazareth
+                                                            [address2] => 3 eme droite A
+                                                            [city] => PARIS
+                                                            [postcode] => 75003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Tristan
+                                                            [lastname] => BOILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36603
+                                                            [alias] => 12600 THERONDELS
+                                                            [address1] => le bourg
+                                                            [address2] => 
+                                                            [city] => THERONDELS
+                                                            [postcode] => 12600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Tristan
+                                                            [lastname] => BOILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

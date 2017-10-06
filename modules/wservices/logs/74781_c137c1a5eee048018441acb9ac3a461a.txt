@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74781
+    [IdTransaction] => c137c1a5eee048018441acb9ac3a461a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29101] => Array
+                                (
+                                    [notiers] => 29101
+                                    [lastname] => LELIEVRE
+                                    [firstname] => Xavier
+                                    [email] => lelievre_xavier@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => vinotheque
+                                    [birthday] => 1988-02-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 273
+                                    [NbPointsRestants] => 273
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36773
+                                                            [alias] => 72460 SILLE-LE-PHILIPPE
+                                                            [address1] => chateau de passay
+                                                            [address2] => 
+                                                            [city] => SILLE-LE-PHILIPPE
+                                                            [postcode] => 72460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => LELIEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36774
+                                                            [alias] => 72460 SILLE-LE-PHILIPPE
+                                                            [address1] => chateau de passay
+                                                            [address2] => 
+                                                            [city] => SILLE-LE-PHILIPPE
+                                                            [postcode] => 72460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => LELIEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

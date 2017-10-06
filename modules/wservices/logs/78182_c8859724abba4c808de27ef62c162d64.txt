@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78182
+    [IdTransaction] => c8859724abba4c808de27ef62c162d64
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23044] => Array
+                                (
+                                    [notiers] => 23044
+                                    [lastname] => BONGARD
+                                    [firstname] => Thierry
+                                    [email] => thierry.bongard@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => plon63
+                                    [birthday] => 1953-06-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30048
+                                                            [alias] => 88460 BAFFE
+                                                            [address1] => 306, rue de la passée
+                                                            [address2] => 
+                                                            [city] => BAFFE
+                                                            [postcode] => 88460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BONGARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30049
+                                                            [alias] => 88460 BAFFE
+                                                            [address1] => 306, rue de la passée
+                                                            [address2] => 
+                                                            [city] => BAFFE
+                                                            [postcode] => 88460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BONGARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

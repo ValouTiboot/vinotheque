@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81145
+    [IdTransaction] => f2a4a9bb8e204146882b295b9fd056c1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31410] => Array
+                                (
+                                    [notiers] => 31410
+                                    [lastname] => SEGUIS
+                                    [firstname] => Gaelle
+                                    [email] => gaelleseguis@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => fouinase
+                                    [birthday] => 1981-06-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 504
+                                    [NbPointsRestants] => 504
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40552
+                                                            [alias] => 73550 MERIBEL LES ALLUES
+                                                            [address1] => Impasse du Verger
+                                                            [address2] => Le Flocon
+                                                            [city] => MERIBEL LES ALLUES
+                                                            [postcode] => 73550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaelle
+                                                            [lastname] => SEGUIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40553
+                                                            [alias] => 73550 MERIBEL LES ALLUES
+                                                            [address1] => Route de la Montée
+                                                            [address2] => Les Ravines
+                                                            [city] => MERIBEL LES ALLUES
+                                                            [postcode] => 73550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gaelle
+                                                            [lastname] => SEGUIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

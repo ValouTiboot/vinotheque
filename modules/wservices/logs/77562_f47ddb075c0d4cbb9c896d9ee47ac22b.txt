@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77562
+    [IdTransaction] => f47ddb075c0d4cbb9c896d9ee47ac22b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28247] => Array
+                                (
+                                    [notiers] => 28247
+                                    [lastname] => MAZELLIER
+                                    [firstname] => Charles
+                                    [email] => charlemaz@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => n6eury44
+                                    [birthday] => 1983-06-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 120
+                                    [NbPointsRestants] => 120
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35470
+                                                            [alias] => 63000 CLERMONT FD
+                                                            [address1] => 13, Mme du Coudray
+                                                            [address2] => 2ème B
+                                                            [city] => CLERMONT FD
+                                                            [postcode] => 63000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => MAZELLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35471
+                                                            [alias] => 63000 CLERMONT FD
+                                                            [address1] => 13, Mme du Coudray
+                                                            [address2] => 2ème B
+                                                            [city] => CLERMONT FD
+                                                            [postcode] => 63000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => MAZELLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

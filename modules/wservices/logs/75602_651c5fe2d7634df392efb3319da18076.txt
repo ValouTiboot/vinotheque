@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75602
+    [IdTransaction] => 651c5fe2d7634df392efb3319da18076
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32504] => Array
+                                (
+                                    [notiers] => 32504
+                                    [lastname] => MALLET
+                                    [firstname] => Grégory
+                                    [email] => mallet_gregory@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => porsche924
+                                    [birthday] => 1985-01-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 185
+                                    [NbPointsRestants] => 185
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42308
+                                                            [alias] => 94440 VILLECRESNES
+                                                            [address1] => 49, Clairière du parc
+                                                            [address2] => 
+                                                            [city] => VILLECRESNES
+                                                            [postcode] => 94440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Grégory
+                                                            [lastname] => MALLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42309
+                                                            [alias] => 94440 VILLECRESNES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => VILLECRESNES
+                                                            [postcode] => 94440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Grégory
+                                                            [lastname] => MALLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

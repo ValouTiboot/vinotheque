@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79157
+    [IdTransaction] => 023f9990925f4ed69131f67abf12f4b2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29853] => Array
+                                (
+                                    [notiers] => 29853
+                                    [lastname] => THIERRY
+                                    [firstname] => Nicolas
+                                    [email] => nicolas.thierry7@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => SEAMUS
+                                    [birthday] => 1955-04-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 172
+                                    [NbPointsRestants] => 172
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37839
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 12, PLACE DES HALLES ST LOUIS
+                                                            [address2] => 
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => THIERRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37840
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 12, PLACE DES HALLES ST LOUIS
+                                                            [address2] => 
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => THIERRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

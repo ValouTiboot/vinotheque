@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78981
+    [IdTransaction] => 730d3e8b3ce7444699d4a755099ab897
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34693] => Array
+                                (
+                                    [notiers] => 34693
+                                    [lastname] => GAULTIER
+                                    [firstname] => Benoît
+                                    [email] => cabinet.des.reflets@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 123Motdepasse
+                                    [birthday] => 1986-07-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 492
+                                    [NbPointsRestants] => 492
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46063
+                                                            [alias] => 92400 COURBEVOIE
+                                                            [address1] => 4, Place des reflets
+                                                            [address2] => 412
+                                                            [city] => COURBEVOIE
+                                                            [postcode] => 92400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoît
+                                                            [lastname] => GAULTIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46064
+                                                            [alias] => 93160 NOISY-LE-GRAND
+                                                            [address1] => 21, Allée du clos gagneur
+                                                            [address2] => K
+                                                            [city] => NOISY-LE-GRAND
+                                                            [postcode] => 93160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoît
+                                                            [lastname] => GAULTIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

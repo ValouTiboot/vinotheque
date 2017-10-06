@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82341
+    [IdTransaction] => 511c6578b8d94b308144b908b3a0c56d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28742] => Array
+                                (
+                                    [notiers] => 28742
+                                    [lastname] => AMARAL
+                                    [firstname] => Manuel
+                                    [email] => amaralmanuel@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => maamaral
+                                    [birthday] => 1976-02-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1520
+                                    [NbPointsRestants] => 1520
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36222
+                                                            [alias] => 74600 SEYNOD
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SEYNOD
+                                                            [postcode] => 74600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => AMARAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36223
+                                                            [alias] => 74600 SEYNOD
+                                                            [address1] => 12, RUE DES FRENES
+                                                            [address2] => 
+                                                            [city] => SEYNOD
+                                                            [postcode] => 74600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => AMARAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

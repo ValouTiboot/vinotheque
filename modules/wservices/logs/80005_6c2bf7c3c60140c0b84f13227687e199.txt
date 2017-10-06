@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80005
+    [IdTransaction] => 6c2bf7c3c60140c0b84f13227687e199
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28880] => Array
+                                (
+                                    [notiers] => 28880
+                                    [lastname] => CARIS
+                                    [firstname] => Michel
+                                    [email] => carismichel@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => lilinette
+                                    [birthday] => 1946-10-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 59
+                                    [NbPointsRestants] => 59
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36435
+                                                            [alias] => 33560 CARBON-BLANC
+                                                            [address1] => 42, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => CARBON-BLANC
+                                                            [postcode] => 33560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36436
+                                                            [alias] => 33560 CARBON-BLANC
+                                                            [address1] => 42, Rue Pasteur
+                                                            [address2] => 
+                                                            [city] => CARBON-BLANC
+                                                            [postcode] => 33560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

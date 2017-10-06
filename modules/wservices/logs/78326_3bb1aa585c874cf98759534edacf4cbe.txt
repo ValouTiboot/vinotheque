@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78326
+    [IdTransaction] => 3bb1aa585c874cf98759534edacf4cbe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31537] => Array
+                                (
+                                    [notiers] => 31537
+                                    [lastname] => TRONCO
+                                    [firstname] => Stephan
+                                    [email] => kengneher@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => passe31
+                                    [birthday] => 1979-08-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40792
+                                                            [alias] => 82300 CAUSSADE
+                                                            [address1] => 33 A, rue Jean Moulin
+                                                            [address2] => 
+                                                            [city] => CAUSSADE
+                                                            [postcode] => 82300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephan
+                                                            [lastname] => TRONCO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40793
+                                                            [alias] => 82300 CAUSSADE
+                                                            [address1] => 33 A, rue Jean Moulin
+                                                            [address2] => 
+                                                            [city] => CAUSSADE
+                                                            [postcode] => 82300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stephan
+                                                            [lastname] => TRONCO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

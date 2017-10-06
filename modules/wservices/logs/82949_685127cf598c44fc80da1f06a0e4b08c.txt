@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82949
+    [IdTransaction] => 685127cf598c44fc80da1f06a0e4b08c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36026] => Array
+                                (
+                                    [notiers] => 36026
+                                    [lastname] => RAPON
+                                    [firstname] => Christophe
+                                    [email] => crik972@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => sevorane
+                                    [birthday] => 1978-06-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48222
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 13, Grangeneuve
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => RAPON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48223
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 13, Grangeneuve
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => RAPON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

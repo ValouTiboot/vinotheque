@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74547
+    [IdTransaction] => 4446e40d3111403d8cbf9f8cba9ff5d2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25787] => Array
+                                (
+                                    [notiers] => 25787
+                                    [lastname] => LANGLET
+                                    [firstname] => Laure
+                                    [email] => laure.langlet@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => 5809021D
+                                    [birthday] => 1958-03-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31707
+                                                            [alias] => 33370 ARTIGUES-PRES-BORDEAUX
+                                                            [address1] => 36, AVENUE DU PEYROU
+                                                            [address2] => 
+                                                            [city] => ARTIGUES-PRES-BORDEAUX
+                                                            [postcode] => 33370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laure
+                                                            [lastname] => LANGLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31708
+                                                            [alias] => 29950 BENODET
+                                                            [address1] => 14, ROUTE DE TREVOURDA
+                                                            [address2] => 
+                                                            [city] => BENODET
+                                                            [postcode] => 29950
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laure
+                                                            [lastname] => LANGLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

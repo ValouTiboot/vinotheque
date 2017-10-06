@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78227
+    [IdTransaction] => ee21ea6e05cb4476a811e07cf68a1cf7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28700] => Array
+                                (
+                                    [notiers] => 28700
+                                    [lastname] => MENET
+                                    [firstname] => Michel
+                                    [email] => mmenet@legoupil-industrie.com
+                                    [id_gender] => 1
+                                    [passwd] => michelcathy
+                                    [birthday] => 1964-03-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 119
+                                    [NbPointsRestants] => 119
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36144
+                                                            [alias] => 29920 NEVEZ
+                                                            [address1] => 41, KERCANIC
+                                                            [address2] => 
+                                                            [city] => NEVEZ
+                                                            [postcode] => 29920
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36145
+                                                            [alias] => 29920 NEVEZ
+                                                            [address1] => 19, rue des Iles
+                                                            [address2] => 
+                                                            [city] => NEVEZ
+                                                            [postcode] => 29920
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

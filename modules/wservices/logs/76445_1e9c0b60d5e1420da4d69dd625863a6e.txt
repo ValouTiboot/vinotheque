@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 76445
+    [IdTransaction] => 1e9c0b60d5e1420da4d69dd625863a6e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [11843] => Array
+                                (
+                                    [notiers] => 11843
+                                    [lastname] => BOUVERAT
+                                    [firstname] => Jacques
+                                    [email] => jacques.bouverat@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => JACOT
+                                    [birthday] => 1938-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 99
+                                    [NbPointsRestants] => 99
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 11953
+                                                            [alias] => 01300 BELLEY
+                                                            [address1] => 137, AVENUE PAUL CHASTEL BELLEY
+                                                            [address2] => APPT 301 RES. LE COLOMBIER
+                                                            [city] => BELLEY
+                                                            [postcode] => 01300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr BOUVERAT JACQUES
+                                                            [firstname] => Jacques
+                                                            [lastname] => BOUVERAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 11954
+                                                            [alias] => 33920 GENERAC
+                                                            [address1] => 24 DROUILLARD
+                                                            [address2] => 
+                                                            [city] => GENERAC
+                                                            [postcode] => 33920
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr ROBISCO MICHEL
+                                                            [firstname] => Jacques
+                                                            [lastname] => BOUVERAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 11954
+                                                            [alias] => 33920 GENERAC
+                                                            [address1] => 24 DROUILLARD
+                                                            [address2] => 
+                                                            [city] => GENERAC
+                                                            [postcode] => 33920
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr ROBISCO MICHEL
+                                                            [firstname] => Jacques
+                                                            [lastname] => BOUVERAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

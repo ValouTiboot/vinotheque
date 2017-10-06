@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 306203dd0d833924673b69192a144bb9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-08-01 08:56:20
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36468] => Array
+                                (
+                                    [notiers] => 36468
+                                    [lastname] => MORA
+                                    [firstname] => Paul
+                                    [email] => client12@ebewet.net
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 2004-05-02
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [50] => Array
+                                                (
+                                                    [id_address] => 50
+                                                    [noadresse] => 
+                                                    [alias] => Adresse de test
+                                                    [address1] => route du test
+                                                    [address2] => route adresse 2
+                                                    [city] => BRIVE LA GAILLARDE
+                                                    [postcode] => 19100
+                                                    [phone] => 0214142525
+                                                    [phone_mobile] => 
+                                                    [company] => Test  Société
+                                                    [firstname] => Paul
+                                                    [lastname] => MORA
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

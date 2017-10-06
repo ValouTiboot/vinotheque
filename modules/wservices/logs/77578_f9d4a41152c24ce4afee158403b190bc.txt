@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77578
+    [IdTransaction] => f9d4a41152c24ce4afee158403b190bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32196] => Array
+                                (
+                                    [notiers] => 32196
+                                    [lastname] => DAMENO
+                                    [firstname] => Jean claude
+                                    [email] => jcdameno@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pFK2Q3ar0zq9
+                                    [birthday] => 1946-07-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41834
+                                                            [alias] => 98000 MONACO
+                                                            [address1] => 5, Impasse de la Fontaine
+                                                            [address2] => Le Park-Palace
+                                                            [city] => MONACO
+                                                            [postcode] => 98000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => DAMENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41835
+                                                            [alias] => 98000 MONACO
+                                                            [address1] => 11, Baron de Sainte-Suzanne
+                                                            [address2] => Les Grands Chais Monégasques
+                                                            [city] => MONACO
+                                                            [postcode] => 98000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => DAMENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

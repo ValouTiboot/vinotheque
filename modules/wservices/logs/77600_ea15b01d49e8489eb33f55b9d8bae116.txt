@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77600
+    [IdTransaction] => ea15b01d49e8489eb33f55b9d8bae116
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34593] => Array
+                                (
+                                    [notiers] => 34593
+                                    [lastname] => TECHER
+                                    [firstname] => Emilie
+                                    [email] => techer.emi@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => msn2emyT
+                                    [birthday] => 1991-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45877
+                                                            [alias] => 95300 PONTOISE
+                                                            [address1] => 1, boulevard Jean Jaurès
+                                                            [address2] => 
+                                                            [city] => PONTOISE
+                                                            [postcode] => 95300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emilie
+                                                            [lastname] => TECHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45878
+                                                            [alias] => 95300 PONTOISE
+                                                            [address1] => 1, boulevard Jean Jaurès
+                                                            [address2] => 
+                                                            [city] => PONTOISE
+                                                            [postcode] => 95300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emilie
+                                                            [lastname] => TECHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

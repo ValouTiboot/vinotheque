@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86177
+    [IdTransaction] => 3053e037715648659618884ab0ca5b44
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36363] => Array
+                                (
+                                    [notiers] => 36363
+                                    [lastname] => BEAUDEAU
+                                    [firstname] => Yannick
+                                    [email] => yacochop@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => shaolin
+                                    [birthday] => 1976-11-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 186
+                                    [NbPointsRestants] => 186
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48778
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 1, Avenue foch Libourne
+                                                            [address2] => 
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => BEAUDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48779
+                                                            [alias] => 33500 LIBOURNE
+                                                            [address1] => 1, Avenue foch Libourne
+                                                            [address2] => 
+                                                            [city] => LIBOURNE
+                                                            [postcode] => 33500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => BEAUDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

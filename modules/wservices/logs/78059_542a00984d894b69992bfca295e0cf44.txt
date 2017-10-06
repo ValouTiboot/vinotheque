@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78059
+    [IdTransaction] => 542a00984d894b69992bfca295e0cf44
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28440] => Array
+                                (
+                                    [notiers] => 28440
+                                    [lastname] => MCNAMARA
+                                    [firstname] => Bruce
+                                    [email] => bmcnamara@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => chassespleen
+                                    [birthday] => 1966-09-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35733
+                                                            [alias] => 75012 PARIS
+                                                            [address1] => 8, rue Cannebière
+                                                            [address2] => Escalier A
+                                                            [city] => PARIS
+                                                            [postcode] => 75012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruce
+                                                            [lastname] => MCNAMARA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35734
+                                                            [alias] => 75012 PARIS
+                                                            [address1] => 8, rue Cannebière
+                                                            [address2] => Escalier A
+                                                            [city] => PARIS
+                                                            [postcode] => 75012
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruce
+                                                            [lastname] => MCNAMARA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

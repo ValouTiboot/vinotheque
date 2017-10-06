@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82904
+    [IdTransaction] => 40e7bada376a48499b9ca4f351e5f43c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33787] => Array
+                                (
+                                    [notiers] => 33787
+                                    [lastname] => M'BASSE
+                                    [firstname] => Franck
+                                    [email] => franckbasse@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => elza08
+                                    [birthday] => 1967-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 140
+                                    [NbPointsRestants] => 140
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44490
+                                                            [alias] => 77111 SOLERS
+                                                            [address1] => 11BIS, rue du millieu des plantes SOLERS
+                                                            [address2] => 
+                                                            [city] => SOLERS
+                                                            [postcode] => 77111
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => M'BASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44491
+                                                            [alias] => 77111 SOLERS
+                                                            [address1] => 11BIS, RUE DU MILLIEU DES PLANTES SOLERS
+                                                            [address2] => 
+                                                            [city] => SOLERS
+                                                            [postcode] => 77111
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Franck
+                                                            [lastname] => M'BASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

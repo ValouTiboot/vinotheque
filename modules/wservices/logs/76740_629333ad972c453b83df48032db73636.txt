@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76740
+    [IdTransaction] => 629333ad972c453b83df48032db73636
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31498] => Array
+                                (
+                                    [notiers] => 31498
+                                    [lastname] => IRSA
+                                    [firstname] => Alain
+                                    [email] => irsa.alain@neuf.fr
+                                    [id_gender] => 1
+                                    [passwd] => guitare
+                                    [birthday] => 1963-02-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 165
+                                    [NbPointsRestants] => 165
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40715
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 38, rue Cabanis
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => IRSA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40716
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 38, rue Cabanis
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => IRSA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

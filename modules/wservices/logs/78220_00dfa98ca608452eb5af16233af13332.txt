@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78220
+    [IdTransaction] => 00dfa98ca608452eb5af16233af13332
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35378] => Array
+                                (
+                                    [notiers] => 35378
+                                    [lastname] => VAYN
+                                    [firstname] => Jonathan
+                                    [email] => jonathan.vayn@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => genie10
+                                    [birthday] => 1984-10-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 18
+                                    [NbPointsRestants] => 18
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47141
+                                                            [alias] => 91300 MASSY
+                                                            [address1] => 52, Rue Andre Chenier
+                                                            [address2] => 
+                                                            [city] => MASSY
+                                                            [postcode] => 91300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jonathan
+                                                            [lastname] => VAYN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47142
+                                                            [alias] => 91300 MASSY
+                                                            [address1] => 52, Rue Andre Chenier
+                                                            [address2] => 
+                                                            [city] => MASSY
+                                                            [postcode] => 91300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jonathan
+                                                            [lastname] => VAYN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

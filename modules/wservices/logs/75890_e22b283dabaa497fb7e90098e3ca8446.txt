@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75890
+    [IdTransaction] => e22b283dabaa497fb7e90098e3ca8446
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25802] => Array
+                                (
+                                    [notiers] => 25802
+                                    [lastname] => VANDENBUSSCHE
+                                    [firstname] => Vincent
+                                    [email] => vince.vandenbussche@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Vincefrom91
+                                    [birthday] => 1989-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31726
+                                                            [alias] => 92300 LEVALLOIS-PERRET
+                                                            [address1] => 28, Rue Rivay
+                                                            [address2] => 4ème droit
+                                                            [city] => LEVALLOIS-PERRET
+                                                            [postcode] => 92300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => VANDENBUSSCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31727
+                                                            [alias] => 92300 LEVALLOIS-PERRET
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LEVALLOIS-PERRET
+                                                            [postcode] => 92300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => VANDENBUSSCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

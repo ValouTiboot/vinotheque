@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 80757
+    [IdTransaction] => 354fcbf6825845c19d89e3291f364f92
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31174] => Array
+                                (
+                                    [notiers] => 31174
+                                    [lastname] => FLAMARY
+                                    [firstname] => Florian
+                                    [email] => florian.flamary@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => chocapic
+                                    [birthday] => 1990-07-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 100
+                                    [NbPointsRestants] => 100
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40122
+                                                            [alias] => 46400 SAINT-CERE
+                                                            [address1] => 569, Route du Pouget
+                                                            [address2] => 
+                                                            [city] => SAINT-CERE
+                                                            [postcode] => 46400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => FLAMARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40123
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 44, Labirat
+                                                            [address2] => 34 Les Triades
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => FLAMARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 46433
+                                                            [alias] => 63100 CLERMONT-FERRAND
+                                                            [address1] => 61 A, Rue des Chanelles
+                                                            [address2] => Résidence Bel Horizon
+                                                            [city] => CLERMONT-FERRAND
+                                                            [postcode] => 63100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => FLAMARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

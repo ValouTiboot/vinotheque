@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75473
+    [IdTransaction] => 48c088396f044a68a2eac554d4e15690
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27267] => Array
+                                (
+                                    [notiers] => 27267
+                                    [lastname] => RACADOT
+                                    [firstname] => Xavier
+                                    [email] => xracadot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => adeline123
+                                    [birthday] => 1980-07-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 4114
+                                    [NbPointsRestants] => 4114
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33974
+                                                            [alias] => 90300 OFFEMONT
+                                                            [address1] => 21, Rue des sapeux
+                                                            [address2] => 
+                                                            [city] => OFFEMONT
+                                                            [postcode] => 90300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => RACADOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33975
+                                                            [alias] => 90000 BELFORT
+                                                            [address1] => 9, rue de Reims
+                                                            [address2] => 
+                                                            [city] => BELFORT
+                                                            [postcode] => 90000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => RACADOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

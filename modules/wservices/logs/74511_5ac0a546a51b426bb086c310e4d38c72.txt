@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74511
+    [IdTransaction] => 5ac0a546a51b426bb086c310e4d38c72
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25655] => Array
+                                (
+                                    [notiers] => 25655
+                                    [lastname] => BLANC
+                                    [firstname] => Frederic
+                                    [email] => celine.fred@canl.nc
+                                    [id_gender] => 1
+                                    [passwd] => 190498
+                                    [birthday] => 1981-04-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31496
+                                                            [alias] => 98800 NOUMEA
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => NOUMEA
+                                                            [postcode] => 98800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => BLANC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31497
+                                                            [alias] => 84140 MONTFAVET
+                                                            [address1] => 400, Cours cardinal bertrand
+                                                            [address2] => 
+                                                            [city] => MONTFAVET
+                                                            [postcode] => 84140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => BLANC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

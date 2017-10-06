@@ -1,0 +1,180 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 13b314e24dbab30cc394d42e4cc42dd1
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-09-14 14:12:30
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [813] => Array
+                                (
+                                    [notiers] => 813
+                                    [lastname] => LAVIGNE
+                                    [firstname] => Noémie
+                                    [email] => n.coutou@dubos.com
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 1979-11-26
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 339 682 007 00
+                                    [ape] => 4725 
+                                    [adresses] => Array
+                                        (
+                                            [5] => Array
+                                                (
+                                                    [id_address] => 17014
+                                                    [noadresse] => 5
+                                                    [alias] => BORDEAUX (FRANCE)
+                                                    [address1] => Sous entrepositaire DUBOS Frères
+                                                    [address2] => 65, Quai de BRAZZA
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33100
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [id_address] => 17017
+                                                    [noadresse] => 1
+                                                    [alias] => 33000 BORDEAUX
+                                                    [address1] => 8 Cours du XXX Juillet
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33000
+                                                    [phone] => 0556523205
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => FF
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 2
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [id_address] => 17020
+                                                    [noadresse] => 4
+                                                    [alias] => 33000 BORDEAUX
+                                                    [address1] => 8 Cours du XXX Juillet
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33000
+                                                    [phone] => 0556523205
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => FF
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 3
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [id_address] => 17023
+                                                    [noadresse] => 2
+                                                    [alias] => 33000 BORDEAUX
+                                                    [address1] => 8 Cours du XXX Juillet
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33000
+                                                    [phone] => 0556523205
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => FF
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 4
+                                                )
+
+                                            [7] => Array
+                                                (
+                                                    [id_address] => 17025
+                                                    [noadresse] => 7
+                                                    [alias] => 33000 BORDEAUX
+                                                    [address1] => 8 Cours du XXX Juillet
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33000
+                                                    [phone] => 0556523205
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => FF
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 5
+                                                )
+
+                                            [9] => Array
+                                                (
+                                                    [id_address] => 17028
+                                                    [noadresse] => 9
+                                                    [alias] => 33000 BORDEAUX
+                                                    [address1] => 8 Cours du XXX Juillet
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33000
+                                                    [phone] => 0556523205
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => FF
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 6
+                                                )
+
+                                            [8] => Array
+                                                (
+                                                    [id_address] => 17031
+                                                    [noadresse] => 8
+                                                    [alias] => BORDEAUX FRANCE
+                                                    [address1] => 65 quai de Brazza
+                                                    [address2] => 
+                                                    [city] => BORDEAUX
+                                                    [postcode] => 33100
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Noémie
+                                                    [lastname] => LAVIGNE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 7
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

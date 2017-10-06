@@ -1,0 +1,82 @@
+Array
+(
+    [NoJSON] => 814
+    [IdTransaction] => c06f79f6ed5e4d78873948384f15fadd
+    [Modèle] => CLT
+    [Type] => UPD
+    [DateTransaction] => 2017-07-25
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36464] => Array
+                                (
+                                    [notiers] => 36464
+                                    [lastname] => MORA
+                                    [firstname] => Paul
+                                    [email] => client10@ebewe.net
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 2011-05-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48958
+                                                            [alias] => Adresse de test
+                                                            [address1] => route du test
+                                                            [address2] => route adresse 2
+                                                            [city] => BRIVE LA GAILLARDE
+                                                            [postcode] => 19100
+                                                            [phone] => 0214142525
+                                                            [phone_mobile] => 
+                                                            [company] => Test  Société
+                                                            [firstname] => Paul
+                                                            [lastname] => MORA
+                                                            [other] => hjkhjk
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48959
+                                                            [alias] => Adresse de test 2
+                                                            [address1] => route UPDATE
+                                                            [address2] => route UPDATE
+                                                            [city] => COSNAC
+                                                            [postcode] => 19360
+                                                            [phone] => 0852639685
+                                                            [phone_mobile] => 
+                                                            [company] => Test  Société
+                                                            [firstname] => Paul
+                                                            [lastname] => MORA
+                                                            [other] => lpppppppppp
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

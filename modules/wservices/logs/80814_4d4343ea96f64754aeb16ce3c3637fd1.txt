@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80814
+    [IdTransaction] => 4d4343ea96f64754aeb16ce3c3637fd1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24773] => Array
+                                (
+                                    [notiers] => 24773
+                                    [lastname] => SAINT HILAIRE
+                                    [firstname] => Louis
+                                    [email] => loulou1957@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => GAELEMILIE
+                                    [birthday] => 1957-06-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30653
+                                                            [alias] => 64000 PAU
+                                                            [address1] => 16, RUE NUNGESSER
+                                                            [address2] => 
+                                                            [city] => PAU
+                                                            [postcode] => 64000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => SAINT HILAIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30654
+                                                            [alias] => 64000 PAU
+                                                            [address1] => 16, RUE NUNGESSER
+                                                            [address2] => 
+                                                            [city] => PAU
+                                                            [postcode] => 64000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Louis
+                                                            [lastname] => SAINT HILAIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

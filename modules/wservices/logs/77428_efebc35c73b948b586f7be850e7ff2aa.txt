@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77428
+    [IdTransaction] => efebc35c73b948b586f7be850e7ff2aa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34223] => Array
+                                (
+                                    [notiers] => 34223
+                                    [lastname] => NICKMANS
+                                    [firstname] => Marcel
+                                    [email] => marconickmans@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => MN513327
+                                    [birthday] => 1946-03-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45238
+                                                            [alias] => 13210 SAINT-REMY-DE-PROVENCE
+                                                            [address1] => Grande Draille Nord ST REMY DE PROVENCE
+                                                            [address2] => La Lombarde
+                                                            [city] => SAINT-REMY-DE-PROVENCE
+                                                            [postcode] => 13210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => NICKMANS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45239
+                                                            [alias] => 13210 SAINT-REMY-DE-PROVENCE
+                                                            [address1] => marcel nickmans ST REMY DE PROVENCE
+                                                            [address2] => grande draille nord, La Lombarde
+                                                            [city] => SAINT-REMY-DE-PROVENCE
+                                                            [postcode] => 13210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => NICKMANS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

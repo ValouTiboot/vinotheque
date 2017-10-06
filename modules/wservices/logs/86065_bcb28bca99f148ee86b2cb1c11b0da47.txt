@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86065
+    [IdTransaction] => bcb28bca99f148ee86b2cb1c11b0da47
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29974] => Array
+                                (
+                                    [notiers] => 29974
+                                    [lastname] => GALLICE
+                                    [firstname] => Jerome
+                                    [email] => lelion8005@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => glouglou80
+                                    [birthday] => 1980-07-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 48
+                                    [NbPointsRestants] => 48
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38041
+                                                            [alias] => 74330 EPAGNY
+                                                            [address1] => 312, rue de la mionnaz
+                                                            [address2] => 
+                                                            [city] => EPAGNY
+                                                            [postcode] => 74330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => GALLICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38042
+                                                            [alias] => 42300 ROANNE
+                                                            [address1] => 21, rue Michel Devillaine
+                                                            [address2] => 
+                                                            [city] => ROANNE
+                                                            [postcode] => 42300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => GALLICE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

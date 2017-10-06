@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76219
+    [IdTransaction] => 9c38d13df0544c76a14065d3648ba4b1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35621] => Array
+                                (
+                                    [notiers] => 35621
+                                    [lastname] => WOLFF
+                                    [firstname] => Benjamin
+                                    [email] => benjamin.wolff@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => invino0817
+                                    [birthday] => 1979-09-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 10
+                                    [NbPointsRestants] => 10
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47552
+                                                            [alias] => 94160 SAINT-MANDE
+                                                            [address1] => 7 Bis, Rue Paul Bert
+                                                            [address2] => 
+                                                            [city] => SAINT-MANDE
+                                                            [postcode] => 94160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => WOLFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47553
+                                                            [alias] => 94160 SAINT-MANDE
+                                                            [address1] => 7 Bis, Rue Paul Bert
+                                                            [address2] => 
+                                                            [city] => SAINT-MANDE
+                                                            [postcode] => 94160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => WOLFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82814
+    [IdTransaction] => 51ed22d74a3a4776a9cd055bfb5b7808
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29990] => Array
+                                (
+                                    [notiers] => 29990
+                                    [lastname] => GALLIMORE
+                                    [firstname] => Paul
+                                    [email] => paul.gallimore@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => samson123
+                                    [birthday] => 1963-03-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38071
+                                                            [alias] => 24170 LARZAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LARZAC
+                                                            [postcode] => 24170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => GALLIMORE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38072
+                                                            [alias] => 24170 LARZAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LARZAC
+                                                            [postcode] => 24170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paul
+                                                            [lastname] => GALLIMORE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

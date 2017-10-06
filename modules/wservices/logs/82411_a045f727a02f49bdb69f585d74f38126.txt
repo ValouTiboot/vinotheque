@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82411
+    [IdTransaction] => a045f727a02f49bdb69f585d74f38126
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31483] => Array
+                                (
+                                    [notiers] => 31483
+                                    [lastname] => BONNET
+                                    [firstname] => Pauline
+                                    [email] => pauline-bonnet@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => Poupie28
+                                    [birthday] => 1988-06-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 24
+                                    [NbPointsRestants] => 24
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40687
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 143, Cours du Médoc
+                                                            [address2] => 50 3
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pauline
+                                                            [lastname] => BONNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40688
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 143, Cours du Médoc
+                                                            [address2] => 50 3
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pauline
+                                                            [lastname] => BONNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

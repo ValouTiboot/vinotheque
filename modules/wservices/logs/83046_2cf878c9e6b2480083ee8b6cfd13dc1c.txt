@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83046
+    [IdTransaction] => 2cf878c9e6b2480083ee8b6cfd13dc1c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31168] => Array
+                                (
+                                    [notiers] => 31168
+                                    [lastname] => DUMONAL
+                                    [firstname] => Jean-fançois
+                                    [email] => jfdumonal@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => abovolo
+                                    [birthday] => 1946-11-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 287
+                                    [NbPointsRestants] => 287
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40110
+                                                            [alias] => 74100 VETRAZ-MONTHOUX
+                                                            [address1] => 1, ch. du Grand-Cras
+                                                            [address2] => 
+                                                            [city] => VETRAZ-MONTHOUX
+                                                            [postcode] => 74100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-fançois
+                                                            [lastname] => DUMONAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40111
+                                                            [alias] => 17240 SAINT-GREGOIRE-D'ARDENNES
+                                                            [address1] => 1, rue de la Seugne Montnougé
+                                                            [address2] => 
+                                                            [city] => SAINT-GREGOIRE-D'ARDENNES
+                                                            [postcode] => 17240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-fançois
+                                                            [lastname] => DUMONAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

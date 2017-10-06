@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82459
+    [IdTransaction] => 9a52a5c25e7448a682c35b9da921fada
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30084] => Array
+                                (
+                                    [notiers] => 30084
+                                    [lastname] => LI-PELLÉ
+                                    [firstname] => Zhen
+                                    [email] => zhen.lipelle@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => lizhen1026
+                                    [birthday] => 1963-10-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 288
+                                    [NbPointsRestants] => 288
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38225
+                                                            [alias] => 64000 PAU
+                                                            [address1] => 98, avenue de montardon
+                                                            [address2] => 
+                                                            [city] => PAU
+                                                            [postcode] => 64000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Zhen
+                                                            [lastname] => LI-PELLÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38226
+                                                            [alias] => 64320 SENDETS
+                                                            [address1] => 6, rue de la lanne
+                                                            [address2] => 
+                                                            [city] => SENDETS
+                                                            [postcode] => 64320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Zhen
+                                                            [lastname] => LI-PELLÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82640
+    [IdTransaction] => cb3bfe5f7c1e48f788062e913071c826
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24742] => Array
+                                (
+                                    [notiers] => 24742
+                                    [lastname] => HANNOT
+                                    [firstname] => Laurent
+                                    [email] => hannot.laurent@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => morgan03
+                                    [birthday] => 1970-09-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30609
+                                                            [alias] => 01360 LOYETTES
+                                                            [address1] => 10, lotissement le clos cassandra
+                                                            [address2] => 
+                                                            [city] => LOYETTES
+                                                            [postcode] => 01360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => HANNOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30610
+                                                            [alias] => 01360 LOYETTES
+                                                            [address1] => 10, lotissement le clos cassandra
+                                                            [address2] => 
+                                                            [city] => LOYETTES
+                                                            [postcode] => 01360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => HANNOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

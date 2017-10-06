@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74492
+    [IdTransaction] => 6a7237859b974602b497bf99fd24b38d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25693] => Array
+                                (
+                                    [notiers] => 25693
+                                    [lastname] => BREUVART
+                                    [firstname] => Alain
+                                    [email] => alain.breuvart@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => ALGAPAU
+                                    [birthday] => 1943-06-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31555
+                                                            [alias] => 06530 PEYMEINADE
+                                                            [address1] => 4, bd Jean Giraud
+                                                            [address2] => entrée B résidence les cytises
+                                                            [city] => PEYMEINADE
+                                                            [postcode] => 06530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => BREUVART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31556
+                                                            [alias] => 83340 FLASSANS
+                                                            [address1] => 748, PICHABERT 2
+                                                            [address2] => 
+                                                            [city] => FLASSANS
+                                                            [postcode] => 83340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => BREUVART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

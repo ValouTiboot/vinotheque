@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75394
+    [IdTransaction] => 9be9db6268854ab1867f32a458767962
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28988] => Array
+                                (
+                                    [notiers] => 28988
+                                    [lastname] => LEJEUNE
+                                    [firstname] => Christophe
+                                    [email] => c.lejeune@sofrat.net
+                                    [id_gender] => 1
+                                    [passwd] => mathis
+                                    [birthday] => 1978-10-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36600
+                                                            [alias] => 91310 LONGPONT-SUR-ORGE
+                                                            [address1] => 5, IMPASSE DU CORMIER
+                                                            [address2] => 
+                                                            [city] => LONGPONT-SUR-ORGE
+                                                            [postcode] => 91310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => LEJEUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36601
+                                                            [alias] => 77330 OZOIR-LA-FERRIERE
+                                                            [address1] => 9, RUE ROBERT SCHUMAN
+                                                            [address2] => 
+                                                            [city] => OZOIR-LA-FERRIERE
+                                                            [postcode] => 77330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christophe
+                                                            [lastname] => LEJEUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

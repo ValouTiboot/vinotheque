@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79311
+    [IdTransaction] => e9cf705e6acd465e83e51a0a06541f3a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34236] => Array
+                                (
+                                    [notiers] => 34236
+                                    [lastname] => ROBION
+                                    [firstname] => Charlotte
+                                    [email] => charlotte.robion@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => dupemonkey
+                                    [birthday] => 1995-04-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45259
+                                                            [alias] => 79110 TILLOU
+                                                            [address1] => 3, Route de fontenille
+                                                            [address2] => 
+                                                            [city] => TILLOU
+                                                            [postcode] => 79110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charlotte
+                                                            [lastname] => ROBION
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45260
+                                                            [alias] => 79500 MELLE
+                                                            [address1] => 19, Rue de la guillautiere
+                                                            [address2] => 
+                                                            [city] => MELLE
+                                                            [postcode] => 79500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charlotte
+                                                            [lastname] => ROBION
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

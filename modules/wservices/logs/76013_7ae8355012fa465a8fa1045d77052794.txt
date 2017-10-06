@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76013
+    [IdTransaction] => 7ae8355012fa465a8fa1045d77052794
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27628] => Array
+                                (
+                                    [notiers] => 27628
+                                    [lastname] => MÉNARD
+                                    [firstname] => Eric
+                                    [email] => eric.mobile@bluewin.ch
+                                    [id_gender] => 1
+                                    [passwd] => philosophe
+                                    [birthday] => 1972-07-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 125
+                                    [NbPointsRestants] => 125
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34520
+                                                            [alias] => 1180 ROLLE / SUISSE
+                                                            [address1] => 16, Avenue de Beaulieu
+                                                            [address2] => 
+                                                            [city] => ROLLE / SUISSE
+                                                            [postcode] => 1180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => MÉNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34521
+                                                            [alias] => 01210 FERNEY-VOLTAIRE
+                                                            [address1] => 1, Avenue Voltaire
+                                                            [address2] => La Poste
+                                                            [city] => FERNEY-VOLTAIRE
+                                                            [postcode] => 01210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => MÉNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

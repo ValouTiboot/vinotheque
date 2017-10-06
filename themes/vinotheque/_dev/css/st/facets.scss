@@ -1,0 +1,80 @@
+#search_filters {
+  .facets-title {
+    color: $green-dark;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: rem(18px);
+    padding: rem(23px) 0;
+  }
+  select {
+    width: 60%;
+  }
+  span.magnitude {
+    display: inline;
+    color: black;
+    &:before {
+      content: "(";
+    }
+    &:after {
+      content: ")";
+    }
+  }
+  a, a:visited {
+    color: inherit;
+  }
+  .facet {
+    border-bottom: 1px solid $green-dark;
+    margin-bottom: rem(17px);
+    .h3 {
+      color: black;
+      font-size: rem(17px);
+      padding-bottom: rem(17px);
+      margin: 0;
+      a {
+        &::after {
+          font-family: 'Material Icons';
+          content: "\E316";
+          font-size: rem(30px);
+          line-height: rem(25px);
+          color: $green-dark;
+          float: right;
+        }
+        &.collapsed::after {
+          content: "\E313";
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+      &.active {
+        font-weight: bold;
+      }
+      &.show-more {
+        color: $green-even-darker;
+        font-weight: bold;
+        font-size: rem(19px);
+        &::after {
+          font-family: 'Material Icons';
+          content: "\E313";
+          font-size: rem(30px);
+          line-height: rem(25px);
+          color: $green-dark;
+          vertical-align: middle;
+        }
+      }
+    }
+    .more-hidden {
+      display: none;
+    }
+    ul {
+      list-style: none;
+      margin: 0 0 rem(10px);
+      padding: 0;
+    }
+  }
+  .active_filters {
+    ul {
+      padding-left: 20px;
+    }
+  }
+}

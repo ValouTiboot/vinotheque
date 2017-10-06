@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83245
+    [IdTransaction] => 901216c55d004578bf76c539e0e5c078
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32347] => Array
+                                (
+                                    [notiers] => 32347
+                                    [lastname] => PINAUD
+                                    [firstname] => Helene
+                                    [email] => helene.pinaud@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1978-09-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42019
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, cours aristide briand
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Helene
+                                                            [lastname] => PINAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42020
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, cours aristide briand
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Helene
+                                                            [lastname] => PINAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

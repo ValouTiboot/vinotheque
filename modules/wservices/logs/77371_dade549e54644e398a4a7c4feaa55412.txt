@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77371
+    [IdTransaction] => dade549e54644e398a4a7c4feaa55412
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31639] => Array
+                                (
+                                    [notiers] => 31639
+                                    [lastname] => DEJOUR
+                                    [firstname] => Béatrice
+                                    [email] => beatrice.dejour@orange
+                                    [id_gender] => 2
+                                    [passwd] => EMMAWILLIAM
+                                    [birthday] => 1968-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 100
+                                    [NbPointsRestants] => 100
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40940
+                                                            [alias] => 17620 SAINT-AGNANT
+                                                            [address1] => 6, Lot du Moulin de St Saturnin
+                                                            [address2] => 
+                                                            [city] => SAINT-AGNANT
+                                                            [postcode] => 17620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Béatrice
+                                                            [lastname] => DEJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40941
+                                                            [alias] => 22420 TREGROM
+                                                            [address1] => Pen Ar Pont
+                                                            [address2] => 
+                                                            [city] => TREGROM
+                                                            [postcode] => 22420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Béatrice
+                                                            [lastname] => DEJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

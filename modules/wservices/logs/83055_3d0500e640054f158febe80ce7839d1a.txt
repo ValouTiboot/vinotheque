@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83055
+    [IdTransaction] => 3d0500e640054f158febe80ce7839d1a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33612] => Array
+                                (
+                                    [notiers] => 33612
+                                    [lastname] => BARBIER
+                                    [firstname] => Pascal
+                                    [email] => barbier.p@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => !Kinder31Moko82!
+                                    [birthday] => 1984-08-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44165
+                                                            [alias] => 38640 CLAIX
+                                                            [address1] => 3, allée du Champ des Vignes CLAIX
+                                                            [address2] => 
+                                                            [city] => CLAIX
+                                                            [postcode] => 38640
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => BARBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44166
+                                                            [alias] => 38640 CLAIX
+                                                            [address1] => 3, Pascal Barbier CLAIX
+                                                            [address2] => 
+                                                            [city] => CLAIX
+                                                            [postcode] => 38640
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => BARBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

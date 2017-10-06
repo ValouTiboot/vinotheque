@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80539
+    [IdTransaction] => a359c0d06cd641e6b977596150448350
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28824] => Array
+                                (
+                                    [notiers] => 28824
+                                    [lastname] => YOBO
+                                    [firstname] => Gerard
+                                    [email] => computer.global@netcourrier.com
+                                    [id_gender] => 1
+                                    [passwd] => paradis
+                                    [birthday] => 1979-03-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36365
+                                                            [alias] => 93160 NOISY-LE-GRAND
+                                                            [address1] => 50, avenue emile cossonneau
+                                                            [address2] => 
+                                                            [city] => NOISY-LE-GRAND
+                                                            [postcode] => 93160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerard
+                                                            [lastname] => YOBO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36366
+                                                            [alias] => 93700 DRANCY
+                                                            [address1] => 50, rue jules guesde chez Hoba Adouko
+                                                            [address2] => 
+                                                            [city] => DRANCY
+                                                            [postcode] => 93700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerard
+                                                            [lastname] => YOBO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

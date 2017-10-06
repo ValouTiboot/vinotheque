@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78613
+    [IdTransaction] => f6c8faa39f3f4becb3b1076bf45f0c90
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23302] => Array
+                                (
+                                    [notiers] => 23302
+                                    [lastname] => SKRZYPCZAK
+                                    [firstname] => Samuel
+                                    [email] => sskrzypczak@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => samuel73
+                                    [birthday] => 1973-02-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 348
+                                    [NbPointsRestants] => 348
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30417
+                                                            [alias] => 59710 PONT-A-MARCQ
+                                                            [address1] => 64, Nationale
+                                                            [address2] => 
+                                                            [city] => PONT-A-MARCQ
+                                                            [postcode] => 59710
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Samuel
+                                                            [lastname] => SKRZYPCZAK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30418
+                                                            [alias] => 59710 PONT-A-MARCQ
+                                                            [address1] => 64, Nationale
+                                                            [address2] => 
+                                                            [city] => PONT-A-MARCQ
+                                                            [postcode] => 59710
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Samuel
+                                                            [lastname] => SKRZYPCZAK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

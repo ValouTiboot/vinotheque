@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78784
+    [IdTransaction] => d3ac5a287dec4b66b1f9a0cf11ddd260
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34311] => Array
+                                (
+                                    [notiers] => 34311
+                                    [lastname] => MANDABA
+                                    [firstname] => Marc
+                                    [email] => marcmandaba@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => marcolona
+                                    [birthday] => 1975-06-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 526
+                                    [NbPointsRestants] => 526
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45388
+                                                            [alias] => 46700 MONTCABRIER
+                                                            [address1] => D28, L'Anaustrale D28, Lieu-dit LANAU Montcabrier
+                                                            [address2] => 
+                                                            [city] => MONTCABRIER
+                                                            [postcode] => 46700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => MANDABA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45389
+                                                            [alias] => 46700 MONTCABRIER
+                                                            [address1] => D28, Marc Mandaba Montcabrier
+                                                            [address2] => L'Anaustrale D28, Chemin du Fraysse Haut
+                                                            [city] => MONTCABRIER
+                                                            [postcode] => 46700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => MANDABA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

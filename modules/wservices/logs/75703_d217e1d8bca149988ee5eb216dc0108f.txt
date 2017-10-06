@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75703
+    [IdTransaction] => d217e1d8bca149988ee5eb216dc0108f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29040] => Array
+                                (
+                                    [notiers] => 29040
+                                    [lastname] => SEVRE
+                                    [firstname] => Jean-philippe
+                                    [email] => jpsevre@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 1230bx33
+                                    [birthday] => 1952-12-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 150
+                                    [NbPointsRestants] => 150
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36679
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 54 blvd fran,
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-philippe
+                                                            [lastname] => SEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36680
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 138, avenue de la République
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-philippe
+                                                            [lastname] => SEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

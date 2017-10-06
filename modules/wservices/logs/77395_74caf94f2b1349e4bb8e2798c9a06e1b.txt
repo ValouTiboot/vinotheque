@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77395
+    [IdTransaction] => 74caf94f2b1349e4bb8e2798c9a06e1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31883] => Array
+                                (
+                                    [notiers] => 31883
+                                    [lastname] => LEFEBVRE
+                                    [firstname] => Alexandre
+                                    [email] => aclefebvre@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => peplef11
+                                    [birthday] => 1982-09-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41309
+                                                            [alias] => 27200 VERNON
+                                                            [address1] => 11h, rue des belges
+                                                            [address2] => 
+                                                            [city] => VERNON
+                                                            [postcode] => 27200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => LEFEBVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41310
+                                                            [alias] => 92400 COURBEVOIE
+                                                            [address1] => 22, rue Hoche
+                                                            [address2] => 
+                                                            [city] => COURBEVOIE
+                                                            [postcode] => 92400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => LEFEBVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

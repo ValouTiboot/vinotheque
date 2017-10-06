@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78522
+    [IdTransaction] => 9b66caf13ad04e1282ab179f37bbcb1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34966] => Array
+                                (
+                                    [notiers] => 34966
+                                    [lastname] => LESIMPLE
+                                    [firstname] => Patrick
+                                    [email] => lesimple.patrick@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => grossiflex
+                                    [birthday] => 1958-11-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46492
+                                                            [alias] => 24000 PERIGUEUX
+                                                            [address1] => 35, marguerite eberentz PERIGUEUX
+                                                            [address2] => 
+                                                            [city] => PERIGUEUX
+                                                            [postcode] => 24000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LESIMPLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46493
+                                                            [alias] => 24000 PERIGUEUX
+                                                            [address1] => 35, marguerite eberentz PERIGUEUX
+                                                            [address2] => 
+                                                            [city] => PERIGUEUX
+                                                            [postcode] => 24000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => LESIMPLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

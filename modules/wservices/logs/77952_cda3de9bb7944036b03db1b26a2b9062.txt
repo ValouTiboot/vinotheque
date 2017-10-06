@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77952
+    [IdTransaction] => cda3de9bb7944036b03db1b26a2b9062
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34425] => Array
+                                (
+                                    [notiers] => 34425
+                                    [lastname] => HENNEQUIN
+                                    [firstname] => Jerome
+                                    [email] => hennequin.jerome@outlook.fr
+                                    [id_gender] => 1
+                                    [passwd] => fcmetz57
+                                    [birthday] => 1988-02-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 80
+                                    [NbPointsRestants] => 80
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45584
+                                                            [alias] => 57525 TALANGE
+                                                            [address1] => 2, Rue auguste delaune
+                                                            [address2] => 2 ème etage / Appartement 6
+                                                            [city] => TALANGE
+                                                            [postcode] => 57525
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => HENNEQUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45585
+                                                            [alias] => 57420 VERNY
+                                                            [address1] => 28, Rue des bagrasses
+                                                            [address2] => 
+                                                            [city] => VERNY
+                                                            [postcode] => 57420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => HENNEQUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

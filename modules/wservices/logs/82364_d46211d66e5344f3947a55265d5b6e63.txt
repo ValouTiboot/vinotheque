@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82364
+    [IdTransaction] => d46211d66e5344f3947a55265d5b6e63
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26113] => Array
+                                (
+                                    [notiers] => 26113
+                                    [lastname] => LARDJANE
+                                    [firstname] => Nadia
+                                    [email] => nadialardjane@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => sequoia
+                                    [birthday] => 1984-04-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32194
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 19, RUE EUGENE GIBEZ
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadia
+                                                            [lastname] => LARDJANE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32195
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 8, RUE LOUIS SABOURIN
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nadia
+                                                            [lastname] => LARDJANE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

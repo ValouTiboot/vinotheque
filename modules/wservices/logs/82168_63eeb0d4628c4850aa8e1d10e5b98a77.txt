@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82168
+    [IdTransaction] => 63eeb0d4628c4850aa8e1d10e5b98a77
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27624] => Array
+                                (
+                                    [notiers] => 27624
+                                    [lastname] => TAILLEFER
+                                    [firstname] => Florian
+                                    [email] => florian.taillefer@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => tasrip
+                                    [birthday] => 1990-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 107
+                                    [NbPointsRestants] => 107
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34512
+                                                            [alias] => 14000 CAEN
+                                                            [address1] => 106-108, Henry cheron
+                                                            [address2] => 2ème étage
+                                                            [city] => CAEN
+                                                            [postcode] => 14000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => TAILLEFER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34513
+                                                            [alias] => 14760 BRETTEVILLE-SUR-ODON
+                                                            [address1] => 2, Allée des longrais
+                                                            [address2] => 
+                                                            [city] => BRETTEVILLE-SUR-ODON
+                                                            [postcode] => 14760
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Florian
+                                                            [lastname] => TAILLEFER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

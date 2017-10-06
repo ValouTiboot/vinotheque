@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78050
+    [IdTransaction] => cba0bd161e3546e7a11eaa6a3a7a78f6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30865] => Array
+                                (
+                                    [notiers] => 30865
+                                    [lastname] => BOLTZ
+                                    [firstname] => Stéphane
+                                    [email] => s_boltz@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => viridis211
+                                    [birthday] => 1973-11-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 329
+                                    [NbPointsRestants] => 329
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39593
+                                                            [alias] => 29200 BREST
+                                                            [address1] => 6, Venelle de KERALLOCHE
+                                                            [address2] => 
+                                                            [city] => BREST
+                                                            [postcode] => 29200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => BOLTZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39594
+                                                            [alias] => 29200 BREST
+                                                            [address1] => 6, Venelle de KERALLOCHE
+                                                            [address2] => 
+                                                            [city] => BREST
+                                                            [postcode] => 29200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => BOLTZ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

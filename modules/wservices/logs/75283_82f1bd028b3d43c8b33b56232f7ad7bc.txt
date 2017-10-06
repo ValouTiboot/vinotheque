@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75283
+    [IdTransaction] => 82f1bd028b3d43c8b33b56232f7ad7bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25377] => Array
+                                (
+                                    [notiers] => 25377
+                                    [lastname] => BONNIN
+                                    [firstname] => Gilles
+                                    [email] => gilles-bonnin@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => jurancon64
+                                    [birthday] => 1947-03-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31063
+                                                            [alias] => 64110 JURANCON
+                                                            [address1] => 1, rue de Borja
+                                                            [address2] => 
+                                                            [city] => JURANCON
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => BONNIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31064
+                                                            [alias] => 64110 JURANCON
+                                                            [address1] => 1, rue de Borja
+                                                            [address2] => 
+                                                            [city] => JURANCON
+                                                            [postcode] => 64110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => BONNIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

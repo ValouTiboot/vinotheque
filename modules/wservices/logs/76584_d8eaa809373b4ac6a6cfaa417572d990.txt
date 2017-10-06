@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76584
+    [IdTransaction] => d8eaa809373b4ac6a6cfaa417572d990
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33646] => Array
+                                (
+                                    [notiers] => 33646
+                                    [lastname] => LYNGFELT
+                                    [firstname] => Bjorn
+                                    [email] => bjorn.lyngfelt@sca.com
+                                    [id_gender] => 1
+                                    [passwd] => Columbus1492
+                                    [birthday] => 1956-11-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 756
+                                    [NbPointsRestants] => 756
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44225
+                                                            [alias] => 85460 SUNDSVALL
+                                                            [address1] => 9, Jakobsdalsgatan
+                                                            [address2] => 
+                                                            [city] => SUNDSVALL
+                                                            [postcode] => 85460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bjorn
+                                                            [lastname] => LYNGFELT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => SE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44226
+                                                            [alias] => 85460 SUNDSVALL
+                                                            [address1] => 9, Jakobsdalsgatan
+                                                            [address2] => 
+                                                            [city] => SUNDSVALL
+                                                            [postcode] => 85460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bjorn
+                                                            [lastname] => LYNGFELT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => SE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

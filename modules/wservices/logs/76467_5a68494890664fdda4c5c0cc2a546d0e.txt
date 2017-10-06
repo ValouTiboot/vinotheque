@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76467
+    [IdTransaction] => 5a68494890664fdda4c5c0cc2a546d0e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33345] => Array
+                                (
+                                    [notiers] => 33345
+                                    [lastname] => PRUVOST
+                                    [firstname] => Jean
+                                    [email] => tx.pruvost@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => socopi82@
+                                    [birthday] => 1958-02-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43684
+                                                            [alias] => 76380 CANTELEU
+                                                            [address1] => 3, Alexandre Dumas
+                                                            [address2] => 
+                                                            [city] => CANTELEU
+                                                            [postcode] => 76380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => PRUVOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43685
+                                                            [alias] => 76380 CANTELEU
+                                                            [address1] => 3, Alexandre Dumas
+                                                            [address2] => 
+                                                            [city] => CANTELEU
+                                                            [postcode] => 76380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => PRUVOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80255
+    [IdTransaction] => be9a659a9ca641daa4b0f974ee41e2fd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23111] => Array
+                                (
+                                    [notiers] => 23111
+                                    [lastname] => LACROUX
+                                    [firstname] => Jean-pierre
+                                    [email] => js.lacroux@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => julien
+                                    [birthday] => 1949-11-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 528
+                                    [NbPointsRestants] => 528
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30153
+                                                            [alias] => 75009 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => LACROUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30154
+                                                            [alias] => 75009 PARIS
+                                                            [address1] => 58, rue de douai
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => LACROUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

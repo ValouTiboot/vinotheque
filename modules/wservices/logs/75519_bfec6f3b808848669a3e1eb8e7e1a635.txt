@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75519
+    [IdTransaction] => bfec6f3b808848669a3e1eb8e7e1a635
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32892] => Array
+                                (
+                                    [notiers] => 32892
+                                    [lastname] => CAROFF
+                                    [firstname] => Emmanuel
+                                    [email] => emmanuel.caroff@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => cfp22220
+                                    [birthday] => 1978-05-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 69
+                                    [NbPointsRestants] => 69
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42897
+                                                            [alias] => 22300 ROSPEZ
+                                                            [address1] => 4, des lauriers
+                                                            [address2] => 
+                                                            [city] => ROSPEZ
+                                                            [postcode] => 22300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => CAROFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42898
+                                                            [alias] => 22220 MINIHY-TREGUIER
+                                                            [address1] => Kerguyomard, Kériec
+                                                            [address2] => 
+                                                            [city] => MINIHY-TREGUIER
+                                                            [postcode] => 22220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => CAROFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

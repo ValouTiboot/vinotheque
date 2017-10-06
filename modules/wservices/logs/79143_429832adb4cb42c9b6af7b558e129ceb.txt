@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79143
+    [IdTransaction] => 429832adb4cb42c9b6af7b558e129ceb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27504] => Array
+                                (
+                                    [notiers] => 27504
+                                    [lastname] => DUJOUR
+                                    [firstname] => Christian
+                                    [email] => christian.dujour@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => 23101949
+                                    [birthday] => 1949-10-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 1900
+                                    [NbPointsAcquits] => 2468
+                                    [NbPointsRestants] => 568
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34326
+                                                            [alias] => 13013 MARSEILLE
+                                                            [address1] => 32, Rue de la calebasse
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => DUJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34327
+                                                            [alias] => 13013 MARSEILLE
+                                                            [address1] => 32, De la calebasse
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => DUJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

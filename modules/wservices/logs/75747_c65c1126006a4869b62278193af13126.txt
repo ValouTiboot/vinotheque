@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75747
+    [IdTransaction] => c65c1126006a4869b62278193af13126
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29709] => Array
+                                (
+                                    [notiers] => 29709
+                                    [lastname] => VAN PETEGHEM
+                                    [firstname] => Christian
+                                    [email] => le-huit@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1951-12-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 700
+                                    [NbPointsAcquits] => 1362
+                                    [NbPointsRestants] => 662
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37599
+                                                            [alias] => 30620 UCHAUD
+                                                            [address1] => 8, PLACE DE L'EGLISE
+                                                            [address2] => 
+                                                            [city] => UCHAUD
+                                                            [postcode] => 30620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => VAN PETEGHEM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37600
+                                                            [alias] => 30620 UCHAUD
+                                                            [address1] => 8, PLACE DE L'EGLISE
+                                                            [address2] => 
+                                                            [city] => UCHAUD
+                                                            [postcode] => 30620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => VAN PETEGHEM
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

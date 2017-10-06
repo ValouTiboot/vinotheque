@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76234
+    [IdTransaction] => b51ddf1080a54da7a8208b9ac96c8f37
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35489] => Array
+                                (
+                                    [notiers] => 35489
+                                    [lastname] => GIORGI
+                                    [firstname] => Jc
+                                    [email] => jc.giorgi@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => caranguela
+                                    [birthday] => 1962-07-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 183
+                                    [NbPointsRestants] => 183
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47347
+                                                            [alias] => 83140 SIX-FOURS-LES-PLAGES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => SIX-FOURS-LES-PLAGES
+                                                            [postcode] => 83140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jc
+                                                            [lastname] => GIORGI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47348
+                                                            [alias] => 83140 SIX-FOURS-LES-PLAGES
+                                                            [address1] => 59, Avenue guigon
+                                                            [address2] => 
+                                                            [city] => SIX-FOURS-LES-PLAGES
+                                                            [postcode] => 83140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jc
+                                                            [lastname] => GIORGI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

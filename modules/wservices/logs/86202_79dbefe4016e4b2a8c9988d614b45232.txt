@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86202
+    [IdTransaction] => 79dbefe4016e4b2a8c9988d614b45232
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33252] => Array
+                                (
+                                    [notiers] => 33252
+                                    [lastname] => SAISON
+                                    [firstname] => Olivier
+                                    [email] => olivieretaurore@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Corse2011
+                                    [birthday] => 1979-06-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43520
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 16, rue Terre-Neuve
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => SAISON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43521
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 30, rue Cardinet
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => SAISON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

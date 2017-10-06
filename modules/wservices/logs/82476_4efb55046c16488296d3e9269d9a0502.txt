@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82476
+    [IdTransaction] => 4efb55046c16488296d3e9269d9a0502
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28857] => Array
+                                (
+                                    [notiers] => 28857
+                                    [lastname] => LIERRE
+                                    [firstname] => Jean dominique
+                                    [email] => jdominique.lierre@arets.com
+                                    [id_gender] => 1
+                                    [passwd] => JDLmlh30
+                                    [birthday] => 1955-04-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 64
+                                    [NbPointsRestants] => 64
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36393
+                                                            [alias] => 30000 NIMES
+                                                            [address1] => 5, Maison Carrée
+                                                            [address2] => 
+                                                            [city] => NIMES
+                                                            [postcode] => 30000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean dominique
+                                                            [lastname] => LIERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36394
+                                                            [alias] => 41000 BLOIS
+                                                            [address1] => 4, de l'Argonne
+                                                            [address2] => 
+                                                            [city] => BLOIS
+                                                            [postcode] => 41000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean dominique
+                                                            [lastname] => LIERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

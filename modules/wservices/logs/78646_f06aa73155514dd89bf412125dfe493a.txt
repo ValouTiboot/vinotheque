@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78646
+    [IdTransaction] => f06aa73155514dd89bf412125dfe493a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31392] => Array
+                                (
+                                    [notiers] => 31392
+                                    [lastname] => HUGUET
+                                    [firstname] => Frédéric
+                                    [email] => fredhuguet@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => marine18
+                                    [birthday] => 1976-03-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 45
+                                    [NbPointsRestants] => 45
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40518
+                                                            [alias] => 27600 GAILLON
+                                                            [address1] => 2, Place de l'Eglise
+                                                            [address2] => 
+                                                            [city] => GAILLON
+                                                            [postcode] => 27600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => HUGUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40519
+                                                            [alias] => 27600 SAINT-AUBIN-SUR-GAILLON
+                                                            [address1] => 17, Rue de Paçy les Rotoirs
+                                                            [address2] => 
+                                                            [city] => SAINT-AUBIN-SUR-GAILLON
+                                                            [postcode] => 27600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frédéric
+                                                            [lastname] => HUGUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

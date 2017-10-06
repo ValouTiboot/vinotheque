@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74846
+    [IdTransaction] => aee37cad12b14c7abb4b50898852b22f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27789] => Array
+                                (
+                                    [notiers] => 27789
+                                    [lastname] => SENCEY
+                                    [firstname] => Martine
+                                    [email] => martine.sencey@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => hlkdhlkd
+                                    [birthday] => 1956-04-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 62
+                                    [NbPointsRestants] => 62
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34787
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 20, jardin san michele
+                                                            [address2] => 
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martine
+                                                            [lastname] => SENCEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34788
+                                                            [alias] => 25000 BESANCON
+                                                            [address1] => 19, chemin de la baume
+                                                            [address2] => A
+                                                            [city] => BESANCON
+                                                            [postcode] => 25000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martine
+                                                            [lastname] => SENCEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

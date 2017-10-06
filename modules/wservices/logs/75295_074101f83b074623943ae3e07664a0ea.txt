@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75295
+    [IdTransaction] => 074101f83b074623943ae3e07664a0ea
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31353] => Array
+                                (
+                                    [notiers] => 31353
+                                    [lastname] => DAMOTTE
+                                    [firstname] => Marie
+                                    [email] => mfdamotte@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => anfosso
+                                    [birthday] => 1967-02-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40441
+                                                            [alias] => 92000 NANTERRE
+                                                            [address1] => 17, Rue Saint Maurice
+                                                            [address2] => RDC
+                                                            [city] => NANTERRE
+                                                            [postcode] => 92000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => DAMOTTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40442
+                                                            [alias] => 92000 NANTERRE
+                                                            [address1] => 17, Rue Saint Maurice
+                                                            [address2] => RDC
+                                                            [city] => NANTERRE
+                                                            [postcode] => 92000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie
+                                                            [lastname] => DAMOTTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

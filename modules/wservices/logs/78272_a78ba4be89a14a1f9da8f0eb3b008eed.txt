@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78272
+    [IdTransaction] => a78ba4be89a14a1f9da8f0eb3b008eed
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27717] => Array
+                                (
+                                    [notiers] => 27717
+                                    [lastname] => LATANSKI
+                                    [firstname] => Armand
+                                    [email] => latanski.armand@pt.lu
+                                    [id_gender] => 1
+                                    [passwd] => Avenged7folder
+                                    [birthday] => 1971-12-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34661
+                                                            [alias] => 3514 DUDELANGE
+                                                            [address1] => 39, Route de Kayl
+                                                            [address2] => C
+                                                            [city] => DUDELANGE
+                                                            [postcode] => 3514
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armand
+                                                            [lastname] => LATANSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => LU
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34662
+                                                            [alias] => 55240 DOMMARY-BARONCOURT
+                                                            [address1] => 28, Rue Pierre Semard
+                                                            [address2] => 
+                                                            [city] => DOMMARY-BARONCOURT
+                                                            [postcode] => 55240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Armand
+                                                            [lastname] => LATANSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

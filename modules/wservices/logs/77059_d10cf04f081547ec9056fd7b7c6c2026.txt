@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77059
+    [IdTransaction] => d10cf04f081547ec9056fd7b7c6c2026
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26959] => Array
+                                (
+                                    [notiers] => 26959
+                                    [lastname] => MELGAR
+                                    [firstname] => Joseph
+                                    [email] => jmelgar.sat@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => 70de51
+                                    [birthday] => 1943-11-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 11
+                                    [NbPointsRestants] => 11
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33461
+                                                            [alias] => 31320 CASTANET-TOLOSAN
+                                                            [address1] => 9, Marguerite YOURCENAR
+                                                            [address2] => Résidence Le Jardin des Chimères D112
+                                                            [city] => CASTANET-TOLOSAN
+                                                            [postcode] => 31320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joseph
+                                                            [lastname] => MELGAR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33462
+                                                            [alias] => 09700 SAVERDUN
+                                                            [address1] => Ferme de Peries
+                                                            [address2] => 
+                                                            [city] => SAVERDUN
+                                                            [postcode] => 09700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Joseph
+                                                            [lastname] => MELGAR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79498
+    [IdTransaction] => 7ae407162cda46a992aaf5864134f2c7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25569] => Array
+                                (
+                                    [notiers] => 25569
+                                    [lastname] => COTTARD
+                                    [firstname] => Bruno
+                                    [email] => brunocottard@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => zx42b8
+                                    [birthday] => 1952-08-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31361
+                                                            [alias] => 69005 LYON
+                                                            [address1] => 50 rue Jolio,
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => COTTARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31362
+                                                            [alias] => 69005 LYON
+                                                            [address1] => 50 rue Jolio,
+                                                            [address2] => maison ocre à gauche
+                                                            [city] => LYON
+                                                            [postcode] => 69005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => COTTARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

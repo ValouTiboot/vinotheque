@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78658
+    [IdTransaction] => 1705a7f965934e9888325280625addee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32344] => Array
+                                (
+                                    [notiers] => 32344
+                                    [lastname] => PALATIN
+                                    [firstname] => Fabienne
+                                    [email] => fabiennepalatin@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 69FRIMOUSSES
+                                    [birthday] => 1961-06-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 94
+                                    [NbPointsRestants] => 94
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42013
+                                                            [alias] => 77660 FERTE-SOUS-JOUARRE
+                                                            [address1] => 25, Rue de Reuil
+                                                            [address2] => 
+                                                            [city] => FERTE-SOUS-JOUARRE
+                                                            [postcode] => 77660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabienne
+                                                            [lastname] => PALATIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42014
+                                                            [alias] => 77660 FERTE-SOUS-JOUARRE
+                                                            [address1] => 25, Rue de Reuil
+                                                            [address2] => 
+                                                            [city] => FERTE-SOUS-JOUARRE
+                                                            [postcode] => 77660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabienne
+                                                            [lastname] => PALATIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76629
+    [IdTransaction] => a14001f137804fa5a71c4121c264f0f5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27802] => Array
+                                (
+                                    [notiers] => 27802
+                                    [lastname] => SERENO
+                                    [firstname] => Jean claude
+                                    [email] => cadules@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => amarelho
+                                    [birthday] => 1950-10-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34808
+                                                            [alias] => 5430-046 BOUCOAES
+                                                            [address1] => 2, RUA PRUNCIPAL
+                                                            [address2] => 
+                                                            [city] => BOUCOAES
+                                                            [postcode] => 5430-046
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => SERENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => PT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34809
+                                                            [alias] => GU22 9EF WOKING
+                                                            [address1] => 4 FAIRVIEW V, KINGFIELD ROAD
+                                                            [address2] => 
+                                                            [city] => WOKING
+                                                            [postcode] => GU22 9EF
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => SERENO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => GB
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76307
+    [IdTransaction] => 71db2544cdf24c1ca4f151412148998b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32855] => Array
+                                (
+                                    [notiers] => 32855
+                                    [lastname] => FOURNET
+                                    [firstname] => Gerald
+                                    [email] => info@kerlys.com
+                                    [id_gender] => 1
+                                    [passwd] => 110659
+                                    [birthday] => 1959-09-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 51
+                                    [NbPointsRestants] => 51
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42840
+                                                            [alias] => 86440 MIGNE-AUXANCES
+                                                            [address1] => 64, Rue Joseph zamanski
+                                                            [address2] => 
+                                                            [city] => MIGNE-AUXANCES
+                                                            [postcode] => 86440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerald
+                                                            [lastname] => FOURNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42841
+                                                            [alias] => 86000 POITIERS
+                                                            [address1] => 11, Édouard branly ZAE st eloi
+                                                            [address2] => 
+                                                            [city] => POITIERS
+                                                            [postcode] => 86000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerald
+                                                            [lastname] => FOURNET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

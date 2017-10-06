@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82677
+    [IdTransaction] => 44dacdf2563c43a6a20bb83cee2e1ab7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30483] => Array
+                                (
+                                    [notiers] => 30483
+                                    [lastname] => COLNEY
+                                    [firstname] => Pascal
+                                    [email] => pascal.colney@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => merove
+                                    [birthday] => 1958-03-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 210
+                                    [NbPointsRestants] => 210
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38929
+                                                            [alias] => 52200 LANGRES
+                                                            [address1] => 4, rue du 8 mai 1945
+                                                            [address2] => 47 batiment navarre
+                                                            [city] => LANGRES
+                                                            [postcode] => 52200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => COLNEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38930
+                                                            [alias] => 52200 LANGRES
+                                                            [address1] => 4, rue du 8 mai 1945
+                                                            [address2] => 47 batiment navarre
+                                                            [city] => LANGRES
+                                                            [postcode] => 52200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => COLNEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

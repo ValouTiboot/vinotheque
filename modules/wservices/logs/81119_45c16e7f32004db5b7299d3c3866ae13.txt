@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81119
+    [IdTransaction] => 45c16e7f32004db5b7299d3c3866ae13
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25841] => Array
+                                (
+                                    [notiers] => 25841
+                                    [lastname] => MERLIN
+                                    [firstname] => Guillaume
+                                    [email] => guillaumemerlin@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => denkavit
+                                    [birthday] => 1972-02-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 145
+                                    [NbPointsRestants] => 145
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31793
+                                                            [alias] => 16150 ETAGNAC
+                                                            [address1] => Chez Chabaud
+                                                            [address2] => 
+                                                            [city] => ETAGNAC
+                                                            [postcode] => 16150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => MERLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31794
+                                                            [alias] => 16150 ETAGNAC
+                                                            [address1] => Chez Chabaud
+                                                            [address2] => 
+                                                            [city] => ETAGNAC
+                                                            [postcode] => 16150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => MERLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

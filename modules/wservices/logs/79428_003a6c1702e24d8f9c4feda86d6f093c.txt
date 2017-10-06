@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79428
+    [IdTransaction] => 003a6c1702e24d8f9c4feda86d6f093c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35592] => Array
+                                (
+                                    [notiers] => 35592
+                                    [lastname] => DE SARS
+                                    [firstname] => Laurent
+                                    [email] => ldesars@mac.com
+                                    [id_gender] => 1
+                                    [passwd] => lolo1973
+                                    [birthday] => 1973-07-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47505
+                                                            [alias] => 69002 LYON
+                                                            [address1] => 20, place Carnot
+                                                            [address2] => 20 place carnot
+                                                            [city] => LYON
+                                                            [postcode] => 69002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => DE SARS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47506
+                                                            [alias] => 69002 LYON
+                                                            [address1] => 20, place Carnot
+                                                            [address2] => 20 place carnot
+                                                            [city] => LYON
+                                                            [postcode] => 69002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => DE SARS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

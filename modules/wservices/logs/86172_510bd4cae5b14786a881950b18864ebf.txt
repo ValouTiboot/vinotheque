@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86172
+    [IdTransaction] => 510bd4cae5b14786a881950b18864ebf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35202] => Array
+                                (
+                                    [notiers] => 35202
+                                    [lastname] => DUBOST
+                                    [firstname] => Rodolphe
+                                    [email] => rodolphe_dubost@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 336670
+                                    [birthday] => 1970-06-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 154
+                                    [NbPointsRestants] => 154
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46862
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 7, RUE D ODESSA
+                                                            [address2] => 4E ETAGE
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rodolphe
+                                                            [lastname] => DUBOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46863
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 7, RUE D ODESSA
+                                                            [address2] => 4E ETAGE
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rodolphe
+                                                            [lastname] => DUBOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

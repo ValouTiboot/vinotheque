@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82973
+    [IdTransaction] => 4fb0db55a12f467f974859027a1db5d7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34681] => Array
+                                (
+                                    [notiers] => 34681
+                                    [lastname] => CHOQUET
+                                    [firstname] => Philippe
+                                    [email] => philippe.choquet2@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => avivi34+
+                                    [birthday] => 1951-11-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 150
+                                    [NbPointsRestants] => 150
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46039
+                                                            [alias] => 16100 COGNAC
+                                                            [address1] => 40, rue de rochefort
+                                                            [address2] => rdc
+                                                            [city] => COGNAC
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CHOQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46040
+                                                            [alias] => 16100 COGNAC
+                                                            [address1] => 40, rue de rochefort
+                                                            [address2] => rdc
+                                                            [city] => COGNAC
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => CHOQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

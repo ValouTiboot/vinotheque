@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77766
+    [IdTransaction] => eaba506e8d5f4af79b8c5dabdca2b6ec
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33977] => Array
+                                (
+                                    [notiers] => 33977
+                                    [lastname] => HEINRICH
+                                    [firstname] => Michel
+                                    [email] => michel.heinrich@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 19801981
+                                    [birthday] => 1950-05-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 62
+                                    [NbPointsRestants] => 62
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44820
+                                                            [alias] => 67460 SOUFFELWEYERSHEIM
+                                                            [address1] => 46, LAVOISIER
+                                                            [address2] => ETAGE 2
+                                                            [city] => SOUFFELWEYERSHEIM
+                                                            [postcode] => 67460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => HEINRICH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44821
+                                                            [alias] => 67460 SOUFFELWEYERSHEIM
+                                                            [address1] => 46, LAVOISIER
+                                                            [address2] => ETAGE 2
+                                                            [city] => SOUFFELWEYERSHEIM
+                                                            [postcode] => 67460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => HEINRICH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

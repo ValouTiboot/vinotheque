@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79315
+    [IdTransaction] => fbf6c9cbb79a4840b02f4726a294f625
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26726] => Array
+                                (
+                                    [notiers] => 26726
+                                    [lastname] => MILLER
+                                    [firstname] => Antony
+                                    [email] => tony@tonymillerdp.com
+                                    [id_gender] => 1
+                                    [passwd] => Intrepid1
+                                    [birthday] => 1964-11-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1364
+                                    [NbPointsRestants] => 1364
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33089
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 10, Rude de L`Aude
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antony
+                                                            [lastname] => MILLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33090
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 10, Rude de L`Aude
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antony
+                                                            [lastname] => MILLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

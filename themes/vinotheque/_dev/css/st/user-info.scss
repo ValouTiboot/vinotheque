@@ -1,0 +1,44 @@
+#_desktop_user_info, #blockcart-wrapper {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+  i {
+    color: $green-dark;
+    font-size: rem(38px);
+    vertical-align: middle;
+  }
+}
+#_desktop_user_info {
+  padding-right: 1%;
+  padding-left: 0;
+}
+
+.user-info {
+  font-size: 0;
+  > * {
+    font-size: 1rem;
+  }
+  a {
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    display: inline-block;
+    padding: $normal-space;
+    margin-top: $medium-space;
+    border: 1px solid $green;
+    &:hover {
+      background-color: $green-lighter;
+      color: black;
+    }
+    span {
+      vertical-align: middle;
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .user-info a {
+    padding: 0;
+  }
+}

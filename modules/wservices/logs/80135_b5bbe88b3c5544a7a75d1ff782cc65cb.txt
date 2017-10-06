@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80135
+    [IdTransaction] => b5bbe88b3c5544a7a75d1ff782cc65cb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29251] => Array
+                                (
+                                    [notiers] => 29251
+                                    [lastname] => DURAND
+                                    [firstname] => Pascal
+                                    [email] => pascalenparadis@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => PASCAL71
+                                    [birthday] => 1969-08-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 21
+                                    [NbPointsRestants] => 21
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36897
+                                                            [alias] => 71570 SAINT-AMOUR-BELLEVUE
+                                                            [address1] => EN PARADIS
+                                                            [address2] => DOMAINE DES VIGNES DU PARADIS
+                                                            [city] => SAINT-AMOUR-BELLEVUE
+                                                            [postcode] => 71570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36898
+                                                            [alias] => 71570 SAINT-AMOUR-BELLEVUE
+                                                            [address1] => EN PARADIS
+                                                            [address2] => DOMAINE DES VIGNES DU PARADIS
+                                                            [city] => SAINT-AMOUR-BELLEVUE
+                                                            [postcode] => 71570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pascal
+                                                            [lastname] => DURAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

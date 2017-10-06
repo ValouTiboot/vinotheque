@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74940
+    [IdTransaction] => f1a99725efc646e6b5ad52a4b254ac65
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32669] => Array
+                                (
+                                    [notiers] => 32669
+                                    [lastname] => DAVID
+                                    [firstname] => Mc
+                                    [email] => mcacbx@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 19871954MDMCD
+                                    [birthday] => 1955-04-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 74
+                                    [NbPointsRestants] => 74
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42559
+                                                            [alias] => 33930 MONTALIVET
+                                                            [address1] => 6, René Cassin
+                                                            [address2] => 
+                                                            [city] => MONTALIVET
+                                                            [postcode] => 33930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mc
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42560
+                                                            [alias] => 33930 MONTALIVET
+                                                            [address1] => 6, Rue René Cassin
+                                                            [address2] => 
+                                                            [city] => MONTALIVET
+                                                            [postcode] => 33930
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mc
+                                                            [lastname] => DAVID
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

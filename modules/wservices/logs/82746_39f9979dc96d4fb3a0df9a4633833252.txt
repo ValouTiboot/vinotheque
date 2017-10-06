@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82746
+    [IdTransaction] => 39f9979dc96d4fb3a0df9a4633833252
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24747] => Array
+                                (
+                                    [notiers] => 24747
+                                    [lastname] => MOREAU
+                                    [firstname] => Michel
+                                    [email] => moreaumichel22@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => mmor1206
+                                    [birthday] => 1954-03-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30619
+                                                            [alias] => 53000 LAVAL
+                                                            [address1] => 38, Rue de Bel Air
+                                                            [address2] => 
+                                                            [city] => LAVAL
+                                                            [postcode] => 53000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MOREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30620
+                                                            [alias] => 53000 LAVAL
+                                                            [address1] => 38, Rue de Bel Air
+                                                            [address2] => 
+                                                            [city] => LAVAL
+                                                            [postcode] => 53000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MOREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

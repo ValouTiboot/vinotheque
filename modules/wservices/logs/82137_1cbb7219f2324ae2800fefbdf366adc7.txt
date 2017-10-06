@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82137
+    [IdTransaction] => 1cbb7219f2324ae2800fefbdf366adc7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31400] => Array
+                                (
+                                    [notiers] => 31400
+                                    [lastname] => GRATEAU
+                                    [firstname] => Thomas
+                                    [email] => thomas.grateau@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => ballan-city
+                                    [birthday] => 1987-05-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 38
+                                    [NbPointsRestants] => 38
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40533
+                                                            [alias] => 37300 JOUE-LES-TOURS
+                                                            [address1] => 10, rue pierre mendes france
+                                                            [address2] => 
+                                                            [city] => JOUE-LES-TOURS
+                                                            [postcode] => 37300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => GRATEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40534
+                                                            [alias] => 37300 JOUE-LES-TOURS
+                                                            [address1] => 10, rue pierre mendes france
+                                                            [address2] => 
+                                                            [city] => JOUE-LES-TOURS
+                                                            [postcode] => 37300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => GRATEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

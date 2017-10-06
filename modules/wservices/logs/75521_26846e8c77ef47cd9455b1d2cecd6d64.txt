@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75521
+    [IdTransaction] => 26846e8c77ef47cd9455b1d2cecd6d64
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25786] => Array
+                                (
+                                    [notiers] => 25786
+                                    [lastname] => RANCHER
+                                    [firstname] => Jean
+                                    [email] => rancher.jean@wanadoo.frchacal57
+                                    [id_gender] => 1
+                                    [passwd] => chacal57
+                                    [birthday] => 1930-02-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31704
+                                                            [alias] => 57400 SARREBOURG
+                                                            [address1] => 1, rue des maraicners SARREBOURG
+                                                            [address2] => résidence CELIA 1 rue des Maraichers
+                                                            [city] => SARREBOURG
+                                                            [postcode] => 57400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => RANCHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31705
+                                                            [alias] => 57400 SARREBOURG
+                                                            [address1] => 1, rue des Maraichers SARREBOURG
+                                                            [address2] => résidence CELIA
+                                                            [city] => SARREBOURG
+                                                            [postcode] => 57400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean
+                                                            [lastname] => RANCHER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

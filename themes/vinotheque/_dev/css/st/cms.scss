@@ -1,0 +1,253 @@
+/** Ventes privées **/
+#cms.cms-id-7 {
+  #main.container {
+    background: url("../img/vin_bg_white.png") left 100px no-repeat, url("../img/vente_plus_bg.png") right 100px no-repeat;
+  }
+  #footer {
+    margin-top: 0;
+  }
+
+  @media (min-width: 576px) {
+    #main.container {
+      width: 768px;
+      max-width: 100%;
+      padding-left: 129px;
+      padding-right: 129px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #main.container {
+      width: 992px;
+      max-width: 100%;
+      padding-left: 151px;
+      padding-right: 151px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #main.container {
+      width: 1200px;
+      max-width: 100%;
+      padding-left: 135px;
+      padding-right: 135px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    #main.container {
+      width: 1300px;
+      max-width: 100%;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+}
+
+
+/** Qui sommes nous **/
+#cms.cms-id-4 {
+  #main.container {
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  #footer {
+    margin-top: 0;
+  }
+}
+
+#cms #content {
+  font-size: rem(17px);
+  margin-bottom: rem(25px);
+  &.page-content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    list-style-image: url("../img/list-image.png");
+    padding-left: rem(17px);
+  }
+  blockquote {
+    padding: 2.5rem 2rem 1rem;
+    position: relative;
+    background: $gray-lighter;
+    line-height: 1.875rem;
+    margin-bottom: rem(15px);
+    &::before {
+      background: url("../img/two_drops_bg.png") repeat-x white;
+      height: 22px;
+      content: "";
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-size: rem(15px);
+      font-weight: normal;
+    }
+  }
+  p, div, ul {
+    line-height: rem(30px);
+    margin-bottom: rem(40px);
+    font-weight: 300;
+  }
+  .page-header {
+    margin-bottom: rem(60px);
+  }
+  img {
+    float: left;
+    margin-right: rem(20px);
+  }
+  a {
+    color: $red;
+    font-weight: bold;
+    text-decoration: none;
+    &.btn.btn-default {
+      padding: rem(14px) rem(50px) rem(11px);
+      font-size: rem(18px);
+      color: $green-dark;
+      text-transform: uppercase;
+      background-color: white;
+      border: 2px solid;
+      &:hover, &:focus, &.focus {
+        color: white;
+        background-color: $green-dark;
+        border-color: $green-dark;
+      }
+    }
+  }
+
+  /** Ventes privées **/
+  #vente_plus {
+    .plus_detail {
+      margin-bottom: 40px;
+      div {
+        text-align: center;
+        padding: 30px 10px 45px;
+        display: block;
+        height: 100%;
+        background-color: $green-light;
+        background-image: url("../img/partage_bg.png");
+        background-repeat: no-repeat;
+        background-position: center 90%;
+        border: 1px solid $gray-lighter;
+        font-size: rem(18px);
+        p {
+          line-height: rem(20px);
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  #soldes, #soldes p {
+    font-weight: bold;
+    font-size: rem(20px);
+    margin-bottom: rem(70px);
+    #soldes_title {
+      font-size: rem(30px);
+    }
+    .col-xl-5 {
+      border: 1px solid $red;
+      padding: rem(35px) rem(30px) rem(30px);
+      .btn {
+        position: absolute;
+        bottom: rem(30px);
+      }
+    }
+    .col-xl-7 {
+      padding-left: 0;
+      padding-right: 0;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /** Qui sommes nous **/
+  .qsn_title {
+    font-size: rem(30px);
+  }
+  #qsn_intro {
+    background-image: url("../img/qsn_intro_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .row div div {
+      background: white;
+    }
+    #qsn_description {
+      padding: rem(40px);
+      margin: rem(175px) 0 rem(155px);
+    }
+  }
+  #qsn_map {
+    img {
+      float: none;
+      margin: auto;
+      display: block;
+    }
+    div {
+      padding-top: rem(65px);
+      line-height: rem(30px);
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+  .qsn_gallery {
+    margin-left: -20px;
+    margin-right: -20px;
+    div {
+      padding-left: 5px;
+      padding-right: 5px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #qsn_site {
+    background: url("../img/qsn_site_bg.png") right top no-repeat;
+    > div > div {
+      margin: 0;
+    }
+  }
+  #qsn_salle {
+    background: url("../img/qsn_salle_bg.png") left bottom no-repeat;
+    padding-top: 95px;
+    margin-top: -95px;
+    .two_drops_separator {
+      margin-bottom: rem(50px);
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  #cms #content #qsn_intro #qsn_description {
+    padding: rem(20px);
+    margin: rem(100px) 0;
+  }
+}
+@include media-breakpoint-down(sm) {
+  #cms #content {
+    #qsn_intro #qsn_description {
+      margin: rem(70px) 0 0;
+    }
+    #qsn_map div {
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+    #qsn_site {
+      background: none;
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  #cms #content .qsn_gallery div {
+    margin-bottom: rem(10px);
+  }
+}

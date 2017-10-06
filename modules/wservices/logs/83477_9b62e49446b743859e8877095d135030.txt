@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83477
+    [IdTransaction] => 9b62e49446b743859e8877095d135030
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32679] => Array
+                                (
+                                    [notiers] => 32679
+                                    [lastname] => CLÉMENT
+                                    [firstname] => Didier
+                                    [email] => d3clement@noos.fr
+                                    [id_gender] => 1
+                                    [passwd] => don2ald
+                                    [birthday] => 1945-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 136
+                                    [NbPointsRestants] => 136
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42572
+                                                            [alias] => 78290 CROISSY-SUR-SEINE
+                                                            [address1] => 2, Avenue patrocle Croissy sur seine
+                                                            [address2] => 
+                                                            [city] => CROISSY-SUR-SEINE
+                                                            [postcode] => 78290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => CLÉMENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42573
+                                                            [alias] => 78290 CROISSY-SUR-SEINE
+                                                            [address1] => 2, Avenue patrocle Croissy sur seine
+                                                            [address2] => 
+                                                            [city] => CROISSY-SUR-SEINE
+                                                            [postcode] => 78290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => CLÉMENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

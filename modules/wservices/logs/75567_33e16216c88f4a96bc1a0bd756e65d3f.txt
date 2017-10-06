@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75567
+    [IdTransaction] => 33e16216c88f4a96bc1a0bd756e65d3f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35986] => Array
+                                (
+                                    [notiers] => 35986
+                                    [lastname] => LAGUET
+                                    [firstname] => Michel
+                                    [email] => michel.laguet@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => clement2016
+                                    [birthday] => 1954-04-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48152
+                                                            [alias] => 42600 MONBRISON
+                                                            [address1] => 8, IMPASSE DES GENETS
+                                                            [address2] => 
+                                                            [city] => MONBRISON
+                                                            [postcode] => 42600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => LAGUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48153
+                                                            [alias] => 42600 MONBRISON
+                                                            [address1] => 8, IMPASSE DES GENETS
+                                                            [address2] => 
+                                                            [city] => MONBRISON
+                                                            [postcode] => 42600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => LAGUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

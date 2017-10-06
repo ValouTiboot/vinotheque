@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82590
+    [IdTransaction] => 8f8f5cbe7cce434497c5adac2dc02d28
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35152] => Array
+                                (
+                                    [notiers] => 35152
+                                    [lastname] => RADER
+                                    [firstname] => Sophie
+                                    [email] => sophie.rdr@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => papa120340
+                                    [birthday] => 1991-05-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46774
+                                                            [alias] => 06240 BEAUSOLEIL
+                                                            [address1] => 15, Rue Pasteur
+                                                            [address2] => 3ème étage La Vigie
+                                                            [city] => BEAUSOLEIL
+                                                            [postcode] => 06240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => RADER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46775
+                                                            [alias] => 37310 DOLUS-LE-SEC
+                                                            [address1] => Le Clos-Garnier
+                                                            [address2] => 
+                                                            [city] => DOLUS-LE-SEC
+                                                            [postcode] => 37310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => RADER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

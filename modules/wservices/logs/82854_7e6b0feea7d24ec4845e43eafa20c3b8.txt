@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82854
+    [IdTransaction] => 7e6b0feea7d24ec4845e43eafa20c3b8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25583] => Array
+                                (
+                                    [notiers] => 25583
+                                    [lastname] => JANIS
+                                    [firstname] => Mathieu
+                                    [email] => mathieujanis@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => Cendrillon31
+                                    [birthday] => 1981-08-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31392
+                                                            [alias] => 31120 LACROIX-FALGARDE
+                                                            [address1] => 21, Chemin de la colomière
+                                                            [address2] => 
+                                                            [city] => LACROIX-FALGARDE
+                                                            [postcode] => 31120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => JANIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31393
+                                                            [alias] => 31000 TOULOUSE
+                                                            [address1] => 2, Boulevard de strasbourg
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => JANIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

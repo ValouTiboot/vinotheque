@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81092
+    [IdTransaction] => 6d46ee5b8b9a4af68a16360d58f196ae
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35543] => Array
+                                (
+                                    [notiers] => 35543
+                                    [lastname] => MICHALCZIK
+                                    [firstname] => John
+                                    [email] => john.michalczik@yahoo.de
+                                    [id_gender] => 1
+                                    [passwd] => bil500bo
+                                    [birthday] => 1974-07-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1101
+                                    [NbPointsRestants] => 1101
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47430
+                                                            [alias] => 80638 MUENCHEN
+                                                            [address1] => stuberstr.7
+                                                            [address2] => 
+                                                            [city] => MUENCHEN
+                                                            [postcode] => 80638
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => John
+                                                            [lastname] => MICHALCZIK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47431
+                                                            [alias] => 80638 MUENCHEN
+                                                            [address1] => stuberstr.7
+                                                            [address2] => 
+                                                            [city] => MUENCHEN
+                                                            [postcode] => 80638
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => John
+                                                            [lastname] => MICHALCZIK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

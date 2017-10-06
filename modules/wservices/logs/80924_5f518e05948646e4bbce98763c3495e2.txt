@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80924
+    [IdTransaction] => 5f518e05948646e4bbce98763c3495e2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31642] => Array
+                                (
+                                    [notiers] => 31642
+                                    [lastname] => GARNIER
+                                    [firstname] => Michel
+                                    [email] => mgchefprive@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => SENISEM
+                                    [birthday] => 1968-07-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 156
+                                    [NbPointsRestants] => 156
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40945
+                                                            [alias] => 08195 ST CUGAT DEL VALLES
+                                                            [address1] => 68, RAMBLA DEL JARDI 08195
+                                                            [address2] => 
+                                                            [city] => ST CUGAT DEL VALLES
+                                                            [postcode] => 08195
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GARNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => ES
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40946
+                                                            [alias] => 08195 ST CUGAT DEL VALLES
+                                                            [address1] => 68, RAMBLA DEL JARDI 08195
+                                                            [address2] => 
+                                                            [city] => ST CUGAT DEL VALLES
+                                                            [postcode] => 08195
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GARNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => ES
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

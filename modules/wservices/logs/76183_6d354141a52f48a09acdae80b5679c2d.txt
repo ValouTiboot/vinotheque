@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76183
+    [IdTransaction] => 6d354141a52f48a09acdae80b5679c2d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27900] => Array
+                                (
+                                    [notiers] => 27900
+                                    [lastname] => MORANGE
+                                    [firstname] => Michel
+                                    [email] => morangedd@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => martial
+                                    [birthday] => 1945-04-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34963
+                                                            [alias] => 87220 EYJEAUX
+                                                            [address1] => 6, La fontaine Caillaud
+                                                            [address2] => 
+                                                            [city] => EYJEAUX
+                                                            [postcode] => 87220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MORANGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34964
+                                                            [alias] => 21150 VENAREY-LES-LAUMES
+                                                            [address1] => 21, Avenue de Dijon
+                                                            [address2] => Bureau de poste
+                                                            [city] => VENAREY-LES-LAUMES
+                                                            [postcode] => 21150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MORANGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

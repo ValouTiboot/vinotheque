@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75454
+    [IdTransaction] => b72c2f91217f48a18d6a96fcd8bb973c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31383] => Array
+                                (
+                                    [notiers] => 31383
+                                    [lastname] => LACQUIT
+                                    [firstname] => Sophie
+                                    [email] => slacquit@neuf.fr
+                                    [id_gender] => 2
+                                    [passwd] => lavandou
+                                    [birthday] => 1982-04-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 153
+                                    [NbPointsRestants] => 153
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40500
+                                                            [alias] => 63960 VEYRE-MONTON
+                                                            [address1] => 16, Chemin des Acacias
+                                                            [address2] => 
+                                                            [city] => VEYRE-MONTON
+                                                            [postcode] => 63960
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => LACQUIT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40501
+                                                            [alias] => 63960 VEYRE-MONTON
+                                                            [address1] => 16, Chemin des Acacias
+                                                            [address2] => 
+                                                            [city] => VEYRE-MONTON
+                                                            [postcode] => 63960
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => LACQUIT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

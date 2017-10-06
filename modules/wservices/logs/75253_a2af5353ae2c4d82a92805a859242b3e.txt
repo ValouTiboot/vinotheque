@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75253
+    [IdTransaction] => a2af5353ae2c4d82a92805a859242b3e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27017] => Array
+                                (
+                                    [notiers] => 27017
+                                    [lastname] => EMONTSGAST
+                                    [firstname] => Marc
+                                    [email] => emonts@telenet.be
+                                    [id_gender] => 1
+                                    [passwd] => quoosha3
+                                    [birthday] => 1949-07-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 337
+                                    [NbPointsRestants] => 337
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33569
+                                                            [alias] => 8300 KNOKKE
+                                                            [address1] => 1b, jan devischstraat
+                                                            [address2] => 
+                                                            [city] => KNOKKE
+                                                            [postcode] => 8300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => EMONTSGAST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33570
+                                                            [alias] => 8300 KNOKKE
+                                                            [address1] => 1b, jan devischstraat
+                                                            [address2] => 
+                                                            [city] => KNOKKE
+                                                            [postcode] => 8300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => EMONTSGAST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

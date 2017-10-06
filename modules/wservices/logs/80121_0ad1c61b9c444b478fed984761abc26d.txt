@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80121
+    [IdTransaction] => 0ad1c61b9c444b478fed984761abc26d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29242] => Array
+                                (
+                                    [notiers] => 29242
+                                    [lastname] => BAUDIN
+                                    [firstname] => Thomas
+                                    [email] => thomasbaudin1@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Mot2passe
+                                    [birthday] => 1984-05-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36882
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 35, rue de madrid
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => BAUDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36883
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 35, rue de madrid
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => BAUDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

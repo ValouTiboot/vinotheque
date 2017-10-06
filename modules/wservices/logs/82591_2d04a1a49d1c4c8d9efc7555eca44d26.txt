@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82591
+    [IdTransaction] => 2d04a1a49d1c4c8d9efc7555eca44d26
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34809] => Array
+                                (
+                                    [notiers] => 34809
+                                    [lastname] => NICOLI
+                                    [firstname] => Jacques
+                                    [email] => jacques.nicoli.20@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ma041912
+                                    [birthday] => 1961-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 324
+                                    [NbPointsRestants] => 324
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46245
+                                                            [alias] => 92500 RUEIL-MALMAISON
+                                                            [address1] => 8, Rue du Lac
+                                                            [address2] => 
+                                                            [city] => RUEIL-MALMAISON
+                                                            [postcode] => 92500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => NICOLI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46246
+                                                            [alias] => 92500 RUEIL-MALMAISON
+                                                            [address1] => 8, Rue du Lac
+                                                            [address2] => 
+                                                            [city] => RUEIL-MALMAISON
+                                                            [postcode] => 92500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => NICOLI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

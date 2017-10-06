@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76885
+    [IdTransaction] => bb5c155212f14bbd862c9a3393269e6f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32354] => Array
+                                (
+                                    [notiers] => 32354
+                                    [lastname] => LEWANDOWSKI
+                                    [firstname] => Gregory
+                                    [email] => g.lewandowski@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => marie666
+                                    [birthday] => 1972-03-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42033
+                                                            [alias] => 44840 SORINIERES
+                                                            [address1] => 22, rue des pays de la Loire
+                                                            [address2] => 
+                                                            [city] => SORINIERES
+                                                            [postcode] => 44840
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => LEWANDOWSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42034
+                                                            [alias] => 44840 SORINIERES
+                                                            [address1] => 22, rue des pays de la Loire
+                                                            [address2] => 
+                                                            [city] => SORINIERES
+                                                            [postcode] => 44840
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => LEWANDOWSKI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

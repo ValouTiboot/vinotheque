@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79633
+    [IdTransaction] => 44f2a5a7b15a4a768ab4e98cb80f6933
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33417] => Array
+                                (
+                                    [notiers] => 33417
+                                    [lastname] => LESSER
+                                    [firstname] => Christian
+                                    [email] => c.lesser@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => MARGAUX0
+                                    [birthday] => 1953-04-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43815
+                                                            [alias] => 67470 SELTZ
+                                                            [address1] => 34B, Rte de Strasbourg
+                                                            [address2] => 
+                                                            [city] => SELTZ
+                                                            [postcode] => 67470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => LESSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43816
+                                                            [alias] => 67470 SELTZ
+                                                            [address1] => 6A, Rue de Munchhausen
+                                                            [address2] => 
+                                                            [city] => SELTZ
+                                                            [postcode] => 67470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => LESSER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

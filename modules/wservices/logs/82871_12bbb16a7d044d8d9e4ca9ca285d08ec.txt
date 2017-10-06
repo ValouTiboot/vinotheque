@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82871
+    [IdTransaction] => 12bbb16a7d044d8d9e4ca9ca285d08ec
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36269] => Array
+                                (
+                                    [notiers] => 36269
+                                    [lastname] => LACHAISE
+                                    [firstname] => Michel
+                                    [email] => micheletannie.lachaise@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => Michel1934
+                                    [birthday] => 1934-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48625
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 299, Rue Pasteur
+                                                            [address2] => appartement 280 Batiment C
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => LACHAISE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48626
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 299, Rue Pasteur
+                                                            [address2] => appartement 280 Batiment C
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => LACHAISE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

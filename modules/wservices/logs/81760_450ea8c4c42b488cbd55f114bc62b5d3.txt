@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81760
+    [IdTransaction] => 450ea8c4c42b488cbd55f114bc62b5d3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29619] => Array
+                                (
+                                    [notiers] => 29619
+                                    [lastname] => CHIGNARD
+                                    [firstname] => Nicolas
+                                    [email] => nicolas_chignard@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Coug@rs21vinotheque
+                                    [birthday] => 1975-08-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 126
+                                    [NbPointsRestants] => 126
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37447
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 26, rue des Cordelières
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => CHIGNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37448
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 26, rue des Cordelières
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => CHIGNARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

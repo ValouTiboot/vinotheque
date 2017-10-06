@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74857
+    [IdTransaction] => d21eb8beca6448208f91f29d27fffb6f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30559] => Array
+                                (
+                                    [notiers] => 30559
+                                    [lastname] => NUN
+                                    [firstname] => Patrick
+                                    [email] => nun.patrick@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 12071980
+                                    [birthday] => 1953-11-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39060
+                                                            [alias] => 83500 SEYNE-SUR-MER
+                                                            [address1] => 134, chemin de selon
+                                                            [address2] => 
+                                                            [city] => SEYNE-SUR-MER
+                                                            [postcode] => 83500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => NUN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39061
+                                                            [alias] => 44470 CARQUEFOU
+                                                            [address1] => 8, allée molière
+                                                            [address2] => 
+                                                            [city] => CARQUEFOU
+                                                            [postcode] => 44470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Patrick
+                                                            [lastname] => NUN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

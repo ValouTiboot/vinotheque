@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77456
+    [IdTransaction] => 771f7f58282b47b1ba7fd3221aed1018
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28438] => Array
+                                (
+                                    [notiers] => 28438
+                                    [lastname] => BOURDEAU-SIWA
+                                    [firstname] => Dominique
+                                    [email] => dominique.bourdeau-siwa@sfr.fr
+                                    [id_gender] => 2
+                                    [passwd] => edgar01
+                                    [birthday] => 1950-02-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 227
+                                    [NbPointsRestants] => 227
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35729
+                                                            [alias] => 87350 PANAZOL
+                                                            [address1] => 38 bis, avenue Adrien Pressemane
+                                                            [address2] => 
+                                                            [city] => PANAZOL
+                                                            [postcode] => 87350
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => BOURDEAU-SIWA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35730
+                                                            [alias] => 3013 CE ROTTERDAM
+                                                            [address1] => 61A, Weena
+                                                            [address2] => 
+                                                            [city] => ROTTERDAM
+                                                            [postcode] => 3013 CE
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => BOURDEAU-SIWA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => NL
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76976
+    [IdTransaction] => d68f6e3126cd494cb511aa242f9b00b0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24987] => Array
+                                (
+                                    [notiers] => 24987
+                                    [lastname] => TIGNON
+                                    [firstname] => Ludovic
+                                    [email] => ltignon@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 11061976
+                                    [birthday] => 1976-06-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 421
+                                    [NbPointsRestants] => 421
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30953
+                                                            [alias] => 44200 NANTES
+                                                            [address1] => 11, Boulevard François Blancho
+                                                            [address2] => 
+                                                            [city] => NANTES
+                                                            [postcode] => 44200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => TIGNON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30954
+                                                            [alias] => 44200 NANTES
+                                                            [address1] => 11, Boulevard François BLANCHO
+                                                            [address2] => 9 eme etage
+                                                            [city] => NANTES
+                                                            [postcode] => 44200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => TIGNON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

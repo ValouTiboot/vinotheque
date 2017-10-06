@@ -1,0 +1,965 @@
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "partials/_variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css";
+@import "partials/_mixins";
+@import "partials/_fonts";
+@import "partials/_commons";
+//@import "components/alert";
+//@import "components/drop-down";
+@import "st/search-widget";
+@import "st/mainmenu";
+@import "st/user-info";
+@import "st/cart";
+@import "st/footer";
+@import "st/categories";
+@import "st/customtext";
+@import "st/cms";
+@import "st/pagination";
+@import "st/my-account";
+@import "st/form";
+@import "st/facets";
+@import "st/product";
+@import "st/order";
+
+/*** VINOTHEQUE ICON FONT ***/
+@font-face {
+  font-family: 'vinotheque';
+  src:  url('fonts/vinotheque.eot?cpz57x');
+  src:  url('fonts/vinotheque.eot?cpz57x#iefix') format('embedded-opentype'),
+  url('fonts/vinotheque.ttf?cpz57x') format('truetype'),
+  url('fonts/vinotheque.woff?cpz57x') format('woff'),
+  url('fonts/vinotheque.svg?cpz57x#vinotheque') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'vinotheque' !important;
+  speak: none;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-v-bottle:before,
+.icon-ic-vinotheque_60px-copie-2:before {
+  content: "\e900";
+}
+.icon-v-hearts:before,
+.icon-ic-vinotheque_60px-copie-3:before {
+  content: "\e901";
+}
+.icon-v-gift:before,
+.icon-ic-vinotheque_60px-copie:before {
+  content: "\e902";
+}
+.icon-v-map:before,
+.icon-ic-vinotheque_60px:before {
+  content: "\e903";
+}
+.icon-v-glass:before,
+.icon-ic-vinotheque-24:before {
+  content: "\e904";
+}
+.icon-v-users:before,
+.icon-ic-vinotheque-25:before {
+  content: "\e905";
+}
+.icon-v-heart:before,
+.icon-ic-vinotheque-11:before {
+  content: "\e906";
+}
+.icon-v-plus:before,
+.icon-ic-vinotheque-12:before {
+  content: "\e907";
+}
+.icon-v-user:before,
+.icon-ic-vinotheque-13:before {
+  content: "\e908";
+}
+.icon-v-search:before,
+.icon-ic-vinotheque-14:before {
+  content: "\e909";
+}
+.icon-v-check:before,
+.icon-ic-vinotheque-15:before {
+  content: "\e90a";
+}
+.icon-v-temperature:before,
+.icon-ic-vinotheque-16:before {
+  content: "\e90b";
+}
+.icon-v-agenda:before,
+.icon-ic-vinotheque-17:before {
+  content: "\e90c";
+}
+.icon-v-cart:before,
+.icon-ic-vinotheque-18:before {
+  content: "\e90d";
+}
+.icon-v-reward:before,
+.icon-ic-vinotheque-19:before {
+  content: "\e90e";
+}
+.icon-v-france:before,
+.icon-ic-vinotheque-20:before {
+  content: "\e90f";
+}
+.icon-v-gifts:before,
+.icon-ic-vinotheque-21:before {
+  content: "\e910";
+}
+.icon-v-truck:before,
+.icon-ic-vinotheque-22:before {
+  content: "\e911";
+}
+.icon-v-question:before,
+.icon-ic-vinotheque-23:before {
+  content: "\e912";
+}
+.icon-v-planning:before,
+.icon-ic-vinotheque-01:before {
+  content: "\e913";
+}
+.icon-v-pricetag:before,
+.icon-ic-vinotheque-02:before {
+  content: "\e914";
+}
+.icon-v-maps:before,
+.icon-ic-vinotheque-03:before {
+  content: "\e915";
+}
+.icon-v-tag:before,
+.icon-ic-vinotheque-04:before {
+  content: "\e916";
+}
+.icon-v-bottles:before,
+.icon-ic-vinotheque-05:before {
+  content: "\e917";
+}
+.icon-v-heart-plus:before,
+.icon-ic-vinotheque-06:before {
+  content: "\e918";
+}
+.icon-v-heart-user:before,
+.icon-ic-vinotheque-07:before {
+  content: "\e919";
+}
+.icon-v-sheet:before,
+.icon-ic-vinotheque-08:before {
+  content: "\e91a";
+}
+.icon-v-check-bubble:before,
+.icon-ic-vinotheque-09:before {
+  content: "\e91b";
+}
+.icon-v-heart-castle:before,
+.icon-ic-vinotheque-10:before {
+  content: "\e91c";
+}
+
+/*** HEADER ***/
+#header {
+  background: white;
+  .logo {
+    max-width: 100%;
+  }
+  a {
+    color: $gray-darker;
+    font-size: rem(15px);
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .header-nav {
+    max-height: 45px;
+    margin-bottom: 30px;
+    #menu-icon {
+      vertical-align: middle;
+      cursor: pointer;
+      margin-left: rem(16px);
+      .material-icons {
+        line-height: 50px;
+      }
+    }
+    .right-nav {
+      @include display(flex);
+      @include flex-wrap(nowrap);
+      @include justify-content(flex-end);
+    }
+    .currency-selector {
+      margin-top: rem(15px);
+      margin-left: rem(15px);
+      white-space: nowrap;
+    }
+    .user-info {
+      margin-left: rem(40px);
+      margin-top: rem(15px);
+      text-align: right;
+      white-space: nowrap;
+      .account {
+        margin-left: $small-space;
+      }
+    }
+    .language-selector {
+      margin-top: rem(15px);
+      white-space: nowrap;
+    }
+    .cart-preview {
+      &.active {
+        background: $brand-primary;
+        a {
+          color: white;
+        }
+        i {
+          color: rgba(255, 255, 255, 0.6);
+        }
+      }
+      .shopping-cart {
+        vertical-align: middle;
+      }
+      .body {
+        display: none;
+      }
+    }
+    .blockcart {
+      background: $gray-light;
+      height: rem(48px);
+      padding: rem(12px);
+      margin-left: rem(15px);
+      text-align: center;
+      white-space: nowrap;
+      a {
+        color: $gray;
+        &:hover {
+          color: black;
+        }
+      }
+      &.active {
+        a:hover {
+          color: white;
+        }
+      }
+      .header {
+        margin-top: rem(2px);
+      }
+    }
+    .material-icons {
+      line-height: inherit;
+      &.expand-more {
+        margin-left: rem(-6px);
+      }
+    }
+  }
+  .header-top {
+    > .container {
+      position: relative;
+    }
+    .menu {
+      > ul {
+        > li {
+          float: left;
+        }
+      }
+      padding-left: 15px;
+      margin-bottom: rem(6px);
+    }
+    .position-static {
+      position: static;
+    }
+    a[data-depth="0"] {
+      color: $gray;
+      text-transform: uppercase;
+    }
+  }
+  .top-menu-link {
+    margin-left: $medium-space;
+  }
+}
+
+.popover {
+  font-family: inherit;
+}
+
+/*** STICKY MENU ***/
+.yes-sticky {
+  display: none;
+}
+@-webkit-keyframes stickymenu {
+  0% {
+    top: -120px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@-moz-keyframes stickymenu {
+  0% {
+    top: -120px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes 'stickymenu' {
+  0% {
+    top: -120px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.sticky {
+  &.is-sticky {
+    border-bottom: 1px solid $gray-light;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    animation: stickymenu 1s;
+    -webkit-animation: stickymenu 1s;
+    -moz-animation: stickymenu 1s;
+    .yes-sticky {
+      display: block;
+    }
+    .not-sticky {
+      display: none;
+    }
+    #logo a {
+      padding: 12px 10px 10px 0;
+      display: block;
+    }
+    .search-widget form {
+      margin-top: 15px;
+      input {
+        padding: 9px 13px;
+      }
+      button {
+        bottom: 0.2rem;
+      }
+    }
+    .col-lg-7 {
+      text-align: right;
+      //flex: 0 0 16.66667%;
+      //max-width: 16.66667%;
+      #_desktop_user_info, #blockcart-wrapper {
+        width: auto;
+        position: relative;
+        z-index: 1;
+        .user-info a, .header {
+          border: none;
+          margin-top: 0;
+        }
+        .user-info span, .header .header-label {
+          display: none;
+        }
+      }
+    }
+    #mega_menu_plus {
+      margin-top: 0;
+      padding-top: 0;
+      ul.mg-menu > li > a {
+        line-height: rem(20px);
+      }
+    }
+  }
+}
+.modal-open .sticky.is-sticky {
+  padding-right: rem(17px);
+}
+
+#_desktop_contact_link {
+  font-size: rem(15px);
+  flex: 0 0 300px;
+}
+
+@include media-breakpoint-down(lg) {
+  #_desktop_user_info a, #blockcart-wrapper {
+    font-size: rem(14px);
+  }
+}
+
+@include media-breakpoint-down(md) {
+  #_desktop_user_info a, #blockcart-wrapper {
+    font-size: rem(16px);
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  #_desktop_user_info a, #blockcart-wrapper {
+    font-size: rem(12px);
+  }
+}
+
+/*** BREADCRUMB ***/
+#breadcrumb_responsive {
+  background: $gray-lighter;
+  color: $gray-more-dark;
+  text-transform: uppercase;
+  font-size: rem(13px);
+  ul {
+    margin-bottom: 0;
+    li {
+    display: inline-block;
+    padding: 8px 0;
+      a {
+        color: $gray-more-dark;
+        padding: 8px 0;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      &::after {
+        content: ">";
+        padding: 0 4px;
+      }
+      &:last-child::after {
+        display: none;
+      }
+    }
+  }
+}
+
+/*** WRAPPER ***/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    max-width: 100%;
+  }
+}
+
+  #content-wrapper {
+    padding-top: rem(80px);
+  }
+  .breadcrumb {
+    padding: 0;
+    &[data-depth="1"] {
+      display: none;
+    }
+    ol {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    li {
+      display: inline;
+      &::after {
+        content: "/";
+        color: $gray-dark;
+        margin: em(5px);
+      }
+      &:last-child {
+        content: "/";
+        color: $gray-dark;
+        margin: 0;
+        &::after {
+          content: "";
+        }
+      }
+      a {
+        color: $gray-darker;
+      }
+    }
+  }
+
+/*** MAIN ***/
+#main {
+  .page-header {
+    margin-bottom: rem(25px);
+  }
+  .page-content {
+    h6 {
+      margin-bottom: rem(18p);
+    }
+    #notifications {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+}
+#notifications {
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+/*** Responsive part ***/
+@include media-breakpoint-down(sm) {
+  #checkout-cart-summary {
+    float: none;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  #header {
+    .header-nav {
+      margin-bottom: rem(10px);
+      #_desktop_contact_link {
+        font-size: rem(15px);
+        flex: 0 0 300px;
+      }
+      #_desktop_contact_link span {
+        font-size: rem(16px);
+      }
+      .top-logo {
+        line-height: 50px;
+        vertical-align: middle;
+        width: 200px;
+        margin: 0 auto;
+        a {
+          img {
+            max-height: 50px;
+            max-width: 100%;
+          }
+        }
+      }
+      .right-nav {
+        @include flex-direction(column);
+      }
+      .user-info {
+        text-align: left;
+        margin-left: 0;
+        .logged {
+          color: black;
+        }
+      }
+      .blockcart {
+        margin-left: 0;
+        background: inherit;
+        &.active {
+          margin-left: rem(8px);
+        }
+        &.inactive {
+          .cart-products-count {
+            display: none;
+          }
+        }
+      }
+    }
+    .header-top {
+      padding-bottom: 0;
+      border-bottom: rem(42px) solid $red;
+      .container {
+        margin-bottom: -42px;
+      }
+      a[data-depth="0"] {
+        color: $gray-darker;
+      }
+    }
+  }
+  section.checkout-step {
+    width: 100%;
+  }
+  .default-input {
+    min-width: 100%;
+  }
+  label {
+    clear: both;
+  }
+  #products .product-miniature,
+  .featured-products .product-miniature {
+    margin: 0 auto;
+  }
+  .block-contact {
+    padding-left: 0.9375rem;
+    border: none;
+  }
+  .menu,
+  .dropdown-item {
+    padding-left: 0;
+  }
+}
+@include media-breakpoint-down(md) {
+  .container {
+    max-width: 100%;
+  }
+  #header .logo {
+    width: auto;
+  }
+  #_desktop_top_menu, #_desktop_contact_link, #_desktop_contact_link #contact-link span {
+    font-size: rem(15px);
+    line-height: rem(23px);
+  }
+  #_desktop_contact_link {
+    flex: 0 0 270px;
+  }
+  #products .product-miniature,
+  .featured-products .product-miniature {
+    margin: 0 auto;
+  }
+  .sub-menu {
+    left: 0;
+    min-width: 100%;
+  }
+  #product-availability {
+    margin-top: $small-space;
+  }
+  #search_filters .facet .facet-label {
+    text-align: left;
+  }
+  .block-category .category-cover {
+    position: relative;
+    text-align: center;
+  }
+  .block-category {
+    padding-bottom: 0;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #logo {
+    text-align: center;
+    margin-bottom: 15px;
+    img.not-sticky {
+      width: 150px;
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  #left-column, #content-wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .is-sticky #logo {
+    margin-bottom: 0;
+  }
+}
+
+/*** HOME ***/
+#top_column {
+  overflow: auto;
+}
+#top_column_after_responsive {
+  background: $green-light;
+  padding: 35px 0 30px;
+}
+#search_form_responsive {
+  background: $gray-light;
+  padding: 15px 0;
+  select {
+    height: 100%;
+  }
+  #search_button {
+    font-size: rem(22px);
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+  }
+  .form-control {
+    border: 0;
+  }
+}
+@include media-breakpoint-down(md) {
+  #search_form > div.col-lg-5, #search_form > div.col-lg-2 {
+    margin-bottom: 5px;
+  }
+}
+
+#index {
+  overflow-x: hidden;
+  .page-content, #footer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .products {
+    padding-top: rem(70px);
+  }
+}
+
+/*** REASSURANCE ***/
+.reassurance {
+  i {
+    font-size: rem(60px);
+    line-height: 110px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 0;
+    left: 0;
+  }
+  .reassurance_title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &.reassurance_header {
+    i {
+      color: white;
+      text-align: center;
+    }
+    .reassurance_title {
+      color: $green-even-darker;
+    }
+    p {
+      margin-bottom: 0;
+      .reassurance_title {
+        margin-top: 15px;
+      }
+    }
+    img {
+      float: left;
+    }
+    b {
+      white-space: nowrap;
+    }
+  }
+  &.reassurance_footer {
+    text-align: center;
+    img {
+      margin-bottom: rem(5px);
+    }
+    b {
+      white-space: nowrap;
+    }
+  }
+}
+
+@include media-breakpoint-between(lg, lg) {
+  .reassurance.reassurance_header {
+    text-align: center;
+    .reassurance_title {
+      margin-bottom: rem(5px);
+    }
+    img {
+      float: none;
+    }
+  }
+}
+
+/*** VINOTHEQUE ***/
+#vinotheque {
+  margin-top: 100px;
+  #vinotheque_photo_1 {
+    img {
+      min-width: 100%;
+    }
+  }
+  #vinotheque_photo_2, #vinotheque_photo_3 {
+    img {
+      width: 100%;
+    }
+  }
+  > .row:first-child {
+    margin-bottom: 10px;
+  }
+  .row {
+    margin-right: -5px;
+    margin-left: -5px;
+    [class^="col-lg-"] {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .col-lg-9 {
+      padding: 0 5px 10px;
+    }
+  }
+  #vinotheque_infos {
+    background: url("../img/vinotheque_bg.png") left bottom no-repeat;
+    background-size: 100%;
+    padding: 5px 30px 0 15%;
+    margin-bottom: -10px;
+    #vinotheque_content {
+      line-height: 2rem;
+    }
+  }
+  .vinotheque_partage {
+    padding-bottom: 10px;
+    height: 50%;
+    a {
+      text-align: center;
+      display: block;
+      text-transform: uppercase;
+      background-color: $green-light;
+      background-image: url("../img/partage_bg.png");
+      background-repeat: no-repeat;
+      background-position: center 90%;
+      border: 1px solid $gray-lighter;
+      height: 100%;
+      padding: 22% 10px 0;
+      font-weight: bold;
+      font-size: rem(18px);
+      i {
+        color: white;
+        font-size: rem(50px);
+      }
+      &:hover {
+        text-decoration: none;
+        background-color: $green;
+      }
+    }
+  }
+  #vinotheque_volonte div {
+    color: white;
+    font-size: rem(24px);
+    line-height: rem(35px);
+    position: absolute;
+    font-weight: bold;
+    top: 38%;
+    left: 10%;
+    width: 80%;
+    span {
+      font-family: 'Caveat';
+      font-weight: normal;
+      font-size: rem(48px);
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  #vinotheque {
+    .col-lg-3 {
+      margin-bottom: 10px;
+      .vinotheque_partage:first-child {
+        padding-left: 10px;
+      }
+      .vinotheque_partage:last-child {
+        padding-right: 10px;
+      }
+      .vinotheque_partage {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 0 5px;
+        a {
+          padding-top: 10%;
+          padding-bottom: 25%;
+        }
+      }
+    }
+    #vinotheque_photo_1 {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@include media-breakpoint-between(lg, lg) {
+  #vinotheque {
+    #vinotheque_volonte div {
+      top: 25%;
+    }
+  }
+}
+@include media-breakpoint-between(lg, xl) {
+  #vinotheque {
+    .col-lg-3 .vinotheque_partage a {
+      font-size: rem(16px);
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  #vinotheque {
+    #vinotheque_volonte div {
+      font-size: rem(20px);
+      line-height: rem(25px);
+      top: 25%;
+      span {
+        font-size: rem(40px);
+      }
+    }
+    .col-lg-3 .vinotheque_partage a {
+      font-size: rem(16px);
+    }
+  }
+}
+
+/*** Contact page ***/
+#contact {
+  .page-content {
+    margin: rem(85px) auto rem(150px);
+  }
+  .contact-rich {
+    h4 {
+      text-transform: uppercase;
+    }
+    img {
+      width: 100%;
+      margin: rem(25px) 0;
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $green-dark;
+      font-size: rem(14px);
+      &.phone_number {
+        color: $green-darker;
+        font-size: rem(25px);
+        line-height: rem(30px);
+      }
+    }
+    i {
+      float: left;
+      font-size: 2.5rem;
+      color: $green-darker;
+    }
+    p {
+      margin: rem(10px) 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  #contact .contact-rich {
+    margin-bottom: rem(40px);
+  }
+}
+
+/*** footer_links: qui sommes nous et produits ***/
+#footer_links {
+  background-image: url("../img/footer_links_bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: rem(100px) 0 rem(15px);
+  .partage {
+    padding-bottom: rem(30px);
+    a {
+      text-align: center;
+      display: block;
+      text-transform: uppercase;
+      background-color: rgba(200, 229, 218, 0.8);
+      background-image: url("../img/partage_white_bg.png");
+      background-repeat: no-repeat;
+      background-position: center 90%;
+      border: 1px solid $gray-lighter;
+      height: 100%;
+      padding: rem(15px) rem(10px) rem(60px);
+      font-weight: bold;
+      font-size: rem(18px);
+      color: black !important;
+      line-height: 1.3rem;
+      i {
+        color: white;
+        font-size: rem(50px);
+      }
+      &:hover {
+        text-decoration: none;
+        background-color: rgba(177, 218, 202, 0.8);
+      }
+    }
+  }
+}
+
+/*** Page footer ***/
+.page-footer {
+  li {
+    display: inline-block;
+    margin-right: rem(25px);
+  }
+  a {
+    color: $green-darker;
+  }
+}
+
+#search #content #search_widget {
+  display: none;
+}

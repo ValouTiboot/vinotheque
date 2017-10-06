@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77488
+    [IdTransaction] => d3689d7d84b34f959f049edcb7d10f8d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32232] => Array
+                                (
+                                    [notiers] => 32232
+                                    [lastname] => GIANPAOLO
+                                    [firstname] => Breda
+                                    [email] => gianpaolo.breda@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => bordeaux142
+                                    [birthday] => 1968-05-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1017
+                                    [NbPointsRestants] => 1017
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41893
+                                                            [alias] => 30035 MIRANO (VENEZIA)
+                                                            [address1] => 79, porara mirano
+                                                            [address2] => 1 piano
+                                                            [city] => MIRANO (VENEZIA)
+                                                            [postcode] => 30035
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Breda
+                                                            [lastname] => GIANPAOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41894
+                                                            [alias] => 30030 MARTELLAGO (VENEZIA)
+                                                            [address1] => 9, VIA GRIMANI MARTELLAGO
+                                                            [address2] => negozio negozio di fotografia
+                                                            [city] => MARTELLAGO (VENEZIA)
+                                                            [postcode] => 30030
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Breda
+                                                            [lastname] => GIANPAOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

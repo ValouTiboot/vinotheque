@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80852
+    [IdTransaction] => d75b50cb86ab44d7ae9978b21da97fb0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29799] => Array
+                                (
+                                    [notiers] => 29799
+                                    [lastname] => FAYOLLE
+                                    [firstname] => Arthur
+                                    [email] => arthur.fayolle.82@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => arthur
+                                    [birthday] => 1992-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37749
+                                                            [alias] => 82000 MONTAUBAN
+                                                            [address1] => 6, Place de la liberation
+                                                            [address2] => 
+                                                            [city] => MONTAUBAN
+                                                            [postcode] => 82000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arthur
+                                                            [lastname] => FAYOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37750
+                                                            [alias] => 82000 MONTAUBAN
+                                                            [address1] => 8a, Rue latecoere
+                                                            [address2] => 
+                                                            [city] => MONTAUBAN
+                                                            [postcode] => 82000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arthur
+                                                            [lastname] => FAYOLLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

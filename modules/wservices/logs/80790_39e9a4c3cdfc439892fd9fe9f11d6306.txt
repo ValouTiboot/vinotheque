@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80790
+    [IdTransaction] => 39e9a4c3cdfc439892fd9fe9f11d6306
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34343] => Array
+                                (
+                                    [notiers] => 34343
+                                    [lastname] => BAUWENS
+                                    [firstname] => Michel
+                                    [email] => bau.b@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => frobau77!
+                                    [birthday] => 1955-08-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45442
+                                                            [alias] => 77460 SOUPPES-SUR-LOING
+                                                            [address1] => 4, rue des industries
+                                                            [address2] => 
+                                                            [city] => SOUPPES-SUR-LOING
+                                                            [postcode] => 77460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BAUWENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45443
+                                                            [alias] => 77570 CHATEAU-LANDON
+                                                            [address1] => route de jallemain chateau landon
+                                                            [address2] => 
+                                                            [city] => CHATEAU-LANDON
+                                                            [postcode] => 77570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BAUWENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

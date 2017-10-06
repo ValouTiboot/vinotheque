@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79648
+    [IdTransaction] => 7b645c1206774534b3a6bc08eda8e38c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35327] => Array
+                                (
+                                    [notiers] => 35327
+                                    [lastname] => AUBERT
+                                    [firstname] => Damien
+                                    [email] => dams19@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => raplapla2016
+                                    [birthday] => 1981-11-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47053
+                                                            [alias] => 26000 VALENCE
+                                                            [address1] => 10, Chemin de Robinson
+                                                            [address2] => 
+                                                            [city] => VALENCE
+                                                            [postcode] => 26000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47054
+                                                            [alias] => 26000 VALENCE
+                                                            [address1] => 10, Chemin de Robinson
+                                                            [address2] => 
+                                                            [city] => VALENCE
+                                                            [postcode] => 26000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => AUBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77942
+    [IdTransaction] => c176b3bae62b4b52b47e7bf97ff8d1bf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29412] => Array
+                                (
+                                    [notiers] => 29412
+                                    [lastname] => MITAINE
+                                    [firstname] => Serge
+                                    [email] => mrmoufle@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => qrz4fkx
+                                    [birthday] => 1968-08-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 46
+                                    [NbPointsRestants] => 46
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37118
+                                                            [alias] => 78660 ABLIS
+                                                            [address1] => 55, Rue de la Beauce
+                                                            [address2] => 
+                                                            [city] => ABLIS
+                                                            [postcode] => 78660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => MITAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37119
+                                                            [alias] => 78180 MONTIGNY-LE-BRETONNEUX
+                                                            [address1] => 9, Avenue Newton
+                                                            [address2] => 
+                                                            [city] => MONTIGNY-LE-BRETONNEUX
+                                                            [postcode] => 78180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => MITAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

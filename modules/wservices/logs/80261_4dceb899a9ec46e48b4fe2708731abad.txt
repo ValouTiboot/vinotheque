@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80261
+    [IdTransaction] => 4dceb899a9ec46e48b4fe2708731abad
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27258] => Array
+                                (
+                                    [notiers] => 27258
+                                    [lastname] => SENOT
+                                    [firstname] => David
+                                    [email] => dsenot@orca-france.com
+                                    [id_gender] => 1
+                                    [passwd] => 141214
+                                    [birthday] => 1975-12-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 4600
+                                    [NbPointsAcquits] => 5059
+                                    [NbPointsRestants] => 459
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33961
+                                                            [alias] => 88000 EPINAL
+                                                            [address1] => 63, Chemin du moulin
+                                                            [address2] => 
+                                                            [city] => EPINAL
+                                                            [postcode] => 88000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => SENOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33962
+                                                            [alias] => 88000 EPINAL
+                                                            [address1] => 63, Chemin du moulin
+                                                            [address2] => 
+                                                            [city] => EPINAL
+                                                            [postcode] => 88000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => SENOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

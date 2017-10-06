@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80707
+    [IdTransaction] => 93b16c205bc64d32b37267331d28accf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31475] => Array
+                                (
+                                    [notiers] => 31475
+                                    [lastname] => GUILLOT
+                                    [firstname] => Olivier
+                                    [email] => virginierenard78@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 150115
+                                    [birthday] => 1974-06-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40671
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => GUILLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40672
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 3, Rue Weber
+                                                            [address2] => 2ème étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => GUILLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

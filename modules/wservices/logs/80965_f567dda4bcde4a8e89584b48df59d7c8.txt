@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80965
+    [IdTransaction] => f567dda4bcde4a8e89584b48df59d7c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32951] => Array
+                                (
+                                    [notiers] => 32951
+                                    [lastname] => SAADA
+                                    [firstname] => Frederic
+                                    [email] => saadafred@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => pylore55
+                                    [birthday] => 1958-05-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 99
+                                    [NbPointsRestants] => 99
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42985
+                                                            [alias] => 77000 ROCHETTE
+                                                            [address1] => 2 rue, de la Forêt La Rochette
+                                                            [address2] => 
+                                                            [city] => ROCHETTE
+                                                            [postcode] => 77000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => SAADA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42986
+                                                            [alias] => 77000 ROCHETTE
+                                                            [address1] => 2 rue, de la Forêt La Rochette
+                                                            [address2] => 
+                                                            [city] => ROCHETTE
+                                                            [postcode] => 77000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => SAADA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79186
+    [IdTransaction] => fe4260f3c3e449fda6d5f04ba9bee6ed
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34162] => Array
+                                (
+                                    [notiers] => 34162
+                                    [lastname] => BEDE
+                                    [firstname] => Philippe
+                                    [email] => befipro@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => carbonara
+                                    [birthday] => 1955-04-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 130
+                                    [NbPointsRestants] => 130
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45139
+                                                            [alias] => 27130 VERNEUIL-SUR-AVRE
+                                                            [address1] => 191, avenue Foch Verneuil sur Avre
+                                                            [address2] => 
+                                                            [city] => VERNEUIL-SUR-AVRE
+                                                            [postcode] => 27130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BEDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45140
+                                                            [alias] => 27130 VERNEUIL-SUR-AVRE
+                                                            [address1] => 191, avenue Foch Verneuil sur Avre
+                                                            [address2] => 
+                                                            [city] => VERNEUIL-SUR-AVRE
+                                                            [postcode] => 27130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BEDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

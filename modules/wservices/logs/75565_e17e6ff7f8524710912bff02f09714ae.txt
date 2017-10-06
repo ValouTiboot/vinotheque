@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75565
+    [IdTransaction] => e17e6ff7f8524710912bff02f09714ae
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34174] => Array
+                                (
+                                    [notiers] => 34174
+                                    [lastname] => PERDRISOT
+                                    [firstname] => Remy
+                                    [email] => familleperdrisot@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => igloo
+                                    [birthday] => 1957-05-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 350
+                                    [NbPointsAcquits] => 365
+                                    [NbPointsRestants] => 15
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45160
+                                                            [alias] => 86440 MIGNE-AUXANCES
+                                                            [address1] => 17, rue de la GALMANDERIE
+                                                            [address2] => 
+                                                            [city] => MIGNE-AUXANCES
+                                                            [postcode] => 86440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remy
+                                                            [lastname] => PERDRISOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45161
+                                                            [alias] => 86440 MIGNE-AUXANCES
+                                                            [address1] => 17, rue de la GALMANDERIE
+                                                            [address2] => 
+                                                            [city] => MIGNE-AUXANCES
+                                                            [postcode] => 86440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remy
+                                                            [lastname] => PERDRISOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80480
+    [IdTransaction] => c4fd1d3dac5643bca2c24c3cb94f2580
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23204] => Array
+                                (
+                                    [notiers] => 23204
+                                    [lastname] => DUBRASQUET
+                                    [firstname] => Guy
+                                    [email] => guy.dubrasquet@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => bonnut
+                                    [birthday] => 1957-02-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 667
+                                    [NbPointsRestants] => 667
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30280
+                                                            [alias] => 64300 BONNUT
+                                                            [address1] => 121, chemin de lalanne
+                                                            [address2] => 
+                                                            [city] => BONNUT
+                                                            [postcode] => 64300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => DUBRASQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30281
+                                                            [alias] => 64300 BONNUT
+                                                            [address1] => 330, chemin de lalanne
+                                                            [address2] => 
+                                                            [city] => BONNUT
+                                                            [postcode] => 64300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => DUBRASQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

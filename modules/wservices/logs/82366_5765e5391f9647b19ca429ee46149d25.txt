@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82366
+    [IdTransaction] => 5765e5391f9647b19ca429ee46149d25
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34203] => Array
+                                (
+                                    [notiers] => 34203
+                                    [lastname] => FONTAGNERE
+                                    [firstname] => Marc
+                                    [email] => marc.fontagnere@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => azerty1230321
+                                    [birthday] => 1956-07-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 186
+                                    [NbPointsRestants] => 186
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45208
+                                                            [alias] => 81100 CASTRES
+                                                            [address1] => 10, chemin du Puech de Cordes
+                                                            [address2] => 
+                                                            [city] => CASTRES
+                                                            [postcode] => 81100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => FONTAGNERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45209
+                                                            [alias] => 81100 CASTRES
+                                                            [address1] => 10, chemin du Puech de Cordes
+                                                            [address2] => 
+                                                            [city] => CASTRES
+                                                            [postcode] => 81100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => FONTAGNERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

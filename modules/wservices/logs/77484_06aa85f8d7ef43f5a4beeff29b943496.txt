@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77484
+    [IdTransaction] => 06aa85f8d7ef43f5a4beeff29b943496
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36569] => Array
+                                (
+                                    [notiers] => 36569
+                                    [lastname] => NAVARROT
+                                    [firstname] => Jc
+                                    [email] => jcnavarrot@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => zelda
+                                    [birthday] => 1980-01-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49123
+                                                            [alias] => 69500 BRON
+                                                            [address1] => 2, Philippe GOY
+                                                            [address2] => 
+                                                            [city] => BRON
+                                                            [postcode] => 69500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jc
+                                                            [lastname] => NAVARROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49124
+                                                            [alias] => 40230 BENESSE-MAREMNE
+                                                            [address1] => 371, petit Poutch
+                                                            [address2] => 
+                                                            [city] => BENESSE-MAREMNE
+                                                            [postcode] => 40230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jc
+                                                            [lastname] => NAVARROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

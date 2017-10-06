@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81003
+    [IdTransaction] => cb8f304c4f6f46e7a3c968c95074bc66
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32637] => Array
+                                (
+                                    [notiers] => 32637
+                                    [lastname] => NGUYEN
+                                    [firstname] => Hien
+                                    [email] => nguyen.hien@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => PIONEER
+                                    [birthday] => 1959-05-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 276
+                                    [NbPointsRestants] => 276
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42509
+                                                            [alias] => 93220 GAGNY
+                                                            [address1] => 51, AV JEAN JAURES
+                                                            [address2] => 
+                                                            [city] => GAGNY
+                                                            [postcode] => 93220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hien
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42510
+                                                            [alias] => 93220 GAGNY
+                                                            [address1] => 51, AV JEAN JAURES
+                                                            [address2] => 
+                                                            [city] => GAGNY
+                                                            [postcode] => 93220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hien
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

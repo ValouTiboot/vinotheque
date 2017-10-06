@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75901
+    [IdTransaction] => d52ad521f0fb4d759fe49966f0710b82
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27050] => Array
+                                (
+                                    [notiers] => 27050
+                                    [lastname] => ESTEVE
+                                    [firstname] => Benjamin
+                                    [email] => benjamin.esteve@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 40884
+                                    [birthday] => 1984-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33617
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 4, rue des Apennins
+                                                            [address2] => 3ème étage porte droite 2
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => ESTEVE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33618
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 4, rue des Apennins
+                                                            [address2] => 3ème étage porte droite 2
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => ESTEVE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

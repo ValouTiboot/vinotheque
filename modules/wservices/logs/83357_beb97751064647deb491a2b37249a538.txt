@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83357
+    [IdTransaction] => beb97751064647deb491a2b37249a538
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33721] => Array
+                                (
+                                    [notiers] => 33721
+                                    [lastname] => VAN INNIS
+                                    [firstname] => Benjamin
+                                    [email] => benjamin.vaninnis@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Histoire87
+                                    [birthday] => 1987-02-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44363
+                                                            [alias] => 1160 AUDERGHEM
+                                                            [address1] => 26, Avenue Gabriel Emile Lebon
+                                                            [address2] => 
+                                                            [city] => AUDERGHEM
+                                                            [postcode] => 1160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => VAN INNIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44364
+                                                            [alias] => 6210 LES BONS_VILLERS
+                                                            [address1] => 14, Rue Jules Hoebeke
+                                                            [address2] => 
+                                                            [city] => LES BONS_VILLERS
+                                                            [postcode] => 6210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => VAN INNIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

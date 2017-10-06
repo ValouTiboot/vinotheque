@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 76000
+    [IdTransaction] => 2b642e1d4c7f4fa5a6f6efb2a4890a4a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [12021] => Array
+                                (
+                                    [notiers] => 12021
+                                    [lastname] => DE CARNÉ
+                                    [firstname] => Jacques
+                                    [email] => jacques2carne@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 19661966
+                                    [birthday] => 1966-06-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 497
+                                    [NbPointsRestants] => 497
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 12266
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 5, rue des Grands Augustins
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr de Carné Jacques
+                                                            [firstname] => Jacques
+                                                            [lastname] => DE CARNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 12267
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 14 rue de l, 14 rue de l'Abbé de l'Epée 14 rue de l'Abbé de l'Epée
+                                                            [address2] => cour, Interphone
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr jacques de Carné jacques
+                                                            [firstname] => Jacques
+                                                            [lastname] => DE CARNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 12267
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 14 rue de l, 14 rue de l'Abbé de l'Epée 14 rue de l'Abbé de l'Epée
+                                                            [address2] => cour, Interphone
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr jacques de Carné jacques
+                                                            [firstname] => Jacques
+                                                            [lastname] => DE CARNÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

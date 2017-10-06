@@ -1,0 +1,46 @@
+Array
+(
+    [NoJSON] => 813
+    [IdTransaction] => 3dd046c81e2621c1eff22ffc16e346e9
+    [Modèle] => RCL
+    [Type] => UPD
+    [DateTransaction] => 2017-07-25
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [retour_clients] => Array
+                        (
+                            [36464] => Array
+                                (
+                                    [notiers] => 36464
+                                    [email] => client10@ebewe.net
+                                    [retour_adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [48958] => Array
+                                                        (
+                                                            [noadresse] => 48958
+                                                            [rank] => 1
+                                                        )
+
+                                                    [48959] => Array
+                                                        (
+                                                            [noadresse] => 48959
+                                                            [rank] => 2
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77683
+    [IdTransaction] => 267c3cc6e91f4a59b3f2a176dbcc9ce4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30026] => Array
+                                (
+                                    [notiers] => 30026
+                                    [lastname] => LALANNE
+                                    [firstname] => Christian
+                                    [email] => mp.lalanne@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => bidaluc
+                                    [birthday] => 1956-01-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38126
+                                                            [alias] => 40180 SAUGNAC-ET-CAMBRAN
+                                                            [address1] => 1990, rue de l'Eglise de Cambran
+                                                            [address2] => 
+                                                            [city] => SAUGNAC-ET-CAMBRAN
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => LALANNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38127
+                                                            [alias] => 40180 SAUGNAC-ET-CAMBRAN
+                                                            [address1] => 1990, rue de l'Eglise de Cambran
+                                                            [address2] => 
+                                                            [city] => SAUGNAC-ET-CAMBRAN
+                                                            [postcode] => 40180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => LALANNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81505
+    [IdTransaction] => 8982b9e4390c4c278e4a4d537e73b377
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36345] => Array
+                                (
+                                    [notiers] => 36345
+                                    [lastname] => AMIAND
+                                    [firstname] => Bruno
+                                    [email] => bruno.amiand@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1959-01-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48749
+                                                            [alias] => 37130 LANGEAIS
+                                                            [address1] => 41, rue rabelais
+                                                            [address2] => 
+                                                            [city] => LANGEAIS
+                                                            [postcode] => 37130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => AMIAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48750
+                                                            [alias] => 37130 LANGEAIS
+                                                            [address1] => 41, rue rabelais
+                                                            [address2] => 
+                                                            [city] => LANGEAIS
+                                                            [postcode] => 37130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => AMIAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

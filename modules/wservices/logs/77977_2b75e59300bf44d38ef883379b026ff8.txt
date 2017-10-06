@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77977
+    [IdTransaction] => 2b75e59300bf44d38ef883379b026ff8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25520] => Array
+                                (
+                                    [notiers] => 25520
+                                    [lastname] => JARDILLIER
+                                    [firstname] => Johann
+                                    [email] => johann.jardillier@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => molloy
+                                    [birthday] => 1973-05-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 289
+                                    [NbPointsRestants] => 289
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31296
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 10, Place GAMBETTA
+                                                            [address2] => 3ème étage, porte droite
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Johann
+                                                            [lastname] => JARDILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31297
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 10, Place GAMBETTA
+                                                            [address2] => 3ème étage, porte droite
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Johann
+                                                            [lastname] => JARDILLIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

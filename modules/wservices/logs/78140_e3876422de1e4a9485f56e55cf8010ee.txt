@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78140
+    [IdTransaction] => e3876422de1e4a9485f56e55cf8010ee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36164] => Array
+                                (
+                                    [notiers] => 36164
+                                    [lastname] => THIBON
+                                    [firstname] => Laurent
+                                    [email] => thibon.laurent@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => beynes2000
+                                    [birthday] => 1963-03-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 516
+                                    [NbPointsRestants] => 516
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48448
+                                                            [alias] => 38410 SAINT-MARTIN-D'URIAGE
+                                                            [address1] => 185, Chemin du Fournel
+                                                            [address2] => 
+                                                            [city] => SAINT-MARTIN-D'URIAGE
+                                                            [postcode] => 38410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => THIBON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48449
+                                                            [alias] => 38000 GRENOBLE
+                                                            [address1] => 1, rue Champollion
+                                                            [address2] => 
+                                                            [city] => GRENOBLE
+                                                            [postcode] => 38000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => THIBON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

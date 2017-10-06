@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75156
+    [IdTransaction] => b2e8f30f745e4f30ad1e740190e99417
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30943] => Array
+                                (
+                                    [notiers] => 30943
+                                    [lastname] => BOONEFAES
+                                    [firstname] => Audrey
+                                    [email] => audrey.boonefaes@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => danse892
+                                    [birthday] => 1992-02-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 50
+                                    [NbPointsRestants] => 50
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39724
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Audrey
+                                                            [lastname] => BOONEFAES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39725
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 39, rue de la grange aux belles
+                                                            [address2] => B
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Audrey
+                                                            [lastname] => BOONEFAES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

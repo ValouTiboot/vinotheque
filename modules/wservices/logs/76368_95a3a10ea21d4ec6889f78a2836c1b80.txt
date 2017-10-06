@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76368
+    [IdTransaction] => 95a3a10ea21d4ec6889f78a2836c1b80
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34084] => Array
+                                (
+                                    [notiers] => 34084
+                                    [lastname] => ROBINET
+                                    [firstname] => Francois
+                                    [email] => fxrproject@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => aureoler75
+                                    [birthday] => 1971-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 409
+                                    [NbPointsRestants] => 409
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45011
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 46, rue Jacob
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => ROBINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45012
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 82, rue de l'université
+                                                            [address2] => 4eme etage code1: 3B58 code2: 9235
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois
+                                                            [lastname] => ROBINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

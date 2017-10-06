@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78871
+    [IdTransaction] => 5b4946b796b74cdd98a72769a90e26f4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33972] => Array
+                                (
+                                    [notiers] => 33972
+                                    [lastname] => JAECKIN
+                                    [firstname] => Philippe
+                                    [email] => phjaeckin@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => Shanna40150
+                                    [birthday] => 1938-12-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1008
+                                    [NbPointsRestants] => 1008
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44810
+                                                            [alias] => 78112 FOURQUEUX
+                                                            [address1] => 9, domaine de la foret fourqueux
+                                                            [address2] => 
+                                                            [city] => FOURQUEUX
+                                                            [postcode] => 78112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => JAECKIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44811
+                                                            [alias] => 78112 FOURQUEUX
+                                                            [address1] => 9, domaine de la foret fourqueux
+                                                            [address2] => 
+                                                            [city] => FOURQUEUX
+                                                            [postcode] => 78112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => JAECKIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

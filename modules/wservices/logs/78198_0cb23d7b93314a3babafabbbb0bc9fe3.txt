@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78198
+    [IdTransaction] => 0cb23d7b93314a3babafabbbb0bc9fe3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32577] => Array
+                                (
+                                    [notiers] => 32577
+                                    [lastname] => COUROUBLE
+                                    [firstname] => Thibault
+                                    [email] => tibcourouble@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Thib3282871637
+                                    [birthday] => 1984-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 190
+                                    [NbPointsRestants] => 190
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42430
+                                                            [alias] => 59166 BOUSBECQUE
+                                                            [address1] => 75, Rue de Wervicq
+                                                            [address2] => 
+                                                            [city] => BOUSBECQUE
+                                                            [postcode] => 59166
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibault
+                                                            [lastname] => COUROUBLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42431
+                                                            [alias] => 59166 BOUSBECQUE
+                                                            [address1] => 75, Rue de Wervicq
+                                                            [address2] => 
+                                                            [city] => BOUSBECQUE
+                                                            [postcode] => 59166
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibault
+                                                            [lastname] => COUROUBLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

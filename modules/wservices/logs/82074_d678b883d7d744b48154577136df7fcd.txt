@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82074
+    [IdTransaction] => d678b883d7d744b48154577136df7fcd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23017] => Array
+                                (
+                                    [notiers] => 23017
+                                    [lastname] => ROUSSEAU
+                                    [firstname] => Stéphane
+                                    [email] => srstephrouss@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => :090782lr
+                                    [birthday] => 1982-07-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30005
+                                                            [alias] => 17430 TONNAY-CHARENTE
+                                                            [address1] => 4, allée des fusains
+                                                            [address2] => 
+                                                            [city] => TONNAY-CHARENTE
+                                                            [postcode] => 17430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => ROUSSEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30006
+                                                            [alias] => 17430 TONNAY-CHARENTE
+                                                            [address1] => 4, allée des fusains
+                                                            [address2] => 
+                                                            [city] => TONNAY-CHARENTE
+                                                            [postcode] => 17430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => ROUSSEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

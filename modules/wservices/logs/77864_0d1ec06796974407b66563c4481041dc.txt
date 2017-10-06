@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77864
+    [IdTransaction] => 0d1ec06796974407b66563c4481041dc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32113] => Array
+                                (
+                                    [notiers] => 32113
+                                    [lastname] => NAUD
+                                    [firstname] => Jean-marie
+                                    [email] => cemoino@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => flocaje
+                                    [birthday] => 1929-09-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 560
+                                    [NbPointsRestants] => 560
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41677
+                                                            [alias] => 38330 SAINT-ISMIER
+                                                            [address1] => 275, Route du rivet
+                                                            [address2] => 
+                                                            [city] => SAINT-ISMIER
+                                                            [postcode] => 38330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marie
+                                                            [lastname] => NAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41678
+                                                            [alias] => 38330 SAINT-ISMIER
+                                                            [address1] => 275, Route du rivet
+                                                            [address2] => 
+                                                            [city] => SAINT-ISMIER
+                                                            [postcode] => 38330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marie
+                                                            [lastname] => NAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

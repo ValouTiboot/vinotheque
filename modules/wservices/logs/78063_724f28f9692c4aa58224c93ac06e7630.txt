@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78063
+    [IdTransaction] => 724f28f9692c4aa58224c93ac06e7630
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32832] => Array
+                                (
+                                    [notiers] => 32832
+                                    [lastname] => KASSAB
+                                    [firstname] => Mourad
+                                    [email] => mourad.kassab@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => tunisie
+                                    [birthday] => 1969-05-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42801
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 77, avecnue des Champs -Elysées
+                                                            [address2] => ETAGE 6
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mourad
+                                                            [lastname] => KASSAB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42802
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 91, RUE DE LA POMPE
+                                                            [address2] => ETAGE 5
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mourad
+                                                            [lastname] => KASSAB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

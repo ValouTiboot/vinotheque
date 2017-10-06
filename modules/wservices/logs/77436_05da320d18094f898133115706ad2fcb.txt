@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77436
+    [IdTransaction] => 05da320d18094f898133115706ad2fcb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33195] => Array
+                                (
+                                    [notiers] => 33195
+                                    [lastname] => LIEGEOIS
+                                    [firstname] => Thierry
+                                    [email] => liegeois.th@neuf.fr
+                                    [id_gender] => 1
+                                    [passwd] => VIwuja0409;
+                                    [birthday] => 1968-03-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43415
+                                                            [alias] => 06300 NICE
+                                                            [address1] => 92, corniche André de Joly
+                                                            [address2] => Villa Le Miradou
+                                                            [city] => NICE
+                                                            [postcode] => 06300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LIEGEOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43416
+                                                            [alias] => 59553 CUINCY
+                                                            [address1] => 174, rue des Fauvettes
+                                                            [address2] => 
+                                                            [city] => CUINCY
+                                                            [postcode] => 59553
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LIEGEOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

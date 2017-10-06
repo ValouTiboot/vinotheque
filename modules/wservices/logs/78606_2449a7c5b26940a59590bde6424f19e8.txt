@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 78606
+    [IdTransaction] => 2449a7c5b26940a59590bde6424f19e8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [12507] => Array
+                                (
+                                    [notiers] => 12507
+                                    [lastname] => MASSE
+                                    [firstname] => Bertrand
+                                    [email] => bertrand.masse@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 22071971
+                                    [birthday] => 1971-07-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 19
+                                    [NbPointsRestants] => 19
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 13105
+                                                            [alias] => 35400 SAINT-MALO
+                                                            [address1] => 6, RUE DU PONT
+                                                            [address2] => 
+                                                            [city] => SAINT-MALO
+                                                            [postcode] => 35400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr MASSE BERTRAND
+                                                            [firstname] => Bertrand
+                                                            [lastname] => MASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 13106
+                                                            [alias] => 35400 SAINT-MALO
+                                                            [address1] => 6, RUE DU PONT
+                                                            [address2] => 
+                                                            [city] => SAINT-MALO
+                                                            [postcode] => 35400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme SUZANNE FABIENNE
+                                                            [firstname] => Bertrand
+                                                            [lastname] => MASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 13106
+                                                            [alias] => 35400 SAINT-MALO
+                                                            [address1] => 6, RUE DU PONT
+                                                            [address2] => 
+                                                            [city] => SAINT-MALO
+                                                            [postcode] => 35400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme SUZANNE FABIENNE
+                                                            [firstname] => Bertrand
+                                                            [lastname] => MASSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

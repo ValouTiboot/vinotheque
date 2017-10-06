@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80787
+    [IdTransaction] => 134db26a57444468bd56d19b1fb2e24d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30677] => Array
+                                (
+                                    [notiers] => 30677
+                                    [lastname] => PINEAU
+                                    [firstname] => Guy
+                                    [email] => gpineau@kirei-studio.fr
+                                    [id_gender] => 1
+                                    [passwd] => S9S-ZQP-3HU-XdX
+                                    [birthday] => 1964-02-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 569
+                                    [NbPointsRestants] => 569
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39268
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 45, RUE DU CARDINAL LEMOINE
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => PINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39269
+                                                            [alias] => 75005 PARIS
+                                                            [address1] => 45, RUE DU CARDINAL LEMOINE
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => PINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

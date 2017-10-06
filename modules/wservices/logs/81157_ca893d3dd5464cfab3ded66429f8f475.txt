@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81157
+    [IdTransaction] => ca893d3dd5464cfab3ded66429f8f475
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33794] => Array
+                                (
+                                    [notiers] => 33794
+                                    [lastname] => DUPLESSIS
+                                    [firstname] => Barbara
+                                    [email] => barbara.duplessis@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => edenpark
+                                    [birthday] => 1979-06-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 119
+                                    [NbPointsRestants] => 119
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44505
+                                                            [alias] => 65400 ARCIZANS-AVANT
+                                                            [address1] => 10, Camin dera montanha
+                                                            [address2] => 
+                                                            [city] => ARCIZANS-AVANT
+                                                            [postcode] => 65400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => DUPLESSIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44506
+                                                            [alias] => 13600 CIOTAT
+                                                            [address1] => 765, Avenue Emile Ripert
+                                                            [address2] => 
+                                                            [city] => CIOTAT
+                                                            [postcode] => 13600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => DUPLESSIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82014
+    [IdTransaction] => 601d7812ae37467b95e7342b393798d6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30134] => Array
+                                (
+                                    [notiers] => 30134
+                                    [lastname] => GASCHET
+                                    [firstname] => Marie-paule
+                                    [email] => marie-paule.gaschet@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => maxalice03
+                                    [birthday] => 1950-03-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38315
+                                                            [alias] => 33780 SOULAC-SUR-MER
+                                                            [address1] => 18, Bld alsace lorraine
+                                                            [address2] => 
+                                                            [city] => SOULAC-SUR-MER
+                                                            [postcode] => 33780
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-paule
+                                                            [lastname] => GASCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38316
+                                                            [alias] => 33780 SOULAC-SUR-MER
+                                                            [address1] => 18, Bld Alsace Lorraine
+                                                            [address2] => 
+                                                            [city] => SOULAC-SUR-MER
+                                                            [postcode] => 33780
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-paule
+                                                            [lastname] => GASCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

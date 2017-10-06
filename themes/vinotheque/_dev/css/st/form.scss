@@ -1,0 +1,13 @@
+.login-form, .contact-form, .register-form, .address-form, .wishlist-form, .password-form {
+  background: $gray-form;
+  border-left: rem(9px) solid $green-border-form;
+  border-top: rem(1px) solid $gray-border-form;
+  padding: rem(30px) rem(15px);
+}
+
+.form-footer {
+  text-align: center;
+  button, .btn {
+    margin-top: 2*$small-space;
+  }
+}

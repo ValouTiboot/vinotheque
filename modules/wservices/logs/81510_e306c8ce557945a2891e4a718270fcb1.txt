@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81510
+    [IdTransaction] => e306c8ce557945a2891e4a718270fcb1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34743] => Array
+                                (
+                                    [notiers] => 34743
+                                    [lastname] => DIVAY
+                                    [firstname] => Arnaud
+                                    [email] => nonosteo@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Adivay79
+                                    [birthday] => 1979-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46143
+                                                            [alias] => 60000 BEAUVAIS
+                                                            [address1] => 5, Rue de maidstone
+                                                            [address2] => Baryton
+                                                            [city] => BEAUVAIS
+                                                            [postcode] => 60000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => DIVAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46144
+                                                            [alias] => 60600 CLERMONT
+                                                            [address1] => 6, Rue du général moulin
+                                                            [address2] => 
+                                                            [city] => CLERMONT
+                                                            [postcode] => 60600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => DIVAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

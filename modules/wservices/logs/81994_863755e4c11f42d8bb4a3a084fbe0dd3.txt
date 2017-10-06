@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81994
+    [IdTransaction] => 863755e4c11f42d8bb4a3a084fbe0dd3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31395] => Array
+                                (
+                                    [notiers] => 31395
+                                    [lastname] => LE PIQUET
+                                    [firstname] => Brigitte
+                                    [email] => brigittelepiquet@aol.com
+                                    [id_gender] => 2
+                                    [passwd] => birgit33
+                                    [birthday] => 1954-05-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 109
+                                    [NbPointsRestants] => 109
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40523
+                                                            [alias] => 33250 PAUILLAC
+                                                            [address1] => 16, route de Bordeaux Le Pouyalet
+                                                            [address2] => 
+                                                            [city] => PAUILLAC
+                                                            [postcode] => 33250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brigitte
+                                                            [lastname] => LE PIQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40524
+                                                            [alias] => 33250 PAUILLAC
+                                                            [address1] => 16, route de Bordeaux Le Pouyalet
+                                                            [address2] => 
+                                                            [city] => PAUILLAC
+                                                            [postcode] => 33250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brigitte
+                                                            [lastname] => LE PIQUET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

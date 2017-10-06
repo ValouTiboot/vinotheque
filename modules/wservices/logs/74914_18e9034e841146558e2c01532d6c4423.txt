@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74914
+    [IdTransaction] => 18e9034e841146558e2c01532d6c4423
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24684] => Array
+                                (
+                                    [notiers] => 24684
+                                    [lastname] => CLAVÉ
+                                    [firstname] => Michel
+                                    [email] => michel.clave@interisol.fr
+                                    [id_gender] => 1
+                                    [passwd] => pivoine
+                                    [birthday] => 1954-09-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 552
+                                    [NbPointsRestants] => 552
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30524
+                                                            [alias] => 64150 MOURENX
+                                                            [address1] => 30
+                                                            [address2] => 
+                                                            [city] => MOURENX
+                                                            [postcode] => 64150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CLAVÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30525
+                                                            [alias] => 64360 CUQUERON
+                                                            [address1] => Chemin BISCARROS
+                                                            [address2] => 
+                                                            [city] => CUQUERON
+                                                            [postcode] => 64360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => CLAVÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

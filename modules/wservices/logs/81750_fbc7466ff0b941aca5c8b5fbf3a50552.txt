@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81750
+    [IdTransaction] => fbc7466ff0b941aca5c8b5fbf3a50552
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26645] => Array
+                                (
+                                    [notiers] => 26645
+                                    [lastname] => IVANIER
+                                    [firstname] => Daniel
+                                    [email] => divanier@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => gabrielben
+                                    [birthday] => 1965-12-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1695
+                                    [NbPointsRestants] => 1695
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32967
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 4, rue Leconte-de-Lisle
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => IVANIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32968
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 4, rue Leconte-de-Lisle
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => IVANIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

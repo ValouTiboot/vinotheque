@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79176
+    [IdTransaction] => 1ca8f18f52f14cc3b1cccea8e094bd68
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28076] => Array
+                                (
+                                    [notiers] => 28076
+                                    [lastname] => LAFFONT
+                                    [firstname] => Maéva
+                                    [email] => maeva.deversud@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => 40509
+                                    [birthday] => 1992-10-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35187
+                                                            [alias] => 66120 FONT ROMEU
+                                                            [address1] => 41, Avenue Emmanuel Brousse
+                                                            [address2] => 
+                                                            [city] => FONT ROMEU
+                                                            [postcode] => 66120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maéva
+                                                            [lastname] => LAFFONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35188
+                                                            [alias] => 66120 FONT ROMEU
+                                                            [address1] => 41, avenue Emmanuel Brousse
+                                                            [address2] => 
+                                                            [city] => FONT ROMEU
+                                                            [postcode] => 66120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maéva
+                                                            [lastname] => LAFFONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

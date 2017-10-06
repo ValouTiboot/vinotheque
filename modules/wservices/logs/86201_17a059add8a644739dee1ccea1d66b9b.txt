@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86201
+    [IdTransaction] => 17a059add8a644739dee1ccea1d66b9b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32162] => Array
+                                (
+                                    [notiers] => 32162
+                                    [lastname] => MEDJKOUNE
+                                    [firstname] => Mouloud
+                                    [email] => mmedjkoune@plasticomnium.com
+                                    [id_gender] => 1
+                                    [passwd] => mouloud
+                                    [birthday] => 1978-01-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 198
+                                    [NbPointsRestants] => 198
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41771
+                                                            [alias] => 922230 GENNEVILLIERS
+                                                            [address1] => 9, route des champs fourgons
+                                                            [address2] => 
+                                                            [city] => GENNEVILLIERS
+                                                            [postcode] => 922230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mouloud
+                                                            [lastname] => MEDJKOUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41772
+                                                            [alias] => 92230 GENNEVILLIERS
+                                                            [address1] => 9, route des champs fourgons
+                                                            [address2] => 
+                                                            [city] => GENNEVILLIERS
+                                                            [postcode] => 92230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mouloud
+                                                            [lastname] => MEDJKOUNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

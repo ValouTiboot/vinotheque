@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79322
+    [IdTransaction] => 6a556deb359f4cf9ad55d14c5a6feaaa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25955] => Array
+                                (
+                                    [notiers] => 25955
+                                    [lastname] => GRANGE
+                                    [firstname] => André
+                                    [email] => andre.grange-jalna@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => musardiere
+                                    [birthday] => 1960-12-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 149
+                                    [NbPointsRestants] => 149
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31967
+                                                            [alias] => 83500 SEYNE-SUR-MER
+                                                            [address1] => 153, chemin Jorgi Reboul
+                                                            [address2] => Le Mas de Jalna
+                                                            [city] => SEYNE-SUR-MER
+                                                            [postcode] => 83500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => GRANGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31968
+                                                            [alias] => 20166 PIETROSELLA
+                                                            [address1] => Route,de l'Isolella
+                                                            [address2] => Villa `estrelicia`
+                                                            [city] => PIETROSELLA
+                                                            [postcode] => 20166
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => GRANGE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

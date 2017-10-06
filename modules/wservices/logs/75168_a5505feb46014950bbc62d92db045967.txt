@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75168
+    [IdTransaction] => a5505feb46014950bbc62d92db045967
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35370] => Array
+                                (
+                                    [notiers] => 35370
+                                    [lastname] => MONCANY DE ST AIGNAN
+                                    [firstname] => Gilles
+                                    [email] => destaignan@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1963-03-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 427
+                                    [NbPointsRestants] => 427
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47128
+                                                            [alias] => 42210 BOISSET-LES-MONTROND
+                                                            [address1] => 39, rue du bourg en haut
+                                                            [address2] => 
+                                                            [city] => BOISSET-LES-MONTROND
+                                                            [postcode] => 42210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => MONCANY DE ST AIGNAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47129
+                                                            [alias] => 42210 BOISSET-LES-MONTROND
+                                                            [address1] => 39, rue du bourg en haut
+                                                            [address2] => 
+                                                            [city] => BOISSET-LES-MONTROND
+                                                            [postcode] => 42210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilles
+                                                            [lastname] => MONCANY DE ST AIGNAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

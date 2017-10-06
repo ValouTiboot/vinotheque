@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78235
+    [IdTransaction] => 79393fac26db4ef587ca8cb1b8d596ff
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30109] => Array
+                                (
+                                    [notiers] => 30109
+                                    [lastname] => PUY
+                                    [firstname] => Gregoire
+                                    [email] => gregoire.puy@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => architecte80
+                                    [birthday] => 1992-12-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38271
+                                                            [alias] => 31530 LEVIGNAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LEVIGNAC
+                                                            [postcode] => 31530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregoire
+                                                            [lastname] => PUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38272
+                                                            [alias] => 31530 LEVIGNAC
+                                                            [address1] => 12, chemin du foulupie
+                                                            [address2] => 
+                                                            [city] => LEVIGNAC
+                                                            [postcode] => 31530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregoire
+                                                            [lastname] => PUY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

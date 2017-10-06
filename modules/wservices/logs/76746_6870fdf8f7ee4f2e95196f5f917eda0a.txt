@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76746
+    [IdTransaction] => 6870fdf8f7ee4f2e95196f5f917eda0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26788] => Array
+                                (
+                                    [notiers] => 26788
+                                    [lastname] => TRENNEC
+                                    [firstname] => Jean-yves
+                                    [email] => trennec@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => tummywindow
+                                    [birthday] => 1957-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33198
+                                                            [alias] => 77100 MEAUX
+                                                            [address1] => 10, impasse des jardins noëfort
+                                                            [address2] => 
+                                                            [city] => MEAUX
+                                                            [postcode] => 77100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-yves
+                                                            [lastname] => TRENNEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33199
+                                                            [alias] => 77100 MEAUX
+                                                            [address1] => 53, rue de la crèche
+                                                            [address2] => 1er étage
+                                                            [city] => MEAUX
+                                                            [postcode] => 77100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-yves
+                                                            [lastname] => TRENNEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

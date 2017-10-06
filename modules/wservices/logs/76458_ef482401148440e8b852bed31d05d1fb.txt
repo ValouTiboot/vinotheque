@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76458
+    [IdTransaction] => ef482401148440e8b852bed31d05d1fb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29746] => Array
+                                (
+                                    [notiers] => 29746
+                                    [lastname] => SMITH
+                                    [firstname] => Robert
+                                    [email] => rob77@fsmail.net
+                                    [id_gender] => 1
+                                    [passwd] => cobber
+                                    [birthday] => 1965-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 156
+                                    [NbPointsRestants] => 156
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37667
+                                                            [alias] => 01210 FERNEY-VOLTAIRE
+                                                            [address1] => 1, Grand Rue
+                                                            [address2] => 
+                                                            [city] => FERNEY-VOLTAIRE
+                                                            [postcode] => 01210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => SMITH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37668
+                                                            [alias] => 01210 FERNEY-VOLTAIRE
+                                                            [address1] => 34 CHEMIN DES MURIERS DANS LE CENTRE DAUMARD
+                                                            [address2] => 
+                                                            [city] => FERNEY-VOLTAIRE
+                                                            [postcode] => 01210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => SMITH
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

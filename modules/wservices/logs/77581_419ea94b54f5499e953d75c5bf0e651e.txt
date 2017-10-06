@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77581
+    [IdTransaction] => 419ea94b54f5499e953d75c5bf0e651e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26492] => Array
+                                (
+                                    [notiers] => 26492
+                                    [lastname] => ROSENFELD
+                                    [firstname] => Sebastien
+                                    [email] => sebastien.rosenfeld@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => boscoooo
+                                    [birthday] => 1972-12-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32707
+                                                            [alias] => 2449 LUXEMBOURG
+                                                            [address1] => 25, Boulevard Royal
+                                                            [address2] => 
+                                                            [city] => LUXEMBOURG
+                                                            [postcode] => 2449
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => ROSENFELD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => LU
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32708
+                                                            [alias] => 94160 SAINT-MANDE
+                                                            [address1] => 31 rue Faidh,
+                                                            [address2] => B3749
+                                                            [city] => SAINT-MANDE
+                                                            [postcode] => 94160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sebastien
+                                                            [lastname] => ROSENFELD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

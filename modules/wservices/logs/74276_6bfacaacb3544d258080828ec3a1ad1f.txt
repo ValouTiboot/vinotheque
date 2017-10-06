@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74276
+    [IdTransaction] => 6bfacaacb3544d258080828ec3a1ad1f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33075] => Array
+                                (
+                                    [notiers] => 33075
+                                    [lastname] => DUFLOT
+                                    [firstname] => Clément
+                                    [email] => clement.duflot@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => 2130vDmD
+                                    [birthday] => 1989-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43191
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 12, avenue théophile gautier
+                                                            [address2] => 3e étage gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Clément
+                                                            [lastname] => DUFLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43192
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 12, avenue théophile gautier
+                                                            [address2] => 3e étage gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Clément
+                                                            [lastname] => DUFLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

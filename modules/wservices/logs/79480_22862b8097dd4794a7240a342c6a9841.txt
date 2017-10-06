@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79480
+    [IdTransaction] => 22862b8097dd4794a7240a342c6a9841
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33757] => Array
+                                (
+                                    [notiers] => 33757
+                                    [lastname] => NAUDET
+                                    [firstname] => Martin
+                                    [email] => martinnaudet@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => C01YHMU
+                                    [birthday] => 1986-11-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44433
+                                                            [alias] => 21290 LEUGLAY
+                                                            [address1] => 1, RUE DE LUGNY
+                                                            [address2] => 
+                                                            [city] => LEUGLAY
+                                                            [postcode] => 21290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => NAUDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44434
+                                                            [alias] => 21290 LEUGLAY
+                                                            [address1] => 1, RUE DE LUGNY
+                                                            [address2] => 
+                                                            [city] => LEUGLAY
+                                                            [postcode] => 21290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => NAUDET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

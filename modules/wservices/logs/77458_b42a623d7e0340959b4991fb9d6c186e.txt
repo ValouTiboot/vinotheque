@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77458
+    [IdTransaction] => b42a623d7e0340959b4991fb9d6c186e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33356] => Array
+                                (
+                                    [notiers] => 33356
+                                    [lastname] => BAUDELOT
+                                    [firstname] => Charles
+                                    [email] => charles@baudelot.fr
+                                    [id_gender] => 1
+                                    [passwd] => ANPPMcLo
+                                    [birthday] => 1986-09-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 72
+                                    [NbPointsRestants] => 72
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43706
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 2, Rue Baudin
+                                                            [address2] => 
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => BAUDELOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43707
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 2, Rue Baudin
+                                                            [address2] => 
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charles
+                                                            [lastname] => BAUDELOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

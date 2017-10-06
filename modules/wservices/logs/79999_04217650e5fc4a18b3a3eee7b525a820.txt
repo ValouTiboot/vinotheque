@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79999
+    [IdTransaction] => 04217650e5fc4a18b3a3eee7b525a820
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29576] => Array
+                                (
+                                    [notiers] => 29576
+                                    [lastname] => LABORDE
+                                    [firstname] => Bruno
+                                    [email] => bruno.laborde@voila.fr
+                                    [id_gender] => 1
+                                    [passwd] => bar1bar
+                                    [birthday] => 1971-08-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37375
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 24, rue des prairies
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => LABORDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37376
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 24, rue des prairies
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => LABORDE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

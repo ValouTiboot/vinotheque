@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83264
+    [IdTransaction] => 689cbb405ade47c99cb95245787c85c6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29939] => Array
+                                (
+                                    [notiers] => 29939
+                                    [lastname] => BERTIN
+                                    [firstname] => Corinne
+                                    [email] => corinne.bertin@outlook.fr
+                                    [id_gender] => 2
+                                    [passwd] => gaiamoi66
+                                    [birthday] => 1966-01-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37973
+                                                            [alias] => 45300 ESCRENNES
+                                                            [address1] => 21, rue croix de la musse
+                                                            [address2] => 
+                                                            [city] => ESCRENNES
+                                                            [postcode] => 45300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Corinne
+                                                            [lastname] => BERTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37974
+                                                            [alias] => 91560 CROSNE
+                                                            [address1] => 2, rue victor hugo
+                                                            [address2] => 
+                                                            [city] => CROSNE
+                                                            [postcode] => 91560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Corinne
+                                                            [lastname] => BERTIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

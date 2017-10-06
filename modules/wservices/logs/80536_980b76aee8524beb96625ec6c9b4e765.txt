@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80536
+    [IdTransaction] => 980b76aee8524beb96625ec6c9b4e765
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27528] => Array
+                                (
+                                    [notiers] => 27528
+                                    [lastname] => SIGNATURE
+                                    [firstname] => Selections
+                                    [email] => jmdavies@signature-selection.com
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1953-02-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34370
+                                                            [alias] => 33200 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 38 avenue Louis Barthou
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => signature sélection
+                                                            [firstname] => Selections
+                                                            [lastname] => SIGNATURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34371
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => SIGNATURE SELECTIONS
+                                                            [firstname] => Selections
+                                                            [lastname] => SIGNATURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

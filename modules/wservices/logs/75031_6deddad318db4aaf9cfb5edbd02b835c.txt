@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75031
+    [IdTransaction] => 6deddad318db4aaf9cfb5edbd02b835c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33260] => Array
+                                (
+                                    [notiers] => 33260
+                                    [lastname] => DUMONT
+                                    [firstname] => Edmond
+                                    [email] => a@edgestion.fr
+                                    [id_gender] => 1
+                                    [passwd] => PASSWORD
+                                    [birthday] => 1950-01-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 234
+                                    [NbPointsRestants] => 234
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43536
+                                                            [alias] => 94100 ST MAUR DES FOSSE
+                                                            [address1] => 89, AVENUE FOCH S
+                                                            [address2] => 
+                                                            [city] => ST MAUR DES FOSSE
+                                                            [postcode] => 94100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edmond
+                                                            [lastname] => DUMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43537
+                                                            [alias] => 94100 ST MAUR DES FOSSE
+                                                            [address1] => 89, AVENUE FOCH S
+                                                            [address2] => 
+                                                            [city] => ST MAUR DES FOSSE
+                                                            [postcode] => 94100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edmond
+                                                            [lastname] => DUMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

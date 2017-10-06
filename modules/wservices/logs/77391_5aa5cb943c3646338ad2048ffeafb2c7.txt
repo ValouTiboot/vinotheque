@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 77391
+    [IdTransaction] => 5aa5cb943c3646338ad2048ffeafb2c7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [20111] => Array
+                                (
+                                    [notiers] => 20111
+                                    [lastname] => TOUSSAINT
+                                    [firstname] => Julie
+                                    [email] => julie.toussaint@electrabel.com
+                                    [id_gender] => 2
+                                    [passwd] => juliehenet
+                                    [birthday] => 1976-12-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 192
+                                    [NbPointsRestants] => 192
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 25511
+                                                            [alias] => 1180 BRUXELLES
+                                                            [address1] => 135, Drève Pittoresque 135
+                                                            [address2] => 
+                                                            [city] => BRUXELLES
+                                                            [postcode] => 1180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme Toussaint Julie
+                                                            [firstname] => Julie
+                                                            [lastname] => TOUSSAINT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 25512
+                                                            [alias] => 24180 BOURROU
+                                                            [address1] => Bigot
+                                                            [address2] => Bigot
+                                                            [city] => BOURROU
+                                                            [postcode] => 24180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme Toussaint/Carlier Julie
+                                                            [firstname] => Julie
+                                                            [lastname] => TOUSSAINT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 25512
+                                                            [alias] => 24180 BOURROU
+                                                            [address1] => Bigot
+                                                            [address2] => Bigot
+                                                            [city] => BOURROU
+                                                            [postcode] => 24180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mme Toussaint/Carlier Julie
+                                                            [firstname] => Julie
+                                                            [lastname] => TOUSSAINT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

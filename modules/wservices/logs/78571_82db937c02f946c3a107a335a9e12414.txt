@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78571
+    [IdTransaction] => 82db937c02f946c3a107a335a9e12414
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23049] => Array
+                                (
+                                    [notiers] => 23049
+                                    [lastname] => FRANK
+                                    [firstname] => Fabrice
+                                    [email] => frankfabrice71@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => brissou
+                                    [birthday] => 1971-05-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30058
+                                                            [alias] => 75003 PARIS
+                                                            [address1] => 44, Saintonge
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => FRANK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30059
+                                                            [alias] => 75003 PARIS
+                                                            [address1] => 44, Saintonge
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabrice
+                                                            [lastname] => FRANK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81631
+    [IdTransaction] => 3df8e5e1f57e489fabea53e23665d151
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25758] => Array
+                                (
+                                    [notiers] => 25758
+                                    [lastname] => PIZZINATO
+                                    [firstname] => Jean-pierre
+                                    [email] => claudie.pizzinato@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 171246
+                                    [birthday] => 1946-12-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 437
+                                    [NbPointsRestants] => 437
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31662
+                                                            [alias] => 47200 MARMANDE
+                                                            [address1] => 10, rue blaise pascal
+                                                            [address2] => 
+                                                            [city] => MARMANDE
+                                                            [postcode] => 47200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => PIZZINATO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31663
+                                                            [alias] => 47200 MARMANDE
+                                                            [address1] => 10, rue blaise pascal
+                                                            [address2] => 
+                                                            [city] => MARMANDE
+                                                            [postcode] => 47200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => PIZZINATO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

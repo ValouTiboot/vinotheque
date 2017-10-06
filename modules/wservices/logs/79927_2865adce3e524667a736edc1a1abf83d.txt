@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79927
+    [IdTransaction] => 2865adce3e524667a736edc1a1abf83d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28652] => Array
+                                (
+                                    [notiers] => 28652
+                                    [lastname] => LIMAS
+                                    [firstname] => Sophie
+                                    [email] => sophie242b@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1990-12-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 198
+                                    [NbPointsRestants] => 198
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36074
+                                                            [alias] => 33470 GUJAN-MESTRAS
+                                                            [address1] => 21, allée du fin
+                                                            [address2] => 
+                                                            [city] => GUJAN-MESTRAS
+                                                            [postcode] => 33470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => LIMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36075
+                                                            [alias] => 33470 GUJAN-MESTRAS
+                                                            [address1] => 21, allée du fin
+                                                            [address2] => 
+                                                            [city] => GUJAN-MESTRAS
+                                                            [postcode] => 33470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => LIMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

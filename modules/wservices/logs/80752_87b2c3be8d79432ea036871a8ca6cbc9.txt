@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80752
+    [IdTransaction] => 87b2c3be8d79432ea036871a8ca6cbc9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26291] => Array
+                                (
+                                    [notiers] => 26291
+                                    [lastname] => HEILBRONNER
+                                    [firstname] => Roland
+                                    [email] => roland.rhplus@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 2009m84
+                                    [birthday] => 1940-02-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 33
+                                    [NbPointsRestants] => 33
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32429
+                                                            [alias] => 75020 PARIS
+                                                            [address1] => 10, guebriant paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roland
+                                                            [lastname] => HEILBRONNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32430
+                                                            [alias] => 97231 ROBERT
+                                                            [address1] => 53, lot émeraude Caraïbes
+                                                            [address2] => mansarde de Catalogne Nord
+                                                            [city] => ROBERT
+                                                            [postcode] => 97231
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roland
+                                                            [lastname] => HEILBRONNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

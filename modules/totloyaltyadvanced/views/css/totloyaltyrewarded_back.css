@@ -1,0 +1,147 @@
+#totloyaltyadvanced > h3{
+	/*margin: 0px;
+	color: #68a90c;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 30px; 
+	margin-top: 15px; 
+	margin-bottom: 34px;*/
+	
+	line-height: normal !important;
+    height: auto !important;
+    text-transform: none !important;
+    border-bottom: 0px !important;
+    padding: 0px !important;
+	
+	margin: 0px !important; 
+	font-size: 1.17em !important;
+	-webkit-margin-before: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	color:#585A69 !important;
+}
+#totloyaltyadvanced > p{
+	color:#333; 
+	margin-bottom: 15px;
+}
+table.banner > td.text > span .white{
+	margin: 0px;
+	color: #68a90c;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 30px; 
+	margin-top: 15px; 
+	margin-bottom: 50px;
+}
+body{
+	background-color: #fff;
+}
+#content.nobootstrap{
+    padding: 100px 10px;
+}
+
+fieldset.bg_table{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    border: none;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #ffffff;
+
+}
+
+
+#content.bootstrap .bg_table h3:not(.modal-title), #content.bootstrap .bg_table .panel-heading {
+	height:auto !important;
+	
+}
+fieldset.bg_table legend{
+   
+    background-color: #EBEDF4;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    height: auto;
+    margin: 1em 0 -15px 1em;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    font-weight: 700;
+    color: #333
+}
+#content > fieldset > p:nth-child(2){
+    margin: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+fieldset.bg_table p{
+	font-size: 14px;
+    margin: 0;
+}
+
+fieldset.bg_table h3{
+    margin-bottom: 0;
+}
+
+form.pagination{
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 5em;
+}
+
+
+/*ICI*/
+#content > fieldset div{
+    width: 100%;
+    text-align: center;
+}
+
+.cta {
+  background-image: -webkit-linear-gradient(top, #99dc3a, #99dc3a);
+  background-image: -moz-linear-gradient(top, #99dc3a, #99dc3a);
+  background-image: -ms-linear-gradient(top, #99dc3a, #99dc3a);
+  background-image: -o-linear-gradient(top, #99dc3a, #99dc3a);
+  background-image: linear-gradient(to bottom, #99dc3a, #99dc3a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background:#8ace2a; 
+  color: #fff!important;
+  text-transform: uppercase;
+}
+
+.cta:hover {
+  background: #c4f07d;
+  background-image: -webkit-linear-gradient(top, #c4f07d, #a8d95e);
+  background-image: -moz-linear-gradient(top, #c4f07d, #a8d95e);
+  background-image: -ms-linear-gradient(top, #c4f07d, #a8d95e);
+  background-image: -o-linear-gradient(top, #c4f07d, #a8d95e);
+  background-image: linear-gradient(to bottom, #c4f07d, #a8d95e);
+  text-decoration: none;
+}
+/*
+#content > fieldset div > a.cta{
+    text-transform: uppercase;
+    background-color:#8ace2a; 
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#content > fieldset div> a.cta:hover{
+    text-decoration: underline;
+}*/
+
+.bootstrap .table tbody>tr>td{
+    padding: 10px 8px!important;
+}
+
+#container-customer > div > table > tbody > tr:nth-child(1) > td:nth-child(4){
+    padding-right: 1em!important;
+}

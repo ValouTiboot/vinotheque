@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => e921736a51f0784376f8a4f12276ece9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-08-28 16:35:46
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [2] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => YOUSEF
+                                    [firstname] => Jasmine
+                                    [email] => jasmine.yousef@test.te
+                                    [id_gender] => 2
+                                    [passwd] => 
+                                    [birthday] => 1977-9-14
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [9] => Array
+                                                (
+                                                    [id_address] => 9
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 33 rue linné
+                                                    [address2] => 
+                                                    [city] => paris
+                                                    [postcode] => 75005
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => Valentin
+                                                    [lastname] => Thibault
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

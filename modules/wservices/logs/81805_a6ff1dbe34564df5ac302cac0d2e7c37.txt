@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81805
+    [IdTransaction] => a6ff1dbe34564df5ac302cac0d2e7c37
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33807] => Array
+                                (
+                                    [notiers] => 33807
+                                    [lastname] => BÉCHADE
+                                    [firstname] => Michel
+                                    [email] => michelbechade@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => loubard16
+                                    [birthday] => 1954-05-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 123
+                                    [NbPointsRestants] => 123
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44528
+                                                            [alias] => 16110 YVRAC-ET-MALLEYRAND
+                                                            [address1] => (lieu dit)Le Maine Ribe
+                                                            [address2] => 
+                                                            [city] => YVRAC-ET-MALLEYRAND
+                                                            [postcode] => 16110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BÉCHADE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44529
+                                                            [alias] => 16110 YVRAC-ET-MALLEYRAND
+                                                            [address1] => (lieu dit)Le Maine Ribe
+                                                            [address2] => 
+                                                            [city] => YVRAC-ET-MALLEYRAND
+                                                            [postcode] => 16110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BÉCHADE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80681
+    [IdTransaction] => 1b6ffc2743734b64bfb6e0ec17e3ac06
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30787] => Array
+                                (
+                                    [notiers] => 30787
+                                    [lastname] => BATTIAU
+                                    [firstname] => Maxime
+                                    [email] => maxbattiau@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Biquette
+                                    [birthday] => 1977-07-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 66
+                                    [NbPointsRestants] => 66
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39469
+                                                            [alias] => 93460 GOURNAY-SUR-MARNE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => GOURNAY-SUR-MARNE
+                                                            [postcode] => 93460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => BATTIAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39470
+                                                            [alias] => 93460 GOURNAY-SUR-MARNE
+                                                            [address1] => 20, vert pre
+                                                            [address2] => 
+                                                            [city] => GOURNAY-SUR-MARNE
+                                                            [postcode] => 93460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxime
+                                                            [lastname] => BATTIAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

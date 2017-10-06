@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79402
+    [IdTransaction] => 6cad8fe1839f40538beb858d4bbee350
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32618] => Array
+                                (
+                                    [notiers] => 32618
+                                    [lastname] => DELMAS
+                                    [firstname] => Christine
+                                    [email] => christine.delmas-jourdier@art-miss.org
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1980-03-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 300
+                                    [NbPointsRestants] => 300
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42485
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 14, avenue d'anglade
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => DELMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42486
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 14, avenue d'anglade
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => DELMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

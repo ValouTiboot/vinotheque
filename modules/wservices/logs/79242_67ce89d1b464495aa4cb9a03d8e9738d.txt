@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79242
+    [IdTransaction] => 67ce89d1b464495aa4cb9a03d8e9738d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28452] => Array
+                                (
+                                    [notiers] => 28452
+                                    [lastname] => TRENTY
+                                    [firstname] => Michael
+                                    [email] => michael.trenty@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => medecine00
+                                    [birthday] => 1988-07-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35751
+                                                            [alias] => 59800 LILLE
+                                                            [address1] => 38, Rue blanche
+                                                            [address2] => 
+                                                            [city] => LILLE
+                                                            [postcode] => 59800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michael
+                                                            [lastname] => TRENTY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35752
+                                                            [alias] => 47000 AGEN
+                                                            [address1] => 238, Boulevard de la liberté
+                                                            [address2] => 
+                                                            [city] => AGEN
+                                                            [postcode] => 47000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michael
+                                                            [lastname] => TRENTY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75539
+    [IdTransaction] => bf994cda076642d4aac74a4ac1fdecea
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27693] => Array
+                                (
+                                    [notiers] => 27693
+                                    [lastname] => HALLEUX
+                                    [firstname] => Xavier
+                                    [email] => xavier.halleux@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => rxsophie1
+                                    [birthday] => 1978-04-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 212
+                                    [NbPointsRestants] => 212
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34629
+                                                            [alias] => 4130 TILFF CORTIL
+                                                            [address1] => 7, Rue des Renards
+                                                            [address2] => 
+                                                            [city] => TILFF CORTIL
+                                                            [postcode] => 4130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => HALLEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34630
+                                                            [alias] => 4600 VISE
+                                                            [address1] => 10, Avenue de Navagne
+                                                            [address2] => 
+                                                            [city] => VISE
+                                                            [postcode] => 4600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => HALLEUX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

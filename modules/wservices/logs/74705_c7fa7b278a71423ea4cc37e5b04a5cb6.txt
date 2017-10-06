@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74705
+    [IdTransaction] => c7fa7b278a71423ea4cc37e5b04a5cb6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24900] => Array
+                                (
+                                    [notiers] => 24900
+                                    [lastname] => GRELLOIS
+                                    [firstname] => Caroline
+                                    [email] => caroline.grellois@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => touron33
+                                    [birthday] => 1963-05-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30832
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 36, rue de Laseppe
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => GRELLOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30833
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 36, rue de Laseppe
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => GRELLOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

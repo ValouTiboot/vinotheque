@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79521
+    [IdTransaction] => b08a97bccecd445fa96bce3227b2832c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29050] => Array
+                                (
+                                    [notiers] => 29050
+                                    [lastname] => VESQUE
+                                    [firstname] => Marion
+                                    [email] => marion.vesque@cordier-mestrezat.com
+                                    [id_gender] => 2
+                                    [passwd] => cordiermestrezat
+                                    [birthday] => 1990-08-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36697
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 109, ACHARD
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marion
+                                                            [lastname] => VESQUE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36698
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 109, ACHARD
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marion
+                                                            [lastname] => VESQUE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

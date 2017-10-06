@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77358
+    [IdTransaction] => a5469a0101694cbeb288a8101c16b967
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32919] => Array
+                                (
+                                    [notiers] => 32919
+                                    [lastname] => POULLAIN
+                                    [firstname] => Monique
+                                    [email] => poullain.monique@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1960-08-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42932
+                                                            [alias] => 76520 SAINT-AUBIN-CELLOVILLE
+                                                            [address1] => 402, RUE DU CANIVET
+                                                            [address2] => 
+                                                            [city] => SAINT-AUBIN-CELLOVILLE
+                                                            [postcode] => 76520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Monique
+                                                            [lastname] => POULLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42933
+                                                            [alias] => 76520 SAINT-AUBIN-CELLOVILLE
+                                                            [address1] => 402, RUE DU CANIVET
+                                                            [address2] => 
+                                                            [city] => SAINT-AUBIN-CELLOVILLE
+                                                            [postcode] => 76520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Monique
+                                                            [lastname] => POULLAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

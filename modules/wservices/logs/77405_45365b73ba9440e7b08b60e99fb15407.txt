@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77405
+    [IdTransaction] => 45365b73ba9440e7b08b60e99fb15407
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34147] => Array
+                                (
+                                    [notiers] => 34147
+                                    [lastname] => THOLOT
+                                    [firstname] => Xavier
+                                    [email] => tholot.xavier@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => renard87
+                                    [birthday] => 1992-05-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45111
+                                                            [alias] => 75001 PARIS
+                                                            [address1] => 103, rue saint denis
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => THOLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45112
+                                                            [alias] => 75001 PARIS
+                                                            [address1] => 103, rue saint denis
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Xavier
+                                                            [lastname] => THOLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

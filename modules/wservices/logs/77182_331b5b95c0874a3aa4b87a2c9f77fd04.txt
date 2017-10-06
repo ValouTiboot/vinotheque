@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77182
+    [IdTransaction] => 331b5b95c0874a3aa4b87a2c9f77fd04
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27723] => Array
+                                (
+                                    [notiers] => 27723
+                                    [lastname] => JACOB
+                                    [firstname] => Alain
+                                    [email] => ajacob2434@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1950-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34673
+                                                            [alias] => 33670 CREON
+                                                            [address1] => 30, avenue de la croix blanche
+                                                            [address2] => 
+                                                            [city] => CREON
+                                                            [postcode] => 33670
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => JACOB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34674
+                                                            [alias] => 33670 CREON
+                                                            [address1] => 30, avenue de la croix blanche
+                                                            [address2] => 
+                                                            [city] => CREON
+                                                            [postcode] => 33670
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => JACOB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

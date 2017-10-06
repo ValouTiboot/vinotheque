@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79088
+    [IdTransaction] => eaa816afe15d456db8d0db9d65df2b3f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32930] => Array
+                                (
+                                    [notiers] => 32930
+                                    [lastname] => MONTREAU
+                                    [firstname] => Roger
+                                    [email] => rogermontreau@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => gordini95
+                                    [birthday] => 1950-08-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 306
+                                    [NbPointsRestants] => 306
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42944
+                                                            [alias] => 95600 EAUBONNE
+                                                            [address1] => 10, RUE ALPHONSE DAUDET
+                                                            [address2] => 
+                                                            [city] => EAUBONNE
+                                                            [postcode] => 95600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => MONTREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42945
+                                                            [alias] => 95600 EAUBONNE
+                                                            [address1] => 10, RUE ALPHONSE DAUDET
+                                                            [address2] => 
+                                                            [city] => EAUBONNE
+                                                            [postcode] => 95600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => MONTREAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

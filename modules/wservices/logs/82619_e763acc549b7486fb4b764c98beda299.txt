@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82619
+    [IdTransaction] => e763acc549b7486fb4b764c98beda299
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35042] => Array
+                                (
+                                    [notiers] => 35042
+                                    [lastname] => DEFAYE
+                                    [firstname] => Laetitia
+                                    [email] => ldefaye@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => vinotheque0709
+                                    [birthday] => 1978-09-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 45
+                                    [NbPointsRestants] => 45
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46596
+                                                            [alias] => 01210 FERNEY-VOLTAIRE
+                                                            [address1] => 34, rue de Genève
+                                                            [address2] => Bâtiment A Résidence Le Cèdre Bleu
+                                                            [city] => FERNEY-VOLTAIRE
+                                                            [postcode] => 01210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laetitia
+                                                            [lastname] => DEFAYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46597
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 17, rue Professeur Demons
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laetitia
+                                                            [lastname] => DEFAYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

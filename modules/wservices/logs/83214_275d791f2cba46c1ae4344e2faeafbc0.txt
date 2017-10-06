@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83214
+    [IdTransaction] => 275d791f2cba46c1ae4344e2faeafbc0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26587] => Array
+                                (
+                                    [notiers] => 26587
+                                    [lastname] => ARTIS
+                                    [firstname] => Mireille
+                                    [email] => m.artis@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => beau-regard/92
+                                    [birthday] => 1947-12-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 190
+                                    [NbPointsRestants] => 190
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32865
+                                                            [alias] => 54000 NANCY
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => NANCY
+                                                            [postcode] => 54000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mireille
+                                                            [lastname] => ARTIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32866
+                                                            [alias] => 54000 NANCY
+                                                            [address1] => 13, eugènecorbin
+                                                            [address2] => 
+                                                            [city] => NANCY
+                                                            [postcode] => 54000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mireille
+                                                            [lastname] => ARTIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

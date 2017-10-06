@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78206
+    [IdTransaction] => de2aa748175c4b8d906e30f341c1950a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33348] => Array
+                                (
+                                    [notiers] => 33348
+                                    [lastname] => NIAVET
+                                    [firstname] => Richard
+                                    [email] => richardniavet@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1980-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43690
+                                                            [alias] => 35510 CESSON-SEVIGNE
+                                                            [address1] => 28, du bas village
+                                                            [address2] => 
+                                                            [city] => CESSON-SEVIGNE
+                                                            [postcode] => 35510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Richard
+                                                            [lastname] => NIAVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43691
+                                                            [alias] => 78460 CHEVREUSE
+                                                            [address1] => 33, DE RAMBOUILLET
+                                                            [address2] => 
+                                                            [city] => CHEVREUSE
+                                                            [postcode] => 78460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Richard
+                                                            [lastname] => NIAVET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

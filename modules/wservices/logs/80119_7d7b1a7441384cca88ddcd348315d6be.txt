@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80119
+    [IdTransaction] => 7d7b1a7441384cca88ddcd348315d6be
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28350] => Array
+                                (
+                                    [notiers] => 28350
+                                    [lastname] => TUTUNDJIAN
+                                    [firstname] => Pierre
+                                    [email] => pierretutu@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => caplauk
+                                    [birthday] => 1960-02-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 71
+                                    [NbPointsRestants] => 71
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35604
+                                                            [alias] => 42000 SAINT-ETIENNE
+                                                            [address1] => 13, clovis hugues
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => TUTUNDJIAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35605
+                                                            [alias] => 42000 SAINT-ETIENNE
+                                                            [address1] => 13, clovis hugues
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => TUTUNDJIAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

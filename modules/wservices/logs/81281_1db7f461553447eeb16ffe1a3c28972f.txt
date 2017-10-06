@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81281
+    [IdTransaction] => 1db7f461553447eeb16ffe1a3c28972f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30396] => Array
+                                (
+                                    [notiers] => 30396
+                                    [lastname] => MAIBECHE
+                                    [firstname] => Anthony
+                                    [email] => niot1982@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => 69Maibeche
+                                    [birthday] => 1982-12-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38772
+                                                            [alias] => 69002 LYON
+                                                            [address1] => 2, RUE BICHAT
+                                                            [address2] => 3551
+                                                            [city] => LYON
+                                                            [postcode] => 69002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => MAIBECHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38773
+                                                            [alias] => 69002 LYON
+                                                            [address1] => 2, RUE BICHAT
+                                                            [address2] => 3551
+                                                            [city] => LYON
+                                                            [postcode] => 69002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => MAIBECHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

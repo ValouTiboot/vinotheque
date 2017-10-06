@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75484
+    [IdTransaction] => 4708a5d7faee48b5b4309513968b0418
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32428] => Array
+                                (
+                                    [notiers] => 32428
+                                    [lastname] => MORLOT
+                                    [firstname] => Remi
+                                    [email] => gliglian_t@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => mars-00
+                                    [birthday] => 1983-08-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 340
+                                    [NbPointsRestants] => 340
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42176
+                                                            [alias] => 91140 VILLEBON-SUR-YVETTE
+                                                            [address1] => 6, rue Émile Chartier
+                                                            [address2] => 
+                                                            [city] => VILLEBON-SUR-YVETTE
+                                                            [postcode] => 91140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => MORLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42177
+                                                            [alias] => 91140 VILLEBON-SUR-YVETTE
+                                                            [address1] => 6, rue Émile Chartier
+                                                            [address2] => 
+                                                            [city] => VILLEBON-SUR-YVETTE
+                                                            [postcode] => 91140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => MORLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

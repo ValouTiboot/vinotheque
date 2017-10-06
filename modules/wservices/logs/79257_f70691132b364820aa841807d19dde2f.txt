@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79257
+    [IdTransaction] => f70691132b364820aa841807d19dde2f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36098] => Array
+                                (
+                                    [notiers] => 36098
+                                    [lastname] => DAUGERON
+                                    [firstname] => Stéphane
+                                    [email] => stephane.daugeron@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => daugys
+                                    [birthday] => 1971-01-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48334
+                                                            [alias] => 16100 COGNAC
+                                                            [address1] => 179, Rue Henri Fichon
+                                                            [address2] => 
+                                                            [city] => COGNAC
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => DAUGERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48335
+                                                            [alias] => 16100 COGNAC
+                                                            [address1] => 179, Rue Henri Fichon
+                                                            [address2] => 
+                                                            [city] => COGNAC
+                                                            [postcode] => 16100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => DAUGERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

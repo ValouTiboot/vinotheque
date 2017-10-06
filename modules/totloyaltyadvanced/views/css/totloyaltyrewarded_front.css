@@ -1,0 +1,30 @@
+#pagination > form{
+	margin-left: 2em;
+    float: right;
+}
+
+#container-customer > div > table{
+    background-color: #ecf6fb;
+    border-bottom: solid 1px #a0d0eb;
+    border-top: solid 1px #a0d0eb;
+}
+
+
+#order-list > tbody > tr > td > a:hover,
+#order-list > tbody > tr > td > a:focus{
+	color: #FFF;
+    text-decoration: underline;
+    background-color:#00aff0; 
+}
+
+table#order-list{
+	margin-bottom: 0;
+}
+
+
+/*Prestashop 1.5*/
+/*==================*/
+
+#module-totloyaltyadvanced-default #center_column.grid_5{
+	width: 757px;
+}

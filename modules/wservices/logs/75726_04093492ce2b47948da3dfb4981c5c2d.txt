@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75726
+    [IdTransaction] => 04093492ce2b47948da3dfb4981c5c2d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34226] => Array
+                                (
+                                    [notiers] => 34226
+                                    [lastname] => CLEMENTIDIS
+                                    [firstname] => Nicolas
+                                    [email] => ndclem@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => popeye
+                                    [birthday] => 1977-10-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45244
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 18, place des cigalons
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => CLEMENTIDIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45245
+                                                            [alias] => 13800 ISTRES
+                                                            [address1] => 18, place des cigalons
+                                                            [address2] => 
+                                                            [city] => ISTRES
+                                                            [postcode] => 13800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => CLEMENTIDIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75193
+    [IdTransaction] => dd35bd65498a4124ba25e45920528848
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30356] => Array
+                                (
+                                    [notiers] => 30356
+                                    [lastname] => MANELLA
+                                    [firstname] => Nicolas
+                                    [email] => nicolas_manella@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => nightbringer1988
+                                    [birthday] => 1988-06-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 79
+                                    [NbPointsRestants] => 79
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38691
+                                                            [alias] => 77500 CHELLES
+                                                            [address1] => 41, avenue du maréchal foch
+                                                            [address2] => 3ème étage
+                                                            [city] => CHELLES
+                                                            [postcode] => 77500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => MANELLA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38692
+                                                            [alias] => 77500 CHELLES
+                                                            [address1] => 41, avenue du maréchal foch
+                                                            [address2] => 3ème étage
+                                                            [city] => CHELLES
+                                                            [postcode] => 77500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => MANELLA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

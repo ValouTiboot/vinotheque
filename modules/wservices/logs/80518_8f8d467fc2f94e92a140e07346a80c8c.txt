@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80518
+    [IdTransaction] => 8f8d467fc2f94e92a140e07346a80c8c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35253] => Array
+                                (
+                                    [notiers] => 35253
+                                    [lastname] => BONHOMME
+                                    [firstname] => Aurélien
+                                    [email] => bonhomme.aurelien@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => ab240685
+                                    [birthday] => 1985-06-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46932
+                                                            [alias] => 63720 MARTRES-SUR-MORGE
+                                                            [address1] => 10, Route de maringues
+                                                            [address2] => 
+                                                            [city] => MARTRES-SUR-MORGE
+                                                            [postcode] => 63720
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélien
+                                                            [lastname] => BONHOMME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46933
+                                                            [alias] => 63320 NESCHERS
+                                                            [address1] => 38, route de Coudes
+                                                            [address2] => 
+                                                            [city] => NESCHERS
+                                                            [postcode] => 63320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Aurélien
+                                                            [lastname] => BONHOMME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

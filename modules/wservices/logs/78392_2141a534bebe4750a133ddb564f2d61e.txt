@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78392
+    [IdTransaction] => 2141a534bebe4750a133ddb564f2d61e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35906] => Array
+                                (
+                                    [notiers] => 35906
+                                    [lastname] => BESSON
+                                    [firstname] => Benoit
+                                    [email] => lejardindestropiques@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => toufis07360
+                                    [birthday] => 1978-07-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48015
+                                                            [alias] => 07360 SAINT-VINCENT-DE-DURFORT
+                                                            [address1] => 14, LES BALANGES
+                                                            [address2] => 
+                                                            [city] => SAINT-VINCENT-DE-DURFORT
+                                                            [postcode] => 07360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => BESSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48016
+                                                            [alias] => 07360 SAINT-FORTUNAT-SUR-EYRIEUX
+                                                            [address1] => 112, ROUTE DE VALENCE
+                                                            [address2] => 
+                                                            [city] => SAINT-FORTUNAT-SUR-EYRIEUX
+                                                            [postcode] => 07360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => BESSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

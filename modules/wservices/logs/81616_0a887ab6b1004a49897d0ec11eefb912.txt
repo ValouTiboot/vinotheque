@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81616
+    [IdTransaction] => 0a887ab6b1004a49897d0ec11eefb912
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30560] => Array
+                                (
+                                    [notiers] => 30560
+                                    [lastname] => BARDIN
+                                    [firstname] => Luc
+                                    [email] => gppbardin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Gui18011995
+                                    [birthday] => 1995-01-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 2108
+                                    [NbPointsRestants] => 2108
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39062
+                                                            [alias] => SW7 4UB LONDRES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => LONDRES
+                                                            [postcode] => SW7 4UB
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => BARDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => 
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39063
+                                                            [alias] => 78230 PECQ
+                                                            [address1] => 5, allee de la Capitainerie
+                                                            [address2] => 
+                                                            [city] => PECQ
+                                                            [postcode] => 78230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => BARDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

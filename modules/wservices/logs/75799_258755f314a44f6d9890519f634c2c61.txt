@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75799
+    [IdTransaction] => 258755f314a44f6d9890519f634c2c61
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36008] => Array
+                                (
+                                    [notiers] => 36008
+                                    [lastname] => TAÏEB
+                                    [firstname] => Sophie
+                                    [email] => chamade27@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => chamade85
+                                    [birthday] => 1951-09-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 54
+                                    [NbPointsRestants] => 54
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48189
+                                                            [alias] => 85510 BOUPERE
+                                                            [address1] => 35, Général de Gaulle
+                                                            [address2] => 
+                                                            [city] => BOUPERE
+                                                            [postcode] => 85510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => TAÏEB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48190
+                                                            [alias] => 49640 MORANES
+                                                            [address1] => 66, Grande Rue
+                                                            [address2] => 
+                                                            [city] => MORANES
+                                                            [postcode] => 49640
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sophie
+                                                            [lastname] => TAÏEB
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

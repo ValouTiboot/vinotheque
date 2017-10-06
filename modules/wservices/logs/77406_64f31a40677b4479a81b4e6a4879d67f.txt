@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77406
+    [IdTransaction] => 64f31a40677b4479a81b4e6a4879d67f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34320] => Array
+                                (
+                                    [notiers] => 34320
+                                    [lastname] => CAHAREL
+                                    [firstname] => Thibaut
+                                    [email] => thibaut.caharel@crsblaw.com
+                                    [id_gender] => 1
+                                    [passwd] => fcnantes
+                                    [birthday] => 1973-02-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1250
+                                    [NbPointsRestants] => 1250
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45404
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 41, avenue de Friedland
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibaut
+                                                            [lastname] => CAHAREL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45405
+                                                            [alias] => 27390 SAINT-DENIS-D'AUGERONS
+                                                            [address1] => La Mairie
+                                                            [address2] => 
+                                                            [city] => SAINT-DENIS-D'AUGERONS
+                                                            [postcode] => 27390
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thibaut
+                                                            [lastname] => CAHAREL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

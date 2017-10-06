@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80452
+    [IdTransaction] => 883a5d20b1db42e49cd56b9c979a8c93
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25486] => Array
+                                (
+                                    [notiers] => 25486
+                                    [lastname] => BASEDEN
+                                    [firstname] => Maxence
+                                    [email] => maxbaseden@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => diabologum
+                                    [birthday] => 1979-12-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31229
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 84, Rue Vendome
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxence
+                                                            [lastname] => BASEDEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31230
+                                                            [alias] => 69006 LYON
+                                                            [address1] => 84, Rue Vendome
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Maxence
+                                                            [lastname] => BASEDEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

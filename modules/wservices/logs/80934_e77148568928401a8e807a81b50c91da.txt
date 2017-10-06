@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80934
+    [IdTransaction] => e77148568928401a8e807a81b50c91da
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36053] => Array
+                                (
+                                    [notiers] => 36053
+                                    [lastname] => SCHOTT
+                                    [firstname] => Serge
+                                    [email] => serge.schott@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1962-05-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 258
+                                    [NbPointsRestants] => 258
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48269
+                                                            [alias] => 67620 SOUFFLENHEIM
+                                                            [address1] => 2, rue paul messner
+                                                            [address2] => 
+                                                            [city] => SOUFFLENHEIM
+                                                            [postcode] => 67620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => SCHOTT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48270
+                                                            [alias] => 67620 SOUFFLENHEIM
+                                                            [address1] => 2, rue paul messner
+                                                            [address2] => 
+                                                            [city] => SOUFFLENHEIM
+                                                            [postcode] => 67620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Serge
+                                                            [lastname] => SCHOTT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

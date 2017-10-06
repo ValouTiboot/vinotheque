@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82760
+    [IdTransaction] => 78bf2bcc41a6429982a31427b69762dc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25807] => Array
+                                (
+                                    [notiers] => 25807
+                                    [lastname] => HAUGUEL
+                                    [firstname] => Francis
+                                    [email] => francis.hauguel@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => FRANCIS40
+                                    [birthday] => 1940-12-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 54
+                                    [NbPointsRestants] => 54
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31736
+                                                            [alias] => 41270 CHAUVIGNY-DU-PERCHE
+                                                            [address1] => L'Orgerie
+                                                            [address2] => 
+                                                            [city] => CHAUVIGNY-DU-PERCHE
+                                                            [postcode] => 41270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francis
+                                                            [lastname] => HAUGUEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31737
+                                                            [alias] => 01210 ORNEX
+                                                            [address1] => 1158, rue de Genève
+                                                            [address2] => 
+                                                            [city] => ORNEX
+                                                            [postcode] => 01210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francis
+                                                            [lastname] => HAUGUEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

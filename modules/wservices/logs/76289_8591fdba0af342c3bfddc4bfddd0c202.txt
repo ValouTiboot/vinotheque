@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76289
+    [IdTransaction] => 8591fdba0af342c3bfddc4bfddd0c202
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33714] => Array
+                                (
+                                    [notiers] => 33714
+                                    [lastname] => MAGNAN
+                                    [firstname] => Charlotte
+                                    [email] => charlotte.magnan@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => CHACHOU
+                                    [birthday] => 1988-03-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 150
+                                    [NbPointsRestants] => 150
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44349
+                                                            [alias] => 83440 FAYENCE
+                                                            [address1] => 28, RUE DROITE Fayence
+                                                            [address2] => 
+                                                            [city] => FAYENCE
+                                                            [postcode] => 83440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charlotte
+                                                            [lastname] => MAGNAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44350
+                                                            [alias] => 83440 83440
+                                                            [address1] => 28, RUE DROITE Fayence
+                                                            [address2] => 
+                                                            [city] => 83440
+                                                            [postcode] => 83440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Charlotte
+                                                            [lastname] => MAGNAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

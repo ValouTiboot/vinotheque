@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74812
+    [IdTransaction] => 874bc3044793439fa0bfcfc868be7623
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32141] => Array
+                                (
+                                    [notiers] => 32141
+                                    [lastname] => MASSON
+                                    [firstname] => Marie christiane
+                                    [email] => christiane.masson@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1936-07-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 560
+                                    [NbPointsRestants] => 560
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41732
+                                                            [alias] => 78490 MEREE MONFORT L AMORY
+                                                            [address1] => 9, CHEMIN DU BOIS DES MOINES
+                                                            [address2] => 
+                                                            [city] => MEREE MONFORT L AMORY
+                                                            [postcode] => 78490
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie christiane
+                                                            [lastname] => MASSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41733
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 9, AVENUE CHARLES DE GAULLE
+                                                            [address2] => SERVICE ORTHOPEDIE
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie christiane
+                                                            [lastname] => MASSON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

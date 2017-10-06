@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75956
+    [IdTransaction] => 6352bdb660fa4117903ca783ce59be63
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26962] => Array
+                                (
+                                    [notiers] => 26962
+                                    [lastname] => GODARD
+                                    [firstname] => Freddy
+                                    [email] => freddy.godard@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => 85290FG
+                                    [birthday] => 1977-10-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 129
+                                    [NbPointsRestants] => 129
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33467
+                                                            [alias] => 85290 MORTAGNE-SUR-SEVRE
+                                                            [address1] => 8, rue de bellevue
+                                                            [address2] => 
+                                                            [city] => MORTAGNE-SUR-SEVRE
+                                                            [postcode] => 85290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freddy
+                                                            [lastname] => GODARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33468
+                                                            [alias] => 85290 MORTAGNE-SUR-SEVRE
+                                                            [address1] => 8, rue de bellevue
+                                                            [address2] => 
+                                                            [city] => MORTAGNE-SUR-SEVRE
+                                                            [postcode] => 85290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Freddy
+                                                            [lastname] => GODARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81666
+    [IdTransaction] => 5d82817459b04aef94c356ae9cd00037
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32369] => Array
+                                (
+                                    [notiers] => 32369
+                                    [lastname] => ARMANDO
+                                    [firstname] => Olivier
+                                    [email] => olivierarmando@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Nubinet07
+                                    [birthday] => 1981-07-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 279
+                                    [NbPointsRestants] => 279
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42059
+                                                            [alias] => 92130 ISSY
+                                                            [address1] => 68, avenue victor cresson
+                                                            [address2] => 
+                                                            [city] => ISSY
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => ARMANDO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42063
+                                                            [alias] => 77630 BARBIZON
+                                                            [address1] => 98, Grande Rue
+                                                            [address2] => PHARMACIE
+                                                            [city] => BARBIZON
+                                                            [postcode] => 77630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => ARMANDO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

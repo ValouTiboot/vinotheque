@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81577
+    [IdTransaction] => 6ce041b39c67476c885a04b710839d4a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29874] => Array
+                                (
+                                    [notiers] => 29874
+                                    [lastname] => ANNERON
+                                    [firstname] => Beatrice
+                                    [email] => beatrice.anneron@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => bibous
+                                    [birthday] => 1978-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 89
+                                    [NbPointsRestants] => 89
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37872
+                                                            [alias] => 38760 SAINT-PAUL-DE-VARCES
+                                                            [address1] => 115, Route de Grenoble
+                                                            [address2] => 
+                                                            [city] => SAINT-PAUL-DE-VARCES
+                                                            [postcode] => 38760
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Beatrice
+                                                            [lastname] => ANNERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37873
+                                                            [alias] => 59113 SECLIN
+                                                            [address1] => 119, Rue Roger Bouvry
+                                                            [address2] => 
+                                                            [city] => SECLIN
+                                                            [postcode] => 59113
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Beatrice
+                                                            [lastname] => ANNERON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

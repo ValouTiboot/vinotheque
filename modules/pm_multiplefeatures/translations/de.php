@@ -1,0 +1,24 @@
+<?php
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ea5de6df52b20212860e67f9e35d8f26'] = 'Erlauben Sie, mehrere Merkmalswerte pro Features zu definieren';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_e7fd45d4d37d3d4ec8b2543c9fc48269'] = 'Online-Dokumentation';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_9f5ab71ba0b877b73860c16e009727bf'] = 'Stützkontakt';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_4f37eb0beac84e6b0ea6938dddc52dd8'] = 'Die Konfiguration wurde erfolgreich gespeichert';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_254f642527b45bc260048e30704edb39'] = 'Konfiguration';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_338ce42954329122f9e4f8af16a90645'] = 'Eigenschaften separator';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ca328870f42ba5b281ca2ca498d515d5'] = 'Definiere hier das Zeichen, das verwendet wird, um mehrere Merkmalswerte zu trennen';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_c9cc8cce247e49bae79f15173ce97354'] = 'Speichern';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_1dfe1f4d7214136e5d6f8fdd48c87192'] = 'Verfügbare Funktionen:';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ed4f68734198a7886f29f1be067f454c'] = 'Verfügbare Funktionen (%nbResults% gefunden):';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_13348442cc6a27032d2b4aa28b75a5d3'] = 'Suche';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_94abb2162ce5027d9673dcb067505e23'] = 'Ausgewählte Merkmale:';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_4f513db70f4e183177ac2ee3b3b7d76f'] = 'Füge alle Hinzu';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ed4e0a0aae1c5f8eebeefb2d24e746bc'] = 'Alles entfernen';
+$_MODULE['<{pm_multiplefeatures}prestashop>cs-addons_6d13a2fe59ad551c5dfba7e9edde0009'] = 'Überprüfen Sie alle unsere Module';
+$_MODULE['<{pm_multiplefeatures}prestashop>cs_6d13a2fe59ad551c5dfba7e9edde0009'] = 'Überprüfen Sie alle unsere Module';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_9458c1f475a5e4fa0804bfbc23599830'] = 'Sie sind mit unserem Modul zufrieden und möchten uns dazu ermutigen, neue Features hinzuzufügen?';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_a66c86446aba3bc66d95d286c8e134d8'] = 'Bitte bewerten Sie es auf Prestashop Addons und geben uns 5 Sterne!';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_280234c3f9b5e5a6e7a904645520ccf5'] = 'Nein danke, ich will dir nicht helfen Schließen Sie diesen Dialog.';
+$_MODULE['<{pm_multiplefeatures}prestashop>support_e9be76a44ba1c2521b80bc4a126e017a'] = 'Nützliche Links';
+$_MODULE['<{pm_multiplefeatures}prestashop>support_9370d76a427c948a3aaa198af8bb7e33'] = 'Modulversion:';

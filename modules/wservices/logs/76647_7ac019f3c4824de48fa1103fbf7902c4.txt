@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76647
+    [IdTransaction] => 7ac019f3c4824de48fa1103fbf7902c4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27696] => Array
+                                (
+                                    [notiers] => 27696
+                                    [lastname] => CORDONNIER
+                                    [firstname] => Bruno
+                                    [email] => anne.cordonnier@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => wismes
+                                    [birthday] => 1951-11-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 324
+                                    [NbPointsRestants] => 324
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34635
+                                                            [alias] => 76100 ROUEN
+                                                            [address1] => 12, rue des Murs St Yon
+                                                            [address2] => 
+                                                            [city] => ROUEN
+                                                            [postcode] => 76100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => CORDONNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34636
+                                                            [alias] => 76000 ROUEN
+                                                            [address1] => 3, boulevard du midi
+                                                            [address2] => 
+                                                            [city] => ROUEN
+                                                            [postcode] => 76000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => CORDONNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

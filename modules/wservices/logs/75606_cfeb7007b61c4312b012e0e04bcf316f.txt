@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75606
+    [IdTransaction] => cfeb7007b61c4312b012e0e04bcf316f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30054] => Array
+                                (
+                                    [notiers] => 30054
+                                    [lastname] => FERRANDO
+                                    [firstname] => Roger
+                                    [email] => roger.ferrando@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 7380738
+                                    [birthday] => 1932-02-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38169
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 60, EMERIAU
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => FERRANDO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38170
+                                                            [alias] => 75014 PARIS
+                                                            [address1] => 166, RAYMOND LOSSERAND
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75014
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roger
+                                                            [lastname] => FERRANDO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

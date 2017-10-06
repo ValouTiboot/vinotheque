@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83278
+    [IdTransaction] => 91b4da26504b4d7db00baed622d1cd5e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32526] => Array
+                                (
+                                    [notiers] => 32526
+                                    [lastname] => CHALME
+                                    [firstname] => Damien
+                                    [email] => damien.chalme@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => roukin
+                                    [birthday] => 1977-06-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 128
+                                    [NbPointsRestants] => 128
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42345
+                                                            [alias] => 33460 ARSAC
+                                                            [address1] => 12, ALLEE DE LA DAME BLANCHE
+                                                            [address2] => 
+                                                            [city] => ARSAC
+                                                            [postcode] => 33460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => CHALME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42346
+                                                            [alias] => 33460 ARSAC
+                                                            [address1] => ALLEE DE LA DAME BLANCHE
+                                                            [address2] => 
+                                                            [city] => ARSAC
+                                                            [postcode] => 33460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Damien
+                                                            [lastname] => CHALME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

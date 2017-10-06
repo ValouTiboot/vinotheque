@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79052
+    [IdTransaction] => ec713de1a9a54f39860f4ddd04382e06
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24780] => Array
+                                (
+                                    [notiers] => 24780
+                                    [lastname] => MARCHAND
+                                    [firstname] => Jean-hugues
+                                    [email] => jeanhuguesmarchand@club-internet.fr
+                                    [id_gender] => 1
+                                    [passwd] => hennebont
+                                    [birthday] => 1959-07-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 108
+                                    [NbPointsRestants] => 108
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30668
+                                                            [alias] => 45600 SULLY-SUR-LOIRE
+                                                            [address1] => 4, rue du faubourg Saint François
+                                                            [address2] => 
+                                                            [city] => SULLY-SUR-LOIRE
+                                                            [postcode] => 45600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-hugues
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30669
+                                                            [alias] => 45600 SULLY-SUR-LOIRE
+                                                            [address1] => 4, rue du faubourg Saint François
+                                                            [address2] => 
+                                                            [city] => SULLY-SUR-LOIRE
+                                                            [postcode] => 45600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-hugues
+                                                            [lastname] => MARCHAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

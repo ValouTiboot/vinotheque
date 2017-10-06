@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77366
+    [IdTransaction] => 3a5d433507c84181833a0d068e229ba2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30783] => Array
+                                (
+                                    [notiers] => 30783
+                                    [lastname] => ZUNINO
+                                    [firstname] => Guy
+                                    [email] => guycouki@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => napoleonfelix40
+                                    [birthday] => 1966-07-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39461
+                                                            [alias] => 06500 MENTON
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => MENTON
+                                                            [postcode] => 06500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => ZUNINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39462
+                                                            [alias] => 56120 GUEGON
+                                                            [address1] => 2, morhan
+                                                            [address2] => 
+                                                            [city] => GUEGON
+                                                            [postcode] => 56120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guy
+                                                            [lastname] => ZUNINO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

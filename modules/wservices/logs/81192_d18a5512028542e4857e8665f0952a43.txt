@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81192
+    [IdTransaction] => d18a5512028542e4857e8665f0952a43
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27216] => Array
+                                (
+                                    [notiers] => 27216
+                                    [lastname] => VAUPRES
+                                    [firstname] => Bruno
+                                    [email] => bvaupres@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => FANNY2002
+                                    [birthday] => 1974-01-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 195
+                                    [NbPointsRestants] => 195
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33894
+                                                            [alias] => 13008 MARSEILLE
+                                                            [address1] => 6, BLD DES AMIS
+                                                            [address2] => B2
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => VAUPRES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33895
+                                                            [alias] => 2030 ANTWERPEN
+                                                            [address1] => haven 17, Luithagen
+                                                            [address2] => 
+                                                            [city] => ANTWERPEN
+                                                            [postcode] => 2030
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => VAUPRES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

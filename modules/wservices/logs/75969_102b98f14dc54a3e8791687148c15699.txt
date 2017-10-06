@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75969
+    [IdTransaction] => 102b98f14dc54a3e8791687148c15699
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30373] => Array
+                                (
+                                    [notiers] => 30373
+                                    [lastname] => DRAY
+                                    [firstname] => Zacharie
+                                    [email] => dray.zacharie@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => zaezsa
+                                    [birthday] => 1991-05-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1500
+                                    [NbPointsRestants] => 1500
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38725
+                                                            [alias] => 75001 PARIS
+                                                            [address1] => 2, rue Francaise
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75001
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Zacharie
+                                                            [lastname] => DRAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38726
+                                                            [alias] => 94320 THIAIS
+                                                            [address1] => 24, rue des oliviers
+                                                            [address2] => 
+                                                            [city] => THIAIS
+                                                            [postcode] => 94320
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Zacharie
+                                                            [lastname] => DRAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

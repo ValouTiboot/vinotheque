@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 78822
+    [IdTransaction] => 112d2bec358a42e69d0fe8edd505bb8a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [17006] => Array
+                                (
+                                    [notiers] => 17006
+                                    [lastname] => DE LAGUARIGUE
+                                    [firstname] => Emmanuel
+                                    [email] => emmanuel.delaguarigue@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1969-08-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 659
+                                    [NbPointsRestants] => 659
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 20637
+                                                            [alias] => 97232 LAMENTIN
+                                                            [address1] => 
+                                                            [address2] => Habitation Soudon
+                                                            [city] => LAMENTIN
+                                                            [postcode] => 97232
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr DE LAGUARIGUE EMMANUEL
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => DE LAGUARIGUE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 20638
+                                                            [alias] => 15300 MURAT
+                                                            [address1] => 8, Avenue de l'Ermitage
+                                                            [address2] => 
+                                                            [city] => MURAT
+                                                            [postcode] => 15300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr DE LAGUARIGUE Vincent
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => DE LAGUARIGUE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 20638
+                                                            [alias] => 15300 MURAT
+                                                            [address1] => 8, Avenue de l'Ermitage
+                                                            [address2] => 
+                                                            [city] => MURAT
+                                                            [postcode] => 15300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr DE LAGUARIGUE Vincent
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => DE LAGUARIGUE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

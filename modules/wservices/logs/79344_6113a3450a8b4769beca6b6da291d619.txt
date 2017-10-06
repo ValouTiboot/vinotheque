@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79344
+    [IdTransaction] => 6113a3450a8b4769beca6b6da291d619
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30394] => Array
+                                (
+                                    [notiers] => 30394
+                                    [lastname] => PENICAUT
+                                    [firstname] => Benoit
+                                    [email] => benoit.penicaut@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 8PxfLXiuOp
+                                    [birthday] => 1981-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 286
+                                    [NbPointsRestants] => 286
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38768
+                                                            [alias] => 31300 TOULOUSE
+                                                            [address1] => 29, rue Clément Ader Toulouse
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => PENICAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38769
+                                                            [alias] => 31300 TOULOUSE
+                                                            [address1] => 29, rue Clément Ader
+                                                            [address2] => 
+                                                            [city] => TOULOUSE
+                                                            [postcode] => 31300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => PENICAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

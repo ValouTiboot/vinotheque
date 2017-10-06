@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77211
+    [IdTransaction] => 44fad8a892234d16a36b0b089101a656
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28876] => Array
+                                (
+                                    [notiers] => 28876
+                                    [lastname] => GRAS
+                                    [firstname] => Laurent
+                                    [email] => nicollev4@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 35340LIFFRE
+                                    [birthday] => 1967-06-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 128
+                                    [NbPointsRestants] => 128
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36427
+                                                            [alias] => 35340 LIFFRE
+                                                            [address1] => 20, AVE GENERAL DE GAULLE
+                                                            [address2] => MAISON NEUVE
+                                                            [city] => LIFFRE
+                                                            [postcode] => 35340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36428
+                                                            [alias] => 35340 LIFFRE
+                                                            [address1] => 20, AVE GENERAL DE GAULLE
+                                                            [address2] => MAISON NEUVE
+                                                            [city] => LIFFRE
+                                                            [postcode] => 35340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GRAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

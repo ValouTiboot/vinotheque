@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82477
+    [IdTransaction] => fe4ecf33c6004fd9b9e88f2a337c4446
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29690] => Array
+                                (
+                                    [notiers] => 29690
+                                    [lastname] => BAC
+                                    [firstname] => Alexandre
+                                    [email] => alex.bac@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => maldives
+                                    [birthday] => 1985-06-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37566
+                                                            [alias] => 71130 GUEUGNON
+                                                            [address1] => 13, Rue Félix Aulois
+                                                            [address2] => 
+                                                            [city] => GUEUGNON
+                                                            [postcode] => 71130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37567
+                                                            [alias] => 71130 GUEUGNON
+                                                            [address1] => 13, Félix Aulois
+                                                            [address2] => 
+                                                            [city] => GUEUGNON
+                                                            [postcode] => 71130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => BAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

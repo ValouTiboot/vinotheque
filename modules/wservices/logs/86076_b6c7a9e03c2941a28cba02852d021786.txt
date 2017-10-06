@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86076
+    [IdTransaction] => b6c7a9e03c2941a28cba02852d021786
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27741] => Array
+                                (
+                                    [notiers] => 27741
+                                    [lastname] => DUSSERRE
+                                    [firstname] => Olivier
+                                    [email] => olivier@dusserre.com
+                                    [id_gender] => 1
+                                    [passwd] => oriane
+                                    [birthday] => 1957-06-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 87
+                                    [NbPointsRestants] => 87
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34706
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 20, avenue Rapp
+                                                            [address2] => Escalier A
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => SWITCH SAS
+                                                            [firstname] => Olivier
+                                                            [lastname] => DUSSERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34707
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 20, avenue Rapp
+                                                            [address2] => Escalier A
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => DUSSERRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

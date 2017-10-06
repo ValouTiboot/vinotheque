@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75132
+    [IdTransaction] => 32a8628f13a54dbb88a687f5d73b85fa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35804] => Array
+                                (
+                                    [notiers] => 35804
+                                    [lastname] => RENARD
+                                    [firstname] => Pierre
+                                    [email] => renardp@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => lipou123
+                                    [birthday] => 1948-03-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 87
+                                    [NbPointsRestants] => 87
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47845
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 7, Square Dunois Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => RENARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47846
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 7, Square Dunois Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => RENARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

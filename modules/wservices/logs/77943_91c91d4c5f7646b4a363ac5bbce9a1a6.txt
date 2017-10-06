@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77943
+    [IdTransaction] => 91c91d4c5f7646b4a363ac5bbce9a1a6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33018] => Array
+                                (
+                                    [notiers] => 33018
+                                    [lastname] => TEXIER
+                                    [firstname] => Jerome
+                                    [email] => jerome.texier@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 6920fk5i
+                                    [birthday] => 1975-10-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 176
+                                    [NbPointsRestants] => 176
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43094
+                                                            [alias] => 87000 LIMOGES
+                                                            [address1] => 9, rue de la brasserie
+                                                            [address2] => 
+                                                            [city] => LIMOGES
+                                                            [postcode] => 87000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => TEXIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43095
+                                                            [alias] => 87000 LIMOGES
+                                                            [address1] => 9, rue de la brasserie
+                                                            [address2] => 
+                                                            [city] => LIMOGES
+                                                            [postcode] => 87000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => TEXIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77845
+    [IdTransaction] => 4385679995a6480a9e1834bf9a4443e5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34811] => Array
+                                (
+                                    [notiers] => 34811
+                                    [lastname] => TANNER
+                                    [firstname] => Daniel
+                                    [email] => daniel.tanner@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 31roBert0526
+                                    [birthday] => 1951-02-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 46
+                                    [NbPointsRestants] => 46
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46249
+                                                            [alias] => 13008 MARSEILLE
+                                                            [address1] => 39, avenue de Montredon marseille
+                                                            [address2] => 39, avenue de montredon
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => TANNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46250
+                                                            [alias] => 13008 MARSEILLE
+                                                            [address1] => 39, avenue de Montredon marseille
+                                                            [address2] => 39, avenue de montredon
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => TANNER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,60 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => abe3dc4fa323069b939379b199ea406c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-06-26 15:24:22
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [42] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => toto
+                                    [firstname] => tata
+                                    [email] => tototete@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [23] => Array
+                                                (
+                                                    [id_address] => 23
+                                                    [noadresse] => 
+                                                    [alias] => Adresse
+                                                    [address1] => 7 Avenue des Cèdres
+                                                    [address2] => 
+                                                    [city] => Ville-d'Avray
+                                                    [postcode] => 92410
+                                                    [phone] => 
+                                                    [phone_mobile] => 
+                                                    [company] => 
+                                                    [firstname] => tata
+                                                    [lastname] => toto
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

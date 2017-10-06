@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74860
+    [IdTransaction] => 8066ef70c93546358c50ee3632e2e000
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35041] => Array
+                                (
+                                    [notiers] => 35041
+                                    [lastname] => BAZILE
+                                    [firstname] => Romane
+                                    [email] => romanebazile@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => soleil0304
+                                    [birthday] => 1998-04-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 24
+                                    [NbPointsRestants] => 24
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46594
+                                                            [alias] => 69002 LYON
+                                                            [address1] => 5, Rue d'Auvergne
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romane
+                                                            [lastname] => BAZILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46595
+                                                            [alias] => 38560 CHAMP-SUR-DRAC
+                                                            [address1] => 20bis, Avenue du Pavillon
+                                                            [address2] => 
+                                                            [city] => CHAMP-SUR-DRAC
+                                                            [postcode] => 38560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Romane
+                                                            [lastname] => BAZILE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

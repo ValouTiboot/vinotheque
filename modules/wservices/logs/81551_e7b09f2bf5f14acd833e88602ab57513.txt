@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81551
+    [IdTransaction] => e7b09f2bf5f14acd833e88602ab57513
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25425] => Array
+                                (
+                                    [notiers] => 25425
+                                    [lastname] => SITRUK
+                                    [firstname] => Hervé
+                                    [email] => sitruk.herve@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => vzt6x2d
+                                    [birthday] => 1949-08-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 770
+                                    [NbPointsRestants] => 770
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31126
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 79, QUAI PANHARD ET LEVASSOR
+                                                            [address2] => 802 A
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hervé
+                                                            [lastname] => SITRUK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31127
+                                                            [alias] => 12200 MORLHON-LE-HAUT
+                                                            [address1] => LE BOUYSSOU
+                                                            [address2] => 
+                                                            [city] => MORLHON-LE-HAUT
+                                                            [postcode] => 12200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hervé
+                                                            [lastname] => SITRUK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

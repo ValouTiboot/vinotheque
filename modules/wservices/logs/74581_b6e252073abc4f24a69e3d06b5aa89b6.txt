@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74581
+    [IdTransaction] => b6e252073abc4f24a69e3d06b5aa89b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27898] => Array
+                                (
+                                    [notiers] => 27898
+                                    [lastname] => MORIN
+                                    [firstname] => Nathalie
+                                    [email] => nathaliemorin2606@netcourrier.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1969-01-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 27
+                                    [NbPointsRestants] => 27
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34959
+                                                            [alias] => 22400 LAMBALLE
+                                                            [address1] => 13, rue de beaulieu
+                                                            [address2] => 
+                                                            [city] => LAMBALLE
+                                                            [postcode] => 22400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nathalie
+                                                            [lastname] => MORIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34960
+                                                            [alias] => 22400 LAMBALLE
+                                                            [address1] => 13, rue de beaulieu
+                                                            [address2] => 
+                                                            [city] => LAMBALLE
+                                                            [postcode] => 22400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nathalie
+                                                            [lastname] => MORIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

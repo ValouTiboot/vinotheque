@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80918
+    [IdTransaction] => 769e10100c894b408e14f835595fede2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31500] => Array
+                                (
+                                    [notiers] => 31500
+                                    [lastname] => PATRIARCA
+                                    [firstname] => Sylvie
+                                    [email] => sylviepatriarca@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1963-08-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 456
+                                    [NbPointsRestants] => 456
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40719
+                                                            [alias] => 31370 RIEUMES
+                                                            [address1] => 50, route de plagnole
+                                                            [address2] => 
+                                                            [city] => RIEUMES
+                                                            [postcode] => 31370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvie
+                                                            [lastname] => PATRIARCA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40720
+                                                            [alias] => 31370 RIEUMES
+                                                            [address1] => 50, route de plagnole
+                                                            [address2] => 
+                                                            [city] => RIEUMES
+                                                            [postcode] => 31370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvie
+                                                            [lastname] => PATRIARCA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

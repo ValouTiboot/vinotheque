@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77795
+    [IdTransaction] => 5ea025e0cf6946578359cc9e0278eee0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30716] => Array
+                                (
+                                    [notiers] => 30716
+                                    [lastname] => MIALON
+                                    [firstname] => Jean-pierre
+                                    [email] => jean-pierre.mialon@change.bz
+                                    [id_gender] => 1
+                                    [passwd] => jmijmiji5
+                                    [birthday] => 1955-05-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1361
+                                    [NbPointsRestants] => 1361
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39339
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 109, Grande Rue GARCHES
+                                                            [address2] => 
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => MIALON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39340
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 109, Grande Rue GARCHES
+                                                            [address2] => 
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Monsieur VANOYE
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => MIALON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

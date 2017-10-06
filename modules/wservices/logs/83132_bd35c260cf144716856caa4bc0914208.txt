@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83132
+    [IdTransaction] => bd35c260cf144716856caa4bc0914208
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35076] => Array
+                                (
+                                    [notiers] => 35076
+                                    [lastname] => DOUSPIS
+                                    [firstname] => Guillaume
+                                    [email] => g.douspis@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Galo223*
+                                    [birthday] => 1983-03-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46661
+                                                            [alias] => 42610 SAINT-ROMAIN-LE-PUY
+                                                            [address1] => 9 lotissement Le Clos victoire
+                                                            [address2] => 
+                                                            [city] => SAINT-ROMAIN-LE-PUY
+                                                            [postcode] => 42610
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => DOUSPIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46662
+                                                            [alias] => 42000 SAINT-ETIENNE
+                                                            [address1] => 16, Rue Georges teissier Saint Étienne
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guillaume
+                                                            [lastname] => DOUSPIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82143
+    [IdTransaction] => b2d1a370b29e446aa41065fe5c4306eb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34291] => Array
+                                (
+                                    [notiers] => 34291
+                                    [lastname] => ERAUD
+                                    [firstname] => Martin
+                                    [email] => martin.eraud@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => patsy00
+                                    [birthday] => 1993-02-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 45
+                                    [NbPointsRestants] => 45
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45348
+                                                            [alias] => 44400 REZE
+                                                            [address1] => 4, RUE DU BOIS MARNIER
+                                                            [address2] => 
+                                                            [city] => REZE
+                                                            [postcode] => 44400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => ERAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45349
+                                                            [alias] => 30700 SANILHAC-SAGRIES
+                                                            [address1] => 2, RUE DES SEYNES SAGRIES
+                                                            [address2] => 
+                                                            [city] => SANILHAC-SAGRIES
+                                                            [postcode] => 30700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => ERAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

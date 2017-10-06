@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76003
+    [IdTransaction] => b4d1be950553454cb7aaf246a97f6682
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30675] => Array
+                                (
+                                    [notiers] => 30675
+                                    [lastname] => LANOIX
+                                    [firstname] => Denis
+                                    [email] => denis.lanoix@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => MINOUS
+                                    [birthday] => 1943-04-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 3600
+                                    [NbPointsAcquits] => 4113
+                                    [NbPointsRestants] => 513
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39264
+                                                            [alias] => 54122 CHENEVIERES
+                                                            [address1] => 13, rue de l'église
+                                                            [address2] => 
+                                                            [city] => CHENEVIERES
+                                                            [postcode] => 54122
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Denis
+                                                            [lastname] => LANOIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39265
+                                                            [alias] => 54122 CHENEVIERES
+                                                            [address1] => 13, rue de l'église
+                                                            [address2] => 
+                                                            [city] => CHENEVIERES
+                                                            [postcode] => 54122
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Denis
+                                                            [lastname] => LANOIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

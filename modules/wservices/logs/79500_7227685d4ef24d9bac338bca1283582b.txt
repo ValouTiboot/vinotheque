@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79500
+    [IdTransaction] => 7227685d4ef24d9bac338bca1283582b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34047] => Array
+                                (
+                                    [notiers] => 34047
+                                    [lastname] => CUCCIAIONI
+                                    [firstname] => Antoine
+                                    [email] => antoine.cucciaioni@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => durendal
+                                    [birthday] => 1988-01-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 115
+                                    [NbPointsRestants] => 115
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44946
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 3, villa Poirier
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => CUCCIAIONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44947
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 3, villa Poirier
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => CUCCIAIONI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

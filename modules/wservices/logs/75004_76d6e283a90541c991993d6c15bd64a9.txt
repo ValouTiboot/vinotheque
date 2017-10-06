@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75004
+    [IdTransaction] => 76d6e283a90541c991993d6c15bd64a9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34208] => Array
+                                (
+                                    [notiers] => 34208
+                                    [lastname] => CAPELANI
+                                    [firstname] => Pierre
+                                    [email] => capelanip@yahoo.com
+                                    [id_gender] => 1
+                                    [passwd] => Mathas!1234
+                                    [birthday] => 1974-09-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 583
+                                    [NbPointsRestants] => 583
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45213
+                                                            [alias] => 63100 CLERMONT-FERRAND
+                                                            [address1] => 51, Barbier Daubree
+                                                            [address2] => 
+                                                            [city] => CLERMONT-FERRAND
+                                                            [postcode] => 63100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => CAPELANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45214
+                                                            [alias] => 63440 MARCILLAT
+                                                            [address1] => Le clos des noyers Lieu dit Mathas
+                                                            [address2] => 
+                                                            [city] => MARCILLAT
+                                                            [postcode] => 63440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => CAPELANI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

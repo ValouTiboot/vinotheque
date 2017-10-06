@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86270
+    [IdTransaction] => cd972653fd5b45589f29f3916f4bb57b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33182] => Array
+                                (
+                                    [notiers] => 33182
+                                    [lastname] => DUBERN
+                                    [firstname] => Jean-claude
+                                    [email] => jean.claude.dubern@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Marelle.33
+                                    [birthday] => 1958-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43387
+                                                            [alias] => 33650 CABANAC
+                                                            [address1] => 9 bis, rue du Martinet
+                                                            [address2] => 
+                                                            [city] => CABANAC
+                                                            [postcode] => 33650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => DUBERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43388
+                                                            [alias] => 33650 CABANAC
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CABANAC
+                                                            [postcode] => 33650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => DUBERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75203
+    [IdTransaction] => 27986050ed284b0b8d8fbc4dfeb9f5a9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28391] => Array
+                                (
+                                    [notiers] => 28391
+                                    [lastname] => GOZLAN
+                                    [firstname] => Pierre-aurélien
+                                    [email] => gozlanpierre@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => lili88
+                                    [birthday] => 1988-12-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 70
+                                    [NbPointsRestants] => 70
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35648
+                                                            [alias] => 89100 SENS
+                                                            [address1] => 12, rue Jean Cousin
+                                                            [address2] => 
+                                                            [city] => SENS
+                                                            [postcode] => 89100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-aurélien
+                                                            [lastname] => GOZLAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35649
+                                                            [alias] => 94600 CHOISY-LE-ROI
+                                                            [address1] => 65, Avenue Marcel David
+                                                            [address2] => 
+                                                            [city] => CHOISY-LE-ROI
+                                                            [postcode] => 94600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre-aurélien
+                                                            [lastname] => GOZLAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

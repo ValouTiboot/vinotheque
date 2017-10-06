@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78557
+    [IdTransaction] => c005f04d60c54a249d2b2a7b9cc95c62
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25566] => Array
+                                (
+                                    [notiers] => 25566
+                                    [lastname] => POYEN
+                                    [firstname] => Marjorie
+                                    [email] => marjorie.poyen@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Marjorie92
+                                    [birthday] => 1992-12-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 14
+                                    [NbPointsRestants] => 14
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31355
+                                                            [alias] => 13680 LANCON DE PROVENCE
+                                                            [address1] => 1 bis, rue du jeu de paume
+                                                            [address2] => 
+                                                            [city] => LANCON DE PROVENCE
+                                                            [postcode] => 13680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marjorie
+                                                            [lastname] => POYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31356
+                                                            [alias] => 13680 LANCON DE PROVENCE
+                                                            [address1] => 1 bis, rue du jeu de paume
+                                                            [address2] => 
+                                                            [city] => LANCON DE PROVENCE
+                                                            [postcode] => 13680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marjorie
+                                                            [lastname] => POYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

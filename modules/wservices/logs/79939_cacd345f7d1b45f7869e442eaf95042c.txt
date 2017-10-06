@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79939
+    [IdTransaction] => cacd345f7d1b45f7869e442eaf95042c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35126] => Array
+                                (
+                                    [notiers] => 35126
+                                    [lastname] => NEUHOFF
+                                    [firstname] => Marc
+                                    [email] => marcneuhoff@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => &1Vinotheque1&
+                                    [birthday] => 1968-01-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 119
+                                    [NbPointsRestants] => 119
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46728
+                                                            [alias] => 78125 RAIZEUX
+                                                            [address1] => 28, route des CHAISES
+                                                            [address2] => 
+                                                            [city] => RAIZEUX
+                                                            [postcode] => 78125
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => NEUHOFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46729
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 2, Avenue de Messine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marc
+                                                            [lastname] => NEUHOFF
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

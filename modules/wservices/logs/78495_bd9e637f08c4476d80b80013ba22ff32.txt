@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78495
+    [IdTransaction] => bd9e637f08c4476d80b80013ba22ff32
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28794] => Array
+                                (
+                                    [notiers] => 28794
+                                    [lastname] => PERROUTY
+                                    [firstname] => Jean-philippe
+                                    [email] => jean-philippe@wineintelligence.com
+                                    [id_gender] => 1
+                                    [passwd] => paquelin9
+                                    [birthday] => 1975-11-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36312
+                                                            [alias] => 84911 AVIGNON
+                                                            [address1] => 546, baruch spinoza BP61225
+                                                            [address2] => 
+                                                            [city] => AVIGNON
+                                                            [postcode] => 84911
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-philippe
+                                                            [lastname] => PERROUTY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36313
+                                                            [alias] => 84911 AVIGNON
+                                                            [address1] => 546, baruch spinoza BP61225
+                                                            [address2] => 
+                                                            [city] => AVIGNON
+                                                            [postcode] => 84911
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-philippe
+                                                            [lastname] => PERROUTY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

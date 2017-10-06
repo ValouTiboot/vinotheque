@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82756
+    [IdTransaction] => f27de9ad26c348e88c6f7ecec64ff475
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33903] => Array
+                                (
+                                    [notiers] => 33903
+                                    [lastname] => BARRAUD
+                                    [firstname] => Clément
+                                    [email] => clembarraud@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => clydebarraud
+                                    [birthday] => 1978-07-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 63
+                                    [NbPointsRestants] => 63
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44687
+                                                            [alias] => 33420 JUGAZAN
+                                                            [address1] => 1, Lieu dit le bernat
+                                                            [address2] => 
+                                                            [city] => JUGAZAN
+                                                            [postcode] => 33420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Clément
+                                                            [lastname] => BARRAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44688
+                                                            [alias] => 33420 JUGAZAN
+                                                            [address1] => 1, Lieu dit le bernat Jugazan
+                                                            [address2] => 
+                                                            [city] => JUGAZAN
+                                                            [postcode] => 33420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Clément
+                                                            [lastname] => BARRAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79527
+    [IdTransaction] => 5efa883d430c4a6aa8ae8fdb5c544f35
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36340] => Array
+                                (
+                                    [notiers] => 36340
+                                    [lastname] => SUBLON
+                                    [firstname] => Remy
+                                    [email] => remy.sublon@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1954-03-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 729
+                                    [NbPointsRestants] => 729
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48739
+                                                            [alias] => 67000 STRASBOURG
+                                                            [address1] => 5, RUE EDMOND LABBE
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remy
+                                                            [lastname] => SUBLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48740
+                                                            [alias] => 67000 STRASBOURG
+                                                            [address1] => 5, RUE EDMOND LABBE
+                                                            [address2] => 
+                                                            [city] => STRASBOURG
+                                                            [postcode] => 67000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remy
+                                                            [lastname] => SUBLON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

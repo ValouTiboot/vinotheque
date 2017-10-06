@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74573
+    [IdTransaction] => 71dd7ca7464743ae9e9da399a8bfc0d1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35336] => Array
+                                (
+                                    [notiers] => 35336
+                                    [lastname] => PORTELAS
+                                    [firstname] => Anthony
+                                    [email] => anthony.portelas@kedgebs.com
+                                    [id_gender] => 1
+                                    [passwd] => LPNzPAMf1
+                                    [birthday] => 1993-06-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 63
+                                    [NbPointsRestants] => 63
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47071
+                                                            [alias] => 33550 LESTIAC-SUR-GARONNE
+                                                            [address1] => 24, chemin de l'eglise
+                                                            [address2] => 
+                                                            [city] => LESTIAC-SUR-GARONNE
+                                                            [postcode] => 33550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => PORTELAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47072
+                                                            [alias] => 93190 LIVRY-GARGAN
+                                                            [address1] => 3, Avenue Ernest Renan
+                                                            [address2] => 
+                                                            [city] => LIVRY-GARGAN
+                                                            [postcode] => 93190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => PORTELAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

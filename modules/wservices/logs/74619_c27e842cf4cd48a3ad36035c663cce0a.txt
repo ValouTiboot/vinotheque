@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74619
+    [IdTransaction] => c27e842cf4cd48a3ad36035c663cce0a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28881] => Array
+                                (
+                                    [notiers] => 28881
+                                    [lastname] => SEVIN
+                                    [firstname] => Michel
+                                    [email] => msevin92@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => valentine34
+                                    [birthday] => 1948-10-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 666
+                                    [NbPointsRestants] => 666
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36437
+                                                            [alias] => 34160 BEAULIEU
+                                                            [address1] => 4 bis, avenue de Sussargues
+                                                            [address2] => 
+                                                            [city] => BEAULIEU
+                                                            [postcode] => 34160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => SEVIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36438
+                                                            [alias] => 33910 SAINT-DENIS-DE-PILE
+                                                            [address1] => 1, chemin de la Potouse
+                                                            [address2] => 
+                                                            [city] => SAINT-DENIS-DE-PILE
+                                                            [postcode] => 33910
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => SEVIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

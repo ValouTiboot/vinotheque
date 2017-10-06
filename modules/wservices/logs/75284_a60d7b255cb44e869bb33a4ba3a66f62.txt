@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75284
+    [IdTransaction] => a60d7b255cb44e869bb33a4ba3a66f62
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30569] => Array
+                                (
+                                    [notiers] => 30569
+                                    [lastname] => ROBERT
+                                    [firstname] => Jerome
+                                    [email] => jeromrob@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => spd19270
+                                    [birthday] => 1980-08-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 151
+                                    [NbPointsRestants] => 151
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39080
+                                                            [alias] => 19270 DONZENAC
+                                                            [address1] => chemin des vignes gandoulène
+                                                            [address2] => 
+                                                            [city] => DONZENAC
+                                                            [postcode] => 19270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => ROBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39081
+                                                            [alias] => 19270 DONZENAC
+                                                            [address1] => chemin des vignes gandoulène
+                                                            [address2] => 
+                                                            [city] => DONZENAC
+                                                            [postcode] => 19270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => ROBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

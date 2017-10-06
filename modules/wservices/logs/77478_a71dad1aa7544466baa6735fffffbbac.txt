@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77478
+    [IdTransaction] => a71dad1aa7544466baa6735fffffbbac
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29624] => Array
+                                (
+                                    [notiers] => 29624
+                                    [lastname] => MARRAUD DES GROTTES
+                                    [firstname] => Jose
+                                    [email] => jmg@mgexpertise.fr
+                                    [id_gender] => 1
+                                    [passwd] => valdub1515
+                                    [birthday] => 1951-10-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 888
+                                    [NbPointsRestants] => 888
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37456
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 30, RUE DES FAVORITES
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jose
+                                                            [lastname] => MARRAUD DES GROTTES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37457
+                                                            [alias] => 94410 SAINT-MAURICE
+                                                            [address1] => 1, ALLEE DES CANOTIERS
+                                                            [address2] => 
+                                                            [city] => SAINT-MAURICE
+                                                            [postcode] => 94410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jose
+                                                            [lastname] => MARRAUD DES GROTTES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75292
+    [IdTransaction] => 4ef12e8b3c2a4ea7ac6eb4d0ab6beb05
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34377] => Array
+                                (
+                                    [notiers] => 34377
+                                    [lastname] => LE VERN
+                                    [firstname] => Alain
+                                    [email] => alain.levern@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => doudou76
+                                    [birthday] => 1948-05-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 288
+                                    [NbPointsRestants] => 288
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45501
+                                                            [alias] => 30700 BLAUZAC
+                                                            [address1] => 84, DES CLAUSES ET MALAREDES
+                                                            [address2] => 
+                                                            [city] => BLAUZAC
+                                                            [postcode] => 30700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => LE VERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45502
+                                                            [alias] => 30700 BLAUZAC
+                                                            [address1] => 84, DES CLAUSES ET MALAREDES
+                                                            [address2] => 
+                                                            [city] => BLAUZAC
+                                                            [postcode] => 30700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => LE VERN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

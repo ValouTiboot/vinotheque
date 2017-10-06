@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75128
+    [IdTransaction] => 35e375014d1d4f49ace7d14f973c2388
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32614] => Array
+                                (
+                                    [notiers] => 32614
+                                    [lastname] => ROUZOU
+                                    [firstname] => Matthieu
+                                    [email] => matthieu.rouzou@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => isabelle
+                                    [birthday] => 1977-11-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42477
+                                                            [alias] => 92170 VANVES
+                                                            [address1] => 24, Rue Diderot
+                                                            [address2] => 
+                                                            [city] => VANVES
+                                                            [postcode] => 92170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => ROUZOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42478
+                                                            [alias] => 92170 VANVES
+                                                            [address1] => 6, Rue René Coche
+                                                            [address2] => 
+                                                            [city] => VANVES
+                                                            [postcode] => 92170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => ROUZOU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

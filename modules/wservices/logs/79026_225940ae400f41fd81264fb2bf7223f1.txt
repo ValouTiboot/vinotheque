@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79026
+    [IdTransaction] => 225940ae400f41fd81264fb2bf7223f1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27022] => Array
+                                (
+                                    [notiers] => 27022
+                                    [lastname] => FREDERIC
+                                    [firstname] => Bruno
+                                    [email] => bruno.frederic860@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 240661
+                                    [birthday] => 1961-06-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33579
+                                                            [alias] => 45530 VITRY-AUX-LOGES
+                                                            [address1] => 544, ROUTE DE FAY
+                                                            [address2] => 
+                                                            [city] => VITRY-AUX-LOGES
+                                                            [postcode] => 45530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => FREDERIC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33580
+                                                            [alias] => 45530 VITRY-AUX-LOGES
+                                                            [address1] => 544, ROUTE DE FAY
+                                                            [address2] => 
+                                                            [city] => VITRY-AUX-LOGES
+                                                            [postcode] => 45530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => FREDERIC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

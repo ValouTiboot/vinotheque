@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77534
+    [IdTransaction] => b9d80c1ed002456faa766f5cade5670b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28648] => Array
+                                (
+                                    [notiers] => 28648
+                                    [lastname] => LAUNAY
+                                    [firstname] => Quentin
+                                    [email] => launay.quentin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pebky7e5
+                                    [birthday] => 1986-12-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 254
+                                    [NbPointsRestants] => 254
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36068
+                                                            [alias] => 31570 STE FOY D AIDREFEUILLE
+                                                            [address1] => 48, avenue rené cassin
+                                                            [address2] => 
+                                                            [city] => STE FOY D AIDREFEUILLE
+                                                            [postcode] => 31570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Quentin
+                                                            [lastname] => LAUNAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36069
+                                                            [alias] => 31270 CUGNAUX
+                                                            [address1] => 291, chemin de tucaut
+                                                            [address2] => A31
+                                                            [city] => CUGNAUX
+                                                            [postcode] => 31270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Quentin
+                                                            [lastname] => LAUNAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

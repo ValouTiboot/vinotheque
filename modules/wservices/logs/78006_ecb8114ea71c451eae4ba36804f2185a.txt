@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78006
+    [IdTransaction] => ecb8114ea71c451eae4ba36804f2185a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35017] => Array
+                                (
+                                    [notiers] => 35017
+                                    [lastname] => GAGNIERE
+                                    [firstname] => David
+                                    [email] => davg@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => chopin
+                                    [birthday] => 1976-08-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 157
+                                    [NbPointsRestants] => 157
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46552
+                                                            [alias] => 38240 MEYLAN
+                                                            [address1] => 2A, Chemin de Maupertuis
+                                                            [address2] => 
+                                                            [city] => MEYLAN
+                                                            [postcode] => 38240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => GAGNIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46553
+                                                            [alias] => 38240 MEYLAN
+                                                            [address1] => 2A, Chemin de Maupertuis
+                                                            [address2] => 
+                                                            [city] => MEYLAN
+                                                            [postcode] => 38240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => David
+                                                            [lastname] => GAGNIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

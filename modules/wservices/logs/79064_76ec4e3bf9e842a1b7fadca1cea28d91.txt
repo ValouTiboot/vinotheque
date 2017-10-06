@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79064
+    [IdTransaction] => 76ec4e3bf9e842a1b7fadca1cea28d91
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35834] => Array
+                                (
+                                    [notiers] => 35834
+                                    [lastname] => LOMBARD
+                                    [firstname] => Marcel
+                                    [email] => m.lombard@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1947-07-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 252
+                                    [NbPointsRestants] => 252
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47894
+                                                            [alias] => 54000 NANCY
+                                                            [address1] => 19, rue ISRAEL SILVESTRE
+                                                            [address2] => 
+                                                            [city] => NANCY
+                                                            [postcode] => 54000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => LOMBARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47895
+                                                            [alias] => 54000 NANCY
+                                                            [address1] => 19, rue ISRAEL SILVESTRE
+                                                            [address2] => 
+                                                            [city] => NANCY
+                                                            [postcode] => 54000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marcel
+                                                            [lastname] => LOMBARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

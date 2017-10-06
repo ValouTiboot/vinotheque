@@ -1,0 +1,50 @@
+/* Form */
+input.ui-input-pm[type="number"], input.ui-input-pm[type="url"], input.ui-input-pm[type="email"], input.ui-input-pm[type="text"], input.ui-input-pm[type="password"], input.ui-input-pm[type="file"], textarea.ui-input-pm, select.ui-input-pm {
+	border: 1px solid #B6B6B6!important;
+	float:left;
+}
+input[type="number"], input[type="url"], input[type="email"] { padding: 2px 4px; }
+
+#formGlobalOptions label { width: 30%; font-weight: normal; margin-right: 10px; text-align: left; border-bottom: 1px dotted #DFD5C3 !important; }
+#formGlobalOptions .margin-form { padding: 0 0 1em 0 !important; }
+#formGlobalOptions .margin-form label { width: auto !important; border: 0 !important; margin: 0; }
+#formGlobalOptions .margin-form p { clear: both; }
+#formGlobalOptions input.ui-input-pm, textarea.ui-input-pm, select.ui-input-pm { border: 1px solid #B6B6B6 !important; float: left; }
+#formGlobalOptions .ui-button[type=submit] { padding: 5px 10px; }
+
+h2 {
+    color: #268CCD;
+    font-size: 1.4em;
+    margin: 0 0 0.83em;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+}
+
+.note div.ui-corner-all {
+	background-image: url(../img/star.png), url(../img/star.png);
+	background-position: 1% center, 99% center;
+	background-repeat: no-repeat;
+}
+.note p.dismiss {
+	font-size:10px;
+}
+
+/* Rating block */
+#addons-rating-container {
+	background-image: url(../img/star.png), url(../img/star.png);
+	background-position: 1% center, 99% center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#addons-rating-container p.dismiss {
+	font-size:10px;
+}
+/* Footer block */
+#pm_panel_cs_modules_bottom { height: 240px !important;  padding: 0 18px !important; }
+#pm_panel_cs_modules_bottom div#cs-product-container { padding: 0 18px; }
+#pm_panel_cs_modules_bottom iframe { overflow: hidden; height: 178px; width: 100%; border: 0; padding: 0; margin: 0; }
+#pm_support_informations h2, #pm_panel_cs_modules_bottom h2 { padding: 0 !important; }
+#pm_support_informations { height: 90px !important; padding: 0 18px !important; }
+#pm_support_informations ul.pm_links_block { list-style: none; margin: 0; padding: 0; }
+#pm_support_informations ul.pm_links_block li { margin: 0px 30px; padding: 0; display: inline-block; }
+#pm_support_informations .pm_copy_block { position: absolute; right: 10px; top: 12px; }
+#pm_support_informations .pm_copy_block img { max-width:150px; }

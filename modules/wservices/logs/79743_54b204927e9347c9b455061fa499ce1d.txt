@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79743
+    [IdTransaction] => 54b204927e9347c9b455061fa499ce1d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29521] => Array
+                                (
+                                    [notiers] => 29521
+                                    [lastname] => MONTMORY
+                                    [firstname] => Sylvain
+                                    [email] => sylvain.montmory@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => 510503
+                                    [birthday] => 1979-01-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 198
+                                    [NbPointsRestants] => 198
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37282
+                                                            [alias] => 92150 SURESNES
+                                                            [address1] => 19, Avenue Edouard Vaillant
+                                                            [address2] => 
+                                                            [city] => SURESNES
+                                                            [postcode] => 92150
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvain
+                                                            [lastname] => MONTMORY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37283
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 23, Rue de Marnes
+                                                            [address2] => 
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvain
+                                                            [lastname] => MONTMORY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

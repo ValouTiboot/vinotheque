@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76861
+    [IdTransaction] => 7dfee7f8a00f4863a468a884bd6e41e8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32408] => Array
+                                (
+                                    [notiers] => 32408
+                                    [lastname] => OTTINGER
+                                    [firstname] => Alain
+                                    [email] => ottinger.alain@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => AlaBld1954
+                                    [birthday] => 1954-02-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42137
+                                                            [alias] => 54620 PIERREPONT
+                                                            [address1] => 19, route de doncourt
+                                                            [address2] => 
+                                                            [city] => PIERREPONT
+                                                            [postcode] => 54620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => OTTINGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42138
+                                                            [alias] => 54620 PIERREPONT
+                                                            [address1] => 19, route de doncourt
+                                                            [address2] => 
+                                                            [city] => PIERREPONT
+                                                            [postcode] => 54620
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => OTTINGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

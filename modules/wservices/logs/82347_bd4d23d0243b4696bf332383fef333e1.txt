@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82347
+    [IdTransaction] => bd4d23d0243b4696bf332383fef333e1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29757] => Array
+                                (
+                                    [notiers] => 29757
+                                    [lastname] => BAYSSE
+                                    [firstname] => Elsa
+                                    [email] => baysse.e@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => jevousaime
+                                    [birthday] => 1988-04-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 22
+                                    [NbPointsRestants] => 22
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37683
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 24, rue Saint vincent de Paul
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Elsa
+                                                            [lastname] => BAYSSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37684
+                                                            [alias] => 37240 LIGUEIL
+                                                            [address1] => 3, Place Gambetta
+                                                            [address2] => 
+                                                            [city] => LIGUEIL
+                                                            [postcode] => 37240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Elsa
+                                                            [lastname] => BAYSSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

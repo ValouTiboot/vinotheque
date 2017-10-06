@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79582
+    [IdTransaction] => d9057e888a544ac7aee136bce2189d1f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29684] => Array
+                                (
+                                    [notiers] => 29684
+                                    [lastname] => MERCADIER
+                                    [firstname] => Yves
+                                    [email] => yves.mercadier@ac-amiens.fr
+                                    [id_gender] => 1
+                                    [passwd] => 2001nelson
+                                    [birthday] => 1972-05-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 168
+                                    [NbPointsRestants] => 168
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37551
+                                                            [alias] => 60000 BEAUVAIS
+                                                            [address1] => 8b, rue des aulnaies
+                                                            [address2] => 
+                                                            [city] => BEAUVAIS
+                                                            [postcode] => 60000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => MERCADIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37552
+                                                            [alias] => 60000 BEAUVAIS
+                                                            [address1] => 8b, rue des aulnaies
+                                                            [address2] => 
+                                                            [city] => BEAUVAIS
+                                                            [postcode] => 60000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yves
+                                                            [lastname] => MERCADIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

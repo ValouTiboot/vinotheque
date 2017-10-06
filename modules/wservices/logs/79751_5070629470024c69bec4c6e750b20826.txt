@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79751
+    [IdTransaction] => 5070629470024c69bec4c6e750b20826
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25989] => Array
+                                (
+                                    [notiers] => 25989
+                                    [lastname] => FONTAINE
+                                    [firstname] => Pierre
+                                    [email] => p.fontaine@lecolededesign.com
+                                    [id_gender] => 1
+                                    [passwd] => pierref
+                                    [birthday] => 1993-06-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 36
+                                    [NbPointsRestants] => 36
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32021
+                                                            [alias] => 44000 NANTES
+                                                            [address1] => 41, Rue Léon jamin
+                                                            [address2] => 
+                                                            [city] => NANTES
+                                                            [postcode] => 44000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => FONTAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32022
+                                                            [alias] => 61000 ALENCON
+                                                            [address1] => 84, Rue Jullien
+                                                            [address2] => 
+                                                            [city] => ALENCON
+                                                            [postcode] => 61000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => FONTAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

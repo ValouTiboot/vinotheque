@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74790
+    [IdTransaction] => 3bb7066bb0154004b7817adc6526c712
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28337] => Array
+                                (
+                                    [notiers] => 28337
+                                    [lastname] => HAMELIN
+                                    [firstname] => Thierry
+                                    [email] => thierry.hamelin@hamelinbrands.com
+                                    [id_gender] => 1
+                                    [passwd] => vagues
+                                    [birthday] => 1962-12-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 540
+                                    [NbPointsRestants] => 540
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35581
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 55, rue de Varenne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => HAMELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35582
+                                                            [alias] => 75007 PARIS
+                                                            [address1] => 55, rue de Varenne
+                                                            [address2] => 6 eme etage ascenseur A
+                                                            [city] => PARIS
+                                                            [postcode] => 75007
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => HAMELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

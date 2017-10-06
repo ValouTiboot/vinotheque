@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78519
+    [IdTransaction] => 1e0ffa559783426b8c77649247935144
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30798] => Array
+                                (
+                                    [notiers] => 30798
+                                    [lastname] => GUEYE
+                                    [firstname] => Laurent
+                                    [email] => lgueye@adoria.com
+                                    [id_gender] => 1
+                                    [passwd] => pirouette
+                                    [birthday] => 1960-08-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 590
+                                    [NbPointsRestants] => 590
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39484
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 21, cours du medoc
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GUEYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39485
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 21, cours du medoc
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => GUEYE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

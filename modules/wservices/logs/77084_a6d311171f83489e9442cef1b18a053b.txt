@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77084
+    [IdTransaction] => a6d311171f83489e9442cef1b18a053b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31481] => Array
+                                (
+                                    [notiers] => 31481
+                                    [lastname] => EBELING
+                                    [firstname] => Dirk
+                                    [email] => dirk.ebeling@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => france
+                                    [birthday] => 1942-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40683
+                                                            [alias] => 46170 CASTELNAU-MONTRATIER
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CASTELNAU-MONTRATIER
+                                                            [postcode] => 46170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dirk
+                                                            [lastname] => EBELING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40684
+                                                            [alias] => 46170 CASTELNAU-MONTRATIER
+                                                            [address1] => D19 Route de Moissac
+                                                            [address2] => Chateau du Poujoula
+                                                            [city] => CASTELNAU-MONTRATIER
+                                                            [postcode] => 46170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dirk
+                                                            [lastname] => EBELING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

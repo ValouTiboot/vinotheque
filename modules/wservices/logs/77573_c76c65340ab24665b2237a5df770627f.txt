@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77573
+    [IdTransaction] => c76c65340ab24665b2237a5df770627f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35481] => Array
+                                (
+                                    [notiers] => 35481
+                                    [lastname] => DJANDJI
+                                    [firstname] => Emmanuel
+                                    [email] => djandji.ortho@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 280674
+                                    [birthday] => 1971-04-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1144
+                                    [NbPointsRestants] => 1144
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47333
+                                                            [alias] => 24200 SARLAT
+                                                            [address1] => 34 bis, rue de cahors
+                                                            [address2] => bat 6 residence la boetie
+                                                            [city] => SARLAT
+                                                            [postcode] => 24200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => DJANDJI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47334
+                                                            [alias] => 24590 SAINT-GENIES
+                                                            [address1] => lieu dit petite cassagne
+                                                            [address2] => 
+                                                            [city] => SAINT-GENIES
+                                                            [postcode] => 24590
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emmanuel
+                                                            [lastname] => DJANDJI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

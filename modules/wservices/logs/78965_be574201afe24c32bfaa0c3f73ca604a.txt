@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78965
+    [IdTransaction] => be574201afe24c32bfaa0c3f73ca604a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35198] => Array
+                                (
+                                    [notiers] => 35198
+                                    [lastname] => BOBILLO
+                                    [firstname] => Marie-hélène
+                                    [email] => jbobillo@club-internet.fr
+                                    [id_gender] => 2
+                                    [passwd] => bacchus
+                                    [birthday] => 1932-04-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46854
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 13, Rue Eugène SCRIBE
+                                                            [address2] => 
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-hélène
+                                                            [lastname] => BOBILLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46855
+                                                            [alias] => 31110 BRUGUIERES
+                                                            [address1] => 20, Avenue BRUGUET
+                                                            [address2] => 
+                                                            [city] => BRUGUIERES
+                                                            [postcode] => 31110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marie-hélène
+                                                            [lastname] => BOBILLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

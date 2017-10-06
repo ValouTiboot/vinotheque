@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 79918
+    [IdTransaction] => b4e9e7b3bc7a4f129b18b85c94180390
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [21221] => Array
+                                (
+                                    [notiers] => 21221
+                                    [lastname] => LESURE
+                                    [firstname] => Jean luc
+                                    [email] => jllesure@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => jesuiszen
+                                    [birthday] => 1946-12-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 70
+                                    [NbPointsRestants] => 70
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 27210
+                                                            [alias] => 59700 MARCQ-EN-BAROEUL
+                                                            [address1] => 8, rue Jean de la Deule
+                                                            [address2] => 
+                                                            [city] => MARCQ-EN-BAROEUL
+                                                            [postcode] => 59700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LESURE JEAN LUC
+                                                            [firstname] => Jean luc
+                                                            [lastname] => LESURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 27211
+                                                            [alias] => 78112 FOURQUEUX
+                                                            [address1] => 22, IMPASSE DE LA COUTURE
+                                                            [address2] => 
+                                                            [city] => FOURQUEUX
+                                                            [postcode] => 78112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LESURE JEAN LUC
+                                                            [firstname] => Jean luc
+                                                            [lastname] => LESURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 27211
+                                                            [alias] => 78112 FOURQUEUX
+                                                            [address1] => 22, IMPASSE DE LA COUTURE
+                                                            [address2] => 
+                                                            [city] => FOURQUEUX
+                                                            [postcode] => 78112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LESURE JEAN LUC
+                                                            [firstname] => Jean luc
+                                                            [lastname] => LESURE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

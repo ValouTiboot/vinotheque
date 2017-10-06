@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 75560
+    [IdTransaction] => 83aedeaef20e421f99295ce4ca982119
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [13387] => Array
+                                (
+                                    [notiers] => 13387
+                                    [lastname] => LACHERY
+                                    [firstname] => Eric
+                                    [email] => eric.lachery@eurovia.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1965-12-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 152
+                                    [NbPointsRestants] => 152
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 14216
+                                                            [alias] => 59000 LILLE CEDEX
+                                                            [address1] => 78, RUE SAINT GABRIEL
+                                                            [address2] => 
+                                                            [city] => LILLE CEDEX
+                                                            [postcode] => 59000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LACHERY ERIC
+                                                            [firstname] => Eric
+                                                            [lastname] => LACHERY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 14217
+                                                            [alias] => 59003 LILLE CEDEX
+                                                            [address1] => 4 EME AVENUE PORT FLUVIAL
+                                                            [address2] => 
+                                                            [city] => LILLE CEDEX
+                                                            [postcode] => 59003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LEFEBVRE JEAN
+                                                            [firstname] => Eric
+                                                            [lastname] => LACHERY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 14217
+                                                            [alias] => 59003 LILLE CEDEX
+                                                            [address1] => 4 EME AVENUE PORT FLUVIAL
+                                                            [address2] => 
+                                                            [city] => LILLE CEDEX
+                                                            [postcode] => 59003
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr LEFEBVRE JEAN
+                                                            [firstname] => Eric
+                                                            [lastname] => LACHERY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

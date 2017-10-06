@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77024
+    [IdTransaction] => d02dc3867ac04ad4804a556b3799e551
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31587] => Array
+                                (
+                                    [notiers] => 31587
+                                    [lastname] => LAVERGNE
+                                    [firstname] => Olivier
+                                    [email] => olivier.lavergne7@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 5051977
+                                    [birthday] => 1977-05-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 116
+                                    [NbPointsRestants] => 116
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40845
+                                                            [alias] => 75013 PARIS
+                                                            [address1] => 52, de Patay
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75013
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => LAVERGNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40846
+                                                            [alias] => 16110 MARILLAC-LE-FRANC
+                                                            [address1] => rue Vicare Marillac le Franc
+                                                            [address2] => 
+                                                            [city] => MARILLAC-LE-FRANC
+                                                            [postcode] => 16110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => LAVERGNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81695
+    [IdTransaction] => 14815366e55c4eddaa831afedfc157fa
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33351] => Array
+                                (
+                                    [notiers] => 33351
+                                    [lastname] => TAMALT
+                                    [firstname] => Kamel
+                                    [email] => reciclade@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1970-12-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43696
+                                                            [alias] => L 3237 BETTEMOURG
+                                                            [address1] => 19, RUE DE LA GARE
+                                                            [address2] => 
+                                                            [city] => BETTEMOURG
+                                                            [postcode] => L 3237
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Kamel
+                                                            [lastname] => TAMALT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => LU
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43697
+                                                            [alias] => 57100 THIONVILLE
+                                                            [address1] => 2, RUE DE LA DIGUE
+                                                            [address2] => 
+                                                            [city] => THIONVILLE
+                                                            [postcode] => 57100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Kamel
+                                                            [lastname] => TAMALT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

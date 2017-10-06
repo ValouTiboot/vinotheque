@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78732
+    [IdTransaction] => d192767d315c441580ac24d470410f1e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24685] => Array
+                                (
+                                    [notiers] => 24685
+                                    [lastname] => BOUVATIER
+                                    [firstname] => Antoine
+                                    [email] => abouvatier@abenexcapital.com
+                                    [id_gender] => 1
+                                    [passwd] => karine
+                                    [birthday] => 1971-02-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1231
+                                    [NbPointsRestants] => 1231
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30528
+                                                            [alias] => 75006 PARIS
+                                                            [address1] => 10, rue d'Assas
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BOUVATIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30529
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 9, avenue Matignon
+                                                            [address2] => 3ème étage
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Antoine
+                                                            [lastname] => BOUVATIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

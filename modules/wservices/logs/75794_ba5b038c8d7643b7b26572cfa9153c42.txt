@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75794
+    [IdTransaction] => ba5b038c8d7643b7b26572cfa9153c42
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27481] => Array
+                                (
+                                    [notiers] => 27481
+                                    [lastname] => HATE
+                                    [firstname] => Gerard
+                                    [email] => gerard.hate@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => vinop972
+                                    [birthday] => 1958-01-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 435
+                                    [NbPointsRestants] => 435
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34295
+                                                            [alias] => 34550 BESSAN
+                                                            [address1] => 18, Hameau de Fontmajou BP21
+                                                            [address2] => 
+                                                            [city] => BESSAN
+                                                            [postcode] => 34550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerard
+                                                            [lastname] => HATE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34296
+                                                            [alias] => 34550 BESSAN
+                                                            [address1] => 18, hameau de fontmajou
+                                                            [address2] => 
+                                                            [city] => BESSAN
+                                                            [postcode] => 34550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerard
+                                                            [lastname] => HATE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

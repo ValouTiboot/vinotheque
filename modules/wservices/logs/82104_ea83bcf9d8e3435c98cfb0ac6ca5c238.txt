@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82104
+    [IdTransaction] => ea83bcf9d8e3435c98cfb0ac6ca5c238
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26877] => Array
+                                (
+                                    [notiers] => 26877
+                                    [lastname] => BONNARGENT
+                                    [firstname] => Jean-pierre
+                                    [email] => jp.bonnargent@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => claudine
+                                    [birthday] => 1947-08-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 147
+                                    [NbPointsRestants] => 147
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33341
+                                                            [alias] => 72250 PARIGNE-L'EVEQUE
+                                                            [address1] => 54, avenue GALLOUEDEC
+                                                            [address2] => 
+                                                            [city] => PARIGNE-L'EVEQUE
+                                                            [postcode] => 72250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => BONNARGENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33342
+                                                            [alias] => 72250 PARIGNE-L'EVEQUE
+                                                            [address1] => 54, avenue GALLOUEDEC
+                                                            [address2] => 
+                                                            [city] => PARIGNE-L'EVEQUE
+                                                            [postcode] => 72250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-pierre
+                                                            [lastname] => BONNARGENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

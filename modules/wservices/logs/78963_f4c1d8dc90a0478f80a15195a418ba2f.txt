@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78963
+    [IdTransaction] => f4c1d8dc90a0478f80a15195a418ba2f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29681] => Array
+                                (
+                                    [notiers] => 29681
+                                    [lastname] => GREGOIRE
+                                    [firstname] => Michel
+                                    [email] => michelgregoire36@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => lhautmontois
+                                    [birthday] => 1946-07-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37544
+                                                            [alias] => 16570 MARSAC
+                                                            [address1] => 2, rue du Lavoir
+                                                            [address2] => 
+                                                            [city] => MARSAC
+                                                            [postcode] => 16570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GREGOIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37545
+                                                            [alias] => 16570 MARSAC
+                                                            [address1] => 2, rue du Lavoir
+                                                            [address2] => 
+                                                            [city] => MARSAC
+                                                            [postcode] => 16570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GREGOIRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

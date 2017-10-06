@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78171
+    [IdTransaction] => 71618cee74464d4c8ffe7a668a6ebf8e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36212] => Array
+                                (
+                                    [notiers] => 36212
+                                    [lastname] => PAUILHAC
+                                    [firstname] => Jerome
+                                    [email] => jerome.pauilhac@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => clemence0909
+                                    [birthday] => 1971-05-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 79
+                                    [NbPointsRestants] => 79
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48532
+                                                            [alias] => 33560 CARBON-BLANC
+                                                            [address1] => 16, Avenue vignau anglade
+                                                            [address2] => 
+                                                            [city] => CARBON-BLANC
+                                                            [postcode] => 33560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => PAUILHAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48533
+                                                            [alias] => 33560 CARBON-BLANC
+                                                            [address1] => 16, Avenue vignau anglade
+                                                            [address2] => 
+                                                            [city] => CARBON-BLANC
+                                                            [postcode] => 33560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => PAUILHAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

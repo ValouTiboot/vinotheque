@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81664
+    [IdTransaction] => 27e4cbf631c64b6a8b78651fc225fe8f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30640] => Array
+                                (
+                                    [notiers] => 30640
+                                    [lastname] => VARY
+                                    [firstname] => Pierre
+                                    [email] => yann5vary6@gmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Bordeaux
+                                    [birthday] => 1951-06-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 149
+                                    [NbPointsRestants] => 149
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39204
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 3, Impasse capitaine marienne
+                                                            [address2] => 
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => VARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39205
+                                                            [alias] => 56100 LORIENT
+                                                            [address1] => 3, Impasse capitaine marienne
+                                                            [address2] => 
+                                                            [city] => LORIENT
+                                                            [postcode] => 56100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => VARY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

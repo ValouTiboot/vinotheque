@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81237
+    [IdTransaction] => 95bad6729371419d9c20387f6f2dd99b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28149] => Array
+                                (
+                                    [notiers] => 28149
+                                    [lastname] => GAREL
+                                    [firstname] => Bruno
+                                    [email] => brgarel@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => abracadabra
+                                    [birthday] => 1958-05-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35324
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 52, rue ddu faubourg Saint-Honoré
+                                                            [address2] => CD
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => GAREL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35325
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 52, rue ddu faubourg Saint-Honoré
+                                                            [address2] => CD
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => GAREL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

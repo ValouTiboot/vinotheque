@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76939
+    [IdTransaction] => 2ce25508333a4a658412fd1325355f1d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23052] => Array
+                                (
+                                    [notiers] => 23052
+                                    [lastname] => BONTEMPS
+                                    [firstname] => Michele
+                                    [email] => mbontemps@me.com
+                                    [id_gender] => 2
+                                    [passwd] => tomouse
+                                    [birthday] => 1962-01-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 270
+                                    [NbPointsRestants] => 270
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30064
+                                                            [alias] => 74100 VILLE-LA-GRAND
+                                                            [address1] => 6, RUE DES ARTISANS
+                                                            [address2] => 
+                                                            [city] => VILLE-LA-GRAND
+                                                            [postcode] => 74100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michele
+                                                            [lastname] => BONTEMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30065
+                                                            [alias] => 74100 VILLE-LA-GRAND
+                                                            [address1] => 6, RUE DES ARTISANS
+                                                            [address2] => 
+                                                            [city] => VILLE-LA-GRAND
+                                                            [postcode] => 74100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michele
+                                                            [lastname] => BONTEMPS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

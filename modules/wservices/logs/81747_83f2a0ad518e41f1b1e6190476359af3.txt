@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81747
+    [IdTransaction] => 83f2a0ad518e41f1b1e6190476359af3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35266] => Array
+                                (
+                                    [notiers] => 35266
+                                    [lastname] => ROGER
+                                    [firstname] => Pierre antoine
+                                    [email] => pierreantoine.rogerroussel@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ttr125pierrot
+                                    [birthday] => 1990-05-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 159
+                                    [NbPointsRestants] => 159
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46959
+                                                            [alias] => 92000 NANTERRE
+                                                            [address1] => 19, rue saint maurice
+                                                            [address2] => appartement 6 / code portes 8419
+                                                            [city] => NANTERRE
+                                                            [postcode] => 92000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre antoine
+                                                            [lastname] => ROGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46960
+                                                            [alias] => 92000 NANTERRE
+                                                            [address1] => 19, rue saint maurice
+                                                            [address2] => appartement 6 / code portes 8419
+                                                            [city] => NANTERRE
+                                                            [postcode] => 92000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre antoine
+                                                            [lastname] => ROGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79467
+    [IdTransaction] => 75abb5ee078748569df63841403f9fdc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34104] => Array
+                                (
+                                    [notiers] => 34104
+                                    [lastname] => LOCHES
+                                    [firstname] => Christine
+                                    [email] => loches.christine@neuf.fr
+                                    [id_gender] => 2
+                                    [passwd] => ENZO2807
+                                    [birthday] => 1964-08-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 45
+                                    [NbPointsRestants] => 45
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45044
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 15, RUE CAZEMAJOR
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => LOCHES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45045
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 15, RUE CAZEMAJOR
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christine
+                                                            [lastname] => LOCHES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

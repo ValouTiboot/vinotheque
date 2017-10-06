@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81785
+    [IdTransaction] => f2fbf25f406042099a3f0da824336b47
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28137] => Array
+                                (
+                                    [notiers] => 28137
+                                    [lastname] => DESAUTEL
+                                    [firstname] => Sonia
+                                    [email] => koleck.desautel@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => cachou
+                                    [birthday] => 1973-01-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 80
+                                    [NbPointsRestants] => 80
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35301
+                                                            [alias] => 16390 AUBETERRE-SUR-DRONNE
+                                                            [address1] => RUE SAINT JACQUES
+                                                            [address2] => 
+                                                            [city] => AUBETERRE-SUR-DRONNE
+                                                            [postcode] => 16390
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sonia
+                                                            [lastname] => DESAUTEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35302
+                                                            [alias] => 33170 GRADIGNAN
+                                                            [address1] => Allée Gaston Rodrigues
+                                                            [address2] => Résidence Les Magnolias de Laurenzanne
+                                                            [city] => GRADIGNAN
+                                                            [postcode] => 33170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sonia
+                                                            [lastname] => DESAUTEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79070
+    [IdTransaction] => 7d49c9f3cc41452d8fcd493413cb386f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23081] => Array
+                                (
+                                    [notiers] => 23081
+                                    [lastname] => LAFONTAINE
+                                    [firstname] => Jean-marc
+                                    [email] => jmarc.lafontaine@numericable.fr
+                                    [id_gender] => 1
+                                    [passwd] => marianne1
+                                    [birthday] => 1958-07-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 255
+                                    [NbPointsRestants] => 255
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30104
+                                                            [alias] => 57950 MONTIGNY-LES-METZ
+                                                            [address1] => 50, saint ladre
+                                                            [address2] => 
+                                                            [city] => MONTIGNY-LES-METZ
+                                                            [postcode] => 57950
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marc
+                                                            [lastname] => LAFONTAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30105
+                                                            [alias] => 57950 MONTIGNY-LES-METZ
+                                                            [address1] => 50, saint ladre
+                                                            [address2] => 
+                                                            [city] => MONTIGNY-LES-METZ
+                                                            [postcode] => 57950
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-marc
+                                                            [lastname] => LAFONTAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

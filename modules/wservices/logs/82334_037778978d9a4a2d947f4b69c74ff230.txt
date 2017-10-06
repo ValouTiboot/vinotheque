@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82334
+    [IdTransaction] => 037778978d9a4a2d947f4b69c74ff230
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36388] => Array
+                                (
+                                    [notiers] => 36388
+                                    [lastname] => MICHINEAU
+                                    [firstname] => Ary
+                                    [email] => michineau@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => chabin93
+                                    [birthday] => 1954-02-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48812
+                                                            [alias] => 93190 LIVRY-GARGAN
+                                                            [address1] => 35, Avenue Louis Blanc
+                                                            [address2] => 
+                                                            [city] => LIVRY-GARGAN
+                                                            [postcode] => 93190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ary
+                                                            [lastname] => MICHINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48813
+                                                            [alias] => 78380 BOUGIVAL
+                                                            [address1] => 12, Avenue Avenue de la Drionne
+                                                            [address2] => 
+                                                            [city] => BOUGIVAL
+                                                            [postcode] => 78380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ary
+                                                            [lastname] => MICHINEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

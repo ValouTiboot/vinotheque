@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77825
+    [IdTransaction] => 843b28840e21452e8a90ca2623d915f0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31091] => Array
+                                (
+                                    [notiers] => 31091
+                                    [lastname] => BORIES
+                                    [firstname] => Brice
+                                    [email] => bricebories@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => cazalbou
+                                    [birthday] => 1984-10-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 252
+                                    [NbPointsRestants] => 252
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39984
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 3, square desaix
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brice
+                                                            [lastname] => BORIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39985
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 3, square desaix
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Brice
+                                                            [lastname] => BORIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

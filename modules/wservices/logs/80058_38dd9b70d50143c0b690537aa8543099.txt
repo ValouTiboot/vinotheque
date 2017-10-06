@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80058
+    [IdTransaction] => 38dd9b70d50143c0b690537aa8543099
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26863] => Array
+                                (
+                                    [notiers] => 26863
+                                    [lastname] => LAPORTE
+                                    [firstname] => Gregory
+                                    [email] => gregory.laporte@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 457371138
+                                    [birthday] => 1979-09-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33312
+                                                            [alias] => 73700 BOURG-SAINT-MAURICE
+                                                            [address1] => ORBASSY
+                                                            [address2] => 
+                                                            [city] => BOURG-SAINT-MAURICE
+                                                            [postcode] => 73700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => LAPORTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33313
+                                                            [alias] => 73700 BOURG-SAINT-MAURICE
+                                                            [address1] => 1090, ZA DES COLOMBIERES
+                                                            [address2] => 
+                                                            [city] => BOURG-SAINT-MAURICE
+                                                            [postcode] => 73700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gregory
+                                                            [lastname] => LAPORTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76550
+    [IdTransaction] => 74bec558d3814f41bdb8f658086e7bc5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28679] => Array
+                                (
+                                    [notiers] => 28679
+                                    [lastname] => SNACKERS
+                                    [firstname] => Pierre
+                                    [email] => pierre.snackers@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mdpv1004
+                                    [birthday] => 1986-04-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36113
+                                                            [alias] => 4020 LIEGE
+                                                            [address1] => 2, place d'elmer
+                                                            [address2] => 
+                                                            [city] => LIEGE
+                                                            [postcode] => 4020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => SNACKERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36114
+                                                            [alias] => 4020 LIEGE
+                                                            [address1] => 2, place d'elmer
+                                                            [address2] => 
+                                                            [city] => LIEGE
+                                                            [postcode] => 4020
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => SNACKERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

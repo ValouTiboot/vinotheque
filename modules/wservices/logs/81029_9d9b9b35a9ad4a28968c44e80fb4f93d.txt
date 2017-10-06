@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81029
+    [IdTransaction] => 9d9b9b35a9ad4a28968c44e80fb4f93d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36466] => Array
+                                (
+                                    [notiers] => 36466
+                                    [lastname] => MOORE
+                                    [firstname] => Donald
+                                    [email] => mooremougins@aol.com
+                                    [id_gender] => 1
+                                    [passwd] => DM1951
+                                    [birthday] => 1951-01-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 555
+                                    [NbPointsRestants] => 555
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48950
+                                                            [alias] => 06250 MOUGINS
+                                                            [address1] => 997, CHEMIN DE PIGRANEL
+                                                            [address2] => 
+                                                            [city] => MOUGINS
+                                                            [postcode] => 06250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Donald
+                                                            [lastname] => MOORE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48951
+                                                            [alias] => 06250 MOUGINS
+                                                            [address1] => 997, CHEMIN DE PIGRANEL
+                                                            [address2] => 
+                                                            [city] => MOUGINS
+                                                            [postcode] => 06250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Donald
+                                                            [lastname] => MOORE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

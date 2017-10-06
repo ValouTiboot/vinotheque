@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75059
+    [IdTransaction] => 3b5c5c2bdd00404ba18c6ae2dfb1818d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33452] => Array
+                                (
+                                    [notiers] => 33452
+                                    [lastname] => CORNARDEAU
+                                    [firstname] => Alain
+                                    [email] => a.d.cornardeau@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 8537
+                                    [birthday] => 1942-06-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43879
+                                                            [alias] => 37230 FONDETTES
+                                                            [address1] => 6, allée Jacqueline Auriol
+                                                            [address2] => 
+                                                            [city] => FONDETTES
+                                                            [postcode] => 37230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CORNARDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43880
+                                                            [alias] => 37230 FONDETTES
+                                                            [address1] => 6, allée Jacqueline Auriol
+                                                            [address2] => 
+                                                            [city] => FONDETTES
+                                                            [postcode] => 37230
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => CORNARDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

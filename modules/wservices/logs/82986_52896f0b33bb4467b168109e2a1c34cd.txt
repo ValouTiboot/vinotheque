@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82986
+    [IdTransaction] => 52896f0b33bb4467b168109e2a1c34cd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25387] => Array
+                                (
+                                    [notiers] => 25387
+                                    [lastname] => PAUL
+                                    [firstname] => Uytterhaeghe
+                                    [email] => paul@uytterhaeghe.com
+                                    [id_gender] => 1
+                                    [passwd] => paullavinotheque1
+                                    [birthday] => 1953-02-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31080
+                                                            [alias] => 9820 MERELBEKE
+                                                            [address1] => 46, bosstraat Schelderode
+                                                            [address2] => 
+                                                            [city] => MERELBEKE
+                                                            [postcode] => 9820
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Uytterhaeghe
+                                                            [lastname] => PAUL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31081
+                                                            [alias] => 9820 MERELBEKE
+                                                            [address1] => 46, bosstraat
+                                                            [address2] => 
+                                                            [city] => MERELBEKE
+                                                            [postcode] => 9820
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Uytterhaeghe
+                                                            [lastname] => PAUL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => BE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

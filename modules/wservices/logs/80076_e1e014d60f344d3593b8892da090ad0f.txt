@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80076
+    [IdTransaction] => e1e014d60f344d3593b8892da090ad0f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30105] => Array
+                                (
+                                    [notiers] => 30105
+                                    [lastname] => MARTRET
+                                    [firstname] => Carol
+                                    [email] => kerozenn@club-internet.fr
+                                    [id_gender] => 2
+                                    [passwd] => superconstel
+                                    [birthday] => 1966-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 504
+                                    [NbPointsRestants] => 504
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38262
+                                                            [alias] => 35730 PLEURTUIT
+                                                            [address1] => 1, rue ransbach baumbach
+                                                            [address2] => 2è étage porte 201 résidence bois joli
+                                                            [city] => PLEURTUIT
+                                                            [postcode] => 35730
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carol
+                                                            [lastname] => MARTRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38263
+                                                            [alias] => 35730 PLEURTUIT
+                                                            [address1] => 1, RUE RANSBACH BAUMBACH
+                                                            [address2] => Porte 201 Etage 2
+                                                            [city] => PLEURTUIT
+                                                            [postcode] => 35730
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Carol
+                                                            [lastname] => MARTRET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

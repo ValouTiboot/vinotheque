@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76504
+    [IdTransaction] => c33c505f17b54f28a71e85b59492bfb0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25956] => Array
+                                (
+                                    [notiers] => 25956
+                                    [lastname] => PERROT
+                                    [firstname] => Jean michel
+                                    [email] => jeanmichel.perrot@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 19jmp45
+                                    [birthday] => 1945-04-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 237
+                                    [NbPointsRestants] => 237
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31969
+                                                            [alias] => 30700 BARON
+                                                            [address1] => 25, Chemin du mas bagard
+                                                            [address2] => 
+                                                            [city] => BARON
+                                                            [postcode] => 30700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean michel
+                                                            [lastname] => PERROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31970
+                                                            [alias] => 30700 BARON
+                                                            [address1] => 25, Chemin du mas bagard
+                                                            [address2] => 
+                                                            [city] => BARON
+                                                            [postcode] => 30700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean michel
+                                                            [lastname] => PERROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

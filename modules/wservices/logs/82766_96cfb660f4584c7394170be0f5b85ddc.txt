@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82766
+    [IdTransaction] => 96cfb660f4584c7394170be0f5b85ddc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36101] => Array
+                                (
+                                    [notiers] => 36101
+                                    [lastname] => ROBERT
+                                    [firstname] => Arnaud
+                                    [email] => arnroby@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => paris75000
+                                    [birthday] => 1979-09-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48340
+                                                            [alias] => 17290 BALLON
+                                                            [address1] => 13, RUE DE L HOTEL DE VILLE
+                                                            [address2] => 
+                                                            [city] => BALLON
+                                                            [postcode] => 17290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => ROBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48341
+                                                            [alias] => 76270 ESCLAVELLES
+                                                            [address1] => 1, Route de Rouen ESCLAVELLES
+                                                            [address2] => 
+                                                            [city] => ESCLAVELLES
+                                                            [postcode] => 76270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Arnaud
+                                                            [lastname] => ROBERT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

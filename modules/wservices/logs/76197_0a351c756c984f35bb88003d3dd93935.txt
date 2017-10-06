@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76197
+    [IdTransaction] => 0a351c756c984f35bb88003d3dd93935
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33860] => Array
+                                (
+                                    [notiers] => 33860
+                                    [lastname] => RINGELSTEIN
+                                    [firstname] => Cedric
+                                    [email] => cedric.ringelstein@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 250186
+                                    [birthday] => 1984-08-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1113
+                                    [NbPointsRestants] => 1113
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44617
+                                                            [alias] => 75017 PARIS
+                                                            [address1] => 71, Rue de levis PARIS
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75017
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => RINGELSTEIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44618
+                                                            [alias] => 37250 VEIGNE
+                                                            [address1] => 15, Allee des chenes
+                                                            [address2] => 
+                                                            [city] => VEIGNE
+                                                            [postcode] => 37250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cedric
+                                                            [lastname] => RINGELSTEIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78291
+    [IdTransaction] => 6d09a15ec27942c68400d909d7d7ede3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27308] => Array
+                                (
+                                    [notiers] => 27308
+                                    [lastname] => CORNELOUP
+                                    [firstname] => Robert
+                                    [email] => bet.corneloup@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1957-01-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 350
+                                    [NbPointsRestants] => 350
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34035
+                                                            [alias] => 25000 BESANCON
+                                                            [address1] => 2 BIS, RUE DES JARDINS
+                                                            [address2] => 
+                                                            [city] => BESANCON
+                                                            [postcode] => 25000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => CORNELOUP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34036
+                                                            [alias] => 25000 BESANCON
+                                                            [address1] => 2 BIS, RUE DES JARDINS
+                                                            [address2] => 
+                                                            [city] => BESANCON
+                                                            [postcode] => 25000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => CORNELOUP
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

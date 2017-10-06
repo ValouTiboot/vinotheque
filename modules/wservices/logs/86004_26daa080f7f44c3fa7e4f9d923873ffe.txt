@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86004
+    [IdTransaction] => 26daa080f7f44c3fa7e4f9d923873ffe
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34095] => Array
+                                (
+                                    [notiers] => 34095
+                                    [lastname] => GOBILLOT
+                                    [firstname] => François
+                                    [email] => francois.gobillot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Palmier18!
+                                    [birthday] => 1974-06-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 96
+                                    [NbPointsRestants] => 96
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45032
+                                                            [alias] => 7009 PARIS
+                                                            [address1] => 37, Rue de Bellefond Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 7009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => GOBILLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45033
+                                                            [alias] => 7009 PARIS
+                                                            [address1] => 37, Rue de Bellefond Paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 7009
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => François
+                                                            [lastname] => GOBILLOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

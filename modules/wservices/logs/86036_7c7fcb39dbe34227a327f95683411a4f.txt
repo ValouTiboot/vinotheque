@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86036
+    [IdTransaction] => 7c7fcb39dbe34227a327f95683411a4f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32547] => Array
+                                (
+                                    [notiers] => 32547
+                                    [lastname] => HAVY
+                                    [firstname] => Nicolas
+                                    [email] => nicolas.havy@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Fitia1982
+                                    [birthday] => 1984-06-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 231
+                                    [NbPointsRestants] => 231
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42379
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 81, boulevard de charonne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => HAVY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42380
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 81, boulevard de charonne
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => HAVY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75240
+    [IdTransaction] => 9610ef7ad4664f00885f28f475c699f6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24937] => Array
+                                (
+                                    [notiers] => 24937
+                                    [lastname] => JOURDAIN
+                                    [firstname] => Roland
+                                    [email] => rjourdain@rd.loreal.com
+                                    [id_gender] => 1
+                                    [passwd] => sensible
+                                    [birthday] => 1966-08-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 420
+                                    [NbPointsRestants] => 420
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30885
+                                                            [alias] => 92190 MEUDON
+                                                            [address1] => 3, Avenue de Trivaux
+                                                            [address2] => 
+                                                            [city] => MEUDON
+                                                            [postcode] => 92190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roland
+                                                            [lastname] => JOURDAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30886
+                                                            [alias] => 94600 CHOISY-LE-ROI
+                                                            [address1] => 2, Avenue Gambetta
+                                                            [address2] => 
+                                                            [city] => CHOISY-LE-ROI
+                                                            [postcode] => 94600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Roland
+                                                            [lastname] => JOURDAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75074
+    [IdTransaction] => da60630af3434b2dab90ab05b1be5d63
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24715] => Array
+                                (
+                                    [notiers] => 24715
+                                    [lastname] => ANTELME
+                                    [firstname] => Sylvain
+                                    [email] => sate57@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => nasswpss
+                                    [birthday] => 1981-03-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 55
+                                    [NbPointsRestants] => 55
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30572
+                                                            [alias] => 79400 SAINT-MAIXENT-L'ECOLE
+                                                            [address1] => 25, BOULEVARD DE LA TROUILLETTE
+                                                            [address2] => 
+                                                            [city] => SAINT-MAIXENT-L'ECOLE
+                                                            [postcode] => 79400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvain
+                                                            [lastname] => ANTELME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30573
+                                                            [alias] => 57400 IMLING
+                                                            [address1] => 47, RUE DE LORQUIN
+                                                            [address2] => 
+                                                            [city] => IMLING
+                                                            [postcode] => 57400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvain
+                                                            [lastname] => ANTELME
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

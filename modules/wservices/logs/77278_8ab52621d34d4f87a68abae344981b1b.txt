@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77278
+    [IdTransaction] => 8ab52621d34d4f87a68abae344981b1b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32402] => Array
+                                (
+                                    [notiers] => 32402
+                                    [lastname] => HURTAUD
+                                    [firstname] => André
+                                    [email] => andre-hurtaud@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => andre2410
+                                    [birthday] => 1941-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 627
+                                    [NbPointsRestants] => 627
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42125
+                                                            [alias] => 17000 ROCHELLE
+                                                            [address1] => 29, Avenue Jean Guiton
+                                                            [address2] => Le Ficherman
+                                                            [city] => ROCHELLE
+                                                            [postcode] => 17000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => HURTAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42126
+                                                            [alias] => 17000 ROCHELLE
+                                                            [address1] => 29, Avenue Jean Guiton
+                                                            [address2] => Le Ficherman
+                                                            [city] => ROCHELLE
+                                                            [postcode] => 17000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => André
+                                                            [lastname] => HURTAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

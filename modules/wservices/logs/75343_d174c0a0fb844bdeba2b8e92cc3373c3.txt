@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75343
+    [IdTransaction] => d174c0a0fb844bdeba2b8e92cc3373c3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26904] => Array
+                                (
+                                    [notiers] => 26904
+                                    [lastname] => MAZEAU
+                                    [firstname] => Vincent
+                                    [email] => vincentmazeau@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => mamaz007
+                                    [birthday] => 1959-08-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 110
+                                    [NbPointsRestants] => 110
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33383
+                                                            [alias] => 33490 SAINT-MAIXANT
+                                                            [address1] => 28, l'Astouret
+                                                            [address2] => 
+                                                            [city] => SAINT-MAIXANT
+                                                            [postcode] => 33490
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => MAZEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33384
+                                                            [alias] => 33490 SAINT-MAIXANT
+                                                            [address1] => 28, l'Astouret
+                                                            [address2] => 
+                                                            [city] => SAINT-MAIXANT
+                                                            [postcode] => 33490
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => MAZEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78162
+    [IdTransaction] => c2b7fcd68f9545f8b25dcea67d160f46
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32525] => Array
+                                (
+                                    [notiers] => 32525
+                                    [lastname] => PAROT
+                                    [firstname] => William
+                                    [email] => parotwilliam@live.fr
+                                    [id_gender] => 1
+                                    [passwd] => laregalade
+                                    [birthday] => 1980-10-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42343
+                                                            [alias] => 43000 PUY-EN-VELAY
+                                                            [address1] => 2, marechal fayolle
+                                                            [address2] => 
+                                                            [city] => PUY-EN-VELAY
+                                                            [postcode] => 43000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => William
+                                                            [lastname] => PAROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42344
+                                                            [alias] => 43000 PUY-EN-VELAY
+                                                            [address1] => 2, marechal fayolle
+                                                            [address2] => 
+                                                            [city] => PUY-EN-VELAY
+                                                            [postcode] => 43000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => William
+                                                            [lastname] => PAROT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

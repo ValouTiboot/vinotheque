@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77515
+    [IdTransaction] => 63a956e829a94e2787768f08f4d65d96
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31117] => Array
+                                (
+                                    [notiers] => 31117
+                                    [lastname] => FRANCOIS
+                                    [firstname] => Bruno
+                                    [email] => brunoamd@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => bruno6459
+                                    [birthday] => 1963-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 196
+                                    [NbPointsRestants] => 196
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40028
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => allee de plaisance
+                                                            [address2] => 31 1c
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => FRANCOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40029
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => rue des quatre cantons
+                                                            [address2] => magasin centre technique municipal
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bruno
+                                                            [lastname] => FRANCOIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

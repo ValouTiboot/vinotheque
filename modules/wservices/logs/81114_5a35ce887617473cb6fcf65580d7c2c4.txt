@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81114
+    [IdTransaction] => 5a35ce887617473cb6fcf65580d7c2c4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33213] => Array
+                                (
+                                    [notiers] => 33213
+                                    [lastname] => ARQUEY
+                                    [firstname] => Sarah
+                                    [email] => s.arquey@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1984-07-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 75
+                                    [NbPointsRestants] => 75
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43449
+                                                            [alias] => 33520 BRUGES
+                                                            [address1] => 22, camille maumey
+                                                            [address2] => 
+                                                            [city] => BRUGES
+                                                            [postcode] => 33520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => ARQUEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43450
+                                                            [alias] => 33520 BRUGES
+                                                            [address1] => 22, camille maumey
+                                                            [address2] => 
+                                                            [city] => BRUGES
+                                                            [postcode] => 33520
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => ARQUEY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

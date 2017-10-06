@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76286
+    [IdTransaction] => 1abb5f1260794994be20d8d15eb4c689
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33881] => Array
+                                (
+                                    [notiers] => 33881
+                                    [lastname] => XERRI
+                                    [firstname] => Philippe
+                                    [email] => xerricaraman@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1948-01-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 238
+                                    [NbPointsRestants] => 238
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44653
+                                                            [alias] => 31460 CARAMAN
+                                                            [address1] => 35, cours alsace lorraine
+                                                            [address2] => 
+                                                            [city] => CARAMAN
+                                                            [postcode] => 31460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => XERRI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44654
+                                                            [alias] => 31460 CARAMAN
+                                                            [address1] => 35, cours alsace lorraine
+                                                            [address2] => 
+                                                            [city] => CARAMAN
+                                                            [postcode] => 31460
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => XERRI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

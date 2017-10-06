@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76357
+    [IdTransaction] => 90f0d3a5e720436281525753ab1da1c3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34710] => Array
+                                (
+                                    [notiers] => 34710
+                                    [lastname] => DELLI GATTI
+                                    [firstname] => Sarah
+                                    [email] => sarah.delligatti@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => bbdaniel13
+                                    [birthday] => 1976-11-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 63
+                                    [NbPointsRestants] => 63
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46087
+                                                            [alias] => 13410 LAMBESC
+                                                            [address1] => 10, route de Rognes
+                                                            [address2] => 10 bis
+                                                            [city] => LAMBESC
+                                                            [postcode] => 13410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => DELLI GATTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46088
+                                                            [alias] => 13410 LAMBESC
+                                                            [address1] => 10 Bis, ROUTE DE ROGNES
+                                                            [address2] => 
+                                                            [city] => LAMBESC
+                                                            [postcode] => 13410
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sarah
+                                                            [lastname] => DELLI GATTI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

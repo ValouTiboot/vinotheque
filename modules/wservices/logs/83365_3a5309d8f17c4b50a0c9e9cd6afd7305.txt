@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83365
+    [IdTransaction] => 3a5309d8f17c4b50a0c9e9cd6afd7305
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25587] => Array
+                                (
+                                    [notiers] => 25587
+                                    [lastname] => TAILLEUR
+                                    [firstname] => Frederic
+                                    [email] => ftailleur@chene.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1960-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 34
+                                    [NbPointsRestants] => 34
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31398
+                                                            [alias] => 33240 SAINT-ANDRE-DE-CUBZAC
+                                                            [address1] => 250, rue des droits de l'homme
+                                                            [address2] => ZA La Garosse
+                                                            [city] => SAINT-ANDRE-DE-CUBZAC
+                                                            [postcode] => 33240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => TAILLEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31399
+                                                            [alias] => 33240 SAINT-ANDRE-DE-CUBZAC
+                                                            [address1] => 250, rue des droits de l'homme
+                                                            [address2] => ZA La Garosse
+                                                            [city] => SAINT-ANDRE-DE-CUBZAC
+                                                            [postcode] => 33240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Frederic
+                                                            [lastname] => TAILLEUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

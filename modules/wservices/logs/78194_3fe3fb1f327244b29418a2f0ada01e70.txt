@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78194
+    [IdTransaction] => 3fe3fb1f327244b29418a2f0ada01e70
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33048] => Array
+                                (
+                                    [notiers] => 33048
+                                    [lastname] => RAVAUT
+                                    [firstname] => Pierre
+                                    [email] => la-cle-des-vignes@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 241276
+                                    [birthday] => 1976-10-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 360
+                                    [NbPointsRestants] => 360
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43142
+                                                            [alias] => 21550 LADOIX-SERRIGNY
+                                                            [address1] => 21, Rue Martenot Cidex 76
+                                                            [address2] => 
+                                                            [city] => LADOIX-SERRIGNY
+                                                            [postcode] => 21550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => RAVAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43143
+                                                            [alias] => 21550 LADOIX-SERRIGNY
+                                                            [address1] => 21, Rue Martenot Cidex 76
+                                                            [address2] => 
+                                                            [city] => LADOIX-SERRIGNY
+                                                            [postcode] => 21550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => RAVAUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

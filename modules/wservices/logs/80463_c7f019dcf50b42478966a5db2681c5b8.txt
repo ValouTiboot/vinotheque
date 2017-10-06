@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80463
+    [IdTransaction] => c7f019dcf50b42478966a5db2681c5b8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32134] => Array
+                                (
+                                    [notiers] => 32134
+                                    [lastname] => GOLDSTEIN
+                                    [firstname] => Pierre
+                                    [email] => pierre.goldstein.denance@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => pierre010685
+                                    [birthday] => 1985-06-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 265
+                                    [NbPointsRestants] => 265
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41718
+                                                            [alias] => 44330 VALLET
+                                                            [address1] => 2, rue de la roche
+                                                            [address2] => 
+                                                            [city] => VALLET
+                                                            [postcode] => 44330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GOLDSTEIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41719
+                                                            [alias] => 44330 VALLET
+                                                            [address1] => 2, rue de la roche
+                                                            [address2] => 
+                                                            [city] => VALLET
+                                                            [postcode] => 44330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GOLDSTEIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

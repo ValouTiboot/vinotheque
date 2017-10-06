@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79014
+    [IdTransaction] => 11f80c146db6469e9d15f093459c34b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27409] => Array
+                                (
+                                    [notiers] => 27409
+                                    [lastname] => NGUYEN
+                                    [firstname] => Van tung
+                                    [email] => vt.nguyen@pmc-sa.com
+                                    [id_gender] => 1
+                                    [passwd] => ajp%vtn%
+                                    [birthday] => 1956-10-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 423
+                                    [NbPointsRestants] => 423
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34178
+                                                            [alias] => 94510 QUEUE-EN-BRIE
+                                                            [address1] => 44, rue du Morbras
+                                                            [address2] => 
+                                                            [city] => QUEUE-EN-BRIE
+                                                            [postcode] => 94510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Van tung
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34179
+                                                            [alias] => 94510 QUEUE-EN-BRIE
+                                                            [address1] => 44, rue du Morbras
+                                                            [address2] => 
+                                                            [city] => QUEUE-EN-BRIE
+                                                            [postcode] => 94510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Van tung
+                                                            [lastname] => NGUYEN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

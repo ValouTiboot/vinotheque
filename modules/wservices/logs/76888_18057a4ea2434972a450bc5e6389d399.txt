@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76888
+    [IdTransaction] => 18057a4ea2434972a450bc5e6389d399
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32097] => Array
+                                (
+                                    [notiers] => 32097
+                                    [lastname] => CALIGARIS
+                                    [firstname] => Jean jacques
+                                    [email] => jjcaligaris@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 1959tlemcen
+                                    [birthday] => 1959-06-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 328
+                                    [NbPointsRestants] => 328
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41650
+                                                            [alias] => 78270 MOUSSEAUX-SUR-SEINE
+                                                            [address1] => 11, Impasse de Lavacourt
+                                                            [address2] => 
+                                                            [city] => MOUSSEAUX-SUR-SEINE
+                                                            [postcode] => 78270
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => CALIGARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41651
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 1, Rue Servan
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => CALIGARIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

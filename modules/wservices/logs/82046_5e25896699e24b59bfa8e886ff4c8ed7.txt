@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82046
+    [IdTransaction] => 5e25896699e24b59bfa8e886ff4c8ed7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29640] => Array
+                                (
+                                    [notiers] => 29640
+                                    [lastname] => LABBE
+                                    [firstname] => Remi
+                                    [email] => labbe.remi@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => surfeuse
+                                    [birthday] => 1981-02-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 163
+                                    [NbPointsRestants] => 163
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37481
+                                                            [alias] => 40000 MONT-DE-MARSAN
+                                                            [address1] => 1, Allee Pre du Vignau
+                                                            [address2] => 
+                                                            [city] => MONT-DE-MARSAN
+                                                            [postcode] => 40000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => LABBE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37482
+                                                            [alias] => 40000 MONT-DE-MARSAN
+                                                            [address1] => 1, Allee Pre du Vignau
+                                                            [address2] => 
+                                                            [city] => MONT-DE-MARSAN
+                                                            [postcode] => 40000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Remi
+                                                            [lastname] => LABBE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

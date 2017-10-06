@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82582
+    [IdTransaction] => 2ec4ad40bcfb45ff834f1f6854c6a046
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29210] => Array
+                                (
+                                    [notiers] => 29210
+                                    [lastname] => DELAMARE
+                                    [firstname] => Jerome
+                                    [email] => delamare108@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1991-02-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 111
+                                    [NbPointsRestants] => 111
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36836
+                                                            [alias] => 27420 RICHEVILLE
+                                                            [address1] => 8, ROUTE NATIONALE 14
+                                                            [address2] => 
+                                                            [city] => RICHEVILLE
+                                                            [postcode] => 27420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => DELAMARE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36837
+                                                            [alias] => 27420 RICHEVILLE
+                                                            [address1] => 8, ROUTE NATIONALE 14
+                                                            [address2] => 
+                                                            [city] => RICHEVILLE
+                                                            [postcode] => 27420
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => DELAMARE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

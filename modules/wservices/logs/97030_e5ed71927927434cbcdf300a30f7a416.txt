@@ -1,0 +1,261 @@
+Array
+(
+    [NoJSON] => 97030
+    [IdTransaction] => e5ed71927927434cbcdf300a30f7a416
+    [Modèle] => PRD
+    [Type] => UPD
+    [DateTransaction] => /Date(1504096095950-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [produits] => Array
+                        (
+                            [M2016003346] => Array
+                                (
+                                    [reference] => M2016003346
+                                    [id_second_wine] => 
+                                    [id_category_default] => Autres régions
+                                    [cache_default_attribute] => 42486
+                                    [active] => 1
+                                    [name] => DUNES Gris de Gris
+                                    [wine] => 0
+                                    [wine_date] => 
+                                    [wine_delivery] => 
+                                    [available_date] => 
+                                    [quantity] => 0
+                                    [shop_quantity] => 0
+                                    [price] => 0
+                                    [id_tax_rules_group] => NOR
+                                    [available_later] => Commande en cours...
+                                    [property_picture] => 
+                                    [calling_picture_big] => 
+                                    [calling_picture_small] => 
+                                    [calling] => Le Sable de Camargue est une appellation viticole dont les vins peuvent être produits dans les vignobles du Languedoc-roussillon et du Rhône. Les vins qui y sont produits peuvent être rouges, blancs ou rosés. Les vignes sont plantées sur un terroir de sables siliceux et calcaires et baignées par le climat marin méditerranéen. Les vins rouges ont une robe grenat et brillante et révèlent un nez aux notes intenses de fruits rouges. L'attaque est souple. Le rosé revêt une robe rose vif et  tire parfois vers le gris. Le nez est frais et gourmand. En blanc, l'appellation produit des vins aux notes de buis et d'herbes fraîches complétées par des notes d'agrumes.rnrnrn
+                                    [property] => Les traces du vignoble remontent au XII eme siècle. La première cave du Château L’Ermitage fut construite cers 1800. Aujourd’hui, Michel Castillon et son fils Jérôme ont pris la relève en alliant connaissance technique et passion.rnAutour de l’ancien Ermitage de Ste Cécile d’Estagel, les 80 hectares du vignoble profite de l'exposition du versant Sud des Costières de Nîmes, dominant la Camargue et la Méditerranée. Cette exposition permet un ensoleillement optimum et la proximité de la mer apporte des brises rafraîchissantes qui créent un microclimat spécifique au Château L'Ermitage. Le terroir est, enrichi par un sol de galets roulés accumulés par le Rhône au Quaternaire. Sur ce terroir Rhodanien,  sont cultivés les cépages nobles de la vallée du Rhône: Syrah, Grenache, Mourvèdre, Roussane, Grenache Blanc , Viognier et muscat. La tradition du Château L'Ermitage est d'élever ses vins dans l’harmonie des arômes de cépages et la typicité du terroir .rnrnrn
+                                    [description] => Robe pâle et délicate. Nez fin avec des notes de pamplemousse rose et de pêche blanche. Bouche tendre et frâche, très bel équilibre.
+                                    [description_short] => 
+                                    [categories] => Array
+                                        (
+                                            [0] => Autres régions
+                                            [1] => IGP Sable de Camargue
+                                            [2] => Languedoc Roussillon
+                                        )
+
+                                    [pictogram] => Array
+                                        (
+                                        )
+
+                                    [foodandwine] => Array
+                                        (
+                                            [0] => Poisson grillé
+                                            [1] => Viande blanche grillée
+                                            [2] => Pizzas
+                                            [3] => Viande rouge grillée
+                                        )
+
+                                    [images] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [url] => dune-gris-de-gris-2016.jpg
+                                                            [legend] => DUNES GRIS DE GRIS
+                                                            [cover] => 1
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 42486
+                                                                    [1] => 42487
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42486
+                                                            [reference] => M2016003346
+                                                            [shop_quantity] => 12
+                                                            [name] => Format : Bouteille 0,75 L
+                                                            [active] => 1
+                                                            [price] => 4.5833
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 102
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [out_of_stock] => 0
+                                                            [id_product_attribute] => 42487
+                                                            [reference] => M2016003346
+                                                            [shop_quantity] => 2
+                                                            [name] => Format : Magnum 1,50 L
+                                                            [active] => 1
+                                                            [price] => 10.7500
+                                                            [packaging_weight] => 0.000
+                                                            [minimal_quantity] => 1.00
+                                                            [quantity] => 23
+                                                            [available_date] => 
+                                                            [packaging_price] => 0.00
+                                                            [id_conditionnement] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [features] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [cle] => 1
+                                                            [feature] => Apogée
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [cle] => 2
+                                                            [feature] => Appellation
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => IGP Sable de Camargue
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [cle] => 3
+                                                            [feature] => Cépages
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 50% Carignan
+                                                                    [1] => 50% Grenache
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [cle] => 4
+                                                            [feature] => Classification
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [cle] => 5
+                                                            [feature] => Couleur
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Rosé
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [cle] => 6
+                                                            [feature] => Degré
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 13.000
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [cle] => 7
+                                                            [feature] => Millésime
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 2016
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [cle] => 8
+                                                            [feature] => Mode de culture
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [cle] => 9
+                                                            [feature] => Niveau de garde
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => De 2017 à 2018
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [cle] => 10
+                                                            [feature] => Région
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => Languedoc Roussillon
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [cle] => 11
+                                                            [feature] => Température de service
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => 9-10°C
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

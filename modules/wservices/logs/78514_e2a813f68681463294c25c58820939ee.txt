@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78514
+    [IdTransaction] => e2a813f68681463294c25c58820939ee
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28340] => Array
+                                (
+                                    [notiers] => 28340
+                                    [lastname] => BEAUGENDRE
+                                    [firstname] => Jacques
+                                    [email] => jbeaugendre@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => 4lesacers
+                                    [birthday] => 1946-12-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 197
+                                    [NbPointsRestants] => 197
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35587
+                                                            [alias] => 64140 LONS
+                                                            [address1] => 15, chemin du lanot
+                                                            [address2] => 
+                                                            [city] => LONS
+                                                            [postcode] => 64140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => BEAUGENDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35588
+                                                            [alias] => 64140 LONS
+                                                            [address1] => 15, chemin du lanot
+                                                            [address2] => 
+                                                            [city] => LONS
+                                                            [postcode] => 64140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques
+                                                            [lastname] => BEAUGENDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

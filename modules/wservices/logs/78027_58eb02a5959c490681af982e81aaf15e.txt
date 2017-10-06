@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78027
+    [IdTransaction] => 58eb02a5959c490681af982e81aaf15e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30785] => Array
+                                (
+                                    [notiers] => 30785
+                                    [lastname] => BLIN
+                                    [firstname] => Daniel
+                                    [email] => daniel.blin22@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ESSBASKET
+                                    [birthday] => 1961-01-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 207
+                                    [NbPointsRestants] => 207
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39465
+                                                            [alias] => 94370 SUCY-EN-BRIE
+                                                            [address1] => 3, AVENUE GABRIEL PERI
+                                                            [address2] => 
+                                                            [city] => SUCY-EN-BRIE
+                                                            [postcode] => 94370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => BLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39466
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 38  BIS, RUE VIVIENNE
+                                                            [address2] => JOUBERT BOUTIQUE
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Daniel
+                                                            [lastname] => BLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

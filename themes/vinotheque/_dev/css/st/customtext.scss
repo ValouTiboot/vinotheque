@@ -1,0 +1,43 @@
+#custom-text {
+  color: white;
+  text-align: center;
+  font-size: rem(45px);
+  .row {
+    margin-left: -2px;
+    margin-right: -2px;
+    .col-lg-4 {
+      padding-left: 2px;
+      padding-right: 2px;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .customtext-title {
+        position: absolute;
+        left: 0;
+        top: 45%;
+        z-index: 10;
+        width: 100%;
+        text-transform: uppercase;
+      }
+      .customtext-hover {
+        display: none;
+      }
+      &:hover .customtext-hover {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 4px);
+        margin-left: 2px;
+        height: 100%;
+        background-color: rgba(182, 31, 56, 0.5);
+        background-image: url("../img/footer_bg_white.png");
+        background-position: 0 bottom;
+        background-repeat: repeat-x;
+        font-family: 'Caveat';
+        padding-top: 42%;
+      }
+    }
+  }
+}

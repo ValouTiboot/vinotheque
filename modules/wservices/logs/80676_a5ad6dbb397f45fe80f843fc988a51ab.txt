@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80676
+    [IdTransaction] => a5ad6dbb397f45fe80f843fc988a51ab
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25026] => Array
+                                (
+                                    [notiers] => 25026
+                                    [lastname] => DELAHOUSSE
+                                    [firstname] => Juliette
+                                    [email] => juliette.directce@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => bordeaux
+                                    [birthday] => 1967-12-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31007
+                                                            [alias] => 59253 GORGUE
+                                                            [address1] => 1313, RUE DES MONTS
+                                                            [address2] => 
+                                                            [city] => GORGUE
+                                                            [postcode] => 59253
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Juliette
+                                                            [lastname] => DELAHOUSSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31008
+                                                            [alias] => 59290 WASQUEHAL
+                                                            [address1] => 1, RUE AMBROISE CROIZAT
+                                                            [address2] => F 101 RESIDENCE QUIETUDE
+                                                            [city] => WASQUEHAL
+                                                            [postcode] => 59290
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Juliette
+                                                            [lastname] => DELAHOUSSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

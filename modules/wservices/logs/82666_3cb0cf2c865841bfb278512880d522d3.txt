@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82666
+    [IdTransaction] => 3cb0cf2c865841bfb278512880d522d3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35132] => Array
+                                (
+                                    [notiers] => 35132
+                                    [lastname] => BRUCATO
+                                    [firstname] => Vincenzo
+                                    [email] => phersu89@hotmail.it
+                                    [id_gender] => 1
+                                    [passwd] => BR89nero
+                                    [birthday] => 1989-03-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 99
+                                    [NbPointsRestants] => 99
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46740
+                                                            [alias] => 08046 PERDASDEFOGU
+                                                            [address1] => via C. Colombo 33 Perdasdefogu
+                                                            [address2] => via C. Colombo 33
+                                                            [city] => PERDASDEFOGU
+                                                            [postcode] => 08046
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincenzo
+                                                            [lastname] => BRUCATO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46741
+                                                            [alias] => 08046 PERDASDEFOGU
+                                                            [address1] => 33, via C. Colombo Sardigne
+                                                            [address2] => 
+                                                            [city] => PERDASDEFOGU
+                                                            [postcode] => 08046
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincenzo
+                                                            [lastname] => BRUCATO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

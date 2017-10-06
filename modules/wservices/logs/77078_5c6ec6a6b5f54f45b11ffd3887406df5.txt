@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77078
+    [IdTransaction] => 5c6ec6a6b5f54f45b11ffd3887406df5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31622] => Array
+                                (
+                                    [notiers] => 31622
+                                    [lastname] => DE BAILLIENCOURT
+                                    [firstname] => Renan
+                                    [email] => chez_renan@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => de14B2828
+                                    [birthday] => 1980-12-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 123
+                                    [NbPointsRestants] => 123
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40908
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 88, rue Chevalier
+                                                            [address2] => 91 A
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renan
+                                                            [lastname] => DE BAILLIENCOURT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40909
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 88, rue Chevalier
+                                                            [address2] => 91 A
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renan
+                                                            [lastname] => DE BAILLIENCOURT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

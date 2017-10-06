@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81283
+    [IdTransaction] => 24aa2c4525054f6f9d25fc91e80934e3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34553] => Array
+                                (
+                                    [notiers] => 34553
+                                    [lastname] => HUVELIN
+                                    [firstname] => Benjamin
+                                    [email] => benjamin.huvelin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => BudBud31071988
+                                    [birthday] => 1988-07-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 122
+                                    [NbPointsRestants] => 122
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45809
+                                                            [alias] => 44000 NANTES
+                                                            [address1] => 9, place Edouard Normand
+                                                            [address2] => 2ème étage
+                                                            [city] => NANTES
+                                                            [postcode] => 44000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => HUVELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45810
+                                                            [alias] => 44000 NANTES
+                                                            [address1] => 9, place Edouard Normand
+                                                            [address2] => 2ème étage
+                                                            [city] => NANTES
+                                                            [postcode] => 44000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => HUVELIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80680
+    [IdTransaction] => 8a38d7bff2f84b1da6a56476733d1efc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27237] => Array
+                                (
+                                    [notiers] => 27237
+                                    [lastname] => FERREIRA
+                                    [firstname] => Solenn
+                                    [email] => solenngubri@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => soleil
+                                    [birthday] => 1975-01-07 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 492
+                                    [NbPointsRestants] => 492
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33929
+                                                            [alias] => 78110 VESINET
+                                                            [address1] => 1, route de la borde
+                                                            [address2] => 
+                                                            [city] => VESINET
+                                                            [postcode] => 78110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Solenn
+                                                            [lastname] => FERREIRA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33930
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 47, Rue de ponthieu
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Solenn
+                                                            [lastname] => FERREIRA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76486
+    [IdTransaction] => a1dc8a14c64c4e64afbf3ca6b88057f7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33271] => Array
+                                (
+                                    [notiers] => 33271
+                                    [lastname] => DUSSERE
+                                    [firstname] => Jerome
+                                    [email] => jerome.dussere@colas.com
+                                    [id_gender] => 1
+                                    [passwd] => Jd421421
+                                    [birthday] => 1956-08-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 550
+                                    [NbPointsRestants] => 550
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43554
+                                                            [alias] => 78590 NOISY-LE-ROI
+                                                            [address1] => 1, Allée Pierre Bayle Noisy-le-Roi
+                                                            [address2] => 
+                                                            [city] => NOISY-LE-ROI
+                                                            [postcode] => 78590
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => DUSSERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43555
+                                                            [alias] => 92100 BOULOGNE BILLANCOURT
+                                                            [address1] => 7, Place René Clair
+                                                            [address2] => 
+                                                            [city] => BOULOGNE   BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jerome
+                                                            [lastname] => DUSSERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76098
+    [IdTransaction] => 15fec52d892643a3a99ed498b66833c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26901] => Array
+                                (
+                                    [notiers] => 26901
+                                    [lastname] => CHAPELAIN
+                                    [firstname] => Anthony
+                                    [email] => achapelain@f-g.fr
+                                    [id_gender] => 1
+                                    [passwd] => chaps123
+                                    [birthday] => 1986-02-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33377
+                                                            [alias] => 32110 PANJAS
+                                                            [address1] => Avenue du catalan
+                                                            [address2] => 
+                                                            [city] => PANJAS
+                                                            [postcode] => 32110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => CHAPELAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33378
+                                                            [alias] => 32110 PANJAS
+                                                            [address1] => Avenue du catalan
+                                                            [address2] => 
+                                                            [city] => PANJAS
+                                                            [postcode] => 32110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anthony
+                                                            [lastname] => CHAPELAIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79282
+    [IdTransaction] => 6a45bab184454bb5881db18bc9aa8e71
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28134] => Array
+                                (
+                                    [notiers] => 28134
+                                    [lastname] => DE LAFUENTE
+                                    [firstname] => Jean charles
+                                    [email] => jeancharlesdelafuente@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => toupie
+                                    [birthday] => 1931-03-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 156
+                                    [NbPointsRestants] => 156
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35295
+                                                            [alias] => 4100 ROMORANTIN
+                                                            [address1] => Résidence d, 44 place Jean Moulin
+                                                            [address2] => 15  3èmè étage A
+                                                            [city] => ROMORANTIN
+                                                            [postcode] => 4100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean charles
+                                                            [lastname] => DE LAFUENTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35296
+                                                            [alias] => 83210 SOLLIES-PONT
+                                                            [address1] => L'escapade, Chemin de ma verte vallée
+                                                            [address2] => 
+                                                            [city] => SOLLIES-PONT
+                                                            [postcode] => 83210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean charles
+                                                            [lastname] => DE LAFUENTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

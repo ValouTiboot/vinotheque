@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79942
+    [IdTransaction] => b53baa1bbd9f4b3da93e62aa5bc53bb0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27105] => Array
+                                (
+                                    [notiers] => 27105
+                                    [lastname] => LUPÉ
+                                    [firstname] => Thierry
+                                    [email] => thierrylupe@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 0675marco
+                                    [birthday] => 1950-12-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 421
+                                    [NbPointsRestants] => 421
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33709
+                                                            [alias] => 38400 SAINT-MARTIN-D'HERES
+                                                            [address1] => 8, Marcel Cachin Saint Martin d'Hères
+                                                            [address2] => 3ème étage
+                                                            [city] => SAINT-MARTIN-D'HERES
+                                                            [postcode] => 38400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LUPÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33710
+                                                            [alias] => 38400 SAINT-MARTIN-D'HERES
+                                                            [address1] => 8, avenue Marcel Cachin
+                                                            [address2] => 3ème étage
+                                                            [city] => SAINT-MARTIN-D'HERES
+                                                            [postcode] => 38400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => LUPÉ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78991
+    [IdTransaction] => 6af07f643afb4b379ef528d0f7935603
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29966] => Array
+                                (
+                                    [notiers] => 29966
+                                    [lastname] => LALEU
+                                    [firstname] => Bernard
+                                    [email] => thierry.ruban@voila.fr
+                                    [id_gender] => 1
+                                    [passwd] => soleil
+                                    [birthday] => 1965-03-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 261
+                                    [NbPointsRestants] => 261
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38026
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 67, rue laharpe
+                                                            [address2] => 
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LALEU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38027
+                                                            [alias] => 33110 BOUSCAT
+                                                            [address1] => 67, rue laharpe
+                                                            [address2] => 
+                                                            [city] => BOUSCAT
+                                                            [postcode] => 33110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LALEU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

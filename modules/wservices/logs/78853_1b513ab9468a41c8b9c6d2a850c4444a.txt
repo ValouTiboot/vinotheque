@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78853
+    [IdTransaction] => 1b513ab9468a41c8b9c6d2a850c4444a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36669] => Array
+                                (
+                                    [notiers] => 36669
+                                    [lastname] => GUÉGAN
+                                    [firstname] => Josselin
+                                    [email] => jos27g@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => r@ph@el2009
+                                    [birthday] => 1983-04-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 308
+                                    [NbPointsRestants] => 308
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49300
+                                                            [alias] => 27400 LOUVIERS
+                                                            [address1] => 10, Chemin des bas monts
+                                                            [address2] => 
+                                                            [city] => LOUVIERS
+                                                            [postcode] => 27400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Josselin
+                                                            [lastname] => GUÉGAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49301
+                                                            [alias] => 27400 LOUVIERS
+                                                            [address1] => 10, Chemin des bas monts
+                                                            [address2] => 
+                                                            [city] => LOUVIERS
+                                                            [postcode] => 27400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Josselin
+                                                            [lastname] => GUÉGAN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76522
+    [IdTransaction] => 8e251a99fe90440a9b7ab386257bdcdf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36485] => Array
+                                (
+                                    [notiers] => 36485
+                                    [lastname] => MERCIER
+                                    [firstname] => Jean-claude
+                                    [email] => merciernadine23@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1957-01-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48983
+                                                            [alias] => 38660 TOUVET
+                                                            [address1] => chemin de la Rippe
+                                                            [address2] => 
+                                                            [city] => TOUVET
+                                                            [postcode] => 38660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => MERCIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48984
+                                                            [alias] => 38660 TOUVET
+                                                            [address1] => chemin de la Rippe
+                                                            [address2] => 
+                                                            [city] => TOUVET
+                                                            [postcode] => 38660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-claude
+                                                            [lastname] => MERCIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78293
+    [IdTransaction] => 62a6b8ab92c04d9188b7b45a1e319960
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30140] => Array
+                                (
+                                    [notiers] => 30140
+                                    [lastname] => MOUTONNIER
+                                    [firstname] => Hélène
+                                    [email] => moutonnier.helene@wanadoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => francis
+                                    [birthday] => 1956-02-29 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38327
+                                                            [alias] => 78830 BULLION
+                                                            [address1] => Résidence L, Hameau de Longchêne
+                                                            [address2] => 
+                                                            [city] => BULLION
+                                                            [postcode] => 78830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => MOUTONNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38328
+                                                            [alias] => 78830 BULLION
+                                                            [address1] => Résidence L, Hameau de Longchêne
+                                                            [address2] => 
+                                                            [city] => BULLION
+                                                            [postcode] => 78830
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hélène
+                                                            [lastname] => MOUTONNIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

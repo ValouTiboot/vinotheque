@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76846
+    [IdTransaction] => 30df8b0b8459401b94e04ac7cd597c88
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34744] => Array
+                                (
+                                    [notiers] => 34744
+                                    [lastname] => DUVAL
+                                    [firstname] => Fabien
+                                    [email] => fab2258@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => Cyfac2505
+                                    [birthday] => 1988-12-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46145
+                                                            [alias] => 45000 ORLEANS
+                                                            [address1] => 11, Rue Antigna
+                                                            [address2] => Apt 142
+                                                            [city] => ORLEANS
+                                                            [postcode] => 45000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => DUVAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46146
+                                                            [alias] => 45000 ORLEANS
+                                                            [address1] => 11, Rue Antigna
+                                                            [address2] => Apt 142
+                                                            [city] => ORLEANS
+                                                            [postcode] => 45000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => DUVAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81617
+    [IdTransaction] => de8adde871b54946bdc7e71377ee954a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33146] => Array
+                                (
+                                    [notiers] => 33146
+                                    [lastname] => SERRUT
+                                    [firstname] => Manuel
+                                    [email] => manuel.serrut@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mx001981
+                                    [birthday] => 1981-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43322
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 24, Rue nungesser Pessac
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => SERRUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43323
+                                                            [alias] => 33600 PESSAC
+                                                            [address1] => 24, Rue nungesser Pessac
+                                                            [address2] => 
+                                                            [city] => PESSAC
+                                                            [postcode] => 33600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manuel
+                                                            [lastname] => SERRUT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

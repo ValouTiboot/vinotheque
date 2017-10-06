@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77238
+    [IdTransaction] => 44af0b595b854cfbb7741feb232aa5be
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33465] => Array
+                                (
+                                    [notiers] => 33465
+                                    [lastname] => NEDELEC
+                                    [firstname] => Michel
+                                    [email] => michned29@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Jolicoucou29
+                                    [birthday] => 1970-06-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 154
+                                    [NbPointsRestants] => 154
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43902
+                                                            [alias] => 29470 PLOUGASTEL-DAOULAS
+                                                            [address1] => 3, Goarem Goz
+                                                            [address2] => 
+                                                            [city] => PLOUGASTEL-DAOULAS
+                                                            [postcode] => 29470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => NEDELEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43903
+                                                            [alias] => 29470 PLOUGASTEL-DAOULAS
+                                                            [address1] => 3, Goarem Goz
+                                                            [address2] => 
+                                                            [city] => PLOUGASTEL-DAOULAS
+                                                            [postcode] => 29470
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => NEDELEC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

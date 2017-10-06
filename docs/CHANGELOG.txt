@@ -1,0 +1,232 @@
+2007-2017 PrestaShop
+
+NOTICE OF LICENSE
+
+This source file is subject to the Open Software License (OSL 3.0)
+that is bundled with this package in the file LICENSE.txt.
+It is also available through the world-wide-web at this URL:
+http://opensource.org/licenses/osl-3.0.php
+If you did not receive a copy of the license and are unable to
+obtain it through the world-wide-web, please send an email
+to license@prestashop.com so we can send you a copy immediately.
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+versions in the future. If you wish to customize PrestaShop for your
+needs please refer to http://www.prestashop.com for more information.
+
+@author    PrestaShop SA <contact@prestashop.com>
+@copyright 2007-2017 PrestaShop SA
+@license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+International Registered Trademark & Property of PrestaShop SA
+
+Release Notes for PrestaShop 1.7
+--------------------------------
+####################################
+#   v1.7.1.0 - (2017-03-30)
+####################################
+
+	Fixed bugs:
+
+	[-] CORE : (7d6d07b) valid orders amount currency fix
+	[-] CORE : (79982eb) valid orders amount currency fix
+
+
+####################################
+#   v1.7.0.5 - (2017-02-06)
+####################################
+- Back Office:
+   - Bug fix:
+     - #7450: Fix some automator problem
+     - #7408: Fix deletion of virtual product attachment
+     - #7396: Fix products actions
+     - #7383: Add some cast on variables
+     - #7394: Fix fatal on getModulesToEnable()
+     - #7379: Fix image icon
+     - #7318: Fix saving decimals in AdminProduct combination form
+     - #7301: Translate categories tree in product page
+     - #7325: Add success message when import localization is ok
+     - #7324: No default reference on catalog
+     - #7326: Fix attachment file
+
+ - Front Office:
+   - Bug fix:
+     - #7410: Redirect to 404 when CMS page doesn't exist
+     - #7340: Fix translations error from module with sprintf
+     - #6972: Add missing nofilter after display hook
+
+ - Core:
+   - Improvement:
+     - #7360: Add config.php to the file .gitignore
+     - #7353: Update Israel VAT to 17%
+   - Bug fix:
+     - #7465: Protect some folders
+     - #7424: Update composer with modules
+     - #7354: Filter theme / module inputs
+     - #7418: Alter currency name to varchar(64)
+     - #7419: Use the right modules branch
+     - #7411: Refacto to get translation files
+     - #7407: Do not load index.php file in catalogue
+     - #7397: Fix email override path
+     - #7387: Fallback dataformate duplicate value
+     - #7347: Use the right attributes separator into the cart
+     - #7388: Fix clear media cache
+     - #7385: Fix function call
+     - #7351: Replace PCRE e modifier with callback
+
+
+####################################
+#   v1.7.0.4 - (2017-01-10)
+####################################
+- Back Office:
+   - Bug fix:
+     - #7303: Add some test before use finfo
+     - #7292: Fix log page email hint
+     - #7295: Fix the customer thread timeline display
+     - #7118: Add parent menu permission if sub-menu is selected
+     - #7252: Fix product page ajax calls when url contains numbers
+     - #7193: Fix modules translation form
+     - #7271: Fix import theme for windows & special name
+     - #7267: Fix preview button action
+
+ - Front Office:
+   - Bug fix:
+     - #7286: Use the right wording when guest is disabled
+     - #7195: Fix wrong displayed discount when it's higher than price
+     - #7162: Add error message when ordering number of item greater than quantity
+     - #7186: Always return a current order state
+     - #7185: Fix quick view in safari browser
+     - #7276: Add option with product to getManufacturer, getSupplier
+     - #7278: Do not let Classic override jQuery
+     - #7266: Fix category images generation
+     - #7248: Fix multishop popup design
+     - #7297: Fix clean filter event handler
+
+ - Core:
+   - Bug fix:
+     - #7310: Protect translated strings from XSS
+     - #7114: Set curl as main solution and fopen as fallback
+     - #7279: Fix escaped translations
+     - #7275: Fix module translations priority
+     - #7263: Fix module uninstall when overridden file is missing
+     - #7194: Fix issue on translations without params
+
+ - Installer:
+   - Bug fix:
+     - #7307: Fix croatian install adding quick_access
+     - #7296: Adding missing tabs in IT + VN + SR, and other tab updates
+     - #7274: Fix installer in Canadian and catalog cache
+     - #7284: Fix localization install for language not in data/lang
+     - #7294: Use the right locale for French Canadian
+
+
+####################################
+#   v1.7.0.3 - (2016-12-16)
+####################################
+- Back Office:
+   - Bug fix:
+     - #7169: Add Request to hook parameters
+     - #7151: Allow installed modules translation from translation page
+     - #7024: Fixed product permissions
+     - #7153: Update docs & compile
+     - #7143: Fixed image of module on Payment page
+     - #7091: Fix some of the functions on the product page (JS)
+     - #7090: Fix error when saving traslations (1.7.0.0)
+     - #7028: Removed module card on uninstall
+         - #7215: TinyMCE media plugin shouldn't be activated twice
+
+ - Front Office:
+   - Bug fix:
+     - #7130: Fix nav header menu icon on classic
+     - #7046: Fix classic css override of featuredproduct
+     - #7160: Fix sort by text display
+     - #7131: Fix bootstrap version
+     - #7077: Fix "too much recursion" error on ajax search
+     - #7078: Fix select filter & filter criteria by ajax
+
+ - Core:
+   - Improvement:
+     - #6984: Use the right languages name
+     - #7146: Updated README
+   - Bug fix:
+     - #7224: Removed finfo use for theme upload
+     - #7205: Fix warnings in translate.php
+     - #7200: Fix module install and blank screen after PS install
+     - #7197: Check in Symfony catalog for translations for native modules
+     - #7191: Shutdown addons client on error
+     - #7190: Escape translated strings to prevent XSS
+     - #7187: Fix already defines smarty function
+     - #7184: Fix inactive scope for request in HookManager
+     - #7173: Revert "BO: fixed other XSS issues on translation module page"
+     - #7165: Licences & assets
+     - #7156: Fix SmartyLazyLoader for multiple smarty instances
+     - #7087: Protect translations display against XSS injections
+     - #7129: Fix timeout option for guzzle config
+     - #7144: Use default catalog as a fallback
+     - #7119: Use PhpParser to check parse errors in modules
+     - #7134: Fix mails with invoices
+     - #7080: Add unit price to order confirmation mail (1.7.0.0)
+     - #7096: Use english email template as fallback in getEmailTemplateContent
+
+
+####################################
+#   v1.7.0.2 - (2016-11-23)
+####################################
+- Back Office:
+  - Bug fix:
+  - #7070: Fixed bulk actions affecting single products
+  - #7058: Disable FK checks during DB export
+  - #7063: Fix related product removal
+  - #7008: Display preview button on 13 inches
+  - #6958: Fix email preview in translation page
+
+- Front Office:
+  - Bug fix:
+  - #7027: Filtered embedded product properties
+  - #7043: Add download link for virtual products
+
+- Core:
+  - Improvement:
+  - #7022: Allowed to add remote assets
+  - Bug fix:
+  - #7038: Send email in English if current language don't have email template
+  - #7026: Protect translations display against XSS injections
+  - #7033: Use the locale to fallback on the good one in CLDR Repository
+  - #6986: Fix sprintf condition
+  - #7054: Fix Cookie standalone mode
+
+
+####################################
+#   v1.7.0.1 - (2016-11-16)
+####################################
+- Back Office:
+  - Bug fix:
+  - #6975: Fix updating positions when sorting products
+  - #6977: Fixed security issue on SpecificPrice class
+  - #6952: Fix recommended modules modal window
+  - #6962: Fixed translation choice in BO
+  - #6951: Fixed notice on module translations
+  - #6940: Fix email translations
+  - #6937: Return empty array on API error for customer data
+
+- Front Office:
+  - Bug fix:
+  - #6991: Fix changing combination when catalog mode is enabled
+  - #6979: Fix undefined event in core.js
+
+- Core:
+  - Improvement:
+  - #6982: Improved performances on Windows/NFS filesytem
+  - Bug fix:
+  - #7012: Load autoload earlier
+  - #6971: Fixed on included files for autoupgrade
+  - #6989: Fix fatal if payment module return a non array result
+  - #6973: Created temporary file in cache directory
+  - #6969: Prevent password reset on user check by email
+
+
+####################################
+#   v1.7.0.0 - (2016-11-03)
+####################################
+  New Release!

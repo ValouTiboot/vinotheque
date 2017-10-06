@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81081
+    [IdTransaction] => 68bbb6ab6e5140aea8824076bdc24183
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30653] => Array
+                                (
+                                    [notiers] => 30653
+                                    [lastname] => PILON
+                                    [firstname] => Davy
+                                    [email] => d.pilon@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => bubble
+                                    [birthday] => 1986-07-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39227
+                                                            [alias] => 93370 MONTFERMEIL
+                                                            [address1] => 5, allée des Fées
+                                                            [address2] => 
+                                                            [city] => MONTFERMEIL
+                                                            [postcode] => 93370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davy
+                                                            [lastname] => PILON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39228
+                                                            [alias] => 93370 MONTFERMEIL
+                                                            [address1] => 5, allée des Fées
+                                                            [address2] => 
+                                                            [city] => MONTFERMEIL
+                                                            [postcode] => 93370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davy
+                                                            [lastname] => PILON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

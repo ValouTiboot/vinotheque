@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80891
+    [IdTransaction] => ae28a002cb2e4752afda993337e3b06f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31472] => Array
+                                (
+                                    [notiers] => 31472
+                                    [lastname] => GODINOT
+                                    [firstname] => Julien
+                                    [email] => did.godinot@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => ppz6qhn2
+                                    [birthday] => 1975-10-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 300
+                                    [NbPointsRestants] => 300
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40665
+                                                            [alias] => 52100 SAINT-DIZIER
+                                                            [address1] => 43, Dr Despres
+                                                            [address2] => 
+                                                            [city] => SAINT-DIZIER
+                                                            [postcode] => 52100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => GODINOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40666
+                                                            [alias] => 52100 SAINT-DIZIER
+                                                            [address1] => 43, Dr Despres
+                                                            [address2] => 
+                                                            [city] => SAINT-DIZIER
+                                                            [postcode] => 52100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => GODINOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

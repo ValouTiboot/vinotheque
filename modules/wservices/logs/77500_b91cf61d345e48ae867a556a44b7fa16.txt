@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77500
+    [IdTransaction] => b91cf61d345e48ae867a556a44b7fa16
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23320] => Array
+                                (
+                                    [notiers] => 23320
+                                    [lastname] => THIOULOUSE
+                                    [firstname] => Catherine
+                                    [email] => catherine.thioulouse@free.fr
+                                    [id_gender] => 2
+                                    [passwd] => 2031966
+                                    [birthday] => 1966-03-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 57
+                                    [NbPointsRestants] => 57
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30438
+                                                            [alias] => 33650 BREDE
+                                                            [address1] => 57, allée du Moulin d'augey
+                                                            [address2] => 
+                                                            [city] => BREDE
+                                                            [postcode] => 33650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => THIOULOUSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30439
+                                                            [alias] => 33510 ANDERNOS-LES-BAINS
+                                                            [address1] => 35, LEO FERRE
+                                                            [address2] => 
+                                                            [city] => ANDERNOS-LES-BAINS
+                                                            [postcode] => 33510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Catherine
+                                                            [lastname] => THIOULOUSE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82599
+    [IdTransaction] => c0c3340f8ae640ec8b8ad5200114551d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32612] => Array
+                                (
+                                    [notiers] => 32612
+                                    [lastname] => BANCONS
+                                    [firstname] => Pierre
+                                    [email] => pierrebancons@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => yoleman64
+                                    [birthday] => 1982-02-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42474
+                                                            [alias] => 97224 DUCOS
+                                                            [address1] => 1003, Fond d'or
+                                                            [address2] => 
+                                                            [city] => DUCOS
+                                                            [postcode] => 97224
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => BANCONS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42475
+                                                            [alias] => 64000 PAU
+                                                            [address1] => 4, Avenue fontaine de trespoey
+                                                            [address2] => 
+                                                            [city] => PAU
+                                                            [postcode] => 64000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => BANCONS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

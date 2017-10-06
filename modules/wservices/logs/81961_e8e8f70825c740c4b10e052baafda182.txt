@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81961
+    [IdTransaction] => e8e8f70825c740c4b10e052baafda182
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35517] => Array
+                                (
+                                    [notiers] => 35517
+                                    [lastname] => GUÉNON
+                                    [firstname] => Martin
+                                    [email] => guenon.martin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 22021997
+                                    [birthday] => 1997-02-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 52
+                                    [NbPointsRestants] => 52
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47389
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => 13 rue paul signac
+                                                            [address2] => 
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => GUÉNON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47390
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => rue paul sig, Martin guénon TALENCE
+                                                            [address2] => 13 le petit prince
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Martin
+                                                            [lastname] => GUÉNON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

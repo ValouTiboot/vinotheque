@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75212
+    [IdTransaction] => b3543d37364944c193f7485ba22f7802
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33157] => Array
+                                (
+                                    [notiers] => 33157
+                                    [lastname] => ROGER
+                                    [firstname] => Jérémy
+                                    [email] => jeremy.roger@colasrail.com
+                                    [id_gender] => 1
+                                    [passwd] => Estaca12
+                                    [birthday] => 1989-08-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43342
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jérémy
+                                                            [lastname] => ROGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43343
+                                                            [alias] => 92130 ISSY-LES-MOULINEAUX
+                                                            [address1] => 12, rue Michelet
+                                                            [address2] => 
+                                                            [city] => ISSY-LES-MOULINEAUX
+                                                            [postcode] => 92130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jérémy
+                                                            [lastname] => ROGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

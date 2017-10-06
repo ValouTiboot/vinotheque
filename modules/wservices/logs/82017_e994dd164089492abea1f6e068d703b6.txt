@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82017
+    [IdTransaction] => e994dd164089492abea1f6e068d703b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36162] => Array
+                                (
+                                    [notiers] => 36162
+                                    [lastname] => GENIN
+                                    [firstname] => Loic
+                                    [email] => geninl@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => lololo
+                                    [birthday] => 1978-05-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48445
+                                                            [alias] => 55100 VERDUN
+                                                            [address1] => 2, Rond point du maréchal de lattre de tassigny
+                                                            [address2] => 
+                                                            [city] => VERDUN
+                                                            [postcode] => 55100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loic
+                                                            [lastname] => GENIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48446
+                                                            [alias] => 55100 VERDUN
+                                                            [address1] => 2, Rond point du maréchal de lattre de tassigny
+                                                            [address2] => 
+                                                            [city] => VERDUN
+                                                            [postcode] => 55100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Loic
+                                                            [lastname] => GENIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

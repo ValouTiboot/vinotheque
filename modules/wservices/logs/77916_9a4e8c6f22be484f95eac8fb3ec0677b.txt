@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77916
+    [IdTransaction] => 9a4e8c6f22be484f95eac8fb3ec0677b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [23107] => Array
+                                (
+                                    [notiers] => 23107
+                                    [lastname] => GUERIN
+                                    [firstname] => Jean-françois
+                                    [email] => jfdu-79@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => jfg18041966
+                                    [birthday] => 1966-04-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 42
+                                    [NbPointsRestants] => 42
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30145
+                                                            [alias] => 49700 ULMES
+                                                            [address1] => 7, rue des tilleuls Les Ulmes
+                                                            [address2] => 
+                                                            [city] => ULMES
+                                                            [postcode] => 49700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-françois
+                                                            [lastname] => GUERIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30146
+                                                            [alias] => 49700 ULMES
+                                                            [address1] => 7, rue des tilleuls Les Ulmes
+                                                            [address2] => 
+                                                            [city] => ULMES
+                                                            [postcode] => 49700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-françois
+                                                            [lastname] => GUERIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

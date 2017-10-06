@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78010
+    [IdTransaction] => af172f2075fc4bcba82bef274b104294
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35362] => Array
+                                (
+                                    [notiers] => 35362
+                                    [lastname] => GODON
+                                    [firstname] => Jean-jacques
+                                    [email] => jj.godon@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => toutou20
+                                    [birthday] => 1950-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47113
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 64, Violet
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => GODON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47114
+                                                            [alias] => 75015 PARIS
+                                                            [address1] => 64, Violet
+                                                            [address2] => 5 éme étage droite code d'entrée 008876
+                                                            [city] => PARIS
+                                                            [postcode] => 75015
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => GODON
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

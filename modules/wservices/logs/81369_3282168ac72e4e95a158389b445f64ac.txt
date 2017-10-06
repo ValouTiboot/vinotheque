@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81369
+    [IdTransaction] => 3282168ac72e4e95a158389b445f64ac
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29156] => Array
+                                (
+                                    [notiers] => 29156
+                                    [lastname] => BUJ
+                                    [firstname] => Jean pierre
+                                    [email] => sarl.buj@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 20202
+                                    [birthday] => 1953-02-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1202
+                                    [NbPointsRestants] => 1202
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36811
+                                                            [alias] => 01100 OYONNAX
+                                                            [address1] => 51, route de dortan
+                                                            [address2] => 
+                                                            [city] => OYONNAX
+                                                            [postcode] => 01100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => BUJ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36812
+                                                            [alias] => 01100 OYONNAX
+                                                            [address1] => 51, route de dortan
+                                                            [address2] => 
+                                                            [city] => OYONNAX
+                                                            [postcode] => 01100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean pierre
+                                                            [lastname] => BUJ
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83219
+    [IdTransaction] => ebc19de087364dcfa40c9e53adca9487
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27408] => Array
+                                (
+                                    [notiers] => 27408
+                                    [lastname] => BERLEMONT
+                                    [firstname] => Céline
+                                    [email] => celena1981@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => rico1978
+                                    [birthday] => 1981-08-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 52
+                                    [NbPointsRestants] => 52
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34176
+                                                            [alias] => 59300 VALENCIENNES
+                                                            [address1] => 160, Clos Blagny Valenciennes
+                                                            [address2] => 
+                                                            [city] => VALENCIENNES
+                                                            [postcode] => 59300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Céline
+                                                            [lastname] => BERLEMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34177
+                                                            [alias] => 10117 BERLIN
+                                                            [address1] => Pariser Platz 5
+                                                            [address2] => Ambassade de France à Berlin
+                                                            [city] => BERLIN
+                                                            [postcode] => 10117
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Céline
+                                                            [lastname] => BERLEMONT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

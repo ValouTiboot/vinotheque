@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77822
+    [IdTransaction] => 4f8d3962da62409cbbb1285c8db7c1dc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27774] => Array
+                                (
+                                    [notiers] => 27774
+                                    [lastname] => CARACCIOLO
+                                    [firstname] => Didier
+                                    [email] => didier.caracciolo@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1961-05-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 352
+                                    [NbPointsRestants] => 352
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34762
+                                                            [alias] => 57440 ALGRANGE
+                                                            [address1] => 30A, witten
+                                                            [address2] => 
+                                                            [city] => ALGRANGE
+                                                            [postcode] => 57440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => CARACCIOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34763
+                                                            [alias] => 57440 ALGRANGE
+                                                            [address1] => 30A, witten
+                                                            [address2] => 
+                                                            [city] => ALGRANGE
+                                                            [postcode] => 57440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Didier
+                                                            [lastname] => CARACCIOLO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

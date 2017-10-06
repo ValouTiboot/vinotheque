@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80168
+    [IdTransaction] => ff824e44693e4f97aceda4dfebb749ce
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32387] => Array
+                                (
+                                    [notiers] => 32387
+                                    [lastname] => BELLOIR
+                                    [firstname] => Matthieu
+                                    [email] => belloir.m@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Bianca61.
+                                    [birthday] => 1959-06-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 24
+                                    [NbPointsRestants] => 24
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42096
+                                                            [alias] => 92140 CLAMART
+                                                            [address1] => 16, Georges Huguet
+                                                            [address2] => 
+                                                            [city] => CLAMART
+                                                            [postcode] => 92140
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => BELLOIR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42097
+                                                            [alias] => 14500 VIRE
+                                                            [address1] => 4, Des Tribunaux
+                                                            [address2] => 
+                                                            [city] => VIRE
+                                                            [postcode] => 14500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Matthieu
+                                                            [lastname] => BELLOIR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

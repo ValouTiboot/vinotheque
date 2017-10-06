@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76455
+    [IdTransaction] => 629768004153415e8a5a30c1fababa62
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27208] => Array
+                                (
+                                    [notiers] => 27208
+                                    [lastname] => MENEUST
+                                    [firstname] => Lucie
+                                    [email] => lucie.meneust@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => pollen
+                                    [birthday] => 1990-11-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33878
+                                                            [alias] => 78700 CONFLANS
+                                                            [address1] => 173, AVENUE CARNOT
+                                                            [address2] => 
+                                                            [city] => CONFLANS
+                                                            [postcode] => 78700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucie
+                                                            [lastname] => MENEUST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33879
+                                                            [alias] => 78700 CONFLANS
+                                                            [address1] => 173, AVENUE CARNOT
+                                                            [address2] => 
+                                                            [city] => CONFLANS
+                                                            [postcode] => 78700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Lucie
+                                                            [lastname] => MENEUST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80047
+    [IdTransaction] => 6bbb5cb837ce4d3fbc2bb13458a577f6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31415] => Array
+                                (
+                                    [notiers] => 31415
+                                    [lastname] => PATRY
+                                    [firstname] => Tiphaine
+                                    [email] => tiphainepat@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => arizona
+                                    [birthday] => 1987-06-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 105
+                                    [NbPointsRestants] => 105
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40562
+                                                            [alias] => 33700 MERIGNAC
+                                                            [address1] => 12, Rue albert decrais
+                                                            [address2] => 10 C
+                                                            [city] => MERIGNAC
+                                                            [postcode] => 33700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Tiphaine
+                                                            [lastname] => PATRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40563
+                                                            [alias] => 06800 CAGNES-SUR-MER
+                                                            [address1] => 17, Chemin de leouve
+                                                            [address2] => 
+                                                            [city] => CAGNES-SUR-MER
+                                                            [postcode] => 06800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Tiphaine
+                                                            [lastname] => PATRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

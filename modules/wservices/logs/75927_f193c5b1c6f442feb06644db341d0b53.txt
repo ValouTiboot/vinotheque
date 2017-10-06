@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75927
+    [IdTransaction] => f193c5b1c6f442feb06644db341d0b53
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29417] => Array
+                                (
+                                    [notiers] => 29417
+                                    [lastname] => LEFEVRE
+                                    [firstname] => Mathieu
+                                    [email] => mouflon_54@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => n3rjcia2
+                                    [birthday] => 1985-02-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 395
+                                    [NbPointsRestants] => 395
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37128
+                                                            [alias] => 54710 FLEVILLE-DEVANT-NANCY
+                                                            [address1] => 48, rue du château
+                                                            [address2] => 
+                                                            [city] => FLEVILLE-DEVANT-NANCY
+                                                            [postcode] => 54710
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => LEFEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37129
+                                                            [alias] => 54130 DOMMARTEMONT
+                                                            [address1] => 45 bis, rue sainte geneviève
+                                                            [address2] => 
+                                                            [city] => DOMMARTEMONT
+                                                            [postcode] => 54130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Mathieu
+                                                            [lastname] => LEFEVRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

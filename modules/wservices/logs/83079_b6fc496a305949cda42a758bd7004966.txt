@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83079
+    [IdTransaction] => b6fc496a305949cda42a758bd7004966
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26836] => Array
+                                (
+                                    [notiers] => 26836
+                                    [lastname] => SCHMITT
+                                    [firstname] => Fabien
+                                    [email] => f.schmitt@afcgroup.fr
+                                    [id_gender] => 1
+                                    [passwd] => ext123
+                                    [birthday] => 1974-10-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 214
+                                    [NbPointsRestants] => 214
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33270
+                                                            [alias] => 67120 DACHSTEIN
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => DACHSTEIN
+                                                            [postcode] => 67120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => SCHMITT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33271
+                                                            [alias] => 67370 GRIESHEIM-SUR-SOUFFEL
+                                                            [address1] => 4, Rue de Pfulgriesheim
+                                                            [address2] => 
+                                                            [city] => GRIESHEIM-SUR-SOUFFEL
+                                                            [postcode] => 67370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fabien
+                                                            [lastname] => SCHMITT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

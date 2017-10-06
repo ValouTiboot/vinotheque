@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77833
+    [IdTransaction] => b56a9bfe8cd64d42942ec48b89f35da1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35840] => Array
+                                (
+                                    [notiers] => 35840
+                                    [lastname] => BORIES
+                                    [firstname] => Philippe
+                                    [email] => philippe.bories@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1954-10-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 525
+                                    [NbPointsRestants] => 525
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47905
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => 153 BIS, RUE PEYDAVANT
+                                                            [address2] => 
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BORIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47906
+                                                            [alias] => 33400 TALENCE
+                                                            [address1] => 153 BIS, RUE PEYDAVANT
+                                                            [address2] => 
+                                                            [city] => TALENCE
+                                                            [postcode] => 33400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => BORIES
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

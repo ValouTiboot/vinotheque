@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75960
+    [IdTransaction] => 3999c5bbd8774d7eb923371a8576fee6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35902] => Array
+                                (
+                                    [notiers] => 35902
+                                    [lastname] => MARCADENT
+                                    [firstname] => Philippe
+                                    [email] => ph.marcadent@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => buleria
+                                    [birthday] => 1960-07-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48007
+                                                            [alias] => 01630 SERGY
+                                                            [address1] => 281, Rue du Pontenay
+                                                            [address2] => 
+                                                            [city] => SERGY
+                                                            [postcode] => 01630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MARCADENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48008
+                                                            [alias] => 01630 SERGY
+                                                            [address1] => 281, Rue du Pontenay
+                                                            [address2] => 
+                                                            [city] => SERGY
+                                                            [postcode] => 01630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => MARCADENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

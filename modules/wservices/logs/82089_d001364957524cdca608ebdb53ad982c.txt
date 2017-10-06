@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82089
+    [IdTransaction] => d001364957524cdca608ebdb53ad982c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26751] => Array
+                                (
+                                    [notiers] => 26751
+                                    [lastname] => CHESNE
+                                    [firstname] => Julien
+                                    [email] => julien.chesne@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => fwc531
+                                    [birthday] => 1979-10-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33135
+                                                            [alias] => 86530 CENON-SUR-VIENNE
+                                                            [address1] => 17, Franche Comté
+                                                            [address2] => 
+                                                            [city] => CENON-SUR-VIENNE
+                                                            [postcode] => 86530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => CHESNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33136
+                                                            [alias] => 86530 CENON-SUR-VIENNE
+                                                            [address1] => 17, Franche Comté
+                                                            [address2] => 
+                                                            [city] => CENON-SUR-VIENNE
+                                                            [postcode] => 86530
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => CHESNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

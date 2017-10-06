@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82335
+    [IdTransaction] => 8bb3a4337b1a4bb9bceff1d262ba8da0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30945] => Array
+                                (
+                                    [notiers] => 30945
+                                    [lastname] => GRENIER
+                                    [firstname] => Michel
+                                    [email] => grenierm@neuf.fr
+                                    [id_gender] => 1
+                                    [passwd] => 111052
+                                    [birthday] => 1952-10-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 100
+                                    [NbPointsRestants] => 100
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39728
+                                                            [alias] => 47000 AGEN
+                                                            [address1] => 17, rue antoine calbet
+                                                            [address2] => 
+                                                            [city] => AGEN
+                                                            [postcode] => 47000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GRENIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39729
+                                                            [alias] => 47000 AGEN
+                                                            [address1] => 17, rue antoine calbet
+                                                            [address2] => 
+                                                            [city] => AGEN
+                                                            [postcode] => 47000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GRENIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

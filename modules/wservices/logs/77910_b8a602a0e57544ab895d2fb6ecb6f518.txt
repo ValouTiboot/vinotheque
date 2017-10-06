@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77910
+    [IdTransaction] => b8a602a0e57544ab895d2fb6ecb6f518
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30128] => Array
+                                (
+                                    [notiers] => 30128
+                                    [lastname] => PROST
+                                    [firstname] => Jérémy
+                                    [email] => prost.jeremy@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => CodeVinotheque
+                                    [birthday] => 1988-01-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38303
+                                                            [alias] => 39000 LONS-LE-SAUNIER
+                                                            [address1] => 8B, Rue Saint-Désiré
+                                                            [address2] => 3ème étage
+                                                            [city] => LONS-LE-SAUNIER
+                                                            [postcode] => 39000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jérémy
+                                                            [lastname] => PROST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38304
+                                                            [alias] => 01170 CHEVRY
+                                                            [address1] => Route des Deux Journans
+                                                            [address2] => maison extrême droite
+                                                            [city] => CHEVRY
+                                                            [postcode] => 01170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jérémy
+                                                            [lastname] => PROST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

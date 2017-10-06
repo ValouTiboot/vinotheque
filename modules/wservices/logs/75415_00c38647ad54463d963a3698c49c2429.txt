@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75415
+    [IdTransaction] => 00c38647ad54463d963a3698c49c2429
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36059] => Array
+                                (
+                                    [notiers] => 36059
+                                    [lastname] => BONGRAND
+                                    [firstname] => Gauthier
+                                    [email] => gauthier.bongrand.bds15@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => M!UA58N$
+                                    [birthday] => 1994-07-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48281
+                                                            [alias] => 59650 VILLENEUVE-D'ASCQ
+                                                            [address1] => 40, rue de la liberté
+                                                            [address2] => 
+                                                            [city] => VILLENEUVE-D'ASCQ
+                                                            [postcode] => 59650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gauthier
+                                                            [lastname] => BONGRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48282
+                                                            [alias] => 59650 VILLENEUVE-D'ASCQ
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => VILLENEUVE-D'ASCQ
+                                                            [postcode] => 59650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gauthier
+                                                            [lastname] => BONGRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

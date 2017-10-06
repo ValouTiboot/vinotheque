@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78515
+    [IdTransaction] => 193f2db6be014e9c86de872a53dc2fcb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33786] => Array
+                                (
+                                    [notiers] => 33786
+                                    [lastname] => BOURCE
+                                    [firstname] => Ludovic
+                                    [email] => ludovic.bource@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Fuck75010
+                                    [birthday] => 1977-04-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 408
+                                    [NbPointsRestants] => 408
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44488
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => BOURCE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44489
+                                                            [alias] => 75010 PARIS
+                                                            [address1] => 8, rue de la grange aux belles
+                                                            [address2] => RDC cour porte face atelier Code porte 5489A et B2387
+                                                            [city] => PARIS
+                                                            [postcode] => 75010
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ludovic
+                                                            [lastname] => BOURCE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

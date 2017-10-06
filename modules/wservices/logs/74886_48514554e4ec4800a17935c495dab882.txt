@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74886
+    [IdTransaction] => 48514554e4ec4800a17935c495dab882
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35245] => Array
+                                (
+                                    [notiers] => 35245
+                                    [lastname] => GIRARD
+                                    [firstname] => Cyril
+                                    [email] => cysogaby@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => gabrielle81
+                                    [birthday] => 1979-05-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1512
+                                    [NbPointsRestants] => 1512
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46918
+                                                            [alias] => 81000 ALBI
+                                                            [address1] => 7, RUE COMTE CHARDONNET
+                                                            [address2] => 
+                                                            [city] => ALBI
+                                                            [postcode] => 81000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cyril
+                                                            [lastname] => GIRARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46919
+                                                            [alias] => 81090 LAGARRIGUE
+                                                            [address1] => 76, AVENUE JEAN JAURES
+                                                            [address2] => 
+                                                            [city] => LAGARRIGUE
+                                                            [postcode] => 81090
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cyril
+                                                            [lastname] => GIRARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

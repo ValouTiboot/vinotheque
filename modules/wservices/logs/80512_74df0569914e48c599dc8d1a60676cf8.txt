@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80512
+    [IdTransaction] => 74df0569914e48c599dc8d1a60676cf8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36418] => Array
+                                (
+                                    [notiers] => 36418
+                                    [lastname] => SMULDERS
+                                    [firstname] => Fred
+                                    [email] => fred.smulders@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => H3rman
+                                    [birthday] => 1981-04-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 273
+                                    [NbPointsRestants] => 273
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48861
+                                                            [alias] => 2517 VR S GRAVENHAGE
+                                                            [address1] => Obrechtstraat, 149 'S-GRAVENHAGE
+                                                            [address2] => 
+                                                            [city] => S GRAVENHAGE
+                                                            [postcode] => 2517 VR
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fred
+                                                            [lastname] => SMULDERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => NL
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48862
+                                                            [alias] => 2517 VR S GRAVENHAGE
+                                                            [address1] => Obrechtstraat, 149 'S-GRAVENHAGE
+                                                            [address2] => 
+                                                            [city] => S GRAVENHAGE
+                                                            [postcode] => 2517 VR
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Fred
+                                                            [lastname] => SMULDERS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => NL
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

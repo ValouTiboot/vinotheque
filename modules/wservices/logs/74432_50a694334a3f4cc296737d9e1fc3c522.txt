@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74432
+    [IdTransaction] => 50a694334a3f4cc296737d9e1fc3c522
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30917] => Array
+                                (
+                                    [notiers] => 30917
+                                    [lastname] => LEQUESNE
+                                    [firstname] => Régis
+                                    [email] => rlequesne@bbox.fr
+                                    [id_gender] => 1
+                                    [passwd] => brest/2000
+                                    [birthday] => 1958-12-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 511
+                                    [NbPointsRestants] => 511
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39682
+                                                            [alias] => 57100 THIONVILLE
+                                                            [address1] => 9, rue du pinson
+                                                            [address2] => 
+                                                            [city] => THIONVILLE
+                                                            [postcode] => 57100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Régis
+                                                            [lastname] => LEQUESNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39683
+                                                            [alias] => 57100 THIONVILLE
+                                                            [address1] => 9, rue du pinson
+                                                            [address2] => 
+                                                            [city] => THIONVILLE
+                                                            [postcode] => 57100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Régis
+                                                            [lastname] => LEQUESNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

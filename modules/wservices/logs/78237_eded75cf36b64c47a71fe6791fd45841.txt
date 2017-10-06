@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78237
+    [IdTransaction] => eded75cf36b64c47a71fe6791fd45841
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36635] => Array
+                                (
+                                    [notiers] => 36635
+                                    [lastname] => JUILLARD
+                                    [firstname] => Christian
+                                    [email] => christian.juillard@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => marphie2
+                                    [birthday] => 1946-01-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 165
+                                    [NbPointsRestants] => 165
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 49242
+                                                            [alias] => 33680 LACANAU
+                                                            [address1] => 43, avenue docteur arnou laugeac lacanau
+                                                            [address2] => 
+                                                            [city] => LACANAU
+                                                            [postcode] => 33680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => JUILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 49243
+                                                            [alias] => 33680 LACANAU
+                                                            [address1] => 43, avenue docteur arnou laugeac lacanau
+                                                            [address2] => 
+                                                            [city] => LACANAU
+                                                            [postcode] => 33680
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Christian
+                                                            [lastname] => JUILLARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

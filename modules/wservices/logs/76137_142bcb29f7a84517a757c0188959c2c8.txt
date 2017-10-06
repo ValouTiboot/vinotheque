@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76137
+    [IdTransaction] => 142bcb29f7a84517a757c0188959c2c8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34309] => Array
+                                (
+                                    [notiers] => 34309
+                                    [lastname] => ROBIN
+                                    [firstname] => Nader
+                                    [email] => nr38@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => papounet3
+                                    [birthday] => 1958-07-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 212
+                                    [NbPointsRestants] => 212
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45385
+                                                            [alias] => 38330 MONTBONNOT
+                                                            [address1] => 128, Chemin de La Croix verte
+                                                            [address2] => 
+                                                            [city] => MONTBONNOT
+                                                            [postcode] => 38330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nader
+                                                            [lastname] => ROBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45386
+                                                            [alias] => 38330 MONTBONNOT
+                                                            [address1] => 128, Chemin de La Croix verte
+                                                            [address2] => 
+                                                            [city] => MONTBONNOT
+                                                            [postcode] => 38330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nader
+                                                            [lastname] => ROBIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

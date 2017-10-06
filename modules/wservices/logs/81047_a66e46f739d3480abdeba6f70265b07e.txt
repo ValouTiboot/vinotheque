@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81047
+    [IdTransaction] => a66e46f739d3480abdeba6f70265b07e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34136] => Array
+                                (
+                                    [notiers] => 34136
+                                    [lastname] => GRANDEAU
+                                    [firstname] => Pierre
+                                    [email] => pierregrandeau@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 192427
+                                    [birthday] => 1966-03-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45092
+                                                            [alias] => 24660 COULOUNIEIX-CHAMIERS
+                                                            [address1] => 6, rue jean bouin coulounieix chamiers
+                                                            [address2] => 
+                                                            [city] => COULOUNIEIX-CHAMIERS
+                                                            [postcode] => 24660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GRANDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45093
+                                                            [alias] => 24660 COULOUNIEIX-CHAMIERS
+                                                            [address1] => 6, rue jean bouin COULOUNIEIX CHAMIERS
+                                                            [address2] => 
+                                                            [city] => COULOUNIEIX-CHAMIERS
+                                                            [postcode] => 24660
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Pierre
+                                                            [lastname] => GRANDEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

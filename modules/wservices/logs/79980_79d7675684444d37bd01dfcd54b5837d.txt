@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79980
+    [IdTransaction] => 79d7675684444d37bd01dfcd54b5837d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32259] => Array
+                                (
+                                    [notiers] => 32259
+                                    [lastname] => GENET
+                                    [firstname] => Alain
+                                    [email] => alain-genet@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => nat31*
+                                    [birthday] => 1955-10-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41935
+                                                            [alias] => 31700 BLAGNAC
+                                                            [address1] => 7, rue du puits d'Uzou
+                                                            [address2] => 
+                                                            [city] => BLAGNAC
+                                                            [postcode] => 31700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => GENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41936
+                                                            [alias] => 31700 BLAGNAC
+                                                            [address1] => 7, rue du puits d'Uzou
+                                                            [address2] => 
+                                                            [city] => BLAGNAC
+                                                            [postcode] => 31700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => GENET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

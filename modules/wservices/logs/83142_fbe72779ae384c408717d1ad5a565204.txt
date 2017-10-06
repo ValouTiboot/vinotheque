@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83142
+    [IdTransaction] => fbe72779ae384c408717d1ad5a565204
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31724] => Array
+                                (
+                                    [notiers] => 31724
+                                    [lastname] => REESE
+                                    [firstname] => Olivier
+                                    [email] => olivierreese@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => 123456
+                                    [birthday] => 1969-09-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41085
+                                                            [alias] => 06800 CAGNES-SUR-MER
+                                                            [address1] => 20, avenue des mésanges
+                                                            [address2] => VILLA ROSE
+                                                            [city] => CAGNES-SUR-MER
+                                                            [postcode] => 06800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => REESE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41086
+                                                            [alias] => 06800 CAGNES-SUR-MER
+                                                            [address1] => 20, avenue des mésanges
+                                                            [address2] => VILLA ROSE
+                                                            [city] => CAGNES-SUR-MER
+                                                            [postcode] => 06800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => REESE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

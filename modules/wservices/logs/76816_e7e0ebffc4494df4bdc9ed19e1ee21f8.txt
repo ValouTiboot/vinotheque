@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76816
+    [IdTransaction] => e7e0ebffc4494df4bdc9ed19e1ee21f8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30085] => Array
+                                (
+                                    [notiers] => 30085
+                                    [lastname] => MIREDIN
+                                    [firstname] => Michel
+                                    [email] => miredinjm@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => akisen
+                                    [birthday] => 1956-09-30 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 155
+                                    [NbPointsRestants] => 155
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38227
+                                                            [alias] => 97232 LAMENTIN
+                                                            [address1] => Résidence Le Gange ACAJOU SUD
+                                                            [address2] => 145 VATIALOU
+                                                            [city] => LAMENTIN
+                                                            [postcode] => 97232
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MIREDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38228
+                                                            [alias] => 77186 NOISIEL
+                                                            [address1] => 22, ALLES RENE DESCARTES 77186
+                                                            [address2] => 
+                                                            [city] => NOISIEL
+                                                            [postcode] => 77186
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => MIREDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77505
+    [IdTransaction] => 013ecafb05b840ea8b5981f3b39a11f0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [24790] => Array
+                                (
+                                    [notiers] => 24790
+                                    [lastname] => RIVIERE
+                                    [firstname] => Davy
+                                    [email] => davyriviere13@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => chou45000
+                                    [birthday] => 1985-02-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 30686
+                                                            [alias] => 45000 ORLEANS
+                                                            [address1] => 11, Chatelliers
+                                                            [address2] => 
+                                                            [city] => ORLEANS
+                                                            [postcode] => 45000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davy
+                                                            [lastname] => RIVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 30687
+                                                            [alias] => 45000 ORLEANS
+                                                            [address1] => 11, Chatelliers
+                                                            [address2] => 
+                                                            [city] => ORLEANS
+                                                            [postcode] => 45000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Davy
+                                                            [lastname] => RIVIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78589
+    [IdTransaction] => 0309bf11c9f5437daa5b706423740ac8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30412] => Array
+                                (
+                                    [notiers] => 30412
+                                    [lastname] => GERGONNE
+                                    [firstname] => Michel
+                                    [email] => m.gergonne@gergonne.com
+                                    [id_gender] => 1
+                                    [passwd] => mige
+                                    [birthday] => 1954-09-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 524
+                                    [NbPointsRestants] => 524
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38799
+                                                            [alias] => 01100 ARBENT
+                                                            [address1] => 35, du maquis
+                                                            [address2] => 
+                                                            [city] => ARBENT
+                                                            [postcode] => 01100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GERGONNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38800
+                                                            [alias] => 01100 ARBENT
+                                                            [address1] => 35, du maquis
+                                                            [address2] => 
+                                                            [city] => ARBENT
+                                                            [postcode] => 01100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => GERGONNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

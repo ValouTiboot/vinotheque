@@ -1,0 +1,424 @@
+.cart-preview {
+  position: relative;
+  z-index: 1;
+  a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.cart-preview .header {
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  padding: $normal-space 0 $normal-space $normal-space;
+  margin-top: $medium-space;
+  border: 1px solid $green;
+  cursor: pointer;
+  &:hover {
+    background-color: $green-lighter;
+    color: black;
+  }
+  a {
+    padding-bottom: $extra-small-space;
+    span {
+      vertical-align: middle;
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  .cart-preview .header {
+    padding: 0;
+  }
+}
+
+.cart-preview .body {
+  display: none;
+  width: 400px;
+  background-color: white;
+  right: 0;
+  z-index: 100;
+  border: 1px solid;
+}
+
+.cart-preview:hover .body {
+  display: block;
+  position: absolute;
+}
+
+.cart-preview.cart-overview {
+  width: 100%;
+  position: inherit;
+}
+
+.cart-preview.cart-overview .body {
+  display: block;
+  position: inherit;
+  width: 100%;
+}
+
+/* this is to make the containers take up vertical space */
+//.cart-preview .header::after, .cart-preview .cart-totals > div::after {
+//  clear: both;
+//  content: "\00a0";
+//}
+
+.cart-preview .body {
+  //border: 1px solid border-color;
+  //padding: tiny-padding;
+}
+
+.cart-preview ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-preview li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.cart-preview li > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cart-preview li .product-quantity {
+  //color: faded-color;
+  width: 10%;
+}
+
+.cart-preview .product-quantity::after {
+  content: 'x';
+}
+
+.cart-preview li .product-name {
+  width: 50%;
+}
+
+.cart-preview li .product-price {
+  width: 20%;
+}
+
+.cart-preview li .remove-from-cart {
+  @include remove-symbol;
+  float: right;
+}
+
+.cart-preview .cart-totals .label {
+  float: left;
+}
+
+.cart-preview .cart-totals .value {
+  float: right;
+}
+
+.cart-preview .cart-totals > div {
+  clear: both;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-preview .cart-totals > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.cart-totals .label {
+  font-weight: bold;
+}
+
+.customizations {
+  margin-top: $extra-small-space;
+  margin-left: 15%;
+  padding: $extra-small-space;
+  //border: 1px solid border-color;
+  width: 70%;
+  ul {
+    margin: 0;
+  }
+  label {
+    font-weight: bold;
+  }
+}
+
+/*** Page panier ***/
+#cart {
+  #content-wrapper {
+    margin-bottom: rem(130px);
+  }
+  .cart_navigation {
+    margin: rem(10px) 0 rem(30px);
+  }
+  .cart-overview {
+    ul {
+      background: $gray-form;
+      border-bottom: 1px solid $gray-border-form;
+      li .no-items {
+        padding: rem(20px) rem(15px);
+      }
+      li .product-line-grid {
+        display: flex;
+        flex-wrap: wrap;
+        padding: rem(14px) 0;
+        border-top: 1px solid $gray-border-form;
+        img {
+          border: 1px solid $gray-light;
+        }
+        .product-line-grid-body {
+          font-size: rem(14px);
+          a.label {
+            font-weight: bold;
+            font-size: rem(17px);
+          }
+        }
+        .product-line-grid-right {
+          .js-cart-line-product-quantity {
+            padding: rem(16px);
+            margin-right: rem(5px);
+            color: black;
+          }
+          .btn-touchspin {
+            //height: 52%;
+            i {
+              top: 20%;
+            }
+          }
+          .price {
+            text-align: right;
+            line-height: rem(48px);
+          }
+          .product-price {
+            color: $red;
+            font-size: rem(26px);
+          }
+          a.remove-from-cart {
+            color: $gray-darker;
+            i {
+              line-height: rem(48px);
+            }
+          }
+        }
+      }
+    }
+  }
+  .cart-fees {
+    background: $green-lighter;
+    i {
+      font-size: rem(70px);
+      color: $green-dark;
+    }
+    .fees_title {
+      font-weight: bold;
+      font-size: rem(17px);
+    }
+    .fees_description {
+      font-size: rem(14px);
+    }
+    .value-row {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .value {
+        font-size: rem(26px);
+        font-weight: bolder;
+        line-height: rem(42px);
+        color: $green-even-darker;
+      }
+    }
+  }
+  #cart_gift {
+    background: $gray-form;
+    border: 2px solid $gray-lighter;
+    padding: rem(15px);
+    .gift_message {
+      font-size: rem(18px);
+    }
+    .gift_checkbox {
+      font-size: rem(14px);
+    }
+    #gift textarea {
+      margin: rem(15px) 0;
+      width: 100%;
+      border: 2px solid $gray-border-form;
+      color: #737373;
+      padding: rem(5px);
+    }
+  }
+  #cart_details {
+    > div {
+      background: $gray-dark;
+      padding-top: rem(20px);
+      .cart-subtotals, .cart-voucher {
+        padding: 0 rem(25px);
+      }
+      .cart-subtotals > div, .cart-voucher > form, .cart-total {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        .label {
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: rem(12px);
+        }
+        .value {
+          color: $red;
+          font-size: rem(18px);
+          font-weight: bold;
+        }
+      }
+      .cart-subtotals > div {
+        margin-bottom: rem(30px);
+        &.tax {
+          padding: rem(20px) 0;
+          margin-bottom: rem(3px);
+          .value {
+            color: $gray-darker;
+          }
+        }
+      }
+      .cart-voucher-details {
+        padding-bottom: rem(10px);
+        a {
+          color: $red;
+          text-decoration: none;
+          padding: 0 rem(25px);
+        }
+      }
+      .cart-voucher > form {
+        .form-control {
+          width: auto;
+          padding: 0.5rem;
+          text-transform: uppercase;
+        }
+      }
+      .cart-total {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        padding: rem(20px) rem(25px);
+        border-top: rem(3px) solid white;
+        border-bottom: rem(3px) solid white;
+        .value {
+          font-size: rem(24px);
+        }
+      }
+    }
+    .btn-primary {
+      width: 100%;
+    }
+    #loyalty {
+      padding: rem(10px) rem(15px);
+      margin-top: rem(30px);
+      border: 2px solid $gray-lighter;
+      background: $gray-form;
+      font-size: rem(12px);
+      text-transform: uppercase;
+      i {
+        color: $gray-more-dark;
+        float: left;
+        font-size: rem(45px);
+      }
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  .product-line-grid-right {
+    margin-top: rem(8px);
+  }
+}
+
+/*** Page checkout ***/
+#checkout {
+  #content-wrapper {
+    margin-bottom: rem(130px);
+  }
+  .cart_navigation {
+    margin: rem(10px) 0 rem(30px);
+  }
+  #checkout_details {
+    > section > div {
+      background: $gray-dark;
+      padding-top: rem(20px);
+      #cart-summary {
+        padding: 0 rem(25px) rem(10px);
+        .media-list {
+          margin: rem(10px) 0;
+          .media {
+            justify-content: space-between;
+          }
+        }
+      }
+      .products, .shipping, .cart-voucher form, .cart-summary-totals, .tax {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        .label {
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: rem(12px);
+        }
+        .value {
+          color: $red;
+          font-size: rem(18px);
+          font-weight: bold;
+        }
+      }
+      .shipping {
+        margin-top: rem(10px);
+      }
+      .tax {
+        padding: rem(20px) rem(25px);
+        .value {
+          color: $gray-darker;
+        }
+      }
+      .display-details, .cart-voucher-details {
+        a {
+          color: $red;
+          text-decoration: none;
+        }
+      }
+      .cart-voucher > form {
+        .form-control {
+          width: auto;
+          padding: 0.5rem;
+          text-transform: uppercase;
+        }
+      }
+      .cart-summary-totals {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        padding: rem(20px) rem(25px);
+        border-top: rem(3px) solid white;
+        border-bottom: rem(3px) solid white;
+        .value {
+          font-size: rem(24px);
+        }
+      }
+    }
+    .btn-primary {
+      width: 100%;
+    }
+    #loyalty {
+      padding: rem(10px) rem(15px);
+      margin-top: rem(30px);
+      border: 2px solid $gray-lighter;
+      background: $gray-form;
+      font-size: rem(12px);
+      text-transform: uppercase;
+      i {
+        color: $gray-more-dark;
+        float: left;
+        font-size: rem(45px);
+      }
+    }
+  }
+}

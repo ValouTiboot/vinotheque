@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77284
+    [IdTransaction] => 46fd088e2ec645b2a7bec5edfe3294c4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [27396] => Array
+                                (
+                                    [notiers] => 27396
+                                    [lastname] => LAPORTE
+                                    [firstname] => Bernard
+                                    [email] => trigalliere@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => escargot59130
+                                    [birthday] => 1944-11-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 34163
+                                                            [alias] => 59130 LAMBERSART
+                                                            [address1] => 22, colysée lambersart
+                                                            [address2] => 
+                                                            [city] => LAMBERSART
+                                                            [postcode] => 59130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LAPORTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 34164
+                                                            [alias] => 59130 LAMBERSART
+                                                            [address1] => 22, colysée
+                                                            [address2] => 
+                                                            [city] => LAMBERSART
+                                                            [postcode] => 59130
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bernard
+                                                            [lastname] => LAPORTE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

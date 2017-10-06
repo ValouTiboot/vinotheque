@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78723
+    [IdTransaction] => 5d2cccf72e9f43db8beed4820088691f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28866] => Array
+                                (
+                                    [notiers] => 28866
+                                    [lastname] => SIMONOT
+                                    [firstname] => Hervé
+                                    [email] => hsimonot@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => harry72
+                                    [birthday] => 1972-07-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 188
+                                    [NbPointsRestants] => 188
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36410
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 13, rue du 4 septembre Paris
+                                                            [address2] => 5 gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hervé
+                                                            [lastname] => SIMONOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36411
+                                                            [alias] => 75002 PARIS
+                                                            [address1] => 13, rue du 4 septembre Paris
+                                                            [address2] => 5 gauche
+                                                            [city] => PARIS
+                                                            [postcode] => 75002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Hervé
+                                                            [lastname] => SIMONOT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

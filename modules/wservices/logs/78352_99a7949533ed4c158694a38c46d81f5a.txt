@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78352
+    [IdTransaction] => 99a7949533ed4c158694a38c46d81f5a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33431] => Array
+                                (
+                                    [notiers] => 33431
+                                    [lastname] => HONDRE
+                                    [firstname] => Ivan
+                                    [email] => ivan_hondre@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Ih211070!
+                                    [birthday] => 1970-10-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 864
+                                    [NbPointsRestants] => 864
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43839
+                                                            [alias] => 92210 SAINT-CLOUD
+                                                            [address1] => 46, Boulevard Senard
+                                                            [address2] => 
+                                                            [city] => SAINT-CLOUD
+                                                            [postcode] => 92210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ivan
+                                                            [lastname] => HONDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43840
+                                                            [alias] => 92210 SAINT-CLOUD
+                                                            [address1] => 46, Bd Senard
+                                                            [address2] => 
+                                                            [city] => SAINT-CLOUD
+                                                            [postcode] => 92210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Ivan
+                                                            [lastname] => HONDRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

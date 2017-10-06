@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80963
+    [IdTransaction] => 0614a566f3154e22883a3337e25abdb5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30421] => Array
+                                (
+                                    [notiers] => 30421
+                                    [lastname] => BLANCHET
+                                    [firstname] => Michel
+                                    [email] => michel.blanchet0830@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => yuls66
+                                    [birthday] => 1947-12-01 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 200
+                                    [NbPointsRestants] => 200
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38817
+                                                            [alias] => 35300 FOUGERES
+                                                            [address1] => 2, rue Anne de Bretagne
+                                                            [address2] => 
+                                                            [city] => FOUGERES
+                                                            [postcode] => 35300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BLANCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38818
+                                                            [alias] => 35300 FOUGERES
+                                                            [address1] => 2, rue Anne de Bretagne
+                                                            [address2] => 
+                                                            [city] => FOUGERES
+                                                            [postcode] => 35300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Michel
+                                                            [lastname] => BLANCHET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

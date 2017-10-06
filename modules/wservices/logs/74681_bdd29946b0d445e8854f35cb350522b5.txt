@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74681
+    [IdTransaction] => bdd29946b0d445e8854f35cb350522b5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34788] => Array
+                                (
+                                    [notiers] => 34788
+                                    [lastname] => VAUTRIN
+                                    [firstname] => Nicolas
+                                    [email] => djvoodoo54@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => af911kk
+                                    [birthday] => 1982-05-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 70
+                                    [NbPointsRestants] => 70
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46208
+                                                            [alias] => 54540 SAINTE-POLE
+                                                            [address1] => 1, maix colin
+                                                            [address2] => 
+                                                            [city] => SAINTE-POLE
+                                                            [postcode] => 54540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => VAUTRIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46209
+                                                            [alias] => 54540 SAINTE-POLE
+                                                            [address1] => 1, maix colin
+                                                            [address2] => 
+                                                            [city] => SAINTE-POLE
+                                                            [postcode] => 54540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => VAUTRIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

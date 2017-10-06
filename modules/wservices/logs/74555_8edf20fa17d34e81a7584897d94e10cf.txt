@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74555
+    [IdTransaction] => 8edf20fa17d34e81a7584897d94e10cf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26582] => Array
+                                (
+                                    [notiers] => 26582
+                                    [lastname] => SCHLUMBERGER
+                                    [firstname] => Benjamin
+                                    [email] => schlumb@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 2rm75008
+                                    [birthday] => 1986-04-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 193
+                                    [NbPointsRestants] => 193
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32855
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 2, Rue de Messine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => SCHLUMBERGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32856
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 2, Rue de Messine
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benjamin
+                                                            [lastname] => SCHLUMBERGER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

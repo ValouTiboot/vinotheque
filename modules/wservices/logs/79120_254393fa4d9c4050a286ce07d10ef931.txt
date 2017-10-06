@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79120
+    [IdTransaction] => 254393fa4d9c4050a286ce07d10ef931
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35246] => Array
+                                (
+                                    [notiers] => 35246
+                                    [lastname] => BROUILLET
+                                    [firstname] => Vincent
+                                    [email] => vincent.brouillet@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => barakoa
+                                    [birthday] => 1979-11-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 43
+                                    [NbPointsRestants] => 43
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46920
+                                                            [alias] => 13011 MARSEILLE
+                                                            [address1] => 8, Route de la sablière
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BROUILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46921
+                                                            [alias] => 13385 MARSEILLE
+                                                            [address1] => 264, Rue saint pierre
+                                                            [address2] => 9eme étage Hôpital de la Timone
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13385
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vincent
+                                                            [lastname] => BROUILLET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

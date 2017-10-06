@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76661
+    [IdTransaction] => c419792dbf3c4c2fb163c73e786bfef5
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31350] => Array
+                                (
+                                    [notiers] => 31350
+                                    [lastname] => BRIENS
+                                    [firstname] => Eric
+                                    [email] => brienseric@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 230379
+                                    [birthday] => 1979-03-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 155
+                                    [NbPointsRestants] => 155
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40434
+                                                            [alias] => 91440 BURES-SUR-YVETTE
+                                                            [address1] => 32, Avenue du Centre
+                                                            [address2] => 
+                                                            [city] => BURES-SUR-YVETTE
+                                                            [postcode] => 91440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => BRIENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40435
+                                                            [alias] => 91440 BURES-SUR-YVETTE
+                                                            [address1] => 32, Avenue du Centre
+                                                            [address2] => 
+                                                            [city] => BURES-SUR-YVETTE
+                                                            [postcode] => 91440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => BRIENS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

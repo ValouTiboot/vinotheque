@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77196
+    [IdTransaction] => 23dcf08da03b4117bee179cb3e963653
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33318] => Array
+                                (
+                                    [notiers] => 33318
+                                    [lastname] => PATRICK
+                                    [firstname] => Vintage
+                                    [email] => ya.aime@aol.fr
+                                    [id_gender] => 1
+                                    [passwd] => Acer1234
+                                    [birthday] => 1987-10-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43637
+                                                            [alias] => 10000 TROYES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => TROYES
+                                                            [postcode] => 10000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vintage
+                                                            [lastname] => PATRICK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43638
+                                                            [alias] => 42000 SAINT-ETIENNE
+                                                            [address1] => 16 bis, rue edmond charpentier
+                                                            [address2] => 
+                                                            [city] => SAINT-ETIENNE
+                                                            [postcode] => 42000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Vintage
+                                                            [lastname] => PATRICK
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

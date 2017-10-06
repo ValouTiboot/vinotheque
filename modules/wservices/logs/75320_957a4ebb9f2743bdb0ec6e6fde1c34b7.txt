@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75320
+    [IdTransaction] => 957a4ebb9f2743bdb0ec6e6fde1c34b7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28351] => Array
+                                (
+                                    [notiers] => 28351
+                                    [lastname] => BRUTUS
+                                    [firstname] => Olivier
+                                    [email] => olivier.brutus@transitionsandtalents.com
+                                    [id_gender] => 1
+                                    [passwd] => France99
+                                    [birthday] => 1965-07-31 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 224
+                                    [NbPointsRestants] => 224
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35606
+                                                            [alias] => CH1201 GENEVE
+                                                            [address1] => 11, Rue de Cornavin
+                                                            [address2] => 
+                                                            [city] => GENEVE
+                                                            [postcode] => CH1201
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => BRUTUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35607
+                                                            [alias] => 01170 CROZET
+                                                            [address1] => 271, Route d'Avouzon
+                                                            [address2] => 
+                                                            [city] => CROZET
+                                                            [postcode] => 01170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Olivier
+                                                            [lastname] => BRUTUS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

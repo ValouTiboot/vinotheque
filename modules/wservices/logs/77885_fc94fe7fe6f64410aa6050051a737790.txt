@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77885
+    [IdTransaction] => fc94fe7fe6f64410aa6050051a737790
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32945] => Array
+                                (
+                                    [notiers] => 32945
+                                    [lastname] => VISMANS
+                                    [firstname] => Paulus
+                                    [email] => paul@vismans.com
+                                    [id_gender] => 1
+                                    [passwd] => monitor10
+                                    [birthday] => 1955-03-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 192
+                                    [NbPointsRestants] => 192
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42973
+                                                            [alias] => 24550 VILLEFRANCHE-DU-PERIGORD
+                                                            [address1] => 
+                                                            [address2] => Les Miailiottes
+                                                            [city] => VILLEFRANCHE-DU-PERIGORD
+                                                            [postcode] => 24550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paulus
+                                                            [lastname] => VISMANS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42974
+                                                            [alias] => 24550 VILLEFRANCHE-DU-PERIGORD
+                                                            [address1] => 
+                                                            [address2] => Les Miailiottes
+                                                            [city] => VILLEFRANCHE-DU-PERIGORD
+                                                            [postcode] => 24550
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Paulus
+                                                            [lastname] => VISMANS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

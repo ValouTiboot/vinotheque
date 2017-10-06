@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78701
+    [IdTransaction] => 3b6b08a1104d4b2fa083b761452144c6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28471] => Array
+                                (
+                                    [notiers] => 28471
+                                    [lastname] => TURCANT
+                                    [firstname] => Alexandre
+                                    [email] => alexandre_turcant@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => blackpearl1991
+                                    [birthday] => 1991-09-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 100
+                                    [NbPointsRestants] => 100
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 35776
+                                                            [alias] => 50170 PONTORSON
+                                                            [address1] => 7, Boulevard Clemenceau
+                                                            [address2] => 
+                                                            [city] => PONTORSON
+                                                            [postcode] => 50170
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => TURCANT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 35777
+                                                            [alias] => 74110 AVORIAZ
+                                                            [address1] => Place centrale
+                                                            [address2] => Le BISTRO
+                                                            [city] => AVORIAZ
+                                                            [postcode] => 74110
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alexandre
+                                                            [lastname] => TURCANT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

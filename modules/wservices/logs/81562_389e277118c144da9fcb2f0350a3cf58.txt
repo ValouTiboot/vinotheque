@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81562
+    [IdTransaction] => 389e277118c144da9fcb2f0350a3cf58
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33080] => Array
+                                (
+                                    [notiers] => 33080
+                                    [lastname] => DE SORAS
+                                    [firstname] => Francois-xavier
+                                    [email] => desoras2@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => mathilde
+                                    [birthday] => 1974-02-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 130
+                                    [NbPointsRestants] => 130
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43201
+                                                            [alias] => 06650 ROURET
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => ROURET
+                                                            [postcode] => 06650
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois-xavier
+                                                            [lastname] => DE SORAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43202
+                                                            [alias] => 69005 LYON
+                                                            [address1] => 67, BOULEVARD DES CASTORS
+                                                            [address2] => 
+                                                            [city] => LYON
+                                                            [postcode] => 69005
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Francois-xavier
+                                                            [lastname] => DE SORAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

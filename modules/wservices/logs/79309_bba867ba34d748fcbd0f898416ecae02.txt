@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79309
+    [IdTransaction] => bba867ba34d748fcbd0f898416ecae02
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33316] => Array
+                                (
+                                    [notiers] => 33316
+                                    [lastname] => VAISSIERE
+                                    [firstname] => Jean jacques
+                                    [email] => jj.vaissiere@sdlaques.fr
+                                    [id_gender] => 1
+                                    [passwd] => jjvkent
+                                    [birthday] => 1949-01-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 29
+                                    [NbPointsRestants] => 29
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43633
+                                                            [alias] => 01700 SAINT-MAURICE-DE-BEYNOST
+                                                            [address1] => chemin des batterses
+                                                            [address2] => 
+                                                            [city] => SAINT-MAURICE-DE-BEYNOST
+                                                            [postcode] => 01700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => VAISSIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43634
+                                                            [alias] => 01700 SAINT-MAURICE-DE-BEYNOST
+                                                            [address1] => chemin des batterses
+                                                            [address2] => 
+                                                            [city] => SAINT-MAURICE-DE-BEYNOST
+                                                            [postcode] => 01700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean jacques
+                                                            [lastname] => VAISSIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76480
+    [IdTransaction] => 95e63e3f5f9b456bad629a848e4b242c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30678] => Array
+                                (
+                                    [notiers] => 30678
+                                    [lastname] => DELILLE
+                                    [firstname] => Jean-jacques
+                                    [email] => jean-jacques.delille@wanadoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Mercredi62
+                                    [birthday] => 1960-05-10 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 400
+                                    [NbPointsRestants] => 400
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39270
+                                                            [alias] => 59500 DOUAI
+                                                            [address1] => 363, saint amand
+                                                            [address2] => 
+                                                            [city] => DOUAI
+                                                            [postcode] => 59500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => DELILLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39271
+                                                            [alias] => 59500 DOUAI
+                                                            [address1] => 363, saint amand
+                                                            [address2] => 
+                                                            [city] => DOUAI
+                                                            [postcode] => 59500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => DELILLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

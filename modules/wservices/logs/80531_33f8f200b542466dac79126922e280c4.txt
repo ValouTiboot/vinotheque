@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80531
+    [IdTransaction] => 33f8f200b542466dac79126922e280c4
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34783] => Array
+                                (
+                                    [notiers] => 34783
+                                    [lastname] => DELCROIX
+                                    [firstname] => Eric
+                                    [email] => delcroix.eric08@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => ERIC7888
+                                    [birthday] => 1967-09-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 154
+                                    [NbPointsRestants] => 154
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46201
+                                                            [alias] => 59590 RAISMES
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => RAISMES
+                                                            [postcode] => 59590
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => DELCROIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46202
+                                                            [alias] => 59590 RAISMES
+                                                            [address1] => 14, RESIDENCE GEORGES BRASSENS
+                                                            [address2] => 
+                                                            [city] => RAISMES
+                                                            [postcode] => 59590
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Eric
+                                                            [lastname] => DELCROIX
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

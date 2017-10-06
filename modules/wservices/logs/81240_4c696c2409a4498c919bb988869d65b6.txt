@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81240
+    [IdTransaction] => 4c696c2409a4498c919bb988869d65b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29563] => Array
+                                (
+                                    [notiers] => 29563
+                                    [lastname] => MASSOUBRE
+                                    [firstname] => Dominique
+                                    [email] => dominiquemassoubre@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1950-07-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 927
+                                    [NbPointsRestants] => 927
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 37356
+                                                            [alias] => 36400 CHATRE
+                                                            [address1] => 11, rue Philippe Decourteix
+                                                            [address2] => 
+                                                            [city] => CHATRE
+                                                            [postcode] => 36400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => MASSOUBRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 37357
+                                                            [alias] => 36400 CHATRE
+                                                            [address1] => 11, rue Philippe Decourteix
+                                                            [address2] => 
+                                                            [city] => CHATRE
+                                                            [postcode] => 36400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Dominique
+                                                            [lastname] => MASSOUBRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

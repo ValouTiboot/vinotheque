@@ -1,0 +1,80 @@
+Array
+(
+    [NoJSON] => 
+    [IdTransaction] => 7bfeb08342d4a08f5c006018104fb0fc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => 2017-08-28 10:18:26
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [notiers] => 
+                                    [lastname] => Jérome
+                                    [firstname] => TESTCLIENT
+                                    [email] => jerome.testclient99@test.te
+                                    [id_gender] => 1
+                                    [passwd] => 
+                                    [birthday] => 1908-6-16
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 
+                                    [siret] => 
+                                    [ape] => 
+                                    [adresses] => Array
+                                        (
+                                            [1] => Array
+                                                (
+                                                    [id_address] => 1
+                                                    [noadresse] => 
+                                                    [alias] => Mon adresse
+                                                    [address1] => 16, Main street
+                                                    [address2] => 2nd floor
+                                                    [city] => Paris 
+                                                    [postcode] => 75002
+                                                    [phone] => 0102030405
+                                                    [phone_mobile] => 
+                                                    [company] => My Company
+                                                    [firstname] => John
+                                                    [lastname] => DOE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => FR
+                                                    [rank] => 0
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [id_address] => 4
+                                                    [noadresse] => 
+                                                    [alias] => My address
+                                                    [address1] => 16, Main street
+                                                    [address2] => 2nd floor
+                                                    [city] => Miami
+                                                    [postcode] => 33133
+                                                    [phone] => 0102030405
+                                                    [phone_mobile] => 
+                                                    [company] => My Company
+                                                    [firstname] => John
+                                                    [lastname] => DOE
+                                                    [other] => 
+                                                    [active] => 1
+                                                    [id_country] => US
+                                                    [rank] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

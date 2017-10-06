@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79178
+    [IdTransaction] => 45530f692d674c9690ddd19184c9f55b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33218] => Array
+                                (
+                                    [notiers] => 33218
+                                    [lastname] => ANDREA
+                                    [firstname] => Barzagli
+                                    [email] => abarzagli@hotmail.it
+                                    [id_gender] => 1
+                                    [passwd] => scandicci
+                                    [birthday] => 1981-05-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43459
+                                                            [alias] => 10123 TORINO
+                                                            [address1] => via della rocca  n21
+                                                            [address2] => 
+                                                            [city] => TORINO
+                                                            [postcode] => 10123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barzagli
+                                                            [lastname] => ANDREA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43460
+                                                            [alias] => 10123 TORINO
+                                                            [address1] => via della rocca  n21
+                                                            [address2] => 
+                                                            [city] => TORINO
+                                                            [postcode] => 10123
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barzagli
+                                                            [lastname] => ANDREA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => IT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

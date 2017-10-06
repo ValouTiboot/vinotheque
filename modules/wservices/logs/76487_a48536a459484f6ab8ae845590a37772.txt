@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76487
+    [IdTransaction] => a48536a459484f6ab8ae845590a37772
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34674] => Array
+                                (
+                                    [notiers] => 34674
+                                    [lastname] => ALLOUCHE
+                                    [firstname] => Caroline
+                                    [email] => caroline.allouche@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => 23111986
+                                    [birthday] => 1986-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46022
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 24, Rue Keller
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => ALLOUCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46023
+                                                            [alias] => 78112 FOURQUEUX
+                                                            [address1] => 22, Avenue de l'echaudee
+                                                            [address2] => 
+                                                            [city] => FOURQUEUX
+                                                            [postcode] => 78112
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Caroline
+                                                            [lastname] => ALLOUCHE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

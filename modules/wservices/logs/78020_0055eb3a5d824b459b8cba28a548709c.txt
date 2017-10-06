@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78020
+    [IdTransaction] => 0055eb3a5d824b459b8cba28a548709c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31017] => Array
+                                (
+                                    [notiers] => 31017
+                                    [lastname] => LAURENT
+                                    [firstname] => Jean-baptiste
+                                    [email] => laurentjbaptiste@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => medecine
+                                    [birthday] => 1987-12-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39857
+                                                            [alias] => 59800 LILLE
+                                                            [address1] => 10-12, Rue d'Amiens
+                                                            [address2] => 2 eme gauche
+                                                            [city] => LILLE
+                                                            [postcode] => 59800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => LAURENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39858
+                                                            [alias] => 59800 LILLE
+                                                            [address1] => 10-12, Rue d'Amiens
+                                                            [address2] => 2 eme gauche
+                                                            [city] => LILLE
+                                                            [postcode] => 59800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-baptiste
+                                                            [lastname] => LAURENT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

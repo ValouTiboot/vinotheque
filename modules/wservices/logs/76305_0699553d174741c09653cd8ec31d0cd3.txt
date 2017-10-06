@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76305
+    [IdTransaction] => 0699553d174741c09653cd8ec31d0cd3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32010] => Array
+                                (
+                                    [notiers] => 32010
+                                    [lastname] => CHARLIAC
+                                    [firstname] => Stéphane
+                                    [email] => stephanecharliac@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => zakary88
+                                    [birthday] => 1976-01-28 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 140
+                                    [NbPointsRestants] => 140
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41494
+                                                            [alias] => 91210 DRAVEIL
+                                                            [address1] => 34, avenue Avenue René Lebail
+                                                            [address2] => 
+                                                            [city] => DRAVEIL
+                                                            [postcode] => 91210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => CHARLIAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41495
+                                                            [alias] => 75011 PARIS
+                                                            [address1] => 48, Avenue Parmentier
+                                                            [address2] => Code porte AB380
+                                                            [city] => PARIS
+                                                            [postcode] => 75011
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Stéphane
+                                                            [lastname] => CHARLIAC
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76089
+    [IdTransaction] => 88dab2631ba44a59874f7a441e6965f8
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32573] => Array
+                                (
+                                    [notiers] => 32573
+                                    [lastname] => LARGETEAU
+                                    [firstname] => Philippe
+                                    [email] => philippe.largeteau@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => evelauvin
+                                    [birthday] => 1964-03-27 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 594
+                                    [NbPointsRestants] => 594
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42422
+                                                            [alias] => 83440 MONTAUROUX
+                                                            [address1] => 727, chemin du stade
+                                                            [address2] => 
+                                                            [city] => MONTAUROUX
+                                                            [postcode] => 83440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LARGETEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42423
+                                                            [alias] => 83440 MONTAUROUX
+                                                            [address1] => 727, chemin du stade
+                                                            [address2] => 
+                                                            [city] => MONTAUROUX
+                                                            [postcode] => 83440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => LARGETEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

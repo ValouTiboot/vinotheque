@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75154
+    [IdTransaction] => 4abf0e58d0434150a64e207cdbc084e6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [35385] => Array
+                                (
+                                    [notiers] => 35385
+                                    [lastname] => PLACAIS
+                                    [firstname] => Alain
+                                    [email] => alainplacais49@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => rengg007
+                                    [birthday] => 1954-05-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 425
+                                    [NbPointsRestants] => 425
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 47155
+                                                            [alias] => 49630 CORNE
+                                                            [address1] => 2, Route de létang Corné
+                                                            [address2] => 2 route de l'étang, Les Dublières
+                                                            [city] => CORNE
+                                                            [postcode] => 49630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => PLACAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 47156
+                                                            [alias] => 49630 CORNE
+                                                            [address1] => PLACAIS Corné
+                                                            [address2] => 2 route de l'étang, Les Dublières
+                                                            [city] => CORNE
+                                                            [postcode] => 49630
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => PLACAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

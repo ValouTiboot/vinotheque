@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74803
+    [IdTransaction] => 45e1fd38630f4710823899ac4675f97e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36241] => Array
+                                (
+                                    [notiers] => 36241
+                                    [lastname] => D'HALLUIN
+                                    [firstname] => Edouard
+                                    [email] => edouard.dhalluin@atos.net
+                                    [id_gender] => 1
+                                    [passwd] => arcachon33
+                                    [birthday] => 1957-02-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 90
+                                    [NbPointsRestants] => 90
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48586
+                                                            [alias] => 78000 VERSAILLES
+                                                            [address1] => 36, bd du roi
+                                                            [address2] => 
+                                                            [city] => VERSAILLES
+                                                            [postcode] => 78000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edouard
+                                                            [lastname] => D'HALLUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48587
+                                                            [alias] => 40220 TARNOS
+                                                            [address1] => 26, avenue Julien Grimau
+                                                            [address2] => 
+                                                            [city] => TARNOS
+                                                            [postcode] => 40220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Edouard
+                                                            [lastname] => D'HALLUIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

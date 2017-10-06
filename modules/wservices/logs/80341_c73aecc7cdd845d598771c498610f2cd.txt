@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80341
+    [IdTransaction] => c73aecc7cdd845d598771c498610f2cd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26842] => Array
+                                (
+                                    [notiers] => 26842
+                                    [lastname] => DE LAUBIER
+                                    [firstname] => Renaud
+                                    [email] => rlaubier@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => 423057
+                                    [birthday] => 1977-09-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 140
+                                    [NbPointsRestants] => 140
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 33281
+                                                            [alias] => 13006 MARSEILLE
+                                                            [address1] => 48, rue du Rouet
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13006
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renaud
+                                                            [lastname] => DE LAUBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 33282
+                                                            [alias] => 13002 MARSEILLE
+                                                            [address1] => 60, boulevard des Dames
+                                                            [address2] => 
+                                                            [city] => MARSEILLE
+                                                            [postcode] => 13002
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Renaud
+                                                            [lastname] => DE LAUBIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

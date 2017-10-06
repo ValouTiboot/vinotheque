@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81787
+    [IdTransaction] => 3c4b880aadeb4b4b88dbd0a07998f311
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32252] => Array
+                                (
+                                    [notiers] => 32252
+                                    [lastname] => PAIAO
+                                    [firstname] => Guilherme
+                                    [email] => guilhermepaiao@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => roth2016
+                                    [birthday] => 1980-10-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 5281
+                                    [NbPointsRestants] => 5281
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41926
+                                                            [alias] => 22471120 RIO DE JANEIRO
+                                                            [address1] => 63, Conselheiro Macedo Soares
+                                                            [address2] => 102
+                                                            [city] => RIO DE JANEIRO
+                                                            [postcode] => 22471120
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guilherme
+                                                            [lastname] => PAIAO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41927
+                                                            [alias] => 21210 SAULIEU
+                                                            [address1] => 2, Rue d?Argentine
+                                                            [address2] => -
+                                                            [city] => SAULIEU
+                                                            [postcode] => 21210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Guilherme
+                                                            [lastname] => PAIAO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

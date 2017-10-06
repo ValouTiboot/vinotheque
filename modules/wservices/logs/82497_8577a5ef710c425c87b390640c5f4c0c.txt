@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82497
+    [IdTransaction] => 8577a5ef710c425c87b390640c5f4c0c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34308] => Array
+                                (
+                                    [notiers] => 34308
+                                    [lastname] => SANNA
+                                    [firstname] => Laurent
+                                    [email] => laurent.sanna83@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => schumi11
+                                    [birthday] => 1983-06-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 677
+                                    [NbPointsRestants] => 677
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45383
+                                                            [alias] => 06190 ROQUEBRUNE-CAP-MARTIN
+                                                            [address1] => chemin du buse
+                                                            [address2] => le vieux moulin
+                                                            [city] => ROQUEBRUNE-CAP-MARTIN
+                                                            [postcode] => 06190
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => SANNA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45384
+                                                            [alias] => 83440 CALLIAN
+                                                            [address1] => 636, chemin jean paul centre aria
+                                                            [address2] => le bistrot de lunath,
+                                                            [city] => CALLIAN
+                                                            [postcode] => 83440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Laurent
+                                                            [lastname] => SANNA
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

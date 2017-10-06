@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 76984
+    [IdTransaction] => f5c5585c07a34095954b27b79c62caf9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [18424] => Array
+                                (
+                                    [notiers] => 18424
+                                    [lastname] => RAYNAUD
+                                    [firstname] => Alexis
+                                    [email] => lexisbigup@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => kgfdmy
+                                    [birthday] => 1987-03-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 222
+                                    [NbPointsRestants] => 222
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 22750
+                                                            [alias] => 03000 MOULINS
+                                                            [address1] => 16, rue des couteliers
+                                                            [address2] => 
+                                                            [city] => MOULINS
+                                                            [postcode] => 03000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Raynaud Alexis
+                                                            [firstname] => Alexis
+                                                            [lastname] => RAYNAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 22751
+                                                            [alias] => 03240 TRONGET
+                                                            [address1] => 71, route departementale 945
+                                                            [address2] => 
+                                                            [city] => TRONGET
+                                                            [postcode] => 03240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Raynaud Pascal
+                                                            [firstname] => Alexis
+                                                            [lastname] => RAYNAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 22751
+                                                            [alias] => 03240 TRONGET
+                                                            [address1] => 71, route departementale 945
+                                                            [address2] => 
+                                                            [city] => TRONGET
+                                                            [postcode] => 03240
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => Mr Raynaud Pascal
+                                                            [firstname] => Alexis
+                                                            [lastname] => RAYNAUD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

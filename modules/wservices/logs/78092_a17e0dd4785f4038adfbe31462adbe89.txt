@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78092
+    [IdTransaction] => a17e0dd4785f4038adfbe31462adbe89
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32423] => Array
+                                (
+                                    [notiers] => 32423
+                                    [lastname] => DELMAS
+                                    [firstname] => Emilie
+                                    [email] => emilie-delmas@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => vicelo1006
+                                    [birthday] => 1980-08-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 20
+                                    [NbPointsRestants] => 20
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42165
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 86, BINAUD
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emilie
+                                                            [lastname] => DELMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42166
+                                                            [alias] => 33300 BORDEAUX
+                                                            [address1] => 86, BINAUD
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Emilie
+                                                            [lastname] => DELMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80964
+    [IdTransaction] => 8b8c54dd345c46abb105dc10a67d312c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32714] => Array
+                                (
+                                    [notiers] => 32714
+                                    [lastname] => DENDIEVEL
+                                    [firstname] => Denis
+                                    [email] => denis.dendievel@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => Urgence-245
+                                    [birthday] => 1966-04-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 119
+                                    [NbPointsRestants] => 119
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42614
+                                                            [alias] => 33850 LEOGNAN
+                                                            [address1] => 16, rue Ausone
+                                                            [address2] => 
+                                                            [city] => LEOGNAN
+                                                            [postcode] => 33850
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Denis
+                                                            [lastname] => DENDIEVEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42615
+                                                            [alias] => 21300 CHENOVE
+                                                            [address1] => 3, boulevard des valendons
+                                                            [address2] => 15ème étage Tour Kennedy
+                                                            [city] => CHENOVE
+                                                            [postcode] => 21300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Denis
+                                                            [lastname] => DENDIEVEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

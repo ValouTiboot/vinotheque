@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79409
+    [IdTransaction] => ab7057cb87e043faa4d4d98e8b87646f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33222] => Array
+                                (
+                                    [notiers] => 33222
+                                    [lastname] => DUMAS
+                                    [firstname] => Jean louis
+                                    [email] => jldumasjl@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => JLD19541966
+                                    [birthday] => 1954-11-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 650
+                                    [NbPointsRestants] => 650
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43465
+                                                            [alias] => 13250 CORNILLON-CONFOUX
+                                                            [address1] => CHEMIN DU CEDRE PONT DE RHAUD
+                                                            [address2] => 
+                                                            [city] => CORNILLON-CONFOUX
+                                                            [postcode] => 13250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean louis
+                                                            [lastname] => DUMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43466
+                                                            [alias] => 16000 ANGOULEME
+                                                            [address1] => 14, ALLEE DE LA CIGOGNE
+                                                            [address2] => 
+                                                            [city] => ANGOULEME
+                                                            [postcode] => 16000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean louis
+                                                            [lastname] => DUMAS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

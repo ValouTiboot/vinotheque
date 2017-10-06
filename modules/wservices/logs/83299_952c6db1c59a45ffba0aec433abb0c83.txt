@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83299
+    [IdTransaction] => 952c6db1c59a45ffba0aec433abb0c83
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33175] => Array
+                                (
+                                    [notiers] => 33175
+                                    [lastname] => KISLER
+                                    [firstname] => Diane
+                                    [email] => opaloise@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => yankees
+                                    [birthday] => 1985-09-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 453
+                                    [NbPointsRestants] => 453
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43373
+                                                            [alias] => 75008 PARIS
+                                                            [address1] => 3, rue Pierre Le Grand
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75008
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Diane
+                                                            [lastname] => KISLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43374
+                                                            [alias] => 75116 PARIS
+                                                            [address1] => 11, rue marbeau
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75116
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Diane
+                                                            [lastname] => KISLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77844
+    [IdTransaction] => d47a8cac2a1e4ee6ac5849a639009e8f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33527] => Array
+                                (
+                                    [notiers] => 33527
+                                    [lastname] => RICHARD
+                                    [firstname] => Philippe
+                                    [email] => philippe.richard@ymail.com
+                                    [id_gender] => 1
+                                    [passwd] => 56assas
+                                    [birthday] => 1973-06-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44021
+                                                            [alias] => 93340 RAINCY
+                                                            [address1] => 3, allée du rocher
+                                                            [address2] => 
+                                                            [city] => RAINCY
+                                                            [postcode] => 93340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => RICHARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44022
+                                                            [alias] => 93340 RAINCY
+                                                            [address1] => 3, allée du rocher
+                                                            [address2] => 
+                                                            [city] => RAINCY
+                                                            [postcode] => 93340
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippe
+                                                            [lastname] => RICHARD
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

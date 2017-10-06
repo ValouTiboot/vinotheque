@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83423
+    [IdTransaction] => 0e9976c2274246658a1a36af417b94f7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33349] => Array
+                                (
+                                    [notiers] => 33349
+                                    [lastname] => ROUFFY
+                                    [firstname] => Luc
+                                    [email] => luc.rouffy@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => lulu1953
+                                    [birthday] => 1953-12-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 30
+                                    [NbPointsRestants] => 30
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43692
+                                                            [alias] => 16200 JARNAC
+                                                            [address1] => 13, rue de la société JARNAC
+                                                            [address2] => 
+                                                            [city] => JARNAC
+                                                            [postcode] => 16200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => ROUFFY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43693
+                                                            [alias] => 16200 JARNAC
+                                                            [address1] => LES BOUVENTS JARNAC
+                                                            [address2] => 
+                                                            [city] => JARNAC
+                                                            [postcode] => 16200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Luc
+                                                            [lastname] => ROUFFY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

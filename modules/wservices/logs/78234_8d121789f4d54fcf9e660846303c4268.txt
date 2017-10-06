@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78234
+    [IdTransaction] => 8d121789f4d54fcf9e660846303c4268
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25383] => Array
+                                (
+                                    [notiers] => 25383
+                                    [lastname] => ESTAY
+                                    [firstname] => Jean claude
+                                    [email] => jc.estay@lataste-vion.fr
+                                    [id_gender] => 1
+                                    [passwd] => client
+                                    [birthday] => 1954-01-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 85
+                                    [NbPointsRestants] => 85
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31074
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 9, place de la victoire
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => ESTAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31075
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 18, parvie des chartrons
+                                                            [address2] => tour jefferson
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean claude
+                                                            [lastname] => ESTAY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

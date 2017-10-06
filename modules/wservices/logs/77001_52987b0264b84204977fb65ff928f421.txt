@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77001
+    [IdTransaction] => 52987b0264b84204977fb65ff928f421
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33343] => Array
+                                (
+                                    [notiers] => 33343
+                                    [lastname] => HENRY
+                                    [firstname] => Jean-jacques
+                                    [email] => jeanjacques.henry@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => Secretjjhnry
+                                    [birthday] => 1967-01-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 149
+                                    [NbPointsRestants] => 149
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43680
+                                                            [alias] => 74500 NEUVECELLE
+                                                            [address1] => 141, AVENUE DES TOURS
+                                                            [address2] => 
+                                                            [city] => NEUVECELLE
+                                                            [postcode] => 74500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => HENRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43681
+                                                            [alias] => 74500 NEUVECELLE
+                                                            [address1] => 141, AVENUE DES TOURS
+                                                            [address2] => 
+                                                            [city] => NEUVECELLE
+                                                            [postcode] => 74500
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean-jacques
+                                                            [lastname] => HENRY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

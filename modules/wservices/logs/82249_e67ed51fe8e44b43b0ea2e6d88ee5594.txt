@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82249
+    [IdTransaction] => e67ed51fe8e44b43b0ea2e6d88ee5594
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25025] => Array
+                                (
+                                    [notiers] => 25025
+                                    [lastname] => BOUVIER
+                                    [firstname] => Nicolas
+                                    [email] => stephane.bouvier663@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => nicolas74
+                                    [birthday] => 1974-03-05 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 122
+                                    [NbPointsRestants] => 122
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31005
+                                                            [alias] => 74540 SAINT-FELIX
+                                                            [address1] => 453, route de lignière
+                                                            [address2] => 
+                                                            [city] => SAINT-FELIX
+                                                            [postcode] => 74540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => BOUVIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31006
+                                                            [alias] => 74540 SAINT-FELIX
+                                                            [address1] => 453, route de lignière
+                                                            [address2] => 
+                                                            [city] => SAINT-FELIX
+                                                            [postcode] => 74540
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Nicolas
+                                                            [lastname] => BOUVIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

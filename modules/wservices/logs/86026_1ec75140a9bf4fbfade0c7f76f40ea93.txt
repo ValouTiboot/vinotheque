@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86026
+    [IdTransaction] => 1ec75140a9bf4fbfade0c7f76f40ea93
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28893] => Array
+                                (
+                                    [notiers] => 28893
+                                    [lastname] => PASCAL
+                                    [firstname] => Philippon
+                                    [email] => pascal.philippon@laposte.net
+                                    [id_gender] => 1
+                                    [passwd] => faulkner15
+                                    [birthday] => 1968-11-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 280
+                                    [NbPointsRestants] => 280
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36454
+                                                            [alias] => 97133 ST BARTHELEMY
+                                                            [address1] => Saint-Jean BP 1034
+                                                            [address2] => 
+                                                            [city] => ST BARTHELEMY
+                                                            [postcode] => 97133
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippon
+                                                            [lastname] => PASCAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36455
+                                                            [alias] => 15250 CRANDELLES
+                                                            [address1] => 6, rue des chars Passefonds
+                                                            [address2] => 
+                                                            [city] => CRANDELLES
+                                                            [postcode] => 15250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Philippon
+                                                            [lastname] => PASCAL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

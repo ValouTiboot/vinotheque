@@ -1,0 +1,104 @@
+Array
+(
+    [NoJSON] => 79778
+    [IdTransaction] => 832de1e782094f49a997878190f468bc
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34026] => Array
+                                (
+                                    [notiers] => 34026
+                                    [lastname] => BOLLART
+                                    [firstname] => Anne
+                                    [email] => annebollart@hotmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Chouette22
+                                    [birthday] => 1982-04-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 123
+                                    [NbPointsRestants] => 123
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44909
+                                                            [alias] => 69160 TASSIN-LA-DEMI-LUNE
+                                                            [address1] => 25, rue François Mermet
+                                                            [address2] => Allée 4 - 2eme étage Bâtiment B
+                                                            [city] => TASSIN-LA-DEMI-LUNE
+                                                            [postcode] => 69160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => BOLLART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44910
+                                                            [alias] => 69160 TASSIN-LA-DEMI-LUNE
+                                                            [address1] => 25, rue François Mermet
+                                                            [address2] => 
+                                                            [city] => TASSIN-LA-DEMI-LUNE
+                                                            [postcode] => 69160
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => BOLLART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [rank] => 3
+                                                            [noadresse] => 49148
+                                                            [alias] => 01440 VIRIAT
+                                                            [address1] => 17, ALLEE DES BRUYERES
+                                                            [address2] => 
+                                                            [city] => VIRIAT
+                                                            [postcode] => 01440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anne
+                                                            [lastname] => BOLLART
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

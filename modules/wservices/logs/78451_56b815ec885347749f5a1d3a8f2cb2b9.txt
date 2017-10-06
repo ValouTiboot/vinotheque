@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78451
+    [IdTransaction] => 56b815ec885347749f5a1d3a8f2cb2b9
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32378] => Array
+                                (
+                                    [notiers] => 32378
+                                    [lastname] => DEBIAIS
+                                    [firstname] => Gilberte
+                                    [email] => louis.debiais@sfr.fr
+                                    [id_gender] => 2
+                                    [passwd] => 3004Adam
+                                    [birthday] => 1926-07-20 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42082
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 29, avenue raymond poincare paris
+                                                            [address2] => 
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilberte
+                                                            [lastname] => DEBIAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42083
+                                                            [alias] => 75016 PARIS
+                                                            [address1] => 29, avenue raymond poincare paris
+                                                            [address2] => code rue 2619
+                                                            [city] => PARIS
+                                                            [postcode] => 75016
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gilberte
+                                                            [lastname] => DEBIAIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

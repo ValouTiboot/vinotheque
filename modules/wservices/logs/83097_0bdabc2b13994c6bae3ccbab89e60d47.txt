@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83097
+    [IdTransaction] => 0bdabc2b13994c6bae3ccbab89e60d47
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33132] => Array
+                                (
+                                    [notiers] => 33132
+                                    [lastname] => ENGLING
+                                    [firstname] => Barbara
+                                    [email] => destne@web.de
+                                    [id_gender] => 2
+                                    [passwd] => lohi0403
+                                    [birthday] => 1959-06-12 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 189
+                                    [NbPointsRestants] => 189
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 43295
+                                                            [alias] => 13059 BERLIN
+                                                            [address1] => 92, Neubrandenburger Str.
+                                                            [address2] => 301
+                                                            [city] => BERLIN
+                                                            [postcode] => 13059
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => ENGLING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 43296
+                                                            [alias] => 13059 BERLIN
+                                                            [address1] => Neubrandenburger Str, 92
+                                                            [address2] => 301
+                                                            [city] => BERLIN
+                                                            [postcode] => 13059
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Barbara
+                                                            [lastname] => ENGLING
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => DE
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

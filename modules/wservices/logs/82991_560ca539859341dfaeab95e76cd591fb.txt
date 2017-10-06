@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82991
+    [IdTransaction] => 560ca539859341dfaeab95e76cd591fb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34716] => Array
+                                (
+                                    [notiers] => 34716
+                                    [lastname] => SANTIAGO
+                                    [firstname] => Alice
+                                    [email] => a.santiago13013@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => Marseille13s
+                                    [birthday] => 1982-06-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 170
+                                    [NbPointsRestants] => 170
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46099
+                                                            [alias] => 13400 AUBAGNE
+                                                            [address1] => 124 Avenue des S?urs Gastine AUBAGNE
+                                                            [address2] => 
+                                                            [city] => AUBAGNE
+                                                            [postcode] => 13400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alice
+                                                            [lastname] => SANTIAGO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46100
+                                                            [alias] => 13400 AUBAGNE
+                                                            [address1] => 124 Avenue d, alice santiago AUBAGNE
+                                                            [address2] => 124 Avenue des S?urs Gastine
+                                                            [city] => AUBAGNE
+                                                            [postcode] => 13400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alice
+                                                            [lastname] => SANTIAGO
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

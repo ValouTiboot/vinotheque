@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80092
+    [IdTransaction] => 8e0aed3fe91349bbb1447262005dd8e3
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31530] => Array
+                                (
+                                    [notiers] => 31530
+                                    [lastname] => DUROULLE
+                                    [firstname] => Sylvie
+                                    [email] => sylvie.duroulle@orange.fr
+                                    [id_gender] => 2
+                                    [passwd] => pichounette
+                                    [birthday] => 1967-06-09 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 35
+                                    [NbPointsRestants] => 35
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 40779
+                                                            [alias] => 40600 BISCARROSSE
+                                                            [address1] => 195, allee des mouliots
+                                                            [address2] => 
+                                                            [city] => BISCARROSSE
+                                                            [postcode] => 40600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvie
+                                                            [lastname] => DUROULLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 40780
+                                                            [alias] => 54200 CHOLOY-MENILLOT
+                                                            [address1] => 72 RUE DE TO,
+                                                            [address2] => 
+                                                            [city] => CHOLOY-MENILLOT
+                                                            [postcode] => 54200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sylvie
+                                                            [lastname] => DUROULLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

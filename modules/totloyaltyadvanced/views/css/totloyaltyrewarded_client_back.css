@@ -1,0 +1,46 @@
+#container-customer > div > table{
+    background-color: #ecf6fb;
+    border-bottom: solid 1px #a0d0eb;
+    border-top: solid 1px #a0d0eb;
+}
+#container-customer > div > table > thead > tr > th > span,
+#container-customer > div > table > tfoot{
+    font-weight: bold;
+    color: #656565;
+    display: block;
+    text-transform: uppercase;
+}
+#container-customer > div > table > thead > tr > th > span{
+	padding: 8px;
+}
+
+#container-customer > div > table > tbody > tr > td{
+	padding: 12px 7px;
+}
+
+
+@media (max-width: 991px){
+	#container-customer > div > table > tbody > tr > td:before{
+		padding-top: 8px;
+    	font-size: 14px;
+	}
+	#container-customer > div > table > tbody > tr > td:nth-child(1):before{
+		content: "Commande";
+	}
+	#container-customer > div > table > tbody > tr > td:nth-child(2):before{
+		content: "Date";
+	}
+	#container-customer > div > table > tbody > tr > td:nth-child(3):before{
+		content: "Points";
+	}
+	#container-customer > div > table > tbody > tr > td:nth-child(4){
+		padding: 12px 7px!important;
+	}
+	#container-customer > div > table > tbody > tr > td:nth-child(4):before{
+		content: "Status";
+	} 
+}
+
+
+    
+    

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82710
+    [IdTransaction] => 3f0a79bd57324f1fb69eeac2599731c0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32933] => Array
+                                (
+                                    [notiers] => 32933
+                                    [lastname] => CAPDEVIELLE
+                                    [firstname] => Jean sebastien
+                                    [email] => js.capdevielle@chateauleveche.com
+                                    [id_gender] => 1
+                                    [passwd] => oopsoops
+                                    [birthday] => 1971-01-25 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 204
+                                    [NbPointsRestants] => 204
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42950
+                                                            [alias] => 33330 SAINT-SULPICE-DE-FALEYRENS
+                                                            [address1] => LD LA CHAPELLE LESCOURS
+                                                            [address2] => 
+                                                            [city] => SAINT-SULPICE-DE-FALEYRENS
+                                                            [postcode] => 33330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean sebastien
+                                                            [lastname] => CAPDEVIELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42951
+                                                            [alias] => 83000 TOULON
+                                                            [address1] => 146BIS, AVENUE DU DOCTEUR BOURGAREL LE CAP BRUN
+                                                            [address2] => 
+                                                            [city] => TOULON
+                                                            [postcode] => 83000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jean sebastien
+                                                            [lastname] => CAPDEVIELLE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

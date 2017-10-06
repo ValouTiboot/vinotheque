@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76421
+    [IdTransaction] => 41b0288cb3214923a3f108b00e6507f7
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32838] => Array
+                                (
+                                    [notiers] => 32838
+                                    [lastname] => BUSSIÈRE
+                                    [firstname] => Bertrand
+                                    [email] => bertrand.bussiere@free.fr
+                                    [id_gender] => 1
+                                    [passwd] => guillaume!
+                                    [birthday] => 1967-03-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 87
+                                    [NbPointsRestants] => 87
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42813
+                                                            [alias] => 92400 COURBEVOIE
+                                                            [address1] => 72, rue segoffin
+                                                            [address2] => 
+                                                            [city] => COURBEVOIE
+                                                            [postcode] => 92400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => BUSSIÈRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42814
+                                                            [alias] => 92400 COURBEVOIE
+                                                            [address1] => 72, rue segoffin
+                                                            [address2] => 
+                                                            [city] => COURBEVOIE
+                                                            [postcode] => 92400
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Bertrand
+                                                            [lastname] => BUSSIÈRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

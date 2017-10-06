@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76862
+    [IdTransaction] => 4aa40c89b9a24629bfc4883fbcd3cf23
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28984] => Array
+                                (
+                                    [notiers] => 28984
+                                    [lastname] => FORET
+                                    [firstname] => Benoit
+                                    [email] => benoit.foret535@orange.fr
+                                    [id_gender] => 1
+                                    [passwd] => feuillu
+                                    [birthday] => 1979-06-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 138
+                                    [NbPointsRestants] => 138
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36590
+                                                            [alias] => 90100 DELLE
+                                                            [address1] => 9, impasse Chenier
+                                                            [address2] => 
+                                                            [city] => DELLE
+                                                            [postcode] => 90100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => FORET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36591
+                                                            [alias] => 53200 CHATEAU-GONTIER
+                                                            [address1] => 12, route de mirwault
+                                                            [address2] => 
+                                                            [city] => CHATEAU-GONTIER
+                                                            [postcode] => 53200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Benoit
+                                                            [lastname] => FORET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

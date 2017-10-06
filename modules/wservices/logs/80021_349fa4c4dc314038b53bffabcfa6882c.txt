@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80021
+    [IdTransaction] => 349fa4c4dc314038b53bffabcfa6882c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30590] => Array
+                                (
+                                    [notiers] => 30590
+                                    [lastname] => LE GRAND
+                                    [firstname] => Gerald
+                                    [email] => glg73@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => Belambra73
+                                    [birthday] => 1967-12-11 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 546
+                                    [NbPointsRestants] => 546
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39119
+                                                            [alias] => 73440 SAINT-MARTIN-DE-BELLEVILLE
+                                                            [address1] => Les frênes
+                                                            [address2] => 
+                                                            [city] => SAINT-MARTIN-DE-BELLEVILLE
+                                                            [postcode] => 73440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerald
+                                                            [lastname] => LE GRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39120
+                                                            [alias] => 73440 SAINT-MARTIN-DE-BELLEVILLE
+                                                            [address1] => Les Menuires
+                                                            [address2] => Belambra le Hameau des Airelles
+                                                            [city] => SAINT-MARTIN-DE-BELLEVILLE
+                                                            [postcode] => 73440
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gerald
+                                                            [lastname] => LE GRAND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

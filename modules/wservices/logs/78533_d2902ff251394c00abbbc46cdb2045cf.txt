@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78533
+    [IdTransaction] => d2902ff251394c00abbbc46cdb2045cf
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30448] => Array
+                                (
+                                    [notiers] => 30448
+                                    [lastname] => BARTEL
+                                    [firstname] => Jordan
+                                    [email] => jordan.bartel@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => wdfdqln785
+                                    [birthday] => 1984-04-03 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 232
+                                    [NbPointsRestants] => 232
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 38869
+                                                            [alias] => 94260 FRESNES
+                                                            [address1] => 10 place Pierre et Marie Curie
+                                                            [address2] => 
+                                                            [city] => FRESNES
+                                                            [postcode] => 94260
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jordan
+                                                            [lastname] => BARTEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 38870
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 65, Route de la reine
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jordan
+                                                            [lastname] => BARTEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

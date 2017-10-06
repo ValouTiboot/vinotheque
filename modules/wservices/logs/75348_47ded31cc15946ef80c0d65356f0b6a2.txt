@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75348
+    [IdTransaction] => 47ded31cc15946ef80c0d65356f0b6a2
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26179] => Array
+                                (
+                                    [notiers] => 26179
+                                    [lastname] => SCHNITZLER
+                                    [firstname] => Robert
+                                    [email] => robert.schnitzler@sfr.fr
+                                    [id_gender] => 1
+                                    [passwd] => 3flesje3
+                                    [birthday] => 1938-03-13 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 181
+                                    [NbPointsRestants] => 181
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32288
+                                                            [alias] => 65700 MADIRAN
+                                                            [address1] => 5, cami dou rey
+                                                            [address2] => 
+                                                            [city] => MADIRAN
+                                                            [postcode] => 65700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => SCHNITZLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32289
+                                                            [alias] => 65700 MADIRAN
+                                                            [address1] => 5, cami dou rey
+                                                            [address2] => 
+                                                            [city] => MADIRAN
+                                                            [postcode] => 65700
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Robert
+                                                            [lastname] => SCHNITZLER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

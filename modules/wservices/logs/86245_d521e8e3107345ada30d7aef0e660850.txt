@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 86245
+    [IdTransaction] => d521e8e3107345ada30d7aef0e660850
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34316] => Array
+                                (
+                                    [notiers] => 34316
+                                    [lastname] => CORRE
+                                    [firstname] => Cecile
+                                    [email] => cecilcorre@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => jeanmarc
+                                    [birthday] => 1980-06-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 
+                                    [NbPointsAcquits] => 
+                                    [NbPointsRestants] => 
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45396
+                                                            [alias] => 75019 75019 PARIS 19
+                                                            [address1] => 78, rue Botzaris Paris
+                                                            [address2] => 3eme etage G 78 rue botzaris
+                                                            [city] => 75019   PARIS 19
+                                                            [postcode] => 75019
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cecile
+                                                            [lastname] => CORRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45397
+                                                            [alias] => 75019 PARIS
+                                                            [address1] => 78, rue Botzaris Paris
+                                                            [address2] => 3eme etage G 78 rue botzaris
+                                                            [city] => PARIS
+                                                            [postcode] => 75019
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Cecile
+                                                            [lastname] => CORRE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

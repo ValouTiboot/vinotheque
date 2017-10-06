@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79513
+    [IdTransaction] => 9c629f767b944405b085d4f1c1e1e264
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32073] => Array
+                                (
+                                    [notiers] => 32073
+                                    [lastname] => SÉMAT
+                                    [firstname] => Valérie
+                                    [email] => valeriesemat@me.com
+                                    [id_gender] => 2
+                                    [passwd] => anti794gunk747
+                                    [birthday] => 1964-11-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41608
+                                                            [alias] => 33800 BORDEAUX
+                                                            [address1] => 48, Hippolyte Minier
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33800
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Valérie
+                                                            [lastname] => SÉMAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41609
+                                                            [alias] => 47250 LABASTIDE-CASTEL-AMOUROUX
+                                                            [address1] => Lieu-dit Baudrin
+                                                            [address2] => 
+                                                            [city] => LABASTIDE-CASTEL-AMOUROUX
+                                                            [postcode] => 47250
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Valérie
+                                                            [lastname] => SÉMAT
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

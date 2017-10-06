@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78590
+    [IdTransaction] => 2af74fc581e64158922ad886039ad935
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [31917] => Array
+                                (
+                                    [notiers] => 31917
+                                    [lastname] => DENNIS
+                                    [firstname] => Gustave
+                                    [email] => gustave123@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => frequin124
+                                    [birthday] => 1978-11-08 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 77
+                                    [NbPointsRestants] => 77
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 41354
+                                                            [alias] => 50570 LOREY
+                                                            [address1] => 5, la Quesnelière
+                                                            [address2] => 
+                                                            [city] => LOREY
+                                                            [postcode] => 50570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gustave
+                                                            [lastname] => DENNIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 41355
+                                                            [alias] => 50570 LOREY
+                                                            [address1] => 5, la Quesnelière
+                                                            [address2] => 
+                                                            [city] => LOREY
+                                                            [postcode] => 50570
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gustave
+                                                            [lastname] => DENNIS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

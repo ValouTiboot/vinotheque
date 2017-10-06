@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80148
+    [IdTransaction] => 1ba1280b839a45d28cd1503077c7697b
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33695] => Array
+                                (
+                                    [notiers] => 33695
+                                    [lastname] => BOURDIE
+                                    [firstname] => Julien
+                                    [email] => julien@bourdie.com
+                                    [id_gender] => 1
+                                    [passwd] => Jbjbt231
+                                    [birthday] => 1983-05-04 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 60
+                                    [NbPointsRestants] => 60
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44311
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 18, rue de Silly
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => BOURDIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44312
+                                                            [alias] => 92100 BOULOGNE-BILLANCOURT
+                                                            [address1] => 18, rue de Silly
+                                                            [address2] => 
+                                                            [city] => BOULOGNE-BILLANCOURT
+                                                            [postcode] => 92100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Julien
+                                                            [lastname] => BOURDIE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

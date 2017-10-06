@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77547
+    [IdTransaction] => f3829799ce6a4188809ff5322e39bf47
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36145] => Array
+                                (
+                                    [notiers] => 36145
+                                    [lastname] => BERGEAU
+                                    [firstname] => Alain
+                                    [email] => bergeau_a@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => Mercedes851
+                                    [birthday] => 1953-11-23 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 401
+                                    [NbPointsRestants] => 401
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48414
+                                                            [alias] => 85180 CHATEAU-D'OLONNE
+                                                            [address1] => 
+                                                            [address2] => 
+                                                            [city] => CHATEAU-D'OLONNE
+                                                            [postcode] => 85180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => BERGEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48415
+                                                            [alias] => 85180 CHATEAU-D'OLONNE
+                                                            [address1] => 21, AVENUE DES GENETS
+                                                            [address2] => 
+                                                            [city] => CHATEAU-D'OLONNE
+                                                            [postcode] => 85180
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alain
+                                                            [lastname] => BERGEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

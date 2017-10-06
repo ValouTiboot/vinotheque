@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 77475
+    [IdTransaction] => 59ba47b9d5f84edabef51e717849a12c
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [36364] => Array
+                                (
+                                    [notiers] => 36364
+                                    [lastname] => PEISSEL
+                                    [firstname] => Manon
+                                    [email] => manonpeissel@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Heureuse1
+                                    [birthday] => 1994-08-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 109
+                                    [NbPointsRestants] => 109
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 48780
+                                                            [alias] => 33210 LEOGEATS
+                                                            [address1] => La Herrade Brouquet
+                                                            [address2] => 
+                                                            [city] => LEOGEATS
+                                                            [postcode] => 33210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manon
+                                                            [lastname] => PEISSEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 48781
+                                                            [alias] => 33210 LEOGEATS
+                                                            [address1] => La Herrade Brouquet
+                                                            [address2] => 
+                                                            [city] => LEOGEATS
+                                                            [postcode] => 33210
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Manon
+                                                            [lastname] => PEISSEL
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

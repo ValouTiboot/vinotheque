@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78264
+    [IdTransaction] => b4861fe6ef4749a8a6d4518288239f6a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [26294] => Array
+                                (
+                                    [notiers] => 26294
+                                    [lastname] => ROUSSEAU
+                                    [firstname] => Isabelle
+                                    [email] => isa.rousseau@numericable.fr
+                                    [id_gender] => 2
+                                    [passwd] => MAGASIN
+                                    [birthday] => 1957-05-06 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 32436
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => 30, RUE DE LA BERTRANNE
+                                                            [address2] => 
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => ROUSSEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 32437
+                                                            [alias] => 64600 ANGLET
+                                                            [address1] => 30, RUE DE LA BERTRANNE
+                                                            [address2] => 
+                                                            [city] => ANGLET
+                                                            [postcode] => 64600
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Isabelle
+                                                            [lastname] => ROUSSEAU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

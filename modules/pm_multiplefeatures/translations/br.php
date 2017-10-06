@@ -1,0 +1,24 @@
+<?php
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ea5de6df52b20212860e67f9e35d8f26'] = 'Permitir definir vários valores de recursos por recursos';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_e7fd45d4d37d3d4ec8b2543c9fc48269'] = 'Documentação on-line';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_9f5ab71ba0b877b73860c16e009727bf'] = 'Contatar suporte';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_4f37eb0beac84e6b0ea6938dddc52dd8'] = 'A configuração foi salva com sucesso';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_254f642527b45bc260048e30704edb39'] = 'Configuração';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_338ce42954329122f9e4f8af16a90645'] = 'Separador de recursos';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ca328870f42ba5b281ca2ca498d515d5'] = 'Defina aqui o caractere usado para separar vários valores de recursos';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_c9cc8cce247e49bae79f15173ce97354'] = 'Salvar';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_1dfe1f4d7214136e5d6f8fdd48c87192'] = 'Recursos disponíveis:';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ed4f68734198a7886f29f1be067f454c'] = 'Recursos disponíveis (%nbResults% encontrado):';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_13348442cc6a27032d2b4aa28b75a5d3'] = 'Pesquisa';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_94abb2162ce5027d9673dcb067505e23'] = 'Recursos selecionados:';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_4f513db70f4e183177ac2ee3b3b7d76f'] = 'Adicionar tudo';
+$_MODULE['<{pm_multiplefeatures}prestashop>pm_multiplefeatures_ed4e0a0aae1c5f8eebeefb2d24e746bc'] = 'Deletar tudo';
+$_MODULE['<{pm_multiplefeatures}prestashop>cs-addons_6d13a2fe59ad551c5dfba7e9edde0009'] = 'Veja todos os nossos módulos';
+$_MODULE['<{pm_multiplefeatures}prestashop>cs_6d13a2fe59ad551c5dfba7e9edde0009'] = 'Veja todos os nossos módulos';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_9458c1f475a5e4fa0804bfbc23599830'] = 'Você está satisfeito com nosso módulo e quer nos encorajar a adicionar novas funcionalidades?';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_a66c86446aba3bc66d95d286c8e134d8'] = 'Por favor avalie no Prestashop Addons, e nos dê 5 estrelas!';
+$_MODULE['<{pm_multiplefeatures}prestashop>rating_280234c3f9b5e5a6e7a904645520ccf5'] = 'Não, obrigado, eu não quero lhe ajudar. Feche esta caixa de diálogo.';
+$_MODULE['<{pm_multiplefeatures}prestashop>support_e9be76a44ba1c2521b80bc4a126e017a'] = 'Links úteis';
+$_MODULE['<{pm_multiplefeatures}prestashop>support_9370d76a427c948a3aaa198af8bb7e33'] = 'Versão do módulo:';

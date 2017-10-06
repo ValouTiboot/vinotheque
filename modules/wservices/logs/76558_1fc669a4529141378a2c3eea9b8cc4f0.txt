@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 76558
+    [IdTransaction] => 1fc669a4529141378a2c3eea9b8cc4f0
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32589] => Array
+                                (
+                                    [notiers] => 32589
+                                    [lastname] => LAISNE
+                                    [firstname] => Solange
+                                    [email] => solangemarigny@hotmail.fr
+                                    [id_gender] => 2
+                                    [passwd] => client
+                                    [birthday] => 1944-02-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 54
+                                    [NbPointsRestants] => 54
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42443
+                                                            [alias] => 06200 NICE
+                                                            [address1] => 230, AVENUE DE FABRON
+                                                            [address2] => C2
+                                                            [city] => NICE
+                                                            [postcode] => 06200
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Solange
+                                                            [lastname] => LAISNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42444
+                                                            [alias] => 35560 BAZOUGES-LA-PEROUSE
+                                                            [address1] => LA BUFFETAIS
+                                                            [address2] => 
+                                                            [city] => BAZOUGES-LA-PEROUSE
+                                                            [postcode] => 35560
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Solange
+                                                            [lastname] => LAISNE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

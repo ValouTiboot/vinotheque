@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82207
+    [IdTransaction] => 01077c5927434ed1be5740a3feb96eae
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30840] => Array
+                                (
+                                    [notiers] => 30840
+                                    [lastname] => BARBLEU
+                                    [firstname] => Yannick
+                                    [email] => ybarbleu@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => eliot1vin
+                                    [birthday] => 1975-04-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 156
+                                    [NbPointsRestants] => 156
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39560
+                                                            [alias] => 01300 BELLEY
+                                                            [address1] => 55, impasse Paul Gauguin
+                                                            [address2] => 
+                                                            [city] => BELLEY
+                                                            [postcode] => 01300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => BARBLEU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39561
+                                                            [alias] => 01300 BELLEY
+                                                            [address1] => 55, impasse Paul Gauguin
+                                                            [address2] => 
+                                                            [city] => BELLEY
+                                                            [postcode] => 01300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Yannick
+                                                            [lastname] => BARBLEU
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

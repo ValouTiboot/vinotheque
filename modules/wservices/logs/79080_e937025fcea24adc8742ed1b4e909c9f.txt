@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79080
+    [IdTransaction] => e937025fcea24adc8742ed1b4e909c9f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25707] => Array
+                                (
+                                    [notiers] => 25707
+                                    [lastname] => BONJOUR
+                                    [firstname] => Thomas
+                                    [email] => thomasbonjour@hotmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => pompom
+                                    [birthday] => 1976-03-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 523
+                                    [NbPointsRestants] => 523
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31579
+                                                            [alias] => 97414 ENTRE-DEUX
+                                                            [address1] => 38, Grand fond intérieur
+                                                            [address2] => 
+                                                            [city] => ENTRE-DEUX
+                                                            [postcode] => 97414
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => BONJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31580
+                                                            [alias] => 69390 CARLY
+                                                            [address1] => 18, rue gobins
+                                                            [address2] => 
+                                                            [city] => CARLY
+                                                            [postcode] => 69390
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thomas
+                                                            [lastname] => BONJOUR
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

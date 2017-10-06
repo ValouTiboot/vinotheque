@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74341
+    [IdTransaction] => 06ff3ee21e714f34a672a4521324397d
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34642] => Array
+                                (
+                                    [notiers] => 34642
+                                    [lastname] => BRIDIER
+                                    [firstname] => Thierry
+                                    [email] => bridierthierry@gmail.fr
+                                    [id_gender] => 1
+                                    [passwd] => papytilly
+                                    [birthday] => 1952-01-14 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 376
+                                    [NbPointsRestants] => 376
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 45967
+                                                            [alias] => 50 SAINT-PAIR-SUR-MER
+                                                            [address1] => 8, Kairon plage
+                                                            [address2] => La Norma
+                                                            [city] => SAINT-PAIR-SUR-MER
+                                                            [postcode] => 50
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BRIDIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 45968
+                                                            [alias] => 50 SAINT-PAIR-SUR-MER
+                                                            [address1] => 8, Laiton plage
+                                                            [address2] => La Norma
+                                                            [city] => SAINT-PAIR-SUR-MER
+                                                            [postcode] => 50
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Thierry
+                                                            [lastname] => BRIDIER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

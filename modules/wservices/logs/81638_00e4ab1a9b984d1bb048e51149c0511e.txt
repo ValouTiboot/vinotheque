@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 81638
+    [IdTransaction] => 00e4ab1a9b984d1bb048e51149c0511e
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34036] => Array
+                                (
+                                    [notiers] => 34036
+                                    [lastname] => CRUSE BARDINET
+                                    [firstname] => Anabelle
+                                    [email] => acb@chateau-corbin.com
+                                    [id_gender] => 2
+                                    [passwd] => corbin
+                                    [birthday] => 1967-11-02 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 1260
+                                    [NbPointsRestants] => 1260
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44926
+                                                            [alias] => 33330 SAINT-EMILION
+                                                            [address1] => ST EMILION
+                                                            [address2] => CHATEAU CORBIN
+                                                            [city] => SAINT-EMILION
+                                                            [postcode] => 33330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anabelle
+                                                            [lastname] => CRUSE BARDINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44927
+                                                            [alias] => 33330 SAINT-EMILION
+                                                            [address1] => ST EMILION
+                                                            [address2] => CHATEAU CORBIN
+                                                            [city] => SAINT-EMILION
+                                                            [postcode] => 33330
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Anabelle
+                                                            [lastname] => CRUSE BARDINET
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

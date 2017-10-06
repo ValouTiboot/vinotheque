@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80978
+    [IdTransaction] => 1021c1522071450e895adc2074b7d7fd
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [28805] => Array
+                                (
+                                    [notiers] => 28805
+                                    [lastname] => GRANDIN
+                                    [firstname] => Steeve
+                                    [email] => steevegrandin@yahoo.fr
+                                    [id_gender] => 1
+                                    [passwd] => SG16021982
+                                    [birthday] => 1982-02-16 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 128
+                                    [NbPointsRestants] => 128
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36334
+                                                            [alias] => 94430 CHENNEVIERS SUR MARNE
+                                                            [address1] => 2, Avenue Claude Debussy
+                                                            [address2] => 2 etage
+                                                            [city] => CHENNEVIERS SUR MARNE
+                                                            [postcode] => 94430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Steeve
+                                                            [lastname] => GRANDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36335
+                                                            [alias] => 94430 CHENNEVIERS SUR MARNE
+                                                            [address1] => 2, Avenue Claude Debussy
+                                                            [address2] => 2 etage
+                                                            [city] => CHENNEVIERS SUR MARNE
+                                                            [postcode] => 94430
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Steeve
+                                                            [lastname] => GRANDIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

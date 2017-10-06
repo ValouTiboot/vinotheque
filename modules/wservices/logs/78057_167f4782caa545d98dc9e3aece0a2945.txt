@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78057
+    [IdTransaction] => 167f4782caa545d98dc9e3aece0a2945
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [25450] => Array
+                                (
+                                    [notiers] => 25450
+                                    [lastname] => LEBLOND
+                                    [firstname] => Jany
+                                    [email] => leblondjany@yahoo.fr
+                                    [id_gender] => 2
+                                    [passwd] => magasin
+                                    [birthday] => 1947-07-18 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 31169
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 7, rue du jardin public
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jany
+                                                            [lastname] => LEBLOND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 31170
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 7, rue du jardin public
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jany
+                                                            [lastname] => LEBLOND
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

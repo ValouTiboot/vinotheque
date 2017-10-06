@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 79189
+    [IdTransaction] => c0202755e28d464f9a2a776a41bed51f
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34865] => Array
+                                (
+                                    [notiers] => 34865
+                                    [lastname] => DUBOST
+                                    [firstname] => Sara
+                                    [email] => saradubost@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => Gymnastique33
+                                    [birthday] => 1989-03-26 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 32
+                                    [NbPointsRestants] => 32
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46332
+                                                            [alias] => 33510 ANDERNOS
+                                                            [address1] => 6, avenue jean marcel despagnes
+                                                            [address2] => 
+                                                            [city] => ANDERNOS
+                                                            [postcode] => 33510
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sara
+                                                            [lastname] => DUBOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46333
+                                                            [alias] => 92300 LEVALLOIS-PERRET
+                                                            [address1] => 55, RUE ANATOLE FRANCE
+                                                            [address2] => 
+                                                            [city] => LEVALLOIS-PERRET
+                                                            [postcode] => 92300
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Sara
+                                                            [lastname] => DUBOST
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

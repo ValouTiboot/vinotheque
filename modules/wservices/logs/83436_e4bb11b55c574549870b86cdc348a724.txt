@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 83436
+    [IdTransaction] => e4bb11b55c574549870b86cdc348a724
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [33525] => Array
+                                (
+                                    [notiers] => 33525
+                                    [lastname] => CAMPOS
+                                    [firstname] => Marine
+                                    [email] => mhqa@yahoo.com
+                                    [id_gender] => 2
+                                    [passwd] => sentinel
+                                    [birthday] => 1977-05-15 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 158
+                                    [NbPointsRestants] => 158
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 44018
+                                                            [alias] => 01220 DIVONNE-LES-BAINS
+                                                            [address1] => 298, rue de Lausanne
+                                                            [address2] => 
+                                                            [city] => DIVONNE-LES-BAINS
+                                                            [postcode] => 01220
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marine
+                                                            [lastname] => CAMPOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 44019
+                                                            [alias] => 92380 GARCHES
+                                                            [address1] => 48, rue du 19 janvier
+                                                            [address2] => Résidence de L'Orée du Golf
+                                                            [city] => GARCHES
+                                                            [postcode] => 92380
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Marine
+                                                            [lastname] => CAMPOS
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 75032
+    [IdTransaction] => 2aa7eb011ab94414af4f8ac43e17df8a
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34938] => Array
+                                (
+                                    [notiers] => 34938
+                                    [lastname] => MOMNOUGUI
+                                    [firstname] => Jacques-brice
+                                    [email] => gheinjuriste@juristime.com
+                                    [id_gender] => 1
+                                    [passwd] => borcam237
+                                    [birthday] => 1983-12-19 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 45
+                                    [NbPointsRestants] => 45
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46446
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 27B, rue du Hâ
+                                                            [address2] => 
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques-brice
+                                                            [lastname] => MOMNOUGUI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46447
+                                                            [alias] => 78360 MONTESSON
+                                                            [address1] => 35, Chemin des Champs Roger
+                                                            [address2] => 
+                                                            [city] => MONTESSON
+                                                            [postcode] => 78360
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Jacques-brice
+                                                            [lastname] => MOMNOUGUI
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

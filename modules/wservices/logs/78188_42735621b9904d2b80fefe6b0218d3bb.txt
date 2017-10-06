@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 78188
+    [IdTransaction] => 42735621b9904d2b80fefe6b0218d3bb
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [34712] => Array
+                                (
+                                    [notiers] => 34712
+                                    [lastname] => MAGDELAINE
+                                    [firstname] => Gwenole
+                                    [email] => magdelaine.gwenole@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => uf25ah51
+                                    [birthday] => 1980-07-21 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 40
+                                    [NbPointsRestants] => 40
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 46091
+                                                            [alias] => 42370 RENAISON
+                                                            [address1] => 295, rue de l'annexe
+                                                            [address2] => 
+                                                            [city] => RENAISON
+                                                            [postcode] => 42370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gwenole
+                                                            [lastname] => MAGDELAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 46092
+                                                            [alias] => 42370 RENAISON
+                                                            [address1] => 295, rue de l'annexe
+                                                            [address2] => 
+                                                            [city] => RENAISON
+                                                            [postcode] => 42370
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Gwenole
+                                                            [lastname] => MAGDELAINE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

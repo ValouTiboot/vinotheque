@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 80975
+    [IdTransaction] => f3e9c2294cc54ac2a250eab7dfc9e3b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30535] => Array
+                                (
+                                    [notiers] => 30535
+                                    [lastname] => DEMOLIN
+                                    [firstname] => Alban
+                                    [email] => alban.demolin@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => 220588
+                                    [birthday] => 1988-05-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 79
+                                    [NbPointsRestants] => 79
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39021
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 12, rue roger allo
+                                                            [address2] => 2eme etage gauche
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alban
+                                                            [lastname] => DEMOLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39022
+                                                            [alias] => 33000 BORDEAUX
+                                                            [address1] => 12, rue roger allo
+                                                            [address2] => 2eme etage gauche
+                                                            [city] => BORDEAUX
+                                                            [postcode] => 33000
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Alban
+                                                            [lastname] => DEMOLIN
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

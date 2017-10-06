@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82277
+    [IdTransaction] => 91605dd5583041a99eff9500ff228bb1
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [32389] => Array
+                                (
+                                    [notiers] => 32389
+                                    [lastname] => BAUER
+                                    [firstname] => Peter
+                                    [email] => mag.peter.bauer@hotmail.com
+                                    [id_gender] => 1
+                                    [passwd] => christof01
+                                    [birthday] => 1963-08-22 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 38
+                                    [NbPointsRestants] => 38
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 42100
+                                                            [alias] => 4820 BAD ISCHL
+                                                            [address1] => 41, Traunkai
+                                                            [address2] => 
+                                                            [city] => BAD ISCHL
+                                                            [postcode] => 4820
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Peter
+                                                            [lastname] => BAUER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => AT
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 42101
+                                                            [alias] => 4820 BAD ISCHL
+                                                            [address1] => 41, Traunkai
+                                                            [address2] => 
+                                                            [city] => BAD ISCHL
+                                                            [postcode] => 4820
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Peter
+                                                            [lastname] => BAUER
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => AT
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

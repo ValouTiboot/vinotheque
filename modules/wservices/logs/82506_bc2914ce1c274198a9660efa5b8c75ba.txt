@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 82506
+    [IdTransaction] => bc2914ce1c274198a9660efa5b8c75ba
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [30807] => Array
+                                (
+                                    [notiers] => 30807
+                                    [lastname] => FERRIERE
+                                    [firstname] => Rudy
+                                    [email] => rudywodpecker@gmail.com
+                                    [id_gender] => 1
+                                    [passwd] => magasin
+                                    [birthday] => 1976-05-17 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 0
+                                    [NbPointsAcquits] => 0
+                                    [NbPointsRestants] => 0
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 39502
+                                                            [alias] => 17310 SAINT-PIERRE-D'OLERON
+                                                            [address1] => 23, ETCHEBARNE
+                                                            [address2] => 
+                                                            [city] => SAINT-PIERRE-D'OLERON
+                                                            [postcode] => 17310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rudy
+                                                            [lastname] => FERRIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 39503
+                                                            [alias] => 17310 SAINT-PIERRE-D'OLERON
+                                                            [address1] => 23, ETCHEBARNE
+                                                            [address2] => 
+                                                            [city] => SAINT-PIERRE-D'OLERON
+                                                            [postcode] => 17310
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Rudy
+                                                            [lastname] => FERRIERE
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

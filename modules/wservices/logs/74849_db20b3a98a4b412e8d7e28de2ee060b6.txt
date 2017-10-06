@@ -1,0 +1,85 @@
+Array
+(
+    [NoJSON] => 74849
+    [IdTransaction] => db20b3a98a4b412e8d7e28de2ee060b6
+    [Modèle] => CLT
+    [Type] => INS
+    [DateTransaction] => /Date(1504705322303-0000)/
+    [Transaction] => Array
+        (
+            [0] => Array
+                (
+                    [clients] => Array
+                        (
+                            [29154] => Array
+                                (
+                                    [notiers] => 29154
+                                    [lastname] => CHOCHOY
+                                    [firstname] => Camille
+                                    [email] => camille.chochoy@gmail.com
+                                    [id_gender] => 2
+                                    [passwd] => emmanuel1979
+                                    [birthday] => 1979-07-24 00:00:00
+                                    [active] => 1
+                                    [optin] => 0
+                                    [newsletter] => 0
+                                    [siret] => 
+                                    [ape] => 
+                                    [NbPointsConsommes] => 350
+                                    [NbPointsAcquits] => 584
+                                    [NbPointsRestants] => 234
+                                    [adresses] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [1] => Array
+                                                        (
+                                                            [rank] => 1
+                                                            [noadresse] => 36807
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 77, rue des capucins
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Camille
+                                                            [lastname] => CHOCHOY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [rank] => 2
+                                                            [noadresse] => 36808
+                                                            [alias] => 51100 REIMS
+                                                            [address1] => 77, rue des capucins
+                                                            [address2] => 
+                                                            [city] => REIMS
+                                                            [postcode] => 51100
+                                                            [phone] => 
+                                                            [phone_mobile] => 
+                                                            [company] => 
+                                                            [firstname] => Camille
+                                                            [lastname] => CHOCHOY
+                                                            [other] => 
+                                                            [active] => 1
+                                                            [id_country] => FR
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
