@@ -36,6 +36,7 @@ class Stripe_official extends PaymentModule
     const _FLAG_MAIL_ = 8;
     const _FLAG_NO_FLUSH__ = 16;
     const _FLAG_FLUSH__ = 32;
+    const _PENDING_SOFORT_ = 4;
 
     /* Stripe Pre fix */
     const _PS_STRIPE_ = '_PS_STRIPE_';
@@ -69,7 +70,7 @@ class Stripe_official extends PaymentModule
     {
         $this->name = 'stripe_official';
         $this->tab = 'payments_gateways';
-        $this->version = '1.4.2';
+        $this->version = '1.5.0';
         $this->author = '202 ecommerce';
         $this->bootstrap = true;
         $this->display = 'view';
@@ -121,18 +122,32 @@ class Stripe_official extends PaymentModule
         if (!parent::install()) {
             return false;
         }
+
+        if (!Configuration::updateValue(self::_PS_STRIPE_.'mode', 1)
+            || !Configuration::updateValue(self::_PS_STRIPE_.'refund_mode', 1)
+            || !Configuration::updateValue(self::_PS_STRIPE_.'secure', 1)
+            || !Configuration::updateValue('STRIPE_ENABLE_IDEAL', 0)
+            || !Configuration::updateValue('STRIPE_ENABLE_SOFORT', 0)
+            || !Configuration::updateValue('STRIPE_ENABLE_GIROPAY', 0)
+            || !Configuration::updateValue('STRIPE_ENABLE_BANCONTACT', 0)) {
+                 return false;
+        }
+
         if (!$this->registerHook('header')
             || !$this->registerHook('orderConfirmation')
             || !$this->registerHook('paymentOptions')
             || !$this->registerHook('adminOrder')) {
             return false;
         }
-        if (!Configuration::updateValue(self::_PS_STRIPE_.'mode', 1)
-            || !Configuration::updateValue(self::_PS_STRIPE_.'refund_mode', 1)
-            || !Configuration::updateValue(self::_PS_STRIPE_.'secure', 1)) {
+
+        if (!$this->createStripePayment()) {
             return false;
         }
-        $this->createStripePayment();
+        
+        if (!$this->installOrderState()) {
+            return false;
+        }
+
 
         return true;
     }
@@ -150,6 +165,40 @@ class Stripe_official extends PaymentModule
             && Configuration::updateValue(self::_PS_STRIPE_.'secure', '')
             && Configuration::updateValue(self::_PS_STRIPE_.'test_publishable', '');
     }
+
+    /**
+     * Create order state
+     * @return boolean
+     */
+    public function installOrderState()
+    {
+        if (!Configuration::get('STRIPE_OS_SOFORT_WAITING')
+            || !Validate::isLoadedObject(new OrderState(Configuration::get('STRIPE_OS_SOFORT_WAITING')))) {
+            $order_state = new OrderState();
+            $order_state->name = array();
+            foreach (Language::getLanguages() as $language) {
+                if (Tools::strtolower($language['iso_code']) == 'fr') {
+                    $order_state->name[$language['id_lang']] = 'En attente de paiement Sofort';
+                } else {
+                    $order_state->name[$language['id_lang']] = 'Awaiting for Sofort payment';
+                }
+            }
+            $order_state->send_email = false;
+            $order_state->color = '#4169E1';
+            $order_state->hidden = false;
+            $order_state->delivery = false;
+            $order_state->logable = false;
+            $order_state->invoice = false;
+            if ($order_state->add()) {
+                $source = _PS_MODULE_DIR_.'stripe_official/views/img/cc-sofort.png';
+                $destination = _PS_ROOT_DIR_.'/img/os/'.(int) $order_state->id.'.gif';
+                copy($source, $destination);
+            }
+            Configuration::updateValue('STRIPE_OS_SOFORT_WAITING', (int) $order_state->id);
+        }
+        return true;
+    }
+
 
     /* Create Database Stripe Payment */
     protected function createStripePayment()
@@ -332,8 +381,7 @@ class Stripe_official extends PaymentModule
             $this->displayTransaction(),
             $this->displaySecure(),
             $this->displayRefundForm(),
-            $this->displayFAQ(),
-            $this->displayContact()
+            $this->displayFAQ()
         );
 
         if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") {
@@ -383,15 +431,9 @@ class Stripe_official extends PaymentModule
                     'badge' => $this->getBadgesClass(),
                 ),
                 array(
-                    'name' => $this->l('FAQ'),
+                    'name' => $this->l('Contact and FAQ'),
                     'icon' => 'icon-question',
                     'value' => $content[5],
-                    'badge' => $this->getBadgesClass(),
-                ),
-                array(
-                    'name' => $this->l('Contact'),
-                    'icon' => 'icon-envelope',
-                    'value' => $content[6],
                     'badge' => $this->getBadgesClass(),
                 ),
             ),
@@ -472,6 +514,10 @@ class Stripe_official extends PaymentModule
                 }
                 Configuration::updateValue(self::_PS_STRIPE_.'mode', Tools::getValue(self::_PS_STRIPE_.'mode'));
             }
+            Configuration::updateValue('STRIPE_ENABLE_IDEAL', Tools::getValue('ideal'));
+            Configuration::updateValue('STRIPE_ENABLE_SOFORT', Tools::getValue('sofort'));
+            Configuration::updateValue('STRIPE_ENABLE_GIROPAY', Tools::getValue('giropay'));
+            Configuration::updateValue('STRIPE_ENABLE_BANCONTACT', Tools::getValue('bancontact'));
         }
     }
 
@@ -524,7 +570,6 @@ class Stripe_official extends PaymentModule
 
             $this->apiRefund($refund[0]['id_stripe'], $refund[0]['currency'], $mode, $refund[0]['id_cart'], $amount);
         }
-
     }
 
     /*
@@ -536,7 +581,8 @@ class Stripe_official extends PaymentModule
      */
     public function getContent()
     {
-
+       // print_r($this->context->link->getModuleLink($this->name, 'stripeWebhook', array(), true));die;
+        $this->_postProcess();
         /* Check if SSL is enabled */
         if (!Configuration::get('PS_SSL_ENABLED')) {
             $this->errors[] = $this->l('A SSL certificate is required to process credit card payments using Stripe. Please consult the FAQ.');
@@ -567,6 +613,12 @@ class Stripe_official extends PaymentModule
         }
 
         return $html;
+    }
+
+    private function _postProcess()
+    {
+
+
     }
 
     /*
@@ -666,6 +718,128 @@ class Stripe_official extends PaymentModule
         return in_array($currency, $zeroDecimalCurrencies);
     }
 
+    public function createOrder($charge, $params)
+    {
+        if (($charge->status == 'succeeded' && $charge->object == 'charge' && $charge->id)
+            || ($charge->status == 'pending' && $charge->object == 'charge' && $charge->id && $params['type'] == 'sofort')) {
+            /* The payment was approved */
+            $message = 'Stripe Transaction ID: '.$charge->id;
+            $secure_key = isset($params['secureKey']) ? $params['secureKey'] : false;
+            try {
+                $paid = $this->isZeroDecimalCurrency($params['currency']) ? $params['amount'] : $params['amount'] / 100;
+                /* Add transaction on Prestashop back Office (Order) */
+                if ($params['type'] == 'sofort' && $charge->status == 'pending') {
+                    $status = Configuration::get('STRIPE_OS_SOFORT_WAITING');
+                } else {
+                    $status = Configuration::get('PS_OS_PAYMENT');
+                }
+                $this->validateOrder(
+                    (int)$charge->metadata->cart_id,
+                    (int)$status,
+                    $paid,
+                    $this->l('Payment by Stripe'),
+                    $message,
+                    array(),
+                    null,
+                    false,
+                    $secure_key
+                );
+            } catch (PrestaShopException $e) {
+                $this->_error[] = (string)$e->getMessage();
+            }
+
+            /* Add transaction on database */
+            if ($params['type'] == 'sofort' && $charge->status == 'pending') {
+                $result = self::_PENDING_SOFORT_;
+            } else {
+                $result = 1;
+            }
+            $this->addTentative(
+                $charge->id,
+                $charge->source->owner->name,
+                $params['type'],
+                $charge->amount,
+                0,
+                $charge->currency,
+                $result,
+                (int)$charge->metadata->cart_id
+            );
+            $id_order = Order::getOrderByCartId($params['cart_id']);
+
+            $ch = \Stripe\Charge::retrieve($charge->id);
+            $ch->description = "Order id: ".$id_order." - ".$params['carHolderEmail'];
+            $ch->save();
+            
+            /* Ajax redirection Order Confirmation */
+            return die(Tools::jsonEncode(array(
+                'chargeObject' => $charge,
+                'code' => '1',
+                'url' => Context::getContext()->link->getPageLink('order-confirmation', true).'?id_cart='.(int)$charge->metadata->cart_id.'&id_module='.(int)$this->id.'&id_order='.(int)$id_order.'&key='.$secure_key,
+            )));
+
+
+        } else {
+            $this->addTentative(
+                $charge->id,
+                $charge->source->owner->name,
+                $params['type'],
+                $charge->amount,
+                0,
+                $charge->currency,
+                0,
+                (int)$params['cart_id']
+            );
+            die(Tools::jsonEncode(array(
+                'code' => '0',
+                'msg' => $this->l('Payment declined. Unknown error, please use another card or contact us.'),
+            )));
+        }
+    }
+
+
+    public function chargeWebhook(array $params)
+    {
+        if (!$this->retrieveAccount($this->getSecretKey(), '', 1)) {
+            die(Tools::jsonEncode(array('code' => '0', 'msg' => $this->l('Invalid Stripe credentials, please check your configuration.'))));
+        }
+        try {
+            // Create the charge on Stripe's servers - this will charge the user's card
+            \Stripe\Stripe::setApiKey($this->getSecretKey());
+            \Stripe\Stripe::setAppInfo("StripePrestashop", $this->version, Configuration::get('PS_SHOP_DOMAIN_SSL'));
+
+            $cart = new Cart($params['cart_id']);
+            $address_delivery = new Address($cart->id_address_delivery);
+            $state_delivery = State::getNameById($address_delivery->id_state);
+            $cardHolderName = $params['cardHolderName'];
+
+            $charge = \Stripe\Charge::create(
+                array(
+                    "amount" => $params['amount'], // amount in cents, again
+                    "currency" => $params['currency'],
+                    "source" => $params['token'],
+                    "description" => $params['carHolderEmail'],
+                    "shipping" => array("address" => array("city" => $address_delivery->city,
+                        "country" => Country::getIsoById($address_delivery->id_country), "line1" => $address_delivery->address1,
+                        "line2" => $address_delivery->address2, "postal_code" => $address_delivery->postcode,
+                        "state" => $state_delivery), "name" => $cardHolderName),
+                    "metadata" => array(
+                        "cart_id" => $params['cart_id'],
+                        "verification_url" => Configuration::get('PS_SHOP_DOMAIN'),
+                    )
+                )
+            );
+        } catch (\Stripe\Error\Card $e) {
+            $refund = $params['amount'];
+            $this->addTentative($e->getMessage(), $params['cardHolderName'], $params['type'], $refund, $refund, $params['currency'], 0, (int)$params['cart_id']);
+            die(Tools::jsonEncode(array(
+                'code' => '0',
+                'msg' => $e->getMessage(),
+            )));
+        }
+
+        $this->createOrder($charge, $params);
+    }
+
     public function chargev2(array $params)
     {
         if (!$this->retrieveAccount($this->getSecretKey(), '', 1)) {
@@ -696,6 +870,10 @@ class Stripe_official extends PaymentModule
                         "country" => $this->context->country->iso_code, "line1" => $address_delivery->address1,
                         "line2" => $address_delivery->address2, "postal_code" => $address_delivery->postcode,
                         "state" => $state_delivery), "name" => $cardHolderName),
+                    "metadata" => array(
+                        "cart_id" => $this->context->cart->id,
+                        "verification_url" => Configuration::get('PS_SHOP_DOMAIN'),
+                    )
                 )
             );
         } catch (\Stripe\Error\Card $e) {
@@ -706,67 +884,10 @@ class Stripe_official extends PaymentModule
                 'msg' => $e->getMessage(),
             )));
         }
-
-        if ($charge->status == 'succeeded' && $charge->object == 'charge' && $charge->id) {
-            /* The payment was approved */
-            $message = 'Stripe Transaction ID: '.$charge->id;
-
-                $paid = $this->isZeroDecimalCurrency($params['currency']) ? $params['amount'] : $params['amount'] / 100;
-                /* Add transaction on Prestashop back Office (Order) */
-                parent::validateOrder(
-                    (int)$this->context->cart->id,
-                    (int)Configuration::get('PS_OS_PAYMENT'),
-                    (float)$paid,
-                    $this->l('Payment by Stripe'),
-                    $message,
-                    array(),
-                    null,
-                    false,
-                    $this->context->customer->secure_key
-                );
-
-
-            /* Add transaction on database */
-            $this->addTentative(
-                $charge->id,
-                $charge->source->owner->name,
-                $params['type'],
-                $charge->amount,
-                0,
-                $charge->currency,
-                1,
-                (int)$this->context->cart->id
-            );
-            $id_order = Order::getOrderByCartId($this->context->cart->id);
-
-            $ch = \Stripe\Charge::retrieve($charge->id);
-            $ch->description = "Order id: ".$id_order." - ".$this->context->customer->email;
-            $ch->save();
-
-            /* Ajax redirection Order Confirmation */
-            die(Tools::jsonEncode(array(
-                'chargeObject' => $charge,
-                'code' => '1',
-                'url' => Context::getContext()->link->getPageLink('order-confirmation', true).'?id_cart='.(int)$this->context->cart->id.'&id_module='.(int)$this->id.'&id_order='.(int)$id_order.'&key='.$this->context->customer->secure_key,
-            )));
-        } else {
-            /* The payment was declined */
-            /* Add transaction on database */
-            $this->addTentative(
-                $charge->id,
-                $charge->source->owner->name,
-                $params['type'],
-                $charge->amount,
-                0,
-                $charge->currency,
-                0,
-                (int)$this->context->cart->id
-            );
-            die(Tools::jsonEncode(array(
-                'code' => '0',
-                'msg' => $this->l('Payment declined. Unknown error, please use another card or contact us.'),
-            )));
-        }
+        $params['cart_id'] = $this->context->cart->id;
+        $params['carHolderEmail'] = $this->context->customer->email;
+        $params['secureKey'] =  $this->context->customer->secure_key;
+        $this->createOrder($charge, $params);
     }
 
     /*
@@ -775,7 +896,7 @@ class Stripe_official extends PaymentModule
      **
      ** @return: (none)
      */
-    private function addTentative($id_stripe, $name, $type, $amount, $refund, $currency, $result, $id_cart = 0)
+    private function addTentative($id_stripe, $name, $type, $amount, $refund, $currency, $result, $id_cart = 0, $mode = null)
     {
         if ($id_cart == 0) {
             $id_cart = (int)$this->context->cart->id;
@@ -811,12 +932,16 @@ class Stripe_official extends PaymentModule
             $refund /= 100;
         }
 
+        if ($mode === null) {
+            $mode = Configuration::get(self::_PS_STRIPE_.'mode');
+        }
+
         /* Add request on Database */
         Db::getInstance()->Execute(
             'INSERT INTO '._DB_PREFIX_
             .'stripe_payment (id_stripe, name, id_cart, type, amount, refund, currency, result, state, date_add)
             VALUES ("'.pSQL($id_stripe).'", "'.pSQL($name).'", \''.(int)$id_cart.'\', "'.pSQL(Tools::strtolower($type)).'", "'
-            .pSQL($amount).'", "'.pSQL($refund).'", "'.pSQL(Tools::strtolower($currency)).'", '.(int)$result.', '.(int)Configuration::get(self::_PS_STRIPE_.'mode').', NOW())'
+            .pSQL($amount).'", "'.pSQL($refund).'", "'.pSQL(Tools::strtolower($currency)).'", '.(int)$result.', '.(int)$mode.', NOW())'
         );
     }
 
@@ -830,8 +955,6 @@ class Stripe_official extends PaymentModule
             return $this->display(__FILE__, 'views/templates/front/order-confirmation.tpl');
         }
     }
-
-
 
 
 
@@ -893,9 +1016,6 @@ class Stripe_official extends PaymentModule
         $type = 'switch';
 
         $fields_form[0]['form'] = array(
-            'legend' => array(
-                'title' => $this->l('Stripe log in'),
-            ),
             'input' => array(
                 array(
                     'type' => $type,
@@ -918,6 +1038,15 @@ class Stripe_official extends PaymentModule
                     ),
                     array(
                         'type' => 'text',
+                        'label' => $this->l('Stripe Publishable Key'),
+                        'name' => self::_PS_STRIPE_.'publishable',
+                        'id' => 'public_key',
+                        'class' => 'fixed-width-xxl',
+                        'size' => 20,
+                        'required' => true
+                    ),
+                    array(
+                        'type' => 'text',
                         'label' => $this->l('Stripe Secrey Key'),
                         'name' => self::_PS_STRIPE_.'key',
                         'size' => 20,
@@ -927,9 +1056,9 @@ class Stripe_official extends PaymentModule
                     ),
                     array(
                         'type' => 'text',
-                        'label' => $this->l('Stripe Publishable Key'),
-                        'name' => self::_PS_STRIPE_.'publishable',
-                        'id' => 'public_key',
+                        'label' => $this->l('Stripe Test Publishable Key'),
+                        'name' => self::_PS_STRIPE_.'test_publishable',
+                        'id' => 'test_public_key',
                         'class' => 'fixed-width-xxl',
                         'size' => 20,
                         'required' => true
@@ -943,15 +1072,6 @@ class Stripe_official extends PaymentModule
                         'class' => 'fixed-width-xxl',
                         'required' => true
                     ),
-                    array(
-                        'type' => 'text',
-                        'label' => $this->l('Stripe Test Publishable Key'),
-                        'name' => self::_PS_STRIPE_.'test_publishable',
-                            'id' => 'test_public_key',
-                            'class' => 'fixed-width-xxl',
-                            'size' => 20,
-                            'required' => true
-                        ),
                     ),
                     'submit' => array(
                         'title' => $this->l('Save'),
@@ -967,8 +1087,16 @@ class Stripe_official extends PaymentModule
             self::_PS_STRIPE_.'test_key' => Configuration::get(self::_PS_STRIPE_.'test_key'),
             self::_PS_STRIPE_.'test_publishable' => Configuration::get(self::_PS_STRIPE_.'test_publishable'),
         ));
+        $this->context->smarty->assign(array(
+            'ideal' => Configuration::get('STRIPE_ENABLE_IDEAL'),
+            'sofort' => Configuration::get('STRIPE_ENABLE_SOFORT'),
+            'giropay' => Configuration::get('STRIPE_ENABLE_GIROPAY'),
+            'bancontact' => Configuration::get('STRIPE_ENABLE_BANCONTACT'),
+            'url_webhhoks' => $this->context->link->getModuleLink($this->name, 'webhook', array(), true),
+        ));
 
-        return $this->renderGenericForm($fields_form, $fields_value, $this->getSectionShape(), $submit_action);
+        $html = $this->display($this->_path, 'views/templates/admin/configuration.tpl');
+        return $this->renderGenericForm($fields_form, $fields_value, $this->getSectionShape(), $submit_action).$html;
     }
 
     /*
@@ -996,6 +1124,8 @@ class Stripe_official extends PaymentModule
                     $result = '';
                 } elseif ($order['result'] == 2) {
                     $result = 2;
+                } elseif ($order['result'] == self::_PENDING_SOFORT_) {
+                    $result = 4;
                 } else {
                     $result = 3;
                 }
@@ -1026,7 +1156,6 @@ class Stripe_official extends PaymentModule
 
             return $html;
         }
-
     }
 
     /*
@@ -1056,7 +1185,9 @@ class Stripe_official extends PaymentModule
                 ),
                 array(
                     'type' => 'radio',
-                    'desc' => '<i>'.$this->l('Refunds take 5 to 10 days to appear on your customer\'s statement').'</i>',
+                    'desc' => '<i>'.$this->l('We’ll submit any refund you make to your customer’s bank immediately.').'<br>'.
+                        $this->l('Your customer will then receive the funds from a refund approximately 2-3 business days after the date on which the refund was initiated.').'<br>'.
+                        $this->l('Refunds take 5 to 10 days to appear on your cutomer’s statement.').'</i>',
                     'name' => self::_PS_STRIPE_.'refund_mode',
                     'size' => 50,
                     'values' => array(
@@ -1146,14 +1277,6 @@ class Stripe_official extends PaymentModule
         return $this->display($this->_path, 'views/templates/admin/faq.tpl');
     }
 
-    /*
-     ** Generate Contact
-     */
-    public function displayContact()
-    {
-        $this->getSectionShape();
-        return $this->display($this->_path, 'views/templates/admin/contact.tpl');
-    }
 
     /*
      ** @Method: displaySomething
@@ -1341,25 +1464,110 @@ class Stripe_official extends PaymentModule
             $cc_img = 'logo-payment.png';
         }
         $embeddedOption->setCallToActionText($this->l('Pay by card'))
-                       ->setForm($this->generateForm())
+                       ->setForm($this->generateFormStripe())
                        ->setLogo(Media::getMediaPath(_PS_MODULE_DIR_.$this->name.'/views/img/'.$cc_img));
         $payment_options[] = $embeddedOption;
+        if ($this->context->currency->iso_code == "EUR") {
+            $address_invoice = new Address($this->context->cart->id_address_invoice);
+            $iso_country = Country::getIsoById($address_invoice->id_country);
+            $amount = $this->context->cart->getOrderTotal();
+            $currency = $this->context->currency->iso_code;
+            $amount = $this->isZeroDecimalCurrency($currency) ? $amount : $amount * 100;
+            $methods = array('ideal', 'sofort', 'bancontact', 'giropay');
+            foreach ($methods as $method) {
+                if (Configuration::get('STRIPE_ENABLE_'.Tools::strtoupper($method))) {
+                    if ($method == 'sofort' && !in_array($iso_country, array('AT', 'BE', 'DE', 'NL', 'ES', 'IT', 'FR'))) {
+                        continue;
+                    }
+
+                    $default_country = new Country(Configuration::get('PS_COUNTRY_DEFAULT'));
+
+                    $this->context->smarty->assign(
+                        array(
+                            'publishableKey' => $this->getPublishableKey(),
+                            'mode' => Configuration::get(self::_PS_STRIPE_.'mode'),
+                            'customer_name' => $this->context->customer->firstname.' '.$this->context->customer->lastname,
+                            'currency_stripe' => $currency,
+                            'amount_ttl' => $amount,
+                            'country_merchant' => Tools::strtolower($default_country->iso_code),
+                            'stripe_customer_email' => $this->context->customer->email,
+                            'stripe_order_url' => $this->context->link->getModuleLink($this->name, 'validation', array(), true),
+                            'stripe_cart_id' => $this->context->cart->id,
+                            'stripe_error' => Tools::getValue('stripe_error'),
+                            'payment_error_type' => Tools::getValue('type'),
+                            'payment_method' => $method,
+                            'stripe_failed' => Tools::getValue('stripe_failed'),
+                            'stripe_err_msg' => Tools::getValue('stripe_err_msg'),
+                            'verification_url' => Configuration::get('PS_SHOP_DOMAIN'),
+                        )
+                    );
+
+                    $payment_option = new PaymentOption();
+                    $payment_option->setCallToActionText($this->l('Pay by '.Tools::strtoupper($method)))
+                        ->setAction($this->context->link->getModuleLink($this->name, 'validation', array(), true))
+                        ->setLogo(Media::getMediaPath(_PS_MODULE_DIR_.$this->name.'/views/img/cc-'.$method.'.png'))
+                        ->setModuleName($method)
+                        ->setAdditionalInformation($this->context->smarty->fetch('module:'.$this->name.'/views/templates/hook/modal_stripe.tpl'));
+                    $payment_options[] = $payment_option;
+                }
+            }
+        }
         return $payment_options;
+    }
+
+    protected  function generateHiddenForm($method)
+    {
+        $context = $this->context;
+
+        $amount = $this->context->cart->getOrderTotal();
+        $currency = $this->context->currency->iso_code;
+        $amount = $this->isZeroDecimalCurrency($currency) ? $amount : $amount * 100;
+        $ajax_link = $context->link->getModuleLink('stripe_official', 'ajax', array(), true);
+
+        $default_country = new Country(Configuration::get('PS_COUNTRY_DEFAULT'));
+
+        $this->context->smarty->assign(
+            array(
+                'publishableKey' => $this->getPublishableKey(),
+                'mode' => Configuration::get(self::_PS_STRIPE_.'mode'),
+                'customer_name' => $this->context->customer->firstname.' '.$this->context->customer->lastname,
+                'currency_stripe' => $currency,
+                'amount_ttl' => $amount,
+                'country_merchant' => Tools::strtolower($default_country->iso_code),
+                'ajaxUrlStripe' => $ajax_link,
+                'stripe_customer_email' => $this->context->customer->email,
+                'stripe_client_secret' => Tools::getValue('client_secret') ? Tools::getValue('client_secret') : '',
+                'stripe_source' => Tools::getValue('source') ? Tools::getValue('source') : '',
+                'stripe_order_url' => $this->context->link->getPageLink('order'),
+                'stripe_cart_id' => $this->context->cart->id,
+                'stripe_error' => Tools::getValue('stripe_error'),
+                'payment_error_type' => Tools::getValue('type'),
+                'payment_method' => $method,
+            )
+        );
+
+        return $this->context->smarty->fetch('module:'.$this->name.'/views/templates/front/modal_stripe.tpl');
     }
 
 
     public function hookHeader()
     {
-        if (Tools::getValue('controller') == "order") {
-            $this->context->controller->registerStylesheet($this->name.'-frontcss', 'modules/'.$this->name.'/views/css/front.css');
-            $this->context->controller->registerJavascript($this->name.'-stipeV2', 'https://js.stripe.com/v2/', array('server'=>'remote'));
-            $this->context->controller->registerJavascript($this->name.'-paymentjs', 'modules/'.$this->name.'/views/js/payment_stripe.js');
-            $this->context->controller->registerJavascript($this->name.'-modaljs', 'modules/'.$this->name.'/views/js/jquery.the-modal.js');
-            $this->context->controller->registerStylesheet($this->name.'-modalcss', 'modules/'.$this->name.'/views/css/the-modal.css');
+        $context = $this->context;
+        if ($context->controller->php_self == 'order') {
+            $context->controller->registerStylesheet($this->name.'-frontcss', 'modules/'.$this->name.'/views/css/front.css');
+            $context->controller->registerJavascript($this->name.'-stipeV2', 'https://js.stripe.com/v2/', array('server'=>'remote'));
+            $context->controller->registerJavascript($this->name.'-stipeV3', 'https://js.stripe.com/v3/', array('server'=>'remote'));
+            $context->controller->registerJavascript($this->name.'-paymentjs', 'modules/'.$this->name.'/views/js/payment_stripe.js');
+            $context->controller->registerJavascript($this->name.'-modaljs', 'modules/'.$this->name.'/views/js/jquery.the-modal.js');
+            $context->controller->registerStylesheet($this->name.'-modalcss', 'modules/'.$this->name.'/views/css/the-modal.css');
+
+            if (Configuration::get('STRIPE_ENABLE_IDEAL') || Configuration::get('STRIPE_ENABLE_GIROPAY') || Configuration::get('STRIPE_ENABLE_BANCONTACT') || Configuration::get('STRIPE_ENABLE_SOFORT')) {
+                $context->controller->registerJavascript($this->name.'-stripemethods', 'modules/'.$this->name.'/views/js/stripe-push-methods.js');
+            }
         }
     }
 
-    protected function generateForm()
+    protected function generateFormStripe()
     {
         if (Configuration::get('PS_SSL_ENABLED')) {
             $context = $this->context;
@@ -1385,19 +1593,21 @@ class Stripe_official extends PaymentModule
             );
 
             $domain = $context->link->getBaseLink($context->shop->id, true);
-     
+            $ajax_link = $context->link->getModuleLink('stripe_official', 'ajax', array(), true);
             $this->context->smarty->assign(
                 array(
                     'publishableKey' => $this->getPublishableKey(),
                     'mode' => Configuration::get(self::_PS_STRIPE_.'mode'),
                     'customer_name' => $this->context->customer->firstname.' '.$this->context->customer->lastname,
-                    'currency' => $currency,
-                    'amount_ttl' => $amount,
+                    'currency_stripe' => $currency,
                     'baseDir' => $domain,
                     'secure_mode' => $secure_mode_all,
                     'stripe_mode' => Configuration::get(self::_PS_STRIPE_.'mode'),
                     'module_dir' => $this->_path,
                     'billing_address' => Tools::jsonEncode($billing_address),
+                    'ajaxUrlStripe' => $ajax_link,
+                    'amount_ttl' => $amount,
+                    'stripeLanguageIso' => $this->context->language->iso_code,
                 )
             );
         }
