@@ -26,7 +26,10 @@
         });
 
         prestashop.on('updateCart', function(){
-            $.get(fes_ajax_url, {ajax: true}, function(data){$('#cart_fees').replaceWith(data.resp)}, 'json');
+            if (typeof fes_ajax_url != 'undefined')
+            {
+                $.get(fes_ajax_url, {ajax: true}, function(data){$('#cart_fees').replaceWith(data.resp)}, 'json');
+            }
         });
 
     });
