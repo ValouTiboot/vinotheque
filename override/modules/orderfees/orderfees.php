@@ -1,7 +1,9 @@
 <?php
 
 class OrderFeesOverride extends OrderFees
-{	
+{
+    public $_path;
+
 	public function registerHooks()
     {
         return parent::registerHooks()
@@ -95,7 +97,6 @@ class OrderFeesOverride extends OrderFees
     {
         if ($setting & self::IS_ORDER) {
             $order = $params['order'];
-            
             $params['discounts'] = $this->getFeesByOrder(is_array($order) ? $order['id'] : $order);
         } else {
             $this->context->cart->current_type = self::DISABLE_CHECKING;

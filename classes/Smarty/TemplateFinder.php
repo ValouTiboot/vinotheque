@@ -50,7 +50,7 @@ class TemplateFinderCore
         $locale = (Validate::isLocale($locale)) ? $locale : '';
 
         $templates = $this->getTemplateHierarchy($template, $entity, $id);
-
+        
         foreach ($this->directories as $dir) {
             foreach ($templates as $tpl) {
                 if (is_file($dir.$locale.DIRECTORY_SEPARATOR.$tpl.$this->extension)) {

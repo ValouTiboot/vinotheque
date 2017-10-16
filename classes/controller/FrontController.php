@@ -194,7 +194,7 @@ class FrontControllerCore extends Controller
         } else {
             $useSSL = $this->ssl;
         }
-
+        
         $this->objectPresenter = new ObjectPresenter();
         $this->cart_presenter = new CartPresenter();
         $this->templateFinder = new TemplateFinder($this->context->smarty->getTemplateDir(), '.tpl');
