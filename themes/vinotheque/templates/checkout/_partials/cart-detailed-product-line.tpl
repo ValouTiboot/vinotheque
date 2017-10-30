@@ -134,13 +134,11 @@
           </div>
           <div class="col-md-7 col-6 price">
             <span class="product-price">
-              <strong>
                 {if isset($product.is_gift) && $product.is_gift}
                   <span class="gift">{l s='Gift' d='Shop.Theme.Checkout'}</span>
                 {else}
                   {$product.total}
                 {/if}
-              </strong>
             </span>
           </div>
         </div>

@@ -25,11 +25,17 @@
           font-size: rem(40px);
         }
       }
-      &.customer-service .phone_number {
-        color: $green-darker;
-        font-weight: bold;
-        font-size: rem(23px);
-        line-height: rem(30px);
+      &.customer-service {
+        .phone_number {
+          color: $green-darker;
+          font-weight: bold;
+          font-size: rem(23px);
+          line-height: rem(30px);
+        }
+        .fa-envelope-o {
+          font-size: 1.8em;
+          vertical-align: sub;
+        }
       }
       &.ps-social-follow ul li {
         display: inline-block;

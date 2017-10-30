@@ -28,7 +28,10 @@
     <h4>{l s='Notre service client' d='Modules.Socialfollow.Shop'}</h4>
     <p>
 		{l s='Une question ?' d='Modules.Socialfollow.Shop'}<br>
-        <span class="phone_number">05 56 52 32 05</span>
+        <span class="phone_number">05 57 10 41 41</span>
+    </p>
+    <p>
+        <i class="fa fa-envelope-o"></i> <a href="mailto:noemie@la-vinotheque.com">noemie@la-vinotheque.com</a>
     </p>
 </div>
 

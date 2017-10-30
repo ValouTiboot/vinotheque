@@ -26,9 +26,23 @@
             rel="nofollow"
           >
             <i class="icon-v-user"></i>
-            <span>{l s='My account' d='Shop.Theme.Actions'}</span>
+            <span>
+              {if $logged}
+                {l s='My account' d='Shop.Theme.Actions'}
+              {else}
+                {l s='Connexion' d='Shop.Theme.Actions'}
+              {/if}
+            </span>
           </a>
         {*{/if}*}
       </div>
     </div>
 </div>
+
+{if !$logged}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.is_logged').remove();
+        });
+    </script>
+{/if}

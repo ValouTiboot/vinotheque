@@ -45,7 +45,7 @@
         <div class="col-md-6 col-lg-3 reassurance reassurance_header">
           <img src="{$urls.img_url|escape:'html':'UTF-8'}conseil.png" alt="{l s='Le conseil' d='Shop.Theme'}">
           <p class="reassurance_title">{l s='Le conseil' d='Shop.Theme'}</p>
-          <p>{l s='Nous sommes à votre écoute au' d='Shop.Theme'} <b>05 56 52 32 05</b>.</p>
+          <p>{l s='Nous sommes à votre écoute au' d='Shop.Theme'} <b>05 57 10 41 41</b>.</p>
         </div>
         <div class="col-md-6 col-lg-3 reassurance reassurance_header">
           <img src="{$urls.img_url|escape:'html':'UTF-8'}livraison.png" alt="{l s='Une livraison sur-mesure' d='Shop.Theme'}">

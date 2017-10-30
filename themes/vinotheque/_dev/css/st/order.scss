@@ -67,8 +67,8 @@ a.different-address, a.add-address {
 }
 
 #conditions-to-approve {
-  //margin-top: small-padding;
-  //margin-bottom: 2*small-padding;
+  margin-top: rem(30px);
+  margin-bottom: rem(25px);
   ul {
     margin: 0;
     padding: 0;
@@ -112,7 +112,7 @@ a.different-address, a.add-address {
     padding: rem(20px);
     .carrier-name {
       text-transform: uppercase;
-      font-weight: bold;
+      font-weight: 600;
       font-size: rem(14px);
     }
     .carrier-delay {
@@ -123,7 +123,7 @@ a.different-address, a.add-address {
       color: $red;
       text-transform: uppercase;
       font-size: rem(18px);
-      font-weight: bold;
+      font-weight: 600;
     }
   }
 }
@@ -154,6 +154,27 @@ a.different-address, a.add-address {
 .payment-options {
   .warning {
     color: orange;
+  }
+  .payment-option {
+    background: white;
+    border: 2px solid $gray-lighter;
+    //border: 2px solid $green-dark;
+    margin: 0 0 rem(7px);
+    padding: rem(20px);
+    .custom-radio {
+      float: left;
+    }
+    .col-12 {
+      padding: 0;
+    }
+    .js-additional-information {
+      margin-top: rem(15px);
+    }
+    label {
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-left: rem(15px);
+    }
   }
 }
 .selected-payment-option, [name="select_payment_option"] {

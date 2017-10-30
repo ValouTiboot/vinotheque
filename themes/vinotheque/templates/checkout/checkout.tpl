@@ -33,7 +33,7 @@
   <section id="content" class="container">
     <h1 class="page_title">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
 
-    <div class="cart_navigation">
+    <div class="cart_navigation row">
 		{block name='continue_shopping'}
           <a class="btn btn-secondary" href="{$urls.pages.index}">
             < {l s='Continue shopping' d='Shop.Theme.Actions'}

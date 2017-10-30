@@ -178,6 +178,9 @@ ul.related_blog_product li {
 	background-position: 99% 64%;
 	background-repeat: no-repeat;
 }
+#prestablog_accord .col-lg-4 {
+	max-width: 450px;
+}
 
 #prestablog_met_top {
 	background: url(../../../../assets/img/footer_bg_white.png) repeat-x left bottom,

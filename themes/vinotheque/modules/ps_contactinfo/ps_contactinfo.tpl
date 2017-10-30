@@ -28,7 +28,7 @@
   <p>
     <i class="icon-v-map"></i>
     {$contact_infos.address.address1} {$contact_infos.address.postcode} {$contact_infos.address.city}<br>
-    {$contact_infos.phone}
+    05 56 52 32 05
   </p>
   <span>{l s='Ouvert du Lundi au Samedi de 10h00 à 19h30 et le Dimanche de 11h00 à 19h30 sans interruption' d='Modules.Contactinfo.Shop'}</span>
 </div>

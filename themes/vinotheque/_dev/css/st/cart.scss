@@ -151,6 +151,7 @@
   }
   .cart_navigation {
     margin: rem(10px) 0 rem(30px);
+    justify-content: space-between;
   }
   .cart-overview {
     ul {
@@ -186,6 +187,9 @@
               top: 20%;
             }
           }
+          .qty {
+            z-index: 100;
+          }
           .price {
             text-align: right;
             line-height: rem(48px);
@@ -193,6 +197,7 @@
           .product-price {
             color: $red;
             font-size: rem(26px);
+            font-weight: 600;
           }
           a.remove-from-cart {
             color: $gray-darker;
@@ -221,9 +226,17 @@
       height: 100%;
       display: flex;
       align-items: center;
+      .col-md-5.col-6 {
+        z-index: 100;
+        #fees_cart_button {
+          padding-right: 0.9rem;
+          padding-left: 0.9rem;
+          cursor: pointer;
+        }
+      }
       .value {
         font-size: rem(26px);
-        font-weight: bolder;
+        font-weight: 600;
         line-height: rem(42px);
         color: $green-even-darker;
       }
@@ -267,7 +280,7 @@
         .value {
           color: $red;
           font-size: rem(18px);
-          font-weight: bold;
+          font-weight: 600;
         }
       }
       .cart-subtotals > div {
@@ -339,6 +352,7 @@
   }
   .cart_navigation {
     margin: rem(10px) 0 rem(30px);
+    justify-content: space-between;
   }
   #checkout_details {
     > section > div {
