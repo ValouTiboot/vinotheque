@@ -12,7 +12,7 @@
           <div class="col-md-5 divide-right">
             <div class="row">
               <div class="col-md-6">
-                <img class="product-image" src="{$product.cover.medium.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
+                <img class="product-image" src="{if $product.cover}{$product.cover.medium.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{/if}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
               </div>
               <div class="col-md-6">
                 <h6 class="h6 product-name">{$product.name}</h6>

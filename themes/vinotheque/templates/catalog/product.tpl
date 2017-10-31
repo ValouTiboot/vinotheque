@@ -34,7 +34,7 @@
   <meta property="og:title" content="{$page.meta.title}">
   <meta property="og:site_name" content="{$shop.name}">
   <meta property="og:description" content="{$page.meta.description}">
-  <meta property="og:image" content="{$product.cover.large.url}">
+  <meta property="og:image" content="{if $product.cover}{$product.cover.large.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'large_default')|escape:'htmlall':'UTF-8'}{/if}">
   <meta property="product:pretax_price:amount" content="{$product.price_tax_exc}">
   <meta property="product:pretax_price:currency" content="{$currency.iso_code}">
   <meta property="product:price:amount" content="{$product.price_amount}">

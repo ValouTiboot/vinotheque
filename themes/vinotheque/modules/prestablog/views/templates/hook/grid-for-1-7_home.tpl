@@ -42,7 +42,7 @@
                                         <a href="{$product.url}" class="thumbnail product-thumbnail">
                                             <div>
                                                 <img
-                                                    src = "{$product.cover.medium.url}"
+                                                    src = "{if $product.cover}{$product.cover.medium.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{/if}"
                                                     alt = "{$product.cover.legend}"
                                                     data-full-size-image-url = "{$product.cover.large.url}"
                                                 >

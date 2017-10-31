@@ -26,7 +26,7 @@
   <article>
       <h1>{$product.name}</h1>
       <img
-        src = "{$product.cover.small.url}"
+        src = "{if $product.cover}{$product.cover.small.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'small_default')|escape:'htmlall':'UTF-8'}{/if}"
         alt = "{$product.cover.legend}"
         data-full-size-image-url = "{$product.cover.large.url}"
       >

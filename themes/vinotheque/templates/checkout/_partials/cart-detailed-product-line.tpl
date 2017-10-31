@@ -26,7 +26,7 @@
   <!--  product left content: image-->
   <div class="product-line-grid-left col-md-2 col-4">
     <span class="product-image media-middle">
-      <img src="{$product.cover.bySize.cart_default.url}" alt="{$product.name|escape:'quotes'}">
+      <img src="{if $product.cover}{$product.cover.bySize.cart_default.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'cart_default')|escape:'htmlall':'UTF-8'}{/if}" alt="{$product.name|escape:'quotes'}">
     </span>
   </div>
 
