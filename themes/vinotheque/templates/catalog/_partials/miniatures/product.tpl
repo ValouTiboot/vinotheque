@@ -34,7 +34,7 @@
                             {if $attribute.group == 'Format'}
                               <div class="col-lg-4">
                                   <div>
-								    {$attribute.name}
+								                    {preg_replace('@bouteille@i', '', $attribute.name)}
                                   </div>
                               </div>
                             {/if}
