@@ -94,6 +94,9 @@
     line-height: rem(30px);
     margin-bottom: rem(40px);
     font-weight: 300;
+    &#footer_links, &.qsn_gallery {
+      margin-bottom: 0;
+    }
   }
   .page-header {
     margin-bottom: rem(60px);

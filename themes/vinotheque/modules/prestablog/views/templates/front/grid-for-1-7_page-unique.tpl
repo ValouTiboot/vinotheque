@@ -31,7 +31,7 @@
     <div class="col-sm-12 col-md-10">
     {/if}
     <!-- /If we are in Recette catégory -->
-        {if isset($news_Image) && $prestablog_config.prestablog_view_news_img}<img src="{$prestablog_theme_upimg|escape:'html':'UTF-8'}thumb_{$news->id|intval}.jpg?{$md5pic|escape:'htmlall':'UTF-8'}" id="article_img" class="news" alt="{$news->title|escape:'htmlall':'UTF-8'}"/>{/if}
+        {if isset($news_Image) && $prestablog_config.prestablog_view_news_img}<img src="{$prestablog_theme_upimg|escape:'html':'UTF-8'}{$news->id|intval}.jpg?{$md5pic|escape:'htmlall':'UTF-8'}" id="article_img" class="news" alt="{$news->title|escape:'htmlall':'UTF-8'}"/>{/if}
         <div class="clearfix"></div>
         <div class="info_blog">{l s='Published :' mod='prestablog'}
         {dateFormat date=$news->date full=1}

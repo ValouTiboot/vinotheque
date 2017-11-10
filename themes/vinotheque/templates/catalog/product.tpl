@@ -34,7 +34,7 @@
   <meta property="og:title" content="{$page.meta.title}">
   <meta property="og:site_name" content="{$shop.name}">
   <meta property="og:description" content="{$page.meta.description}">
-  <meta property="og:image" content="{$product.cover.large.url}">
+  <meta property="og:image" content="{if $product.cover}{$product.cover.large.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'large_default')|escape:'htmlall':'UTF-8'}{/if}">
   <meta property="product:pretax_price:amount" content="{$product.price_tax_exc}">
   <meta property="product:pretax_price:currency" content="{$currency.iso_code}">
   <meta property="product:price:amount" content="{$product.price_amount}">
@@ -112,28 +112,83 @@
                             <div id="product-features-pictos">
                               {if $product.features}
                               <ul class="row">
-                                {foreach from=$product.features item=feature}
-                                    {if in_array($feature.name, array('Année','Région','Couleur','Appellation','Température de service','Classification'))}
-                                        <li class="col-xl-4 col-sm-6">
-                                            <div>
-                                                {if $feature.name == 'Année'}
-                                                    <i class="icon-v-agenda"></i>
-                                                {elseif $feature.name == 'Région'}
-                                                    <i class="icon-v-france"></i>
-                                                {elseif $feature.name == 'Couleur'}
-                                                    <i class="icon-v-bottles"></i>
-                                                {elseif $feature.name == 'Appellation'}
-                                                    <i class="icon-v-tag"></i>
-                                                {elseif $feature.name == 'Température de service'}
-                                                    <i class="icon-v-temperature"></i>
-                                                {elseif $feature.name == 'Classification'}
-                                                    <i class="icon-v-reward"></i>
-                                                {/if}
-                                                <span>{$feature.value}</span>
-                                            </div>
-                                        </li>
-                                    {/if}
-                                {/foreach}
+                                {*Année*}
+								  {if isset($product.features[6])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-agenda"></i>
+                                              <span>{$product.features[6].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Région*}
+								  {if isset($product.features[11])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-france"></i>
+                                              <span>{$product.features[11].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Couleur*}
+								  {if isset($product.features[5])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-bottles"></i>
+                                              <span>{$product.features[5].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Appellation*}
+								  {if isset($product.features[2])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-tag"></i>
+                                              <span>{$product.features[2].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Degré*}
+								  {if isset($product.features[13])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-temperature"></i>
+                                              <span>{$product.features[13].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Classification*}
+								  {if isset($product.features[4])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-reward"></i>
+                                              <span>{$product.features[4].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+
+                                {*{foreach from=$product.features item=feature}*}
+                                    {*{if in_array($feature.name, array('Année','Région','Couleur','Appellation','Degré','Classification'))}*}
+                                        {*<li class="col-xl-4 col-sm-6">*}
+                                            {*<div>*}
+                                                {*{if $feature.name == 'Année'}*}
+                                                    {*<i class="icon-v-agenda"></i>*}
+                                                {*{elseif $feature.name == 'Région'}*}
+                                                    {*<i class="icon-v-france"></i>*}
+                                                {*{elseif $feature.name == 'Couleur'}*}
+                                                    {*<i class="icon-v-bottles"></i>*}
+                                                {*{elseif $feature.name == 'Appellation'}*}
+                                                    {*<i class="icon-v-tag"></i>*}
+                                                {*{elseif $feature.name == 'Degré'}*}
+                                                    {*<i class="icon-v-temperature"></i>*}
+                                                {*{elseif $feature.name == 'Classification'}*}
+                                                    {*<i class="icon-v-reward"></i>*}
+                                                {*{/if}*}
+                                                {*<span>{$feature.value}</span>*}
+                                            {*</div>*}
+                                        {*</li>*}
+                                    {*{/if}*}
+                                {*{/foreach}*}
                               </ul>
                               {/if}
                             </div>
@@ -268,20 +323,22 @@
               {/block}
           </div>
 
-          <div class="container-fluid product-mets-vins">
-                <div class="container">
-                    <h3>{l s='Notes de dégustation' d='Shop.Theme.Catalog'}</h3>
-                    <div id="product-description" class="block-degustation">
-						{$product.description nofilter}
-                    </div>
-                    <div class="block-mets-vins">
-                        <h3>{l s='Accords mets vins' d='Shop.Theme.Catalog'}</h3>
-                        <div class="row justify-content-center">
-                            {hook h='displayProductFoodPictos' mod='foodandwine' product=$product}
+          {if $product.description}
+              <div class="container-fluid product-mets-vins">
+                    <div class="container">
+                        <h3>{l s='Notes de dégustation' d='Shop.Theme.Catalog'}</h3>
+                        <div id="product-description" class="block-degustation">
+                            {$product.description nofilter}
+                        </div>
+                        <div class="block-mets-vins">
+                            <h3>{l s='Accords mets vins' d='Shop.Theme.Catalog'}</h3>
+                            <div class="row justify-content-center">
+                                {hook h='displayProductFoodPictos' mod='foodandwine' product=$product}
+                            </div>
                         </div>
                     </div>
-                </div>
-          </div>
+              </div>
+          {/if}
 
           <div class="container">
               {block name='product_property'}

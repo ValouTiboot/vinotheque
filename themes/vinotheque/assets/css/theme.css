@@ -2108,7 +2108,7 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #e8e8e8;
+    color: #939598;
     background-color: #fff;
     border-color: #baded0;
     outline: none; }
@@ -6825,7 +6825,7 @@ small.label, small.value {
   border: 1px solid #e3e1e1;
   padding: 0.5rem 1rem; }
   .form-control:focus, .form-control.focus, .form-control::placeholder {
-    color: #939598;
+    color: #939598 !important;
     border-color: #76ccaa; }
 
 .input-group .form-control:focus {
@@ -7174,7 +7174,7 @@ small.label, small.value {
     background: white;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0.625rem 0.625rem 0.875rem;
+    padding: 0.625rem 0.625rem 1rem;
     text-align: center; }
     #_desktop_contact_link #contact-link span {
       color: #b61f38;
@@ -7348,7 +7348,8 @@ small.label, small.value {
   margin-bottom: 8.125rem; }
 
 #cart .cart_navigation {
-  margin: 0.625rem 0 1.875rem; }
+  margin: 0.625rem 0 1.875rem;
+  justify-content: space-between; }
 
 #cart .cart-overview ul {
   background: #f4f4f4;
@@ -7373,12 +7374,15 @@ small.label, small.value {
       color: black; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .btn-touchspin i {
       top: 20%; }
+    #cart .cart-overview ul li .product-line-grid .product-line-grid-right .qty {
+      z-index: 100; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .price {
       text-align: right;
       line-height: 3rem; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .product-price {
       color: #b61f38;
-      font-size: 1.625rem; }
+      font-size: 1.625rem;
+      font-weight: 600; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right a.remove-from-cart {
       color: #414141; }
       #cart .cart-overview ul li .product-line-grid .product-line-grid-right a.remove-from-cart i {
@@ -7398,9 +7402,15 @@ small.label, small.value {
     height: 100%;
     display: flex;
     align-items: center; }
+    #cart .cart-fees .value-row .col-md-5.col-6 {
+      z-index: 100; }
+      #cart .cart-fees .value-row .col-md-5.col-6 #fees_cart_button {
+        padding-right: 0.9rem;
+        padding-left: 0.9rem;
+        cursor: pointer; }
     #cart .cart-fees .value-row .value {
       font-size: 1.625rem;
-      font-weight: bolder;
+      font-weight: 600;
       line-height: 2.625rem;
       color: #00814f; }
 
@@ -7436,7 +7446,7 @@ small.label, small.value {
     #cart #cart_details > div .cart-subtotals > div .value, #cart #cart_details > div .cart-voucher > form .value, #cart #cart_details > div .cart-total .value {
       color: #b61f38;
       font-size: 1.125rem;
-      font-weight: bold; }
+      font-weight: 600; }
   #cart #cart_details > div .cart-subtotals > div {
     margin-bottom: 1.875rem; }
     #cart #cart_details > div .cart-subtotals > div.tax {
@@ -7489,7 +7499,8 @@ small.label, small.value {
   margin-bottom: 8.125rem; }
 
 #checkout .cart_navigation {
-  margin: 0.625rem 0 1.875rem; }
+  margin: 0.625rem 0 1.875rem;
+  justify-content: space-between; }
 
 #checkout #checkout_details > section > div {
   background: #e3e1e1;
@@ -7579,6 +7590,9 @@ small.label, small.value {
       font-weight: bold;
       font-size: 1.4375rem;
       line-height: 1.875rem; }
+    #footer #footer_content_responsive #footer_content div.customer-service .fa-envelope-o {
+      font-size: 1.8em;
+      vertical-align: sub; }
     #footer #footer_content_responsive #footer_content div.ps-social-follow ul li {
       display: inline-block;
       font-size: 1.5625rem;
@@ -7759,7 +7773,7 @@ small.label, small.value {
         font-size: 1.125rem; }
       .product-miniature > div .product-price-and-shipping .price {
         font-size: 1.5625rem;
-        font-weight: bold;
+        font-weight: 600;
         color: #b61f38; }
     .product-miniature > div .product-flags {
       position: absolute;
@@ -7909,7 +7923,7 @@ ul.product-labels li {
         font-size: 1.125rem; }
       #category #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price {
         font-size: 1.5625rem;
-        font-weight: bold;
+        font-weight: 600;
         color: #b61f38; }
   #category #products #category-highlight #best_seller .best_seller_buttons, #search #products #category-highlight #best_seller .best_seller_buttons {
     background: #e0e0e0;
@@ -8070,6 +8084,8 @@ ul.product-labels li {
     line-height: 1.875rem;
     margin-bottom: 2.5rem;
     font-weight: 300; }
+    #cms #content p#footer_links, #cms #content p.qsn_gallery, #cms #content div#footer_links, #cms #content div.qsn_gallery, #cms #content ul#footer_links, #cms #content ul.qsn_gallery {
+      margin-bottom: 0; }
   #cms #content .page-header {
     margin-bottom: 3.75rem; }
   #cms #content img {
@@ -8400,6 +8416,9 @@ nav.pagination {
   text-align: center; }
   .form-footer button, .form-footer .btn {
     margin-top: 1.25rem; }
+
+.form-control:invalid {
+  outline: 1px solid red !important; }
 
 #search_filters .facets-title {
   color: #76ccaa;
@@ -8763,7 +8782,7 @@ nav.pagination {
         text-decoration: line-through; }
       #product .product-actions form .product-prices .product-price .price {
         color: #b61f38;
-        font-weight: bold;
+        font-weight: 600;
         font-size: 1.75rem; }
   #product .product-actions form .product-quantity, #product .product-actions form .product-variants {
     padding: 0.5rem 0.9375rem;
@@ -9094,14 +9113,17 @@ a.different-address, a.add-address {
   float: right;
   width: 30%; }
 
-#conditions-to-approve ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  #conditions-to-approve ul li label {
-    cursor: pointer; }
-    #conditions-to-approve ul li label a {
-      color: #00814f; }
+#conditions-to-approve {
+  margin-top: 1.875rem;
+  margin-bottom: 1.5625rem; }
+  #conditions-to-approve ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #conditions-to-approve ul li label {
+      cursor: pointer; }
+      #conditions-to-approve ul li label a {
+        color: #00814f; }
 
 .payment-option label, .delivery-option label {
   cursor: pointer; }
@@ -9120,7 +9142,7 @@ a.different-address, a.add-address {
     padding: 1.25rem; }
     .delivery-options .delivery-option .carrier-name {
       text-transform: uppercase;
-      font-weight: bold;
+      font-weight: 600;
       font-size: 0.875rem; }
     .delivery-options .delivery-option .carrier-delay {
       font-size: 0.875rem; }
@@ -9129,7 +9151,7 @@ a.different-address, a.add-address {
       color: #b61f38;
       text-transform: uppercase;
       font-size: 1.125rem;
-      font-weight: bold; }
+      font-weight: 600; }
 
 .payment-option label, .delivery-option label {
   flex-grow: 1;
@@ -9145,6 +9167,22 @@ a.different-address, a.add-address {
 
 .payment-options .warning {
   color: orange; }
+
+.payment-options .payment-option {
+  background: white;
+  border: 2px solid #ebebeb;
+  margin: 0 0 0.4375rem;
+  padding: 1.25rem; }
+  .payment-options .payment-option .custom-radio {
+    float: left; }
+  .payment-options .payment-option .col-12 {
+    padding: 0; }
+  .payment-options .payment-option .js-additional-information {
+    margin-top: 0.9375rem; }
+  .payment-options .payment-option label {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 0.9375rem; }
 
 .selected-payment-option, [name="select_payment_option"] {
   min-width: 80px; }

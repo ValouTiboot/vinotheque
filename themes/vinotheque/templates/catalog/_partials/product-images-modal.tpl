@@ -28,7 +28,7 @@
       <div class="modal-body">
         {assign var=imagesCount value=$product.images|count}
         <figure>
-          <img class="js-modal-product-cover product-cover-modal" width="100%" src="{$product.cover.large.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
+          <img class="js-modal-product-cover product-cover-modal" width="100%" src="{if $product.cover}{$product.cover.large.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'large_default')|escape:'htmlall':'UTF-8'}{/if}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
           <figcaption class="image-caption">
           {block name='product_description_short'}
             <div id="product-description-short" itemprop="description">{$product.description_short nofilter}</div>

@@ -179,7 +179,7 @@ small.label, small.value {
   border: 1px solid $gray-dark;
   padding: rem(8px) rem(16px);
   &:focus, &.focus, &::placeholder {
-    color: $gray-more-dark;
+    color: $gray-more-dark !important;
     border-color: $green-dark;
   }
 }

@@ -11,3 +11,7 @@
     margin-top: 2*$small-space;
   }
 }
+
+.form-control:invalid {
+  outline: 1px solid red !important;
+}

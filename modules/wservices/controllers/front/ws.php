@@ -31,9 +31,37 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		$customers = Customer::getCustomers();
 		foreach ($customers as &$customer)
 		{
+			// Get customer's informations
 			$current_customer = new Customer($customer['id_customer']);
+
+			// Get customer's loyalty
+			$customer['NbPointsConsommés'] = 0;
+			$customer['NbPointsAcquits'] = 0;
+			$customer['NbPointsRestants'] = 0;
+			$customer['loyalty'] = $this->getLoyaltiesByIdCustomer($customer['id_customer']);
+
+			if (isset($customer['loyalty']) && !empty($customer['loyalty']))
+			{
+				// 1 = En attente de validation
+				// 2 = Disponible
+				// 3 = Annulés
+				// 4 = Déjà convertis
+				// 5 = Non disponbile sur produits remisés
+				foreach ($customer['loyalty'] as $key => $value) {
+					if ($value['id_loyalty_state'] == 4)
+						$customer['NbPointsConsommés'] += $value['points'];
+
+					if ($value['id_loyalty_state'] == 2 || $value['id_loyalty_state'] == 4)
+						$customer['NbPointsAcquits'] += $value['points'];
+				}
+				$customer['NbPointsRestants'] = $customer['NbPointsAcquits'] - $customer['NbPointsConsommés'];
+			}
+			unset($customer['loyalty']);
+
+			// Get customer's addresses
 			$customer['addresses'] = $current_customer->getSimpleAddresses(Context::getContext()->language->id);
 		}
+
 		echo json_encode($customers, JSON_UNESCAPED_UNICODE);
 		die();
 	}
@@ -353,10 +381,10 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 		$product['specific_price'] = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product`='" . pSQL(Tools::getValue('id_product')) . "'");
 
-		echo '<pre>';
-		print_r($product);
-		// echo json_encode($product, JSON_UNESCAPED_UNICODE);
-		// file_put_contents('product.txt', json_encode($product, JSON_UNESCAPED_UNICODE));
+		// echo '<pre>';
+		// print_r($product);
+		echo json_encode($product, JSON_UNESCAPED_UNICODE);
+		file_put_contents('product.txt', json_encode($product, JSON_UNESCAPED_UNICODE));
 		die();
 	}
 
@@ -364,25 +392,16 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 	{
 		// $_POST['data'] = '{"NoJSON":"971633","IdTransaction":"90566db908bc43808aecabd30efc9e1d","Modèle":"PRD","Type":"UPD","DateTransaction":"/Date(1504096095950-0000)/","Transaction":[{"produits":{"M2014003137":{"reference":"M2014003137","id_second_wine":"","id_category_default":"Vins étrangers","cache_default_attribute":"42509","active":"1","name":"LAIBACH THE LADY BIRD","wine":"0","wine_date":"","wine_delivery":"","available_date":"","quantity":"0","shop_quantity":"0","price":"0","id_tax_rules_group":"NOR","available_later":"Commande en cours...","property_picture":"","calling_picture_big":"","calling_picture_small":"","calling":"Situées à 50 Km de Cape Town, cette appellation au climat méditerranéen est très connue pour ses vins rouges produits à base du cépage du Cabernet Sauvignon. Ces vins possèdent une belle couleur rubis, un nez aromatique, fruité et fleuri, avec des arômes de violette, de groseilles et de prunes. en bouche, l\'équilibre entre la fraîcheur et les tannins et idéal. Ce vin dévoile toute sa splendeur dans sa jeunesse.","property":"","description":"Au nez des notes de petits fruits rouges frais, cuir et épices. En bouche le vin a une belle fraicheur, des fruits bien présents et des tannins soyeux. C\'est un vin bien équilibré, élégant et complexe.rnA consommer 2 à 10 ans après vendange.","description_short":"","categories":["AFRIQUE DU SUD","Stellenbosch","Stellenbosch","Vins étrangers"],"pictogram":[],"foodandwine":[],"images":[{"1":{"cle":"1","url":"laibach-lady-bird.jpg","legend":"LAIBACH THE LADY BIRD","cover":"1","value":["42509"]}}],"attributes":[{"1":{"cle":"1","out_of_stock":"0","id_product_attribute":"42509","reference":"M2014003137","shop_quantity":"5","name":"Format : Bouteille 0,75 L","active":"1","price":"16.6667","packaging_weight":"0.000","minimal_quantity":"1.00","quantity":"17","available_date":"","packaging_price":"0.00","id_conditionnement":""}}],"features":[{"1":{"cle":"1","feature":"Apogée","value":[""]},"2":{"cle":"2","feature":"Appellation","value":["Stellenbosch"]},"3":{"cle":"3","feature":"Classification","value":[""]},"4":{"cle":"4","feature":"Couleur","value":["Rouge"]},"5":{"cle":"5","feature":"Degré","value":["14.000"]},"6":{"cle":"6","feature":"Millésime","value":["2014"]},"7":{"cle":"7","feature":"Mode de culture","value":[""]},"8":{"cle":"8","feature":"Niveau de garde","value":[""]},"9":{"cle":"9","feature":"Région","value":["Stellenbosch"]},"10":{"cle":"10","feature":"Température de service","value":["15-16°C"]}}]}}}]}';
 
-		// $_POST['data'] = '{"NoJSON":"11111111111111111111111","IdTransaction":"ed65186cea587c393ce4475de39cf70b111111","Modèle":"PRD","Type":"UPD","DateTransaction":"2017-02-22 17:05:33","Transaction":[{"produits":{"M2008002203":{"reference":"M2008002203","id_second_wine":"M2008001287","id_category_default":"Bordeaux","cache_default_attribute":"28855|125","active":"1","name":"Château BEL AIR de SIRAN UPD","wine":"0","wine_date":"","wine_delivery":"","available_date":"2017-04-30 00:00:00","quantity":"0","shop_quantity":"0","price":"0","id_tax_rules_group":"NOR","available_later":"Commande en cours...","property_picture":"chateau-de-myrat.jpg","calling_picture_big":"bel-air-siran.jpg","calling_picture_small":"bel-air-siran.jpg","calling":"Commentaires appellation ","property":"Historique propriété ","description":"Description Description ","description_short":"Bel Air de Siran","categories":["Bio","Bordeaux","Primeurs","Rouge"],"pictogram":["Notation","Récompenses concours","Vin biologique"],"foodandwine":["Charcuterie","Poisson en sauce ","Poisson fumé "],"images":[{"1":{"cle":"1","url":"bel-air-siran.jpg","legend":"BEL AIR DE SIRAN","cover":"1","value":["28855"]},"2":{"cle":"2","url":"bel-air-siran.jpg","legend":"BEL AIR DE SIRAN","cover":"","value":["28855"]},"3":{"cle":"3","url":"bel-air-siran.jpg","legend":"BEL AIR DE SIRAN","cover":"","value":["28855"]}}],"attributes":[{"2":{"cle":"2","id_product_attribute":"28855","reference":"M2008002203","shop_quantity":"17","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12","active":"1","price":"9,4167","minimal_quantity":"12","quantity":"26","available_date":"","packaging_price":"0","id_conditionnement":"125"},"1":{"cle":"1","id_product_attribute":"28855","reference":"M2008002203","shop_quantity":"17","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6","active":"1","price":"9,4167","minimal_quantity":"12","quantity":"26","available_date":"","packaging_price":"0,46","id_conditionnement":"128"}}],"features":[{"1":{"cle":"1","feature":"Apogée","value":["2010"]},"2":{"cle":"2","feature":"Appellation","value":["Margaux"]},"3":{"cle":"3","feature":"Cépages","value":["80% Cabernet","20% Merlot"]},"4":{"cle":"4","feature":"Classification","value":["Cru classé"]},"5":{"cle":"5","feature":"Couleur","value":["Rouge"]},"6":{"cle":"6","feature":"Millésime","value":["2008"]},"7":{"cle":"7","feature":"Mode de culture","value":["Biologique"]},"8":{"cle":"8","feature":"Niveau de garde","value":["De 2010 à 2015"]},"9":{"cle":"9","feature":"Notations","value":["Wine spectator 98","Robert Parker 98+"]},"10":{"cle":"10","feature":"Récompenses","value":["Coup de coeur Guide Hachette","Concours de Bordeaux Vins d’Aquitaine "]},"11":{"cle":"11","feature":"Région","value":["Bordeaux"]},"12":{"cle":"12","feature":"Température de service","value":["11-12°C"]}}]}}}]}';
-
 		// $_POST['data'] = '{"NoJSON":"165","IdTransaction":"b6c6e6899b734447b90620767995f280","Modèle":"TRF","Type":"INS","DateTransaction":"2017-06-13","Transaction":[{"tarif":{"1":{"cle":"1","id_product_attribute":"36427|26","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"2":{"cle":"2","id_product_attribute":"36427|125","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"3":{"cle":"3","id_product_attribute":"36427|128","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"4":{"cle":"4","id_product_attribute":"36427|129","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"5":{"cle":"5","id_product_attribute":"36427|168","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"6":{"cle":"6","id_product_attribute":"36427|174","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"7":{"cle":"7","id_product_attribute":"36427|183","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"8":{"cle":"8","id_product_attribute":"36427|298","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"}}}]}';
-
-		// $_POST['data'] = '{"commande":{"78566":{"nocommande":"78566","datecommande":"2010-06-23 00:00:00","noclientlivre":"11703","nomclientlivre":"","nomcontactclientlivre":"","notelephone1clientlivre":"","notelephone2clientlivre":"","adresse1clientlivre":"6 RUE STEPHANE MALLARMÉ","adresse2clientlivre":"","adresse3clientlivre":"","codepostalclientlivre":"78860","villeclientlivre":"","codepointrelais":"","paysclientlivre":"FRA","estprimeur":"1","coderegimetaxe":"FRA","estcadeau":"0","estcautionbancaire":"0","mttcautionbancaire":"","codedevise":"EUR","codepays":"FRA","commentairesexpedition":"","commentairescadeau":"","etatcommande":"6","mtttotalht":"2879,63","mtttotalttc":"3444,04","noadresseclientlivre":"17195","nocontactclientlivre":"1589","mtttotaltaxe":"564,41","marchandise":[{"1":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"32275","qtecommandee":"3","poids":"5","prixunitaireht":"80","mttht":"240","mtttaxe":"47,04","mttttc":"287,04","codeconditionnement":"1"},"2":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"31287","qtecommandee":"3","poids":"10","prixunitaireht":"139","mttht":"418,5","mtttaxe":"82,026","mttttc":"500,526","codeconditionnement":"130"},"3":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"20818","qtecommandee":"3","poids":"10","prixunitaireht":"144","mttht":"433,5","mtttaxe":"84,966","mttttc":"518,466","codeconditionnement":"130"},"4":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"21888","qtecommandee":"3","poids":"10","prixunitaireht":"164","mttht":"493,5","mtttaxe":"96,726","mttttc":"590,226","codeconditionnement":"130"},"5":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"18140","qtecommandee":"3","poids":"5","prixunitaireht":"52","mttht":"156","mtttaxe":"30,576","mttttc":"186,576","codeconditionnement":"1"},"6":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"29777","qtecommandee":"3","poids":"5","prixunitaireht":"71","mttht":"213","mtttaxe":"41,748","mttttc":"254,748","codeconditionnement":"1"},"7":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"31655","qtecommandee":"3","poids":"10","prixunitaireht":"98","mttht":"295,5","mtttaxe":"57,918","mttttc":"353,418","codeconditionnement":"130"},"8":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"20527","qtecommandee":"3","poids":"10","prixunitaireht":"100","mttht":"301,5","mtttaxe":"59,094","mttttc":"360,594","codeconditionnement":"130"},"9":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"22684","qtecommandee":"3","poids":"5","prixunitaireht":"63","mttht":"189","mtttaxe":"37,044","mttttc":"226,044","codeconditionnement":"1"},"10":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"31061","qtecommandee":"3","poids":"5","prixunitaireht":"29","mttht":"87","mtttaxe":"17,052","mttttc":"104,052","codeconditionnement":"1"},"11":{"codeniveautaxe":"NOR","tauxtaxe":"0,196","codearticle":"31062","qtecommandee":"3","poids":"10","prixunitaireht":"58","mttht":"175,5","mtttaxe":"34,398","mttttc":"209,898","codeconditionnement":"130"}}],"conditionnement":[{"2":{"noligne":"2","nolignevente":"363097","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"},"3":{"noligne":"3","nolignevente":"363098","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"},"4":{"noligne":"4","nolignevente":"363099","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"},"7":{"noligne":"7","nolignevente":"363102","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"},"8":{"noligne":"8","nolignevente":"363103","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"},"11":{"noligne":"11","nolignevente":"363106","codeconditionnement":"130","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"176,03","mtttaxe":"34,50188","mttttc":"62,9905692"}}],"paiement":[{"1":{"cle":"1","datepaiement":"2010-06-23 00:00:00","codemodepaiement":"05","mttpaiement":"2844,3","nocoupon":""},"2":{"cle":"2","datepaiement":"2012-02-15 00:00:00","codemodepaiement":"05","mttpaiement":"599,74","nocoupon":""}}],"port":[{"78566":{"codetransporteur":"","datelivraisondemandee":"2012-02-17 00:00:00","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"26,33","mttttc":"31,4998892","mtttaxe":"5,16068"}}],"remise":[{"78566":{"nocommande":"78566","codeniveautaxe":"NOR","tauxtaxe":"0,196","mttht":"149,7","mtttaxe":"29,3412","mttttc":"31,49068"}}],"marchandise_remise":[]}}}';
-
-		// $_POST['data'] = '{"NoJSON":"9999999999","IdTransaction":"9999999999","Modèle":"PRD","Type":"UPD","DateTransaction":"/Date(1504027041900-0000)/","Transaction":[{"produits":{"M2016002126":{"reference":"M2016002126","id_second_wine":"","id_category_default":"Primeurs","cache_default_attribute":"41906|130","active":"1","name":"Château VIEUX MAILLET","wine":"1","wine_date":"2017-05-15 00:00:00","wine_delivery":"2019-01-31 00:00:00","available_date":"","quantity":"0","shop_quantity":"0","price":"0","id_tax_rules_group":"NOR","available_later":"Commande en cours...","property_picture":"","calling_picture_big":"","calling_picture_small":"","calling":"L’appellation s\'étend sur 1890 hectares : on retrouve la même palette aromatique que pour les Saint-Émilion en y ajoutant des notes truffées, boisées. En bouche, les vins d’appellation Pomerol font preuve d’une grande finesse et intensité. La texture très sensuelle révèle une grande puissance tannique. ","property":"","description":"","description_short":"CH. VIEUX MAILLET","categories":["Pomerol","Primeurs","Rouge"],"pictogram":["Notation"],"foodandwine":["Viande rouge grillée ","Viande rouge en sauce ","Gibier "],"images":[{"1":{"cle":"1","url":"chateau-vieux-maillet.jpg","legend":"CH. VIEUX MAILLET","cover":"1","value":["41906","42323"]}}],"attributes":[{"1":{"cle":"1","out_of_stock":"0","id_product_attribute":"41906","reference":"M2016002126","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 2","active":"1","price":"25.2000","packaging_weight":"3.700","minimal_quantity":"1.00","quantity":"120","available_date":"","packaging_price":"1.30","id_conditionnement":"26"},"2":{"cle":"2","out_of_stock":"0","id_product_attribute":"41906","reference":"M2016002126","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 12","active":"1","price":"25.2000","packaging_weight":"20.000","minimal_quantity":"1.00","quantity":"120","available_date":"","packaging_price":"0.00","id_conditionnement":"125"},"3":{"cle":"3","out_of_stock":"0","id_product_attribute":"41906","reference":"M2016002126","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 6","active":"1","price":"25.2000","packaging_weight":"9.600","minimal_quantity":"1.00","quantity":"120","available_date":"","packaging_price":"0.30","id_conditionnement":"128"},"4":{"cle":"4","out_of_stock":"0","id_product_attribute":"41906","reference":"M2016002126","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 3","active":"1","price":"25.2000","packaging_weight":"5.000","minimal_quantity":"1.00","quantity":"120","available_date":"","packaging_price":"1.00","id_conditionnement":"129"},"5":{"cle":"5","out_of_stock":"0","id_product_attribute":"41906","reference":"M2016002126","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Caisse bois de 1","active":"1","price":"25.2000","packaging_weight":"1.600","minimal_quantity":"1.00","quantity":"120","available_date":"","packaging_price":"2.75","id_conditionnement":"168"},"6":{"cle":"6","out_of_stock":"0","id_product_attribute":"42323","reference":"M2016002126","shop_quantity":"0","name":"Format : Magnum 1,50 L | Conditionnement : Caisse bois de 6","active":"1","price":"50.4000","packaging_weight":"21.000","minimal_quantity":"1.00","quantity":"36","available_date":"","packaging_price":"1.50","id_conditionnement":"127"},"7":{"cle":"7","out_of_stock":"0","id_product_attribute":"42323","reference":"M2016002126","shop_quantity":"0","name":"Format : Magnum 1,50 L | Conditionnement : Caisse bois de 3","active":"1","price":"50.4000","packaging_weight":"10.000","minimal_quantity":"1.00","quantity":"36","available_date":"","packaging_price":"2.00","id_conditionnement":"130"},"8":{"cle":"8","out_of_stock":"0","id_product_attribute":"42323","reference":"M2016002126","shop_quantity":"0","name":"Format : Magnum 1,50 L | Conditionnement : Caisse bois de 1","active":"1","price":"50.4000","packaging_weight":"3.000","minimal_quantity":"1.00","quantity":"36","available_date":"","packaging_price":"3.00","id_conditionnement":"131"}}],"features":[{"1":{"cle":"1","feature":"Apogée","value":[""]},"2":{"cle":"2","feature":"Appellation","value":["Pomerol"]},"3":{"cle":"3","feature":"Cépages","value":[""]},"4":{"cle":"4","feature":"Couleur","value":["Rouge"]},"5":{"cle":"5","feature":"Millésime","value":["2016"]},"6":{"cle":"6","feature":"Mode de culture","value":[""]},"7":{"cle":"7","feature":"Niveau de garde","value":[""]},"8":{"cle":"8","feature":"Notations","value":["Wine Advocate  (Neal Martin) 86-88","James Suckling 94-95","Wine spectator 89-92"]},"9":{"cle":"9","feature":"Récompenses","value":[""]},"10":{"cle":"10","feature":"Région","value":["Bordeaux"]},"11":{"cle":"11","feature":"Température de service","value":["17-18°C"]}}]}}}]}';
 
 		// $_POST['data'] = '{"NoJSON":"74246","IdTransaction":"48bd49f1de79450e8d0f6a2b9e8830de","Modèle":"CLT","Type":"INS","DateTransaction":"/Date(1504705322303-0000)/","Transaction":[{"clients":{"22424":{"notiers":"22424","lastname":"AUBURTIN","firstname":"Jean-luc","email":"auburtin.jean-luc@orange.fr","id_gender":"1","passwd":"jla1993","birthday":"1953-10-02 00:00:00","active":"1","optin":"0","newsletter":"0","siret":"","ape":"","NbPointsConsommes":"0","NbPointsAcquits":"976","NbPointsRestants":"976","adresses":[{"1":{"rank":"1","noadresse":"29105","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"},"2":{"rank":"2","noadresse":"29106","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"},"3":{"rank":"3","noadresse":"29106","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"}}]}}}]}';
 
-		// $_POST['data'] = '{"NoJSON":"1234567891234567892","IdTransaction":"1234567891234567892","Modèle":"PRD","Type":"UPD","DateTransaction":"/Date(1504027041900-0000)/","Transaction":[{"produits":{"M2011002329":{"reference":"M2011002329","id_second_wine":"","id_category_default":"Bordeaux","cache_default_attribute":"35319|177","active":"1","name":"Château LA TOUR DE BESSAN","wine":"0","wine_date":"2014-01-07 17:34:43","wine_delivery":"2014-01-31 00:00:00","available_date":"","quantity":"0","shop_quantity":"0","price":"0","id_tax_rules_group":"NOR","available_later":"Commande en cours...","property_picture":"","calling_picture_big":"","calling_picture_small":"","calling":"1493 hectares de vignes sur lesquels on trouve le plus grand nombre de crus classés (21) dont un premier cru, le Château Margaux. D’une grande féminité, les vins de Margaux présentent un bouquet subtil qui mêle de délicats arômes fruités tels que la groseille, floraux et épicés. En bouche, la richesse des tanins s’accompagne d’une infinie souplesse.","property":"","description":"","description_short":"","categories":["Bordeaux","Margaux","Rouge"],"pictogram":["Notation"],"foodandwine":["Gibier","Viande blanche grillée","Fromage à pâte dure","Viande rouge grillée"],"images":[{"1":{"cle":"1","url":"chateau-tour-bessan.jpg","legend":"CH. LA TOUR DE BESSAN","cover":"1","value":["35319","35320","35321"]},"2":{"cle":"2","url":"chateau-la-tour-de-bessan.jpg","legend":"CH. LA TOUR DE BESSAN","cover":"","value":["35319","35320","35321"]}}],"attributes":[{"1":{"cle":"1","out_of_stock":"0","id_product_attribute":"35319","reference":"M2011002329","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Carton de 12","active":"1","price":"14.1667","packaging_weight":"16.000","minimal_quantity":"1.00","quantity":"3","available_date":"","packaging_price":"0.00","id_conditionnement":"174"},"2":{"cle":"2","out_of_stock":"0","id_product_attribute":"35319","reference":"M2011002329","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Carton de 6","active":"1","price":"14.1667","packaging_weight":"8.300","minimal_quantity":"1.00","quantity":"3","available_date":"","packaging_price":"0.00","id_conditionnement":"183"},"3":{"cle":"3","out_of_stock":"0","id_product_attribute":"35319","reference":"M2011002329","shop_quantity":"0","name":"Format : Bouteille 0,75 L | Conditionnement : Carton de 1","active":"1","price":"14.1667","packaging_weight":"1.500","minimal_quantity":"1.00","quantity":"3","available_date":"","packaging_price":"0.00","id_conditionnement":"298"},"4":{"cle":"4","out_of_stock":"0","id_product_attribute":"35320","reference":"M2011002329","shop_quantity":"0","name":"Format : Magnum 1,50 L | Conditionnement : Carton de 6","active":"1","price":"30.0000","packaging_weight":"18.000","minimal_quantity":"1.00","quantity":"0","available_date":"","packaging_price":"0.00","id_conditionnement":"181"},"5":{"cle":"5","out_of_stock":"0","id_product_attribute":"35320","reference":"M2011002329","shop_quantity":"0","name":"Format : Magnum 1,50 L | Conditionnement : Carton de 1","active":"1","price":"30.0000","packaging_weight":"3.000","minimal_quantity":"1.00","quantity":"0","available_date":"","packaging_price":"0.00","id_conditionnement":"301"},"6":{"cle":"6","out_of_stock":"0","id_product_attribute":"35321","reference":"M2011002329","shop_quantity":"0","name":"Format : Demie 0,375 L | Conditionnement : Carton de 24","active":"9","price":"5.7833","packaging_weight":"18.000","minimal_quantity":"1.00","quantity":"0","available_date":"","packaging_price":"0.00","id_conditionnement":"177"},"7":{"cle":"7","out_of_stock":"0","id_product_attribute":"35321","reference":"M2011002329","shop_quantity":"0","name":"Format : Demie 0,375 L | Conditionnement : Carton de 12","active":"9","price":"5.7833","packaging_weight":"9.000","minimal_quantity":"1.00","quantity":"0","available_date":"","packaging_price":"0.00","id_conditionnement":"304"}}],"features":[{"1":{"cle":"1","feature":"Apogée","value":[""]},"3":{"cle":"3","feature":"Appellation","value":["Margaux"]},"5":{"cle":"5","feature":"Cépages","value":["62% Merlot","38% Cabernet Sauvignon"]},"7":{"cle":"7","feature":"Couleur","value":["Rouge"]},"9":{"cle":"9","feature":"Degré","value":["13.000"]},"11":{"cle":"11","feature":"Millésime","value":["2011"]},"13":{"cle":"13","feature":"Mode de culture","value":[""]},"15":{"cle":"15","feature":"Niveau de garde","value":[""]},"17":{"cle":"17","feature":"Notations","value":["Wine Advocate  (Neal Martin) 90","Decanter *** 15.5"]},"19":{"cle":"19","feature":"Région","value":["Bordeaux"]},"21":{"cle":"21","feature":"Température de service","value":["17-18°C"]}}]}}}]}';
+		// $_POST['data'] = '{"NoJSON":"38754","IdTransaction":"6f9ec0f0a00a48c2931f99b2dce681b5","Modèle":"STK","Type":"UPD","DateTransaction":"/Date(1509357180903-0000)/","Transaction":[{"Stock":{"36626":{"id_product_attribute":"36626","shop_quantity":"15","quantity":"16"}}}]}';
 
 		if (!isset($_POST['data']))
 			return false;
 
 		$data = json_decode($_POST['data'], true);
-
-		// echo '<pre>';
-		// print_r($data);die;
 
 		if (is_null($data) || $data === false)
 		{
@@ -432,13 +451,21 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 				$this->updateOrder($data['Transaction']);
 		}
 
+		if ($data['Modèle'] == 'STK' || $data['Modèle'] == 'STOCK')
+		{
+			if ($data['Type'] == 'INS' || $data['Type'] == 'INSERT')
+				$this->saveStock($data['Transaction']);
+
+			if ($data['Type'] == 'UPD' || $data['Type'] == 'UPDATE')
+				$this->saveStock($data['Transaction'], true);
+		}
+
 		$this->module->add($data, 'get');
 		die();
 	}
 
 	public function addCustomer($data)
 	{
-		// foreach ($data as $k_client => $clients)
 		foreach ($data[0]['clients'] as $c_key => $c_val) 
 		{
 			if (Customer::customerExists($c_val['email']))
@@ -505,6 +532,35 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 				}
 			}
+
+			if (isset($c_val['NbPointsConsommes']) && $c_val['NbPointsConsommes'] > 0)
+			{
+				Db::getInstance()->insert('totloyalty', array(
+						'id_loyalty_state' => pSQL(4),
+						'id_customer' => pSQL($id_customer),
+						'id_order' => pSQL(0),
+						'id_cart_rule' => pSQL(0),
+						'points' => pSQL($c_val['NbPointsConsommes']),
+						'date_add' => date('Y-m-d H:i:s'),
+						'date_upd' => date('Y-m-d H:i:s'),
+					)
+				);
+			}
+
+			if (isset($c_val['NbPointsAcquits']) && $c_val['NbPointsAcquits'] > 0)
+			{
+				Db::getInstance()->insert('totloyalty', array(
+						'id_loyalty_state' => pSQL(2),
+						'id_customer' => pSQL($id_customer),
+						'id_order' => pSQL(0),
+						'id_cart_rule' => pSQL(0),
+						'points' => pSQL($c_val['NbPointsAcquits']),
+						'date_add' => date('Y-m-d H:i:s'),
+						'date_upd' => date('Y-m-d H:i:s'),
+					)
+				);
+			}
+
 		}
 
 		return true;
@@ -647,28 +703,62 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			StockAvailable::setQuantity((int)$object->id, 0, $product['quantity']);
 
 			// CATEGORIES
+			// $categories = array('2');
+			// if (isset($product['categories']))
+			// {
+			// 	foreach ($product['categories'] as $cat)
+			// 	{
+			// 		if (empty($cat))
+			// 			continue;
+
+			// 		$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category_lang` WHERE `id_lang`='1' AND `name`='" . pSQL($cat) . "'");
+
+			// 		if ($id_cat === false)
+			// 		{
+			// 			$category = new Category();
+			// 			$category->name[1] = $cat;
+			// 			$category->id_parent = 2;
+			// 			$category->link_rewrite[1] = $this->module->toNurl($cat);
+			// 			$category->add();
+			// 			$id_cat = $category->id;
+			// 		}
+
+			// 		$categories[] = $id_cat;
+			// 	}	
+			// }
+
+			// if ($upd)
+			// 	$object->updateCategories($categories, true);
+			// else
+			// 	$object->addToCategories($categories);
+
 			$categories = array('2');
 			if (isset($product['categories']))
 			{
 				foreach ($product['categories'] as $cat)
 				{
+					$arr = explode("|", $cat);
+					$id_category = $arr[0];
+					$name_category = $arr[1];
+
 					if (empty($cat))
 						continue;
 
-					$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category_lang` WHERE `id_lang`='1' AND `name`='" . pSQL($cat) . "'");
+					$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category_dubos`='" . pSQL($id_category) . "'");
 
 					if ($id_cat === false)
 					{
 						$category = new Category();
-						$category->name[1] = $cat;
+						$category->name[1] = $name_category;
 						$category->id_parent = 2;
-						$category->link_rewrite[1] = $this->module->toNurl($cat);
+						$category->link_rewrite[1] = $this->module->toNurl($name_category);
+						$category->id_category_dubos = $id_category;
 						$category->add();
 						$id_cat = $category->id;
 					}
 
 					$categories[] = $id_cat;
-				}	
+				}
 			}
 
 			if ($upd)
@@ -698,7 +788,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 			Db::getInstance()->execute("DELETE FROM `" . _DB_PREFIX_ . "foodandwine_product` WHERE `id_product`='" . pSQL($object->id) . "'");
 
-			if (isset($product['foodandwine']) && count($product['foodandwine']) > 0)
+			if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
 			foreach ($product['foodandwine'] as $picto)
 			{
 				$id_picto = Db::getInstance()->getValue("SELECT `id_foodandwine` FROM `" . _DB_PREFIX_ . "foodandwine` WHERE `slug`='" . pSQL(trim($picto)) . "'");
@@ -716,7 +806,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 			$object->deleteProductFeatures();
 
-			if (isset($product['features']) && count($product['features'][0]) > 0)
+			if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
 			{
 				foreach ($product['features'][0] as $feat)
 				{
@@ -777,7 +867,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			// Get specific price for combinations if update and before delete
 			$sp_combination = array();
 			// $qty_combination = array();
-			if (isset($product['attributes']) && count($product['attributes'][0]) > 0)
+			if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
 			foreach ($product['attributes'][0] as $key => $attr)
 			{
 
@@ -795,7 +885,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			// delete combinations
 			$object->deleteProductAttributes();
 
-			if (isset($product['attributes']) && count($product['attributes'][0]) > 0)
+			if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
 			{
 				$pictures_association = array();
 				foreach ($product['attributes'][0] as $key => $attr)
@@ -986,6 +1076,51 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		// echo '<pre>';
 		// print_r($data);
 		// die();
+		return true;
+	}
+
+	public function saveStock($data, $upd = false)
+	{
+		foreach ($data[0]['Stock'] as $key => $value)
+		{
+			$product = Db::getInstance()->getRow("
+				SELECT PA.`id_product_attribute`, PA.`id_product`
+				FROM `" . _DB_PREFIX_ . "product_attribute` PA
+				WHERE PA.`id_product_attribute_dubos`='" . pSQL($value['id_product_attribute']) . "'
+			");
+
+			if ($upd)
+			{
+				Db::getInstance()->update('stock_available', array(
+						'quantity' => pSQL($value['quantity']),
+						'shop_quantity' => pSQL($value['shop_quantity']),
+					),
+					"`id_product_attribute`='" . pSQL($product['id_product_attribute']) . "'"
+				);
+			}
+			else
+			{
+				$product = Db::getInstance()->getRow("
+					SELECT PA.`id_product_attribute`, PA.`id_product`
+					FROM `" . _DB_PREFIX_ . "product_attribute` PA
+					WHERE PA.`id_product_attribute_dubos`='" . pSQL($value['id_product_attribute']) . "'
+				");
+
+				Db::getInstance()->insert('stock_available', array(
+						'id_product_attribute_dubos' => pSQL($value['id_product_attribute']),
+						'id_product' => pSQL($product['id_product']),
+						'id_product_attribute' => pSQL($product['id_product_attribute']),
+						'id_shop' => pSQL(1),
+						'id_shop_group' => pSQL(0),
+						'quantity' => pSQL($value['quantity']),
+						'shop_quantity' => pSQL($value['shop_quantity']),
+						'depends_on_stock' => pSQL(0),
+						'out_of_stock' => pSQL(2),
+					)
+				);
+			}
+		}
+
 		return true;
 	}
 
