@@ -187,4 +187,42 @@ class OrderFeesOverride extends OrderFees
         
         return $this->display(__FILE__, $template);
     }
+
+    public function displayFeesOnPDF($params, $template, $context = self::CONTEXT_PDF)
+    {
+        $order = $params['order'];
+        
+        $this->context->smarty->assign(array(
+            'order' => $order,
+            'fees' => $this->getFeesByOrder($order, $context)
+        ));
+        
+        $discounts = $params['discounts'];
+        
+        if (!count($discounts) || empty($discounts))
+            return false;
+
+        foreach ($discounts as $index => $discount) {
+            $object = new CartRule($discount['id_cart_rule']);
+            
+            if ($object->is_fee & self::IS_FEE) {
+                unset($discounts[$index]);
+            }
+        }
+        
+        $params['smarty']->assign('cart_rules', $discounts);
+        
+        if (Tools::version_compare('1.7', _PS_VERSION_)) {
+            $price_formatter = new PrestaShop\PrestaShop\Adapter\Product\PriceFormatter();
+        
+            $this->context->smarty->assign(array(
+                'tax' => new TaxConfiguration(),
+                'price' => $price_formatter
+            ));
+            
+            // return $this->display(__FILE__, '1.7/' . $template);
+        }
+        
+        return $this->display(__FILE__, $template);
+    }
 }

@@ -1865,7 +1865,9 @@ class BAMegaMenu extends Module
                 $assembler->assembleProduct(array('id_product' => $id)),
                 $this->context->language
             );
-
+            $this->context->smarty->assign('product', $product);
+            return $this->context->smarty->fetch(_PS_THEME_DIR_ . 'templates/catalog/_partials/miniatures/product.tpl');
+            
             $oldprice= (isset($product['has_discount']) && !empty($product['has_discount']) ? 1 : 0);
 
             $html = '';

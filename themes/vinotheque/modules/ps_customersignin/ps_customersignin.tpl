@@ -45,4 +45,8 @@
             $('.is_logged').remove();
         });
     </script>
+<<<<<<< HEAD
 {/if}
+=======
+{/if}
+>>>>>>> 0e281b7c1663b0abd1fbac0b09d8d7037d7006ee
