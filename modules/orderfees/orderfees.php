@@ -1474,6 +1474,9 @@ class OrderFees extends MotionSeedModule
         
         $discounts = $params['discounts'];
         
+        if (!count($discounts) || empty($discounts))
+            return false;
+
         foreach ($discounts as $index => $discount) {
             $object = new CartRule($discount['id_cart_rule']);
             
@@ -1492,7 +1495,7 @@ class OrderFees extends MotionSeedModule
                 'price' => $price_formatter
             ));
             
-            return $this->display(__FILE__, '1.7/' . $template);
+            // return $this->display(__FILE__, '1.7/' . $template);
         }
         
         return $this->display(__FILE__, $template);
