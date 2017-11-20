@@ -12,6 +12,6 @@ $(document).ready(function(){
 	});
 
 	$('#gift_checkbox').on('change', function(){
-		$.post($(this).parent().parent().data('url'), $(this).parent().parent().serialize(), function(data){},'json');
+		$.post($(this).parent().parent().data('url'), $(this).parent().parent().serialize(), function(data){prestashop.emit('updateCart');},'json');
 	})
 });
