@@ -369,14 +369,6 @@ class GiftCard extends Module
         }
     }
 
-    public function hookDisplayCheckoutForm($params)
-    {
-        // $this->context->smarty->assign(array(
-        //     ''
-        // ));
-        return $this->display(__FILE__, 'views/templates/hook/'.$this->tpl_version.'/gift_form.tpl');
-    }
-
     public static function generateVoucher($id_cart, $callee = 'hook')
     {
         $id_order = Gift::getOrderIdsByCartId($id_cart);
