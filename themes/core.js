@@ -1718,16 +1718,16 @@
 	  _prestashop2['default'].on('updateCart', function (event) {
 	    var getCartViewUrl = (0, _jquery2['default'])('.js-cart').data('refresh-url');
 	    var requestData = {};
-	
+
 	    if (event && event.reason) {
 	      requestData = {
 	        id_product_attribute: event.reason.idProductAttribute,
 	        id_product: event.reason.idProduct
 	      };
 	    }
-	
+
 	    var productPriceSelector = '.product-price strong';
-	
+
 	    var updatePrices = function updatePrices(pricesInCart, $cartOverview, $newCart) {
 	      _jquery2['default'].each(pricesInCart, function (index, priceInCart) {
 	        var productLabel = (0, _jquery2['default'])((0, _jquery2['default'])(priceInCart).parents('.product-line-grid')[0]).find('a.label');
@@ -1736,12 +1736,12 @@
 	        var productAnchorSelector = '.label[href="' + productUrl + '"][data-id_customization="' + customizationId + '"]';
 	        var newProductAnchor = $newCart.find(productAnchorSelector);
 	        var $cartItem = (0, _jquery2['default'])($cartOverview.find(productAnchorSelector).parents('.cart-item')[0]);
-	
+
 	        if (newProductAnchor.length > 0) {
 	          (function () {
 	            var $newCartItem = newProductAnchor.parents('.cart-item');
 	            var $productCartItems = $cartOverview.find(productAnchorSelector).parents('.cart-item');
-	
+
 	            _jquery2['default'].each($productCartItems, function (index, productCartItem) {
 	              var $productCartItem = (0, _jquery2['default'])(productCartItem);
 	              // Case when a gift previously added to cart has been removed
@@ -1749,7 +1749,7 @@
 	                $productCartItem.remove();
 	              }
 	            });
-	
+
 	            if ($newCartItem.find('.gift').length === 1 && $productCartItems.find('.gift').length === 1 && $productCartItems.length > 1) {
 	              // Case when a product added manually has been removed and
 	              // the same product has been given away
@@ -1760,16 +1760,16 @@
 	            }
 	          })();
 	        }
-	
+
 	        // Remove cart item if response does not contain current product link
 	        if (0 === newProductAnchor.length) {
 	          $cartItem.remove();
-	
+
 	          return;
 	        }
-	
+
 	        var $newCartItem = (0, _jquery2['default'])($newCart.find(productAnchorSelector).parents('.cart-item')[0]);
-	
+
 	        var newPrice;
 	        if ($newCartItem.find(productPriceSelector).find('.gift').length > 0) {
 	          newPrice = $newCartItem.find(productPriceSelector).html(); // Preserve gift tag
@@ -1780,17 +1780,17 @@
 	        }
 	      });
 	    };
-	
+
 	    var appendGiftProducts = function appendGiftProducts($cartOverview, $newCart) {
 	      $newCart = $newCart.filter('.js-cart');
 	      var $productAnchors = $newCart.find('.label[href]');
-	
+
 	      _jquery2['default'].each($productAnchors, function (index, productAnchor) {
 	        var $productAnchor = (0, _jquery2['default'])(productAnchor);
 	        var productUrl = $productAnchor.attr('href');
 	        var $cartItems = $cartOverview.find('.cart-items');
 	        var $newCartItem = $productAnchor.parents('.cart-item');
-	
+
 	        if (0 === $cartItems.find('.label[href="' + productUrl + '"]').length) {
 	          $cartItems.append($productAnchor.parents('.cart-item'));
 	        } else {
@@ -1801,30 +1801,30 @@
 	        }
 	      });
 	    };
-	
+
 	    _jquery2['default'].post(getCartViewUrl, requestData).then(function (resp) {
 	      var $newCart = (0, _jquery2['default'])(resp.cart_detailed);
 	      var $cartOverview = (0, _jquery2['default'])('.cart-overview');
 	      var pricesInCart = $cartOverview.find(productPriceSelector);
-	
+
 	      if ($newCart.find('.no-items').length > 0) {
 	        $cartOverview.replaceWith(resp.cart_detailed);
 	      } else {
 	        updatePrices(pricesInCart, $cartOverview, $newCart);
 	        appendGiftProducts($cartOverview, $newCart);
 	      }
-	
+
 	      (0, _jquery2['default'])('.cart-detailed-totals').replaceWith(resp.cart_detailed_totals);
 	      (0, _jquery2['default'])('.cart-summary-items-subtotal').replaceWith(resp.cart_summary_items_subtotal);
 	      (0, _jquery2['default'])('.cart-summary-totals').replaceWith(resp.cart_summary_totals);
 	      (0, _jquery2['default'])('.cart-detailed-actions').replaceWith(resp.cart_detailed_actions);
 	      (0, _jquery2['default'])('.cart-voucher').replaceWith(resp.cart_voucher);
-	
+
 	      (0, _jquery2['default'])('.js-cart-line-product-quantity').each(function (index, input) {
 	        var $input = (0, _jquery2['default'])(input);
 	        $input.attr('value', $input.val());
 	      });
-	
+
 	      _prestashop2['default'].emit('updatedCart');
 	    }).fail(function (resp) {
 	      _prestashop2['default'].emit('handleError', { eventType: 'updateCart', resp: resp });

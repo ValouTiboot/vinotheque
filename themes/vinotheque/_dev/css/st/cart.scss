@@ -303,7 +303,7 @@
       }
       .cart-voucher > form {
         .form-control {
-          width: auto;
+          width: 58%;
           padding: 0.5rem;
           text-transform: uppercase;
         }
@@ -357,9 +357,8 @@
   #checkout_details {
     > section > div {
       background: $gray-dark;
-      padding-top: rem(20px);
-      #cart-summary {
-        padding: 0 rem(25px) rem(10px);
+      &#cart-summary {
+        padding: rem(20px) rem(25px) rem(10px);
         .media-list {
           margin: rem(10px) 0;
           .media {
@@ -367,7 +366,7 @@
           }
         }
       }
-      .products, .shipping, .cart-voucher form, .cart-summary-totals, .tax {
+      .products, .shipping, .cart-voucher form, .cart-summary-total, .tax {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
@@ -400,12 +399,12 @@
       }
       .cart-voucher > form {
         .form-control {
-          width: auto;
+          width: 58%;
           padding: 0.5rem;
           text-transform: uppercase;
         }
       }
-      .cart-summary-totals {
+      .cart-summary-total {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;

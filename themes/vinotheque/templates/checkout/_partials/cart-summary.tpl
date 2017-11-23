@@ -22,10 +22,55 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<section id="js-checkout-summary" class="js-cart js-checkout-summary" data-refresh-url="{url entity='cart' params=['ajax' => 1]}">
+<section id="js-checkout-summary" class="js-cart js-checkout-summary" data-refresh-url="{url entity='cart' params=['ajax' => 1]}&action=refresh">
   {block name='hook_checkout_summary_top'}
     {hook h='displayCheckoutSummaryTop'}
   {/block}
+
+	{block name='cart_summary_body'}
+      <div id="cart-summary">
+		  {foreach from=$cart.subtotals item="subtotal"}
+			  {if $subtotal.type == 'products'}
+                <div class="{$subtotal.type}">
+                  <span class="label">{$subtotal.label}</span>
+                  <span class="value">{$subtotal.value}</span>
+                </div>
+			  {/if}
+		  {/foreach}
+        <div class="display-details">
+          <a href="#" data-toggle="collapse" data-target="#cart-summary-product-list">
+			  {l s='show details' d='Shop.Theme.Actions'}
+          </a>
+        </div>
+
+		  {block name='cart_summary_product_list'}
+            <div class="collapse" id="cart-summary-product-list">
+              <ul class="media-list">
+				  {foreach from=$cart.products item=product}
+                    <li class="media">{include file='checkout/_partials/cart-summary-product-line.tpl' product=$product}</li>
+				  {/foreach}
+              </ul>
+            </div>
+		  {/block}
+		  {foreach from=$cart.subtotals item="subtotal"}
+			  {if $subtotal.type == 'shipping'}
+                <div class="{$subtotal.type}">
+                  <span class="label">{$subtotal.label}</span>
+                  <span class="value">{$subtotal.value}</span>
+                </div>
+			  {/if}
+		  {/foreach}
+
+		  {block name='cart_voucher'}
+            <div class="cart-voucher-details">
+              <a href="#" data-toggle="collapse" data-target="#cart-voucher-form">
+				  {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
+              </a>
+				{include file='checkout/_partials/cart-voucher.tpl'}
+            </div>
+		  {/block}
+      </div>
+	{/block}
 
   {block name='cart_totals'}
     {include file='checkout/_partials/cart-summary-totals.tpl' cart=$cart}

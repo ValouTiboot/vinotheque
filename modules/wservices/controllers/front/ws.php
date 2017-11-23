@@ -390,14 +390,6 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 	public function receiver()
 	{
-		// $_POST['data'] = '{"NoJSON":"971633","IdTransaction":"90566db908bc43808aecabd30efc9e1d","Modèle":"PRD","Type":"UPD","DateTransaction":"/Date(1504096095950-0000)/","Transaction":[{"produits":{"M2014003137":{"reference":"M2014003137","id_second_wine":"","id_category_default":"Vins étrangers","cache_default_attribute":"42509","active":"1","name":"LAIBACH THE LADY BIRD","wine":"0","wine_date":"","wine_delivery":"","available_date":"","quantity":"0","shop_quantity":"0","price":"0","id_tax_rules_group":"NOR","available_later":"Commande en cours...","property_picture":"","calling_picture_big":"","calling_picture_small":"","calling":"Situées à 50 Km de Cape Town, cette appellation au climat méditerranéen est très connue pour ses vins rouges produits à base du cépage du Cabernet Sauvignon. Ces vins possèdent une belle couleur rubis, un nez aromatique, fruité et fleuri, avec des arômes de violette, de groseilles et de prunes. en bouche, l\'équilibre entre la fraîcheur et les tannins et idéal. Ce vin dévoile toute sa splendeur dans sa jeunesse.","property":"","description":"Au nez des notes de petits fruits rouges frais, cuir et épices. En bouche le vin a une belle fraicheur, des fruits bien présents et des tannins soyeux. C\'est un vin bien équilibré, élégant et complexe.rnA consommer 2 à 10 ans après vendange.","description_short":"","categories":["AFRIQUE DU SUD","Stellenbosch","Stellenbosch","Vins étrangers"],"pictogram":[],"foodandwine":[],"images":[{"1":{"cle":"1","url":"laibach-lady-bird.jpg","legend":"LAIBACH THE LADY BIRD","cover":"1","value":["42509"]}}],"attributes":[{"1":{"cle":"1","out_of_stock":"0","id_product_attribute":"42509","reference":"M2014003137","shop_quantity":"5","name":"Format : Bouteille 0,75 L","active":"1","price":"16.6667","packaging_weight":"0.000","minimal_quantity":"1.00","quantity":"17","available_date":"","packaging_price":"0.00","id_conditionnement":""}}],"features":[{"1":{"cle":"1","feature":"Apogée","value":[""]},"2":{"cle":"2","feature":"Appellation","value":["Stellenbosch"]},"3":{"cle":"3","feature":"Classification","value":[""]},"4":{"cle":"4","feature":"Couleur","value":["Rouge"]},"5":{"cle":"5","feature":"Degré","value":["14.000"]},"6":{"cle":"6","feature":"Millésime","value":["2014"]},"7":{"cle":"7","feature":"Mode de culture","value":[""]},"8":{"cle":"8","feature":"Niveau de garde","value":[""]},"9":{"cle":"9","feature":"Région","value":["Stellenbosch"]},"10":{"cle":"10","feature":"Température de service","value":["15-16°C"]}}]}}}]}';
-
-		// $_POST['data'] = '{"NoJSON":"165","IdTransaction":"b6c6e6899b734447b90620767995f280","Modèle":"TRF","Type":"INS","DateTransaction":"2017-06-13","Transaction":[{"tarif":{"1":{"cle":"1","id_product_attribute":"36427|26","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"2":{"cle":"2","id_product_attribute":"36427|125","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"3":{"cle":"3","id_product_attribute":"36427|128","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"4":{"cle":"4","id_product_attribute":"36427|129","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"5":{"cle":"5","id_product_attribute":"36427|168","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"6":{"cle":"6","id_product_attribute":"36427|174","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"7":{"cle":"7","id_product_attribute":"36427|183","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"},"8":{"cle":"8","id_product_attribute":"36427|298","id_product":"M2012000761","reduction_type":"percentage","reduction_tax":"1","reduction":"10","from":"2016-05-27 14:21:19","to":"","price":"0","id_customer":"0","from_quantity":"0"}}}]}';
-
-		// $_POST['data'] = '{"NoJSON":"74246","IdTransaction":"48bd49f1de79450e8d0f6a2b9e8830de","Modèle":"CLT","Type":"INS","DateTransaction":"/Date(1504705322303-0000)/","Transaction":[{"clients":{"22424":{"notiers":"22424","lastname":"AUBURTIN","firstname":"Jean-luc","email":"auburtin.jean-luc@orange.fr","id_gender":"1","passwd":"jla1993","birthday":"1953-10-02 00:00:00","active":"1","optin":"0","newsletter":"0","siret":"","ape":"","NbPointsConsommes":"0","NbPointsAcquits":"976","NbPointsRestants":"976","adresses":[{"1":{"rank":"1","noadresse":"29105","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"},"2":{"rank":"2","noadresse":"29106","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"},"3":{"rank":"3","noadresse":"29106","alias":"57570 EVRANGE","address1":"3, rue du Puits","address2":"","city":"EVRANGE","postcode":"57570","phone":"","phone_mobile":"","company":"Mr AUBURTIN Jean-Luc","firstname":"Jean-luc","lastname":"AUBURTIN","other":"","active":"1","id_country":"FR"}}]}}}]}';
-
-		// $_POST['data'] = '{"NoJSON":"38754","IdTransaction":"6f9ec0f0a00a48c2931f99b2dce681b5","Modèle":"STK","Type":"UPD","DateTransaction":"/Date(1509357180903-0000)/","Transaction":[{"Stock":{"36626":{"id_product_attribute":"36626","shop_quantity":"15","quantity":"16"}}}]}';
-
 		if (!isset($_POST['data']))
 			return false;
 
@@ -413,8 +405,8 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			die('Transaction not set.');
 
 		// if ($this->module->TransactionExists($data['IdTransaction']))
-		if ($this->module->TransactionExists($data['NoJSON']))
-			die('Transaction already exists.');
+		// if ($this->module->TransactionExists($data['NoJSON']))
+		// 	die('Transaction already exists.');
 
 		if ($data['Modèle'] == 'CLT' || $data['Modèle'] == 'CLIENT')
 		{
@@ -658,13 +650,50 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 	public function saveProduct($data, $upd = false)
 	{
-		// echo '<pre>';
-		// print_r($data);
-		// die();
-
 		foreach ($data[0]['produits'] as $ref => $product)
 		{
-			$id_category_default = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category_lang` WHERE `name`='" . pSQL($product['id_category_default']) . "' AND `id_lang`=1");
+			// CATEGORIES
+
+			$categories = array('2');
+			if (isset($product['categories']) && count($product['categories']) > 0 && count($product['categories'][0]) > 0)
+			{
+				foreach ($product['categories'][0] as $cat_tree)
+				{
+					foreach ($cat_tree['value'] as $cats)
+					{
+						$i = 1;
+						$id_parent = 2;
+						foreach ($cats as $cat)
+						{
+							$id_category = $cat['nocategorie'];
+							$name_category = $cat['categorie'];
+
+							if ($i > 1)
+								$id_parent = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category`='" . pSQL($categories[$i-1]) . "'");
+
+							$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category_dubos`='" . pSQL($id_category) . "'");
+
+							if ($id_cat === false)
+							{
+								$category = new Category();
+								$category->name[1] = $name_category;
+								$category->id_parent = $id_parent;
+								$category->link_rewrite[1] = $this->module->toNurl($name_category);
+								$category->id_category_dubos = $id_category;
+								$category->add();
+								$id_cat = $category->id;
+							}
+
+							$categories[$i] = $id_cat;
+							$i++;
+						}
+					}
+				}
+			}
+
+			// $id_category_default = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category_lang` WHERE `name`='" . pSQL($product['id_category_default']) . "' AND `id_lang`=1");
+			$id_category_default = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category_dubos`='" . pSQL($product['id_category_default']) . "'");
+
 			$id_tax_rules_group = Db::getInstance()->getValue("SELECT `id_tax_rules_group` FROM `" . _DB_PREFIX_ . "tax_rules_group` WHERE `code`='" . pSQL($product['id_tax_rules_group']) . "'");
 			// $id_second_wine = Db::getInstance()->getValue("SELECT `reference` FROM `" . _DB_PREFIX_ . "product` WHERE `reference`='" . pSQL($product['id_second_wine']) . "'");
 
@@ -699,72 +728,13 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			$object->description_short[1] = $this->rDQuote($product['description_short']);
 			$object->save();
 
-			// StockAvailable::setProductOutOfStock((int)$object->id, $product['out_of_stock'], 1);
-			StockAvailable::setQuantity((int)$object->id, 0, $product['quantity']);
-
-			// CATEGORIES
-			// $categories = array('2');
-			// if (isset($product['categories']))
-			// {
-			// 	foreach ($product['categories'] as $cat)
-			// 	{
-			// 		if (empty($cat))
-			// 			continue;
-
-			// 		$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category_lang` WHERE `id_lang`='1' AND `name`='" . pSQL($cat) . "'");
-
-			// 		if ($id_cat === false)
-			// 		{
-			// 			$category = new Category();
-			// 			$category->name[1] = $cat;
-			// 			$category->id_parent = 2;
-			// 			$category->link_rewrite[1] = $this->module->toNurl($cat);
-			// 			$category->add();
-			// 			$id_cat = $category->id;
-			// 		}
-
-			// 		$categories[] = $id_cat;
-			// 	}	
-			// }
-
-			// if ($upd)
-			// 	$object->updateCategories($categories, true);
-			// else
-			// 	$object->addToCategories($categories);
-
-			$categories = array('2');
-			if (isset($product['categories']))
-			{
-				foreach ($product['categories'] as $cat)
-				{
-					$arr = explode("|", $cat);
-					$id_category = $arr[0];
-					$name_category = $arr[1];
-
-					if (empty($cat))
-						continue;
-
-					$id_cat = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category_dubos`='" . pSQL($id_category) . "'");
-
-					if ($id_cat === false)
-					{
-						$category = new Category();
-						$category->name[1] = $name_category;
-						$category->id_parent = 2;
-						$category->link_rewrite[1] = $this->module->toNurl($name_category);
-						$category->id_category_dubos = $id_category;
-						$category->add();
-						$id_cat = $category->id;
-					}
-
-					$categories[] = $id_cat;
-				}
-			}
-
 			if ($upd)
 				$object->updateCategories($categories, true);
 			else
 				$object->addToCategories($categories);
+
+			// StockAvailable::setProductOutOfStock((int)$object->id, $product['out_of_stock'], 1);
+			StockAvailable::setQuantity((int)$object->id, 0, $product['quantity']);
 
 			// PICTOGRAM
 

@@ -113,59 +113,59 @@
                               {if $product.features}
                               <ul class="row">
                                 {*Année*}
-								  {if isset($product.features[6])}
+                  {if isset($product.features[6])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-agenda"></i>
                                               <span>{$product.features[6].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
                                 {*Région*}
-								  {if isset($product.features[11])}
+                  {if isset($product.features[11])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-france"></i>
                                               <span>{$product.features[11].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
                                 {*Couleur*}
-								  {if isset($product.features[5])}
+                  {if isset($product.features[5])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-bottles"></i>
                                               <span>{$product.features[5].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
                                 {*Appellation*}
-								  {if isset($product.features[2])}
+                  {if isset($product.features[2])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-tag"></i>
                                               <span>{$product.features[2].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
                                 {*Degré*}
-								  {if isset($product.features[13])}
+                  {if isset($product.features[13])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-temperature"></i>
                                               <span>{$product.features[13].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
                                 {*Classification*}
-								  {if isset($product.features[4])}
+                  {if isset($product.features[4])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-reward"></i>
                                               <span>{$product.features[4].value}</span>
                                           </div>
                                       </li>
-								  {/if}
+                  {/if}
 
                                 {*{foreach from=$product.features item=feature}*}
                                     {*{if in_array($feature.name, array('Année','Région','Couleur','Appellation','Degré','Classification'))}*}
@@ -267,13 +267,13 @@
                                     {if $product.quantity <= 0}
                                       {*}
                                       <div>
-									                     <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {$product.available_date}
+                                       <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {$product.available_date}
                                       </div>
                                       {*}
                                     {/if}
 
                                     <div id="stock_pictos_shop_quantity" {if $product.shop_quantity <= 0}style="display:none;"{/if}>
-								                      <i class="icon-v-check-bubble"></i>{l s='Disponible en magasin' d='Shop.Theme.Catalog'}
+                                      <i class="icon-v-check-bubble"></i>{l s='Disponible en magasin' d='Shop.Theme.Catalog'}
                                     </div>
                                 </div>
 
@@ -372,7 +372,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body">
-										{assign var=imagesCount value=$product.images|count}
+                    {assign var=imagesCount value=$product.images|count}
                                         <figure>
                                             <img width="100%" src="{$product.calling_picture_big}">
                                         </figure>

@@ -214,9 +214,31 @@ class Wservices extends Module
 
     public function publishCustomer($customer, $type, $addresses = array())
     {
-
         if (!count($addresses))
             $addresses = $this->getCustomerAddresses($customer->id);
+
+        // Get customer's loyalty
+        $consumed_points = 0;
+        $acquired_points = 0;
+        $remaining_points = 0;
+        $customer_loyalties = $this->getCustomerLoyalties($customer->id);
+
+        if (isset($customer_loyalties) && !empty($customer_loyalties))
+        {
+            // 1 = En attente de validation
+            // 2 = Disponible
+            // 3 = Annulés
+            // 4 = Déjà convertis
+            // 5 = Non disponbile sur produits remisés
+            foreach ($customer_loyalties as $key => $value) {
+                if ($value['id_loyalty_state'] == 4)
+                    $consumed_points += $value['points'];
+
+                if ($value['id_loyalty_state'] == 2 || $value['id_loyalty_state'] == 4)
+                    $acquired_points += $value['points'];
+            }
+            $remaining_points = $acquired_points - $consumed_points;
+        }
         
         $trans = array(
             'NoJSON' => '',
@@ -240,6 +262,9 @@ class Wservices extends Module
                             'newsletter' => (!is_null($customer->newsletter) ? $customer->newsletter : ''),
                             'siret' => (!is_null($customer->siret) ? $customer->siret : ''),
                             'ape' => (!is_null($customer->ape) ? $customer->ape : ''),
+                            'NbPointsConsommes' => (string)$consumed_points,
+                            'NbPointsAcquits' => (string)$acquired_points,
+                            'NbPointsRestants' => (string)$remaining_points,
                             'adresses' => $addresses
                         ),
                     ),
@@ -253,6 +278,20 @@ class Wservices extends Module
         $trans['NoJSON'] = $this->add($trans, 'set');
 
         return $this->publish($trans);
+    }
+
+    public static function getCustomerLoyalties($id_customer)
+    {
+        $query = '
+        SELECT f.id_order AS id, f.date_add AS date, (o.total_paid - o.total_shipping) total_without_shipping, f.points, f.id_loyalty, f.id_loyalty_state, fsl.name state
+        FROM `'._DB_PREFIX_.'totloyalty` f
+        LEFT JOIN `'._DB_PREFIX_.'orders` o ON (f.id_order = o.id_order)
+        LEFT JOIN `'._DB_PREFIX_.'totloyalty_state_lang` fsl ON (f.id_loyalty_state = fsl.id_loyalty_state)
+        WHERE f.id_customer = '.(int)($id_customer);
+
+        $query .= ' GROUP BY f.id_loyalty ';
+
+        return Db::getInstance()->executeS($query);
     }
 
     public function getCustomerAddresses($id_customer)

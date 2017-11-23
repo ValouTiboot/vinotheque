@@ -95,7 +95,8 @@ ul.treelinks li ul li:hover >ul{
 	display: block;
 	float: left;
 }
-.cols .content_submenu .titlesub, #header .cols .content_submenu .titlesub a {
+.cols .content_submenu .titlesub, #header .cols .content_submenu .titlesub a,
+.green_menu .content_submenu p a span {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -338,4 +339,25 @@ div.autowidth{
 	z-index:99999 !important;
 	left: 0;
 	width: 100%;
+}
+
+/* Toutes les appellations */
+#header .col_4 ul li a {
+	position: absolute;
+	left: calc(25% + 7px);
+	bottom: 8px;
+	color: #b61f38;
+}
+#header .col_4 ul li a:hover {
+	text-decoration: underline;
+}
+#header .col_4 ul li a span {
+	display: none;
+}
+#header .col_4 ul li a:before {
+	content: "Toutes les appellations   ";
+}
+#header .col_4 ul li a:after {
+	content: '\f105';
+	font-family: FontAwesome;
 }
