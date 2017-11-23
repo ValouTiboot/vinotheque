@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	$('#js-delivery').on('submit', function(e){
+	$('#js-delivery-cart').on('submit', function(e){
 		e.preventDefault();
 		$.post($(this).data('url'), $(this).serialize(), function(data){
 				if ($('#gift_checkbox').is(':checked'));
