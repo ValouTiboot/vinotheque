@@ -3,7 +3,7 @@
   <label class="gift_message">{l s='Cette commande est un cadeau ?' d='Shop.Theme.Checkout'}</label>
   <form
     class="clearfix"
-    id="js-delivery"
+    id="js-delivery-cart"
     data-url="{$cartgift.url}"
     method="post"
   >

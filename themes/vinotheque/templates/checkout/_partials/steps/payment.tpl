@@ -1,6 +1,10 @@
 {extends file='checkout/_partials/steps/checkout-step.tpl'}
 
 {block name='step_content'}
+  
+  <div>
+    {hook h='displayCheckoutForm' mod='giftcard'}
+  </div>
 
   <div class="payment-options">
     {foreach from=$payment_options item="module_options"}

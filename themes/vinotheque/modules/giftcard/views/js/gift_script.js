@@ -47,18 +47,24 @@ $('document').ready( function()
 		}
 
 		if (giftType == 'fixed')
+		{
 			$('.product-prices').show();
+			gift_price = prices_tax;
+		}
 		else
+		{
 			$('.product-prices').hide();
+			gift_price = $('#gift_card_price').val();
+		}
 
 		$('#' + giftType + '_price').prependTo('#add-to-cart-or-refresh');
 
 		prestashop.on('updateProduct', function(e)
 		{
-			_getGiftPrice(giftType, parseFloat($('#gift_card_price').val()));
+			_getGiftPrice(giftType, parseFloat(gift_price));
 		});
 
-		_validatePrice(parseFloat($('#gift_card_price').val()), giftType);
+		_validatePrice(parseFloat(gift_price), giftType);
 	}
 
 

@@ -6,7 +6,7 @@ class BAMegaMenuOverride extends BAMegaMenu
     {
         if (is_null($id) || empty($id) || !$id)
             return false;
-var_dump($id); die();
+
         if (Tools::version_compare(_PS_VERSION_, '1.7', '>='))
         {
             $assembler = new ProductAssembler($this->context);
