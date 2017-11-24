@@ -25,8 +25,8 @@
 <div id="js-product-list-top" class="products-selection container">
   <div class="row">
       <div class="col-6 js-product-list-results">
-        {if $listing.pagination.total_items|count > 1}
-          <span>{l s='Résultats : %product_count% produits' d='Shop.Theme.Catalog' sprintf=['%product_count%' => $listing.pagination.total_items|count]}</span>
+        {if $listing.pagination.total_items > 1}
+          <span>{l s='Résultats : %product_count% produits' d='Shop.Theme.Catalog' sprintf=['%product_count%' => $listing.pagination.total_items]}</span>
         {elseif $listing.pagination.total_items > 0}
           <span>{l s='Résultat : 1 produit' d='Shop.Theme.Catalog'}</span>
         {/if}

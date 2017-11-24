@@ -7,21 +7,39 @@
           <input type="text" name="facet_search" id="search_input" class="form-control" placeholder="{l s='Je recherche' d='Shop.Theme'}">
         </div>
         {foreach from=$filters item=filter}
-        	{if in_array($filter.name, array('Couleur','Prix','Appellation'))}
-            <div class="col-lg-2">
-				<select name="{$filter.name}" id="{$filter.name}" class="form-control form-control-select">
-					<option selected disabled value="">{$filter.name}</option>
-					{if $filter.type == 'price'}
-					{foreach from=$filter.list_of_values item=value}
-					<option value="{$value.0}-{$value.1}">{Tools::displayPrice($value.0)} - {Tools::displayPrice($value.1)}</option>
-					{/foreach}
-					{else}
-					{foreach from=$filter.values item=value}
-					<option value="{$value.name}">{$value.name}</option>
-					{/foreach}
-					{/if}
-				</select>
-	        </div>
+        	{if in_array($filter.name, array('Appellation'))}
+				<div class="col-lg-2">
+					<select name="{$filter.name}" id="{$filter.name}" class="form-control form-control-select">
+						<option selected disabled value="">{$filter.name}</option>
+						{foreach from=$filter.values item=value}
+						<option value="{$value.name}">{$value.name}</option>
+						{/foreach}
+					</select>
+				</div>
+	        {/if}
+		{/foreach}
+		  {foreach from=$filters item=filter}
+        	{if in_array($filter.name, array('Couleur'))}
+				<div class="col-lg-2">
+					<select name="{$filter.name}" id="{$filter.name}" class="form-control form-control-select">
+						<option selected disabled value="">{$filter.name}</option>
+						{foreach from=$filter.values item=value}
+						<option value="{$value.name}">{$value.name}</option>
+						{/foreach}
+					</select>
+				</div>
+	        {/if}
+		  {/foreach}
+		  {foreach from=$filters item=filter}
+        	{if in_array($filter.name, array('Prix'))}
+				<div class="col-lg-2">
+					<select name="{$filter.name}" id="{$filter.name}" class="form-control form-control-select">
+						<option selected disabled value="">{l s='Budget' d='Shop.Theme'}</option>
+						{foreach from=$filter.list_of_values item=value}
+						<option value="{$value.0}-{$value.1}">{Tools::displayPrice($value.0)} - {Tools::displayPrice($value.1)}</option>
+						{/foreach}
+					</select>
+				</div>
 	        {/if}
         {/foreach}
         <div class="col-lg-1">

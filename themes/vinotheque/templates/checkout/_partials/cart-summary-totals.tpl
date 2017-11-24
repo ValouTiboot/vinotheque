@@ -23,55 +23,10 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <div class="cart-summary-totals">
-  {block name='cart_summary_body'}
-    <div id="cart-summary">
-      {foreach from=$cart.subtotals item="subtotal"}
-        {if $subtotal.type == 'products'}
-          <div class="{$subtotal.type}">
-            <span class="label">{$subtotal.label}</span>
-            <span class="value">{$subtotal.value}</span>
-          </div>
-		{/if}
-      {/foreach}
-      <div class="display-details">
-        <a href="#" data-toggle="collapse" data-target="#cart-summary-product-list">
-			{l s='show details' d='Shop.Theme.Actions'}
-        </a>
-      </div>
-
-      {block name='cart_summary_product_list'}
-        <div class="collapse" id="cart-summary-product-list">
-          <ul class="media-list">
-              {foreach from=$cart.products item=product}
-                <li class="media">{include file='checkout/_partials/cart-summary-product-line.tpl' product=$product}</li>
-              {/foreach}
-          </ul>
-        </div>
-      {/block}
-      {foreach from=$cart.subtotals item="subtotal"}
-        {if $subtotal.type == 'shipping'}
-          <div class="{$subtotal.type}">
-            <span class="label">{$subtotal.label}</span>
-            <span class="value">{$subtotal.value}</span>
-          </div>
-        {/if}
-      {/foreach}
-
-      {block name='cart_voucher'}
-        <div class="cart-voucher-details">
-          <a href="#" data-toggle="collapse" data-target="#cart-voucher-form">
-			  {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
-          </a>
-        </div>
-        {include file='checkout/_partials/cart-voucher.tpl'}
-      {/block}
-    </div>
-  {/block}
-
   {block name='cart_summary_totals'}
-    <div class="cart-summary-totals">
-      <span class="label">{$cart.totals.total.label}</span>
-      <span class="value">{$cart.totals.total.value}</span>
+    <div class="cart-summary-total">
+        <span class="label">{$cart.totals.total.label}</span>
+        <span class="value">{$cart.totals.total.value}</span>
     </div>
   {/block}
 

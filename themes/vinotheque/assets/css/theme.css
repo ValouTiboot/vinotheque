@@ -7461,7 +7461,7 @@ small.label, small.value {
       text-decoration: none;
       padding: 0 1.5625rem; }
   #cart #cart_details > div .cart-voucher > form .form-control {
-    width: auto;
+    width: 58%;
     padding: 0.5rem;
     text-transform: uppercase; }
   #cart #cart_details > div .cart-total {
@@ -7503,24 +7503,23 @@ small.label, small.value {
   justify-content: space-between; }
 
 #checkout #checkout_details > section > div {
-  background: #e3e1e1;
-  padding-top: 1.25rem; }
-  #checkout #checkout_details > section > div #cart-summary {
-    padding: 0 1.5625rem 0.625rem; }
-    #checkout #checkout_details > section > div #cart-summary .media-list {
+  background: #e3e1e1; }
+  #checkout #checkout_details > section > div#cart-summary {
+    padding: 1.25rem 1.5625rem 0.625rem; }
+    #checkout #checkout_details > section > div#cart-summary .media-list {
       margin: 0.625rem 0; }
-      #checkout #checkout_details > section > div #cart-summary .media-list .media {
+      #checkout #checkout_details > section > div#cart-summary .media-list .media {
         justify-content: space-between; }
-  #checkout #checkout_details > section > div .products, #checkout #checkout_details > section > div .shipping, #checkout #checkout_details > section > div .cart-voucher form, #checkout #checkout_details > section > div .cart-summary-totals, #checkout #checkout_details > section > div .tax {
+  #checkout #checkout_details > section > div .products, #checkout #checkout_details > section > div .shipping, #checkout #checkout_details > section > div .cart-voucher form, #checkout #checkout_details > section > div .cart-summary-total, #checkout #checkout_details > section > div .tax {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between; }
-    #checkout #checkout_details > section > div .products .label, #checkout #checkout_details > section > div .shipping .label, #checkout #checkout_details > section > div .cart-voucher form .label, #checkout #checkout_details > section > div .cart-summary-totals .label, #checkout #checkout_details > section > div .tax .label {
+    #checkout #checkout_details > section > div .products .label, #checkout #checkout_details > section > div .shipping .label, #checkout #checkout_details > section > div .cart-voucher form .label, #checkout #checkout_details > section > div .cart-summary-total .label, #checkout #checkout_details > section > div .tax .label {
       font-weight: bold;
       text-transform: uppercase;
       font-size: 0.75rem; }
-    #checkout #checkout_details > section > div .products .value, #checkout #checkout_details > section > div .shipping .value, #checkout #checkout_details > section > div .cart-voucher form .value, #checkout #checkout_details > section > div .cart-summary-totals .value, #checkout #checkout_details > section > div .tax .value {
+    #checkout #checkout_details > section > div .products .value, #checkout #checkout_details > section > div .shipping .value, #checkout #checkout_details > section > div .cart-voucher form .value, #checkout #checkout_details > section > div .cart-summary-total .value, #checkout #checkout_details > section > div .tax .value {
       color: #b61f38;
       font-size: 1.125rem;
       font-weight: bold; }
@@ -7534,10 +7533,10 @@ small.label, small.value {
     color: #b61f38;
     text-decoration: none; }
   #checkout #checkout_details > section > div .cart-voucher > form .form-control {
-    width: auto;
+    width: 58%;
     padding: 0.5rem;
     text-transform: uppercase; }
-  #checkout #checkout_details > section > div .cart-summary-totals {
+  #checkout #checkout_details > section > div .cart-summary-total {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -7545,7 +7544,7 @@ small.label, small.value {
     padding: 1.25rem 1.5625rem;
     border-top: 0.1875rem solid white;
     border-bottom: 0.1875rem solid white; }
-    #checkout #checkout_details > section > div .cart-summary-totals .value {
+    #checkout #checkout_details > section > div .cart-summary-total .value {
       font-size: 1.5rem; }
 
 #checkout #checkout_details .btn-primary {
@@ -7681,7 +7680,7 @@ small.label, small.value {
         margin-top: 0.1875rem;
         margin-left: 0.3125rem; }
 
-#index .product-miniature {
+#mega_menu_plus .product-miniature, #index .product-miniature {
   max-width: 360px;
   flex-grow: 1;
   margin: 0 auto 25px; }

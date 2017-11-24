@@ -1,0 +1,26 @@
+.gift_reduction_price {
+    background: #f13340 none repeat scroll 0 0;
+    border: 1px solid #d02a2c;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-right: 10px;
+    padding: 1px 2px;
+    text-align: center;
+    width: 35%;
+}
+
+.product-variants.gift_card {
+    border-bottom: 2px solid #fff;
+}
+
+#product-description-short ul {
+    list-style-image: url("list-image.png");
+    padding-left: 1.0625rem;
+}
+
+.pictogram_list, .js-qv-mask, .learn-more, .product-accessories, .product-mets-vins {
+    display: none;
+}
