@@ -20,6 +20,11 @@
 	visibility:visible;
 	display:block;
 }
+#mega_menu_plus a.know-more,
+#mega_menu_plus a.add-to-cart,
+#mega_menu_plus a.wishlist {
+	color: #ffffff;
+}
 #mega_menu_plus  .mobi{
 	display:none;
 }
@@ -28,4 +33,8 @@
 }
 body ul.mg-menu  li{
 	list-style:none;
+}
+
+#mega_menu_plus .product-miniature {
+	padding: 0;
 }

@@ -36,11 +36,14 @@
       <a class="label" href="{$product.url}" data-id_customization="{$product.id_customization|intval}">{$product.name}</a>
     </div>
 
-    {if $product.wine}
-      {l s='Primeur' d='Shop.Theme.Catalog'}
-    {/if}
     {$product.features_name}
-    {$product.category_name}
+    {if $product.category == 'primeurs'}
+        <div class="badge badge-primeur">
+			{$product.category_name}
+        </div>
+    {else}
+        {$product.category_name}
+    {/if}
 
     {*<div class="product-line-info">*}
       {*<span class="value">{$product.price}</span>*}

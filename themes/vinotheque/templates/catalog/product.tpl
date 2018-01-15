@@ -113,56 +113,56 @@
                               {if $product.features}
                               <ul class="row">
                                 {*Année*}
-								  {if isset($product.features[6])}
+								  {if isset($product.features[1])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-agenda"></i>
-                                              <span>{$product.features[6].value}</span>
+                                              <span>{$product.features[1].value}</span>
                                           </div>
                                       </li>
 								  {/if}
                                 {*Région*}
-								  {if isset($product.features[11])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-france"></i>
-                                              <span>{$product.features[11].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Couleur*}
-								  {if isset($product.features[5])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-bottles"></i>
-                                              <span>{$product.features[5].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Appellation*}
 								  {if isset($product.features[2])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
-                                              <i class="icon-v-tag"></i>
+                                              <i class="icon-v-france"></i>
                                               <span>{$product.features[2].value}</span>
                                           </div>
                                       </li>
 								  {/if}
+                                {*Couleur*}
+								  {if isset($product.features[3])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-bottles"></i>
+                                              <span>{$product.features[3].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
+                                {*Appellation*}
+								  {if isset($product.features[4])}
+                                      <li class="col-xl-4 col-sm-6">
+                                          <div>
+                                              <i class="icon-v-tag"></i>
+                                              <span>{$product.features[4].value}</span>
+                                          </div>
+                                      </li>
+								  {/if}
                                 {*Degré*}
-								  {if isset($product.features[13])}
+								  {if isset($product.features[5])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-temperature"></i>
-                                              <span>{$product.features[13].value}</span>
+                                              <span>{$product.features[5].value}</span>
                                           </div>
                                       </li>
 								  {/if}
                                 {*Classification*}
-								  {if isset($product.features[4])}
+								  {if isset($product.features[7])}
                                       <li class="col-xl-4 col-sm-6">
                                           <div>
                                               <i class="icon-v-reward"></i>
-                                              <span>{$product.features[4].value}</span>
+                                              <span>{$product.features[7].value}</span>
                                           </div>
                                       </li>
 								  {/if}
