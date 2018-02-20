@@ -47,7 +47,7 @@ class CategoryController extends CategoryControllerCore
     		if ($key == '0')
     			continue;
 
-    		if ($products[$key-1]['mq'] > $product['mq'])
+    		if (@$products[$key-1]['mq'] > $product['mq'])
     			unset($products[$key]);
     	}
 
