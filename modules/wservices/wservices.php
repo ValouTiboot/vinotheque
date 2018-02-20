@@ -68,8 +68,11 @@ class Wservices extends Module
 			) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
     }
 
-    public function add($data, $way)
+    public function add($data, $way, $err = false)
     {
+        if ($err)
+            $this->publishError($data, $err);
+
     	Db::getInstance()->insert($this->module_table, array(
     		'id_json' => pSQL($data['NoJSON']),
     		'model' => pSQL($data['Modèle']),
@@ -314,15 +317,59 @@ class Wservices extends Module
         return $return;
     }
 
+    public function publishError($data, $err)
+    {
+        /*
+            IdTransaction => Id de la transaction qui cause l’erreur
+            CodeModèle => Code du modèle de JSON
+            TypeTransaction => Type de la transaction UPD ou INS
+            Description => Message de l’erreur
+            Criticité => 1 = Information, 2 = Attention, 3 = erreur
+            Commentaires => Ne pas mettre ici de description de l’erreur, ce champs nous sert à définir le client qui est à l’origine de l’erreur. Laisser le champ vide.
+            DateTransaction => Date de la transaction
+        */
+
+        $trans = array(
+            'NoJSON' => $data['NoJSON'],
+            'IdTransaction' => $data['IdTransaction'],
+            'Modèle' => 'ERR',
+            'Type' => 'INS',
+            'DateTransaction' => date('Y-m-d H:i:s'),
+            'Transaction' => array(
+                'erreur' => array(
+                    $data['IdTransaction'] => array(
+                        'IdTransaction' => $data['IdTransaction'],
+                        'CodeModele' => $data['Modèle'],
+                        'TypeTransaction' => $data['Type'],
+                        'Description' => $err,
+                        'Criticite' => '3',
+                        'Commentaires' => '',
+                        'DateTransaction' => date('Y-m-d H:i:s'),
+                    ),
+                ),
+            )
+        );
+
+        $this->publish($trans);
+    }
+
     public function publish($data)
     {
+        if ($data['Modèle'] == 'CMD')
+        {
+            echo json_encode($data, JSON_UNESCAPED_UNICODE);
+            echo '<pre>';
+            print_r($data);
+            echo '</pre>';
+            die;
+        }
+
         $redis_connect = new RedisConnect();
         $redis = $redis_connect->connect();
         $redis->zAdd('mt:CC_Site1_' . $data['Modèle'], $data['NoJSON'], json_encode($data, JSON_UNESCAPED_UNICODE));
         $redis->publish('CC_Site1_' . $data['Modèle'], json_encode($data, JSON_UNESCAPED_UNICODE));
         $redis->close();
-
-        return;
+     	//die;
     }
 
     public function toNurl($str)

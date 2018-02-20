@@ -91,7 +91,7 @@
                                     class = "ps-shown-by-js"
                             >
                             <span><i class="material-icons checkbox-checked">&#xE5CA;</i></span>
-                            <label for="conditions_to_approve[{$condition_name}]">
+                            <label class="js-terms" for="conditions_to_approve[{$condition_name}]">
                                 {$condition nofilter}
                             </label>
                         </span>
@@ -127,4 +127,15 @@
       {/if}
     </div>
   </div>
+
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="{l s='Close' d='Shop.Theme.Global'}">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-content"></div>
+            </div>
+        </div>
+    </div>
 {/block}

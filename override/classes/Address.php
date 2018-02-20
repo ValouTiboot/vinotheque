@@ -10,7 +10,7 @@ class Address extends AddressCore
     {
         Address::$definition['fields']['id_address_dubos'] = array('type' => self::TYPE_INT, 'validate' => 'isInt');
         Address::$definition['fields']['rank'] = array('type' => self::TYPE_INT, 'validate' => 'isInt');
-        
+
         parent::__construct($id_address, $idLang, $idShop);
     }
 
@@ -18,23 +18,38 @@ class Address extends AddressCore
     {
         $rank = Db::getInstance()->getValue("SELECT `rank` FROM `" . _DB_PREFIX_ . "address` WHERE `id_customer`='" . pSQL($this->id_customer) . "' ORDER BY `rank` DESC");
         $this->rank = ($rank !== false ? (int)$rank+1 : 1);
-        
+
         parent::add($autodate, $null_values);
-        Module::getInstanceByName('wservices')->publishCustomer(new Customer($this->id_customer), 'INS');
+	if (\Module::isInstalled('wservices') && \Module::isEnabled('wservices'))
+        {
+                $wservices = \Module::getInstanceByName('wservices');
+	        $wservices->publishCustomer(new Customer($this->id_customer), 'INS');
+	}
+
         return true;
     }
 
     public function update($null_values = false)
-    {       
+    {
         parent::update($null_values);
-        Module::getInstanceByName('wservices')->publishCustomer(new Customer($this->id_customer), 'UPD');
+	if (\Module::isInstalled('wservices') && \Module::isEnabled('wservices'))
+        {
+                $wservices = \Module::getInstanceByName('wservices');
+	        $wservices->publishCustomer(new Customer($this->id_customer), 'UPD');
+	}
+
         return true;
     }
 
     public function delete()
     {
-        Module::getInstanceByName('wservices')->deleteAddress($this);
-        parent::delete();
+	if (\Module::isInstalled('wservices') && \Module::isEnabled('wservices'))
+	{
+		$wservices = \Module::getInstanceByName('wservices');
+        	$wservices->deleteAddress($this);
+	}
+
+	parent::delete();
         return true;
     }
 }

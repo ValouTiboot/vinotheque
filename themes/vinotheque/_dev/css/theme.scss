@@ -637,6 +637,7 @@
 /*** HOME ***/
 #top_column {
   overflow: auto;
+  margin-top: 1px;
 }
 #top_column_after_responsive {
   background: $green-light;
@@ -671,7 +672,7 @@
     margin-bottom: 0;
   }
   .products {
-    padding-top: rem(70px);
+    padding-top: rem(55px);
   }
 }
 
@@ -962,4 +963,11 @@
 
 #search #content #search_widget {
   display: none;
+}
+
+
+/*** Checkout ***/
+#checkout .modal-content {
+  padding: $medium-space;
+  background-color: $gray-light;
 }

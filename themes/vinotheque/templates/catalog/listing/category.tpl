@@ -61,13 +61,13 @@
                         </div>
                         <section id="products" class="col-12 col-md-9">
                             <div id="category-highlight">
-								{if $category.highlight_type == 'promo'}
+								{if $category.highlight_type == 'promo' && isset($category.image_highlight.category_default)}
                                     <!-- YATEO
 									Format disponible category_default|medium_default|small_default
 									Possibilité d'ajouter des formats en BO dans la gestion des images
 									-->
                                     <img src="{$category.image_highlight.category_default}" />
-								{elseif $category.highlight_type == 'best_seller'}
+								{elseif $category.highlight_type == 'best_seller' && isset($category.best_seller.cover)}
                                     <div id="best_seller" class="container">
                                         <div class="row">
                                             <div class="best_seller_image col-6 col-sm-3 col-lg-2">

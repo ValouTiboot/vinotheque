@@ -7368,6 +7368,12 @@ small.label, small.value {
       #cart .cart-overview ul li .product-line-grid .product-line-grid-body a.label {
         font-weight: bold;
         font-size: 1.0625rem; }
+      #cart .cart-overview ul li .product-line-grid .product-line-grid-body .badge-primeur {
+        background-color: #76ccaa;
+        text-transform: uppercase;
+        font-size: 90%;
+        font-weight: normal;
+        padding-top: 0.4em; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .js-cart-line-product-quantity {
       padding: 1rem;
       margin-right: 0.3125rem;
@@ -7680,7 +7686,7 @@ small.label, small.value {
         margin-top: 0.1875rem;
         margin-left: 0.3125rem; }
 
-#index .product-miniature {
+#mega_menu_plus .product-miniature, #index .product-miniature {
   max-width: 360px;
   flex-grow: 1;
   margin: 0 auto 25px; }
@@ -9728,7 +9734,8 @@ a.different-address, a.add-address {
 
 /*** HOME ***/
 #top_column {
-  overflow: auto; }
+  overflow: auto;
+  margin-top: 1px; }
 
 #top_column_after_responsive {
   background: #c8e5da;
@@ -9757,7 +9764,7 @@ a.different-address, a.add-address {
     margin-top: 0;
     margin-bottom: 0; }
   #index .products {
-    padding-top: 4.375rem; }
+    padding-top: 3.4375rem; }
 
 /*** REASSURANCE ***/
 .reassurance i {
@@ -9977,3 +9984,8 @@ a.different-address, a.add-address {
 
 #search #content #search_widget {
   display: none; }
+
+/*** Checkout ***/
+#checkout .modal-content {
+  padding: 1.25rem;
+  background-color: #e2e2e2; }

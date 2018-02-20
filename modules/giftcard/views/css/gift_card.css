@@ -11,3 +11,17 @@
     text-align: center;
     width: 35%;
 }
+
+.product-variants.gift_card {
+    border-bottom: 2px solid #fff;
+}
+
+#product-description-short ul {
+    list-style-image: url("list-image.png");
+    padding-left: 1.0625rem;
+}
+
+.pictogram_list, .js-qv-mask, .learn-more, .product-accessories, .product-mets-vins {
+    display: none;
+}
+
