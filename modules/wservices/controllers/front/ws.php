@@ -83,13 +83,31 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 	public function getOrderById($id_order)
 	{
 		// START GET ORDER //
+		// Build query
+		// $sql = new DbQuery();
+		// Build SELECT
+        // $sql->select('cp.`id_product_attribute`, cp.`id_product`, cp.`quantity` AS cart_quantity');
+        // Build FROM
+        // $sql->from('cart_product', 'cp');
+        // Build JOIN
+        // $sql->leftJoin('product', 'p', 'p.`id_product` = cp.`id_product`');
+        // $sql->innerJoin('product_shop', 'product_shop', '(product_shop.`id_shop` = cp.`id_shop` AND product_shop.`id_product` = p.`id_product`)');
+        // Build WHERE clauses
+        // $sql->where('cp.`id_cart` = '.(int)$this->id);
+        // if ($id_product) {
+        //     $sql->where('cp.`id_product` = '.(int)$id_product);
+        // }
+        // $sql->where('p.`id_product` IS NOT NULL');
+        // $sql->groupBy('cp.`id_product_attribute`, cp.`id_product`, cp.`id_shop`, cp.`id_customization`');
 		$sql = "
 			SELECT 
 				-- *** Entête de commande ***
 				O.`id_order` as NoCommande,
 				O.`date_add` as DateCommande,
+				-- CD.`id_customer` as IdCustomer,
 				CD.`id_customer_dubos` as NoClientLivre,
 				CONCAT(CD.`lastname`, ' ', CD.`firstname`) as NomClientLivre,
+				AD.`id_address_dubos` as NoAdresseClientLivre,
 				AD.`phone` as NoTelephone1ClientLivre,
 				AD.`phone_mobile` as NoTelephone2ClientLivre,
 				AD.`address1` as Adresse1ClientLivre,
@@ -98,7 +116,6 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 				AD.`city` as VilleClientLivre,
 				CO.`iso_code` as PaysClientLivre,
 				CD.`email` as EmailContactLivre,
-				AD.`id_address_dubos` as NoAdresseClientLivre,
 				CI.`id_customer_dubos` as NoClientFacture,
 				CONCAT(CI.`lastname`, ' ', CI.`firstname`) as NomClientFacture,
 				AI.`id_address_dubos` as NoAdresseClientFacture,
@@ -153,13 +170,12 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 				O.`current_state` as CurrentState,
 
 				-- *** Remises ***
-				CR.`reduction_percent` as TauxRemise,
+				-- CR.`reduction_percent` as TauxRemise,
 				-- CodeNiveauTaxe ???
 				-- MontantBaseRemiseHT ???
 				O.`total_discounts_tax_excl` as MontantRemiseHT,
 				O.`total_discounts_tax_incl` as MontantRemiseTTC,
 				O.`id_cart` as IdCart
-
 			FROM `" . _DB_PREFIX_ . "orders` O
 			LEFT JOIN `" . _DB_PREFIX_ . "address` AD ON O.`id_address_delivery`=AD.`id_address`
 			LEFT JOIN `" . _DB_PREFIX_ . "customer` CD ON AD.`id_customer`=CD.`id_customer`
@@ -175,8 +191,6 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			LEFT JOIN `" . _DB_PREFIX_ . "tax_rules_group` TRG ON TRG.`id_tax_rules_group`=CTRG.`id_tax_rules_group`
 			LEFT JOIN `" . _DB_PREFIX_ . "order_payment` OP ON OP.`order_reference`=O.`reference`
 			LEFT JOIN `" . _DB_PREFIX_ . "totloyalty` PL ON PL.`id_order`=O.`id_order`
-			LEFT JOIN `" . _DB_PREFIX_ . "order_cart_rule` OCL ON OCL.`id_order`=O.`id_order`
-			LEFT JOIN `" . _DB_PREFIX_ . "cart_rule` CR ON CR.`id_cart_rule`=OCL.`id_cart_rule`
 			WHERE O.`id_order`='" . pSQL($id_order) . "'
 		";
 
@@ -186,96 +200,104 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		if (empty($order_array))
 			die("Order not found");
 
-		/** COMMANDE **/
-		$num_commande = $order_array[0]['NoCommande'];
-		$order['commande'][$num_commande]['NoCommande'] = $num_commande;
-		$order['commande'][$num_commande]['DateCommande'] = $order_array[0]['DateCommande'];
-		$order['commande'][$num_commande]['CodeTransporteur'] =$order_array[0]['CodeTransporteur'];
-		$order['commande'][$num_commande]['NoClientLivre'] = $order_array[0]['NoClientLivre'];
-		$order['commande'][$num_commande]['NomClientLivre'] = $order_array[0]['NomClientLivre'];
-		$order['commande'][$num_commande]['NomContactClientLivre'] = $order_array[0]['NomClientLivre'];
-		$order['commande'][$num_commande]['EmailContactLivre'] = $order_array[0]['EmailContactLivre'];
-		$order['commande'][$num_commande]['NoTelephone1ClientLivre'] = $order_array[0]['NoTelephone1ClientLivre'];
-		$order['commande'][$num_commande]['NoTelephone2ClientLivre'] = $order_array[0]['NoTelephone2ClientLivre'];
-		$order['commande'][$num_commande]['NoAdresseClientLivre'] = $order_array[0]['NoAdresseClientLivre'];
-		$order['commande'][$num_commande]['Adresse1ClientLivre'] = $order_array[0]['Adresse1ClientLivre'];
-		$order['commande'][$num_commande]['Adresse2ClientLivre'] = $order_array[0]['Adresse2ClientLivre'];
-		$order['commande'][$num_commande]['Adresse3ClientLivre'] = '';
-		$order['commande'][$num_commande]['CodePostalClientLivre'] = $order_array[0]['CodePostalClientLivre'];
-		$order['commande'][$num_commande]['VilleClientLivre'] = $order_array[0]['VilleClientLivre'];
-		$order['commande'][$num_commande]['PaysClientLivre'] = $order_array[0]['PaysClientLivre'];
-		$order['commande'][$num_commande]['CodeRegimeTaxe'] = ($order_array[0]['PaysClientFacture'] == 'FR') ? 'FRA' : $order_array[0]['CodeRegimeTaxe'];
-		$order['commande'][$num_commande]['NoClientFacture'] = $order_array[0]['NoClientFacture'];
-		$order['commande'][$num_commande]['NomClientFacture'] = $order_array[0]['NomClientFacture'];
-		$order['commande'][$num_commande]['NoAdresseClientFacture'] = $order_array[0]['NoAdresseClientFacture'];
-		$order['commande'][$num_commande]['NomContactClientFacture'] = $order_array[0]['NomClientFacture'];
-		$order['commande'][$num_commande]['NoTelephone1ClientFacture'] = $order_array[0]['NoTelephone1ClientFacture'];
-		$order['commande'][$num_commande]['NoTelephone2ClientFacture'] = $order_array[0]['NoTelephone2ClientFacture'];
-		$order['commande'][$num_commande]['Adresse1ClientFacture'] = $order_array[0]['Adresse1ClientFacture'];
-		$order['commande'][$num_commande]['Adresse2ClientFacture'] = $order_array[0]['Adresse2ClientFacture'];
-		$order['commande'][$num_commande]['Adresse3ClientFacture'] = '';
-		$order['commande'][$num_commande]['CodePostalClientFacture'] = $order_array[0]['CodePostalClientFacture'];
-		$order['commande'][$num_commande]['VilleClientFacture'] = $order_array[0]['VilleClientFacture'];
-		$order['commande'][$num_commande]['PaysClientFacture'] = $order_array[0]['PaysClientFacture'];
-		$order['commande'][$num_commande]['EstCadeau'] = $order_array[0]['EstCadeau'];
-		$order['commande'][$num_commande]['EstPrimeur'] = '0';
-		$order['commande'][$num_commande]['EstCautionBancaire'] = '0';
-		$order['commande'][$num_commande]['MttCautionBancaire'] = '0.000000';
-		$order['commande'][$num_commande]['CodeDevise'] = $order_array[0]['CodeDevise'];
-		$order['commande'][$num_commande]['CodePays'] = $order_array[0]['CodePays'];
-		$order['commande'][$num_commande]['EtatCommande'] = ($order_array[0]['EtatCommande']) ? $order_array[0]['EtatCommande'] : '';
-		$order['commande'][$num_commande]['MttTotalMarchandiseHT'] = $order_array[0]['MttTotalMarchandiseHT'];
-		// $order['commande'][$num_commande]['MttTotalMarchandiseTTC'] = $order_array[0]['MttTotalMarchandiseTTC'];
-		$order['commande'][$num_commande]['MttTotalHT'] = $order_array[0]['MttTotalHT'];
-		$order['commande'][$num_commande]['MttTotalTTC'] = $order_array[0]['MttTotalTTC'];
-		$order['commande'][$num_commande]['CommentairesExpedition'] = ''; // selon le module du transporteur mais pas de champ prévu en front
-		$order['commande'][$num_commande]['CommentairesCadeau'] = ($order_array[0]['CommentairesCadeau']) ? $order_array[0]['CommentairesCadeau'] : '';
-
-		/** TRANSPORT **/
-		if ($order_array[0]['MontantFraisPortHT'] > 0)
+		foreach ($order_array as $value)
 		{
-			$order['commande'][$num_commande]['Transport'][1]['CodeTransporteur'] = ($order_array[0]['CodeTransporteur']) ? $order_array[0]['CodeTransporteur'] : '';
-			$order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = '';
-			$order['commande'][$num_commande]['Transport'][1]['CodeNiveauTaxe'] = ($order_array[0]['CodeNiveauTaxe']) ? $order_array[0]['CodeNiveauTaxe'] : 'NOR';
-			$order['commande'][$num_commande]['Transport'][1]['CodeElement'] = 'P001';
-			// $order['commande'][$num_commande]['Transport'][1]['MontantTaxe'] = $order_array[0]['MontantFraisPortTTC'] - $order_array[0]['MontantFraisPortHT'];
-			// $order['commande'][$num_commande]['Transport'][1]['DateLivraisonPrevue'] = $order_array[0]['DateLivraisonPrevue'];
-			$order['commande'][$num_commande]['Transport'][1]['MttHT'] = ($order_array[0]['MontantFraisPortHT']) ? $order_array[0]['MontantFraisPortHT'] : '';
-			$order['commande'][$num_commande]['Transport'][1]['MttTTC'] = ($order_array[0]['MontantFraisPortTTC']) ? $order_array[0]['MontantFraisPortTTC'] : '';
+			/** GET CUSTOMER's PRESTASHOP ID **/
+			// $order['IdCustomer'] = $value['IdCustomer'];
+			/** COMMANDE **/
+			$num_commande = $value['NoCommande'];
+			$order['commande'][$num_commande]['NoCommande'] = $num_commande;
+			$order['commande'][$num_commande]['DateCommande'] = $value['DateCommande'];
+			$order['commande'][$num_commande]['CodeTransporteur'] =$value['CodeTransporteur'];
+			$order['commande'][$num_commande]['NoClientLivre'] = $value['NoClientLivre'];
+			$order['commande'][$num_commande]['NomClientLivre'] = $value['NomClientLivre'];
+			$order['commande'][$num_commande]['NomContactClientLivre'] = $value['NomClientLivre'];
+			$order['commande'][$num_commande]['EmailContactLivre'] = $value['EmailContactLivre'];
+			$order['commande'][$num_commande]['NoTelephone1ClientLivre'] = $value['NoTelephone1ClientLivre'];
+			$order['commande'][$num_commande]['NoTelephone2ClientLivre'] = $value['NoTelephone2ClientLivre'];
+			$order['commande'][$num_commande]['NoAdresseClientLivre'] = $value['NoAdresseClientLivre'];
+			$order['commande'][$num_commande]['Adresse1ClientLivre'] = $value['Adresse1ClientLivre'];
+			$order['commande'][$num_commande]['Adresse2ClientLivre'] = $value['Adresse2ClientLivre'];
+			$order['commande'][$num_commande]['Adresse3ClientLivre'] = '';
+			$order['commande'][$num_commande]['CodePostalClientLivre'] = $value['CodePostalClientLivre'];
+			$order['commande'][$num_commande]['VilleClientLivre'] = $value['VilleClientLivre'];
+			$order['commande'][$num_commande]['PaysClientLivre'] = $value['PaysClientLivre'];
+			$order['commande'][$num_commande]['CodeRegimeTaxe'] = ($value['PaysClientFacture'] == 'FR') ? 'FRA' : $value['CodeRegimeTaxe'];
+			$order['commande'][$num_commande]['NoClientFacture'] = $value['NoClientFacture'];
+			$order['commande'][$num_commande]['NomClientFacture'] = $value['NomClientFacture'];
+			$order['commande'][$num_commande]['NoAdresseClientFacture'] = $value['NoAdresseClientFacture'];
+			$order['commande'][$num_commande]['NomContactClientFacture'] = $value['NomClientFacture'];
+			$order['commande'][$num_commande]['NoTelephone1ClientFacture'] = $value['NoTelephone1ClientFacture'];
+			$order['commande'][$num_commande]['NoTelephone2ClientFacture'] = $value['NoTelephone2ClientFacture'];
+			$order['commande'][$num_commande]['Adresse1ClientFacture'] = $value['Adresse1ClientFacture'];
+			$order['commande'][$num_commande]['Adresse2ClientFacture'] = $value['Adresse2ClientFacture'];
+			$order['commande'][$num_commande]['Adresse3ClientFacture'] = '';
+			$order['commande'][$num_commande]['CodePostalClientFacture'] = $value['CodePostalClientFacture'];
+			$order['commande'][$num_commande]['VilleClientFacture'] = $value['VilleClientFacture'];
+			$order['commande'][$num_commande]['PaysClientFacture'] = $value['PaysClientFacture'];
+			$order['commande'][$num_commande]['EstCadeau'] = $value['EstCadeau'];
+			$order['commande'][$num_commande]['EstPrimeur'] = '0';
+			$order['commande'][$num_commande]['EstCautionBancaire'] = '0';
+			$order['commande'][$num_commande]['MttCautionBancaire'] = '0.000000';
+			$order['commande'][$num_commande]['CodeDevise'] = $value['CodeDevise'];
+			$order['commande'][$num_commande]['CodePays'] = $value['CodePays'];
+			$order['commande'][$num_commande]['EtatCommande'] = ($value['EtatCommande']) ? $value['EtatCommande'] : '';
+			$order['commande'][$num_commande]['MttTotalMarchandiseHT'] = $value['MttTotalMarchandiseHT'];
+			// $order['commande'][$num_commande]['MttTotalMarchandiseTTC'] = $value['MttTotalMarchandiseTTC'];
+			$order['commande'][$num_commande]['MttTotalHT'] = $value['MttTotalHT'];
+			$order['commande'][$num_commande]['MttTotalTTC'] = $value['MttTotalTTC'];
+			$order['commande'][$num_commande]['CommentairesExpedition'] = ''; // selon le module du transporteur mais pas de champ prévu en front
+			$order['commande'][$num_commande]['CommentairesCadeau'] = ($value['CommentairesCadeau']) ? $value['CommentairesCadeau'] : '';
+
+			/** TRANSPORT **/
+			$montant_frais_port_ht = $value['MontantFraisPortHT'];
+			if ($montant_frais_port_ht > 0)
+			{
+				$order['commande'][$num_commande]['Transport'][1]['CodeTransporteur'] = ($value['CodeTransporteur']) ? $value['CodeTransporteur'] : '';
+				$order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = '';
+				$order['commande'][$num_commande]['Transport'][1]['CodeNiveauTaxe'] = ($value['CodeNiveauTaxe']) ? $value['CodeNiveauTaxe'] : 'NOR';
+				$order['commande'][$num_commande]['Transport'][1]['CodeElement'] = 'P001';
+				// $order['commande'][$num_commande]['Transport'][1]['MontantTaxe'] = $value['MontantFraisPortTTC'] - $value['MontantFraisPortHT'];
+				// $order['commande'][$num_commande]['Transport'][1]['DateLivraisonPrevue'] = $value['DateLivraisonPrevue'];
+				$order['commande'][$num_commande]['Transport'][1]['MttHT'] = ($value['MontantFraisPortHT']) ? $value['MontantFraisPortHT'] : '';
+				$order['commande'][$num_commande]['Transport'][1]['MttTTC'] = ($value['MontantFraisPortTTC']) ? $value['MontantFraisPortTTC'] : '';
+			}
+
+			/** CHRONOPOST **/
+			// $order['commande'][$num_commande]['Chronopost'][1]['CodePointRelai'] = '';
+			// $order['commande'][$num_commande]['Chronopost'][1]['Adresse1PointRelai'] = '';
+			// $order['commande'][$num_commande]['Chronopost'][1]['Adresse2PointRelai'] = '';
+			// $order['commande'][$num_commande]['Chronopost'][1]['CodePostalPointRelai'] = '';
+			// $order['commande'][$num_commande]['Chronopost'][1]['VillePointRelai'] = '';
+
+			/** REMISES **/
+			$order['commande'][$num_commande]['Remises'] = [];
+			if ($value['MontantRemiseHT'] > 0)
+			{
+				$order['commande'][$num_commande]['Remises'][1]['CodeNiveauTaxe'] = ($value['CodeNiveauTaxe']) ? $value['CodeNiveauTaxe'] : 'NOR';
+				// $order['commande'][$num_commande]['Remises'][1]['TauxRemise'] = $value['TauxRemise'];
+				// $order['commande'][$num_commande]['Remises'][1]['MontantBaseRemiseHT'] = '';
+				$order['commande'][$num_commande]['Remises'][1]['CodeElement'] = 'REMI';
+				$order['commande'][$num_commande]['Remises'][1]['MttHTRemise'] = $value['MontantRemiseHT'];
+				$order['commande'][$num_commande]['Remises'][1]['MttTTCRemise'] = $value['MontantRemiseTTC'];
+				// $order['commande'][$num_commande]['Remises'][1]['MontantTaxe'] = $value['MontantRemiseTTC'] - $value['MontantRemiseHT'];
+				// $order['commande'][$num_commande]['Remises'][1]['TauxTaxe'] = '0.2';
+				$montantTaxeRemises = $value['MontantRemiseTTC'] - $value['MontantRemiseHT'];
+				// $order['commande'][$num_commande]['Remises'][1]['MontantTaxe'] = $value['MontantRemiseTTC'] - $value['MontantRemiseHT'];
+				$order['commande'][$num_commande]['Remises'][1]['TauxTaxe'] = strval($montantTaxeRemises / $value['MontantRemiseHT']);
+			}
+
+			/** PAIEMENT **/
+			$order['commande'][$num_commande]['Paiement'][1]['EstRegle'] = ($value['CurrentState'] == 2 ) ? '1' : '0';
+			// $order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = $value['CodeModePaiement'];
+			$order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = '1';
+			$order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+			$order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+			$order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
+			$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = ''; // TODO (Récupérer leur numéro de coupon || Envoyer notre coupon)
+			// $order['commande'][$num_commande]['Paiement'][1]['IdChèqueCadeau'] = ''; // installer le module pour les chèques cadeaux
+			// $order['commande'][$num_commande]['Paiement'][1]['NbPointFidélité'] = $value['NbPointFidélité'];
 		}
-
-		/** CHRONOPOST **/
-		// $order['commande'][$num_commande]['Chronopost'][1]['CodePointRelai'] = '';
-		// $order['commande'][$num_commande]['Chronopost'][1]['Adresse1PointRelai'] = '';
-		// $order['commande'][$num_commande]['Chronopost'][1]['Adresse2PointRelai'] = '';
-		// $order['commande'][$num_commande]['Chronopost'][1]['CodePostalPointRelai'] = '';
-		// $order['commande'][$num_commande]['Chronopost'][1]['VillePointRelai'] = '';
-
-		/** REMISES **/
-		$order['commande'][$num_commande]['Remises'] = [];
-		if ($order_array[0]['MontantRemiseHT'] > 0)
-		{
-			$order['commande'][$num_commande]['Remises'][1]['CodeNiveauTaxe'] = ($order_array[0]['CodeNiveauTaxe']) ? $order_array[0]['CodeNiveauTaxe'] : 'NOR';
-			// $order['commande'][$num_commande]['Remises'][1]['TauxRemise'] = $order_array[0]['TauxRemise'];
-			// $order['commande'][$num_commande]['Remises'][1]['MontantBaseRemiseHT'] = '';
-			$order['commande'][$num_commande]['Remises'][1]['CodeElement'] = 'REMI';
-			$order['commande'][$num_commande]['Remises'][1]['MttHTRemise'] = $order_array[0]['MontantRemiseHT'];
-			$order['commande'][$num_commande]['Remises'][1]['MttTTCRemise'] = $order_array[0]['MontantRemiseTTC'];
-			$montantTaxeRemises = $order_array[0]['MontantRemiseTTC'] - $order_array[0]['MontantRemiseHT'];
-			// $order['commande'][$num_commande]['Remises'][1]['MontantTaxe'] = $order_array[0]['MontantRemiseTTC'] - $order_array[0]['MontantRemiseHT'];
-			$order['commande'][$num_commande]['Remises'][1]['TauxTaxe'] = strval($montantTaxeRemises / $order_array[0]['MontantRemiseHT']);
-		}
-
-		/** PAIEMENT **/
-		$order['commande'][$num_commande]['Paiement'][1]['EstRegle'] = ($order_array[0]['CurrentState'] == 2 ) ? '1' : '0';
-		// $order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = $order_array[0]['CodeModePaiement'];
-		$order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = '1';
-		$order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($order_array[0]['DatePaiement']) ? $order_array[0]['DatePaiement'] : '';
-		$order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = '';
-		$order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $order_array[0]['MttRegleTTC'];
-		$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = ''; // TODO (Récupérer leur numéro de coupon)
-		// $order['commande'][$num_commande]['Paiement'][1]['IdChèqueCadeau'] = ''; // installer le module pour les chèques cadeaux
-		// $order['commande'][$num_commande]['Paiement'][1]['NbPointFidélité'] = $order_array[0]['NbPointFidélité'];
 		// END GET ORDER //
 
 		// START GET ORDER CART RULE //
@@ -311,13 +333,15 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 						$product_rules_group[$key][$v['id_product_rule_group']]['type'] = $product_rule_type[0]['type'];
 					}
 				}
+				else
+					$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = $order_cart_rule['code'];
 			}
 		}
 		// END GET ORDER CART RULE //
 
 		// START GET ORDER DETAILS //
 		$sql = "
-			SELECT OD.*, P.`wine`, P.`id_product` AS ID_PRODUCT ,PA.`id_product_attribute` as NoLigne, PA.`id_product_attribute_dubos` as CodeArticle, PA.`id_packaging` as CodeConditionnement, PA.`packaging_price` as PrixConditionnement, TRG.`code` as CodeNiveauTaxe
+			SELECT OD.*, P.`wine`, P.`id_product` AS ID_PRODUCT, PA.`id_product_attribute` as NoLigne, PA.`id_product_attribute_dubos` as CodeArticle, PA.`id_packaging` as CodeConditionnement, PA.`packaging_price` as PrixConditionnement, TRG.`code` as CodeNiveauTaxe
 			FROM `" . _DB_PREFIX_ . "order_detail` as OD
 			INNER JOIN `" . _DB_PREFIX_ . "product` P ON P.`id_product`=OD.`product_id`
 			LEFT JOIN `" . _DB_PREFIX_ . "product_attribute` PA ON PA.`id_product_attribute`=OD.`product_attribute_id`
@@ -370,7 +394,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 							}
 
 			// Initialize Remise array
-			$order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['Remise'] = [];
+			// $order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['Remise'] = [];
 
 			// Check if voucher is applicated on the product
 			if (!empty($product_rule) && in_array($value['ID_PRODUCT'], $product_rule['product_ids']))
@@ -386,14 +410,23 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 				$order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['Remise'][$value['NoLigne']]['MontantRemiseHT'] = $product_rule['value_tax_excl'];
 
 				$order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['Remise'][$value['NoLigne']]['MontantRemiseTTC'] = $product_rule['value'];
+
+				// Remove MtRemise
+				$order['commande'][$num_commande]['Remises'][1]['MttHTRemise'] -= $product_rule['value_tax_excl'];
+				$order['commande'][$num_commande]['Remises'][1]['MttTTCRemise'] -= $product_rule['value'];
 			}
 		}
 		// END GET ORDER DETAILS //
 
+		// Remove Remise if 0
+		if ($order['commande'][$num_commande]['Remises'][1]['MttHTRemise'] <= 0)
+			unset($order['commande'][$num_commande]['Remises']);
+
 		// SET IS PRIMEUR
 		$order['commande'][$num_commande]['EstPrimeur'] = ($primeur) ? '1' : '0';
-		// SET TAUX TAXE
-		if ($order_array[0]['MontantFraisPortHT'] > 0)
+
+		// SET TRANSPORT TAUX TAXE
+		if ($montant_frais_port_ht > 0)
 			$order['commande'][$num_commande]['Transport'][1]['TauxTaxe'] = ($primeur) ? '0' : '0.2';
 
 		$trans = array(
@@ -408,9 +441,13 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		);
 
 		$trans['NoJSON'] = $this->module->add($trans, 'set');
-
-		// echo json_encode($trans, JSON_UNESCAPED_UNICODE);
+		
+		header('Content-Type: application/json');
+		echo json_encode($trans, JSON_PRETTY_PRINT);
+		die;
 		// file_put_contents('order.txt', json_encode($trans, JSON_UNESCAPED_UNICODE));
+
+		// $this->module->publishCustomer(new Customer($order['IdCustomer']));
 
 		return $this->module->publish($trans);
 	}

@@ -25,7 +25,7 @@
 {extends file='page.tpl'}
 
 {block name='page_title'}
-  {l s='Votre compte' d='Shop.Theme.Customeraccount'}
+  {l s='Mon compte' d='Shop.Theme.Customeraccount'}
 {/block}
 
 {block name='page_content_container'}

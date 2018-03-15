@@ -1,4 +1,3 @@
-
 [{shop_url}] 
 
 Bonjour {firstname} {lastname},
@@ -21,7 +20,9 @@ TITULAIRE DU COMPTE : {bankwire_owner}
 
 INFORMATIONS SUR LE COMPTE : {bankwire_details}
 
-ADRESSE DE LA BANQUE : {bankwire_address} 		 
+ADRESSE DE LA BANQUE : {bankwire_address}
+
+INFORMATIONS COMPLEMENTAIRES : http://pre.vinotheque-bordeaux.com/content/5-paiement-securise 		 
 
 Vous pouvez consulter le détail de votre commande via le lien
 "Historique de mes commandes"

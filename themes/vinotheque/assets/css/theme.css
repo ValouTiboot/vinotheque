@@ -7655,6 +7655,22 @@ small.label, small.value {
   align-items: stretch;
   justify-content: space-between; }
 
+.primeur {
+  text-transform: uppercase;
+  background: #76ccaa;
+  color: white;
+  padding: 0.1875rem 0.3125rem 0;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  float: left;
+  margin-top: 0.4375rem; }
+
+.wine_delivery {
+  float: left;
+  width: 100%;
+  margin: 0.4375rem 0 0.9375rem;
+  font-weight: bold; }
+
 @media (max-width: 767px) {
   .products, .subcategories > ul {
     justify-content: space-around; } }

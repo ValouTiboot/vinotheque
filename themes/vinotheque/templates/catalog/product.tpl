@@ -264,12 +264,10 @@
                                   <div id="stock_pictos_quantity" {if $product.quantity <= 0}style="display:none;"{/if}>
                                     <i class="icon-v-check-bubble"></i>{l s='En stock' d='Shop.Theme.Catalog'}
                                   </div>
-                                    {if $product.quantity <= 0}
-                                      {*}
+                                    {if $product.wine_delivery}
                                       <div>
-									                     <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {$product.available_date}
+                                         <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {dateFormat date=$product.wine_delivery}
                                       </div>
-                                      {*}
                                     {/if}
 
                                     <div id="stock_pictos_shop_quantity" {if $product.shop_quantity <= 0}style="display:none;"{/if}>
@@ -359,6 +357,7 @@
               {/block}
 
               {block name='product_calling'}
+                  {$product|var_dump}
               {if !empty($product.calling)}
                 <div id="product-calling">
                   <h3>{l s='L\'appellation' d='Shop.Theme.Catalog'}</h3>
