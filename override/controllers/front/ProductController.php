@@ -59,6 +59,10 @@ class ProductController extends ProductControllerCore
         $extraContentFinder = new ProductExtraContentFinder();
 
         $product = $this->objectPresenter->present($this->product);
+
+        if ($product['wine'])
+            $productSettings->include_taxes = false;
+        
         $product['id_product'] = (int) $this->product->id;
         $product['out_of_stock'] = (int) $this->product->out_of_stock;
         $product['new'] = (int) $this->product->new;
