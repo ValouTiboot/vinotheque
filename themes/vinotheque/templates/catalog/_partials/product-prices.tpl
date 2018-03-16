@@ -51,7 +51,7 @@
       </p>
       {if $product.category == 'primeurs'}
         <p class="packaging-block">
-            {l s='Dont' d='Shop.Theme.Catalog'} <span class="packaging-price"></span> {l s='de conditionnement' d='Shop.Theme.Catalog'}
+            {l s='Dont' d='Shop.Theme.Catalog'} <span class="packaging-price">{Tools::displayPrice($product.packaging_price)}</span> {l s='de conditionnement' d='Shop.Theme.Catalog'}
         </p>
       {/if}
     {/block}
