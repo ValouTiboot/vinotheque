@@ -236,6 +236,22 @@ $(document).ready(() => {
   }
 
   $body.on(
+    'click',
+    '.js-increase-product-quantity',
+    (event) => {
+      $(productLineInCartSelector).focusout();
+    }
+  );
+
+  $body.on(
+    'click',
+    '.js-decrease-product-quantity',
+    (event) => {
+      $(productLineInCartSelector).focusout();
+    }
+  );
+
+  $body.on(
     'focusout',
     productLineInCartSelector,
     (event) => {

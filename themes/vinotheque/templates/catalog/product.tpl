@@ -264,7 +264,7 @@
                                   <div id="stock_pictos_quantity" {if $product.quantity <= 0}style="display:none;"{/if}>
                                     <i class="icon-v-check-bubble"></i>{l s='En stock' d='Shop.Theme.Catalog'}
                                   </div>
-                                    {if $product.wine_delivery}
+                                    {if $product.category == 'primeurs' && $product.wine_delivery}
                                       <div>
                                          <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {dateFormat date=$product.wine_delivery}
                                       </div>
@@ -308,12 +308,14 @@
                   <section class="product-features">
                     <ul class="row">
                       {foreach from=$product.features item=feature}
-                        <li class="col-md-6 col-12">
-                            <div class="row">
-                                <div class="product-features-name col-xl-3 col-lg-4 col-6">{$feature.name}</div>
-                                <div class="product-features-value col-xl-9 col-lg-8 col-6">{$feature.value}</div>
-                            </div>
-                        </li>
+                        {if $feature.id_feature != 2 && $feature.id_feature != 3 && $feature.id_feature != 5} {* Couleur Degré Région *}
+                            <li class="col-md-6 col-12">
+                                <div class="row">
+                                    <div class="product-features-name col-xl-3 col-lg-4 col-6">{$feature.name}</div>
+                                    <div class="product-features-value col-xl-9 col-lg-8 col-6">{$feature.value}</div>
+                                </div>
+                            </li>
+                        {/if}
                       {/foreach}
                     </ul>
                   </section>
@@ -345,7 +347,7 @@
                     <h3>{l s='La propriété' d='Shop.Theme.Catalog'}</h3>
                     <div class="row">
                       <div class="col-4">
-                          <img src="{$product.property_picture}">
+                          <img src="/ftp/Images/{$product.property_picture}">
                       </div>
                       <div class="col-8">
                         <div>{$product.property nofilter}</div>
@@ -357,13 +359,12 @@
               {/block}
 
               {block name='product_calling'}
-                  {$product|var_dump}
               {if !empty($product.calling)}
                 <div id="product-calling">
                   <h3>{l s='L\'appellation' d='Shop.Theme.Catalog'}</h3>
                   <div class="row">
                     <div class="col-4">
-                        <img class="appellation-image" src="{$product.calling_picture_small}">
+                        <img class="appellation-image" src="/ftp/Images/{$product.calling_picture_small}">
                         <div class="layer hidden-sm-down" data-toggle="modal" data-target="#appellation-modal">
                             <i class="material-icons zoom-in">&#xE8FF;</i>
                         </div>
@@ -373,7 +374,7 @@
                                     <div class="modal-body">
 										{assign var=imagesCount value=$product.images|count}
                                         <figure>
-                                            <img width="100%" src="{$product.calling_picture_big}">
+                                            <img width="100%" src="/ftp/Images/{$product.calling_picture_big}">
                                         </figure>
                                     </div>
                                 </div><!-- /.modal-content -->

@@ -254,11 +254,12 @@ ul.related_blog_product li {
 }
 
 #prestablog_plus {
-	text-align: center;
-	padding-top: 300px;
 	color: white;
 	font-size: 160px;
 	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @media (max-width: 992px) {
