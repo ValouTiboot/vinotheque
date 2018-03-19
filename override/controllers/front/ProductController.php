@@ -62,7 +62,11 @@ class ProductController extends ProductControllerCore
 
         if ($product['wine'])
             $productSettings->include_taxes = false;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 380bc1952448948d97d0003c2d8d6b924999649c
         $product['id_product'] = (int) $this->product->id;
         $product['out_of_stock'] = (int) $this->product->out_of_stock;
         $product['new'] = (int) $this->product->new;

@@ -13,41 +13,45 @@
                     </div>
                 </a>
                 {hook h='displayProductPictos' mod='pictogram' product=$product}
-				{block name='product_list_actions'}
-                    <div class="product-list-actions">
-                        {if $product.add_to_cart_url}
-                            <a class = "know-more" href="{$product.url}">{l s='En savoir plus' d='Shop.Theme.Actions'}</a>
-                            <br>
-                            <a
-                            class = "add-to-cart"
-                            href  = "{$product.add_to_cart_url}"
-                            rel   = "nofollow"
-                            data-id-product="{$product.id_product}"
-                            data-id-product-attribute="{$product.id_product_attribute}"
-                            data-link-action="add-to-cart"
-                            ><i class="icon-v-cart"></i></a>
-                        {/if}
-                        {hook h='displayProductListFunctionalButtons' product=$product}
-                        <div id="product-attributes-list" class="row justify-content-center">
-                          {if isset($product.attributes)}
-                          {foreach from=$product.attributes item=attribute}
-                            {if $attribute.group == 'Format'}
-                              <div class="col-lg-4">
-                                  <div>
-								                    {preg_replace('@bouteille@i', '', $attribute.name)}
-                                  </div>
+				        {block name='product_list_actions'}
+                <div class="product-list-actions">
+                    {if $product.add_to_cart_url}
+                        <a class = "know-more" href="{$product.url}">{l s='En savoir plus' d='Shop.Theme.Actions'}</a>
+                        <br>
+                        <a
+                        class = "add-to-cart"
+                        href  = "{$product.add_to_cart_url}"
+                        rel   = "nofollow"
+                        data-id-product="{$product.id_product}"
+                        data-id-product-attribute="{$product.id_product_attribute}"
+                        data-link-action="add-to-cart"
+                        ><i class="icon-v-cart"></i></a>
+                    {/if}
+                    {hook h='displayProductListFunctionalButtons' product=$product}
+                    <div id="product-attributes-list" class="row justify-content-center">
+                      {if isset($product.attributes)}
+                      {foreach from=$product.attributes item=attribute}
+                        {if $attribute.group == 'Format'}
+                          <div class="col-lg-4">
+                              <div>
+						                    {preg_replace('@bouteille@i', '', $attribute.name)}
                               </div>
-                            {/if}
-                          {/foreach}
-                          {/if}
-                        </div>
+                          </div>
+                        {/if}
+                      {/foreach}
+                      {/if}
                     </div>
+                </div>
 				{/block}
             </div>
         {/block}
 
         {block name='category_name'}
+<<<<<<< HEAD
           <div class="category-name">{$product.features[2].value}</div>
+=======
+          <div class="category-name">{$product.category_name}</div>
+>>>>>>> 380bc1952448948d97d0003c2d8d6b924999649c
         {/block}
 
         {block name='product_name'}

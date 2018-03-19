@@ -70,9 +70,17 @@ $_MODULE['<{giftcard}prestashop>gift_card_e2e79605fc9450ec17957cf0e910f5c6'] = '
 $_MODULE['<{giftcard}prestashop>gift_card_3431b1134365746eda3c312037d7e7e0'] = 'Entrer la valeur entre';
 $_MODULE['<{giftcard}prestashop>gift_card_0060636b449d1da5a8581bfee180f0c2'] = 'et';
 $_MODULE['<{giftcard}prestashop>gift_card_48975549f64996d26ea7a40e3c2529e3'] = 'Prix ​​non valide';
+<<<<<<< HEAD
 $_MODULE['<{giftcard}prestashop>my-account_f8320e49f54ef95756173d1af404c733'] = 'Mes cartes cadeaux';
 $_MODULE['<{giftcard}prestashop>my-account_1acd0304aa53f168d88f9a7d7a09d18d'] = 'Mes cartes cadeaux';
 $_MODULE['<{giftcard}prestashop>my-account_df9d8b3feb0e7c830e655bb5062a547e'] = 'Mes cartes cadeaux';
 $_MODULE['<{giftcard}prestashop>gift_form_7c115f5504dafbc9f61c144538cdbd49'] = 'Vous avez un chèque cadeau ?';
 $_MODULE['<{giftcard}prestashop>gift_form_1306bade25c9c93111838baadc58300e'] = 'CODE CHEQUE CADEAU';
+=======
+$_MODULE['<{giftcard}prestashop>my-account_f8320e49f54ef95756173d1af404c733'] = 'Mes cartes-cadeaux';
+$_MODULE['<{giftcard}prestashop>my-account_1acd0304aa53f168d88f9a7d7a09d18d'] = 'Mes cartes-cadeaux';
+$_MODULE['<{giftcard}prestashop>my-account_df9d8b3feb0e7c830e655bb5062a547e'] = 'Mes cartes-cadeaux';
+$_MODULE['<{giftcard}prestashop>gift_form_7c115f5504dafbc9f61c144538cdbd49'] = 'Une carte cadeau ?';
+$_MODULE['<{giftcard}prestashop>gift_form_1306bade25c9c93111838baadc58300e'] = 'Carte cadeau';
+>>>>>>> 380bc1952448948d97d0003c2d8d6b924999649c
 $_MODULE['<{giftcard}prestashop>gift_form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Ajouter';

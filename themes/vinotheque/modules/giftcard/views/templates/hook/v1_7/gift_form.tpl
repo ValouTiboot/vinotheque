@@ -14,4 +14,8 @@
 			<button class="btn btn-secondary" type="submit"><span>{l s='Add' mod='giftcard'}</span></button>
 		</div>
 	</div>
+<<<<<<< HEAD
 </form>
+=======
+</form>
+>>>>>>> 380bc1952448948d97d0003c2d8d6b924999649c
