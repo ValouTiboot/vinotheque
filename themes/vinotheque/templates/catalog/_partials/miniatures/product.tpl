@@ -47,11 +47,7 @@
         {/block}
 
         {block name='category_name'}
-<<<<<<< HEAD
-          <div class="category-name">{$product.features[2].value}</div>
-=======
           <div class="category-name">{$product.category_name}</div>
->>>>>>> 380bc1952448948d97d0003c2d8d6b924999649c
         {/block}
 
         {block name='product_name'}
