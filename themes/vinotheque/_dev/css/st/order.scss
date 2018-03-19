@@ -247,3 +247,18 @@ a.different-address, a.add-address {
     //margin-right: small-padding;
   }
 }
+
+// Carte cadeau
+#add-voucher {
+  label {
+    font-size: rem(17px);
+    color: $red;
+    font-weight: 300;
+  }
+  #add-voucher-input {
+    padding-left: 0;
+  }
+  button {
+    padding: 6px 15px;
+  }
+}

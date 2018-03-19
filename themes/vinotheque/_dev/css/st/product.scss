@@ -309,7 +309,7 @@
       color: white;
       position: absolute;
       right: rem(15px);
-      top: rem(-20px);
+      top: rem(-25px);
       padding: 0 rem(5px);
       font-size: rem(13px);
       line-height: rem(20px);
@@ -334,6 +334,10 @@
             font-size: rem(28px);
           }
         }
+      }
+      .packaging-block {
+        margin-bottom: rem(-8px);
+        font-size: rem(13px);
       }
       .product-quantity, .product-variants {
         padding: rem(8px) rem(15px);

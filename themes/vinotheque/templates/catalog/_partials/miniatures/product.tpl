@@ -1,12 +1,12 @@
 {block name='product_miniature_item'}
-  <article class="col-sm-6 col-lg-{if isset($lg)}{$lg}{else}3{/if} product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
+  <article onclick="location.href='{$product.url}'" class="col-sm-6 col-lg-{if isset($lg)}{$lg}{else}3{/if} product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
     <div>
         {block name='product_thumbnail'}
             <div class="product-thumbnail-box">
                 <a href="{$product.url}" class="thumbnail product-thumbnail">
                     <div>
                         <img
-                          src = "{if $product.cover}{$product.cover.medium.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{/if}"
+                          src = "{if $product.cover}{$product.cover.medium.url}{elseif $link}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{else}img/p/fr-default-medium_default.jpg{/if}"
                           alt = "{$product.cover.legend}"
                           data-full-size-image-url = "{$product.cover.large.url}"
                         >
@@ -47,9 +47,7 @@
         {/block}
 
         {block name='category_name'}
-          {if isset($product.features[2])}
           <div class="category-name">{$product.features[2].value}</div>
-          {/if}
         {/block}
 
         {block name='product_name'}

@@ -34,9 +34,11 @@
               {/if}
           {/block}
         <span class="price" itemprop="price" content="{$product.price_amount}">{$product.price}</span>
-        {*{if $configuration.display_taxes_label}*}
-         {*<small>{$product.labels.tax_short}</small>*}
-        {*{/if}*}
+		{if $product.category == 'primeurs'}
+            {if $configuration.display_taxes_label}
+                <span class="red"><strong>HT</strong></span>
+            {/if}
+        {/if}
         <meta itemprop="priceCurrency" content="{$currency.iso_code}">
         {hook h='displayProductPriceBlock' product=$product type="price"}
         {*{if $product.has_discount}*}
@@ -47,6 +49,11 @@
           {*{/if}*}
         {*{/if}*}
       </p>
+      {if $product.category == 'primeurs'}
+        <p class="packaging-block">
+            {l s='Dont' d='Shop.Theme.Catalog'} <span class="packaging-price">{Tools::displayPrice($product.packaging_price)}</span> {l s='de conditionnement' d='Shop.Theme.Catalog'}
+        </p>
+      {/if}
     {/block}
 
     {block name='product_without_taxes'}

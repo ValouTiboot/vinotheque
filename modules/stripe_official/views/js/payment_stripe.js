@@ -1,5 +1,5 @@
 /**
- * 2007-2017 PrestaShop
+ * 2007-2018 PrestaShop
  *
  * DISCLAIMER
  *
@@ -8,7 +8,7 @@
  * needs please refer to http://www.prestashop.com for more information.
  *
  * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2017 PrestaShop SA
+ * @copyright 2007-2018 PrestaShop SA
  * @license   http://addons.prestashop.com/en/content/12-terms-and-conditions-of-use
  * International Registered Trademark & Property of PrestaShop SA
  */
@@ -59,7 +59,7 @@ function initStripeOfficial() {
     card.addEventListener('change', function(event) {
         setOutcome(event);
         cardType = event.brand;
-        if (cardType != "unknown") {
+        if (typeof cardType != "undefined") {
             if (cardType == "American Express")
                 cardType = "amex";
             if (cardType == "Diners Club")
@@ -272,7 +272,6 @@ function initStripeOfficial() {
                 }
             });
         }
-
     });
 
      /* Catch callback errors */

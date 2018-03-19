@@ -86,11 +86,11 @@
 	// "inherit" EventEmitter
 	window.$ = _jquery2['default'];
 	window.jQuery = _jquery2['default'];
-	
+
 	for (var i in _events2['default'].prototype) {
 	  _prestashop2['default'][i] = _events2['default'].prototype[i];
 	}
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  (0, _common.psShowHide)();
 	});
@@ -1703,17 +1703,17 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  _prestashop2['default'].on('updateCart', function (event) {
 	    var getCartViewUrl = (0, _jquery2['default'])('.js-cart').data('refresh-url');
@@ -1726,6 +1726,7 @@
 	      };
 	    }
 
+	    var spinnerSelector = 'input[name="product-quantity-spin"]';
 	    var productPriceSelector = '.product-price strong';
 
 	    var updatePrices = function updatePrices(pricesInCart, $cartOverview, $newCart) {
@@ -1802,6 +1803,20 @@
 	      });
 	    };
 
+	    var createSpin = function createSpin() {
+		  $.each($(spinnerSelector), function (index, spinner) {
+			  $(spinner).TouchSpin({
+				  verticalbuttons: true,
+				  verticalupclass: 'material-icons touchspin-up',
+				  verticaldownclass: 'material-icons touchspin-down',
+				  buttondown_class: 'btn btn-touchspin js-touchspin js-increase-product-quantity',
+				  buttonup_class: 'btn btn-touchspin js-touchspin js-decrease-product-quantity',
+				  min: parseInt($(spinner).attr('min'), 10),
+				  max: 1000000
+			  });
+		  });
+	    };
+
 	    _jquery2['default'].post(getCartViewUrl, requestData).then(function (resp) {
 	      var $newCart = (0, _jquery2['default'])(resp.cart_detailed);
 	      var $cartOverview = (0, _jquery2['default'])('.cart-overview');
@@ -1819,6 +1834,7 @@
 	      (0, _jquery2['default'])('.cart-summary-totals').replaceWith(resp.cart_summary_totals);
 	      (0, _jquery2['default'])('.cart-detailed-actions').replaceWith(resp.cart_detailed_actions);
 	      (0, _jquery2['default'])('.cart-voucher').replaceWith(resp.cart_voucher);
+	      (0, _jquery2['default'])('.cart-overview').replaceWith(resp.cart_detailed);
 
 	      (0, _jquery2['default'])('.js-cart-line-product-quantity').each(function (index, input) {
 	        var $input = (0, _jquery2['default'])(input);
@@ -1826,23 +1842,25 @@
 	      });
 
 	      _prestashop2['default'].emit('updatedCart');
+
+	      createSpin();
 	    }).fail(function (resp) {
 	      _prestashop2['default'].emit('handleError', { eventType: 'updateCart', resp: resp });
 	    });
 	  });
-	
+
 	  var $body = (0, _jquery2['default'])('body');
-	
+
 	  $body.on('click', '[data-button-action="add-to-cart"]', function (event) {
 	    event.preventDefault();
-	
+
 	    var $form = (0, _jquery2['default'])((0, _jquery2['default'])(event.target).closest('form'));
 	    var query = $form.serialize() + '&add=1&action=update';
 	    var actionURL = $form.attr('action');
-	
+
 	    var isQuantityInputValid = function isQuantityInputValid($input) {
 	      var validInput = true;
-	
+
 	      $input.each(function (index, input) {
 	        var $input = (0, _jquery2['default'])(input);
 	        var minimalValue = parseInt($input.attr('min'), 10);
@@ -1851,22 +1869,22 @@
 	          validInput = false;
 	        }
 	      });
-	
+
 	      return validInput;
 	    };
-	
+
 	    var onInvalidQuantity = function onInvalidQuantity($input) {
 	      (0, _jquery2['default'])($input.parents('.product-add-to-cart')[0]).find('.product-minimal-quantity').addClass('error');
 	      $input.parent().find('label').addClass('error');
 	    };
-	
+
 	    var $quantityInput = $form.find('input[min]');
 	    if (!isQuantityInputValid($quantityInput)) {
 	      onInvalidQuantity($quantityInput);
-	
+
 	      return;
 	    }
-	
+
 	    _jquery2['default'].post(actionURL, query, null, 'json').then(function (resp) {
 	      _prestashop2['default'].emit('updateCart', {
 	        reason: {
@@ -1879,27 +1897,27 @@
 	      _prestashop2['default'].emit('handleError', { eventType: 'addProductToCart', resp: resp });
 	    });
 	  });
-	
+
 	  $body.on('submit', '[data-link-action="add-voucher"]', function (event) {
 	    event.preventDefault();
-	
+
 	    var $addVoucherForm = (0, _jquery2['default'])(event.currentTarget);
 	    var getCartViewUrl = $addVoucherForm.attr('action');
-	
+
 	    if (0 === $addVoucherForm.find('[name=action]').length) {
 	      $addVoucherForm.append((0, _jquery2['default'])('<input>', { 'type': 'hidden', 'name': 'ajax', "value": 1 }));
 	    }
 	    if (0 === $addVoucherForm.find('[name=action]').length) {
 	      $addVoucherForm.append((0, _jquery2['default'])('<input>', { 'type': 'hidden', 'name': 'action', "value": "update" }));
 	    }
-	
+
 	    _jquery2['default'].post(getCartViewUrl, $addVoucherForm.serialize(), null, 'json').then(function (resp) {
 	      if (resp.hasError) {
 	        (0, _jquery2['default'])('.js-error').show().find('.js-error-text').text(resp.errors[0]);
-	
+
 	        return;
 	      }
-	
+
 	      // Refresh cart preview
 	      _prestashop2['default'].emit('updateCart', { reason: event.target.dataset });
 	    }).fail(function (resp) {
@@ -1943,44 +1961,44 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	var _checkoutAddress = __webpack_require__(6);
-	
+
 	var _checkoutAddress2 = _interopRequireDefault(_checkoutAddress);
-	
+
 	var _checkoutDelivery = __webpack_require__(7);
-	
+
 	var _checkoutDelivery2 = _interopRequireDefault(_checkoutDelivery);
-	
+
 	var _checkoutPayment = __webpack_require__(8);
-	
+
 	var _checkoutPayment2 = _interopRequireDefault(_checkoutPayment);
-	
+
 	function setUpCheckout() {
 	  (0, _checkoutAddress2['default'])();
 	  (0, _checkoutDelivery2['default'])();
 	  (0, _checkoutPayment2['default'])();
-	
+
 	  handleCheckoutStepChange();
 	}
-	
+
 	function handleCheckoutStepChange() {
 	  (0, _jquery2['default'])('.checkout-step').off('click');
-	
+
 	  var currentStepClass = 'js-current-step';
 	  var currentStepSelector = '.' + currentStepClass;
 	  var stepsAfterPersonalInformation = (0, _jquery2['default'])('#checkout-personal-information-step').nextAll();
-	
+
 	  (0, _jquery2['default'])(currentStepSelector).prevAll().add(stepsAfterPersonalInformation).on('click', function (event) {
 	    var $nextStep = (0, _jquery2['default'])(event.target).closest('.checkout-step');
 	    if (!$nextStep.hasClass('-unreachable')) {
@@ -1990,13 +2008,13 @@
 	    }
 	    _prestashop2['default'].emit('changedCheckoutStep', { event: event });
 	  });
-	
+
 	  (0, _jquery2['default'])(currentStepSelector + ':not(#checkout-personal-information-step)').nextAll().on('click', function (event) {
 	    (0, _jquery2['default'])(currentStepSelector + ' button.continue').click();
 	    _prestashop2['default'].emit('changedCheckoutStep', { event: event });
 	  });
 	}
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  if ((0, _jquery2['default'])('#checkout').length === 1) {
 	    setUpCheckout();
@@ -2032,21 +2050,21 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	exports['default'] = function () {
 	  (0, _jquery2['default'])('.js-edit-addresses').on('click', function (event) {
 	    event.stopPropagation();
@@ -2054,7 +2072,7 @@
 	    _prestashop2['default'].emit('editAddress');
 	  });
 	};
-	
+
 	module.exports = exports['default'];
 
 /***/ },
@@ -2086,34 +2104,34 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	exports['default'] = function () {
 	  var $body = (0, _jquery2['default'])('body');
 	  var deliveryFormSelector = '#js-delivery';
 	  var summarySelector = '#js-checkout-summary';
 	  var deliveryStepSelector = '#checkout-delivery-step';
 	  var editDeliveryButtonSelector = '.js-edit-delivery';
-	
+
 	  var updateDeliveryForm = function updateDeliveryForm(event) {
 	    var $deliveryMethodForm = (0, _jquery2['default'])(deliveryFormSelector);
 	    var requestData = $deliveryMethodForm.serialize();
 	    var $inputChecked = (0, _jquery2['default'])(event.currentTarget);
 	    var $newDeliveryOption = $inputChecked.parents("div.delivery-option");
-	
+
 	    _jquery2['default'].post($deliveryMethodForm.data('url-update'), requestData).then(function (resp) {
 	      (0, _jquery2['default'])(summarySelector).replaceWith(resp.preview);
 	      _prestashop2['default'].emit('updatedDeliveryForm', { dataForm: $deliveryMethodForm.serializeArray(), deliveryOption: $newDeliveryOption });
@@ -2121,16 +2139,16 @@
 	      _prestashop2['default'].trigger('handleError', { eventType: 'updateDeliveryOptions', resp: resp });
 	    });
 	  };
-	
+
 	  $body.on('change', deliveryFormSelector + ' input', updateDeliveryForm);
-	
+
 	  $body.on('click', editDeliveryButtonSelector, function (event) {
 	    event.stopPropagation();
 	    (0, _jquery2['default'])(deliveryStepSelector).trigger('click');
 	    _prestashop2['default'].emit('editDelivery');
 	  });
 	};
-	
+
 	module.exports = exports['default'];
 
 /***/ },
@@ -2162,25 +2180,25 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
-	
+
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var Payment = (function () {
 	  function Payment() {
 	    _classCallCheck(this, Payment);
-	
+
 	    this.confirmationSelector = '#payment-confirmation';
 	    this.paymentSelector = '#payment-section';
 	    this.conditionsSelector = '#conditions-to-approve';
@@ -2188,18 +2206,18 @@
 	    this.additionalInformatonSelector = '.js-additional-information';
 	    this.optionsForm = '.js-payment-option-form';
 	  }
-	
+
 	  _createClass(Payment, [{
 	    key: 'init',
 	    value: function init() {
 	      (0, _jquery2['default'])(this.paymentSelector + ' input[type="checkbox"][disabled]').attr('disabled', false);
-	
+
 	      var $body = (0, _jquery2['default'])('body');
-	
+
 	      $body.on('change', this.conditionsSelector + ' input[type="checkbox"]', _jquery2['default'].proxy(this.toggleOrderButton, this));
 	      $body.on('change', 'input[name="payment-option"]', _jquery2['default'].proxy(this.toggleOrderButton, this));
 	      $body.on('click', this.confirmationSelector + ' button', _jquery2['default'].proxy(this.confirm, this));
-	
+
 	      this.collapseOptions();
 	    }
 	  }, {
@@ -2231,23 +2249,23 @@
 	          show = false;
 	        }
 	      });
-	
+
 	      this.collapseOptions();
-	
+
 	      var selectedOption = this.getSelectedOption();
 	      if (!selectedOption) {
 	        show = false;
 	      }
-	
+
 	      (0, _jquery2['default'])('#' + selectedOption + '-additional-information').show();
 	      (0, _jquery2['default'])('#pay-with-' + selectedOption + '-form').show();
-	
+
 	      (0, _jquery2['default'])('.js-payment-binary').hide();
 	      if ((0, _jquery2['default'])('#' + selectedOption).hasClass('binary')) {
 	        var paymentOption = this.getPaymentOptionSelector(selectedOption);
 	        this.hideConfirmation();
 	        (0, _jquery2['default'])(paymentOption).show();
-	
+
 	        if (show) {
 	          (0, _jquery2['default'])(paymentOption).removeClass('disabled');
 	        } else {
@@ -2256,7 +2274,7 @@
 	      } else {
 	        this.showConfirmation();
 	        (0, _jquery2['default'])(this.confirmationSelector + ' button').attr('disabled', !show);
-	
+
 	        if (show) {
 	          (0, _jquery2['default'])(this.conditionAlertSelector).hide();
 	        } else {
@@ -2268,7 +2286,7 @@
 	    key: 'getPaymentOptionSelector',
 	    value: function getPaymentOptionSelector(option) {
 	      var moduleName = (0, _jquery2['default'])('#' + option).data('module-name');
-	
+
 	      return '.js-payment-' + moduleName;
 	    }
 	  }, {
@@ -2280,17 +2298,17 @@
 	      }
 	    }
 	  }]);
-	
+
 	  return Payment;
 	})();
-	
+
 	exports['default'] = function () {
 	  var payment = new Payment();
 	  payment.init();
-	
+
 	  return payment;
 	};
-	
+
 	module.exports = exports['default'];
 
 /***/ },
@@ -2322,44 +2340,44 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var pendingQuery = false;
-	
+
 	function updateResults(data) {
 	    pendingQuery = false;
 	    prestashop.emit('updateProductList', data);
 	    window.history.pushState(data, undefined, data.current_url);
 	}
-	
+
 	function handleError() {
 	    // TODO: feedback
 	    pendingQuery = false;
 	}
-	
+
 	function makeQuery(url) {
 	    if (pendingQuery) {
 	        // wait for current results
 	    } else {
-	
+
 	            // We need to add a parameter to the URL
 	            // to make it different from the one we're on,
 	            // otherwise when you do "duplicate tab" under chrome
 	            // it mixes up the cache between the AJAX request (that
 	            // returns JSON) and the non-AJAX request (that returns
 	            // HTML) and you just get a mess of JSON on the duplicated tab.
-	
+
 	            var slightlyDifferentURL = [url, url.indexOf('?') >= 0 ? '&' : '?', 'from-xhr'].join('');
-	
+
 	            _jquery2['default'].get(slightlyDifferentURL, null, null, 'json').then(updateResults).fail(handleError);
 	        }
 	}
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	    prestashop.on('updateFacets', function (param) {
 	        makeQuery(param);
@@ -2395,17 +2413,17 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  (0, _jquery2['default'])('body').on('click', '.quick-view', function (event) {
 	    _prestashop2['default'].emit('clickQuickView', {
@@ -2444,34 +2462,34 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  (0, _jquery2['default'])('body').on('change', '.product-variants [data-product-attribute]', function () {
 	    (0, _jquery2['default'])("input[name$='refresh']").click();
 	  });
-	
+
 	  (0, _jquery2['default'])('body').on('click', '.product-refresh', function (event, extraParameters) {
 	    var $productRefresh = (0, _jquery2['default'])(this);
 	    event.preventDefault();
-	
+
 	    var eventType = 'updatedProductCombination';
 	    if (typeof extraParameters !== 'undefined' && extraParameters.eventType) {
 	      eventType = extraParameters.eventType;
 	    }
-	
+
 	    var query = (0, _jquery2['default'])(event.target.form).serialize() + '&ajax=1&action=productrefresh';
 	    var actionURL = (0, _jquery2['default'])(event.target.form).attr('action');
-	
+
 	    _jquery2['default'].post(actionURL, query, null, 'json').then(function (resp) {
 	      _prestashop2['default'].emit('updateProduct', {
 	        reason: {
@@ -2482,21 +2500,21 @@
 	      });
 	    });
 	  });
-	
+
 	  _prestashop2['default'].on('updateProduct', function (event) {
 	    if (typeof event.refreshUrl == "undefined") {
 	      event.refreshUrl = true;
 	    }
-	
+
 	    var eventType = event.eventType;
-	
+
 	    var replaceAddToCartSections = function replaceAddToCartSections(addCartHtml) {
 	      var $addToCartSnippet = (0, _jquery2['default'])(addCartHtml);
 	      var $addProductToCart = (0, _jquery2['default'])('.product-add-to-cart');
-	
+
 	      function replaceAddToCartSection(replacement) {
 	        var replace = replacement.$addToCartSnippet.find(replacement.targetSelector);
-	
+
 	        if ((0, _jquery2['default'])(replacement.$targetParent.find(replacement.targetSelector)).length > 0) {
 	          if (replace.length > 0) {
 	            (0, _jquery2['default'])(replacement.$targetParent.find(replacement.targetSelector)).replaceWith(replace[0].outerHTML);
@@ -2505,14 +2523,14 @@
 	          }
 	        }
 	      }
-	
+
 	      var productAvailabilitySelector = '.add';
 	      replaceAddToCartSection({
 	        $addToCartSnippet: $addToCartSnippet,
 	        $targetParent: $addProductToCart,
 	        targetSelector: productAvailabilitySelector
 	      });
-	
+
 	      var productMinimalQuantitySelector = '.product-minimal-quantity';
 	      replaceAddToCartSection({
 	        $addToCartSnippet: $addToCartSnippet,
@@ -2520,7 +2538,7 @@
 	        targetSelector: productMinimalQuantitySelector
 	      });
 	    };
-	
+
 	    _jquery2['default'].post(event.reason.productUrl, { ajax: '1', action: 'refresh' }, null, 'json').then(function (resp) {
 	      (0, _jquery2['default'])('.product-prices').replaceWith(resp.product_prices);
 	      (0, _jquery2['default'])('.product-customization').replaceWith(resp.product_customization);
@@ -2529,7 +2547,7 @@
 	      (0, _jquery2['default'])('.images-container').replaceWith(resp.product_cover_thumbnails);
 	      (0, _jquery2['default'])('.product-additional-info').replaceWith(resp.product_additional_info);
 	      (0, _jquery2['default'])('#product-details').replaceWith(resp.product_details);
-	
+
 	      // Replace all "add to cart" sections but the quantity input in order to keep quantity field intact i.e.
 	      // Prevent quantity input from blinking with classic theme.
 	      var $productAddToCart = undefined;
@@ -2539,12 +2557,12 @@
 	        }
 	      });
 	      replaceAddToCartSections($productAddToCart);
-	
+
 	      var minimalProductQuantity = parseInt(resp.product_minimal_quantity, 10);
 	      var quantityInputSelector = '#quantity_wanted';
 	      var quantityInput = (0, _jquery2['default'])(quantityInputSelector);
 	      var quantity_wanted = quantityInput.val();
-	
+
 	      if (!isNaN(minimalProductQuantity) && quantity_wanted < minimalProductQuantity && eventType !== 'updatedProductQuantity') {
 	        quantityInput.attr('min', minimalProductQuantity);
 	        quantityInput.val(minimalProductQuantity);
@@ -2554,16 +2572,16 @@
 	      	(0, _jquery2['default'])('#stock_pictos_quantity').show();
 	      else
 	      	(0, _jquery2['default'])('#stock_pictos_quantity').hide();
-	      
+
 	      if (resp.shop_quantity > 0)
 	      	(0, _jquery2['default'])('#stock_pictos_shop_quantity').show();
 	      else
 	      	(0, _jquery2['default'])('#stock_pictos_shop_quantity').hide();
-	
+
 	      if (event.refreshUrl) {
 	        window.history.pushState({ id_product_attribute: resp.id_product_attribute }, undefined, resp.product_url);
 	      }
-	
+
 	      _prestashop2['default'].emit('updatedProduct', resp);
 	    });
 	  });
@@ -2574,17 +2592,17 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	var _prestashop = __webpack_require__(4);
-	
+
 	var _prestashop2 = _interopRequireDefault(_prestashop);
-	
+
 	/**
 	 * Update address form on country change
 	 * Emit "addressFormUpdated" event
@@ -2599,29 +2617,29 @@
 	    };
 	    var getFormViewUrl = (0, _jquery2['default'])(selectors.address + ' form').data('refresh-url');
 	    var formFieldsSelector = selectors.address + ' input';
-	
+
 	    _jquery2['default'].post(getFormViewUrl, requestData).then(function (resp) {
 	      var inputs = [];
-	
+
 	      // Store fields values before updating form
 	      (0, _jquery2['default'])(formFieldsSelector).each(function () {
 	        inputs[(0, _jquery2['default'])(this).prop('name')] = (0, _jquery2['default'])(this).val();
 	      });
-	
+
 	      (0, _jquery2['default'])(selectors.address).replaceWith(resp.address_form);
-	
+
 	      // Restore fields values
 	      (0, _jquery2['default'])(formFieldsSelector).each(function () {
 	        (0, _jquery2['default'])(this).val(inputs[(0, _jquery2['default'])(this).prop('name')]);
 	      });
-	
+
 	      _prestashop2['default'].emit('updatedAddressForm', { target: (0, _jquery2['default'])(selectors.address) });
 	    }).fail(function (resp) {
 	      _prestashop2['default'].emit('handleError', { eventType: 'updateAddressForm', resp: resp });
 	    });
 	  });
 	}
-	
+
 	(0, _jquery2['default'])(document).ready(function () {
 	  handleCountryChange({
 	    'country': '.js-country',
@@ -2653,25 +2671,25 @@
 	// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 	// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 	// USE OR OTHER DEALINGS IN THE SOFTWARE.
-	
+
 	'use strict';
-	
+
 	function EventEmitter() {
 	  this._events = this._events || {};
 	  this._maxListeners = this._maxListeners || undefined;
 	}
 	module.exports = EventEmitter;
-	
+
 	// Backwards-compat with node 0.10.x
 	EventEmitter.EventEmitter = EventEmitter;
-	
+
 	EventEmitter.prototype._events = undefined;
 	EventEmitter.prototype._maxListeners = undefined;
-	
+
 	// By default EventEmitters will print a warning if more than 10 listeners are
 	// added to it. This is a useful default which helps finding memory leaks.
 	EventEmitter.defaultMaxListeners = 10;
-	
+
 	// Obviously not all Emitters should be limited to 10. This function allows
 	// that to be increased. Set to zero for unlimited.
 	EventEmitter.prototype.setMaxListeners = function (n) {
@@ -2679,12 +2697,12 @@
 	  this._maxListeners = n;
 	  return this;
 	};
-	
+
 	EventEmitter.prototype.emit = function (type) {
 	  var er, handler, len, args, i, listeners;
-	
+
 	  if (!this._events) this._events = {};
-	
+
 	  // If there is no 'error' event listener then throw.
 	  if (type === 'error') {
 	    if (!this._events.error || isObject(this._events.error) && !this._events.error.length) {
@@ -2699,11 +2717,11 @@
 	        }
 	    }
 	  }
-	
+
 	  handler = this._events[type];
-	
+
 	  if (isUndefined(handler)) return false;
-	
+
 	  if (isFunction(handler)) {
 	    switch (arguments.length) {
 	      // fast cases
@@ -2727,21 +2745,21 @@
 	    len = listeners.length;
 	    for (i = 0; i < len; i++) listeners[i].apply(this, args);
 	  }
-	
+
 	  return true;
 	};
-	
+
 	EventEmitter.prototype.addListener = function (type, listener) {
 	  var m;
-	
+
 	  if (!isFunction(listener)) throw TypeError('listener must be a function');
-	
+
 	  if (!this._events) this._events = {};
-	
+
 	  // To avoid recursion in the case that type === "newListener"! Before
 	  // adding it to the listeners, first emit "newListener".
 	  if (this._events.newListener) this.emit('newListener', type, isFunction(listener.listener) ? listener.listener : listener);
-	
+
 	  if (!this._events[type])
 	    // Optimize the case of one listener. Don't need the extra array object.
 	    this._events[type] = listener;else if (isObject(this._events[type]))
@@ -2749,7 +2767,7 @@
 	    this._events[type].push(listener);else
 	    // Adding the second element, need to change to array.
 	    this._events[type] = [this._events[type], listener];
-	
+
 	  // Check for listener leak
 	  if (isObject(this._events[type]) && !this._events[type].warned) {
 	    if (!isUndefined(this._maxListeners)) {
@@ -2757,7 +2775,7 @@
 	    } else {
 	      m = EventEmitter.defaultMaxListeners;
 	    }
-	
+
 	    if (m && m > 0 && this._events[type].length > m) {
 	      this._events[type].warned = true;
 	      console.error('(node) warning: possible EventEmitter memory ' + 'leak detected. %d listeners added. ' + 'Use emitter.setMaxListeners() to increase limit.', this._events[type].length);
@@ -2767,44 +2785,44 @@
 	      }
 	    }
 	  }
-	
+
 	  return this;
 	};
-	
+
 	EventEmitter.prototype.on = EventEmitter.prototype.addListener;
-	
+
 	EventEmitter.prototype.once = function (type, listener) {
 	  if (!isFunction(listener)) throw TypeError('listener must be a function');
-	
+
 	  var fired = false;
-	
+
 	  function g() {
 	    this.removeListener(type, g);
-	
+
 	    if (!fired) {
 	      fired = true;
 	      listener.apply(this, arguments);
 	    }
 	  }
-	
+
 	  g.listener = listener;
 	  this.on(type, g);
-	
+
 	  return this;
 	};
-	
+
 	// emits a 'removeListener' event iff the listener was removed
 	EventEmitter.prototype.removeListener = function (type, listener) {
 	  var list, position, length, i;
-	
+
 	  if (!isFunction(listener)) throw TypeError('listener must be a function');
-	
+
 	  if (!this._events || !this._events[type]) return this;
-	
+
 	  list = this._events[type];
 	  length = list.length;
 	  position = -1;
-	
+
 	  if (list === listener || isFunction(list.listener) && list.listener === listener) {
 	    delete this._events[type];
 	    if (this._events.removeListener) this.emit('removeListener', type, listener);
@@ -2815,33 +2833,33 @@
 	        break;
 	      }
 	    }
-	
+
 	    if (position < 0) return this;
-	
+
 	    if (list.length === 1) {
 	      list.length = 0;
 	      delete this._events[type];
 	    } else {
 	      list.splice(position, 1);
 	    }
-	
+
 	    if (this._events.removeListener) this.emit('removeListener', type, listener);
 	  }
-	
+
 	  return this;
 	};
-	
+
 	EventEmitter.prototype.removeAllListeners = function (type) {
 	  var key, listeners;
-	
+
 	  if (!this._events) return this;
-	
+
 	  // not listening for removeListener, no need to emit
 	  if (!this._events.removeListener) {
 	    if (arguments.length === 0) this._events = {};else if (this._events[type]) delete this._events[type];
 	    return this;
 	  }
-	
+
 	  // emit removeListener for all listeners on all events
 	  if (arguments.length === 0) {
 	    for (key in this._events) {
@@ -2852,9 +2870,9 @@
 	    this._events = {};
 	    return this;
 	  }
-	
+
 	  listeners = this._events[type];
-	
+
 	  if (isFunction(listeners)) {
 	    this.removeListener(type, listeners);
 	  } else if (listeners) {
@@ -2862,41 +2880,41 @@
 	    while (listeners.length) this.removeListener(type, listeners[listeners.length - 1]);
 	  }
 	  delete this._events[type];
-	
+
 	  return this;
 	};
-	
+
 	EventEmitter.prototype.listeners = function (type) {
 	  var ret;
 	  if (!this._events || !this._events[type]) ret = [];else if (isFunction(this._events[type])) ret = [this._events[type]];else ret = this._events[type].slice();
 	  return ret;
 	};
-	
+
 	EventEmitter.prototype.listenerCount = function (type) {
 	  if (this._events) {
 	    var evlistener = this._events[type];
-	
+
 	    if (isFunction(evlistener)) return 1;else if (evlistener) return evlistener.length;
 	  }
 	  return 0;
 	};
-	
+
 	EventEmitter.listenerCount = function (emitter, type) {
 	  return emitter.listenerCount(type);
 	};
-	
+
 	function isFunction(arg) {
 	  return typeof arg === 'function';
 	}
-	
+
 	function isNumber(arg) {
 	  return typeof arg === 'number';
 	}
-	
+
 	function isObject(arg) {
 	  return typeof arg === 'object' && arg !== null;
 	}
-	
+
 	function isUndefined(arg) {
 	  return arg === void 0;
 	}
@@ -2930,18 +2948,18 @@
 	 * International Registered Trademark & Property of PrestaShop SA
 	 */
 	'use strict';
-	
+
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
 	exports.psShowHide = psShowHide;
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
+
 	var _jquery = __webpack_require__(2);
-	
+
 	var _jquery2 = _interopRequireDefault(_jquery);
-	
+
 	function psShowHide() {
 	  (0, _jquery2['default'])('.ps-shown-by-js').show();
 	  (0, _jquery2['default'])('.ps-hidden-by-js').hide();

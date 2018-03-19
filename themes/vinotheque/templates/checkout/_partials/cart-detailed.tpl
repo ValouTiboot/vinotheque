@@ -23,8 +23,8 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='cart_detailed'}
-  <div class="cart-overview js-cart" data-refresh-url="{url entity='cart' params=['ajax' => 1, 'action' => 'refresh']}">
-      <ul>
+  <div class="cart-overview js-cart" data-refresh-url="{url entity='cart' params=['ajax' => true, 'action' => 'refresh']}">
+      <ul class="cart-items">
           {if $cart.products}
             {foreach from=$cart.products item=product}
               <li class="cart-item">{include file='checkout/_partials/cart-detailed-product-line.tpl' product=$product}</li>

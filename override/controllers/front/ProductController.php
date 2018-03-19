@@ -59,6 +59,10 @@ class ProductController extends ProductControllerCore
         $extraContentFinder = new ProductExtraContentFinder();
 
         $product = $this->objectPresenter->present($this->product);
+
+        if ($product['wine'])
+            $productSettings->include_taxes = false;
+
         $product['id_product'] = (int) $this->product->id;
         $product['out_of_stock'] = (int) $this->product->out_of_stock;
         $product['new'] = (int) $this->product->new;
@@ -98,6 +102,7 @@ class ProductController extends ProductControllerCore
         if ($k == 14)
             $product_full['features'][$k]['value'] = $product['grape'];
 
+        $product_full['packaging_price'] = Db::getInstance()->getValue("SELECT `packaging_price` FROM `" . _DB_PREFIX_ . "product_attribute` WHERE `id_product_attribute`='" . pSQL($product_full['id_product_attribute']) . "'");
         $product_full['second_wine'] = $this->getSecondWine();
         $product_full['accessories'] = $this->getAccessories();
 

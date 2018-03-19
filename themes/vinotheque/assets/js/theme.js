@@ -18526,6 +18526,14 @@
 	    sendUpdateQuantityInCartRequest(updateQuantityInCartUrl, requestData, $target);
 	  }
 
+	  $body.on('click', '.js-increase-product-quantity', function (event) {
+	    $(productLineInCartSelector).focusout();
+	  });
+
+	  $body.on('click', '.js-decrease-product-quantity', function (event) {
+	    $(productLineInCartSelector).focusout();
+	  });
+
 	  $body.on('focusout', productLineInCartSelector, function (event) {
 	    updateProductQuantityInCart(event);
 	  });
