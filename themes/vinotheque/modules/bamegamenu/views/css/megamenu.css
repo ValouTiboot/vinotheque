@@ -189,6 +189,23 @@ ul.menuproduct li span.old_price{
 	font-weight: normal;
 	text-transform: uppercase;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+	#mega_menu_plus ul.mg-menu > li > a {
+		font-size: 13px;
+		padding: 10px 7px;
+		line-height: 30px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#mega_menu_plus ul.mg-menu > li > a {
+		padding: 10px 5px;
+		line-height: 20px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
 #mega_menu_plus .mg-menu > li:hover > a,
 #mega_menu_plus .mg-menu > li > a:hover {
 	color: white;

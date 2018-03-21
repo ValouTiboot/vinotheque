@@ -457,10 +457,10 @@
           <div id="footer_links" class="row">
               <div class="container">
                   <div class="row justify-content-center">
-                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="#"> <i class="icon-v-users"></i><br /> Parrainage </a></div>
-                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="#"> <i class="icon-v-gift"></i><br /> Chèques cadeaux </a></div>
-                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="#"> <i class="icon-v-bottle"></i><br /> Fidélité </a></div>
-                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="#"> <i class="icon-v-gifts"></i><br /> Cadeaux d'entreprises </a></div>
+                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="{$link->getCMSLink(13)|escape:'htmlall':'UTF-8'}"> <i class="icon-v-users"></i><br /> Parrainage </a></div>
+                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="{$link->getCMSLink(14)|escape:'htmlall':'UTF-8'}"> <i class="icon-v-gift"></i><br /> Chèques cadeaux </a></div>
+                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="{$link->getCMSLink(12)|escape:'htmlall':'UTF-8'}"> <i class="icon-v-bottle"></i><br /> Fidélité </a></div>
+                      <div class="col-xl-2 col-lg-3 col-6 partage"><a href="{$link->getCMSLink(15)|escape:'htmlall':'UTF-8'}"> <i class="icon-v-gifts"></i><br /> Cadeaux d'entreprises </a></div>
                   </div>
               </div>
           </div>

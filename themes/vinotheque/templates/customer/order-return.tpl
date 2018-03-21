@@ -1,7 +1,7 @@
 {extends file='customer/page.tpl'}
 
 {block name='page_title'}
-  <h1>{l s='Return details' d='Shop.Theme.Customeraccount'}</h1>
+  {l s='Return details' d='Shop.Theme.Customeraccount'}
 {/block}
 
 {block name='page_content'}

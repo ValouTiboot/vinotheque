@@ -166,13 +166,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="vinotheque_partage">
-                        <a href="">
+                        <a href="{$link->getCMSLink(13)|escape:'htmlall':'UTF-8'}">
                             <i class="icon-v-users"></i><br>
                             {l s='Parrainage' mod='prestablog'}
                         </a>
                     </div>
                     <div class="vinotheque_partage">
-                        <a href="">
+                        <a href="{$link->getCMSLink(12)|escape:'htmlall':'UTF-8'}">
                             <i class="icon-v-bottle"></i><br>
                             {l s='Fidélité' mod='prestablog'}
                         </a>
@@ -184,14 +184,14 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="vinotheque_partage">
-                        <a href="">
+                        <a href="{$link->getCMSLink(14)|escape:'htmlall':'UTF-8'}">
                             <i class="icon-v-gift"></i><br>
                             {l s='Chèques' mod='prestablog'}<br>
                             {l s='cadeaux' mod='prestablog'}
                         </a>
                     </div>
                     <div class="vinotheque_partage">
-                        <a href="">
+                        <a href="{$link->getCMSLink(15)|escape:'htmlall':'UTF-8'}">
                             <i class="icon-v-gifts"></i><br>
                             {l s='Cadeaux d\'entreprises' mod='prestablog'}
                         </a>

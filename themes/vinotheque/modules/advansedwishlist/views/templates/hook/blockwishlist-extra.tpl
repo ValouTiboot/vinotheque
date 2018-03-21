@@ -36,7 +36,7 @@
 				<option value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}">{$wishlist.name|escape:'htmlall':'UTF-8'}</option>
 			{/foreach}
 		</select>
-		<button class="" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', $('#idCombination').val(), document.getElementById('quantity_wanted').value, $('#idWishlist').val()); return false;"  title="{l s='Add to wishlist' mod='advansedwishlist'}">
+		<button class="" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', $('#idCombination').val(), document.getElementById('quantity_wanted').value, $('#idWishlist').val()); return false;"  title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}">
         <i class="icon-v-heart-plus"></i>
         {l s='Add' mod='advansedwishlist'}
 		</button>
@@ -45,12 +45,12 @@
         {if $issetProduct}
             <a href="#" id="wishlist_button" onclick="return false;">
             <i class="icon-v-heart-plus"></i>
-            {l s='Add to wishlist' mod='advansedwishlist'}</a>
+            {l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}</a>
             <div class="allert_note">{l s='This product has been added to wishlist' mod='advansedwishlist'}</div>
         {else}
  	      <a id="wishlist_button" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', $('#idCombination').val(), document.getElementById('quantity_wanted').value); return false;" rel="nofollow"  title="{l s='Add to my wishlist' mod='advansedwishlist'}">
 			<i class="icon-v-heart-plus"></i>
-        	{l s='Add to wishlist' mod='advansedwishlist'}
+        	{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}
 		  </a>
         {/if}
 
@@ -60,7 +60,7 @@
 <div id="wishlist_button_block" class="buttons_bottom_block wrap_allert">
 	<a href="#" id="wishlist_button" onclick="return false;">
 		<i class="icon-v-heart-plus"></i>
-		{l s='Add to wishlist' mod='advansedwishlist'}
+		{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}
 	</a>
 
     {*<div class="allert_note">{l s='You must be logged' mod='advansedwishlist'}*}

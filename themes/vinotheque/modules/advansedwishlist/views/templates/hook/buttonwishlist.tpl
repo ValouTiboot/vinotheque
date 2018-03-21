@@ -6,15 +6,15 @@
     </script>
     <div id="wishlist_button_block" class="buttons_bottom_block {if $issetProduct}wrap_allert{/if}">
         {if $issetProduct}
-            <a class="wishlist btn btn-primary" href="#" onclick="return false;" title="{l s='Add to wishlist' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+            <a class="wishlist btn btn-primary" href="#" onclick="return false;" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
             <div class="allert_note">{l s='This product has been added to wishlist' mod='advansedwishlist'}</div>
         {else}
-            <a class="wishlist btn btn-primary" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', '{$cache_default_attribute|intval}', 1); return false;" rel="nofollow" title="{l s='Add to wishlist' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+            <a class="wishlist btn btn-primary" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', '{$cache_default_attribute|intval}', 1); return false;" rel="nofollow" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
         {/if}
     </div>
 {else}
     <div class="wrap_allert">
-        <a class="wishlist" href="#" onclick="return false;" title="{l s='Add to wishlist' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+        <a class="wishlist" href="#" onclick="return false;" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
         {*<div class="allert_note">*}
             {*{l s='You must be logged' mod='advansedwishlist'}*}
             {*<p class="login_links">*}

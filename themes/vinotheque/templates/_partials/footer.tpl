@@ -86,10 +86,10 @@
 
 <div id="footer_copyright" class="container">
   <div class="row">
-    <div class="col-lg-4 text-center text-md-left mb-1">
+    <div class="col-lg-6 text-center text-md-left mb-1 pr-0">
         {l s='Moyens de paiement' d='Shop.Theme'} <img src="{$urls.img_url|escape:'html':'UTF-8'}moyens-de-paiement-1.png" alt="{l s='Moyens de paiement' d='Shop.Theme'}" title="{l s='Moyens de paiement' d='Shop.Theme'}"><img src="{$urls.img_url|escape:'html':'UTF-8'}moyens-de-paiement-2.png" alt="{l s='Moyens de paiement' d='Shop.Theme'}" title="{l s='Moyens de paiement' d='Shop.Theme'}">
     </div>
-    <div class="col-lg-8 text-center text-md-right">
+    <div class="col-lg-6 text-center text-md-right pl-0">
       {block name='copyright_link'}
         {l s='%copyright% La Vinothèque de Bordeaux - %year%' sprintf=['%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme'} |
         <a class="_blank" href="{$link->getCMSLink('2')}" target="_blank">
