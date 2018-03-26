@@ -135,7 +135,7 @@
               />
             {/if}
           </div>
-          <div class="col-md-7 col-6 price">
+          <div class="col-md-7 col-6 price pr-xl-0">
             <span class="product-price">
                 {if isset($product.is_gift) && $product.is_gift}
                   <span class="gift">{l s='Gift' d='Shop.Theme.Checkout'}</span>

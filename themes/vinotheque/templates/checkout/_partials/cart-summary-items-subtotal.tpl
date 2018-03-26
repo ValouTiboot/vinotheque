@@ -23,8 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='cart_summary_items_subtotal'}
-  <div id="items-subtotal">
-    <span class="js-subtotal">{$cart.summary_string}</span>
-    <span>{$cart.totals.total.amount}</span>
-  </div>
+    <div class="cart-summary-items-subtotal">
+	  {hook h='displayShoppingCartFooter'}
+    </div>
 {/block}

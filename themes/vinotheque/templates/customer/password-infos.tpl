@@ -28,7 +28,16 @@
   {l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
 {/block}
 
-{block name='page_content_container'}{/block}
+
+{block name='page_content_container'}
+  <section id="content" class="page-content container password-form">
+	  {block name='page_content'}
+          <header>
+            {l s='If this email address has been registered in our shop, you will receive a link to reset your password at this email address.' d='Shop.Notifications.Success'}
+          </header>
+	  {/block}
+  </section>
+{/block}
 
 {block name='page_footer'}
   <ul>

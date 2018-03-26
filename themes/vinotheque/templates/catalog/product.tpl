@@ -261,8 +261,8 @@
                                 {/block}
 
                                 <div id="stock_pictos">
-                                  <div id="stock_pictos_quantity" {if $product.quantity <= 0}style="display:none;"{/if}>
-                                    <i class="icon-v-check-bubble"></i>{l s='En stock' d='Shop.Theme.Catalog'}
+                                  <div id="stock_pictos_quantity"> {*if $product.quantity <= 0}style="display:none;"{/if*}
+                                    <i class="icon-v-check-bubble"></i>{if $product.quantity <= 0}{l s='En stock' d='Shop.Theme.Catalog'}{else}{l s='Epuisé' d='Shop.Theme.Catalog'}{/if}
                                   </div>
                                     {if $product.category == 'primeurs' && $product.wine_delivery}
                                       <div>

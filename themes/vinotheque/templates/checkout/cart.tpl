@@ -64,9 +64,10 @@
 					{hook h='displayExpressCheckout'}
 				{/if}
 			{/block}
-            {block name='hook_shopping_cart_footer'}
-              {hook h='displayShoppingCartFooter'}
-            {/block}
+
+			{block name='hook_shopping_cart_footer'}
+			    {include file='checkout/_partials/cart-summary-items-subtotal.tpl' cart=$cart}
+			{/block}
         </div>
     </div>
 

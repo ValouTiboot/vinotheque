@@ -6889,8 +6889,7 @@ small.label, small.value {
 .bootstrap-touchspin input.form-control {
   border: 1px solid rgba(0, 0, 0, 0.15);
   float: left;
-  height: 3.4rem;
-  min-width: 5.5rem; }
+  height: 3.4rem; }
 
 .bootstrap-touchspin .btn-touchspin {
   background-color: white;
@@ -7377,7 +7376,8 @@ small.label, small.value {
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .js-cart-line-product-quantity {
       padding: 1rem;
       margin-right: 0.3125rem;
-      color: black; }
+      color: black;
+      min-width: 4.5rem; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .btn-touchspin i {
       top: 20%; }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .qty {
@@ -8833,7 +8833,8 @@ nav.pagination {
     #product .product-actions form .product-quantity #quantity_wanted {
       padding: 1rem;
       margin-right: 0.3125rem;
-      color: black; }
+      color: black;
+      min-width: 5.625rem; }
     #product .product-actions form .product-quantity .input-group-btn-vertical {
       margin-right: 45%; }
     #product .product-actions form .product-quantity .btn-touchspin i {
