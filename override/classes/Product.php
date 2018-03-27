@@ -428,7 +428,7 @@ class Product extends ProductCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:45
+    * date: 2018-03-27 19:30:01
     * version: 1.8.9
     */
     public static function priceCalculation(

@@ -308,16 +308,20 @@ class Cart extends CartCore
     
     
     
+    
+    
+    
+    
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public $current_type = null;
     
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function getPackageShippingCost(
@@ -355,7 +359,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function getCartRulesSort(&$a, &$b)
@@ -364,7 +368,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function getCartRules($filter = CartRule::FILTER_ACTION_ALL)
@@ -375,7 +379,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function getOrderTotal(
@@ -404,7 +408,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function addCartRule($id_cart_rule)
@@ -426,7 +430,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function removeCartRule($id_cart_rule)
@@ -449,7 +453,7 @@ class Cart extends CartCore
     
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:40
+    * date: 2018-03-27 19:29:55
     * version: 1.8.9
     */
     public function getOrderedCartRulesIds($filter = CartRule::FILTER_ACTION_ALL)

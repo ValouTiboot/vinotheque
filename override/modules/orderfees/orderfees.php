@@ -47,15 +47,15 @@ class OrderFeesOverride extends OrderFees
             && $this->registerHook('displayCartRuleAddress')
             && $this->registerHook('displayBeforeCarrier')
             && $this->registerHook('displayCartRuleProductAttributes')
-            && $this->registerHook('displayShoppingCartFooter')
+            && $this->registerHook('displayShoppingCartDetailFooter')
             && $this->registerHook('displayCartRuleProductFees');
     }
 
-    public function hookDisplayShoppingCartFooter(&$params)
+    public function hookDisplayShoppingCartDetailFooter(&$params)
     {
         $params['discounts'] = $this->context->cart->getCartRules();
         
-        $result = $this->displayFees($params, 'cart-footer.tpl', self::CONTEXT_CART, self::CLEAN);
+        $result = $this->displayFees($params, 'cart-voucher.tpl', self::CONTEXT_CART, self::CLEAN);
         
         $cart = $params['smarty']->getTemplateVars('cart');
         

@@ -21,12 +21,12 @@ class Cartgift extends Module
 
     public function install()
     {
-    	return parent::install() && $this->registerHook('displayShoppingCartFooter') && $this->registerHook('header') && Configuration::updateValue('CARTGIFT_ALLOWED', 0);
+    	return parent::install() && $this->registerHook('displayShoppingCartDetailFooter') && $this->registerHook('header') && Configuration::updateValue('CARTGIFT_ALLOWED', 0);
     }
 
     public function uninstall()
     {
-    	return parent::uninstall() && $this->unregisterHook('displayShoppingCartFooter') && $this->unregisterHook('header');
+    	return parent::uninstall() && $this->unregisterHook('displayShoppingCartDetailFooter') && $this->unregisterHook('header');
     }
 
     public function getContent()
@@ -106,7 +106,7 @@ class Cartgift extends Module
         }
     }
 
-    public function hookDisplayShoppingCartFooter($params)
+    public function hookDisplayShoppingCartDetailFooter($params)
     {
     	$cart_gift = array(
     		'allowed' => Configuration::get('CARTGIFT_ALLOWED'),

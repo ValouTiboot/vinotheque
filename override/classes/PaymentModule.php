@@ -10,7 +10,7 @@ class PaymentModule extends PaymentModuleCore
 {
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:42
+    * date: 2018-03-27 19:29:58
     * version: 1.8.9
     */
     public function formatProductAndVoucherForEmail($content)
@@ -28,7 +28,7 @@ class PaymentModule extends PaymentModuleCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:42
+    * date: 2018-03-27 19:29:58
     * version: 1.8.9
     */
     protected function getEmailTemplateContent($template_name, $mail_type, $var)
@@ -50,7 +50,7 @@ class PaymentModule extends PaymentModuleCore
     
     /*
     * module: orderfees
-    * date: 2018-03-27 17:12:42
+    * date: 2018-03-27 19:29:58
     * version: 1.8.9
     */
     public function display($file, $template, $cache_id = null, $compile_id = null)

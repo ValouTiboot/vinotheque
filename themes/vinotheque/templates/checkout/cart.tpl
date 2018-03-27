@@ -45,7 +45,7 @@
 			{block name='cart_overview'}
 				{include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
 			{/block}
-			{hook h='displayCartRuleCartVoucher'}
+			{hook h='displayShoppingCartDetailFooter'}
         </div>
         <div id="cart_details" class="col-12 col-lg-4">
 			{block name='cart_totals'}
