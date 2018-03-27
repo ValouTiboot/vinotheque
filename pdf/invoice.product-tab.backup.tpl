@@ -146,7 +146,8 @@
 	{/foreach}
 	<!-- END PRODUCTS -->
 
-	<!-- CART RULES -->
+	{hook h="displayCartRuleInvoiceProductTab" order=$order discounts=$cart_rules}
+                                <!-- CART RULES -->
 
 	{assign var="shipping_discount_tax_incl" value="0"}
 	{foreach from=$cart_rules item=cart_rule name="cart_rules_loop"}

@@ -22,8 +22,9 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<aside id="notifications">
 
+{if isset($notifications)}
+<aside id="notifications">
   {if $notifications.error}
     {block name='notifications_error'}
       <article class="notification notification-danger" role="alert" data-alert="danger">
@@ -71,5 +72,5 @@
       </article>
     {/block}
   {/if}
-
 </aside>
+{/if}

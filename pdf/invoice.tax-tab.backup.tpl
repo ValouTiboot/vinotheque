@@ -86,7 +86,8 @@
 			{/foreach}
 		{/foreach}
 
-		{if !$has_line}
+		{hook h="displayCartRuleInvoiceTaxTab" order=$order}
+                                {if !$has_line}
 		<tr>
 			<td class="white center" colspan="{if $display_tax_bases_in_breakdowns}4{else}3{/if}">
 				{l s='No taxes' d='Shop.Pdf' pdf='true'}

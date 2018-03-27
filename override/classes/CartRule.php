@@ -10,7 +10,7 @@ class CartRule extends CartRuleCore
 {
     /*
     * module: orderfees
-    * date: 2017-06-28 13:32:29
+    * date: 2018-03-27 17:12:40
     * version: 1.8.9
     */
     public function __construct($id = null, $id_lang = null, $id_shop = null)
@@ -23,7 +23,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2017-06-28 13:32:29
+    * date: 2018-03-27 17:12:40
     * version: 1.8.9
     */
     public function getContextualValue(
@@ -78,7 +78,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2017-06-28 13:32:29
+    * date: 2018-03-27 17:12:40
     * version: 1.8.9
     */
     public function checkValidity(
@@ -106,7 +106,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2017-06-28 13:32:29
+    * date: 2018-03-27 17:12:40
     * version: 1.8.9
     */
     public static function getCustomerCartRules(
@@ -141,7 +141,7 @@ class CartRule extends CartRuleCore
     
     /*
     * module: orderfees
-    * date: 2017-06-28 13:32:29
+    * date: 2018-03-27 17:12:40
     * version: 1.8.9
     */
     public function getAssociatedRestrictions(

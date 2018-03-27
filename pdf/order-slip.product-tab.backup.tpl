@@ -97,7 +97,8 @@
 			{/foreach}
 		{/if}
 
-		{if is_array($cart_rules) && count($cart_rules)}
+		{hook h="displayCartRuleOrderSlipProductTab" order=$order discounts=$cart_rules}
+                                {if is_array($cart_rules) && count($cart_rules)}
 			{foreach $cart_rules as $cart_rule}
 				<tr class="discount">
 					<td class="white left" colspan="3">{$cart_rule.name}</td>

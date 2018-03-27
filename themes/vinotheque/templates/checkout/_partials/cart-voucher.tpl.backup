@@ -24,7 +24,7 @@
  *}
 {block name='cart_voucher'}
   {if $cart.vouchers.allowed}
-    <div class="cart-voucher">
+    <div id="cart-voucher-form" class="cart-voucher collapse">
       {block name='cart_voucher_list'}
         <ul>
           {foreach from=$cart.vouchers.added item=voucher}
@@ -40,8 +40,8 @@
         <form action="{$urls.pages.cart}" data-link-action="add-voucher" method="post">
           <input type="hidden" name="token" value="{$static_token}">
           <input type="hidden" name="addDiscount" value="1">
-          <input type="text" name="discount_name" placeholder="{l s='Promo code' d='Shop.Theme.Checkout'}">
-          <button type="submit"><span>{l s='ok' d='Shop.Theme.Actions'}</span></button>
+          <input class="form-control" type="text" name="discount_name" placeholder="{l s='Promo code' d='Shop.Theme.Checkout'}">
+          <button class="btn btn-secondary" type="submit"><span>{l s='Ajouter' d='Shop.Theme.Actions'}</span></button>
           {if $cart.discounts|count > 0}
             <p>
               {l s='Take advantage of our exclusive offers:' d='Shop.Theme.Actions'}

@@ -118,4 +118,9 @@ class Cartgift extends Module
     	$this->context->smarty->assign('cartgift', $cart_gift);
     	return $this->display(__FILE__, './views/templates/hook/shopping-footer.tpl');
     }
+
+    public function hookDisplayCartRuleCartVoucher(&$params)
+    {
+        return $this->hookDisplayShoppingCartFooter($params);
+    }
 }

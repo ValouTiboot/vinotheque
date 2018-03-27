@@ -110,7 +110,8 @@
 
 
 		{/foreach}
-		<!-- END PRODUCTS -->
+		{hook h="displayCartRuleDeliverySlipProductTab" order=$order}
+                                <!-- END PRODUCTS -->
 	</tbody>
 
 </table>

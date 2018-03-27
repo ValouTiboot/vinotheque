@@ -42,7 +42,6 @@ class Product extends ProductCore
     {
         return Db::getInstance()->getValue("SELECT `id_product` FROM `" . _DB_PREFIX_ . "product` WHERE `reference`='" . pSQL($ref) . "'");
     }
-
 	public function updateAttribute($id_product_attribute, $wholesale_price, $price, $weight, $unit, $ecotax,
         $id_images, $reference, $ean13, $default, $location = null, $upc = null, $minimal_quantity = null, $available_date = null, $update_all_fields = true, array $id_shop_list = array(), $isbn = '', $shop_quantity = null, $packaging_price)
     {
@@ -103,7 +102,6 @@ class Product extends ProductCore
         StockAvailable::updateShopQuantity((int)$this->id, $combination->id, $combination->shop_quantity);
         return true;
     }
-
     public function addCombinationEntity($wholesale_price, $price, $weight, $unit_impact, $ecotax, $quantity,
         $id_images, $reference, $id_supplier, $ean13, $default, $location = null, $upc = null, $minimal_quantity = 1, array $id_shop_list = array(), $available_date = null, $isbn = '', $shop_quantity = null, $packaging_price)
     {
@@ -119,7 +117,6 @@ class Product extends ProductCore
         }
         return $id_product_attribute;
     }
-
     public function addAttribute($price, $weight, $unit_impact, $ecotax, $id_images, $reference, $ean13, $default, $location = null, $upc = null, $minimal_quantity = 1, array $id_shop_list = array(), $available_date = null, $quantity = 0, $isbn = '', $shop_quantity = null, $packaging_price)
     {
         if (!$this->id) {
@@ -173,11 +170,9 @@ class Product extends ProductCore
                 $this->setAvailableDate();
             }
         }
-
         if (!empty($id_images)) {
             $combination->setImages($id_images);
         }
-
         Tools::clearColorListCache($this->id);
         
         if (Configuration::get('PS_DEFAULT_WAREHOUSE_NEW_PRODUCT') != 0 && Configuration::get('PS_ADVANCED_STOCK_MANAGEMENT')) {
@@ -192,7 +187,6 @@ class Product extends ProductCore
         StockAvailable::setShopQuantity((int)$this->id, $combination->id, $combination->shop_quantity);
         return (int)$combination->id;
     }
-
     public static function getShopQuantity($id_product, $id_product_attribute, $cache_is_pack)
     {
         if ((int)$cache_is_pack || ($cache_is_pack === null && Pack::isPack((int)$id_product))) {
@@ -202,7 +196,6 @@ class Product extends ProductCore
         }
         return (StockAvailable::getShopQuantityAvailableByProduct($id_product, $id_product_attribute));
     }
-
     public static function getProductProperties($id_lang, $row, Context $context = null)
     {
         Hook::exec('actionGetProductPropertiesBefore', [
@@ -210,17 +203,13 @@ class Product extends ProductCore
             'product'   => &$row,
             'context'   => $context
         ]);
-
         if (!$row['id_product']) {
             return false;
         }
-
         if ($context == null) {
             $context = Context::getContext();
         }
-
         $id_product_attribute = $row['id_product_attribute'] = (!empty($row['id_product_attribute']) ? (int)$row['id_product_attribute'] : null);
-
         $row['allow_oosp'] = Product::isAvailableWhenOutOfStock($row['out_of_stock']);
         if (Combination::isFeatureActive() && $id_product_attribute === null
             && ((isset($row['cache_default_attribute']) && ($ipa_default = $row['cache_default_attribute']) !== null)
@@ -230,33 +219,26 @@ class Product extends ProductCore
         if (!Combination::isFeatureActive() || !isset($row['id_product_attribute'])) {
             $id_product_attribute = $row['id_product_attribute'] = 0;
         }
-
         $usetax = !Tax::excludeTaxeOption();
-
         $cache_key = $row['id_product'].'-'.$id_product_attribute.'-'.$id_lang.'-'.(int)$usetax;
         if (isset($row['id_product_pack'])) {
             $cache_key .= '-pack'.$row['id_product_pack'];
         }
-
         if (isset(self::$producPropertiesCache[$cache_key])) {
             return array_merge($row, self::$producPropertiesCache[$cache_key]);
         }
-
         $row['category'] = Category::getLinkRewrite((int)$row['id_category_default'], (int)$id_lang);
         $row['category_name'] = Db::getInstance()->getValue('SELECT name FROM '._DB_PREFIX_.'category_lang WHERE id_shop = '.(int)$context->shop->id.' AND id_lang = '.(int)$id_lang.' AND id_category = '.(int)$row['id_category_default']);
         $row['link'] = $context->link->getProductLink((int)$row['id_product'], $row['link_rewrite'], $row['category'], $row['ean13']);
-
         $row['attribute_price'] = 0;
         if ($id_product_attribute) {
             $row['attribute_price'] = (float)Combination::getPrice($id_product_attribute);
         }
-
         if (isset($row['quantity_wanted'])) {
             $quantity = max((int)$row['minimal_quantity'], (int)$row['quantity_wanted']);
         } else {
             $quantity = (int)$row['minimal_quantity'];
         }
-
         $row['price_tax_exc'] = Product::getPriceStatic(
             (int)$row['id_product'],
             false,
@@ -267,7 +249,6 @@ class Product extends ProductCore
             true,
             $quantity
         );
-
         if (self::$_taxCalculationMethod == PS_TAX_EXC) {
             $row['price_tax_exc'] = Tools::ps_round($row['price_tax_exc'], 2);
             $row['price'] = Product::getPriceStatic(
@@ -315,7 +296,6 @@ class Product extends ProductCore
                 $quantity
             );
         }
-
         $row['reduction'] = Product::getPriceStatic(
             (int)$row['id_product'],
             (bool)$usetax,
@@ -331,15 +311,12 @@ class Product extends ProductCore
             null,
             $specific_prices
         );
-
         $row['specific_prices'] = $specific_prices;
-
         $row['quantity'] = Product::getQuantity(
             (int)$row['id_product'],
             0,
             isset($row['cache_is_pack']) ? $row['cache_is_pack'] : null
         );
-
         $row['shop_quantity'] = Product::getShopQuantity(
             (int)$row['id_product'],
             0,
@@ -347,75 +324,58 @@ class Product extends ProductCore
         );
         
         $row['quantity_all_versions'] = $row['quantity'];
-
         if ($row['id_product_attribute']) {
             $row['quantity'] = Product::getQuantity(
                 (int)$row['id_product'],
                 $id_product_attribute,
                 isset($row['cache_is_pack']) ? $row['cache_is_pack'] : null
             );
-
             $row['shop_quantity'] = Product::getShopQuantity(
                 (int)$row['id_product'],
                 $id_product_attribute,
                 isset($row['cache_is_pack']) ? $row['cache_is_pack'] : null
             );
-
             $row['available_date'] = Product::getAvailableDate(
                 (int)$row['id_product'],
                 $id_product_attribute
             );
         }
-
         $row['id_image'] = Product::defineProductImage($row, $id_lang);
         $row['features'] = Product::getFrontFeaturesStatic((int)$id_lang, $row['id_product']);
-
         $row['attachments'] = array();
         if (!isset($row['cache_has_attachments']) || $row['cache_has_attachments']) {
             $row['attachments'] = Product::getAttachmentsStatic((int)$id_lang, $row['id_product']);
         }
-
         $row['virtual'] = ((!isset($row['is_virtual']) || $row['is_virtual']) ? 1 : 0);
-
         $row['pack'] = (!isset($row['cache_is_pack']) ? Pack::isPack($row['id_product']) : (int)$row['cache_is_pack']);
         $row['packItems'] = $row['pack'] ? Pack::getItemTable($row['id_product'], $id_lang) : array();
         $row['nopackprice'] = $row['pack'] ? Pack::noPackPrice($row['id_product']) : 0;
         if ($row['pack'] && !Pack::isInStock($row['id_product'])) {
             $row['quantity'] = 0;
         }
-
         $row['customization_required'] = false;
         if (isset($row['customizable']) && $row['customizable'] && Customization::isFeatureActive()) {
             if (count(Product::getRequiredCustomizableFieldsStatic((int)$row['id_product']))) {
                 $row['customization_required'] = true;
             }
         }
-
         $attributes = Product::getAttributesParams($row['id_product'], $row['id_product_attribute']);
-
         foreach ($attributes as $attribute) {
             $row['attributes'][$attribute['id_attribute_group']] = $attribute;
         }
-
         $row = Product::getTaxesInformations($row, $context);
-
         $row['ecotax_rate'] = (float)Tax::getProductEcotaxRate($context->cart->{Configuration::get('PS_TAX_ADDRESS_TYPE')});
-
         Hook::exec('actionGetProductPropertiesAfter', [
             'id_lang'   => $id_lang,
             'product'   => &$row,
             'context'   => $context
         ]);
-
         $combination = new Combination($id_product_attribute);
-
         if (0 != $combination->unit_price_impact && 0 != $row['unit_price_ratio']) {
             $unitPrice = ($row['price_tax_exc'] / $row['unit_price_ratio']) + $combination->unit_price_impact;
             $row['unit_price_ratio'] = $row['price_tax_exc'] / $unitPrice;
         }
-
         $row['unit_price'] = ($row['unit_price_ratio'] != 0  ? $row['price'] / $row['unit_price_ratio'] : 0);
-
         self::$producPropertiesCache[$cache_key] = $row;
         return self::$producPropertiesCache[$cache_key];
     }
@@ -468,7 +428,7 @@ class Product extends ProductCore
     }
     /*
     * module: orderfees
-    * date: 2017-09-03 16:33:34
+    * date: 2018-03-27 17:12:45
     * version: 1.8.9
     */
     public static function priceCalculation(

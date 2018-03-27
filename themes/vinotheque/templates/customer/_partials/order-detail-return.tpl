@@ -142,7 +142,8 @@
           </tr>
         {/foreach}
         <tfoot>
-          {foreach $order.subtotals as $line}
+          {hook h="displayCartRuleOrderDetailReturn" order=$order.details}
+                                {foreach $order.subtotals as $line}
             {if $line.value}
               <tr class="text-right line-{$line.type}">
                 <td colspan="5">{$line.label}</td>
@@ -221,7 +222,8 @@
       {/foreach}
     </div>
     <div class="order-totals hidden-md-up box">
-      {foreach $order.subtotals as $line}
+      {hook h="displayCartRuleOrderDetailReturn" order=$order.details}
+                                {foreach $order.subtotals as $line}
         {if $line.value}
           <div class="order-total row">
             <div class="col-8"><strong>{$line.label}</strong></div>
