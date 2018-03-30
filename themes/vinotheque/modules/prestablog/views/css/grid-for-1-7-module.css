@@ -182,6 +182,19 @@ ul.related_blog_product li {
 	max-width: 450px;
 }
 
+@media all and (min-width: 1400px) {
+	#prestablog_accord > .col-lg-6 {
+		max-width: calc(63.125% + 30px);
+		flex-basis: calc(63.125% + 30px);
+	}
+	#prestablog_accord > .col-lg-1 {
+		max-width: calc(5.625% - 30px);
+	}
+	#prestablog_accord > .col-lg-4 {
+		max-width: calc(19.6875% + 30px);
+	}
+}
+
 #prestablog_met_top {
 	background: url(../../../../assets/img/footer_bg_white.png) repeat-x left bottom,
 		url(../../../../assets/img/met_bg.png) no-repeat left top;
@@ -232,6 +245,22 @@ ul.related_blog_product li {
 
 #prestablog_met #recette #recette_content {
 	margin-bottom: 20px;
+}
+
+#prestablogfont ul.tiret,
+#prestablog_met #recette #recette_content ul.tiret {
+	padding-left: 10px;
+	list-style-type: none !important;
+}
+
+#prestablogfont ul.tiret li,
+#prestablog_met #recette #recette_content ul.tiret li {
+	list-style-type: none !important;
+}
+
+#prestablogfont ul.tiret li:before,
+#prestablog_met #recette #recette_content ul.tiret li:before {
+	content: '- ';
 }
 
 #prestablog_met #recette a#read_more {

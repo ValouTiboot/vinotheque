@@ -14,4 +14,7 @@
 			<button class="btn btn-secondary" type="submit"><span>{l s='Add' mod='giftcard'}</span></button>
 		</div>
 	</div>
+	<div class="notification notification-error js-error">
+		<div class="js-error-text"></div>
+	</div>
 </form>

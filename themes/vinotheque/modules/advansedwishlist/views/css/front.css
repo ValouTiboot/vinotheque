@@ -245,7 +245,7 @@ padding: 0;
 display: block;
 overflow: hidden;
 text-transform: uppercase;
-font-size: 11px;
+    text-align: center;
 }
 
 ul.wlp_bought_list a:HOVER{
@@ -271,9 +271,9 @@ ul.wlp_bought_list li .product_infos .wishlist_product_detail select {
 
 ul.wlp_bought_list li .btn_action {
     clear:both;
-    margin-top:10px
+    margin-top:10px;
+    text-align: center;
 }
-ul.wlp_bought_list li .btn_action .lnksave {float:right}
 
 .no_product_note{
     padding-left: 26px;

@@ -147,7 +147,7 @@ a.different-address, a.add-address {
     //color: cta-color;
     &:disabled {
       //background-color: disabled-cta-background-color;
-      cursor: default;
+      cursor: not-allowed;
     }
   }
 }

@@ -30,7 +30,7 @@ $_MODULE['<{referralbyphone}prestashop>referralbyphone_d173ffa8ee0114efe64160712
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_d7f9e940c5055ccbcdb08849e1eb47df'] = 'Cumulable avec d\'autres bons';
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_fed5e3e4bf9308e53e37c95c84490ba3'] = 'Des bons pour des références de commandes';
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_942df77357b2874128dcca182d889d63'] = 'Générer bon avec  lors de sa première commande';
-$_MODULE['<{referralbyphone}prestashop>referralbyphone_06fe52efdb6d8b1941491f68a77271ff'] = 'un pourcentage de la commande passée par le filleul';
+$_MODULE['<{referralbyphone}prestashop>referralbyphone_06fe52efdb6d8b1941491f68a77271ff'] = '% de la commande passée par le filleul';
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_ec23bf46786a087fd099a7140069f32f'] = 'Générer bon avec  lors de chaque sa commande';
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_555ee7249f1cc6cc62fae370752ac5e2'] = 'Bon est remis lors de la commande';
 $_MODULE['<{referralbyphone}prestashop>referralbyphone_87370631d41417ef320ee13b70cb06e2'] = 'Afficher le bon dans le panier';
@@ -68,7 +68,7 @@ $_MODULE['<{referralbyphone}prestashop>program_c33e404a441c6ba9648f88af3c68a1ca'
 $_MODULE['<{referralbyphone}prestashop>program_6bfcbe5fb24a3eb3c1444463c8c69f6d'] = 'Gagnez des bons d’achat en recommandant ce site web.';
 $_MODULE['<{referralbyphone}prestashop>program_00b093e57bc223e323c103c29397a752'] = 'Gagnez un bon de réduction de %1$s à chaque inscription d’un nouveau filleul.';
 $_MODULE['<{referralbyphone}prestashop>program_da28c56f18ee083b34a1d2d96386de1d'] = 'Vous obtenez un %1$s pour chaque ami qui passe une commande sur ce site Web.';
-$_MODULE['<{referralbyphone}prestashop>program_99876c0e71b97282a39462f73be7c0e1'] = 'Vous obtenez un %1$s pour chaque ami qui passe une commande sur ce site Web.  (Seulement premier ordre)';
+$_MODULE['<{referralbyphone}prestashop>program_99876c0e71b97282a39462f73be7c0e1'] = 'Vous obtenez un %1$s pour chaque ami qui passe une commande sur ce site Web.  (Seulement sur la première commande)';
 $_MODULE['<{referralbyphone}prestashop>program_051eb15103d944b855b74ebcf12da315'] = 'C’est rapide et facile.';
 $_MODULE['<{referralbyphone}prestashop>program_497cda57194783eeddc22a1b57d7a307'] = 'Vous pouvez inviter vos contacts de différentes manières:';
 $_MODULE['<{referralbyphone}prestashop>program_72101dc1df7fdf9f18adcbc6bf1c53d0'] = 'Donnez-leur votre e-mail ou';
@@ -107,6 +107,10 @@ $_MODULE['<{referralbyphone}prestashop>program_53d0d7aba39ee971f7f179e6e1092708'
 $_MODULE['<{referralbyphone}prestashop>program_d49494c42d6fbb0416e16552de2165ef'] = 'Total des commandes de mes filleuls:';
 $_MODULE['<{referralbyphone}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'Retour à votre compte';
 $_MODULE['<{referralbyphone}prestashop>program_8cf04a9734132302f96da8e113e80ce5'] = 'Accueil';
+$_MODULE['<{referralbyphone}prestashop>program17_033e18cca0d12ae13f26d405dff464d6'] = 'Programme de parrainage';
+$_MODULE['<{referralbyphone}prestashop>program_15_00b093e57bc223e323c103c29397a752'] = 'Gagnez un bon de réduction de %1$s à chaque inscription d’un nouveau filleul.';
+$_MODULE['<{referralbyphone}prestashop>program_15_da28c56f18ee083b34a1d2d96386de1d'] = 'Vous obtenez un %1$s pour chaque ami qui passe une commande sur ce site Web.';
+$_MODULE['<{referralbyphone}prestashop>program_15_99876c0e71b97282a39462f73be7c0e1'] = 'Vous obtenez un %1$s pour chaque ami qui passe une commande sur ce site Web.  (Seulement sur la première commande)';
 $_MODULE['<{referralbyphone}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Conditions du programme de parrainage';
 $_MODULE['<{referralbyphone}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'Programme de parrainage';
 $_MODULE['<{referralbyphone}prestashop>authentication_7b59c1fcd729f05385195a3b71817233'] = 'E-mail ou code de parrainage';

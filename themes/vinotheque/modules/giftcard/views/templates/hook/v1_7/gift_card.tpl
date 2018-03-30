@@ -11,7 +11,7 @@
 *  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<link rel="stylesheet" type="text/css" href="{$smarty.const.__PS_BASE_URI__|escape:'htmlall':'UTF-8'}modules/giftcard/views/css/gift_card.css">
+<link rel="stylesheet" type="text/css" href="{$smarty.const.__PS_BASE_URI__|escape:'htmlall':'UTF-8'}themes/vinotheque/modules/giftcard/views/css/gift_card.css">
 <script type="text/javascript">
 var giftType 	= "{$type|escape:'htmlall':'UTF-8'}";
 var pid 		= parseInt("{$pid|escape:'htmlall':'UTF-8'}");

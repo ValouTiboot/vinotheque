@@ -78,12 +78,12 @@
 	</div>
 	<!--/ Menu -->
 {/if}
-	<script type="text/javascript">
-		var width_window=$(window).width();
-		width_window=$(window).width();
-		if(width_window>768){
-			showPanel(anchor,speed);
-		}else{ 
-			$('#mega_menu_plus ul li').unbind('hover');
-		} 
-	</script>
+<script type="text/javascript">
+	var width_window=$(window).width();
+	width_window=$(window).width();
+	if(width_window>768){
+		showPanel(anchor,speed);
+	}else{
+		$('#mega_menu_plus ul li').unbind('hover');
+	}
+</script>

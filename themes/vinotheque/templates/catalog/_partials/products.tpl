@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 
-{if isset($lg)}{assign var='lg' value=$lg}{else}{assign var='lg' value=3}{/if}
+{if isset($lg)}{assign var='lg' value=$lg}{else}{assign var='lg' value=4}{/if}
 <div id="js-product-list">
   <div class="row">
     {foreach from=$listing.products item="product"}

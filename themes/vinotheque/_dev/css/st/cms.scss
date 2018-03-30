@@ -180,15 +180,20 @@
     background-image: url("../img/qsn_intro_bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0;
     .row div div {
       background: white;
     }
     #qsn_description {
       padding: rem(40px);
       margin: rem(175px) 0 rem(155px);
+      p {
+        margin-bottom: 0;
+      }
     }
   }
   #qsn_map {
+    margin-bottom: 0;
     img {
       float: none;
       margin: auto;
@@ -220,9 +225,9 @@
     }
   }
   #qsn_salle {
-    background: url("../img/qsn_salle_bg.png") left bottom no-repeat;
+    background: url("../img/qsn_salle_bg.png") left top no-repeat;
     padding-top: 95px;
-    margin-top: -95px;
+    margin-top: -185px;
     .two_drops_separator {
       margin-bottom: rem(50px);
     }

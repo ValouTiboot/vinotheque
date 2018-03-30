@@ -8166,21 +8166,26 @@ ul.product-labels li {
   #cms #content #qsn_intro {
     background-image: url(../css/71c66d5875cf59ac43497a43cfbbac04.png);
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin-bottom: 0; }
     #cms #content #qsn_intro .row div div {
       background: white; }
     #cms #content #qsn_intro #qsn_description {
       padding: 2.5rem;
       margin: 10.9375rem 0 9.6875rem; }
-  #cms #content #qsn_map img {
-    float: none;
-    margin: auto;
-    display: block; }
-  #cms #content #qsn_map div {
-    padding-top: 4.0625rem;
-    line-height: 1.875rem; }
-    #cms #content #qsn_map div:first-child {
-      padding-top: 0; }
+      #cms #content #qsn_intro #qsn_description p {
+        margin-bottom: 0; }
+  #cms #content #qsn_map {
+    margin-bottom: 0; }
+    #cms #content #qsn_map img {
+      float: none;
+      margin: auto;
+      display: block; }
+    #cms #content #qsn_map div {
+      padding-top: 4.0625rem;
+      line-height: 1.875rem; }
+      #cms #content #qsn_map div:first-child {
+        padding-top: 0; }
   #cms #content .qsn_gallery {
     margin-left: -20px;
     margin-right: -20px; }
@@ -8194,9 +8199,9 @@ ul.product-labels li {
     #cms #content #qsn_site > div > div {
       margin: 0; }
   #cms #content #qsn_salle {
-    background: url(../css/3eace5eb5170c5613feeace9faf6c137.png) left bottom no-repeat;
+    background: url(../css/3eace5eb5170c5613feeace9faf6c137.png) left top no-repeat;
     padding-top: 95px;
-    margin-top: -95px; }
+    margin-top: -185px; }
     #cms #content #qsn_salle .two_drops_separator {
       margin-bottom: 3.125rem; }
 
@@ -9188,7 +9193,7 @@ a.different-address, a.add-address {
   display: inline-block;
   cursor: pointer; }
   #payment-confirmation button:disabled, #payment-confirmation label:disabled {
-    cursor: default; }
+    cursor: not-allowed; }
 
 .payment-options .warning {
   color: orange; }

@@ -37,6 +37,7 @@ $(document).ready(function () {
         var requestData = {};
 
         if (event && event.reason) {
+            console.log(event);
           requestData = {
             id_product_attribute: event.reason.idProductAttribute,
             id_product: event.reason.idProduct,

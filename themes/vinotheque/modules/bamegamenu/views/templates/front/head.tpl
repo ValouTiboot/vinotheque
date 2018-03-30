@@ -23,5 +23,5 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <script type="text/javascript" src="{$bamegamenu_path|escape:'htmlall':'UTF-8'}views/js/jquery-1.11.2.min.js" ></script>
-<script type="text/javascript" src="{$bamegamenu_path|escape:'htmlall':'UTF-8'}views/js/megamenu.js" ></script>
+<script type="text/javascript" src="{$bamegamenu_path|escape:'htmlall':'UTF-8'}../../themes/vinotheque/modules/bamegamenu/views/js/megamenu.js" ></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" media="all">

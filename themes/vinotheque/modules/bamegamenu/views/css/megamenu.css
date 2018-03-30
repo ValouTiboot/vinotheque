@@ -238,9 +238,6 @@ ul.menuproduct li span.old_price{
 .content_submenu ul.menulink li a {
 	padding: 0;
 }
-#mega_menu_plus li.submenu:hover >a:after,#mega_menu_plus li.submenu >a:after {
-	display:none;
-}
 
 #mega_menu_plus .sub .rows {
 	padding-left:0px !important;

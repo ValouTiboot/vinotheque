@@ -47,15 +47,15 @@
         {/block}
 
         {block name='category_name'}
-          <div class="category-name">{$product.category_name}</div>
+          <div class="category-name">{$product.features[4].value}</div>
         {/block}
 
         {block name='product_name'}
             <div class="name">
                 <h1 itemprop="name"><a href="{$product.url}">{$product.name}</a></h1>
                 <span class="feature-name">
-                    {if isset($product.features[5].value) && isset($product.features[6].value)}
-                        {$product.features[5].value} - {$product.features[6].value}
+                    {if isset($product.features[3].value) && isset($product.features[1].value)}
+                        {$product.features[3].value} - {$product.features[1].value}
                     {/if}
                 </span>
             </div>
@@ -74,6 +74,11 @@
               {hook h='displayProductPriceBlock' product=$product type="before_price"}
 
               {l s='A partir de' d='Shop.Theme.Actions'}{if $product.has_discount} <span class="regular-price">{$product.regular_price}</span>{/if} <span itemprop="price" class="price">{$product.price}</span>
+				{if isset($category) && is_array($category) && $category.id == '22'} {* Primeurs *}
+					{if $configuration.display_taxes_label}
+                        <span class="red"><strong>HT</strong></span>
+					{/if}
+				{/if}
 
               {hook h='displayProductPriceBlock' product=$product type="unit_price"}
 

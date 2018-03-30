@@ -71,39 +71,44 @@
 	{/if}
 	
 	<div class="wlp_bought">
-		<ul class="clearfix wlp_bought_list">
+		<ul class="clearfix wlp_bought_list row">
 		
 		{foreach from=$products item=product name=i}
-			<li id="wlp_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}" class="clearfix address {if $smarty.foreach.i.index % 2}alternate_{/if}item">
+			<li id="wlp_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}" class="col-lg-3 clearfix address {if $smarty.foreach.i.index % 2}alternate_{/if}item">
 				<a href="javascript:;" class="lnkdel" onclick="WishlistProductManage('wlp_bought', 'delete', '{$id_wishlist|escape:'htmlall':'UTF-8'}', '{$product.id_product|escape:'htmlall':'UTF-8'}', '{$product.id_product_attribute|escape:'htmlall':'UTF-8'}', $('#quantity_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val(), $('#priority_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val());" title="{l s='Delete' mod='advansedwishlist'}">
 				<i class="icon-times-circle"></i></a>
 				<div class="clearfix">
 					<div class="product_image">
 						<a href="{$link->getProductlink($product.id_product, $product.link_rewrite, $product.category_rewrite)|escape:'htmlall':'UTF-8'}" title="{l s='Product detail' mod='advansedwishlist'}">
-							<img src="{$link->getImageLink($product.link_rewrite, $product.cover, 'medium_default')|escape:'htmlall':'UTF-8'}" alt="{$product.name|escape:'html':'UTF-8'}" />
+							{assign var=cover value="-"|explode:$product.cover}
+							{if $cover[1] !== ''}
+								<img src="{$link->getImageLink($product.link_rewrite, $product.cover, 'medium_default')|escape:'htmlall':'UTF-8'}" alt="{$product.name|escape:'html':'UTF-8'}" />
+							{else}
+								<img src="{$link->getImageLink($product.link_rewrite, 'fr-default', 'large_default')|escape:'htmlall':'UTF-8'}" alt="{$product.name|escape:'html':'UTF-8'}" />
+							{/if}
 						</a>
 					</div>
 					<div class="product_infos">
 						<p id="s_title" class="product_name">{$product.name|truncate:30:'...'|escape:'html':'UTF-8'}</p>
-						<span class="wishlist_product_detail">
+						<div class="wishlist_product_detail">
 						{if isset($product.attributes_small)}
-							<a href="{$link->getProductlink($product.id_product, $product.link_rewrite, $product.category_rewrite)|escape:'htmlall':'UTF-8'}" title="{l s='Product detail' mod='advansedwishlist'}">{$product.attributes_small|escape:'html':'UTF-8'}</a>
+							<p class="text-center"><a href="{$link->getProductlink($product.id_product, $product.link_rewrite, $product.category_rewrite)|escape:'htmlall':'UTF-8'}" title="{l s='Product detail' mod='advansedwishlist'}">{$product.attributes_small|escape:'html':'UTF-8'}</a></p>
+						{else}
+							<br />
 						{/if}
-							<br />{l s='Quantity' mod='advansedwishlist'}:<input type="text" id="quantity_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}" value="{$product.quantity|intval}" size="3"  />
-							<br /><br />
+							{l s='Quantity' mod='advansedwishlist'}:<input class="form-control" type="text" id="quantity_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}" value="{$product.quantity|intval}" size="3"  />
 							{l s='Priority' mod='advansedwishlist'}:
-							<select id="priority_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}">
+							<select class="form-control" id="priority_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}">
 								<option value="0"{if $product.priority eq 0} selected="selected"{/if}>{l s='High' mod='advansedwishlist'}</option>
 								<option value="1"{if $product.priority eq 1} selected="selected"{/if}>{l s='Medium' mod='advansedwishlist'}</option>
 								<option value="2"{if $product.priority eq 2} selected="selected"{/if}>{l s='Low' mod='advansedwishlist'}</option>
 							</select>
 							{if $wishlists|count > 1}
-								<br /><br />
 								{l s='Move'  mod='advansedwishlist'}:
 								<br />
                                 {foreach name=wl from=$wishlists item=wishlist}
                                     {if $smarty.foreach.wl.first}
-                                       <select class="wishlist_change_button">
+                                       <select class="wishlist_change_button form-control">
                                        <option>---</option>
                                     {/if}
                                     {if $id_wishlist != {$wishlist.id_wishlist}}
@@ -117,14 +122,15 @@
                                     {/if}
                                 {/foreach}
                             {/if}
-						</span>
+						</div>
 					</div>
 				</div>
-				<br />
 				<div class="btn_action">
-					<a href="javascript:;" class="exclusive lnksave" onclick="WishlistProductManage('wlp_bought_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}', 'update', '{$id_wishlist|escape:'htmlall':'UTF-8'}', '{$product.id_product|escape:'htmlall':'UTF-8'}', '{$product.id_product_attribute|escape:'htmlall':'UTF-8'}', $('#quantity_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val(), $('#priority_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val());" title="{l s='Save' mod='advansedwishlist'}">{l s='Save' mod='advansedwishlist'}</a>
+					<a href="javascript:;" class="exclusive lnksave btn btn-secondary" onclick="WishlistProductManage('wlp_bought_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}', 'update', '{$id_wishlist|escape:'htmlall':'UTF-8'}', '{$product.id_product|escape:'htmlall':'UTF-8'}', '{$product.id_product_attribute|escape:'htmlall':'UTF-8'}', $('#quantity_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val(), $('#priority_{$product.id_product|escape:'htmlall':'UTF-8'}_{$product.id_product_attribute|escape:'htmlall':'UTF-8'}').val());" title="{l s='Save' mod='advansedwishlist'}">{l s='Save' mod='advansedwishlist'}</a>
 				    {capture}add=1&amp;id_product={$product.id_product|intval}{if isset($product.id_product_attribute) && $product.id_product_attribute}&amp;ipa={$product.id_product_attribute|intval}{/if}{if isset($static_token)}&amp;token={$static_token|escape:'htmlall':'UTF-8'}{/if}{/capture}
-				    <a class="add_cart ajax_add_to_cart_button exclusive" data-id-product-attribute="{$product.id_product_attribute|intval}" data-id-product="{$product.id_product|intval}" data-minimal_quantity="{if isset($product.product_attribute_minimal_quantity) && $product.product_attribute_minimal_quantity >= 1}{$product.product_attribute_minimal_quantity|intval}{else}{$product.quantity|intval}{/if}" 
+					<br>
+					<br>
+					<a class="add_cart ajax_add_to_cart_button exclusive btn btn-primary" data-id-product-attribute="{$product.id_product_attribute|intval}" data-id-product="{$product.id_product|intval}" data-minimal_quantity="{if isset($product.product_attribute_minimal_quantity) && $product.product_attribute_minimal_quantity >= 1}{$product.product_attribute_minimal_quantity|intval}{else}{$product.quantity|intval}{/if}"
                     class="button ajax_add_to_cart_button btn btn-default" href="{$link->getPageLink('cart', true, NULL, $smarty.capture.default, false)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Add to cart' mod='advansedwishlist'}">{l s='Add to cart' mod='advansedwishlist'}</a>
 				</div>
 			</li>
