@@ -126,8 +126,13 @@ class Dolist extends Module
 
     public function addCustomerEmail($params)
     {
-        if ($params['customer']->newsletter != 1)
-            return;
+        if (isset($params['customer']))
+            $customer = $params['customer'];
+        else if (isset($params['newCustomer']))
+            $customer = $params['newCustomer'];
+        
+        if ($customer->newsletter === false)
+            return true;
 
         if (($token = $this->testConnect()) !== false)
         {
@@ -145,13 +150,13 @@ class Dolist extends Module
                     // Création du jeton
                     $token = array('AccountID' => Configuration::get('DOLIST_API_LOGIN'),'Key' => $token);
                     
-                    $fields = array('Name' => 'firstname', 'Value' => $params['customer']->firstname);
-                    $fields = array('Name' => 'lastname', 'Value' => $params['customer']->lastname);
+                    $fields = array('Name' => 'firstname', 'Value' => $customer->firstname);
+                    $fields = array('Name' => 'lastname', 'Value' => $customer->lastname);
                     
                     $interests = array();
                     
                     $contact = array(
-                        'Email' => $params['customer']->email,
+                        'Email' => $customer->email,
                         'Fields' => $fields,
                         'InterestsToAdd' => $interests, //la liste des identifiants des interets déclarés à associer au contact
                         'InterestsToDelete' => $interests, //la liste des identifiants des interets déclarés à supprimer sur le contact

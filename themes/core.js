@@ -1910,13 +1910,14 @@
 	    if (0 === $addVoucherForm.find('[name=action]').length) {
 	      $addVoucherForm.append((0, _jquery2['default'])('<input>', { 'type': 'hidden', 'name': 'action', "value": "update" }));
 	    }
+	    $addVoucherForm.find('.js-error').hide();
 
 	    _jquery2['default'].post(getCartViewUrl, $addVoucherForm.serialize(), null, 'json').then(function (resp) {
-	      if (resp.hasError) {
-	        (0, _jquery2['default'])('.js-error').show().find('.js-error-text').text(resp.errors[0]);
-
-	        return;
-	      }
+				if (resp.hasError) {
+				// (0, _jquery2['default'])('.js-error').show().find('.js-error-text').text(resp.errors[0]);
+				$addVoucherForm.find('.js-error').show().find('.js-error-text').text(resp.errors[0]);
+		        return;
+		    }
 
 	      // Refresh cart preview
 	      _prestashop2['default'].emit('updateCart', { reason: event.target.dataset });

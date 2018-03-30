@@ -70,7 +70,7 @@
                                 {/block}
 
                                 {block name='category_name'}
-                                    <div class="category-name">{$product.features[2].value}</div>
+                                    <div class="category-name">{$product.category_name}</div>
                                 {/block}
 
                                 {block name='product_name'}
