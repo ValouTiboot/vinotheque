@@ -70,15 +70,15 @@
                                 {/block}
 
                                 {block name='category_name'}
-                                    <div class="category-name">{$product.features[2].value}</div>
+                                    <div class="category-name">{$product.features[4].value}</div>
                                 {/block}
 
                                 {block name='product_name'}
                                     <div class="name">
                                         <h1 itemprop="name"><a href="{$product.url}">{$product.name}</a></h1>
                                         <span class="feature-name">
-                        {if isset($product.features[5].value) && isset($product.features[6].value)}
-                            {$product.features[5].value} - {$product.features[6].value}
+                        {if isset($product.features[3].value) && isset($product.features[1].value)}
+                            {$product.features[3].value} - {$product.features[1].value}
                         {/if}
                     </span>
                                     </div>
@@ -186,7 +186,7 @@
                     <div class="vinotheque_partage">
                         <a href="{$link->getCMSLink(14)|escape:'htmlall':'UTF-8'}">
                             <i class="icon-v-gift"></i><br>
-                            {l s='Chèques' mod='prestablog'}<br>
+                            {l s='Cartes' mod='prestablog'}<br>
                             {l s='cadeaux' mod='prestablog'}
                         </a>
                     </div>
