@@ -82,7 +82,7 @@
             <strong>{l s='Get a discount for you and your friends by recommending this Website.' mod='referralbyphone'}</strong>
         </p>
         <div class="s_vouchers">
-        {if $referralbyphoneis17 == 1}<i class="material-icons">monetization_on</i>{else}<i class="icon-money" aria-hidden="true"></i>{/if}
+        {if $referralbyphoneis17 == 1}<i class="material-icons">euro_symbol</i>{else}<i class="icon-money" aria-hidden="true"></i>{/if}
         <div class="s_vouchers_content">
         {if isset($s_discount_acc) && $s_discount_acc}
             {l s='You get a %1$s for each new customer.' sprintf=[$s_discount_acc] mod='referralbyphone'}<br />
