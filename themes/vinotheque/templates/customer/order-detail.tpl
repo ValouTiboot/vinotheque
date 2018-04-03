@@ -151,7 +151,7 @@
             <tr>
               <th>{l s='Date' d='Shop.Theme'}</th>
               <th>{l s='Carrier' d='Shop.Theme.Checkout'}</th>
-              <th>{l s='Weight' d='Shop.Theme.Checkout'}</th>
+              {*}<th>{l s='Weight' d='Shop.Theme.Checkout'}</th>{*}
               <th>{l s='Shipping cost' d='Shop.Theme.Checkout'}</th>
               <th>{l s='Tracking number' d='Shop.Theme.Checkout'}</th>
             </tr>
@@ -161,7 +161,7 @@
               <tr>
                 <td>{$line.shipping_date}</td>
                 <td>{$line.carrier_name}</td>
-                <td>{$line.shipping_weight}</td>
+                {*}<td>{$line.shipping_weight}</td>{*}
                 <td>{$line.shipping_cost}</td>
                 <td>{$line.tracking}</td>
               </tr>
