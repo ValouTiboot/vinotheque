@@ -70,21 +70,17 @@
                                 {/block}
 
                                 {block name='category_name'}
-<<<<<<< HEAD
-                                    <div class="category-name">{$product.features[4].value}</div>
-=======
                                     <div class="category-name">{$product.category_name}</div>
->>>>>>> 77b000f4c43f299a0cb16a08dccec54ac4eb00fa
                                 {/block}
 
                                 {block name='product_name'}
                                     <div class="name">
                                         <h1 itemprop="name"><a href="{$product.url}">{$product.name}</a></h1>
                                         <span class="feature-name">
-                        {if isset($product.features[3].value) && isset($product.features[1].value)}
-                            {$product.features[3].value} - {$product.features[1].value}
-                        {/if}
-                    </span>
+                                            {if isset($product.features[3].value) && isset($product.features[1].value)}
+                                                {$product.features[3].value} - {$product.features[1].value}
+                                            {/if}
+                                        </span>
                                     </div>
                                 {/block}
 
