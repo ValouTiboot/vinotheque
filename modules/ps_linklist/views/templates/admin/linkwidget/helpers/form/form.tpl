@@ -51,7 +51,6 @@
             </span>
     </h3>
 {/block}
-
 {block name="input_row"}
     {if $input.type == 'link_blocks'}
         <div class="row">
@@ -67,7 +66,7 @@
                             {$link_blocks_position.hook_name}
                              <small>{$link_blocks_position.hook_title}</small>
                         </div>
-                        <table class="table tableDnD cms" id="link_block_{$key%2}">
+                        <table class="table tableDnD cms" id="link_block_{$key}">
                             <thead>
                                 <tr class="nodrag nodrop">
                                     <th>{l s='ID' d='Modules.Linklist.Admin'}</th>
@@ -78,9 +77,9 @@
                             </thead>
                             <tbody>
                                 {foreach $link_blocks_position.blocks as $link_block}
-                                    <tr class="{if $key%2}alt_row{else}not_alt_row{/if} row_hover" id="tr_{$key%2}_{$link_block['id_link_block']}_{$link_block['position']}">
+                                    <tr class="{if $key%2}alt_row{else}not_alt_row{/if} row_hover" id="tr_{$key}_{$link_block['id_link_block']}_{$link_block['position']}">
                                         <td>{$link_block['id_link_block']}</td>
-                                        <td class="center pointer dragHandle" id="td_{$key%2}_{$link_block['id_link_block']}">
+                                        <td class="center pointer dragHandle" id="td_{$key}_{$link_block['id_link_block']}">
                                             <div class="dragGroup">
                                                 <div class="positions">
                                                     {$link_block['position'] + 1}

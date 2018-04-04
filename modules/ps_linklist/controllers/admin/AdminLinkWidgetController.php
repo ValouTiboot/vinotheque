@@ -242,11 +242,18 @@ class AdminLinkWidgetController extends ModuleAdminController
 
     private function updatePositions()
     {
-        if (!Tools::isSubmit('link_block_0')) {
-            return false;
-        }
+        // if (!Tools::isSubmit('link_block_1')) {
+        //     return false;
+        // }
 
-        $linkBlocks = Tools::getValue('link_block_0');
+        // $linkBlocks = Tools::getValue('link_block_1');
+
+        $_post = Tools::getAllValues();
+        foreach ($_post as $key => $val)
+        if (preg_match('/^link_block_(\d+)/', $key, $matches))
+            $id_hook = $matches[1];
+
+        $linkBlocks = Tools::getValue('link_block_'.$id_hook);
         $query = 'UPDATE `' . _DB_PREFIX_ . 'link_block` SET `position` = CASE `id_link_block` ';
 
         foreach ($linkBlocks as $position => $linkBlock) {
@@ -256,7 +263,7 @@ class AdminLinkWidgetController extends ModuleAdminController
             }
         }
 
-        $query .= 'ELSE `position` END';
+        $query .= 'ELSE `position` END WHERE `id_hook`=' . pSQL($id_hook);
         return DB::getInstance()->execute($query);
     }
 
