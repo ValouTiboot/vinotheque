@@ -11,6 +11,16 @@ $_MODULE['<{advansedwishlist}prestashop>mywishlist_7098d49878bbd102b13038a748125
 $_MODULE['<{advansedwishlist}prestashop>mywishlist_ce7510c007e56bccd6b16af6c40a03de'] = 'Vous n\'êtes pas connecté(e)';
 $_MODULE['<{advansedwishlist}prestashop>mywishlist_3c924eebbd7c3447336bbec3b325d3da'] = 'Erreur lors du transfert du produit à une autre liste';
 $_MODULE['<{advansedwishlist}prestashop>mywishlist_3540aa14bffcdfbbfc3aafbbcb028a1f'] = 'Ce produit à bien été transféré';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_f78674b9c6b19504756230c57f6aec38'] = 'Fermer la wishlist';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_0ac1aeb2429db494dd42ad2dc219ca7e'] = 'Cacher les produits';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_0de9d09a36e820f9da7e87ab3678dd12'] = 'Afficher les produits';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_01d9c96c5057ec07c06c213102084ab2'] = 'Cacher les informations des produits achetés';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_8fac4d86c4d2689b7ff0f9f5355db549'] = 'Afficher les informations des produits achetés';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_8725214cdd9f9af24e914b5da135793d'] = 'Lien permanent';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_30820a1bf6a285e45cda2beda3d7738d'] = 'Envoyer cette wishlist';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce3b18'] = 'Supprimer';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Détail du produit';
+$_MODULE['<{advansedwishlist}prestashop>managewishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Quantité';
 $_MODULE['<{advansedwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b1c9f'] = 'Priorité';
 $_MODULE['<{advansedwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = 'Haute';
 $_MODULE['<{advansedwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Moyenne';

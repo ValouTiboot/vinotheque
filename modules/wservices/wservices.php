@@ -194,15 +194,15 @@ class Wservices extends Module
     /*
     *   Doit recuperer l'obejct Order dans le $params pour ensuite appeler une methode "publishOrder" qui enverra le JSON à redis
     **/
-    public function hookActionObjectOrderAddAfter($params)
-    {
-        ;
-    }
+    // public function hookActionObjectOrderAddAfter($params)
+    // {
+    //     return;
+    // }
 
-    public function publishOrder($order)
-    {
-        ;
-    }
+    // public function publishOrder($order)
+    // {
+    //     return;
+    // }
 
     public function deleteAddress($object)
     {
@@ -275,9 +275,6 @@ class Wservices extends Module
             )
         );
 
-        // echo '<pre>';
-        // print_r($trans);
-        // die();
         $trans['NoJSON'] = $this->add($trans, 'set');
 
         return $this->publish($trans);
@@ -330,17 +327,17 @@ class Wservices extends Module
         */
 
         $trans = array(
-            'NoJSON' => $data['NoJSON'],
-            'IdTransaction' => $data['IdTransaction'],
+            'NoJSON' => (isset($data['NoJSON'])) ? $data['NoJSON'] : '',
+            'IdTransaction' => (isset($data['IdTransaction'])) ? $data['IdTransaction'] : '',
             'Modèle' => 'ERR',
             'Type' => 'INS',
             'DateTransaction' => date('Y-m-d H:i:s'),
             'Transaction' => array(
                 'erreur' => array(
-                    $data['IdTransaction'] => array(
-                        'IdTransaction' => $data['IdTransaction'],
-                        'CodeModele' => $data['Modèle'],
-                        'TypeTransaction' => $data['Type'],
+                    (isset($data['IdTransaction'])) ? $data['IdTransaction'] : 0 => array(
+                        'IdTransaction' => (isset($data['IdTransaction'])) ? $data['IdTransaction'] : '',
+                        'CodeModele' => (isset($data['Modèle'])) ? $data['Modèle'] : '',
+                        'TypeTransaction' => (isset($data['Type'])) ? $data['Type'] : '',
                         'Description' => $err,
                         'Criticite' => '3',
                         'Commentaires' => '',
@@ -350,26 +347,17 @@ class Wservices extends Module
             )
         );
 
-        $this->publish($trans);
+        return $this->publish($trans);
     }
 
     public function publish($data)
     {
-        if ($data['Modèle'] == 'CMD')
-        {
-            echo json_encode($data, JSON_UNESCAPED_UNICODE);
-            echo '<pre>';
-            print_r($data);
-            echo '</pre>';
-            die;
-        }
-
         $redis_connect = new RedisConnect();
         $redis = $redis_connect->connect();
         $redis->zAdd('mt:CC_Site1_' . $data['Modèle'], $data['NoJSON'], json_encode($data, JSON_UNESCAPED_UNICODE));
         $redis->publish('CC_Site1_' . $data['Modèle'], json_encode($data, JSON_UNESCAPED_UNICODE));
         $redis->close();
-     	//die;
+        return;
     }
 
     public function toNurl($str)

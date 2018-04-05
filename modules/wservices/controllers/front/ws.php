@@ -80,8 +80,84 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		return Db::getInstance()->executeS($query);
 	}
 
+	public function getProductById($id_product)
+	{
+		// $product = new Product(Tools::getValue('id_product'));
+
+		$product = Db::getInstance()->getRow("
+			SELECT 
+				P.*, PL.`name`, PL.`description`, PL.`description_short`
+			FROM `" . _DB_PREFIX_ . "product` P
+			LEFT JOIN `" . _DB_PREFIX_ . "product_lang` PL ON P.`id_product`=PL.`id_product`
+			WHERE P.`id_product`='" . pSQL($id_product) . "' AND PL.`id_lang`='" . pSQL(Context::getContext()->language->id) . "'
+		");
+
+		$default_category = new Category($product['id_category_default']);
+		$product['id_category_default'] = $default_category->name[Context::getContext()->language->id];
+
+		$product['categories'] = array();
+
+		$categories = Product::getProductCategoriesFull($id_product);
+		foreach ($categories as $category)
+			$product['categories'][$category['id_category']] = $category['name'];
+
+		
+		$pictogram = Db::getInstance()->executeS("SELECT P.`slug` FROM `" . _DB_PREFIX_ . "pictogram` P LEFT JOIN `" . _DB_PREFIX_ . "pictogram_product` PP ON PP.`id_pictogram`=P.`id_pictogram` WHERE PP.`id_product`='" . pSQL($id_product) . "';");
+
+		$product['pictogram'] = array();
+		foreach ($pictogram as $picto)
+			$product['pictogram'][] = $picto['slug'];
+
+		$foodandwine = Db::getInstance()->executeS("SELECT F.`slug` FROM `" . _DB_PREFIX_ . "foodandwine` F LEFT JOIN `" . _DB_PREFIX_ . "foodandwine_product` PP ON PP.`id_foodandwine`=F.`id_foodandwine` WHERE PP.`id_product`='" . pSQL($id_product) . "';");
+
+		$product['foodandwine'] = array();
+		foreach ($foodandwine as $food)
+			$product['foodandwine'][] = $food['slug'];
+
+		$product['attributes'] = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "product_attribute` WHERE `id_product`='" . pSQL(Tools::getValue('id_product')) . "' ORDER BY `id_product_attribute`");
+
+		foreach ($product['attributes'] as &$product_attribute)
+		{
+			$name = '';
+			$product_attribute['default_on'] = is_null($product_attribute['default_on']) ? '0' : $product_attribute['default_on'];
+
+			$combinations = Db::getInstance()->executeS("SELECT `id_attribute` FROM `" . _DB_PREFIX_ . "product_attribute_combination` WHERE `id_product_attribute`='" . pSQL($product_attribute['id_product_attribute']) . "'");
+
+			foreach ($combinations as $id_attribute)
+			{
+				$name .= Db::getInstance()->getValue("SELECT AGL.`name` FROM `" . _DB_PREFIX_ . "attribute_group_lang` AGL LEFT JOIN `" . _DB_PREFIX_ . "attribute` A ON A.`id_attribute_group`=AGL.`id_attribute_group` WHERE A.`id_attribute`='" . pSQL($id_attribute['id_attribute']) . "'") . ' : ';
+				$name .= Db::getInstance()->getValue("SELECT `name` FROM `" . _DB_PREFIX_ . "attribute_lang` WHERE `id_attribute`='" . pSQL($id_attribute['id_attribute']) . "' AND `id_lang`='1'") . ' - ';
+			}
+
+			$product_attribute['name'] = substr($name, 0, -3);
+		}
+
+		$features = Db::getInstance()->executeS("
+			SELECT 
+				FL.`name`, FVL.`value` 
+			FROM `" . _DB_PREFIX_ . "feature_product` FP
+			LEFT JOIN `" . _DB_PREFIX_ . "feature_lang` FL ON (FL.`id_feature`=FP.`id_feature` AND FL.`id_lang`='1')
+			LEFT JOIN `" . _DB_PREFIX_ . "feature_value_lang` FVL ON (FVL.`id_feature_value`=FP.`id_feature_value` AND FVL.`id_lang`='1')
+			WHERE FP.`id_product`='" . pSQL($product['id_product']) . "'
+		");
+
+		$product['features'] = array();
+		foreach ($features as $key => $feature)
+		{
+			$product['features'][$key]['feature'] = $feature['name'];
+			$product['features'][$key]['value'] = $feature['value'];
+		}
+
+		$product['specific_price'] = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product`='" . pSQL(Tools::getValue('id_product')) . "'");
+
+		echo json_encode($product, JSON_UNESCAPED_UNICODE);
+		file_put_contents('product.txt', json_encode($product, JSON_UNESCAPED_UNICODE));
+		die();
+	}
+
 	public function getOrderById($id_order)
 	{
+		$date_v = new DateTime();
 		// START GET ORDER //
 		// Build query
 		// $sql = new DbQuery();
@@ -159,7 +235,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 					THEN ''
 					ELSE OP.`date_add`
 				end as DatePaiement,*/
-				O.`invoice_date` as DatePaiement,
+				O.`date_add` as DatePaiement,
 				-- IdChèqueCadeau (installer le module chèque cadeau)
 				(
 					SELECT SUM(PL.`points`) 
@@ -204,6 +280,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		{
 			/** GET CUSTOMER's PRESTASHOP ID **/
 			// $order['IdCustomer'] = $value['IdCustomer'];
+
 			/** COMMANDE **/
 			$num_commande = $value['NoCommande'];
 			$order['commande'][$num_commande]['NoCommande'] = $num_commande;
@@ -242,10 +319,16 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			$order['commande'][$num_commande]['CodeDevise'] = $value['CodeDevise'];
 			$order['commande'][$num_commande]['CodePays'] = $value['CodePays'];
 			$order['commande'][$num_commande]['EtatCommande'] = ($value['EtatCommande']) ? $value['EtatCommande'] : '';
-			$order['commande'][$num_commande]['MttTotalMarchandiseHT'] = $value['MttTotalMarchandiseHT'];
+
+			$order['commande'][$num_commande]['MttTotalMarchandiseHT'] = $value['MttTotalMarchandiseHT']+0;
 			// $order['commande'][$num_commande]['MttTotalMarchandiseTTC'] = $value['MttTotalMarchandiseTTC'];
-			$order['commande'][$num_commande]['MttTotalHT'] = $value['MttTotalHT'];
-			$order['commande'][$num_commande]['MttTotalTTC'] = $value['MttTotalTTC'];
+			$order['commande'][$num_commande]['MttTotalHT'] = $value['MttTotalHT']+0;
+			$order['commande'][$num_commande]['MttTotalTTC'] = $value['MttTotalTTC']+0;
+
+			// $order['commande'][$num_commande]['MttTotalMarchandiseHT'] = $value['MttTotalMarchandiseHT'];
+			// $order['commande'][$num_commande]['MttTotalMarchandiseTTC'] = $value['MttTotalMarchandiseTTC'];
+			// $order['commande'][$num_commande]['MttTotalHT'] = $value['MttTotalHT'];
+
 			$order['commande'][$num_commande]['CommentairesExpedition'] = ''; // selon le module du transporteur mais pas de champ prévu en front
 			$order['commande'][$num_commande]['CommentairesCadeau'] = ($value['CommentairesCadeau']) ? $value['CommentairesCadeau'] : '';
 
@@ -291,9 +374,21 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			$order['commande'][$num_commande]['Paiement'][1]['EstRegle'] = ($value['CurrentState'] == 2 ) ? '1' : '0';
 			// $order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = $value['CodeModePaiement'];
 			$order['commande'][$num_commande]['Paiement'][1]['CodeModePaiement'] = '1';
-			$order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
-			$order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+			// $order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+			
+			$array_id_waiting_order_state = array(1,10,11);
+			if(in_array($value['CurrentState'], $array_id_waiting_order_state))
+				$order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+
 			$order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
+			// $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = "";
+			$order['commande'][$num_commande]['Paiement'][1]['NoCoupon']['idSynchro'] = $date_v->getTimestamp();
+			 // TODO (Récupérer leur numéro de coupon || Envoyer notre coupon)
+
+			if($value['DatePaiement'] != "0000-00-00 00:00:00") 
+			 	$order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = $value['DatePaiement'];
+			$order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+			// $order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
 			$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = ''; // TODO (Récupérer leur numéro de coupon || Envoyer notre coupon)
 			// $order['commande'][$num_commande]['Paiement'][1]['IdChèqueCadeau'] = ''; // installer le module pour les chèques cadeaux
 			// $order['commande'][$num_commande]['Paiement'][1]['NbPointFidélité'] = $value['NbPointFidélité'];
@@ -314,8 +409,9 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			$product_rules_group = [];
 			foreach ($order_cart_rules_array as $key => $order_cart_rule)
 			{
+				
 				$cart_rule_obj = new CartRule($order_cart_rule['id_cart_rule']);
-
+				$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = (!is_null($order_cart_rule['code']) ? $order_cart_rule['code'] : 0);
 				if (!empty($cart_rule_obj->getProductRuleGroups()))
 				{
 					$product_rules_group[$key] = $cart_rule_obj->getProductRuleGroups();
@@ -334,9 +430,11 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 					}
 				}
 				else
-					$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = $order_cart_rule['code'];
+					$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = (!is_null($order_cart_rule['code']) ? $order_cart_rule['code'] : 0);
+					// $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = $order_cart_rule['code'];
 			}
 		}
+		$order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = 0;
 		// END GET ORDER CART RULE //
 
 		// START GET ORDER DETAILS //
@@ -379,6 +477,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			// $unit_price_tax = $value['total_price_tax_incl'] - $value['unit_price_tax_excl'];
 			// $order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['MttTTC'] = strval(($order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['PrixUnitaireNet'] + $unit_price_tax) * $value['product_quantity']);
 			$order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['NoTarif'] = ''; // TODO (Prestashop n'a pas d'id de tarif)
+			$order['commande'][$num_commande]['Marchandise'][$value['NoLigne']]['NoTarif']['idSynchro'] = $date_v->getTimestamp(); // TODO (Prestashop n'a pas d'id de tarif)
 
 			/** REMISE PAR LIGNE **/
 			$product_rule = [];
@@ -441,7 +540,13 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		);
 
 		$trans['NoJSON'] = $this->module->add($trans, 'set');
-		
+
+		// echo json_encode($trans, JSON_UNESCAPED_UNICODE);
+		// file_put_contents('order.txt', json_encode($trans, JSON_UNESCAPED_UNICODE));
+
+		// $this->module->publishCustomer(new Customer($order['IdCustomer']));
+		// unset($order['IdCustomer']);
+
 		header('Content-Type: application/json');
 		echo json_encode($trans, JSON_PRETTY_PRINT);
 		die;
@@ -452,89 +557,15 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		return $this->module->publish($trans);
 	}
 
-	public function getProductById($id_product)
-	{
-		// $product = new Product(Tools::getValue('id_product'));
-
-		$product = Db::getInstance()->getRow("
-			SELECT 
-				P.*, PL.`name`, PL.`description`, PL.`description_short`
-			FROM `" . _DB_PREFIX_ . "product` P
-			LEFT JOIN `" . _DB_PREFIX_ . "product_lang` PL ON P.`id_product`=PL.`id_product`
-			WHERE P.`id_product`='" . pSQL($id_product) . "' AND PL.`id_lang`='" . pSQL(Context::getContext()->language->id) . "'
-		");
-
-		$default_category = new Category($product['id_category_default']);
-		$product['id_category_default'] = $default_category->name[Context::getContext()->language->id];
-
-		$product['categories'] = array();
-
-		$categories = Product::getProductCategoriesFull($id_product);
-		foreach ($categories as $category)
-			$product['categories'][$category['id_category']] = $category['name'];
-
-		
-		$pictogram = Db::getInstance()->executeS("SELECT P.`slug` FROM `" . _DB_PREFIX_ . "pictogram` P LEFT JOIN `" . _DB_PREFIX_ . "pictogram_product` PP ON PP.`id_pictogram`=P.`id_pictogram` WHERE PP.`id_product`='" . pSQL($id_product) . "';");
-
-		$product['pictogram'] = array();
-		foreach ($pictogram as $picto)
-			$product['pictogram'][] = $picto['slug'];
-
-		$foodandwine = Db::getInstance()->executeS("SELECT F.`slug` FROM `" . _DB_PREFIX_ . "foodandwine` F LEFT JOIN `" . _DB_PREFIX_ . "foodandwine_product` PP ON PP.`id_foodandwine`=F.`id_foodandwine` WHERE PP.`id_product`='" . pSQL($id_product) . "';");
-
-		$product['foodandwine'] = array();
-		foreach ($foodandwine as $food)
-			$product['foodandwine'][] = $food['slug'];
-
-		$product['attributes'] = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "product_attribute` WHERE `id_product`='" . pSQL(Tools::getValue('id_product')) . "' ORDER BY `id_product_attribute`");
-
-		foreach ($product['attributes'] as &$product_attribute)
-		{
-			$name = '';
-			$product_attribute['default_on'] = is_null($product_attribute['default_on']) ? '0' : $product_attribute['default_on'];
-
-			$combinations = Db::getInstance()->executeS("SELECT `id_attribute` FROM `" . _DB_PREFIX_ . "product_attribute_combination` WHERE `id_product_attribute`='" . pSQL($product_attribute['id_product_attribute']) . "'");
-
-			foreach ($combinations as $id_attribute)
-			{
-				$name .= Db::getInstance()->getValue("SELECT AGL.`name` FROM `" . _DB_PREFIX_ . "attribute_group_lang` AGL LEFT JOIN `" . _DB_PREFIX_ . "attribute` A ON A.`id_attribute_group`=AGL.`id_attribute_group` WHERE A.`id_attribute`='" . pSQL($id_attribute['id_attribute']) . "'") . ' : ';
-				$name .= Db::getInstance()->getValue("SELECT `name` FROM `" . _DB_PREFIX_ . "attribute_lang` WHERE `id_attribute`='" . pSQL($id_attribute['id_attribute']) . "' AND `id_lang`='1'") . ' - ';
-			}
-
-			$product_attribute['name'] = substr($name, 0, -3);
-		}
-
-		$features = Db::getInstance()->executeS("
-			SELECT 
-				FL.`name`, FVL.`value` 
-			FROM `" . _DB_PREFIX_ . "feature_product` FP
-			LEFT JOIN `" . _DB_PREFIX_ . "feature_lang` FL ON (FL.`id_feature`=FP.`id_feature` AND FL.`id_lang`='1')
-			LEFT JOIN `" . _DB_PREFIX_ . "feature_value_lang` FVL ON (FVL.`id_feature_value`=FP.`id_feature_value` AND FVL.`id_lang`='1')
-			WHERE FP.`id_product`='" . pSQL($product['id_product']) . "'
-		");
-
-		$product['features'] = array();
-		foreach ($features as $key => $feature)
-		{
-			$product['features'][$key]['feature'] = $feature['name'];
-			$product['features'][$key]['value'] = $feature['value'];
-		}
-
-		$product['specific_price'] = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product`='" . pSQL(Tools::getValue('id_product')) . "'");
-
-		echo json_encode($product, JSON_UNESCAPED_UNICODE);
-		file_put_contents('product.txt', json_encode($product, JSON_UNESCAPED_UNICODE));
-		die();
-	}
-
 	public function receiver()
 	{
 		$err = false;
+		$data = '';
 
 		try
 		{
 			if (!isset($_POST['data']))
-				return false;
+				throw new Exception('$_POST["data"] is not defined');
 
 			$data = json_decode($_POST['data'], true);
 
@@ -589,8 +620,8 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 					$this->updateOrder($data['Transaction']);
 					// die('Order already exists.');
 
-				if ($data['Type'] == 'UPD' || $data['Type'] == 'UPDATE')
-					$this->updateOrder($data['Transaction']);
+				// if ($data['Type'] == 'UPD' || $data['Type'] == 'UPDATE')
+				// 	$this->updateOrder($data['Transaction']);
 			}
 
 			if ($data['Modèle'] == 'STK' || $data['Modèle'] == 'STOCK')
@@ -717,7 +748,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 	{
 		if (isset($data[0]['clients']))
 		{
-			foreach ($data[0]['clients'] as $c_key => $c_val) 
+			foreach ($data[0]['clients'] as $c_key => $c_val)
 			{
 				if (Customer::customerExists($c_val['email']) == 'Invalid email')
 				{
@@ -814,20 +845,20 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		foreach ($data[0]['produits'] as $ref => $product)
 		{
 			// CATEGORIES
-
-			$categories = array('2');
-			if (isset($product['categories']) && count($product['categories']) > 0 && count($product['categories'][0]) > 0)
+			$categories = array();
+			// if (isset($product['categories']) && count($product['categories']) > 0 && count($product['categories'][0]) > 0)
+			if (isset($product['categories']) && count($product['categories']) > 0)
 			{
-				foreach ($product['categories'][0] as $cat_tree)
+				foreach ($product['categories'] as $cat_tree)
 				{
+					$i = 1;
+					$id_parent = 2;
 					foreach ($cat_tree['value'] as $cats)
 					{
-						$i = 1;
-						$id_parent = 2;
-						foreach ($cats as $cat)
-						{
-							$id_category = $cat['nocategorie'];
-							$name_category = $cat['categorie'];
+						// foreach ($cats as $cat)
+						// {
+							$id_category = $cats['nocategorie'];
+							$name_category = $cats['categorie'];
 
 							if ($i > 1)
 								$id_parent = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category`='" . pSQL($categories[$i-1]) . "'");
@@ -847,7 +878,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 							$categories[$i] = $id_cat;
 							$i++;
-						}
+						// }
 					}
 				}
 			}
@@ -922,27 +953,32 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 			Db::getInstance()->execute("DELETE FROM `" . _DB_PREFIX_ . "foodandwine_product` WHERE `id_product`='" . pSQL($object->id) . "'");
 
-			if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
-			foreach ($product['foodandwine'] as $picto)
+			// if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
+			if (isset($product['features']) && count($product['features']) > 0)
 			{
-				$id_picto = Db::getInstance()->getValue("SELECT `id_foodandwine` FROM `" . _DB_PREFIX_ . "foodandwine` WHERE `slug`='" . pSQL(trim($picto)) . "'");
-
-				if ($id_picto === false)
+				foreach ($product['foodandwine'] as $picto)
 				{
-					Db::getInstance()->insert('foodandwine', array('slug' => pSQL(trim($picto))));
-					$id_picto = Db::getInstance()->Insert_ID();
-				}
+					$id_picto = Db::getInstance()->getValue("SELECT `id_foodandwine` FROM `" . _DB_PREFIX_ . "foodandwine` WHERE `slug`='" . pSQL(trim($picto)) . "'");
 
-				Db::getInstance()->insert('foodandwine_product', array('id_product' => (int)$object->id, 'id_foodandwine' => (int)$id_picto));
+					if ($id_picto === false)
+					{
+						Db::getInstance()->insert('foodandwine', array('slug' => pSQL(trim($picto))));
+						$id_picto = Db::getInstance()->Insert_ID();
+					}
+
+					Db::getInstance()->insert('foodandwine_product', array('id_product' => (int)$object->id, 'id_foodandwine' => (int)$id_picto));
+				}
 			}
 
 			// FEATURES 
 
 			$object->deleteProductFeatures();
 
-			if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
+			// if (isset($product['features']) && count($product['features']) > 0 && count($product['features'][0]) > 0)
+			if (isset($product['features']) && count($product['features']) > 0)
 			{
-				foreach ($product['features'][0] as $feat)
+				// foreach ($product['features'][0] as $feat)
+				foreach ($product['features'] as $feat)
 				{
 					if (empty($feat['feature']))
 						continue;
@@ -1001,28 +1037,34 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 			// Get specific price for combinations if update and before delete
 			$sp_combination = array();
 			// $qty_combination = array();
-			if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
-			foreach ($product['attributes'][0] as $key => $attr)
+			// if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
+			if (isset($product['attributes']) && count($product['attributes']) > 0)
 			{
+				// foreach ($product['attributes'][0] as $key => $attr)
+				foreach ($product['attributes'] as $key => $attr)
+				{
 
-				$attr_id = Db::getInstance()->getValue("SELECT `id_product_attribute` FROM `" . _DB_PREFIX_ . "product_attribute` WHERE `id_product_attribute_dubos`='" . pSQL($attr['id_product_attribute']) . "' AND `id_packaging`='" . pSQL($attr['id_conditionnement']) . "'");
+					$attr_id = Db::getInstance()->getValue("SELECT `id_product_attribute` FROM `" . _DB_PREFIX_ . "product_attribute` WHERE `id_product_attribute_dubos`='" . pSQL($attr['id_product_attribute']) . "' AND `id_packaging`='" . pSQL($attr['id_conditionnement']) . "'");
 
-				$sp = Db::getInstance()->getRow("SELECT * FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product_attribute`='" . pSQL($attr_id) . "'");
+					$sp = Db::getInstance()->getRow("SELECT * FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product_attribute`='" . pSQL($attr_id) . "'");
 
-				if ($attr_id && $sp)
-					$sp_combination[$attr['id_product_attribute'] . '|' . $attr['id_conditionnement']] = $sp;
+					if ($attr_id && $sp)
+						$sp_combination[$attr['id_product_attribute'] . '|' . $attr['id_conditionnement']] = $sp;
 
-				// if (!$object->wine)
-				// 	@$qty_combination[$attr['id_product_attribute']] += $attr['quantity'];
+					// if (!$object->wine)
+					// 	@$qty_combination[$attr['id_product_attribute']] += $attr['quantity'];
+				}
 			}
 
 			// delete combinations
 			$object->deleteProductAttributes();
 
-			if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
+			// if (isset($product['attributes']) && count($product['attributes']) > 0 && count($product['attributes'][0]) > 0)
+			if (isset($product['attributes']) && count($product['attributes']) > 0)
 			{
 				$pictures_association = array();
-				foreach ($product['attributes'][0] as $key => $attr)
+				// foreach ($product['attributes'][0] as $key => $attr)
+				foreach ($product['attributes'] as $key => $attr)
 				{
 					$ex = explode("|", $attr['name']);
 					$id_attributes = array();
@@ -1203,6 +1245,127 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 		return true;
 	}
 
+	public function saveOrder($data, $upd = false)
+	{
+		echo '<pre>';
+		print_r($data);
+		echo '</pre>';
+		die;
+
+		// `" . _DB_PREFIX_ . "orders` O
+		// `" . _DB_PREFIX_ . "address` AD
+		// `" . _DB_PREFIX_ . "customer` CD
+		// `" . _DB_PREFIX_ . "order_state_lang` OS
+		// `" . _DB_PREFIX_ . "order_carrier` OC
+		// `" . _DB_PREFIX_ . "order_payment` OP
+		// `" . _DB_PREFIX_ . "order_cart_rule` OCL
+		// `" . _DB_PREFIX_ . "cart_rule` CR
+		// `" . _DB_PREFIX_ . "order_detail` OD
+		// `" . _DB_PREFIX_ . "product` P
+		// `" . _DB_PREFIX_ . "product_attribute` PA
+
+		foreach ($data[0]['commande'] as $o_key => $o_val) 
+		{
+			Db::getInstance()->insert('orders', array(
+				// 'id_order_dubos' => $o_key,
+				'reference' => '',
+				'id_shop_group' => '',
+				'id_shop' => '',
+				'id_carrier' => '',
+				'id_lang' => '',
+				'id_customer' => '',
+				'id_cart' => '',
+				'id_currency' => 0,
+				'id_address_delivery' => 0,
+				'id_address_invoice' => 0,
+				'current_state' => 0,
+				'secure_key' => 0,
+				'payment' => 0,
+				'conversion_rate' => 0,
+				'module' => 0,
+				'recyclable' => 0,
+				'gift' => 0,
+				'gift_message' => 0,
+				'mobile_theme' => 0,
+				'shipping_number' => 0,
+				'total_discounts' => 0,
+				'total_discounts_tax_incl' => 0,
+				'total_discounts_tax_excl' => 0,
+				'total_paid' => 0,
+				'total_paid_tax_incl' => 0,
+				'total_paid_tax_excl' => 0,
+				'total_paid_real' => 0,
+				'total_products' => 0,
+				'total_products_wt' => 0,
+				'total_shipping' => 0,
+				'total_shipping_tax_incl' => 0,
+				'total_shipping_tax_excl' => 0,
+				'carrier_tax_rate' => 0,
+				'total_wrapping' => 0,
+				'total_wrapping_tax_incl' => 0,
+				'total_wrapping_tax_excl' => 0,
+				'round_mode' => 0,
+				'invoice_number' => 0,
+				'delivery_number' => 0,
+				'invoice_date' => 0,
+				'delivery_date' => 0,
+				'valid' => 0,
+				'date_add' => date('Y-m-d H:i:s'),
+				'date_upd' => date('Y-m-d H:i:s'),
+			));
+
+			Db::getInstance()->insert('order_detail', array(
+				'id_order' => '',
+				'id_order_invoice' => '',
+				'id_warehouse' => '',
+				'id_shop' => '',
+				'product_id' => '',
+				'product_attribute_id' => '',
+				'id_customization' => '',
+				'product_name' => '',
+				'product_quantity' => '',
+				'product_quantity_in_stock' => '',
+				'product_quantity_refunded' => '',
+				'product_quantity_return' => '',
+				'product_quantity_reinjected' => '',
+				'product_price' => '',
+				'reduction_percent' => '',
+				'reduction_amount' => '',
+				'reduction_amount_tax_incl' => '',
+				'reduction_amount_tax_excl' => '',
+				'group_reduction' => '',
+				'product_quantity_discount' => '',
+				'product_ean13' => '',
+				'product_isbn' => '',
+				'product_upc' => '',
+				'product_reference' => '',
+				'product_supplier_reference' => '',
+				'product_weight' => '',
+				'id_tax_rules_group' => '',
+				'tax_computation_method' => '',
+				'tax_name' => '',
+				'tax_rate' => '',
+				'ecotax' => '',
+				'ecotax_tax_rate' => '',
+				'discount_quantity_applied' => '',
+				'download_hash' => '',
+				'download_nb' => '',
+				'download_deadline' => '',
+				'total_price_tax_incl' => '',
+				'total_price_tax_excl' => '',
+				'unit_price_tax_incl' => '',
+				'unit_price_tax_excl' => '',
+				'total_shipping_price_tax_incl' => '',
+				'total_shipping_price_tax_excl' => '',
+				'purchase_supplier_price' => '',
+				'original_product_price' => '',
+				'original_wholesale_price' => '',
+			));
+
+			Db::getInstance()->insert('');
+		}
+	}
+
 	public function saveStock($data, $upd = false)
 	{
 		foreach ($data[0]['Stock'] as $key => $value)
@@ -1377,6 +1540,5 @@ class WserviceswsModuleFrontController extends ModuleFrontController
     {
     	return str_replace('`', '"', $str);
     }
-
 
 }
