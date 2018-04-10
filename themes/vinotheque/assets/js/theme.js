@@ -18417,7 +18417,7 @@
 
 	    var $target = $(event.currentTarget);
 	    var dataset = event.currentTarget.dataset;
-
+	    
 	    var cartAction = parseCartAction($target, event.namespace);
 	    var requestData = {
 	      ajax: '1',
@@ -18456,8 +18456,8 @@
 
 	  $body.on('click', '[data-link-action="delete-from-cart"], [data-link-action="remove-voucher"]', handleCartAction);
 
-	  $(spinnerSelector).on('touchspin.on.startdownspin', handleCartAction);
-	  $(spinnerSelector).on('touchspin.on.startupspin', handleCartAction);
+	  $body.on('touchspin.on.startdownspin', spinnerSelector, handleCartAction);
+	  $body.on('touchspin.on.startupspin', spinnerSelector, handleCartAction);
 
 	  function sendUpdateQuantityInCartRequest(updateQuantityInCartUrl, requestData, $target) {
 	    abortPreviousRequests();
@@ -18526,13 +18526,13 @@
 	    sendUpdateQuantityInCartRequest(updateQuantityInCartUrl, requestData, $target);
 	  }
 
-	  $body.on('click', '.js-increase-product-quantity', function (event) {
-	    $(productLineInCartSelector).focusout();
-	  });
+	  // $body.on('click', '.js-increase-product-quantity', function (event) {
+	  //   $(productLineInCartSelector).focusout();
+	  // });
 
-	  $body.on('click', '.js-decrease-product-quantity', function (event) {
-	    $(productLineInCartSelector).focusout();
-	  });
+	  // $body.on('click', '.js-decrease-product-quantity', function (event) {
+	  //   $(productLineInCartSelector).focusout();
+	  // });
 
 	  $body.on('focusout', productLineInCartSelector, function (event) {
 	    updateProductQuantityInCart(event);

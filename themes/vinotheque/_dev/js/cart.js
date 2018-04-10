@@ -164,8 +164,8 @@ $(document).ready(() => {
     handleCartAction
   );
 
-  $(spinnerSelector).on('touchspin.on.startdownspin', handleCartAction);
-  $(spinnerSelector).on('touchspin.on.startupspin', handleCartAction);
+  $body.on('touchspin.on.startdownspin', spinnerSelector, handleCartAction);
+  $body.on('touchspin.on.startupspin', spinnerSelector, handleCartAction);
 
   function sendUpdateQuantityInCartRequest(updateQuantityInCartUrl, requestData, $target) {
     abortPreviousRequests();
@@ -235,21 +235,21 @@ $(document).ready(() => {
     sendUpdateQuantityInCartRequest(updateQuantityInCartUrl, requestData, $target);
   }
 
-  $body.on(
-    'click',
-    '.js-increase-product-quantity',
-    (event) => {
-      $(productLineInCartSelector).focusout();
-    }
-  );
+  // $body.on(
+  //   'click',
+  //   '.js-increase-product-quantity',
+  //   (event) => {
+  //     $(productLineInCartSelector).focusout();
+  //   }
+  // );
 
-  $body.on(
-    'click',
-    '.js-decrease-product-quantity',
-    (event) => {
-      $(productLineInCartSelector).focusout();
-    }
-  );
+  // $body.on(
+  //   'click',
+  //   '.js-decrease-product-quantity',
+  //   (event) => {
+  //     $(productLineInCartSelector).focusout();
+  //   }
+  // );
 
   $body.on(
     'focusout',

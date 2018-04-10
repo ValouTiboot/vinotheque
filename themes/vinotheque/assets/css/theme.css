@@ -6900,7 +6900,10 @@ small.label, small.value {
     background-color: #e2e2e2; }
 
 .bootstrap-touchspin .input-group-btn-vertical {
-  color: #414141; }
+  color: #414141; 
+  float: left;
+  width: auto;
+}
   .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up {
     border-radius: 0; }
   .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
