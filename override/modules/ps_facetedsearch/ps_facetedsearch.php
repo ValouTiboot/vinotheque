@@ -207,7 +207,7 @@ class Ps_FacetedsearchOverride extends Ps_Facetedsearch
                                                         SELECT cp.id_product, MIN(cp.position) position FROM '._DB_PREFIX_.'category_product cp
                                                         STRAIGHT_JOIN `'._DB_PREFIX_.'product` p ON (p.id_product=cp.id_product)
                                                         STRAIGHT_JOIN '._DB_PREFIX_.'product_lang pl ON (pl.id_product = cp.id_product'.Shop::addSqlRestrictionOnLang('pl').' AND pl.id_lang = '.(int) $id_lang.')
-                                                        '.$price_filter_query_i.'n
+                                                        '.$price_filter_query_in.'
                                                         '.$query_filters_from.'
                                                         WHERE cp.`id_category` IN ('.implode(',', $categories).') '.$query_filters_where.'
                                                         GROUP BY cp.id_product ORDER BY position, id_product', false);

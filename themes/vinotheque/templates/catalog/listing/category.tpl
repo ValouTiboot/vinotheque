@@ -161,7 +161,6 @@
                                             </div>
                                         </div>
                                     </div>
-									{*{$category.best_seller|@var_dump}*}
 								{/if}
                             </div>
 
