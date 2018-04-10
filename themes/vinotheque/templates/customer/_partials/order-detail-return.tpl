@@ -143,18 +143,26 @@
         {/foreach}
         <tfoot>
           {hook h="displayCartRuleOrderDetailReturn" order=$order.details}
-                                {foreach $order.subtotals as $line}
-            {if $line.value}
+          {foreach $order.subtotals as $line}
+            {if $line.value && $line.type != 'tax'}
               <tr class="text-right line-{$line.type}">
-                <td colspan="5">{$line.label}</td>
-                <td colspan="2">{$line.value}</td>
+                <td colspan="3">{$line.label}</td>
+                <td>{$line.value}</td>
               </tr>
             {/if}
           {/foreach}
           <tr class="text-right line-{$order.totals.total.type}">
-            <td colspan="5">{$order.totals.total.label}</td>
-            <td colspan="2">{$order.totals.total.value}</td>
+            <td colspan="3">{$order.totals.total.label}</td>
+            <td>{$order.totals.total.value}</td>
           </tr>
+          {foreach $order.subtotals as $line}
+            {if $line.value && $line.type == 'tax'}
+              <tr class="text-right line-{$line.type}">
+                <td colspan="3">{$line.label}</td>
+                <td>{$line.value}</td>
+              </tr>
+            {/if}
+          {/foreach}
         </tfoot>
       </table>
     </div>
