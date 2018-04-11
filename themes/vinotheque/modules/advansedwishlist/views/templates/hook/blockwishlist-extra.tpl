@@ -28,18 +28,21 @@
     var static_token = '{$static_token|addslashes}';
     var isLogged = '{$logged}';
 </script>
-    <div id="wishlist_button_block" class="buttons_bottom_block {if $issetProduct}wrap_allert{/if}">
+    <div id="wishlist_button_block" class="form-inline buttons_bottom_block {if $issetProduct}wrap_allert{/if}">
     {if isset($wishlists) && count($wishlists) > 1}
-
-		<select id="idWishlist">
-			{foreach $wishlists as $wishlist}
-				<option value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}">{$wishlist.name|escape:'htmlall':'UTF-8'}</option>
-			{/foreach}
-		</select>
-		<button class="" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', $('#idCombination').val(), document.getElementById('quantity_wanted').value, $('#idWishlist').val()); return false;"  title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}">
-        <i class="icon-v-heart-plus"></i>
-        {l s='Add' mod='advansedwishlist'}
-		</button>
+        <div class="form-group col-md-6 col-xs-12">        
+            <select class="form-control form-control-select" id="idWishlist">
+                {foreach $wishlists as $wishlist}
+                    <option value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}">{$wishlist.name|escape:'htmlall':'UTF-8'}</option>
+                {/foreach}
+            </select>
+        </div>
+        <div class="form-group col-md-6 col-xs-12">        
+            <a id="wishlist_button" class="" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', $('#idCombination').val(), document.getElementById('quantity_wanted').value, $('#idWishlist').val()); return false;"  title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}">
+                <i class="icon-v-heart-plus"></i>
+                {l s='Add' mod='advansedwishlist'}
+            </a>
+        </div>
 
     {else}
         {if $issetProduct}

@@ -513,9 +513,11 @@ padding: 14px; width: 130px; border: 1px solid #ccc; box-shadow: 1px 1px 3px #f5
 #wishlist_button_block{
     padding-bottom: 20px;
 }
-
+#wishlist_button_block .form-group {
+    padding: 0 0.75rem;
+}
 #idWishlist{
-    height: 24px;
+    /*height: 24px;*/
 }
 
 .wish_link_16 i.icon-heart:before{
