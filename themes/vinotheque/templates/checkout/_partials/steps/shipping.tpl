@@ -47,12 +47,11 @@
                     <span></span>
                   </span>
                   <label class="row" for="delivery_option_{$carrier.id}">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                       <span class="carrier-name">{$carrier.name}</span>
                       <span class="carrier-delay">{$carrier.delay}</span>
                     </div>
-                    <span class="col-12 col-md-2 carrier-time">24H</span>
-                    <span class="col-12 col-md-2 carrier-prices">{$carrier.price}</span>
+                    <span class="col-12 col-md-3 carrier-prices">{$carrier.price}</span>
                   </label>
                   {$carrier.extraContent nofilter}
                 </div>
