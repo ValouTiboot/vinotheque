@@ -37,19 +37,26 @@
         {block name='form_new_password_form_fields'}
           <section>
 
-            <label>
-              <span>{l s='Email address: %email%' d='Shop.Theme.Customeraccount' sprintf=['%email%' => $customer_email|stripslashes]}</span>
-            </label>
+            <div class="form-group row">
+              <label class="col-md-3 form-control-label">{l s='Email address' d='Shop.Theme.Customeraccount'}</label>
+              <div class="col-md-6">
+                <input class="form-control" type="text" name="email" value="{$customer_email|stripslashes}" readonly disabled />
+              </div>
+            </div>
+            
+            <div class="form-group row">            
+              <label class="col-md-3 form-control-label">{l s='New password' d='Shop.Forms.Labels'}</label>
+              <div class="col-md-6">
+                <input class="form-control" type="password" data-validate="isPasswd" name="passwd" value="">
+              </div>
+            </div>
 
-            <label>
-              <span>{l s='New password' d='Shop.Forms.Labels'}</span>
-              <input type="password" data-validate="isPasswd" name="passwd" value="">
-            </label>
-
-            <label>
-              <span>{l s='Confirmation' d='Shop.Forms.Labels'}</span>
-              <input type="password" data-validate="isPasswd" name="confirmation" value="">
-            </label>
+            <div class="form-group row">
+              <label class="form-control-label col-md-3">{l s='Confirmation' d='Shop.Forms.Labels'}</label>
+              <div class="col-md-6">
+                <input class="form-control" type="password" data-validate="isPasswd" name="confirmation" value="">
+              </div>
+            </div>
 
           </section>
         {/block}
@@ -59,7 +66,7 @@
             <input type="hidden" name="token" id="token" value="{$customer_token}">
             <input type="hidden" name="id_customer" id="id_customer" value="{$id_customer}">
             <input type="hidden" name="reset_token" id="reset_token" value="{$reset_token}">
-            <button type="submit" name="submit">
+            <button class="btn btn-primary" type="submit" name="submit">
               {l s='Change Password' d='Shop.Theme.Actions'}
             </button>
           </footer>
