@@ -266,6 +266,16 @@ var as4Plugin = {
             $('#js-active-search-filters').remove();
         }
 
+        // YATEO dev spé
+        if (hookName == 'displayTopFaceted' || id_search == 2)
+        {
+            var search_url_form = responseText.current_url.replace('/s-2/index','/2-accueil/s-1');
+            $('#PM_ASBlockOutput_' + responseText.id_search).parent().parent().replaceWith(responseText.rendered_facets);
+            $('#PM_ASBlockOutput_' + responseText.id_search + ' form #search_url_form').val(search_url_form);
+            return;
+        }
+        // end
+
         prestashop.emit('updateProductList', responseText);
 
         // Update search block (facets)
@@ -699,9 +709,21 @@ var as4Plugin = {
         // /From initFormSearchBlockLevelDepth
 
         $(document).on('click', '.PM_ASSubmitSearch', function(e) {
-            e.preventDefault();
             var id_search = as4Plugin.getIdSearchFromItem(this);
-            $(this).parents('form').ajaxSubmit(as4Plugin.getASFormOptions(id_search));
+            var search_url_form = $('#PM_ASForm_'+id_search+' #search_url_form').val();
+
+            if (search_url_form != '')
+            {
+                as4Plugin.removeLayer();
+                window.location.href = search_url_form;
+            }
+
+            if (id_search != 2)
+            {
+                e.preventDefault();
+                var id_search = as4Plugin.getIdSearchFromItem(this);
+                $(this).parents('form').ajaxSubmit(as4Plugin.getASFormOptions(id_search));
+            }
         });
 
         as4Plugin.removeOldEvents();

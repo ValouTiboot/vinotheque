@@ -10,7 +10,7 @@
 			{/if}
 			<a {if !isset($smarty.get.id_seo) && isset($as_selected_criterion) && is_array($as_selected_criterion) && !sizeof($as_selected_criterion)}style="display: none" {/if}href="#" class="PM_ASResetSearch">{l s='Clear filters' mod='pm_advancedsearch4'}</a>
 			<form action="{$ASSearchUrlForm}" method="GET" id="PM_ASForm_{$as_search.id_search|intval}" class="PM_ASForm">
-				{if $hookName == 'displayTopFaceted'}<div class="container">{/if}
+				{if $hookName == 'displayTopFaceted' || $as_search.id_search == 2}<div class="container">{/if}
 				<div class="PM_ASCriterionsGroupList{if $hookName != 'leftcolumn' && $hookName != 'rightcolumn'} row{/if}">
 			{foreach from=$as_search.criterions_groups item=criterions_group name=criterions_groups}
 				{capture name="as4_input_hidden_criterions"}
@@ -36,18 +36,18 @@
 					{/if}
 				{/if}
 			{/foreach}
-				{if $as_search.search_method == 2 && $hookName == 'displayTopFaceted'}
+				{if $as_search.search_method == 2 && ($hookName == 'displayTopFaceted'  || $as_search.id_search == 2)}
 					<p class="col-lg-1 col-xs-12 text-center">
 						<input type="submit" value="{l s='Ok' mod='pm_advancedsearch4'}" name="submitAsearch" class="btn btn-primary PM_ASSubmitSearch" />
 					</p>
 				{/if}
 				</div><!-- .PM_ASCriterionsGroupList -->
-			{if $hookName == 'displayTopFaceted'}</div>{/if}
+			{if $hookName == 'displayTopFaceted' || $as_search.id_search == 2}</div>{/if}
 			{$smarty.capture.as4_input_hidden_criterions nofilter}
 			{if $as_search.reset_group|intval}
 			<input type="hidden" name="reset_group" value="" />
 			{/if}
-
+			<input type="hidden" name="search_url_form" id="search_url_form" value="" />
 			<input type="hidden" name="id_search" value="{$as_search.id_search|intval}" />
 			{if As4SearchEngine::getCurrentCategory()}
 				<input type="hidden" name="id_category_search" value="{if isset($as_search.id_category_root) && $as_search.id_category_root > 0}{$as_search.id_category_root|intval}{else if As4SearchEngine::getCurrentCategory()}{As4SearchEngine::getCurrentCategory()|intval}{/if}" />
@@ -63,7 +63,7 @@
 			{/if}
 			<input type="hidden" name="orderby"{if isset($smarty.get.order) && $smarty.get.order} value="{$smarty.get.order}"{else} disabled="disabled"{/if} />
 			<input type="hidden" name="n"{if isset($smarty.get.n) && $smarty.get.n} value="{$smarty.get.n|intval}"{else} disabled="disabled"{/if} />
-			{if $as_search.search_method == 2 && $hookName != 'displayTopFaceted'}
+			{if $as_search.search_method == 2 && $hookName != 'displayTopFaceted' && $as_search.id_search != 2}
 				<p class="col-xs-12 text-center"><input type="submit" value="{l s='Search' mod='pm_advancedsearch4'}" name="submitAsearch" class="btn btn-primary PM_ASSubmitSearch" /></p>
 			{/if}
 			
