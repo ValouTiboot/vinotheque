@@ -54,14 +54,14 @@
               {/foreach}
             </ul>
           {/if}
+          {block name='cart_voucher_notifications'}
+            <div class="notification notification-error js-error">
+              <span class="js-error-text"></span>
+            </div>
+          {/block}
         </form>
       {/block}
 
-      {block name='cart_voucher_notifications'}
-        <div class="notification notification-error js-error">
-          <span class="js-error-text"></span>
-        </div>
-      {/block}
     </div>
   {/if}
 {/block}
