@@ -9,7 +9,7 @@
             <a class="wishlist btn btn-primary" href="#" onclick="return false;" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
             <div class="allert_note">{l s='This product has been added to wishlist' mod='advansedwishlist'}</div>
         {else}
-            <a class="wishlist btn btn-primary" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', '{$cache_default_attribute|intval}', 1); return false;" rel="nofollow" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+            <a class="wishlist btn btn-primary" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', '{$cache_default_attribute|intval}', '{$minimal_quantity|intval}', '{$id_default_wishlist|intval}'); return false;" rel="nofollow" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
         {/if}
     </div>
 {else}

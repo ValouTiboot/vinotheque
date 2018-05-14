@@ -33,7 +33,7 @@
         <div class="form-group col-md-6 col-xs-12">        
             <select class="form-control form-control-select" id="idWishlist">
                 {foreach $wishlists as $wishlist}
-                    <option value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}">{$wishlist.name|escape:'htmlall':'UTF-8'}</option>
+                    <option value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}" {if $wishlist.default}selected{/if}>{$wishlist.name|escape:'htmlall':'UTF-8'}</option>
                 {/foreach}
             </select>
         </div>
