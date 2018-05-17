@@ -22,7 +22,7 @@ class AdminTranslationsController extends AdminTranslationsControllerCore
         else if (Tools::getIsset('theme'))
             $theme = Tools::getValue('theme');
 
-        if (!is_null($theme) && !is_array($theme)) {
+        if (!empty($theme) && !is_null($theme) && !is_array($theme)) {
             $theme_exists = $this->theme_exists($theme);
             if (!$theme_exists) {
                 throw new PrestaShopException(sprintf($this->trans('Invalid theme "%s"', array(), 'Admin.International.Notification'), Tools::safeOutput($theme)));
