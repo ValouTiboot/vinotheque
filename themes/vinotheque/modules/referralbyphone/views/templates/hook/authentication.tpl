@@ -35,10 +35,10 @@ var referralbyphone_controller_url = '{$referralbyphone_controller_url|escape:"h
         <label class="col-md-3" for="referralbyphone">{if $sponsor_data == 'sponsorby_email'}{l s='E-mail or Sponsor Code' mod='referralbyphone'}{else}{l s='Phone' mod='referralbyphone'}{/if}</label>
         <div class="col-md-6">
             <input class="form-control" type="text" size="52" maxlength="128" id="referralbyphone" name="referralbyphone" value="{if isset($smarty.post.referralbyphone)}{$smarty.post.referralbyphone|escape:'html':'UTF-8'}{/if}" />
-            {if isset($referal_error)}
+            {if isset($referal_error) && $referal_error}
             <div class="help-block">
             	<ul>
-            		<li>{$referal_error}</li>
+            		<li>{l s='Email or code referal is not valide.' mod='referralbyphone'}</li>
             	</ul>
             </div>
             {/if}

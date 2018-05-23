@@ -93,7 +93,7 @@
         {/if}
         
         {if isset($s_discount_f_ord) && $s_discount_f_ord}
-            {l s='You get a %1$s  for each friend which place an order on this Website. (only first order)' sprintf=[$s_discount_f_ord] mod='referralbyphone'}<br />
+            {l s='You get a %1$s  for each friend which place an order on this Website. (only first order)' sprintf=[$s_discount_f_ord] mod='referralbyphone'}
         {/if}
         </div>
         </div>

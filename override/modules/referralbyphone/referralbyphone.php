@@ -28,9 +28,9 @@ class ReferralByPhoneOverride extends ReferralByPhone
 
         if (!Validate::isLoadedObject($sponsor))
         {
-            $_error = $this->l('Email or code referal is not valide.');
-            $this->context->smarty->assign('referal_error', $_error);
-            $this->errors[] = $_error;
+            // $_error = $this->trans('Email or code referal is not valide.', array(), 'Shop.Theme.Error');
+            $this->context->smarty->assign('referal_error', true);
+            $this->errors[] = $this->l('Email or code referal is not valide.');
             return false;
         }
 
