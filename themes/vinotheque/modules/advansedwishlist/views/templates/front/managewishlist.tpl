@@ -113,7 +113,7 @@
                                     {/if}
                                     {if $id_wishlist != {$wishlist.id_wishlist}}
 	                                        <option title="{$wishlist.name|escape:'htmlall':'UTF-8'}" value="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}" data-id-product="{$product.id_product|escape:'htmlall':'UTF-8'}" data-id-product-attribute="{$product.id_product_attribute|escape:'htmlall':'UTF-8'}" data-quantity="{$product.quantity|intval}" data-priority="{$product.priority|escape:'htmlall':'UTF-8'}" data-id-old-wishlist="{$id_wishlist|escape:'htmlall':'UTF-8'}" data-id-new-wishlist="{$wishlist.id_wishlist|escape:'htmlall':'UTF-8'}">
-	                                                {l s='Move to %s'|sprintf:$wishlist.name mod='advansedwishlist'}
+	                                                {l s='Move to %s' sprintf=[$wishlist.name] mod='advansedwishlist'}
 	                                        </option>
                                     {/if}
                                     {if $smarty.foreach.wl.last}
