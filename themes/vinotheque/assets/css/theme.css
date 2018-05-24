@@ -9212,6 +9212,10 @@ a.different-address, a.add-address {
     padding: 0; }
   .payment-options .payment-option .js-additional-information {
     margin-top: 0.9375rem; }
+  .payment-options .payment-option .js-additional-information a {
+    color: #76ccaa;
+    cursor: pointer;
+  }
   .payment-options .payment-option label {
     text-transform: uppercase;
     font-weight: 600;
@@ -9265,7 +9269,7 @@ a.different-address, a.add-address {
 #add-voucher label {
   font-size: 1.0625rem;
   color: #b61f38;
-  font-weight: 300; }
+}
 
 #add-voucher #add-voucher-input {
   padding-left: 0; }

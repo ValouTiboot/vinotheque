@@ -2,7 +2,7 @@
 	<input type="hidden" name="token" value="{$static_token}">
 	<input type="hidden" name="addDiscount" value="1">
 	<div class="form-group row ">
-		<label class="col-md-4 form-control-label required">
+		<label class="col-md-5 form-control-label required">
 			{l s='Have you got any gift card ?' mod='giftcard'}
 		</label>
 
@@ -10,7 +10,7 @@
 			<input class="form-control" type="text" name="discount_name" placeholder="{l s='Gift card' mod='giftcard'}">
 		</div>
 
-		<div class="col-md-2">
+		<div class="col-md-3">
 			<button class="btn btn-secondary" type="submit"><span>{l s='Add' mod='giftcard'}</span></button>
 		</div>
 	</div>
