@@ -27,6 +27,7 @@
     var baseDir = '{$base_dir|addslashes}';
     var static_token = '{$static_token|addslashes}';
     var isLogged = '{$logged}';
+    var added_to_your_wishlist = "{l s='Added to your Wish List' mod='advansedwishlist'}";
 </script>
     <div id="wishlist_button_block" class="form-inline buttons_bottom_block {if $issetProduct}wrap_allert{/if}">
     {if isset($wishlists) && count($wishlists) > 1}

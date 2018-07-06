@@ -47,6 +47,10 @@ $(document).ready(function(){
 			}
 		});
 	});
+
+	$("#wishlist_button_block a").on('click', function(e){
+		e.preventDefault();
+	});
 });
 
 function WishlistCart(id, action, id_product, id_product_attribute, quantity, id_wishlist)
@@ -72,7 +76,7 @@ function WishlistCart(id, action, id_product, id_product_attribute, quantity, id
 								type: 'inline',
 								autoScale: true,
 								minHeight: 30,
-								content: '<p class="fancybox-error">Added to your Wish List</p>'
+								content: '<p class="fancybox-error">'+added_to_your_wishlist+'</p>'
 							}
 						], {
 							padding: 0
@@ -116,6 +120,7 @@ function WishlistCart(id, action, id_product, id_product_attribute, quantity, id
 			}
 		}
 	});
+	return false;
 }
 
 /**
