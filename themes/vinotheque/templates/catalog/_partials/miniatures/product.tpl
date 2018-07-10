@@ -1,5 +1,5 @@
 {block name='product_miniature_item'}
-  <article onclick="location.href='{$product.url}'" class="col-sm-6 col-lg-{if isset($lg)}{$lg}{else}3{/if} product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
+  <article class="col-sm-6 col-lg-{if isset($lg)}{$lg}{else}3{/if} product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
     <div>
         {block name='product_thumbnail'}
             <div class="product-thumbnail-box">
