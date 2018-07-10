@@ -2354,6 +2354,8 @@
 	    pendingQuery = false;
 	    prestashop.emit('updateProductList', data);
 	    window.history.pushState(data, undefined, data.current_url);
+	    // window.scrollTo(0, 300);
+	    document.getElementById('products').scrollIntoView();
 	}
 
 	function handleError() {
