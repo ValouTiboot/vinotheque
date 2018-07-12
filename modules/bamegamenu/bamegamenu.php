@@ -1996,9 +1996,16 @@ class BAMegaMenu extends Module
         if (empty($items)) {
             return false;
         }
+
+        $sub = array();
+        foreach ($items as $v)
+            $sub[$this->getLinkTitleMenu($v)] = $v;
+
+        ksort($sub);
+
         $html = '';
         $html .="<ul class='menulink clearfix'>";
-        foreach ($items as $v) {
+        foreach ($sub as $v) {
             $link=$this->getLinkMenu($v);
             if (empty($link)) {
                 continue;

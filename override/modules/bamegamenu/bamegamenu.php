@@ -2,7 +2,38 @@
 
 class BAMegaMenuOverride extends BAMegaMenu
 {
-	private function getSubMenuProduct($id, $list = 0)
+    public function getSubMenuLink($items = array())
+    {
+        die('OK');
+        if (empty($items)) {
+            return false;
+        }
+
+        $sub = array();
+        foreach ($items as $v)
+            $sub[$this->getLinkTitleMenu($v)] = $v;
+
+        ksort($sub);
+
+        $html = '';
+        $html .="<ul class='menulink clearfix'>";
+        foreach ($sub as $v) 
+        {
+            $link=$this->getLinkMenu($v);
+            if (empty($link)) {
+                continue;
+            }
+            $html .="<li>";
+            $html .="<a href='" . $this->getLinkMenu($v) . "' title='" . $this->getLinkTitleMenu($v)
+            . "'><span class='menu-item-link-text'>" . $this->getLinkTitleMenu($v) . "</span></a>";
+            $html .="</li>";
+        }
+        
+        $html .="</ul>";
+        return $html;
+    }
+
+	public function getSubMenuProduct($id, $list = 0)
     {
         if (is_null($id) || empty($id) || !$id)
             return false;
