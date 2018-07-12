@@ -32,7 +32,7 @@
         <tr>
           <td>
             <span class="product-image media-middle">
-              <img class="" src="{if $product.cover}{$product.cover.medium.url}{else}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{/if}">
+              <img class="" src="{if $product.cover}{$product.cover.medium.url}{else}{$link->getImageLink($product.id_product, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{/if}">
             </span>
           </td>
           <td>
