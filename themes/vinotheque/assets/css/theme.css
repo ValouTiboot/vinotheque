@@ -8841,7 +8841,8 @@ nav.pagination {
       margin-right: 45%; }
     #product .product-actions form .product-quantity .btn-touchspin i {
       top: 20%; }
-  #product .product-actions form .quantity-left.alert {margin:0;border-bottom:2px solid white;}
+  #product .product-actions form .quantity-left .border-white {border-bottom:2px solid white;}
+  #product .product-actions form .quantity-left .alert {margin:0;}
   #product .product-actions form .add-to-cart-block {
     border-left: 2px solid #e2e2e2;
     border-right: 2px solid #e2e2e2;
