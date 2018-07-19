@@ -40,11 +40,11 @@
     {/block}
 
     {block name='quantity_left'}
-      <div class="quantity-left alert alert-warning">
-        {if $product.quantity < $product.quantity_wanted || $product.shop_quantity < $product.quantity_wanted}
-          {l s='Only %quantity% quantity left online and %shop_quantity% quantity left on shop' d='Shop.Theme.Checkout' sprintf=['%quantity%' => $product.quantity, '%shop_quantity%' => $product.shop_quantity]}
-        {/if}
-    </div>
+      {if $product.quantity < $product.quantity_wanted || $product.shop_quantity < $product.quantity_wanted}
+        <div class="quantity-left alert alert-warning">
+            {l s='Only %quantity% quantity left online and %shop_quantity% quantity left on shop' d='Shop.Theme.Checkout' sprintf=['%quantity%' => $product.quantity, '%shop_quantity%' => $product.shop_quantity]}
+        </div>
+      {/if}
     {/block}
 
     {*{block name='product_minimal_quantity'}*}
