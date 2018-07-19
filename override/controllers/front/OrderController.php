@@ -1,5 +1,8 @@
 <?php
 
+use PrestaShop\PrestaShop\Core\Foundation\Templating\RenderableProxy;
+use PrestaShop\PrestaShop\Adapter\Product\PriceFormatter;
+
 class OrderController extends OrderControllerCore
 {
 	public function initContent()
