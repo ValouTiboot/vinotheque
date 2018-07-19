@@ -2534,6 +2534,13 @@
 	        targetSelector: productAvailabilitySelector
 	      });
 
+	      var productQuantityLeftSelector = '.quantity-left';
+	      replaceAddToCartSection({
+	        $addToCartSnippet: $addToCartSnippet,
+	        $targetParent: $addProductToCart,
+	        targetSelector: productQuantityLeftSelector
+	      });
+
 	      var productMinimalQuantitySelector = '.product-minimal-quantity';
 	      replaceAddToCartSection({
 	        $addToCartSnippet: $addToCartSnippet,

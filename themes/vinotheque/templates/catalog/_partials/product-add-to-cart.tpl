@@ -39,6 +39,14 @@
       </div>
     {/block}
 
+    {block name='quantity_left'}
+      <div class="quantity-left alert alert-warning">
+        {if $product.quantity < $product.quantity_wanted || $product.shop_quantity < $product.quantity_wanted}
+          {l s='Only %quantity% quantity left online and %shop_quantity% quantity left on shop' d='Shop.Theme.Checkout' sprintf=['%quantity%' => $product.quantity, '%shop_quantity%' => $product.shop_quantity]}
+        {/if}
+    </div>
+    {/block}
+
     {*{block name='product_minimal_quantity'}*}
       {*<p class="product-minimal-quantity">*}
           {*{if $product.minimal_quantity > 1}*}
@@ -55,8 +63,8 @@
         {include file='catalog/_partials/product-variants.tpl'}
     {/block}
 
-    <div class="add-to-cart-block">
-      <button class="add-to-cart btn btn-primary" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url}disabled{/if}>
+    <div class="add add-to-cart-block">
+      <button class="add-to-cart btn btn-primary" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url || ($product.quantity < $product.quantity_wanted && $product.shop_quantity < $product.quantity_wanted)}disabled{/if}>
         {l s='Add to cart' d='Shop.Theme.Actions'}
       </button>
     </div>
