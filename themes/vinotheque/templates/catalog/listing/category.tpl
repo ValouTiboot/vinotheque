@@ -81,7 +81,7 @@
                                                 <img src="{$urls.img_url|escape:'html':'UTF-8'}derniere_sortie.png" alt="{l s='Dernière sortie' d='Shop.Theme.Actions'}">
                                             </div>
                                             <div class="best_seller_name col-sm-6 col-lg-4">
-                                                <div class="category-name">{$category.best_seller.features[4].value}</div>
+                                                <div class="category-name">{if isset($category.best_seller.last_cat)}{$category.best_seller.last_cat.name}{else}{$category.best_seller.category_name}{/if}</div>
                                                 <h1>
                                                     <a href="{$category.best_seller.url}">{$category.best_seller.name}</a>
                                                 </h1>
@@ -130,7 +130,7 @@
                                                 <img src="{$urls.img_url|escape:'html':'UTF-8'}best_seller.png" alt="{l s='Meilleure vente' d='Shop.Theme.Actions'}">
                                             </div>
                                             <div class="best_seller_name col-sm-6 col-lg-4">
-                                                <div class="category-name">{$category.best_seller.features[4].value}</div>
+                                                <div class="category-name">{if isset($category.best_seller.last_cat)}{$category.best_seller.last_cat.name}{else}{$category.best_seller.category_name}{/if}</div>
                                                 <h1>
                                                     <a href="{$category.best_seller.url}">{$category.best_seller.name}</a>
                                                 </h1>

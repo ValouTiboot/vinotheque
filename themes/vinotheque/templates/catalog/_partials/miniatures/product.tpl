@@ -45,9 +45,9 @@
 				{/block}
             </div>
         {/block}
-
+        
         {block name='category_name'}
-          <div class="category-name">{if isset($product.features[4])}{$product.features[4].value}{else}{$product.category_name}{/if}</div>
+          <div class="category-name">{if isset($product.last_cat)}{$product.last_cat.name}{else}{$product.category_name}{/if}</div>
         {/block}
 
         {block name='product_name'}

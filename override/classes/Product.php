@@ -376,6 +376,9 @@ class Product extends ProductCore
             $row['unit_price_ratio'] = $row['price_tax_exc'] / $unitPrice;
         }
         $row['unit_price'] = ($row['unit_price_ratio'] != 0  ? $row['price'] / $row['unit_price_ratio'] : 0);
+        $categories = self::getProductCategoriesFull($row['id_product']);
+        $last_cat = array_pop($categories);
+        $row['last_cat'] = $last_cat;
         self::$producPropertiesCache[$cache_key] = $row;
         return self::$producPropertiesCache[$cache_key];
     }
