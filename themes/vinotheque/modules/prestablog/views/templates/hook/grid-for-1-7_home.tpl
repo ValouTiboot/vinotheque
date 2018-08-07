@@ -70,7 +70,7 @@
                                 {/block}
 
                                 {block name='category_name'}
-                                    <div class="category-name">{$product.category_name}</div>
+                                  <div class="category-name">{if isset($product.last_cat)}{$product.last_cat.name}{else}{$product.category_name}{/if}</div>
                                 {/block}
 
                                 {block name='product_name'}
