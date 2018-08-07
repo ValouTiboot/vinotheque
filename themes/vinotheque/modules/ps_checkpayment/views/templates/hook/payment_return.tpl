@@ -34,14 +34,12 @@
 			<dd><strong>{if $checkName}{$checkName}{else}___________{/if}</strong></dd>
 			<dt>{l s='Mail to' d='Modules.Checkpayment.Shop'}</dt>
 			<dd><strong>{if $checkAddress}{$checkAddress}{else}___________{/if}</strong></dd>
-			{if !isset($reference)}
-				<dt>{l s='Do not forget to insert your order number' d='Modules.Checkpayment.Shop'}</dt>
-				<dd><strong>#{$id_order}</strong></dd>
-			{else}
-				<dt>{l s='Do not forget to insert your order reference' d='Modules.Checkpayment.Shop'}</dt>
-				<dd><strong>{$reference}</strong></dd>
-			{/if}
 		</dl>
+		{if !isset($reference)}
+			<br /><br />- {l s='Do not forget to insert your order number #%d.' sprintf=[$id_order] d='Modules.Checkpayment.Shop'}
+		{else}
+			<br /><br />- {l s='Do not forget to insert your order reference %s.' sprintf=[$reference] d='Modules.Checkpayment.Shop'}
+		{/if}
 		<br />{l s='An email has been sent to you with this information.' d='Modules.Checkpayment.Shop'}
 		<br /><br /><strong>{l s='Your order will be sent as soon as we receive your payment.' d='Modules.Checkpayment.Shop'}</strong>
 		<br /><br />{l s='For any questions or for further information, please contact our' d='Modules.Checkpayment.Shop'} <a href="{$link->getPageLink('contact', true)|escape:'html'}">{l s='customer service department.' d='Modules.Checkpayment.Shop'}</a>.
