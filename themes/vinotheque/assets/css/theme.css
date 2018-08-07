@@ -7484,12 +7484,17 @@ small.label, small.value {
     #cart #cart_details > div .cart-total .value {
       font-size: 1.5rem; }
 
+    #cart #cart_details > div.cart-summary-items-subtotal {
+      margin-top: 1.5rem;
+      padding-top:0;
+    }
+
 #cart #cart_details .btn-primary {
   width: 100%; }
 
 #cart #cart_details #loyalty {
   padding: 0.625rem 0.9375rem;
-  margin-top: 1.875rem;
+  /*margin-top: 1.875rem;*/
   border: 2px solid #ebebeb;
   background: #f4f4f4;
   font-size: 0.75rem;
