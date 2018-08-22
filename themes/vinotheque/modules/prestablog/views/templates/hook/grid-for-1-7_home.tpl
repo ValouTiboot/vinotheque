@@ -121,14 +121,11 @@
                                 {/block}
 
                                 {block name='product_availability'}
-                                {if $product.show_availability}
-                                 availability may take the values "available" or "unavailable"
-                                <span class='product-availability {$product.availability}'>{$product.availability_message}</span>
-                                {/if}
+                                    {if $product.show_availability}
+                                    <span class='product-availability {$product.availability}'>{$product.availability_message}</span>
+                                    {/if}
                                 {/block}
-
                                 {hook h='displayProductListReviews' product=$product}
-
                             </div>
                         </article>
                     {/foreach}
