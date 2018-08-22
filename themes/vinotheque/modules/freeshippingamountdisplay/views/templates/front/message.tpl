@@ -33,5 +33,5 @@
 	</div>
 </div>
 {else}			
-	<div class="col-xs-8 shipping_text">{l s='%s Left until a free shipping' mod='freeshippingamountdisplay' sprintf=[{$amountLeftDisplay|escape:'htmlall':'UTF-8'}]}:</div>
+	<div class="col-xs-8 shipping_text">{l s="%s left until a free shipping" sprintf=[$amountLeftDisplay]}</div>
 {/if}
