@@ -15,7 +15,8 @@ class AdvansedwishlistOverride extends Advansedwishlist
 
         if (isset($cookie->id_customer)) {
         	$default_list = Ws_WishList::getDefault($cookie->id_customer);
-        	$id_default_wishlist = $default_list[0]['id_wishlist'];
+             
+        	$id_default_wishlist = isset($default_list[0]) ? $default_list[0]['id_wishlist'] : 1;
         	
             $this->smarty->assign(array(
                 'wishlists' => Ws_WishList::getByIdCustomer($cookie->id_customer),
