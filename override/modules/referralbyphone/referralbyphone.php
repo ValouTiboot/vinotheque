@@ -36,4 +36,29 @@ class ReferralByPhoneOverride extends ReferralByPhone
 
         return true;
     }
+
+    public function hookShoppingCart($params)
+    {
+        if (!isset($params['cart']->id_customer)) {
+            return false;
+        }
+        if (!($id_referralprogram = ReferralByPhoneModule::isSponsorised((int)($params['cart']->id_customer), true))) {
+            return false;
+        }
+        $referralprogram = new ReferralByPhoneModule($id_referralprogram);
+        if (!Validate::isLoadedObject($referralprogram)) {
+            return false;
+        }
+
+        $cartRule = new CartRule($referralprogram->id_cart_rule, $this->context->language->id);
+        if (!Validate::isLoadedObject($cartRule)) {
+            return false;
+        }
+    
+        if ($cartRule->checkValidity($this->context, false, false) === true) {
+            $this->smarty->assign(array('discount_display' => ReferralByPhone::displayDiscount($cartRule->reduction_percent ? $cartRule->reduction_percent : $cartRule->reduction_amount, $cartRule->reduction_percent ? 1 : 2, new Currency($params['cookie']->id_currency)), 'discount' => $cartRule));
+            return $this->display(__FILE__, 'shopping-cart.tpl');
+        }
+        return false;
+    }
 }
