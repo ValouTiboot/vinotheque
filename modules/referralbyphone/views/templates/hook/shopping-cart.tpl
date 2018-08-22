@@ -27,7 +27,7 @@
 <p id="referralbyphone">
 	<i class="icon-money"></i>
 	{l s='You have earned a voucher worth %s thanks to your sponsor!' sprintf=$discount_display mod='referralbyphone'}
-	{l s='Enter voucher name %s to receive the reduction on this order.' sprintf=$discount->name mod='referralbyphone'}
+	{l s='Enter voucher name %s to receive the reduction on this order.' sprintf=[$discount->name] mod='referralbyphone'}
 	<a href="{$link->getPageLink('discount', true)|escape:'html':'UTF-8'}" title="{l s='Referral program' mod='referralbyphone'}" rel="nofollow">{l s='View your referral program.' mod='referralbyphone'}</a>
 </p>
 <br />
