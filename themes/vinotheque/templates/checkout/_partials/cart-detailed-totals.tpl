@@ -28,13 +28,11 @@
       {foreach from=$cart.subtotals item="subtotal"}
         {if $subtotal != NULL && $subtotal.type != 'tax'}
           <div class="{$subtotal.type}">
-            <span class="label">
-            {$subtotal.label}
+            <span class="label">{$subtotal.label}</span>
+            <span class="value">{$subtotal.value}</span>
             {if $subtotal.type == 'shipping'}
               {hook h='displayExpressCheckoutCustom'}
             {/if}
-            </span>
-            <span class="value">{$subtotal.value}</span>
           </div>
         {/if}
       {/foreach}
