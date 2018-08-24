@@ -269,7 +269,7 @@ var as4Plugin = {
         // YATEO dev spé
         if (hookName == 'displayTopFaceted' || id_search == 2)
         {
-            var search_url_form = responseText.current_url.replace('/s-2/index','/2-accueil/s-1');
+            var search_url_form = responseText.current_url.replace('/s-2/index','/s-1/recherche');
             $('#PM_ASBlockOutput_' + responseText.id_search).parent().parent().replaceWith(responseText.rendered_facets);
             $('#PM_ASBlockOutput_' + responseText.id_search + ' form #search_url_form').val(search_url_form);
             return;
@@ -711,11 +711,14 @@ var as4Plugin = {
         $(document).on('click', '.PM_ASSubmitSearch', function(e) {
             var id_search = as4Plugin.getIdSearchFromItem(this);
             var search_url_form = $('#PM_ASForm_'+id_search+' #search_url_form').val();
+            
+            as4Plugin.removeLayer();
+            if ($('#PM_ASForm_'+id_search+' #search_input').val() == '')
+                return;
 
             if (search_url_form != '')
             {
-                as4Plugin.removeLayer();
-                window.location.href = search_url_form;
+                window.location.href = search_url_form+'?search_query='+$('#PM_ASForm_'+id_search+' #search_input').val();
             }
 
             if (id_search != 2)

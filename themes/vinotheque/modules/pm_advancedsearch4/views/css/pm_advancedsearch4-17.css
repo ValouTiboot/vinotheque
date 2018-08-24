@@ -582,16 +582,24 @@ a.PM_ASSelectionsRemoveLink:before {
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
+    padding-right: 5px ;
+    padding-left: 5px ;
 }
+#top_faceted .card-block .input-group {padding-right: 5px}
 #top_faceted .card-block .facet div {height: 100%;}
 #top_faceted .card-block h1 {
     display: none;
 }
-
-#top_faceted #search_filters select {
+#top_faceted .card-block .PM_ASCriterionsGroupList #search_input {
+    border-color: #fff;
+}
+#top_faceted .card-block .PM_ASCriterionsGroupList #search_input:invalid {
+    outline: none !important;
+}
+#top_faceted #as4_search_filters select {
     border: 0px; 
     height: 100%;
     width: 100%;
 }
-#top_faceted .card-block .PM_ASCriterionsGroupList p.text-center {margin: 0;} 
+#top_faceted .card-block .PM_ASCriterionsGroupList p.text-center {margin: 0; padding-left: 5px;} 
 #top_faceted a.PM_ASResetSearch {display: none !important;}

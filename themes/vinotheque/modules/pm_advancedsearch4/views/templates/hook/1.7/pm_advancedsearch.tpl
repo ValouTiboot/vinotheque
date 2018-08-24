@@ -12,30 +12,36 @@
 			<form action="{$ASSearchUrlForm}" method="GET" id="PM_ASForm_{$as_search.id_search|intval}" class="PM_ASForm">
 				{if $hookName == 'displayTopFaceted' || $as_search.id_search == 2}<div class="container">{/if}
 				<div class="PM_ASCriterionsGroupList{if $hookName != 'leftcolumn' && $hookName != 'rightcolumn'} row{/if}">
-			{foreach from=$as_search.criterions_groups item=criterions_group name=criterions_groups}
-				{capture name="as4_input_hidden_criterions"}
-					{if isset($as_search.selected_criterion[$criterions_group.id_criterion_group])}
-						{foreach from=$as_search.selected_criterion[$criterions_group.id_criterion_group] item=selected_id_criterion name=selected_criteria}
-							{if !$criterions_group.visible}
-								<input type="hidden" name="as4c[{$criterions_group.id_criterion_group|intval}][]" value="{$selected_id_criterion nofilter}" />
-								<input type="hidden" name="as4c_hidden[{$criterions_group.id_criterion_group|intval}][]" value="{$selected_id_criterion nofilter}" />
+					{if ($hookName == 'displayTopFaceted'  || $as_search.id_search == 2)}
+					<div class="col-lg-5 input-group">
+				        <span class="input-group-addon"><i class="icon-v-search"></i></span>
+				        <input type="text" id="search_input" name="search_query" class="form-control" placeholder="{l s='Je recherche' d='Shop.Theme'}" required value="{if isset($smarty.get.search_query)}{$smarty.get.search_query}{/if}">
+				    </div>
+					{/if}
+					{foreach from=$as_search.criterions_groups item=criterions_group name=criterions_groups}
+						{capture name="as4_input_hidden_criterions"}
+							{if isset($as_search.selected_criterion[$criterions_group.id_criterion_group])}
+								{foreach from=$as_search.selected_criterion[$criterions_group.id_criterion_group] item=selected_id_criterion name=selected_criteria}
+									{if !$criterions_group.visible}
+										<input type="hidden" name="as4c[{$criterions_group.id_criterion_group|intval}][]" value="{$selected_id_criterion nofilter}" />
+										<input type="hidden" name="as4c_hidden[{$criterions_group.id_criterion_group|intval}][]" value="{$selected_id_criterion nofilter}" />
+									{/if}
+								{/foreach}
 							{/if}
-						{/foreach}
-					{/if}
-				{/capture}
-				{if !(isset($as_criteria_group_type_interal_name[$criterions_group.display_type]) && ($as_criteria_group_type_interal_name[$criterions_group.display_type] == 'slider' || $as_criteria_group_type_interal_name[$criterions_group.display_type] == 'range') && isset($as_search.criterions[$criterions_group.id_criterion_group]) && isset($as_search.criterions[$criterions_group.id_criterion_group][0]) && ((isset($as_search.criterions[$criterions_group.id_criterion_group][0].cur_min) && isset($as_search.criterions[$criterions_group.id_criterion_group][0].cur_max) && $as_search.criterions[$criterions_group.id_criterion_group][0].cur_min == 0 && $as_search.criterions[$criterions_group.id_criterion_group][0].cur_max == 0) || (isset($as_search.criterions[$criterions_group.id_criterion_group][0].min) && isset($as_search.criterions[$criterions_group.id_criterion_group][0].max) && $as_search.criterions[$criterions_group.id_criterion_group][0].min == 0 && $as_search.criterions[$criterions_group.id_criterion_group][0].max == 0))) && ($criterions_group.visible && $as_search.hide_empty_crit_group && isset($as_search.criterions[$criterions_group.id_criterion_group]) && sizeof($as_search.criterions[$criterions_group.id_criterion_group])) || ($criterions_group.visible && !$as_search.hide_empty_crit_group) || ($criterions_group.visible && $as_search.step_search)}
-					{if $criterions_group.hidden eq '1' && !isset($hidden_criteria_group_open)}
-						{assign var='hidden_criteria_group_open' value=true}
-						<p class="PM_ASShowCriterionsGroupHidden col-xs-12{if isset($as_search.advanced_search_open) && $as_search.advanced_search_open} PM_ASShowCriterionsGroupHiddenOpen{/if}"><a href="#">{l s='Show/hide more options' mod='pm_advancedsearch4'}</a></p>
-					{/if}
-					<div id="PM_ASCriterionsGroup_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" class="facet {if isset($as_search.seo_criterion_groups) && is_array($as_search.seo_criterion_groups) && in_array($criterions_group.id_criterion_group,$as_search.seo_criterion_groups)}PM_ASCriterionsSEOGroupDisabled {/if}PM_ASCriterionsGroup{if $criterions_group.hidden} PM_ASCriterionsGroupHidden{/if}{if $as_search.hide_empty_crit_group && $as_search.step_search && (!isset($as_search.criterions[$criterions_group.id_criterion_group]) || !sizeof($as_search.criterions[$criterions_group.id_criterion_group]))} PM_ASCriterionsGroupHidden{/if} PM_ASCriterionsGroup{$criterions_group.criterion_group_type|ucfirst} {if $hookName != 'leftcolumn' && $hookName != 'rightcolumn'}{$criterions_group.css_classes}{/if}"{if isset($as_search.advanced_search_open) && $as_search.advanced_search_open} style="display:block;"{/if}>
-						{include file=$as_obj->_getTplPath("pm_advancedsearch_criterions.tpl")}
-					</div>
-					{if $as_search.step_search && $next_id_criterion_group_isset == false && !isset($as_search.criterions[$criterions_group.id_criterion_group])}
-						{assign var='next_id_criterion_group_isset' value=true}
-					{/if}
-				{/if}
-			{/foreach}
+						{/capture}
+						{if !(isset($as_criteria_group_type_interal_name[$criterions_group.display_type]) && ($as_criteria_group_type_interal_name[$criterions_group.display_type] == 'slider' || $as_criteria_group_type_interal_name[$criterions_group.display_type] == 'range') && isset($as_search.criterions[$criterions_group.id_criterion_group]) && isset($as_search.criterions[$criterions_group.id_criterion_group][0]) && ((isset($as_search.criterions[$criterions_group.id_criterion_group][0].cur_min) && isset($as_search.criterions[$criterions_group.id_criterion_group][0].cur_max) && $as_search.criterions[$criterions_group.id_criterion_group][0].cur_min == 0 && $as_search.criterions[$criterions_group.id_criterion_group][0].cur_max == 0) || (isset($as_search.criterions[$criterions_group.id_criterion_group][0].min) && isset($as_search.criterions[$criterions_group.id_criterion_group][0].max) && $as_search.criterions[$criterions_group.id_criterion_group][0].min == 0 && $as_search.criterions[$criterions_group.id_criterion_group][0].max == 0))) && ($criterions_group.visible && $as_search.hide_empty_crit_group && isset($as_search.criterions[$criterions_group.id_criterion_group]) && sizeof($as_search.criterions[$criterions_group.id_criterion_group])) || ($criterions_group.visible && !$as_search.hide_empty_crit_group) || ($criterions_group.visible && $as_search.step_search)}
+							{if $criterions_group.hidden eq '1' && !isset($hidden_criteria_group_open)}
+								{assign var='hidden_criteria_group_open' value=true}
+								<p class="PM_ASShowCriterionsGroupHidden col-xs-12{if isset($as_search.advanced_search_open) && $as_search.advanced_search_open} PM_ASShowCriterionsGroupHiddenOpen{/if}"><a href="#">{l s='Show/hide more options' mod='pm_advancedsearch4'}</a></p>
+							{/if}
+							<div id="PM_ASCriterionsGroup_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" class="facet {if isset($as_search.seo_criterion_groups) && is_array($as_search.seo_criterion_groups) && in_array($criterions_group.id_criterion_group,$as_search.seo_criterion_groups)}PM_ASCriterionsSEOGroupDisabled {/if}PM_ASCriterionsGroup{if $criterions_group.hidden} PM_ASCriterionsGroupHidden{/if}{if $as_search.hide_empty_crit_group && $as_search.step_search && (!isset($as_search.criterions[$criterions_group.id_criterion_group]) || !sizeof($as_search.criterions[$criterions_group.id_criterion_group]))} PM_ASCriterionsGroupHidden{/if} PM_ASCriterionsGroup{$criterions_group.criterion_group_type|ucfirst} {if $hookName != 'leftcolumn' && $hookName != 'rightcolumn'}{$criterions_group.css_classes}{/if}"{if isset($as_search.advanced_search_open) && $as_search.advanced_search_open} style="display:block;"{/if}>
+								{include file=$as_obj->_getTplPath("pm_advancedsearch_criterions.tpl")}
+							</div>
+							{if $as_search.step_search && $next_id_criterion_group_isset == false && !isset($as_search.criterions[$criterions_group.id_criterion_group])}
+								{assign var='next_id_criterion_group_isset' value=true}
+							{/if}
+						{/if}
+					{/foreach}
 				{if $as_search.search_method == 2 && ($hookName == 'displayTopFaceted'  || $as_search.id_search == 2)}
 					<p class="col-lg-1 col-xs-12 text-center">
 						<input type="submit" value="{l s='Ok' mod='pm_advancedsearch4'}" name="submitAsearch" class="btn btn-primary PM_ASSubmitSearch" />
@@ -47,7 +53,7 @@
 			{if $as_search.reset_group|intval}
 			<input type="hidden" name="reset_group" value="" />
 			{/if}
-			<input type="hidden" name="search_url_form" id="search_url_form" value="" />
+			<input type="hidden" name="search_url_form" id="search_url_form" value="{$link->getPageLink('search')}" />
 			<input type="hidden" name="id_search" value="{$as_search.id_search|intval}" />
 			{if As4SearchEngine::getCurrentCategory()}
 				<input type="hidden" name="id_category_search" value="{if isset($as_search.id_category_root) && $as_search.id_category_root > 0}{$as_search.id_category_root|intval}{else if As4SearchEngine::getCurrentCategory()}{As4SearchEngine::getCurrentCategory()|intval}{/if}" />
