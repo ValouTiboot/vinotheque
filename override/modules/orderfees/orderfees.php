@@ -121,11 +121,11 @@ class OrderFeesOverride extends OrderFees
             $add_price = 0;
             if (preg_match('@primeur@i', $discount['name']))
             {
-	            foreach ($products as $product)
-	            {
-	            	if ($product['wine'])
-	            	{
-	            		$add_price += ($product['total_wt']*1.5)/100;
+                foreach ($products as $product)
+                {
+                    if ($product['wine'])
+                    {
+	            		$add_price += (($product['total_wt']*1.5)/100)*1.2;
 	            	}
 	            }
                 $discounts[$index]['obj']->reduction_amount += $add_price;
