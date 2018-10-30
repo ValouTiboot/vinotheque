@@ -514,7 +514,7 @@ class Product extends ProductCore
         if (count($categories))
         foreach ($categories as $category)
         {
-            if (preg_match('@ventes privées@i', $category['name']))
+            if (preg_match('@vente(s) privée@i', $category['name']))
                 return true;
         }
 
