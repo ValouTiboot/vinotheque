@@ -7781,6 +7781,12 @@ small.label, small.value {
               border: 1px solid;
               padding: 0.3125rem;
               font-size: 0.875rem; }
+            .product-miniature > div .product-thumbnail-box .private-sale-picto {
+              position: absolute;
+              top: -6px;
+              right: 8px;
+              background: none;
+            }
     .product-miniature > div .category-name {
       color: #b61f38;
       font-size: 1.0625rem;
@@ -7796,6 +7802,9 @@ small.label, small.value {
     .product-miniature > div .product-price-and-shipping {
       font-size: 0.875rem;
       padding: 17px 0 24px; }
+    .product-miniature > div .product-price-and-shipping.private-sale-product-box {
+      padding: 17px 0 6px; 
+    }
       .product-miniature > div .product-price-and-shipping .regular-price {
         text-decoration: line-through;
         font-weight: bold;
@@ -7804,6 +7813,12 @@ small.label, small.value {
         font-size: 1.5625rem;
         font-weight: 600;
         color: #b61f38; }
+      .product-miniature > div .product-price-and-shipping a.private-sale-link {
+        color: #b61f38;
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
     .product-miniature > div .product-flags {
       position: absolute;
       top: 40px;
@@ -8852,7 +8867,7 @@ nav.pagination {
     border-left: 2px solid #e2e2e2;
     border-right: 2px solid #e2e2e2;
     padding: 0.75rem; }
-    #product .product-actions form .add-to-cart-block button {
+    #product .product-actions form .add-to-cart-block button, #product .product-actions form .add-to-cart-block a {
       width: 100%; }
   #product .product-actions form #wishlist_button_block {
     border-left: 2px solid #e2e2e2;
