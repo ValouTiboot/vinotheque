@@ -118,10 +118,10 @@
                   <br>
               {/if}
             {/if}
-            {foreach from=$product.flags item=flag}
+            {*foreach from=$product.flags item=flag}
               <li class="{$flag.type}">{$flag.label}</li>
                 <br>
-            {/foreach}
+            {/foreach*}
           </ul>
         {/block}
 
