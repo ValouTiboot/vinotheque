@@ -379,6 +379,7 @@ class Product extends ProductCore
         $categories = self::getProductCategoriesFull($row['id_product']);
         $last_cat = array_pop($categories);
         $row['last_cat'] = $last_cat;
+        $row['is_private_sale_product'] = \Product::isPrivateSaleProduct($row['id_product']);
         self::$producPropertiesCache[$cache_key] = $row;
         return self::$producPropertiesCache[$cache_key];
     }
@@ -431,7 +432,7 @@ class Product extends ProductCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:30:01
+    * date: 2018-10-29 07:39:22
     * version: 1.8.9
     */
     public static function priceCalculation(
@@ -504,5 +505,19 @@ class Product extends ProductCore
             $real_quantity,
             $id_customization
         ) + (float) Tools::ps_round((float) $total, 2);
+    }
+
+    public static function isPrivateSaleProduct($id_product)
+    {
+        $categories = Product::getProductCategoriesFull($id_product);
+
+        if (count($categories))
+        foreach ($categories as $category)
+        {
+            if (preg_match('@ventes privées@i', $category['name']))
+                return true;
+        }
+
+        return false;
     }
 }

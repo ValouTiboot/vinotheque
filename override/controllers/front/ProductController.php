@@ -70,6 +70,7 @@ class ProductController extends ProductControllerCore
         $product['minimal_quantity'] = $this->getProductMinimalQuantity($product);
         $product['quantity_wanted'] = $this->getRequiredQuantity($product);
         $product['extraContent'] = $extraContentFinder->addParams(array('product' => $this->product))->present();
+        $product['is_private_sale_product'] = \Product::isPrivateSaleProduct((int) $this->product->id);
 
         $product_full = Product::getProductProperties($this->context->language->id, $product, $this->context);
 

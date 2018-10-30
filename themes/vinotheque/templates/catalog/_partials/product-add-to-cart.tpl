@@ -24,53 +24,59 @@
  *}
 <div class="product-add-to-cart">
   {if !$configuration.is_catalog}
+    {if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
+      {block name='product_quantity'}
+        <div class="product-quantity">
+          <label for="quantity_wanted">{l s='Quantity' d='Shop.Theme.Catalog'}</label>
+          <input
+            type="text"
+            name="qty"
+            id="quantity_wanted"
+            value="{$product.quantity_wanted}"
+            class="input-group"
+            min="{$product.minimal_quantity}"
+          >
+        </div>
+      {/block}
 
-    {block name='product_quantity'}
-      <div class="product-quantity">
-        <label for="quantity_wanted">{l s='Quantity' d='Shop.Theme.Catalog'}</label>
-        <input
-          type="text"
-          name="qty"
-          id="quantity_wanted"
-          value="{$product.quantity_wanted}"
-          class="input-group"
-          min="{$product.minimal_quantity}"
-        >
+      {block name='quantity_left'}
+        <div class="quantity-left">
+          {if $product.quantity < $product.quantity_wanted || $product.shop_quantity < $product.quantity_wanted}
+            <div class="alert alert-warning">        
+              {l s='Only %quantity% quantity left online and %shop_quantity% quantity left on shop' d='Shop.Theme.Checkout' sprintf=['%quantity%' => $product.quantity, '%shop_quantity%' => $product.shop_quantity]}
+            </div>
+            <div class="border-white"></div>
+          {/if}
+        </div>
+      {/block}
+
+      {*{block name='product_minimal_quantity'}*}
+        {*<p class="product-minimal-quantity">*}
+            {*{if $product.minimal_quantity > 1}*}
+                {*{l*}
+                {*s='The minimum purchase order quantity for the product is %quantity%.'*}
+                {*d='Shop.Theme.Checkout'*}
+                {*sprintf=['%quantity%' => $product.minimal_quantity]*}
+                {*}*}
+            {*{/if}*}
+        {*</p>*}
+      {*{/block}*}
+
+      {block name='product_variants'}
+          {include file='catalog/_partials/product-variants.tpl'}
+      {/block}
+      <div class="add add-to-cart-block">
+        <button class="add-to-cart btn btn-primary" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url || ($product.quantity < $product.quantity_wanted && $product.shop_quantity < $product.quantity_wanted)}disabled{/if}>
+          {l s='Add to cart' d='Shop.Theme.Actions'}
+        </button>
       </div>
-    {/block}
-
-    {block name='quantity_left'}
-      <div class="quantity-left">
-        {if $product.quantity < $product.quantity_wanted || $product.shop_quantity < $product.quantity_wanted}
-          <div class="alert alert-warning">        
-            {l s='Only %quantity% quantity left online and %shop_quantity% quantity left on shop' d='Shop.Theme.Checkout' sprintf=['%quantity%' => $product.quantity, '%shop_quantity%' => $product.shop_quantity]}
-          </div>
-          <div class="border-white"></div>
-        {/if}
+    {else}
+      <div class="add add-to-cart-block">
+        <a class="add-to-cart btn btn-primary" href="{$link->getCMSLink(7)}">
+          {l s='Private sales'}
+        </a>
       </div>
-    {/block}
-
-    {*{block name='product_minimal_quantity'}*}
-      {*<p class="product-minimal-quantity">*}
-          {*{if $product.minimal_quantity > 1}*}
-              {*{l*}
-              {*s='The minimum purchase order quantity for the product is %quantity%.'*}
-              {*d='Shop.Theme.Checkout'*}
-              {*sprintf=['%quantity%' => $product.minimal_quantity]*}
-              {*}*}
-          {*{/if}*}
-      {*</p>*}
-    {*{/block}*}
-
-    {block name='product_variants'}
-        {include file='catalog/_partials/product-variants.tpl'}
-    {/block}
-
-    <div class="add add-to-cart-block">
-      <button class="add-to-cart btn btn-primary" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url || ($product.quantity < $product.quantity_wanted && $product.shop_quantity < $product.quantity_wanted)}disabled{/if}>
-        {l s='Add to cart' d='Shop.Theme.Actions'}
-      </button>
-    </div>
+    {/if}
 
   {/if}
 </div>

@@ -248,9 +248,11 @@
                                 <input type="hidden" name="id_product" value="{$product.id}" id="product_page_product_id">
                                 <input type="hidden" name="id_customization" value="{$product.id_customization}" id="product_customization_id">
 
+                                {if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
                                 {block name='product_prices'}
                                   {include file='catalog/_partials/product-prices.tpl'}
                                 {/block}
+                                {/if}
 
                                 {block name='product_add_to_cart'}
                                   {include file='catalog/_partials/product-add-to-cart.tpl'}
