@@ -63,8 +63,8 @@
 
 		  {block name='cart_voucher'}
             <div class="cart-voucher-details">
-              <a href="#" data-toggle="collapse" data-target="#cart-voucher-form">
-				  {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
+              <a href="javascript:void(0)" onclick="return false;">
+				        {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
               </a>
 				{include file='checkout/_partials/cart-voucher.tpl'}
             </div>

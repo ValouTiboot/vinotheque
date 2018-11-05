@@ -24,7 +24,7 @@
  *}
 {block name='cart_voucher'}
   {if $cart.vouchers.allowed}
-    <div id="cart-voucher-form" class="cart-voucher collapse">
+    <div id="cart-voucher-form" class="cart-voucher">
       {block name='cart_voucher_list'}
         <ul>
           {foreach from=$cart.vouchers.added item=voucher}
