@@ -1,6 +1,8 @@
 <?php
 
 ini_set('default_socket_timeout', -1);
+@ini_set('display_errors', 'on');
+error_reporting(E_ALL);
 
 require_once(_PS_MODULE_DIR_ . 'wservices/classes/RedisConnect.php');
 
@@ -12,7 +14,8 @@ class WservicestestModuleFrontController extends ModuleFrontController
 	{
 		parent::initContent();
 
-		$shop_domain = Context::getContext()->link->protocol_link . Configuration::getValue('PS_SHOP_DOMAIN');
+		// $shop_domain = Context::getContext()->link->protocol_link . Configuration::getValue('PS_SHOP_DOMAIN');
+		$shop_domain = 'http://pre.vinotheque-bordeaux.com/index.php?fc=module&module=wservices&controller=ws';
 
 		$redis_connect = new RedisConnect();
 		$redis = $redis_connect->connect();
@@ -23,12 +26,14 @@ class WservicestestModuleFrontController extends ModuleFrontController
 			foreach ($list as $json)
 			{
 				$ch = curl_init();
-				curl_setopt($ch, CURLOPT_URL, $shop_domain '/index.php?fc=module&module=wservices&controller=ws');
+				curl_setopt($ch, CURLOPT_URL, $shop_domain);
 				curl_setopt($ch, CURLOPT_POST, 1);
 				curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 				curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
 				curl_exec($ch);
 				curl_close($ch);
+
+				$redis->zDeleteRangeByScore($channel, $json['NoJSON'], $json['NoJSON']);
 			}
 		}
 		

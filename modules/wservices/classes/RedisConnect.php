@@ -4,7 +4,7 @@ class RedisConnect
 {
 	public $redis;
 
-	private static $host = 'vps364479.ovh.net';
+	private static $host = '127.0.0.1';
 	
 	private static $port = '16379';
 	

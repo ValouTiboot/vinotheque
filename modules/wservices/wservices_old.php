@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('_PS_VERSION_'))
-    exit;
+	exit;
 
 ini_set('default_socket_timeout', -1);
 
@@ -9,31 +9,31 @@ require_once(_PS_MODULE_DIR_ . 'wservices/classes/RedisConnect.php');
 
 class Wservices extends Module
 {
-    public function __construct()
+	public function __construct()
+	{
+		$this->name = 'wservices';
+		$this->tab = 'front_office_features';
+		$this->version = '1.0.0';
+		$this->author = 'Yateo - Valentin THIBAULT';
+		$this->need_instance = 0;
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
+		$this->module_table = 'wservices';
+
+		parent::__construct();
+
+		$this->displayName = $this->l('WebServices Redis');
+		$this->description = $this->l('Enables WebServices for synchronicity.');
+
+		$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
+
+		if (!Configuration::get('WSERVICES'))
+    		$this->warning = $this->l('No name provided for wservices module.');
+	}
+
+	public function install()
     {
-        $this->name = 'wservices';
-        $this->tab = 'front_office_features';
-        $this->version = '1.0.0';
-        $this->author = 'Yateo - Valentin THIBAULT';
-        $this->need_instance = 0;
-        $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
-        $this->module_table = 'wservices';
-
-        parent::__construct();
-
-        $this->displayName = $this->l('WebServices Redis');
-        $this->description = $this->l('Enables WebServices for synchronicity.');
-
-        $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
-
-        if (!Configuration::get('WSERVICES'))
-            $this->warning = $this->l('No name provided for wservices module.');
-    }
-
-    public function install()
-    {
-        if (Shop::isFeatureActive())
-            Shop::setContext(Shop::CONTEXT_ALL);
+    	if (Shop::isFeatureActive())
+    		Shop::setContext(Shop::CONTEXT_ALL);
 
         if (!parent::install() 
             || !$this->installDB() 
@@ -42,30 +42,30 @@ class Wservices extends Module
             // || !$this->registerHook('actionObjectUpdateAfter')
             // || !$this->registerHook('actionObjectDeleteBefore')
         )
-            return false;
-        return true;
+			return false;
+		return true;
     }
 
-    public function uninstall()
+	public function uninstall()
     {
         if (!parent::uninstall() || !Configuration::deleteByName('WSERVICES'))
-            return false;
-        return true;
+			return false;
+		return true;
     }
 
     public function installDB()
     {
-        return Db::getInstance()->execute("CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . $this->module_table . "` (
-              `id_wservices` int(11) NOT NULL AUTO_INCREMENT,
-              `transaction` varchar(255) NOT NULL,
-              `model` varchar(255) NOT NULL,
-              `type` varchar(255) NOT NULL,
+    	return Db::getInstance()->execute("CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . $this->module_table . "` (
+			  `id_wservices` int(11) NOT NULL AUTO_INCREMENT,
+			  `transaction` varchar(255) NOT NULL,
+			  `model` varchar(255) NOT NULL,
+			  `type` varchar(255) NOT NULL,
               `transaction` TEXT NOT NULL,
-              `way` varchar(10) NOT NULL,
-              `date_add` datetime NOT NULL,
-              `date_upd` datetime NOT NULL,
-              PRIMARY KEY (`id_wservices`)
-            ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
+			  `way` varchar(10) NOT NULL,
+			  `date_add` datetime NOT NULL,
+			  `date_upd` datetime NOT NULL,
+			  PRIMARY KEY (`id_wservices`)
+			) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
     }
 
     public function add($data, $way, $err = false)
@@ -73,16 +73,16 @@ class Wservices extends Module
         if ($err)
             $this->publishError($data, $err);
 
-        Db::getInstance()->insert($this->module_table, array(
-            'id_json' => pSQL($data['NoJSON']),
-            'model' => pSQL($data['Modèle']),
+    	Db::getInstance()->insert($this->module_table, array(
+    		'id_json' => pSQL($data['NoJSON']),
+    		'model' => pSQL($data['Modèle']),
             'type' => pSQL($data['Type']),
-            'transaction' => pSQL(json_encode($data, JSON_UNESCAPED_UNICODE)),
-            'way' => pSQL($way),
-            'date_add' => date('Y-m-d H:i:s'),
-            'date_upd' => date('Y-m-d H:i:s'),
-            )
-        );
+    		'transaction' => pSQL(json_encode($data, JSON_UNESCAPED_UNICODE)),
+    		'way' => pSQL($way),
+    		'date_add' => date('Y-m-d H:i:s'),
+    		'date_upd' => date('Y-m-d H:i:s'),
+    		)
+    	);
 
         $redis_connect = new RedisConnect();
         $redis = $redis_connect->connect();
@@ -100,9 +100,9 @@ class Wservices extends Module
 
     public function genPassword($char = 8)
     {
-        $password = "";
-        $tab = array_merge(range('a','z'), range('A','Z'), range('0','9')); 
-        $nb = count($tab); 
+    	$password = "";
+    	$tab = array_merge(range('a','z'), range('A','Z'), range('0','9')); 
+		$nb = count($tab); 
         
         for($i = 0; $i <= $char; $i++)
             $password .= $tab[rand(0,$nb-1)];
@@ -122,10 +122,9 @@ class Wservices extends Module
         return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
     }
 
-    public function TransactionExists($value)
+    public function TransactionExists($idJson)
     {
-        // return Db::getInstance()->getValue("SELECT `id_wservices` FROM `" . _DB_PREFIX_ . $this->module_table . "` WHERE `id_json`='" . pSQL($value) . "'");
-        return Db::getInstance()->getValue("SELECT `id_wservices` FROM `" . _DB_PREFIX_ . $this->module_table . "` WHERE `transaction` LIKE '%\"IdTransaction\":\"" . pSQL($value) . "%'");
+    	return Db::getInstance()->getValue("SELECT `id_wservices` FROM `" . _DB_PREFIX_ . $this->module_table . "` WHERE `id_json`='" . pSQL($idJson) . "'");
     }
 
     // public function hookActionObjectCustomerAddAfter($params)
@@ -193,12 +192,17 @@ class Wservices extends Module
 
 
     /*
-    *   Doit recuperer l'object Order dans le $params pour ensuite appeler une methode "publishOrder" qui enverra le JSON à redis
+    *   Doit recuperer l'obejct Order dans le $params pour ensuite appeler une methode "publishOrder" qui enverra le JSON à redis
     **/
-    // public function hookActionObjectOrderAddAfter($params)
-    // {
-    //     return;
-    // }
+    public function hookActionObjectOrderAddAfter($params)
+    {
+        ;
+    }
+
+    public function publishOrder($order)
+    {
+        ;
+    }
 
     public function deleteAddress($object)
     {
@@ -261,7 +265,6 @@ class Wservices extends Module
                             'newsletter' => (!is_null($customer->newsletter) ? $customer->newsletter : ''),
                             'siret' => (!is_null($customer->siret) ? $customer->siret : ''),
                             'ape' => (!is_null($customer->ape) ? $customer->ape : ''),
-                            'date_add' => $customer->date_add,
                             'NbPointsConsommes' => (string)$consumed_points,
                             'NbPointsAcquits' => (string)$acquired_points,
                             'NbPointsRestants' => (string)$remaining_points,
@@ -272,6 +275,9 @@ class Wservices extends Module
             )
         );
 
+        // echo '<pre>';
+        // print_r($trans);
+        // die();
         $trans['NoJSON'] = $this->add($trans, 'set');
 
         return $this->publish($trans);
@@ -311,73 +317,59 @@ class Wservices extends Module
         return $return;
     }
 
-    /* TODO avec getOrderById dans ws.php */
-    public function publishOrder($order, $type)
-    {
-        $trans = array(
-            'NoJSON' => '',
-            'IdTransaction' => md5(microtime()),
-            'Modèle' => 'CMD',
-            'Type' => $type,
-            'DateTransaction' => date('Y-m-d H:i:s'),
-            'Transaction' => array(
-                '0' => array(
-                    'commande' => array(
-                        (!empty($order->id_order_dubos) ? $order->id_order_dubos : $order->id) => array(
-                            // TODO
-                        ),
-                    ),
-                ),
-            )
-        );
-
-        $trans['NoJSON'] = $this->add($trans, 'set');
-
-        return $this->publish($trans);
-    }
-
     public function publishError($data, $err)
     {
+        /*
+            IdTransaction => Id de la transaction qui cause l’erreur
+            CodeModèle => Code du modèle de JSON
+            TypeTransaction => Type de la transaction UPD ou INS
+            Description => Message de l’erreur
+            Criticité => 1 = Information, 2 = Attention, 3 = erreur
+            Commentaires => Ne pas mettre ici de description de l’erreur, ce champs nous sert à définir le client qui est à l’origine de l’erreur. Laisser le champ vide.
+            DateTransaction => Date de la transaction
+        */
+
         $trans = array(
-            'NoJSON' => '',
-            'IdTransaction' => md5(microtime()),
+            'NoJSON' => $data['NoJSON'],
+            'IdTransaction' => $data['IdTransaction'],
             'Modèle' => 'ERR',
             'Type' => 'INS',
             'DateTransaction' => date('Y-m-d H:i:s'),
             'Transaction' => array(
                 'erreur' => array(
-                    (isset($data['IdTransaction'])) ? $data['IdTransaction'] : 0 => array(
-                        'IdTransaction' => (isset($data['IdTransaction'])) ? $data['IdTransaction'] : '', // Id de la transaction qui cause l’erreur
-                        'CodeModele' => (isset($data['Modèle'])) ? $data['Modèle'] : '', // Code du modèle de JSON
-                        'TypeTransaction' => (isset($data['Type'])) ? $data['Type'] : '', // Type de la transaction UPD ou INS
-                        'Description' => $err, // Message de l’erreur
-                        'Criticite' => '3', // Information, 2 = Attention, 3 = erreur
+                    $data['IdTransaction'] => array(
+                        'IdTransaction' => $data['IdTransaction'],
+                        'CodeModele' => $data['Modèle'],
+                        'TypeTransaction' => $data['Type'],
+                        'Description' => $err,
+                        'Criticite' => '3',
                         'Commentaires' => '',
-                        'DateTransaction' => date('Y-m-d H:i:s'), // Date de la transaction
+                        'DateTransaction' => date('Y-m-d H:i:s'),
                     ),
                 ),
             )
         );
 
-        $trans['NoJSON'] = $this->add($trans, 'set');
-
-        return $this->publish($trans);
+        $this->publish($trans);
     }
 
     public function publish($data)
     {
-        // Redis Init
-        $redis_connect = new RedisConnect();
-        // Redis Connect
-        $redis = $redis_connect->connect();
-        // Redis Add
-        $redis->zAdd('mt:CC_Site1_' . $data['Modèle'], $data['NoJSON'], json_encode($data, JSON_UNESCAPED_UNICODE));
-        // Redis Publish
-        $redis->publish('CC_Site1_' . $data['Modèle'], json_encode($data, JSON_UNESCAPED_UNICODE));
-        // Redis Close
-        $redis->close();
+        if ($data['Modèle'] == 'CMD')
+        {
+            echo json_encode($data, JSON_UNESCAPED_UNICODE);
+            echo '<pre>';
+            print_r($data);
+            echo '</pre>';
+            die;
+        }
 
-        return true;
+        $redis_connect = new RedisConnect();
+        $redis = $redis_connect->connect();
+        $redis->zAdd('mt:CC_Site1_' . $data['Modèle'], $data['NoJSON'], json_encode($data, JSON_UNESCAPED_UNICODE));
+        $redis->publish('CC_Site1_' . $data['Modèle'], json_encode($data, JSON_UNESCAPED_UNICODE));
+        $redis->close();
+     	//die;
     }
 
     public function toNurl($str)
