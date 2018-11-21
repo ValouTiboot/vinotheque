@@ -353,7 +353,7 @@
                       </div>
                       <div class="col-8">
                         <div>{$product.property nofilter}</div>
-                          <a class="btn btn-secondary" href="#">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
+                          <a class="btn btn-secondary" href="{$product.property_link nofilter}">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
                       </div>
                     </div>
                   </div>

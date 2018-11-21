@@ -107,6 +107,21 @@ class ProductController extends ProductControllerCore
         $product_full['second_wine'] = $this->getSecondWine();
         $product_full['accessories'] = $this->getAccessories();
 
+        $categories = Product::getProductCategories($product['id_product']);
+
+        if (count($categories) > 0)
+        foreach ($categories as $cat)
+        {
+            $category = new Category($cat, $this->context->language->id);
+            $parent = new Category($category->id_parent, $this->context->language->id);
+
+            if (preg_match('@propriete@', $parent->link_rewrite))
+            {
+                $product_full['property'] = $category->description;
+                $product_full['property_link'] = $this->context->link->getCategoryLink($category);
+            }
+        }
+
         return $presenter->present(
             $productSettings,
             $product_full,
