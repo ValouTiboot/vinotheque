@@ -38,11 +38,12 @@
 <div class="products-sort-order dropdown">
   <span class="sort-by">{l s='Tri:' d='Shop.Theme'}</span>
   <a class="select-title" rel="nofollow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	  {if isset($listing.sort_selected)}{$listing.sort_selected}{else}{l s='Select' d='Shop.Theme.Actions'}{/if}
+    {if isset($listing.sort_selected)}{$listing.sort_selected}{else}{l s='Select' d='Shop.Theme.Actions'}{/if}
     <i class="material-icons pull-xs-right">&#xE5C5;</i>
   </a>
   <div class="dropdown-menu">
 	  {foreach from=$listing.sort_orders item=sort_order}
+      {if $sort_order.field == 'name' || $sort_order.field == 'price' || ($sort_order.field == 'position' && $sort_order.direction == 'asc')}
         <a
                 rel="nofollow"
                 href="{$sort_order.url}"
@@ -50,6 +51,7 @@
         >
 			{$sort_order.label}
         </a>
+      {/if}
 	  {/foreach}
   </div>
 </div>
