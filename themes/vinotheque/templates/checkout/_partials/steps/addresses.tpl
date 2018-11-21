@@ -36,15 +36,7 @@
       <h2 class="h2">{l s='Shipping Address' d='Shop.Theme.Checkout'}</h2>
     {/if}
 
-    {hook h="displayCartRuleAddress"}{if $use_same_address && !$cart.is_virtual}
-      <p>
-        {l s='The selected address will be used both as your personal address (for invoice) and as your shipping address.' d='Shop.Theme.Checkout'}
-      </p>
-    {elseif $use_same_address && $cart.is_virtual}
-      <p>
-        {l s='The selected address will be used as your personal address (for invoice).' d='Shop.Theme.Checkout'}
-      </p>
-    {/if}
+    {hook h="displayCartRuleAddress"}
 
     {if $show_delivery_address_form}
       <div id="delivery-address">

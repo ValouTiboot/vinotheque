@@ -15,6 +15,16 @@
     data-id-address="{$id_address}"
     data-refresh-url="{url entity='order' params=['ajax' => 1, 'action' => 'addressForm']}"
   >
+
+  {if $use_same_address && !$cart.is_virtual}
+    <p>
+      {l s='The selected address will be used both as your personal address (for invoice) and as your shipping address.' d='Shop.Theme.Checkout'}
+    </p>
+  {elseif $use_same_address && $cart.is_virtual}
+    <p>
+      {l s='The selected address will be used as your personal address (for invoice).' d='Shop.Theme.Checkout'}
+    </p>
+  {/if}
 {/block}
 
 {block name='form_fields' append}
