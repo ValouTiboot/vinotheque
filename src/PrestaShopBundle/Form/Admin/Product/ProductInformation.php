@@ -296,7 +296,10 @@ class ProductInformation extends CommonAbstractType
 
         $products = array();
         foreach ($this->productDataProvider->getProductInstance()->getSimpleProducts(1) as $product)
-            $products[$product['reference']] = $product['name'];
+        {
+            if (!empty($product['reference']))
+                $products[$product['reference']] = $product['name'];
+        }
 
         $builder->add('id_second_wine', 'Symfony\Component\Form\Extension\Core\Type\ChoiceType', array(
             'label' => false,
