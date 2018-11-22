@@ -34,8 +34,12 @@ class Product extends ProductCore
 	   
 		parent::__construct($id_product, $full, $id_lang, $id_shop, $context);
         foreach (array('property_picture','calling_picture_big','calling_picture_small') as $pics)
-        if (file_exists(_PS_ROOT_DIR_.'/ftp/Images/'.(int) $this->{$pics}))
-            $this->{$pics} = '/ftp/Images/'.(int) $this->{$pics};
+        {        
+            if (file_exists(_PS_ROOT_DIR_.'/ftp/Images/'.(int) $this->{$pics}))
+                $this->{$pics} = '/ftp/Images/'.(int) $this->{$pics};
+            else
+                $this->{$pics} = false;
+        }
 	}
     
     public static function getIdByRef($ref)
@@ -430,9 +434,20 @@ class Product extends ProductCore
                 ORDER BY pl.`name`';
         return Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
     }
+    public static function isPrivateSaleProduct($id_product)
+    {
+        $categories = Product::getProductCategoriesFull($id_product);
+        if (count($categories))
+        foreach ($categories as $category)
+        {
+            if (preg_match('@privée@i', $category['name']))
+                return true;
+        }
+        return false;
+    }
     /*
     * module: orderfees
-    * date: 2018-10-29 07:39:22
+    * date: 2018-11-19 10:31:03
     * version: 1.8.9
     */
     public static function priceCalculation(
@@ -505,19 +520,5 @@ class Product extends ProductCore
             $real_quantity,
             $id_customization
         ) + (float) Tools::ps_round((float) $total, 2);
-    }
-
-    public static function isPrivateSaleProduct($id_product)
-    {
-        $categories = Product::getProductCategoriesFull($id_product);
-
-        if (count($categories))
-        foreach ($categories as $category)
-        {
-            if (preg_match('@privée@i', $category['name']))
-                return true;
-        }
-
-        return false;
     }
 }

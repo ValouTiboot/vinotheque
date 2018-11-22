@@ -348,12 +348,16 @@
                   <div id="product-property">
                     <h3>{l s='La propriété' d='Shop.Theme.Catalog'}</h3>
                     <div class="row">
+                      {if $product.property_picture}
                       <div class="col-4">
-                          <img src="/ftp/Images/{$product.property_picture}">
+                          <img src="{$product.property_picture}">
                       </div>
-                      <div class="col-8">
+                      {/if}
+                      <div class="{if $product.property_picture}col-8{else}col-12{/if}">
                         <div>{$product.property nofilter}</div>
-                          <a class="btn btn-secondary" href="{$product.property_link nofilter}">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
+                        {if !empty($product.property_link)}
+                        <a class="btn btn-secondary" href="{$product.property_link nofilter}">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
+                        {/if}
                       </div>
                     </div>
                   </div>
