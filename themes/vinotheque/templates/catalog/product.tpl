@@ -256,7 +256,7 @@
 
                                 {block name='product_add_to_cart'}
                                   {include file='catalog/_partials/product-add-to-cart.tpl'}
-                                {/block}
+                                  {/block}
 
                                 {block name='hook_product_buttons'}
                                   {hook h='displayProductButtons' product=$product}
@@ -310,11 +310,17 @@
                   <section class="product-features">
                     <ul class="row">
                       {foreach from=$product.features item=feature}
-                        {if $feature.id_feature != 2 && $feature.id_feature != 3 && $feature.id_feature != 5} {* Couleur Degré Région *}
+                        {if !preg_match('@couleur|degr|région@i', $feature.name)} {* Couleur Degré Région *}
                             <li class="col-md-6 col-12">
                                 <div class="row">
                                     <div class="product-features-name col-xl-3 col-lg-4 col-6">{$feature.name}</div>
-                                    <div class="product-features-value col-xl-9 col-lg-8 col-6">{$feature.value}</div>
+                                    {if preg_match('@cépage@i', $feature.name)}
+                                      <div class="product-features-value col-xl-9 col-lg-8 col-6">{$product.grape}</div>
+                                    {elseif preg_match('@récompense@i', $feature.name)}
+                                      <div class="product-features-value col-xl-9 col-lg-8 col-6">{$product.reward}</div>
+                                    {else}
+                                      <div class="product-features-value col-xl-9 col-lg-8 col-6">{$feature.value}</div>
+                                    {/if}
                                 </div>
                             </li>
                         {/if}
