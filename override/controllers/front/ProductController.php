@@ -108,6 +108,7 @@ class ProductController extends ProductControllerCore
         $product_full['accessories'] = $this->getAccessories();
 
         $categories = Product::getProductCategories($product['id_product']);
+        $product_full['property'] = '';
 
         if (count($categories) > 0)
         foreach ($categories as $cat)
