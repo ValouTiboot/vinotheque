@@ -1,4 +1,4 @@
-{if isset($as_searchs)}
+{if isset($as_searchs) && ((isset($listing.products) && count($listing.products)) || (isset($products) && count($products)))}
 <div id="as4_search_filters">
 	<div id="search_filters_wrapper" class="{if $hookName eq 'leftcolumn' || $hookName eq 'rightcolumn'}col-12{/if} hidden-sm-down">
 	{if isset($hideAS4Form) && $hideAS4Form == true}<div id="PM_ASFormContainerHidden" style="display: none">{/if}
@@ -12,7 +12,7 @@
 			<form action="{$ASSearchUrlForm}" method="GET" id="PM_ASForm_{$as_search.id_search|intval}" class="PM_ASForm">
 				{if $hookName == 'displayTopFaceted' || $as_search.id_search == 2}<div class="container">{/if}
 				<div class="PM_ASCriterionsGroupList{if $hookName != 'leftcolumn' && $hookName != 'rightcolumn'} row{/if}">
-					{if ($hookName == 'displayTopFaceted'  || $as_search.id_search == 2)}
+					{if ($hookName == 'displayTopFaceted' || $as_search.id_search == 2)}
 					<div class="col-lg-5 input-group">
 				        <span class="input-group-addon"><i class="icon-v-search"></i></span>
 				        <input type="text" id="search_input" name="search_query" class="form-control" placeholder="{l s='Je recherche' d='Shop.Theme'}" required value="{if isset($smarty.get.search_query)}{$smarty.get.search_query}{/if}">
