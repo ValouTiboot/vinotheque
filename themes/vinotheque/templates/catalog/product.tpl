@@ -316,8 +316,8 @@
                                     <div class="product-features-name col-xl-3 col-lg-4 col-6">{$feature.name}</div>
                                     {if preg_match('@cépage@i', $feature.name)}
                                       <div class="product-features-value col-xl-9 col-lg-8 col-6">{$product.grape}</div>
-                                    {elseif preg_match('@récompense@i', $feature.name)}
-                                      <div class="product-features-value col-xl-9 col-lg-8 col-6">{$product.reward}</div>
+                                    {elseif preg_match('@notation@i', $feature.name)}
+                                      <div class="product-features-value col-xl-9 col-lg-8 col-6">{$product.notation}</div>
                                     {else}
                                       <div class="product-features-value col-xl-9 col-lg-8 col-6">{$feature.value}</div>
                                     {/if}
