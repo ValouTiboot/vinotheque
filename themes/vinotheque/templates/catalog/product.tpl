@@ -369,8 +369,9 @@
                 <div id="product-calling">
                   <h3>{l s='L\'appellation' d='Shop.Theme.Catalog'}</h3>
                   <div class="row">
+                    {if $product.calling_picture_small}
                     <div class="col-4">
-                        <img class="appellation-image" src="/ftp/Images/{$product.calling_picture_small}">
+                        <img class="appellation-image" src="{$product.calling_picture_small}">
                         <div class="layer hidden-sm-down" data-toggle="modal" data-target="#appellation-modal">
                             <i class="material-icons zoom-in">&#xE8FF;</i>
                         </div>
@@ -378,16 +379,17 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body">
-										{assign var=imagesCount value=$product.images|count}
-                                        <figure>
-                                            <img width="100%" src="/ftp/Images/{$product.calling_picture_big}">
-                                        </figure>
+										                  {assign var=imagesCount value=$product.images|count}
+                                       <figure>
+                                        <img width="100%" src="/ftp/Images/{$product.calling_picture_big}">
+                                      </figure>
                                     </div>
                                 </div><!-- /.modal-content -->
                             </div><!-- /.modal-dialog -->
                         </div><!-- /.modal -->
                     </div>
-                    <div class="col-8">{$product.calling nofilter}</div>
+                    {/if}
+                    <div class="{if $product.calling_picture_small}col-8{else}col-12{/if}">{$product.calling nofilter}</div>
                   </div>
                 </div>
               {/if}
