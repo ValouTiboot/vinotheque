@@ -106,20 +106,22 @@ class FrontController extends FrontControllerCore
 
         $products = Db::getInstance()->executeS($sql);
 
-        if (!count($products))
-            $category['best_seller'] = 0;
+        $category['best_seller'] = 0;
+        
+        if (count($products))
+        {
+            $product = $products[rand(0,count($products)-1)];
 
-        $product = $products[rand(0,count($products)-1)];
+            $productSettings = $this->getProductPresentationSettings();
+            $presenter = $this->getProductPresenter();
+            $assembler = new ProductAssembler(Context::getContext());
 
-        $productSettings = $this->getProductPresentationSettings();
-        $presenter = $this->getProductPresenter();
-        $assembler = new ProductAssembler(Context::getContext());
-
-        $category['best_seller'] = $presenter->present(
-            $productSettings,
-            $assembler->assembleProduct($product),
-            $this->context->language
-        );
+            $category['best_seller'] = $presenter->present(
+                $productSettings,
+                $assembler->assembleProduct($product),
+                $this->context->language
+            );
+        }
 
         return $category;
     }
