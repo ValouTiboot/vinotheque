@@ -7926,31 +7926,31 @@ ul.product-labels li {
 #category #footer {
   margin-top: 0; }
 
-#category #products #category-highlight, #search #products #category-highlight {
+#products #category-highlight, #search #products #category-highlight {
   margin-top: 0.625rem;
   margin-bottom: 1.875rem; }
-  #category #products #category-highlight img, #search #products #category-highlight img {
+  #products #category-highlight img, #search #products #category-highlight img {
     width: 100%; }
-  #category #products #category-highlight #best_seller .best_seller_image, #search #products #category-highlight #best_seller .best_seller_image {
+  #products #category-highlight #best_seller .best_seller_image, #search #products #category-highlight #best_seller .best_seller_image {
     border: 1px solid #e2e2e2;
     padding: 0; }
-  #category #products #category-highlight #best_seller .best_seller_picto, #search #products #category-highlight #best_seller .best_seller_picto {
+  #products #category-highlight #best_seller .best_seller_picto, #search #products #category-highlight #best_seller .best_seller_picto {
     border-width: 1px 0;
     border-style: solid;
     border-color: #e2e2e2;
     background: #f1f1f1;
     position: relative; }
-    #category #products #category-highlight #best_seller .best_seller_picto img, #search #products #category-highlight #best_seller .best_seller_picto img {
+    #products #category-highlight #best_seller .best_seller_picto img, #search #products #category-highlight #best_seller .best_seller_picto img {
       position: absolute;
       top: 1.125rem;
       left: -1.5rem;
       max-width: 156px; }
-  #category #products #category-highlight #best_seller .best_seller_name, #search #products #category-highlight #best_seller .best_seller_name {
+  #products #category-highlight #best_seller .best_seller_name, #search #products #category-highlight #best_seller .best_seller_name {
     border-width: 1px 0;
     border-style: solid;
     border-color: #e2e2e2;
     background: #f1f1f1; }
-    #category #products #category-highlight #best_seller .best_seller_name .category-name, #search #products #category-highlight #best_seller .best_seller_name .category-name {
+    #products #category-highlight #best_seller .best_seller_name .category-name, #search #products #category-highlight #best_seller .best_seller_name .category-name {
       color: #b61f38;
       font-size: 1.0625rem;
       font-weight: 300;
@@ -7959,45 +7959,45 @@ ul.product-labels li {
       padding: 5px 0;
       margin: 10px 0 14px;
       text-align: center; }
-    #category #products #category-highlight #best_seller .best_seller_name .feature-name, #search #products #category-highlight #best_seller .best_seller_name .feature-name {
+    #products #category-highlight #best_seller .best_seller_name .feature-name, #search #products #category-highlight #best_seller .best_seller_name .feature-name {
       text-transform: uppercase; }
-    #category #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping {
+    #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping {
       font-size: 0.875rem;
       padding: 17px 0 24px; }
-      #category #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .regular-price, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .regular-price {
+      #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .regular-price, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .regular-price {
         text-decoration: line-through;
         font-weight: bold;
         font-size: 1.125rem; }
-      #category #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price {
+      #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price, #search #products #category-highlight #best_seller .best_seller_name .product-price-and-shipping .price {
         font-size: 1.5625rem;
         font-weight: 600;
         color: #b61f38; }
-  #category #products #category-highlight #best_seller .best_seller_buttons, #search #products #category-highlight #best_seller .best_seller_buttons {
+  #products #category-highlight #best_seller .best_seller_buttons, #search #products #category-highlight #best_seller .best_seller_buttons {
     background: #e0e0e0;
     border-width: 1px 1px 1px 0;
     border-style: solid;
     border-color: #e2e2e2;
     text-align: center; }
-    #category #products #category-highlight #best_seller .best_seller_buttons .btn-primary, #search #products #category-highlight #best_seller .best_seller_buttons .btn-primary {
+    #products #category-highlight #best_seller .best_seller_buttons .btn-primary, #search #products #category-highlight #best_seller .best_seller_buttons .btn-primary {
       border-color: white; }
-    #category #products #category-highlight #best_seller .best_seller_buttons > a, #search #products #category-highlight #best_seller .best_seller_buttons > a {
+    #products #category-highlight #best_seller .best_seller_buttons > a, #search #products #category-highlight #best_seller .best_seller_buttons > a {
       width: 80%;
       margin-top: 25%;
       padding-left: 0;
       padding-right: 0; }
-    #category #products #category-highlight #best_seller .best_seller_buttons > div, #search #products #category-highlight #best_seller .best_seller_buttons > div {
+    #products #category-highlight #best_seller .best_seller_buttons > div, #search #products #category-highlight #best_seller .best_seller_buttons > div {
       padding: 0 10%; }
-      #category #products #category-highlight #best_seller .best_seller_buttons > div > a, #search #products #category-highlight #best_seller .best_seller_buttons > div > a {
+      #products #category-highlight #best_seller .best_seller_buttons > div > a, #search #products #category-highlight #best_seller .best_seller_buttons > div > a {
         margin-right: 8%; }
-      #category #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block a, #search #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block a {
+      #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block a, #search #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block a {
         width: 100%; }
-      #category #products #category-highlight #best_seller .best_seller_buttons > div a.add-to-cart, #category #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block, #search #products #category-highlight #best_seller .best_seller_buttons > div a.add-to-cart, #search #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block {
+      #products #category-highlight #best_seller .best_seller_buttons > div a.add-to-cart, #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block, #search #products #category-highlight #best_seller .best_seller_buttons > div a.add-to-cart, #search #products #category-highlight #best_seller .best_seller_buttons > div #wishlist_button_block {
         float: left;
         width: 46%; }
-      #category #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary {
+      #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary {
         padding: 0.3125rem 1.375rem;
         margin-top: 0.9375rem; }
-        #category #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:hover, #category #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:focus, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:hover, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:focus {
+        #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:hover, #category #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:focus, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:hover, #search #products #category-highlight #best_seller .best_seller_buttons > div .btn-primary:focus {
           border-color: #b61f38; }
 
 #category #products #js-product-list-top, #category #products #js-product-list .pagination, #search #products #js-product-list-top, #search #products #js-product-list .pagination {
@@ -8013,7 +8013,7 @@ ul.product-labels li {
   margin: 3.4375rem 0 4.375rem; }
 
 @media (max-width: 991px) {
-  #category #products #category-highlight #best_seller .best_seller_buttons > a {
+  #products #category-highlight #best_seller .best_seller_buttons > a {
     margin-top: 1.25rem; } }
 
 #custom-text {
