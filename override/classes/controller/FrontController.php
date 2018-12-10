@@ -107,7 +107,7 @@ class FrontController extends FrontControllerCore
         $products = Db::getInstance()->executeS($sql);
 
         if (!count($products))
-            $category['best_seller'] = false;
+            $category['best_seller'] = 0;
 
         $product = $products[rand(0,count($products)-1)];
 
