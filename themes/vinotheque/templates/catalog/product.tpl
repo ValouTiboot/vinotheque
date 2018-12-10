@@ -112,83 +112,28 @@
                             <div id="product-features-pictos">
                               {if $product.features}
                               <ul class="row">
-                                {*Année*}
-								  {if isset($product.features[1])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-agenda"></i>
-                                              <span>{$product.features[1].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Région*}
-								  {if isset($product.features[2])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-france"></i>
-                                              <span>{$product.features[2].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Couleur*}
-								  {if isset($product.features[3])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-bottles"></i>
-                                              <span>{$product.features[3].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Appellation*}
-								  {if isset($product.features[4])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-tag"></i>
-                                              <span>{$product.features[4].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Degré*}
-								  {if isset($product.features[5])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-temperature"></i>
-                                              <span>{$product.features[5].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-                                {*Classification*}
-								  {if isset($product.features[7])}
-                                      <li class="col-xl-4 col-sm-6">
-                                          <div>
-                                              <i class="icon-v-reward"></i>
-                                              <span>{$product.features[7].value}</span>
-                                          </div>
-                                      </li>
-								  {/if}
-
-                                {*{foreach from=$product.features item=feature}*}
-                                    {*{if in_array($feature.name, array('Année','Région','Couleur','Appellation','Degré','Classification'))}*}
-                                        {*<li class="col-xl-4 col-sm-6">*}
-                                            {*<div>*}
-                                                {*{if $feature.name == 'Année'}*}
-                                                    {*<i class="icon-v-agenda"></i>*}
-                                                {*{elseif $feature.name == 'Région'}*}
-                                                    {*<i class="icon-v-france"></i>*}
-                                                {*{elseif $feature.name == 'Couleur'}*}
-                                                    {*<i class="icon-v-bottles"></i>*}
-                                                {*{elseif $feature.name == 'Appellation'}*}
-                                                    {*<i class="icon-v-tag"></i>*}
-                                                {*{elseif $feature.name == 'Degré'}*}
-                                                    {*<i class="icon-v-temperature"></i>*}
-                                                {*{elseif $feature.name == 'Classification'}*}
-                                                    {*<i class="icon-v-reward"></i>*}
-                                                {*{/if}*}
-                                                {*<span>{$feature.value}</span>*}
-                                            {*</div>*}
-                                        {*</li>*}
-                                    {*{/if}*}
-                                {*{/foreach}*}
+                                {foreach from=$product.features item=feature}
+                                  {if in_array($feature.name, array('Millésime','Région','Couleur','Appellation','Degré','Classification'))}
+                                    <li class="col-xl-4 col-sm-6">
+                                      <div>
+                                        {if $feature.name == 'Millésime'}
+                                          <i class="icon-v-agenda"></i>
+                                        {elseif $feature.name == 'Région'}
+                                          <i class="icon-v-france"></i>
+                                        {elseif $feature.name == 'Couleur'}
+                                          <i class="icon-v-bottles"></i>
+                                        {elseif $feature.name == 'Appellation'}
+                                          <i class="icon-v-tag"></i>
+                                        {elseif $feature.name == 'Degré'}
+                                          <i class="icon-v-temperature"></i>
+                                        {elseif $feature.name == 'Classification'}
+                                            <i class="icon-v-reward"></i>
+                                        {/if}
+                                        <span>{$feature.value}</span>
+                                      </div>
+                                    </li>
+                                  {/if}
+                                {/foreach}
                               </ul>
                               {/if}
                             </div>
@@ -310,7 +255,7 @@
                   <section class="product-features">
                     <ul class="row">
                       {foreach from=$product.features item=feature}
-                        {if !preg_match('@couleur|degr|région@i', $feature.name)} {* Couleur Degré Région *}
+                        {if !preg_match('@millésime|couleur|degr|région|classification|appellation@i', $feature.name)} {* Couleur Degré Région *}
                             <li class="col-md-6 col-12">
                                 <div class="row">
                                     <div class="product-features-name col-xl-3 col-lg-4 col-6">{$feature.name}</div>

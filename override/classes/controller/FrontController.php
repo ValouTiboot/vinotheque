@@ -56,4 +56,71 @@ class FrontController extends FrontControllerCore
         }
         parent::init();
     }
+
+    /**
+     * Initializes common front page content: header, footer and side columns.
+     */
+    public function initContent()
+    {
+        $this->assignGeneralPurposeVariables();
+        $this->process();
+
+        if (!isset($this->context->cart)) {
+            $this->context->cart = new Cart();
+        }
+
+        if ($this instanceof pm_advancedsearch4searchresultsModuleFrontController)
+            $this->context->smarty->assign(array('category' => $this->getTemplateVarsCategory()));
+
+        $this->context->smarty->assign(array(
+            'HOOK_HEADER' => Hook::exec('displayHeader'),
+        ));
+    }
+
+    protected function getTemplateVarsCategory()
+    {
+        $cat = new Category(Tools::getValue('id_category_search'), $this->context->language->id);
+        $category = $this->objectPresenter->present($cat);
+        $category['image'] = $this->getImage(
+            $cat,
+            $cat->id_image
+        );
+
+        $images_types = ImageType::getImagesTypes('categories');
+        $images = [];
+        $ext = pathinfo($cat->id_image_highlight, PATHINFO_EXTENSION);
+
+        foreach ($images_types as $k => $image_type)
+        if (file_exists(_PS_CAT_IMG_DIR_.'highlight/'.$cat->id.'-'.$image_type['name'].'.'.$ext))
+            $images[$image_type['name']] = $this->context->link->getMediaLink('/img/c/highlight/'.$cat->id.'-'.$image_type['name'].'.'.$ext);
+
+        $category['image_highlight'] = $images;
+        
+        $sql = "SELECT P.`id_product`, SUM(OD.`product_quantity`) as mq
+            FROM `" . _DB_PREFIX_ . "product` P
+            RIGHT JOIN `" . _DB_PREFIX_ . "order_detail` OD ON OD.`product_id`=P.`id_product`
+            WHERE P.`active`='1' AND P.`id_category_default`='" . pSQL($cat->id) . "'
+            GROUP BY OD.`product_id`
+            ORDER BY mq DESC
+            LIMIT 5";
+
+        $products = Db::getInstance()->executeS($sql);
+
+        if (!count($products))
+            return false;
+
+        $product = $products[rand(0,count($products)-1)];
+
+        $productSettings = $this->getProductPresentationSettings();
+        $presenter = $this->getProductPresenter();
+        $assembler = new ProductAssembler(Context::getContext());
+
+        $category['best_seller'] = $presenter->present(
+            $productSettings,
+            $assembler->assembleProduct($product),
+            $this->context->language
+        );
+
+        return $category;
+    }
 }
