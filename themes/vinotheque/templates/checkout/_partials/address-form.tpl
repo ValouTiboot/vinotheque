@@ -49,8 +49,8 @@
 
 {block name='form_buttons'}
   {if !$form_has_continue_button}
-    <a href="{url entity='order' params=['cancelAddress' => {$type}]}">{l s='Cancel' d='Shop.Theme.Actions'}</a>
-    <button type="submit">{l s='Save Address' d='Shop.Theme.Actions'}</button>
+    <a class="btn btn-secondary" href="{url entity='order' params=['cancelAddress' => {$type}]}">{l s='Cancel' d='Shop.Theme.Actions'}</a>
+    <button class="btn btn-primary" type="submit">{l s='Save Address' d='Shop.Theme.Actions'}</button>
   {else}
     {if $customer.addresses|count > 0}
       <a class="btn btn-secondary" href="{url entity='order' params=['cancelAddress' => {$type}]}">{l s='Cancel' d='Shop.Theme.Actions'}</a>
