@@ -30,5 +30,4 @@
 	{l s='Enter voucher name %s to receive the reduction on this order.' sprintf=[$discount->name] mod='referralbyphone'}
 	<a href="{$link->getPageLink('discount', true)|escape:'html':'UTF-8'}" title="{l s='Referral program' mod='referralbyphone'}" rel="nofollow">{l s='View your referral program.' mod='referralbyphone'}</a>
 </p>
-<br />
 <!-- END : MODULE ReferralProgramPlus -->
