@@ -62,12 +62,9 @@
 		  {/foreach}
 
 		  {block name='cart_voucher'}
-            <div class="cart-voucher-details">
-              <a href="javascript:void(0)" onclick="return false;">
-				        {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
-              </a>
-				{include file='checkout/_partials/cart-voucher.tpl'}
-            </div>
+        <div class="cart-voucher-details">
+				  {include file='checkout/_partials/cart-voucher.tpl'}
+        </div>
 		  {/block}
       </div>
 	{/block}
