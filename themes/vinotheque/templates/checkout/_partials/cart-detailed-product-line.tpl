@@ -36,14 +36,33 @@
       <a class="label" href="{$product.url}" data-id_customization="{$product.id_customization|intval}">{$product.name}</a>
     </div>
 
-    {$product.features_name}
-    {if $product.category == 'primeurs'}
-        <div class="badge badge-primeur">
-			{$product.category_name}
-        </div>
+    {if $product.wine}
+      <div class="badge badge-primeur">
+        {l s='Primeurs' d='Shop.Theme.Catalog'}
+      </div>
     {else}
         {$product.category_name}
     {/if}
+
+    {if count($product.features) > 0}
+      {foreach from=$product.features item=feature}
+        {assign var={$feature.name|strtolower|replace:'é':'e'} value=$feature.value}
+      {/foreach}
+    {/if}
+
+    <div>
+      {if (isset($couleur))}
+        {$couleur}
+      {/if}
+      {if isset($couleur) && isset($millesime)}
+         - 
+      {/if}
+      {if (isset($millesime))}
+        {$millesime}
+      {/if}
+    </div>
+
+    <div>{if isset($appellation)}{$appellation}{/if}</div>
 
     {*<div class="product-line-info">*}
       {*<span class="value">{$product.price}</span>*}
@@ -62,7 +81,9 @@
     {/foreach}
 
     {if $product.wine}
-      {l s='Delivery date' d='Shop.Theme.Catalog'} {$product.wine_delivery}
+      <div id="delivery_wine">
+        {l s='Delivery date' d='Shop.Theme.Catalog'} {$product.wine_delivery|date_format:'d/m/Y'}
+      </div>
     {/if}
 
     {if $product.customizations|count}

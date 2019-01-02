@@ -7376,6 +7376,10 @@ small.label, small.value {
         font-size: 90%;
         font-weight: normal;
         padding-top: 0.4em; }
+      #cart .cart-overview ul li .product-line-grid .product-line-grid-body #delivery_wine {
+        margin-top: 20px;
+        text-transform: uppercase;
+      }
     #cart .cart-overview ul li .product-line-grid .product-line-grid-right .js-cart-line-product-quantity {
       padding: 1rem;
       margin-right: 0.3125rem;
@@ -7770,9 +7774,6 @@ small.label, small.value {
         .product-miniature > div .product-thumbnail-box .product-list-actions a.add-to-cart {
           width: 48%;
           float: left; }
-        .product-miniature > div .product-thumbnail-box .product-list-actions a.wishlist {
-          width: 48%;
-          float: right; }
         .product-miniature > div .product-thumbnail-box .product-list-actions #product-attributes-list {
           margin: 3.75rem 0 0;
           width: 100%; }
