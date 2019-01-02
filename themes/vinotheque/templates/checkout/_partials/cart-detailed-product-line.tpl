@@ -80,11 +80,13 @@
       </div>
     {/foreach}
 
-    {if $product.wine}
-      <div id="delivery_wine">
+    <div id="delivery_wine">
+      {if $product.wine}
         {l s='Delivery date' d='Shop.Theme.Catalog'} {$product.wine_delivery|date_format:'d/m/Y'}
-      </div>
-    {/if}
+      {else}
+        {if $product.quantity <= 0}{l s='épuisé' d='Shop.Theme.Catalog'}{else}{l s='En stock' d='Shop.Theme.Catalog'}{/if}
+      {/if}
+    </div>
 
     {if $product.customizations|count}
       <br>
