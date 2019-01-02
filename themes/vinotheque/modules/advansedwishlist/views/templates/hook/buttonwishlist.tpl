@@ -14,8 +14,9 @@
         {/if}
     </div>
 {else}
-    <div class="wrap_allert">
-        <a class="wishlist" href="#" onclick="return false;" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+    <div id="wishlist_button_block" class="buttons_bottom_block wrap_allert">
+        <a class="wishlist btn btn-primary" href="#" onclick="return false;" title="{l s='Ajouter à ma liste d\'envie' mod='advansedwishlist'}"><i class="icon-v-heart"></i></a>
+        <div class="allert_note">{l s='You must be logged' mod='advansedwishlist'}</div>
         {*<div class="allert_note">*}
             {*{l s='You must be logged' mod='advansedwishlist'}*}
             {*<p class="login_links">*}
