@@ -67,7 +67,12 @@
 .PM_ASBlockOutputVertical .PM_ASSubmitSearch {
     margin-top: 1.5rem;
 }
-
+.PM_ASBlockOutputVertical ul li {
+    margin-bottom: 5px;
+}
+.PM_ASBlockOutputVertical ul li label {
+    display: inline;
+}
 
 /* ===== Horizontal Search blocks ===== */
 
