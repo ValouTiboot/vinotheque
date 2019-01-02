@@ -1,9 +1,9 @@
 <?php
 class Product extends ProductCore
 {
-	public $wine = 0;
+    public $wine = 0;
     public $wine_date = '0000-00-00';
-    
+
     public $wine_delivery = '0000-00-00';
     public $property;
     public $property_picture;
@@ -11,28 +11,28 @@ class Product extends ProductCore
     public $calling_picture_big;
     public $calling_picture_small;
     public $id_second_wine;
-    
+
     public $shop_quantity = 0;
     public $grape;
     public $reward;
     public $notation;
     public function __construct($id_product = null, $full = false, $id_lang = null, $id_shop = null, Context $context = null)
-	{
-		Product::$definition['fields']['wine'] = array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool');
-		Product::$definition['fields']['wine_date'] = array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat');
-		Product::$definition['fields']['wine_delivery'] = array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat');
-		Product::$definition['fields']['property'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
+    {
+        Product::$definition['fields']['wine'] = array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool');
+        Product::$definition['fields']['wine_date'] = array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat');
+        Product::$definition['fields']['wine_delivery'] = array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat');
+        Product::$definition['fields']['property'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
         Product::$definition['fields']['property_picture'] = array('type' => self::TYPE_STRING, 'validate' => 'isString');
         Product::$definition['fields']['calling'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
         Product::$definition['fields']['calling_picture_big'] = array('type' => self::TYPE_STRING, 'validate' => 'isString');
-		Product::$definition['fields']['calling_picture_small'] = array('type' => self::TYPE_STRING, 'validate' => 'isString');
+        Product::$definition['fields']['calling_picture_small'] = array('type' => self::TYPE_STRING, 'validate' => 'isString');
         Product::$definition['fields']['id_second_wine'] = array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isReference');
         Product::$definition['fields']['shop_quantity'] = array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isInt');
-        Product::$definition['fields']['grape'] = array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255);
-        Product::$definition['fields']['reward'] = array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255);
-		Product::$definition['fields']['notation'] = array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255);
-	   
-		parent::__construct($id_product, $full, $id_lang, $id_shop, $context);
+        Product::$definition['fields']['grape'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
+        Product::$definition['fields']['reward'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
+        Product::$definition['fields']['notation'] = array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml');
+
+        parent::__construct($id_product, $full, $id_lang, $id_shop, $context);
         foreach (array('property_picture','calling_picture_big','calling_picture_small') as $pics)
         {        
             if (file_exists(_PS_ROOT_DIR_.'/ftp/Images/'.(int) $this->{$pics}))
@@ -40,13 +40,13 @@ class Product extends ProductCore
             else
                 $this->{$pics} = false;
         }
-	}
-    
+    }
+
     public static function getIdByRef($ref)
     {
         return Db::getInstance()->getValue("SELECT `id_product` FROM `" . _DB_PREFIX_ . "product` WHERE `reference`='" . pSQL($ref) . "'");
     }
-	public function updateAttribute($id_product_attribute, $wholesale_price, $price, $weight, $unit, $ecotax,
+    public function updateAttribute($id_product_attribute, $wholesale_price, $price, $weight, $unit, $ecotax,
         $id_images, $reference, $ean13, $default, $location = null, $upc = null, $minimal_quantity = null, $available_date = null, $update_all_fields = true, array $id_shop_list = array(), $isbn = '', $shop_quantity = null, $packaging_price)
     {
         $combination = new Combination($id_product_attribute);
@@ -84,7 +84,7 @@ class Product extends ProductCore
         if (count($id_shop_list)) {
             $combination->id_shop_list = $id_shop_list;
         }
-        
+
         $combination->save();
         if (is_array($id_images) && count($id_images)) {
             $combination->setImages($id_images);
@@ -149,24 +149,24 @@ class Product extends ProductCore
         if (count($id_shop_list)) {
             $combination->id_shop_list = array_unique($id_shop_list);
         }
-        
+
         $combination->add();
         
         if (!$combination->id) {
             return false;
         }
-        
+
         $total_quantity = (int)Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue('
             SELECT SUM(quantity) as quantity
             FROM '._DB_PREFIX_.'stock_available
             WHERE id_product = '.(int)$this->id.'
             AND id_product_attribute <> 0 '
         );
-        
+
         if (!$total_quantity) {
             Db::getInstance()->update('stock_available', array('quantity' => 0), '`id_product` = '.$this->id);
         }
-        
+
         $id_default_attribute = Product::updateDefaultAttribute($this->id);
         if ($id_default_attribute) {
             $this->cache_default_attribute = $id_default_attribute;
@@ -178,7 +178,7 @@ class Product extends ProductCore
             $combination->setImages($id_images);
         }
         Tools::clearColorListCache($this->id);
-        
+
         if (Configuration::get('PS_DEFAULT_WAREHOUSE_NEW_PRODUCT') != 0 && Configuration::get('PS_ADVANCED_STOCK_MANAGEMENT')) {
             $warehouse_location_entity = new WarehouseProductLocation();
             $warehouse_location_entity->id_product = $this->id;
@@ -187,7 +187,7 @@ class Product extends ProductCore
             $warehouse_location_entity->location = pSQL('');
             $warehouse_location_entity->save();
         }
-        
+
         StockAvailable::setShopQuantity((int)$this->id, $combination->id, $combination->shop_quantity);
         return (int)$combination->id;
     }
@@ -387,7 +387,7 @@ class Product extends ProductCore
         self::$producPropertiesCache[$cache_key] = $row;
         return self::$producPropertiesCache[$cache_key];
     }
-    
+
     public static function cacheProductsFeatures($product_ids)
     {
         if (!Feature::isFeatureActive()) {
@@ -415,7 +415,7 @@ class Product extends ProductCore
             self::$_cacheFeatures[$row['id_product']][] = $row;
         }
     }
-    
+
     public static function getSimpleProducts($id_lang, Context $context = null)
     {
         if (!$context) {
@@ -475,7 +475,7 @@ class Product extends ProductCore
     ) {
         $total = 0;
         $return = false;
-        
+
         Hook::exec('actionProductPriceCalculation', array(
             'id_shop' => &$id_shop,
             'id_product' => &$id_product,
@@ -492,11 +492,11 @@ class Product extends ProductCore
             'total' => &$total,
             'return' => &$return
         ));
-        
+
         if ($return) {
             return (float) Tools::ps_round((float) $total, 2);
         }
-        
+
         return parent::priceCalculation(
             $id_shop,
             $id_product,
