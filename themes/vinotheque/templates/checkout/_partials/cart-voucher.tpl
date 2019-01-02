@@ -28,13 +28,20 @@
       {block name='cart_voucher_list'}
         <ul>
           {foreach from=$cart.vouchers.added item=voucher}
-            <li>
+            <li class="clearfix">
               {$voucher.name}
-              <a href="{$voucher.delete_url}" data-link-action="remove-voucher">{l s='Remove' d='Shop.Theme.Actions'}</a>
+              <a class="remove-voucher" href="{$voucher.delete_url}" data-link-action="remove-voucher">{l s='Remove' d='Shop.Theme.Actions'}</a>
+              <span class="pull-right value">{$voucher.reduction_formatted}</span>
             </li>
           {/foreach}
         </ul>
       {/block}
+
+      <div class="cart-voucher-details">
+        <a href="javascript:void(0)" onclick="return false;">
+          {l s='Vous avez un bon de réduction' d='Shop.Theme.Actions'}?
+        </a>
+      </div>
 
       {block name='cart_voucher_form'}
         <form action="{$urls.pages.cart}" data-link-action="add-voucher" method="post">
@@ -65,3 +72,4 @@
     </div>
   {/if}
 {/block}
+
