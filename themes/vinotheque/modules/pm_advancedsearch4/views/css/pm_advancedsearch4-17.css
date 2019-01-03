@@ -601,7 +601,7 @@ a.PM_ASSelectionsRemoveLink:before {
 #top_faceted .card-block .PM_ASCriterionsGroupList #search_input:invalid {
     outline: none !important;
 }
-#top_faceted #as4_search_filters select {
+#top_faceted #search_filters select {
     border: 0px; 
     height: 100%;
     width: 100%;
