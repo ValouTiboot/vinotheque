@@ -10,7 +10,7 @@ class CartRule extends CartRuleCore
 {
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function __construct($id = null, $id_lang = null, $id_shop = null)
@@ -23,7 +23,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getContextualValue(
@@ -34,7 +34,33 @@ class CartRule extends CartRuleCore
         $use_cache = true
     ) {
         $current_filter = $filter;
-        
+
+        $products = Context::getContext()->cart->getProducts();
+        $add_price = 0;
+        $add_price_tax_exc = 0;
+        if (preg_match('@primeur@i', $this->name))
+        {
+            foreach ($products as $product)
+            {
+                if ($product['wine'])
+                {
+                    if ($use_tax)
+                    {
+                        $add_price += (($product['total_wt']*1.5)/100);
+                        $add_price_tax_exc += ($product['total_wt']*1.5)/100;
+                    }
+                }
+            }
+
+            if ($use_tax)
+            {
+                $this->reduction_amount += $add_price;
+                $this->unit_value_tax_exc -= $this->reduction_amount+$add_price_tax_exc;
+                // $this->unit_value_tax_inc -= $this->reduction_amount;
+                $this->unit_value_real -= $this->reduction_amount;
+            }
+        }
+
         $results = Hook::exec('actionCartRuleGetContextualValueBefore', array(
             'object' => &$this,
             'context' => &$context,
@@ -78,7 +104,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function checkValidity(
@@ -106,7 +132,7 @@ class CartRule extends CartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public static function getCustomerCartRules(
@@ -141,7 +167,7 @@ class CartRule extends CartRuleCore
     
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getAssociatedRestrictions(

@@ -54,28 +54,26 @@ class OrderFeesOverride extends OrderFees
     public function hookDisplayShoppingCartDetailFooter(&$params)
     {
         $params['discounts'] = $this->context->cart->getCartRules();
-        
-        $result = $this->displayFees($params, 'cart-voucher.tpl', self::CONTEXT_CART, self::CLEAN);
-        
+        $result = $this->displayFees($params, 'cart-voucher.tpl', self::CONTEXT_CART, self::CLEAN);        
         $cart = $params['smarty']->getTemplateVars('cart');
-        
         $price_formatter = new PrestaShop\PrestaShop\Adapter\Product\PriceFormatter();
+        $products = $this->context->cart->getProducts();
         
-        foreach ($params['discounts'] as $index => &$discount) {
-            if (($discount['is_fee'] & self::IS_FEE) && ($discount['is_fee'] & self::CONTEXT_CART)
-                || ($discount['is_fee'] & self::IS_SHIPPING)) {
+        foreach ($params['discounts'] as $index => &$discount) 
+        {
+            if ((!preg_match('@primeur@i', $discount['name'])) && ($discount['is_fee'] & self::IS_FEE) && ($discount['is_fee'] & self::CONTEXT_CART) || ($discount['is_fee'] & self::IS_SHIPPING)) 
+            {
                 unset($params['discounts'][$index]);
-                
                 continue;
             }
-            
-            if (isset($discount['reduction_percent']) && $discount['reduction_amount'] == '0.00') {
-                $discount['reduction_formatted'] = $discount['reduction_percent'].'%';
-            } elseif (isset($discount['reduction_amount']) && $discount['reduction_amount'] > 0) {
-                $discount['reduction_formatted'] = $price_formatter->format($discount['reduction_amount']);
-            }
 
-            $discount['reduction_formatted'] = '-'.$discount['reduction_formatted'];
+            if (preg_match('@primeur@i', $discount['name']))
+                $discount['reduction_formatted'] = $price_formatter->format(abs($discount['value_real']));
+            else if (isset($discount['reduction_percent']) && $discount['reduction_amount'] == '0.00') 
+                $discount['reduction_formatted'] = '-'.$discount['reduction_percent'].'%';
+            elseif (isset($discount['reduction_amount']) && $discount['reduction_amount'] > 0)
+                $discount['reduction_formatted'] = '-'.$price_formatter->format($discount['reduction_amount']);
+
             $discount['delete_url'] = $this->context->link->getPageLink(
                 'cart',
                 true,
@@ -86,106 +84,11 @@ class OrderFeesOverride extends OrderFees
                 )
             );
         }
-        
+
         $cart['vouchers']['added'] = $params['discounts'];
         $params['smarty']->assign('cart', $cart);
         
         return $result;
-    }
-
-    public function displayFees(&$params, $template, $context = self::CONTEXT_ALL, $setting = false)
-    {
-        if ($setting & self::IS_ORDER) {
-            $order = $params['order'];
-            $params['discounts'] = $this->getFeesByOrder(is_array($order) ? $order['id'] : $order);
-        } else {
-            $this->context->cart->current_type = self::DISABLE_CHECKING;
-        
-            CartRule::autoRemoveFromCart();
-            CartRule::autoAddToCart();
-
-            $params['discounts'] = $this->context->cart->getCartRules();
-        }
-        
-        $fees = array();
-        $discounts = $params['discounts'];
-        $cookie = Context::getContext()->cookie;
-        $products = $this->context->cart->getProducts();
-
-        foreach ($discounts as $index => &$discount) 
-        {
-            if (!($discount['is_fee'] & self::IS_FEE)) {
-                continue;
-            }
-
-            $add_price = 0;
-            if (preg_match('@primeur@i', $discount['name']))
-            {
-                foreach ($products as $product)
-                {
-                    if ($product['wine'])
-                    {
-	            		$add_price += (($product['total_wt']*1.5)/100)*1.2;
-	            	}
-	            }
-                $discounts[$index]['obj']->reduction_amount += $add_price;
-                // $discount['obj']->unit_value_real += $add_price;
-                // $discount['obj']->unit_value_real_exc += $add_price;
-                $discounts[$index]['reduction_amount'] += $add_price;
-                $discounts[$index]['value_real'] -= $add_price;
-                $discounts[$index]['value_tax_exc'] -= $add_price;
-            }
-            
-
-            if ($discount['is_fee'] & self::IS_OPTION) {
-                $option_selected = isset($cookie->{'enable_option_' . $discount['id_cart_rule']});
-
-                if (($discount['display_selectable'] & $context)
-                    || (($discount['display_visible'] & $context) && $option_selected)
-                ) {
-                    $discount['is_checked'] = isset($cookie->{'enable_option_' . $discount['id_cart_rule']});
-
-                    $fees[] = $discount;
-                }
-            } else {
-                if ($discount['display_visible'] & $context) {
-                    $fees[] = $discount;
-                }
-            }
-
-            if ($setting & self::CLEAN) {
-                unset($discounts[$index]);
-            }
-
-            if ($discount['is_fee'] & self::IS_SHIPPING) {
-                unset($discounts[$index]);
-            }
-        }
-        // echo '<pre>';
-        // print_r($fees);
-        // die();
-        
-        $this->context->smarty->assign(array(
-            'fees' => $fees,
-            'module' => $this
-        ));
-        
-        if (isset($params['smarty'])) {
-            $params['smarty']->assign('discounts', $discounts);
-        }
-        
-        if (Tools::version_compare('1.7', _PS_VERSION_)) {
-            $price_formatter = new PrestaShop\PrestaShop\Adapter\Product\PriceFormatter();
-        
-            $this->context->smarty->assign(array(
-                'tax' => new TaxConfiguration(),
-                'price' => $price_formatter
-            ));
-            
-            return $this->display(__FILE__, '1.7/' . $template);
-        }
-        
-        return $this->display(__FILE__, $template);
     }
 
     public function displayFeesOnPDF($params, $template, $context = self::CONTEXT_PDF)

@@ -312,16 +312,24 @@ class Cart extends CartCore
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public $current_type = null;
     
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getPackageShippingCost(
@@ -359,7 +367,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getCartRulesSort(&$a, &$b)
@@ -368,18 +376,47 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getCartRules($filter = CartRule::FILTER_ACTION_ALL)
     {
         $result = parent::getCartRules($filter);
+
+        if (count($result) > 0)
+        {
+            $products = $this->getProducts();
+            foreach ($result as $index => &$discount)
+            {
+                $add_price = 0;
+                $add_price_tax_exc = 0;
+                if (preg_match('@primeur@i', $discount['name']))
+                {
+                    foreach ($products as $product)
+                    {
+                        if ($product['wine'])
+                        {
+                            $add_price += (($product['total_wt']*1.5)/100);
+                            $add_price_tax_exc += ($product['total_wt']*1.5)/100;
+                        }
+                    }
+
+                    // $discount['obj']->reduction_amount += $add_price;
+                    // $discount['obj']->unit_value_real -= $add_price;
+                    // $discount['obj']->unit_value_tax_exc -= $add_price_tax_exc;
+                    $discount['value_real'] = $discount['obj']->unit_value_real;
+                    $discount['value_tax_exc'] = $discount['obj']->unit_value_tax_exc;
+                    $discount['reduction_amount'] = $discount['obj']->reduction_amount;
+                }
+            }
+        }
+
         usort($result, array($this, 'getCartRulesSort'));
         return $result;
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getOrderTotal(
@@ -408,7 +445,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function addCartRule($id_cart_rule)
@@ -430,7 +467,7 @@ class Cart extends CartCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function removeCartRule($id_cart_rule)
@@ -453,7 +490,7 @@ class Cart extends CartCore
     
     /*
     * module: orderfees
-    * date: 2018-03-27 19:29:55
+    * date: 2018-11-19 10:30:54
     * version: 1.8.9
     */
     public function getOrderedCartRulesIds($filter = CartRule::FILTER_ACTION_ALL)

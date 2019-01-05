@@ -394,21 +394,6 @@ class CartPresenter implements PresenterInterface
             $vouchers['added']
         ));
 
-        $add_price = 0;
-        if (isset($vouchers['added']) && count($vouchers['added']) && count($products))
-        {
-            foreach ($vouchers['added'] as $voucher)
-            {
-                if (preg_match('@primeur@i', $voucher['name']))
-                {
-                    foreach ($products as $product)
-                    if ($product['wine'])
-                        $add_price += $product['total_wt']*1.5/100;
-                }
-            }
-        }
-
-        $totals['total']['amount'] += $add_price;
         $totals['total']['value'] = Tools::displayPrice($totals['total']['amount']);
 
         $discounts = array_filter($discounts, function ($discount) use ($cartRulesIds) {
