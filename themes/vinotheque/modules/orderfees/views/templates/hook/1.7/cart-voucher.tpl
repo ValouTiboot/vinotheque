@@ -32,9 +32,9 @@
 						{/if}
                         <div class="col-md-5 col-12">
                             <div class="value-row row">
-                                <div class="col-10 col-sm-6 col-md-10">
+                                <div class="col-12 col-sm-6 col-md-12">
                                     <div class="row">
-                                        <div class="col-md-5 col-6">
+                                        <div class="col-md-6 col-6">
                                             <label id="fees_cart_button" class="btn btn-secondary" for="fees_cart_{$fee.id_cart_rule|intval}">
 												{if ($fee.is_checked)}
 													{l s='Delete' mod='orderfees'}
@@ -43,7 +43,7 @@
 												{/if}
                                             </label>
                                         </div>
-                                        <div class="value col-md-7 col-6 text-right">
+                                        <div class="value col-md-6 col-6 text-right">
 											{if $tax->includeTaxes()}
 												{$price->format($fee.value_real*-1)|escape:'html':'UTF-8'}
 											{else}

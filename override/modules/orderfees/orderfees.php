@@ -96,6 +96,22 @@ class OrderFeesOverride extends OrderFees
         return $result;
     }
 
+    public function hookActionCartRuleRemove($params)
+    {
+        $id_cart_rule = $params['id_cart_rule'];
+        $cookie = &$this->context->cookie;
+        
+        if (Tools::getIsset('deleteDiscount')) {
+            $id_cart_rule = (int) Tools::getValue('deleteDiscount');
+            $cart_rule = new CartRule($id_cart_rule, Configuration::get('PS_LANG_DEFAULT'));
+            if ($cart_rule->id && ($cart_rule->is_fee & self::IS_FEE)) {
+                unset($cookie->{'enable_option_' . $cart_rule->id});
+                unset($cookie->{'used_option_' . $cart_rule->id});
+                return true;
+            }
+        }
+    }
+
     public function displayFeesOnPDF($params, $template, $context = self::CONTEXT_PDF)
     {
         $order = $params['order'];
