@@ -7538,7 +7538,8 @@ small.label, small.value {
       font-size: 0.75rem; }
     #checkout #checkout_details > section > div .products .value, #checkout #checkout_details > section > div .shipping .value, #checkout #checkout_details > section > div .cart-voucher .value, #checkout #checkout_details > section > div .cart-summary-total .value, #checkout #checkout_details > section > div .tax .value {
       color: #b61f38;
-      font-size: 1.125rem;}
+      font-size: 1.125rem;
+      font-weight: 600; }
   #checkout #checkout_details > section > div .shipping, #checkout #checkout_details .cart-voucher-details .cart-voucher ul {
     margin-top: 0.625rem; }
   #checkout #checkout_details > section > div .tax {
