@@ -68,7 +68,11 @@ class OrderFeesOverride extends OrderFees
             }
 
             if (preg_match('@primeur@i', $discount['name']))
+            {
                 $discount['reduction_formatted'] = $price_formatter->format(abs($discount['value_real']));
+                if (isset($cart['vouchers']['added'][$discount['id_cart_rule']]))
+                    $cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_formatted'] = $price_formatter->format($cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_amount']);
+            }
             else if (isset($discount['reduction_percent']) && $discount['reduction_amount'] == '0.00') 
                 $discount['reduction_formatted'] = '-'.$discount['reduction_percent'].'%';
             elseif (isset($discount['reduction_amount']) && $discount['reduction_amount'] > 0)
@@ -85,7 +89,7 @@ class OrderFeesOverride extends OrderFees
             );
         }
 
-        $cart['vouchers']['added'] = $params['discounts'];
+        // $cart['vouchers']['added'] = $params['discounts'];
         $params['smarty']->assign('cart', $cart);
         
         return $result;
