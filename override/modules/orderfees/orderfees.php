@@ -55,42 +55,43 @@ class OrderFeesOverride extends OrderFees
     {
         $params['discounts'] = $this->context->cart->getCartRules();
         $result = $this->displayFees($params, 'cart-voucher.tpl', self::CONTEXT_CART, self::CLEAN);        
-        $cart = $params['smarty']->getTemplateVars('cart');
-        $price_formatter = new PrestaShop\PrestaShop\Adapter\Product\PriceFormatter();
-        $products = $this->context->cart->getProducts();
+        // $cart = $params['smarty']->getTemplateVars('cart');
+        // $price_formatter = new PrestaShop\PrestaShop\Adapter\Product\PriceFormatter();
+        // $products = $this->context->cart->getProducts();
         
-        foreach ($params['discounts'] as $index => &$discount) 
-        {
-            if ((!preg_match('@primeur@i', $discount['name'])) && ($discount['is_fee'] & self::IS_FEE) && ($discount['is_fee'] & self::CONTEXT_CART) || ($discount['is_fee'] & self::IS_SHIPPING)) 
-            {
-                unset($params['discounts'][$index]);
-                continue;
-            }
+        // foreach ($params['discounts'] as $index => &$discount) 
+        // {
+        //     if ((!preg_match('@primeur@i', $discount['name'])) && ($discount['is_fee'] & self::IS_FEE) && ($discount['is_fee'] & self::CONTEXT_CART) || ($discount['is_fee'] & self::IS_SHIPPING)) 
+        //     {
+        //         unset($params['discounts'][$index]);
+        //         continue;
+        //     }
 
-            if (preg_match('@primeur@i', $discount['name']))
-            {
-                $discount['reduction_formatted'] = $price_formatter->format(abs($discount['value_real']));
-                if (isset($cart['vouchers']['added'][$discount['id_cart_rule']]))
-                    $cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_formatted'] = $price_formatter->format($cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_amount']);
-            }
-            else if (isset($discount['reduction_percent']) && $discount['reduction_amount'] == '0.00') 
-                $discount['reduction_formatted'] = '-'.$discount['reduction_percent'].'%';
-            elseif (isset($discount['reduction_amount']) && $discount['reduction_amount'] > 0)
-                $discount['reduction_formatted'] = '-'.$price_formatter->format($discount['reduction_amount']);
+        //     if (preg_match('@primeur@i', $discount['name']))
+        //     {
+        //         // $discount['reduction_formatted'] = $price_formatter->format(abs($discount['value_real']));
+        //         // if (isset($cart['vouchers']['added'][$discount['id_cart_rule']]))
+        //         //     $cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_formatted'] = $price_formatter->format($cart['vouchers']['added'][$discount['id_cart_rule']]['reduction_amount']);
+        //         // var_dump('expression');
+        //     }
+        //     else if (isset($discount['reduction_percent']) && $discount['reduction_amount'] == '0.00') 
+        //         $discount['reduction_formatted'] = '-'.$discount['reduction_percent'].'%';
+        //     elseif (isset($discount['reduction_amount']) && $discount['reduction_amount'] > 0)
+        //         $discount['reduction_formatted'] = '-'.$price_formatter->format($discount['reduction_amount']);
 
-            $discount['delete_url'] = $this->context->link->getPageLink(
-                'cart',
-                true,
-                null,
-                array(
-                    'deleteDiscount' => $discount['id_cart_rule'],
-                    'token' => Tools::getToken(false),
-                )
-            );
-        }
+        //     $discount['delete_url'] = $this->context->link->getPageLink(
+        //         'cart',
+        //         true,
+        //         null,
+        //         array(
+        //             'deleteDiscount' => $discount['id_cart_rule'],
+        //             'token' => Tools::getToken(false),
+        //         )
+        //     );
+        // }
 
         // $cart['vouchers']['added'] = $params['discounts'];
-        $params['smarty']->assign('cart', $cart);
+        // $params['smarty']->assign('cart', $cart);
         
         return $result;
     }

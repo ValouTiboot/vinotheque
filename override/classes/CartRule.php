@@ -46,8 +46,8 @@ class CartRule extends CartRuleCore
                 {
                     if ($use_tax)
                     {
-                        $add_price += (($product['total_wt']*1.5)/100);
-                        $add_price_tax_exc += ($product['total_wt']*1.5)/100;
+                        $add_price += (($product['total']*1.5)/100);
+                        $add_price_tax_exc += ($product['total']*1.5)/100;
                     }
                 }
             }

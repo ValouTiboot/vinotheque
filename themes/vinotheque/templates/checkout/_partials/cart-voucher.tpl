@@ -29,9 +29,18 @@
         <ul>
           {foreach from=$cart.vouchers.added item=voucher}
             <li class="clearfix">
-              {$voucher.name}
-              <a class="remove-voucher" href="{$voucher.delete_url}" data-link-action="remove-voucher">{l s='Remove' d='Shop.Theme.Actions'}</a>
-              <span class="pull-right value">{$voucher.reduction_formatted}</span>
+              <div class="pull-left">
+                {$voucher.name}
+                <br/>
+                <small>
+                  <a class="remove-voucher" href="{$voucher.delete_url}" data-link-action="remove-voucher">{l s='Remove' d='Shop.Theme.Actions'}</a>
+                </small>
+              </div>
+              {if preg_match('@primeur@i',$voucher.name)}
+                <span class="pull-right value">{$voucher.reduction_formatted|substr:1}</span>
+              {else}
+                <span class="pull-right value">{$voucher.reduction_formatted}</span>
+              {/if}
             </li>
           {/foreach}
         </ul>
