@@ -191,7 +191,7 @@ class Product extends ProductCore
         StockAvailable::setShopQuantity((int)$this->id, $combination->id, $combination->shop_quantity);
         return (int)$combination->id;
     }
-    public static function getShopQuantity($id_product, $id_product_attribute, $cache_is_pack)
+    public static function getShopQuantity($id_product, $id_product_attribute = null, $cache_is_pack = null)
     {
         if ((int)$cache_is_pack || ($cache_is_pack === null && Pack::isPack((int)$id_product))) {
             if (!Pack::isInStock((int)$id_product)) {
