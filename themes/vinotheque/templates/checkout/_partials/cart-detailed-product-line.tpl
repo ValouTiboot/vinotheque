@@ -40,8 +40,6 @@
       <div class="badge badge-primeur">
         {l s='Primeurs' d='Shop.Theme.Catalog'}
       </div>
-    {else}
-        {$product.category_name}
     {/if}
 
     {if count($product.features) > 0}
