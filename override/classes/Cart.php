@@ -581,12 +581,12 @@ class Cart extends CartCore
                     }
                 }
 
+                if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
+                    Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
+
                 if (count($is_wine) > 1)
                 if (in_array(array('0','1'), $is_wine))
                     Context::getContext()->smarty->assign('carrier_error', 'mixed_product');
-
-                if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
-                    Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
 
                 $delivery_option_list[$id_address][$key]['total_price_with_tax'] = $total_price_with_tax;
                 $delivery_option_list[$id_address][$key]['total_price_without_tax'] = $total_price_without_tax;
