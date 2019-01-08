@@ -558,15 +558,36 @@ class Cart extends CartCore
 
                     $position += $carrier_collection[$id_carrier]->position;
                     
+                    $is_wine = [];
                     foreach (Context::getContext()->cart->getProducts() as $product)
                     {
+                        $is_wine[] = $product['wine'];
+                        $remove_carrier = false;
+                        if (($product['wine'] && $data['instance']->grade != '8' || $product['wine'] && $data['instance']->grade != '7') 
+                            || (!$product['wine'] && $data['instance']->grade == '8' || !$product['wine'] && $data['instance']->grade == '7')) {
+
+                            $remove_carrier = true;
+                        }
+
                         $quantity = Product::getQuantity($product['id_product'], $product['id_product_attribute']);
                         $shop_quantity = Product::getShopQuantity($product['id_product'], $product['id_product_attribute']);
 
-                        if (($shop_quantity == '0' && $data['instance']->grade == '9') || ($quantity == '0' && $data['instance']->grade != '9'))
+                        if (($shop_quantity == '0' && ($data['instance']->grade == '9' || $data['instance']->grade == '8')) 
+                            || ($quantity == '0' && ($data['instance']->grade != '9' || $data['instance']->grade != '8)')))
+                            $remove_carrier = true;
+                        
+                        if ($remove_carrier)
                             unset($delivery_option_list[$id_address][$key]['carrier_list'][$id_carrier]);
                     }
                 }
+
+                if (count($is_wine) > 1)
+                if (in_array(array('0','1'), $is_wine))
+                    Context::getContext()->smarty->assign('carrier_error', 'mixed_product');
+
+                if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
+                    Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
+
                 $delivery_option_list[$id_address][$key]['total_price_with_tax'] = $total_price_with_tax;
                 $delivery_option_list[$id_address][$key]['total_price_without_tax'] = $total_price_without_tax;
                 $delivery_option_list[$id_address][$key]['is_free'] = !$total_price_without_tax_with_rules ? true : false;

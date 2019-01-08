@@ -83,7 +83,15 @@
       </div>
       </form>
     {else}
-      <p class="warning">{l s='Unfortunately, there are no carriers available for your delivery address.' d='Shop.Theme.Checkout'}</p>
+      <p class="warning">
+        {if isset($carrier_error) && $carrier_error == 'mixed_product'}
+          {l s="Vous ne pouvez pas mélanger des produits traditionnels et des produits de type primeurs dans la même commande. Merci de modifier votre panier et de réessayer." d='Shop.Theme.Checkout'}
+        {else if isset($carrier_error) && $carrier_error == 'quantity_error'}
+          {l s="Dans votre panier, vous avez au moins un produit qui n'est disponible qu'en magasin, et au moins un produit qui n'est disponible qu'en vente en ligne, il est donc impossible d'avoir un transporteur commun. Merci de modifier votre panier et de réessayer." d='Shop.Theme.Checkout'}
+        {else}
+          {l s='Unfortunately, there are no carriers available for your delivery address.' d='Shop.Theme.Checkout'}
+        {/if}
+      </p>
     {/if}
   </div>
 
