@@ -535,6 +535,9 @@ class Cart extends CartCore
         //    - Set the carrier list
         //    - Calculate the price
         //    - Calculate the average position
+
+        $is_wine = false;
+        $is_not_wine = false;
         foreach ($delivery_option_list as $id_address => $delivery_option) {
             foreach ($delivery_option as $key => $value) {
                 $total_price_with_tax = 0;
@@ -557,25 +560,42 @@ class Cart extends CartCore
                     }
 
                     $position += $carrier_collection[$id_carrier]->position;
-                    
-                    $is_wine = [];
+
                     foreach (Context::getContext()->cart->getProducts() as $product)
                     {
-                        $is_wine[] = $product['wine'];
-                        $remove_carrier = false;
-                        if (($product['wine'] && $data['instance']->grade != '8' || $product['wine'] && $data['instance']->grade != '7') 
-                            || (!$product['wine'] && $data['instance']->grade == '8' || !$product['wine'] && $data['instance']->grade == '7')) {
+                        // 7 = livraison primeur
+                        // 8 = magasin primeur
+                        // 9 = magasin
 
-                            $remove_carrier = true;
+                        if ($product['wine'])
+                            $is_wine = true;
+                        else
+                            $is_not_wine = true;
+
+                        $remove_carrier = false;
+                        if ($product['wine']) 
+                        {
+                            if ($data['instance']->grade != '8' && $data['instance']->grade != '7')
+                            {
+                                $remove_carrier = true;
+                            } 
+                        }
+                        else
+                        {
+                            if ($data['instance']->grade == '8' || $data['instance']->grade == '7')
+                            {
+                                $remove_carrier = true;
+                            }
                         }
 
                         $quantity = Product::getQuantity($product['id_product'], $product['id_product_attribute']);
                         $shop_quantity = Product::getShopQuantity($product['id_product'], $product['id_product_attribute']);
 
-                        if (($shop_quantity == '0' && ($data['instance']->grade == '9' || $data['instance']->grade == '8')) 
-                            || ($quantity == '0' && ($data['instance']->grade != '9' || $data['instance']->grade != '8)')))
+                        if ($shop_quantity == '0' && ($data['instance']->grade == '9' || $data['instance']->grade == '8'))
                             $remove_carrier = true;
-                        
+                        else if ($quantity == '0' && $data['instance']->grade != '9' && $data['instance']->grade != '8')
+                            $remove_carrier = true;
+
                         if ($remove_carrier)
                             unset($delivery_option_list[$id_address][$key]['carrier_list'][$id_carrier]);
                     }
@@ -584,15 +604,13 @@ class Cart extends CartCore
                 if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
                     Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
 
-                if (count($is_wine) > 1)
-                if (in_array(array('0','1'), $is_wine))
+                if ($is_wine && $is_not_wine)
                     Context::getContext()->smarty->assign('carrier_error', 'mixed_product');
 
                 $delivery_option_list[$id_address][$key]['total_price_with_tax'] = $total_price_with_tax;
                 $delivery_option_list[$id_address][$key]['total_price_without_tax'] = $total_price_without_tax;
                 $delivery_option_list[$id_address][$key]['is_free'] = !$total_price_without_tax_with_rules ? true : false;
                 $delivery_option_list[$id_address][$key]['position'] = $position / count($value['carrier_list']);
-
             }
         }
 
