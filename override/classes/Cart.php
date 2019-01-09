@@ -565,7 +565,7 @@ class Cart extends CartCore
                     {
                         // 7 = livraison primeur
                         // 8 = magasin primeur
-                        // 9 = magasin
+                        // 9 = magasin retrai 2h
 
                         if ($product['wine'])
                             $is_wine = true;
@@ -588,21 +588,21 @@ class Cart extends CartCore
                             }
                         }
 
-                        $quantity = Product::getQuantity($product['id_product'], $product['id_product_attribute']);
+                        // $quantity = Product::getQuantity($product['id_product'], $product['id_product_attribute']);
                         $shop_quantity = Product::getShopQuantity($product['id_product'], $product['id_product_attribute']);
 
                         if ($shop_quantity == '0' && ($data['instance']->grade == '9' || $data['instance']->grade == '8'))
                             $remove_carrier = true;
-                        else if ($quantity == '0' && $data['instance']->grade != '9' && $data['instance']->grade != '8')
-                            $remove_carrier = true;
+                        // else if ($quantity == '0' && $data['instance']->grade != '9' && $data['instance']->grade != '8')
+                        //     $remove_carrier = true;
 
                         if ($remove_carrier)
                             unset($delivery_option_list[$id_address][$key]['carrier_list'][$id_carrier]);
                     }
                 }
 
-                if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
-                    Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
+                // if (empty($delivery_option_list[$id_address][$key]['carrier_list']))
+                //     Context::getContext()->smarty->assign('carrier_error', 'quantity_error');
 
                 if ($is_wine && $is_not_wine)
                     Context::getContext()->smarty->assign('carrier_error', 'mixed_product');
