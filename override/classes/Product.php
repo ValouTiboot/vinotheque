@@ -394,13 +394,13 @@ class Product extends ProductCore
     {
         $last_cat = '';
 
-        if (count($category_child))
-        foreach ($category_child as $child)
+        if (count($children))
+        foreach ($children as $child)
         {
-            $children = Category::getChildren($row['id_category_default'], Context::getContext()->language->id);
-            if (count($children) > 0)
-                return self::getLastCat($categories, $children);
-            
+            $has_children = Category::getChildren($row['id_category_default'], Context::getContext()->language->id);
+            if (count($has_children) > 0)
+                return self::getLastCat($categories, $has_children);
+
             if (isset($categories[$child['id_category']]))
             {
                 $last_cat = $child;
