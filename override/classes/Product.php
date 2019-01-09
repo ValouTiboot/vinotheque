@@ -397,12 +397,12 @@ class Product extends ProductCore
         if (count($children))
         foreach ($children as $child)
         {
-            $has_children = Category::getChildren($child['id_category'], Context::getContext()->language->id);
-            if (count($has_children) > 0)
-                return self::getLastCat($categories, $has_children);
-
             if (isset($categories[$child['id_category']]))
             {
+                $has_children = Category::getChildren($child['id_category'], Context::getContext()->language->id);
+                if (count($has_children))
+                    return self::getLastCat($categories, $has_children);
+
                 $last_cat = $child;
                 break;
             }
