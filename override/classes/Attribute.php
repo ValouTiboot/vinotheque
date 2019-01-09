@@ -8,7 +8,7 @@ class Attribute extends AttributeCore
             $shop = Context::getContext()->shop;
         }
 
-        $result = StockAvailable::getQuantityAvailableByProduct(null, (int) $idProductAttribute, $shop->id);
+        $result = StockAvailable::getShopQuantityAvailableByProduct(null, (int) $idProductAttribute, $shop->id);
 
         return ($result && $qty <= $result);
     }
