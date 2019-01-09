@@ -383,22 +383,32 @@ class Product extends ProductCore
         
         $categories = self::getProductCategoriesFull($row['id_product']);
         $category_child = Category::getChildren($row['id_category_default'], Context::getContext()->language->id);
+        
+        $row['last_cat'] = self::getLastCat($categories,$category_child);
+        $row['is_private_sale_product'] = \Product::isPrivateSaleProduct($row['id_product']);
+        self::$producPropertiesCache[$cache_key] = $row;
+        return self::$producPropertiesCache[$cache_key];
+    }
+
+    public static function getLastCat($categories, $children)
+    {
         $last_cat = '';
 
         if (count($category_child))
         foreach ($category_child as $child)
         {
+            $children = Category::getChildren($row['id_category_default'], Context::getContext()->language->id);
+            if (count($children) > 0)
+                return self::getLastCat($categories, $children);
+            
             if (isset($categories[$child['id_category']]))
             {
                 $last_cat = $child;
                 break;
             }
         }
-        
-        $row['last_cat'] = $last_cat;
-        $row['is_private_sale_product'] = \Product::isPrivateSaleProduct($row['id_product']);
-        self::$producPropertiesCache[$cache_key] = $row;
-        return self::$producPropertiesCache[$cache_key];
+
+        return $last_cat;
     }
 
     public static function cacheProductsFeatures($product_ids)
