@@ -137,32 +137,4 @@ class StockAvailable extends StockAvailableCore
 
         Cache::clean('StockAvailable::getQuantityAvailableByProduct_'.(int)$id_product.'*');
     }
-
-    public static function getQuantityAvailableByProduct($id_product = null, $id_product_attribute = null, $id_shop = null)
-    {
-        // if null, it's a product without attributes
-        if ($id_product_attribute === null) {
-            $id_product_attribute = 0;
-        }
-
-        $key = 'StockAvailable::getQuantityAvailableByProduct_'.(int)$id_product.'-'.(int)$id_product_attribute.'-'.(int)$id_shop;
-        if (!Cache::isStored($key)) {
-            $query = new DbQuery();
-            $query->select('SUM(quantity)+SUM(shop_quantity)');
-            $query->from('stock_available');
-
-            // if null, it's a product without attributes
-            if ($id_product !== null) {
-                $query->where('id_product = '.(int)$id_product);
-            }
-
-            $query->where('id_product_attribute = '.(int)$id_product_attribute);
-            $query = StockAvailable::addSqlShopRestriction($query, $id_shop);
-            $result = (int)Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($query);
-            Cache::store($key, $result);
-            return $result;
-        }
-
-        return Cache::retrieve($key);
-    }
 }
