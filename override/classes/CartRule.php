@@ -46,7 +46,7 @@ class CartRule extends CartRuleCore
                 {
                     if ($use_tax)
                     {
-                        $add_price += (($product['total']*1.5)/100);
+                        $add_price += (($product['total']*1.5)/100)*1.2;
                         $add_price_tax_exc += ($product['total']*1.5)/100;
                     }
                 }
@@ -54,8 +54,8 @@ class CartRule extends CartRuleCore
 
             if ($use_tax)
             {
+                $this->unit_value_tax_exc -= 15+$add_price_tax_exc;
                 $this->reduction_amount += $add_price;
-                $this->unit_value_tax_exc -= $this->reduction_amount+$add_price_tax_exc;
                 // $this->unit_value_tax_inc -= $this->reduction_amount;
                 $this->unit_value_real -= $this->reduction_amount;
             }
@@ -80,7 +80,7 @@ class CartRule extends CartRuleCore
         }
         
         $contextual_value = parent::getContextualValue($use_tax, $context, $filter, $package, $use_cache);
-        
+
         $results = Hook::exec('actionCartRuleGetContextualValueAfter', array(
             'object' => &$this,
             'context' => &$context,

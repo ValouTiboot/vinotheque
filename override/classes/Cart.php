@@ -895,14 +895,14 @@ class Cart extends CartCore
                 $add_price_tax_exc = 0;
                 if (preg_match('@primeur@i', $discount['name']))
                 {
-                    foreach ($products as $product)
-                    {
-                        if ($product['wine'])
-                        {
-                            $add_price += (($product['total']*1.5)/100);
-                            $add_price_tax_exc += ($product['total']*1.5)/100;
-                        }
-                    }
+                    // foreach ($products as $product)
+                    // {
+                    //     if ($product['wine'])
+                    //     {
+                    //         $add_price += (($product['total']*1.5)/100);
+                    //         $add_price_tax_exc += ($product['total']*1.5)/100;
+                    //     }
+                    // }
 
                     // $discount['obj']->reduction_amount += $add_price;
                     // $discount['obj']->unit_value_real -= $add_price;
