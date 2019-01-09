@@ -48,7 +48,7 @@ Class CartController extends CartControllerCore
 
         // Check product quantity availability
         if ($this->id_product_attribute) {
-            if (!Product::isAvailableWhenOutOfStock($product->out_of_stock) && !Attribute::checkAttributeQty($this->id_product_attribute, $qty_to_check) && !Attibute::checkAttributeShopQty($this->id_product_attribute, $qty_to_check)) {
+            if (!Product::isAvailableWhenOutOfStock($product->out_of_stock) && !Attribute::checkAttributeQty($this->id_product_attribute, $qty_to_check) && !Attribute::checkAttributeShopQty($this->id_product_attribute, $qty_to_check)) {
                 $this->errors[] = $this->trans('There are not enough products in stock', array(), 'Shop.Notifications.Error');
             }
         } elseif ($product->hasAttributes()) {
@@ -57,7 +57,7 @@ Class CartController extends CartControllerCore
             // @todo do something better than a redirect admin !!
             if (!$this->id_product_attribute) {
                 Tools::redirectAdmin($this->context->link->getProductLink($product));
-            } elseif (!Product::isAvailableWhenOutOfStock($product->out_of_stock) && !Attribute::checkAttributeQty($this->id_product_attribute, $qty_to_check) && !Attibute::checkAttributeShopQty($this->id_product_attribute, $qty_to_check)) {
+            } elseif (!Product::isAvailableWhenOutOfStock($product->out_of_stock) && !Attribute::checkAttributeQty($this->id_product_attribute, $qty_to_check) && !Attribute::checkAttributeShopQty($this->id_product_attribute, $qty_to_check)) {
                 $this->errors[] = $this->trans('There are not enough products in stock', array(), 'Shop.Notifications.Error');
             }
         } elseif (!$product->checkQty($qty_to_check)) {
