@@ -139,21 +139,3 @@
 		}
 	}
 </script>
-<div id="loyalty-block">
-	<i class="icon-v-bottle"></i>
-	<span id="loyalty" class="align_justify">
-		{if $points}
-			{l s='En achetant ce produit vous cumulez' mod='totloyaltyadvanced'} <b><span id="totLoyaltyAdvanced_points">{$points|escape:'htmlall':'UTF-8'}</span>
-			{if $points > 1}{l s=' points' mod='totloyaltyadvanced'}{else}{l s=' point' mod='totloyaltyadvanced'}{/if}</b> {l s='fidélité' mod='totloyaltyadvanced'}
-			{*{l s='Your cart will total' mod='totloyaltyadvanced'} <b><span id="total_totLoyaltyAdvanced_points">{$total_points|escape:'html':'UTF-8'}</span> *}
-			{*{if $total_points > 1}{l s='points' mod='totloyaltyadvanced'}{else}{l s='point' mod='totloyaltyadvanced'}{/if}</b> {l s='that can be converted into a voucher of' mod='totloyaltyadvanced'} *}
-			{*<span id="loyalty_price">{$voucher|escape:'htmlall':'UTF-8'}</span>.*}
-		{else}
-			{if isset($no_pts_discounted) && $no_pts_discounted == 1}
-				{l s='No reward points for this product because there\'s already a discount.' mod='totloyaltyadvanced'}
-			{else}
-				{l s='No reward points for this product.' mod='totloyaltyadvanced'}
-			{/if}
-		{/if}
-	</span>
-</div>
