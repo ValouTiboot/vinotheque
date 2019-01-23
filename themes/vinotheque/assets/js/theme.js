@@ -18238,6 +18238,9 @@
 	  }
 
 	  function createProductSpin() {
+	  	if ($('#quantity_wanted').length == 0)
+	  		return false;
+	  	
 	    var quantityInput = $('#quantity_wanted');
 	    quantityInput.TouchSpin({
 	      verticalbuttons: true,
