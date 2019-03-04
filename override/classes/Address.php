@@ -32,7 +32,7 @@ class Address extends AddressCore
         if (\Module::isInstalled('wservices') && \Module::isEnabled('wservices'))
         {
             $wservices = \Module::getInstanceByName('wservices');
-            $wservices->publishCustomer(new Customer($this->id_customer), 'INS');
+            $wservices->publishCustomer(new Customer($this->id_customer), 'UPD');
         }
 
         return true;
