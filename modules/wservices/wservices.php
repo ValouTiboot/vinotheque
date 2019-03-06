@@ -199,7 +199,7 @@ class Wservices extends Module
         $addresses = $this->getCustomerAddresses($object->id_customer);
 
         foreach ($addresses as &$address)
-        if ($object->id_address_dubos == $address['noadresse'])
+        if ($object->id_address_dubos == $address['noadresse'] || $object->id == $address['noadresse'])
             $address['active'] = '9';
 
         return $this->publishCustomer(new Customer($object->id_customer), 'UPD', $addresses);
@@ -227,7 +227,7 @@ class Wservices extends Module
                 A.`id_address`, A.`id_address_dubos` AS noadresse, A.`alias`, A.`address1`, A.`address2`, A.`city`, A.`postcode`, A.`phone`, A.`phone_mobile`, A.`company`, A.`firstname`, A.`lastname`, A.`other`, A.`active`, C.`iso_code` AS id_country, A.`rank`
             FROM `" . _DB_PREFIX_ . "address` A
             LEFT JOIN `" . _DB_PREFIX_ . "country` C ON C.`id_country`=A.`id_country`
-            WHERE `id_customer`='" . pSQL($id_customer) . "'
+            WHERE `id_customer`='" . pSQL($id_customer) . "' AND deleted = '0'
         ");
 
         foreach ($sql as $res)

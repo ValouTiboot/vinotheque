@@ -405,18 +405,15 @@ class WserviceswsModuleFrontController extends ModuleFrontController
             $array_id_waiting_order_state = array(1,10,11);
             if(in_array($value['CurrentState'], $array_id_waiting_order_state))
                 $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
+            
+            if($value['DatePaiement'] != "0000-00-00 00:00:00")
+                $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = $value['DatePaiement'];
 
             $order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
-            // $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = "";
-            $order['commande'][$num_commande]['Paiement'][1]['NoCoupon']['idSynchro'] = $date_v->getTimestamp();
-             // TODO (Récupérer leur numéro de coupon || Envoyer notre coupon)
-
-            if($value['DatePaiement'] != "0000-00-00 00:00:00") 
-                $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = $value['DatePaiement'];
+            $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = '';
+            // $order['commande'][$num_commande]['Paiement'][1]['NoCoupon']['idSynchro'] = $date_v->getTimestamp();
             $order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
-            // $order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
-            $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = ''; // TODO (Récupérer leur numéro de coupon || Envoyer notre coupon)
-            // $order['commande'][$num_commande]['Paiement'][1]['IdChèqueCadeau'] = ''; // installer le module pour les chèques cadeaux
+            // $order['commande'][$num_commande]['Paiement'][1]['IdChèqueCadeau'] = '';
             // $order['commande'][$num_commande]['Paiement'][1]['NbPointFidélité'] = $value['NbPointFidélité'];
         }
         // END GET ORDER //
