@@ -5,7 +5,6 @@
   <div>
     {hook h='displayCheckoutForm' mod='giftcard'}
   </div>
-	{*<pre>{$payment_options|@print_r}</pre>*}
   <div class="payment-options">
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
@@ -35,6 +34,8 @@
                     <img src="{$option.logo}">
                   {elseif $option.module_name == 'ps_checkpayment'}
                   	<img src="/themes/vinotheque/assets/img/payment-check.jpg">
+                  {elseif $option.module_name == 'ps_wirepayment'}
+                  	<img src="/themes/vinotheque/assets/img/payment-bankwire.jpg">
                   {/if}
                 </label>
               </div>
