@@ -34,6 +34,8 @@
 
     {if !$use_same_address}
       <h2 class="h2">{l s='Shipping Address' d='Shop.Theme.Checkout'}</h2>
+    {else}
+    	<p>{l s='L\'adresse sélectionnée sera utilisée à la fois comme adresse personnelle (pour la facturation) et comme adresse de livraison'}</p>
     {/if}
 
     {hook h="displayCartRuleAddress"}
