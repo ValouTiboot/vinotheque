@@ -5,12 +5,12 @@
   <div>
     {hook h='displayCheckoutForm' mod='giftcard'}
   </div>
-
+	{*<pre>{$payment_options|@print_r}</pre>*}
   <div class="payment-options">
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
         <div>
-          <div id="{$option.id}-container" class="payment-option row">
+          <div id="{$option.id}-container" class="payment-option row {$option.module_name}">
 
               <div class="col-12">
                   <span class="custom-radio">
@@ -33,6 +33,8 @@
                   <span>{$option.call_to_action_text nofilter}</span>
                   {if $option.logo}
                     <img src="{$option.logo}">
+                  {elseif $option.module_name == 'ps_checkpayment'}
+                  	<img src="/themes/vinotheque/assets/img/payment-check.jpg">
                   {/if}
                 </label>
               </div>
