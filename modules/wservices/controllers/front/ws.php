@@ -309,6 +309,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
             /** COMMANDE **/
             $num_commande = $value['NoCommande'];
+            $order['commande'][$num_commande]['NoPrestashop'] = $num_commande;
             $order['commande'][$num_commande]['NoCommande'] = $value['IdOrderDubos'];
             $order['commande'][$num_commande]['DateCommande'] = $value['DateCommande'];
             $order['commande'][$num_commande]['CodeTransporteur'] =$value['CodeTransporteur'];
