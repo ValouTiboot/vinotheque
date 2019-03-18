@@ -3,7 +3,7 @@
     <div>
         {block name='product_thumbnail'}
             <div class="product-thumbnail-box">
-                <a href="{if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}" class="thumbnail product-thumbnail">
+                <a href="{if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}" class="thumbnail product-thumbnail">
                     <div>
                         <img
                           src = "{if $product.cover}{$product.cover.medium.url}{elseif $link}{$link->getImageLink($product.link_rewrite, 'fr-default', 'medium_default')|escape:'htmlall':'UTF-8'}{else}img/p/fr-default-medium_default.jpg{/if}"
@@ -24,10 +24,10 @@
                 <div class="product-list-actions">
                     {if $product.add_to_cart_url}
                         <a class = "know-more" 
-                          href="{if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}">
+                          href="{if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}">
                           {l s='En savoir plus' d='Shop.Theme.Actions'}
                         </a>
-                      {if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
+                      {if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
                         <br>
                         <a
                         class = "add-to-cart"
@@ -39,7 +39,7 @@
                         ><i class="icon-v-cart"></i></a>
                       {/if}
                     {/if}
-                    {if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
+                    {if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
                     {hook h='displayProductListFunctionalButtons' product=$product}
                     <div id="product-attributes-list" class="row justify-content-center">
                       {if isset($product.attributes)}
@@ -67,7 +67,7 @@
         {block name='product_name'}
             <div class="name">
                 <h1 itemprop="name">
-                  <a href="{if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}">{$product.name}</a>
+                  <a href="{if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}{$product.url}{else}{$link->getCMSLink(7)}{/if}">{$product.name}</a>
                 </h1>
                 <span class="feature-name">
                     {if isset($product.features[3].value) && isset($product.features[1].value)}
@@ -82,14 +82,14 @@
 
         {block name='product_price_and_shipping'}
           {if $product.show_price}
-            <div class="product-price-and-shipping {if !$customer.is_logged && isset($product.is_private_sale_product) && $product.is_private_sale_product}private-sale-product-box{/if}">
+            <div class="product-price-and-shipping {if !((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) && isset($product.is_private_sale_product) && $product.is_private_sale_product}private-sale-product-box{/if}">
               {if $product.has_discount}
                 {hook h='displayProductPriceBlock' product=$product type="old_price"}
               {/if}
 
               {hook h='displayProductPriceBlock' product=$product type="before_price"}
 
-              {if $customer.is_logged || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
+              {if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
                 {l s='A partir de' d='Shop.Theme.Actions'}{if $product.has_discount} <span class="regular-price">{$product.regular_price}</span>{/if} <span itemprop="price" class="price">{$product.price}</span>
               {else}
                 {l s='Access to'}

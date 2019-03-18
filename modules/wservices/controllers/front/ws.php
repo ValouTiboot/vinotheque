@@ -206,11 +206,13 @@ class WserviceswsModuleFrontController extends ModuleFrontController
         $sql->select(
             // *** Entête de commande *** //
             "O.`id_order` as NoCommande,
+            O.`reference` as RefPrestashop,
             O.`id_order_dubos` as IdOrderDubos,
             O.`date_add` as DateCommande," .
             // CD.`id_customer` as IdCustomer,
             "CD.`id_customer_dubos` as NoClientLivre,
             CONCAT(CD.`lastname`, ' ', CD.`firstname`) as NomClientLivre,
+            AD.`company` as NomPointRelai,
             AD.`id_address_dubos` as NoAdresseClientLivre,
             AD.`phone` as NoTelephone1ClientLivre,
             AD.`phone_mobile` as NoTelephone2ClientLivre,
@@ -221,6 +223,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
             CO.`iso_code` as PaysClientLivre,
             CD.`email` as EmailContactLivre,
             CI.`id_customer_dubos` as NoClientFacture,
+            CI.`email` as EmailContactFacture,
             CONCAT(CI.`lastname`, ' ', CI.`firstname`) as NomClientFacture,
             AI.`id_address_dubos` as NoAdresseClientFacture,
             AI.`phone` as NoTelephone1ClientFacture,
@@ -252,6 +255,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
             // *** Transport *** //
             "OC.`id_carrier` as CodeTransporteur,
+            AD.`other` as CodePointRelai,
             TRG.`code` as CodeNiveauTaxe,
             OC.`shipping_cost_tax_excl` as MontantFraisPortHT,
             OC.`shipping_cost_tax_incl` as MontantFraisPortTTC," .
@@ -309,13 +313,14 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
             /** COMMANDE **/
             $num_commande = $value['NoCommande'];
+            $order['commande'][$num_commande]['RefPrestashop'] = $value['RefPrestashop'];
             $order['commande'][$num_commande]['NoCommande'] = $value['IdOrderDubos'];
             $order['commande'][$num_commande]['DateCommande'] = $value['DateCommande'];
             $order['commande'][$num_commande]['CodeTransporteur'] =$value['CodeTransporteur'];
-            $order['commande'][$num_commande]['NoClientLivre'] = $value['NoClientLivre'];
-            $order['commande'][$num_commande]['NomClientLivre'] = $value['NomClientLivre'];
-            $order['commande'][$num_commande]['NomContactClientLivre'] = $value['NomClientLivre'];
-            $order['commande'][$num_commande]['EmailContactLivre'] = $value['EmailContactLivre'];
+            $order['commande'][$num_commande]['NoClientLivre'] = ($value['NoClientLivre']) ? $value['NoClientLivre'] : $value['NoClientFacture'];
+            $order['commande'][$num_commande]['NomClientLivre'] = ($value['NomClientLivre']) ? $value['NomClientLivre'] : $value['NomPointRelai'];
+            $order['commande'][$num_commande]['NomContactClientLivre'] = ($value['NomClientLivre']) ? $value['NomClientLivre'] : $value['NomClientFacture'];
+            $order['commande'][$num_commande]['EmailContactLivre'] = ($value['EmailContactLivre']) ? $value['EmailContactLivre'] : $value['EmailContactFacture'];
             $order['commande'][$num_commande]['NoTelephone1ClientLivre'] = $value['NoTelephone1ClientLivre'];
             $order['commande'][$num_commande]['NoTelephone2ClientLivre'] = $value['NoTelephone2ClientLivre'];
             $order['commande'][$num_commande]['NoAdresseClientLivre'] = $value['NoAdresseClientLivre'];
@@ -357,7 +362,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
             if ($montant_frais_port_ht > 0)
             {
                 $order['commande'][$num_commande]['Transport'][1]['CodeTransporteur'] = ($value['CodeTransporteur']) ? $value['CodeTransporteur'] : '';
-                $order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = '';
+                $order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = ($value['CodePointRelai']) ? $value['CodePointRelai'] : '';
                 $order['commande'][$num_commande]['Transport'][1]['CodeNiveauTaxe'] = ($value['CodeNiveauTaxe']) ? $value['CodeNiveauTaxe'] : 'EXO';
                 $order['commande'][$num_commande]['Transport'][1]['CodeElement'] = 'P001';
                 // $order['commande'][$num_commande]['Transport'][1]['MontantTaxe'] = $value['MontantFraisPortTTC'] - $value['MontantFraisPortHT'];
@@ -561,15 +566,9 @@ class WserviceswsModuleFrontController extends ModuleFrontController
             )
         );
 
-        // $trans['NoJSON'] = $this->module->add($trans, 'set');
         $this->module->add($trans, 'set');
 
-        // $this->module->publishCustomer(new Customer($order['IdCustomer']));
         unset($order['IdCustomer']);
-
-        // file_put_contents('order.txt', json_encode($trans, JSON_UNESCAPED_UNICODE));
-
-        // return $this->module->publish($trans);
 
         header('Content-Type: application/json');
         echo json_encode($trans, JSON_PRETTY_PRINT);
@@ -1054,7 +1053,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
             $id_category_default = Db::getInstance()->getValue("SELECT `id_category` FROM `" . _DB_PREFIX_ . "category` WHERE `id_category_dubos`='" . pSQL($product['id_category_default']) . "'");
 
             // Récupère l'id_taxe_rule_group si la clef id_tax_rules_group est bien renseignée et que le produit n'est pas primeur
-            $id_tax_rules_group = ($product['id_tax_rules_group'] != '' && $product['wine'] != 1) ? Db::getInstance()->getValue("SELECT `id_tax_rules_group` FROM `" . _DB_PREFIX_ . "tax_rules_group` WHERE `code`='" . pSQL($product['id_tax_rules_group']) . "' AND `" . _DB_PREFIX_ . "tax_rules_group` WHERE `delete`=0") : '0';
+            $id_tax_rules_group = ($product['id_tax_rules_group'] != '' && $product['wine'] != 1) ? Db::getInstance()->getValue("SELECT `id_tax_rules_group` FROM `" . _DB_PREFIX_ . "tax_rules_group` WHERE `" . _DB_PREFIX_ . "tax_rules_group`.`code`='" . pSQL($product['id_tax_rules_group']) . "' AND `" . _DB_PREFIX_ . "tax_rules_group`.`deleted`=0") : '0';
 
             $product_id = Product::getIdByRef($product['reference']);
             $object = new Product($product_id ? $product_id : null);
@@ -1508,6 +1507,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
             // IMAGES
             $object->deleteImages();
+            Image::deleteCover($object->id);
 
             if (isset($product['images']) && count($product['images']) > 0)
             {
