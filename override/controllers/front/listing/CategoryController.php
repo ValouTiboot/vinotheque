@@ -2,6 +2,15 @@
 
 class CategoryController extends CategoryControllerCore
 {
+    public function init()
+    {
+        $this->context->smarty->assign(array(
+            'link' => $this->context->link,
+        ));
+
+        parent::init();
+    }
+
     public function getHighlightImage()
     {
         $images_types = ImageType::getImagesTypes('categories');
