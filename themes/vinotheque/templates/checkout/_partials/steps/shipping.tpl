@@ -59,22 +59,24 @@
             {/foreach}
           </div>
         {/block}
-        {*<div class="order-options">*}
+        <div class="order-options">
           {*{if $recyclablePackAllowed}*}
             {*<label>*}
               {*<input type="checkbox" name="recyclable" value="1" {if $recyclable} checked {/if}>*}
               {*<span>{l s='I would like to receive my order in recycled packaging.' d='Shop.Theme.Checkout'}</span>*}
             {*</label>*}
           {*{/if}*}
-          {*{if $gift.allowed}*}
-            {*<label>*}
-              {*<input class="js-gift-checkbox" type="checkbox" name="gift" value="1" {if $gift.isGift} checked {/if}>*}
-              {*<span>{$gift.label}</span>*}
-            {*</label>*}
-            {*<label for="gift_message">{l s='If you\'d like, you can add a note to the gift:' d='Shop.Theme.Checkout'}</label>*}
-            {*<textarea rows="2" cols="120" id="gift_message" name="gift_message">{$gift.message}</textarea>*}
-          {*{/if}*}
-        {*</div>*}
+          {if $gift.allowed}
+            <div class="hidden">            
+              <label>
+                <input class="js-gift-checkbox" type="checkbox" name="gift" value="1" {if $gift.isGift} checked {/if}>
+                <span>{$gift.label}</span>
+              </label>
+              <label for="gift_message">{l s='If you\'d like, you can add a note to the gift:' d='Shop.Theme.Checkout'}</label>
+              <textarea rows="2" cols="120" id="gift_message" name="gift_message">{$gift.message}</textarea>
+            </div>
+          {/if}
+        </div>
       </div>
       <div class="text-right">
           <button class="btn btn-primary" type="submit" class="continue" name="confirmDeliveryOption" value="1">
