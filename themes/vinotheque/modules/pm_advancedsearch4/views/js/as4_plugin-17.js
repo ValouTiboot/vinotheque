@@ -267,9 +267,9 @@ var as4Plugin = {
         }
 
         // YATEO dev spé
-        if (hookName == 'displayTopFaceted' || id_search == 2)
+        if (hookName == 'displayTopFaceted')
         {
-            var search_url_form = responseText.current_url.replace('/s-2/index','/s-1/recherche');
+            var search_url_form = responseText.current_url.replace('/s-2/index','/s-3/recherche');
             $('#PM_ASBlockOutput_' + responseText.id_search).parent().parent().replaceWith(responseText.rendered_facets);
             $('#PM_ASBlockOutput_' + responseText.id_search + ' form #search_url_form').val(search_url_form);
             return;
