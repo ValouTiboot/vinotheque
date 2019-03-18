@@ -131,69 +131,6 @@ class Wservices extends Module
         return Db::getInstance()->getValue("SELECT `id_wservices` FROM `" . _DB_PREFIX_ . $this->module_table . "` WHERE `transaction` LIKE '%\"IdTransaction\":\"" . pSQL($value) . "%'");
     }
 
-    // public function hookActionObjectCustomerAddAfter($params)
-    // {
-    //     return $this->publishCustomer($params['object'], 'INS');
-    // }
-
-    // public function hookActionCustomerAccountUpdate($params)
-    // {
-    //     return $this->publishCustomer($params['customer'], 'UPD');
-    // }
-
-    // public function hookActionObjectAddAfter($params)
-    // {
-    //     $object = $params['object'];
-    //     $type = 'INS';
-
-    //     if (get_class($object) == 'Address' || get_class($object) == 'Customer')
-    //     {
-    //         if (get_class($object) == 'Address')
-    //         {
-    //             $type = 'UPD';
-    //             $object = new Customer($object->id_customer);
-    //         }
-
-    //         return $this->publishCustomer($object, $type);
-    //     }
-    // }
-
-    // public function hookActionObjectUpdateAfter($params)
-    // {
-    //     $object = $params['object'];
-
-    //     if (get_class($object) == 'Address' || get_class($object) == 'Customer')
-    //     {
-    //         if (get_class($object) == 'Address')
-    //             $object = new Customer($object->id_customer);
-
-    //         return $this->publishCustomer($object, 'UPD');
-    //     }
-    // }
-
-    // public function hookActionObjectDeleteBefore($params)
-    // {
-    //     $object = $params['object'];
-    //     $del = 'customer';
-
-    //     if (get_class($object) == 'Address' || get_class($object) == 'Customer')
-    //     {
-    //         $addresses = $this->getCustomerAddresses($object->id_customer);
-
-    //         if (get_class($object) == 'Address')
-    //         {
-    //             foreach ($addresses as &$address)
-    //             if ($object->id == $address['id_address'])
-    //                 $address['active'] = '9';
-
-    //             $del = 'address';
-    //             $object = new Customer($object->id_customer);
-    //         }
-
-    //         return $this->publishCustomer($object, 'UPD', $addresses, $del);
-    //     }
-    // }
-
     public function deleteAddress($object)
     {
         $addresses = $this->getCustomerAddresses($object->id_customer);
@@ -332,10 +269,12 @@ class Wservices extends Module
         $sql->select(
             // *** Entête de commande *** //
             "O.`id_order` as NoCommande,
+            O.`reference` as RefPrestashop,
             O.`id_order_dubos` as IdOrderDubos,
             O.`date_add` as DateCommande,
             CD.`id_customer_dubos` as NoClientLivre,
             CONCAT(CD.`lastname`, ' ', CD.`firstname`) as NomClientLivre,
+            AD.`company` as NomPointRelai,
             AD.`id_address_dubos` as NoAdresseClientLivre,
             AD.`phone` as NoTelephone1ClientLivre,
             AD.`phone_mobile` as NoTelephone2ClientLivre,
@@ -346,6 +285,7 @@ class Wservices extends Module
             CO.`iso_code` as PaysClientLivre,
             CD.`email` as EmailContactLivre,
             CI.`id_customer_dubos` as NoClientFacture,
+            CI.`email` as EmailContactFacture,
             CONCAT(CI.`lastname`, ' ', CI.`firstname`) as NomClientFacture,
             AI.`id_address_dubos` as NoAdresseClientFacture,
             AI.`phone` as NoTelephone1ClientFacture,
@@ -366,6 +306,7 @@ class Wservices extends Module
             O.`total_products` as MttTotalMarchandiseHT," .
             // *** Transport *** //
             "OC.`id_carrier` as CodeTransporteur,
+            AD.`other` as CodePointRelai,
             TRG.`code` as CodeNiveauTaxe,
             OC.`shipping_cost_tax_excl` as MontantFraisPortHT,
             OC.`shipping_cost_tax_incl` as MontantFraisPortTTC," .
@@ -409,14 +350,14 @@ class Wservices extends Module
         {
             /** COMMANDE **/
             $num_commande = $value['NoCommande'];
-            $order['commande'][$num_commande]['NoPrestashop'] = $num_commande;
+            $order['commande'][$num_commande]['RefPrestashop'] = $value['RefPrestashop'];
             $order['commande'][$num_commande]['NoCommande'] = $value['IdOrderDubos'];
             $order['commande'][$num_commande]['DateCommande'] = $value['DateCommande'];
             $order['commande'][$num_commande]['CodeTransporteur'] =$value['CodeTransporteur'];
-            $order['commande'][$num_commande]['NoClientLivre'] = $value['NoClientLivre'];
-            $order['commande'][$num_commande]['NomClientLivre'] = $value['NomClientLivre'];
-            $order['commande'][$num_commande]['NomContactClientLivre'] = $value['NomClientLivre'];
-            $order['commande'][$num_commande]['EmailContactLivre'] = $value['EmailContactLivre'];
+            $order['commande'][$num_commande]['NoClientLivre'] = ($value['NoClientLivre']) ? $value['NoClientLivre'] : $value['NoClientFacture'];
+            $order['commande'][$num_commande]['NomClientLivre'] = ($value['NomClientLivre']) ? $value['NomClientLivre'] : $value['NomPointRelai'];
+            $order['commande'][$num_commande]['NomContactClientLivre'] = ($value['NomClientLivre']) ? $value['NomClientLivre'] : $value['NomClientFacture'];
+            $order['commande'][$num_commande]['EmailContactLivre'] = ($value['EmailContactLivre']) ? $value['EmailContactLivre'] : $value['EmailContactFacture'];
             $order['commande'][$num_commande]['NoTelephone1ClientLivre'] = $value['NoTelephone1ClientLivre'];
             $order['commande'][$num_commande]['NoTelephone2ClientLivre'] = $value['NoTelephone2ClientLivre'];
             $order['commande'][$num_commande]['NoAdresseClientLivre'] = $value['NoAdresseClientLivre'];
@@ -458,7 +399,7 @@ class Wservices extends Module
             if ($montant_frais_port_ht > 0)
             {
                 $order['commande'][$num_commande]['Transport'][1]['CodeTransporteur'] = ($value['CodeTransporteur']) ? $value['CodeTransporteur'] : '';
-                $order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = '';
+                $order['commande'][$num_commande]['Transport'][1]['CodePointRelai'] = ($value['CodePointRelai']) ? $value['CodePointRelai'] : '';
                 $order['commande'][$num_commande]['Transport'][1]['CodeNiveauTaxe'] = ($value['CodeNiveauTaxe']) ? $value['CodeNiveauTaxe'] : 'EXO';
                 $order['commande'][$num_commande]['Transport'][1]['CodeElement'] = 'P001';
                 $order['commande'][$num_commande]['Transport'][1]['MttHT'] = ($value['MontantFraisPortHT']) ? $value['MontantFraisPortHT'] : '';
