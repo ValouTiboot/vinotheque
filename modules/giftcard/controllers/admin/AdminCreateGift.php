@@ -166,7 +166,7 @@ class AdminCreateGiftController extends ModuleAdminController
         $languages = Language::getLanguages(false);
         foreach ($languages as $language) {
             if (empty(Tools::getValue('card_name_'.$language['id_lang']))) {
-                $this->errors[] = Tools::displayError(sprintf($this->l('Enter card name for language: %s'), Language::getIsoById($language['id_lang'])));
+                $this->errors[] = sprintf($this->l('Enter card name for language: %s'), Language::getIsoById($language['id_lang']));
             } elseif (!Validate::isCatalogName(Tools::getValue('card_name_'.$language['id_lang']))) {
                 $this->errors[] = $this->l('Invalid card name in ').$language['name'];
             } else {
@@ -206,7 +206,7 @@ class AdminCreateGiftController extends ModuleAdminController
                 $val1 = count($val1);
                 $val2 = count($val2);
                 if ($val1 != $val2) {
-                    $this->errors[] = Tools::displayError('No.of values of card price does not match No of values discount type.');
+                    $this->errors[] = $this->l('No.of values of card price does not match No of values discount type.');
                     $flag = 0;
                 } else {
                     $reduction_amount   = Tools::getValue('reduction_percent_dropdown');
