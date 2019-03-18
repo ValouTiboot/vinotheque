@@ -713,10 +713,10 @@ var as4Plugin = {
             var search_url_form = $('#PM_ASForm_'+id_search+' #search_url_form').val();
             
             as4Plugin.removeLayer();
-            if ($('#PM_ASForm_'+id_search+' #search_input').val() == '')
-                return;
+            // if ($('#PM_ASForm_'+id_search+' #search_input').val() == '')
+            //     return;
 
-            if (search_url_form != '')
+            if ($('#PM_ASForm_'+id_search+' #search_input').length && search_url_form != '')
             {
                 window.location.href = search_url_form+'?search_query='+$('#PM_ASForm_'+id_search+' #search_input').val();
             }

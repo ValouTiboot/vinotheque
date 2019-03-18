@@ -15,7 +15,7 @@
 					{if ($hookName == 'displayTopFaceted' || $as_search.id_search == 2)}
 					<div class="col-lg-5 input-group">
 				        <span class="input-group-addon"><i class="icon-v-search"></i></span>
-				        <input type="text" id="search_input" name="search_query" class="form-control" placeholder="{l s='Je recherche' d='Shop.Theme'}" required value="{if isset($smarty.get.search_query)}{$smarty.get.search_query}{/if}">
+				        <input type="text" id="search_input" name="search_query" class="form-control" placeholder="{l s='Je recherche' d='Shop.Theme'}" value="{if isset($smarty.get.search_query)}{$smarty.get.search_query}{/if}">
 				    </div>
 					{/if}
 					{foreach from=$as_search.criterions_groups item=criterions_group name=criterions_groups}
