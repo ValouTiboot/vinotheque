@@ -226,42 +226,42 @@ class AdminCreateGiftController extends ModuleAdminController
         //** checking field values and displaying error messages respectively
         if (empty($card_qty) || $card_qty < 1 || !Validate::isInt($card_qty))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid Card quantity'));
+            $this->errors[] = $this->l('Invalid Card quantity');
             $flag = 0;
         }
         if ($length < 4 || $length > 30 || !Validate::isInt($length))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid Code length'));
+            $this->errors[] = $this->l('Invalid Code length');
             $flag = 0;
         }
         if (empty($from) || empty($to) || $from > $now || $to < $now || $from == $to)
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid Validation date'));
+            $this->errors[] = $this->l('Invalid Validation date');
             $flag = 0;
         }
         if (($red_type == 'amount' || $red_type == 'percent') && empty($reduction_amount))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid discount amount/percentage'));
+            $this->errors[] = $this->l('Invalid discount amount/percentage');
             $flag = 0;
         }
         if (($red_type == 'amount' || $red_type == 'percent') && ($apply_discount_to == 'specific' && empty($reduction_product)))
         {
-            $this->errors[] = Tools::displayError($this->l('Please specificy a discount product'));
+            $this->errors[] = $this->l('Please specificy a discount product');
             $flag = 0;
         }
         if ((($value_type == 'dropdown' || $value_type == 'fixed' || $value_type == 'fixed') && empty($card_value)))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid Gift card price'));
+            $this->errors[] = $this->l('Invalid Gift card price');
             $flag = 0;
         }
         if (($value_type == 'range') && (empty($min) || empty($max) || $min < 1 || $max < 1 || $min >= $max))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid Gift card price'));
+            $this->errors[] = $this->l('Invalid Gift card price');
             $flag = 0;
         }
         if (($value_type == 'range' && $red_type == 'percent') && (empty($min_percent) || empty($max_percent) || $min_percent < 1 || $max_percent < 1 || $min_percent >= $max_percent))
         {
-            $this->errors[] = Tools::displayError($this->l('Invalid range discount percent'));
+            $this->errors[] = $this->l('Invalid range discount percent');
             $flag = 0;
         }
 
