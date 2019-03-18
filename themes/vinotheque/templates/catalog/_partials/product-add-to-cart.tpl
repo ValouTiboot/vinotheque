@@ -80,3 +80,22 @@
 
   {/if}
 </div>
+
+{block name='hook_product_buttons'}
+  {hook h='displayProductButtons' product=$product}
+{/block}
+
+<div id="stock_pictos">
+  <div id="stock_pictos_qty"> {*if $product.quantity <= 0}style="display:none;"{/if*}
+    <i class="icon-v-check-bubble"></i>{if $product.quantity <= 0}{l s='épuisé' d='Shop.Theme.Catalog'}{else}{l s='En stock' d='Shop.Theme.Catalog'}{/if}
+  </div>
+    {if $product.wine && $product.wine_delivery}
+      <div>
+         <i class="icon-v-truck"></i>{l s='Livraison estimée' d='Shop.Theme.Catalog'}: {dateFormat date=$product.wine_delivery}
+      </div>
+    {/if}
+
+    <div id="stock_pictos_shop_qty" {if $product.shop_quantity <= 0}style="display:none;"{/if}>
+      <i class="icon-v-check-bubble"></i>{l s='Disponible en magasin' d='Shop.Theme.Catalog'}
+    </div>
+</div>
