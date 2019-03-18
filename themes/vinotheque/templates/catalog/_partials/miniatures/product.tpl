@@ -13,7 +13,7 @@
                     </div>
                 {if isset($product.is_private_sale_product) && $product.is_private_sale_product}
                 <div class="private-sale-picto">
-                  <img src="{$urls.img_url}ic_ventesprivees.png" />
+                  <img src="{$smarty.const._THEME_IMG_DIR_}ic_ventesprivees.png" />
                 </div>
                 {/if}
                 </a>
