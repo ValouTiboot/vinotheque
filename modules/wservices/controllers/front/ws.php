@@ -1165,6 +1165,9 @@ class WserviceswsModuleFrontController extends ModuleFrontController
 
 
             // FEATURES
+            // DELETE PRODUCT'S FEATURES
+            $object->deleteProductFeatures();
+
             if (isset($product['features']) && count($product['features']) > 0)
             {
                 foreach ($product['features'] as $f_key => $feat)
@@ -1376,7 +1379,7 @@ class WserviceswsModuleFrontController extends ModuleFrontController
                 throw new Exception('Not a valid json string: Article sans attribut');
 
 
-            // DELETE COMBINATIONS
+            // DELETE PRODUCT'S COMBINATIONS
             $object->deleteProductAttributes();
 
             if (isset($product['attributes']) && count($product['attributes']) > 0)
