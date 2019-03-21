@@ -60,7 +60,6 @@
                             </div>
                         </div>
                         <section id="products" class="col-12 col-md-9">
-                            {if isset($category.best_seller) && count($category.best_seller)}
                             <div id="category-highlight">
 								{if $category.highlight_type == 'promo' && isset($category.image_highlight.category_default)}
                                     <!-- YATEO
@@ -68,7 +67,7 @@
 									Possibilité d'ajouter des formats en BO dans la gestion des images
 									-->
                                     <img src="{$category.image_highlight.category_default}" />
-								{elseif $category.highlight_type == 'best_seller' && isset($category.best_seller.cover) && $category.link_rewrite == 'primeurs'}
+								{elseif isset($category.best_seller) && count($category.best_seller) && $category.highlight_type == 'best_seller' && isset($category.best_seller.cover) && $category.link_rewrite == 'primeurs'}
                                     <div id="best_seller" class="container">
                                         <div class="row">
                                             <div class="best_seller_image col-6 col-sm-3 col-lg-2">
@@ -117,7 +116,7 @@
                                             </div>
                                         </div>
                                     </div>
-								{elseif $category.highlight_type == 'best_seller' && isset($category.best_seller.cover)}
+								{elseif isset($category.best_seller) && count($category.best_seller) && $category.highlight_type == 'best_seller' && isset($category.best_seller.cover)}
                                     <div id="best_seller" class="container">
                                         <div class="row">
                                             <div class="best_seller_image col-6 col-sm-3 col-lg-2">
@@ -164,7 +163,6 @@
                                     </div>
 								{/if}
                             </div>
-                            {/if}
 
 							{if $listing.products|count}
 
