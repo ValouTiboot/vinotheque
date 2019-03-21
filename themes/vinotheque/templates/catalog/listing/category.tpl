@@ -60,6 +60,7 @@
                             </div>
                         </div>
                         <section id="products" class="col-12 col-md-9">
+                            {if isset($category.best_seller) && count($category.best_seller)}
                             <div id="category-highlight">
 								{if $category.highlight_type == 'promo' && isset($category.image_highlight.category_default)}
                                     <!-- YATEO
@@ -163,6 +164,7 @@
                                     </div>
 								{/if}
                             </div>
+                            {/if}
 
 							{if $listing.products|count}
 
