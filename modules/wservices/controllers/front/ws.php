@@ -687,8 +687,8 @@ class WserviceswsModuleFrontController extends ModuleFrontController
                 throw new Exception('Not a valid json string: Le champ IdTransaction est vide');
 
             // Prévoir un envoi de mail a wisy et yateo
-            if ($this->module->TransactionExists($data['IdTransaction']))
-                throw new Exception('Erreur: Un json portant le même IdTransaction a déjà été reçus');
+            // if ($this->module->TransactionExists($data['IdTransaction']))
+            //     throw new Exception('Erreur: Un json portant le même IdTransaction a déjà été reçus');
 
             // Get customer
             if ($data['Modèle'] == 'CLT' || $data['Modèle'] == 'CLIENT')
@@ -1563,9 +1563,11 @@ class WserviceswsModuleFrontController extends ModuleFrontController
                 if (!$product->wine && !$id_product_attribute)
                     continue;
 
-                $sp_id = Db::getInstance()->getValue("SELECT `id_specific_price` FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product_attribute`='" . pSQL($id_product_attribute) . "'");
+                // $sp_id = Db::getInstance()->getValue("SELECT `id_specific_price` FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_product_attribute`='" . pSQL($id_product_attribute) . "'");
+                $sp_id = Db::getInstance()->getValue("SELECT `id_specific_price` FROM `" . _DB_PREFIX_ . "specific_price` WHERE `id_specific_price_dubos`='" . pSQL($s_price['IdSynchro']) . "'");
 
                 $sp = new SpecificPrice($sp_id ? $sp_id : null);
+                $sp->id_specific_price_dubos = $s_price['IdSynchro'];
                 $sp->id_shop = 0;
                 $sp->id_currency = 0;
                 $sp->id_country = 0;
