@@ -434,11 +434,12 @@ class Wservices extends Module
             if(in_array($value['CurrentState'], $array_id_waiting_order_state))
                 $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
 
+            if($value['DatePaiement'] != "0000-00-00 00:00:00") 
+                $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = $value['DatePaiement'];
+
             $order['commande'][$num_commande]['Paiement'][1]['MttRegleTTC'] = $value['MttRegleTTC'];
             $order['commande'][$num_commande]['Paiement'][1]['NoCoupon']['idSynchro'] = $date_v->getTimestamp();
 
-            if($value['DatePaiement'] != "0000-00-00 00:00:00") 
-                $order['commande'][$num_commande]['Paiement'][1]['DatePaiement'] = $value['DatePaiement'];
             $order['commande'][$num_commande]['Paiement'][1]['DateEcheance'] = ($value['DatePaiement']) ? $value['DatePaiement'] : '';
             $order['commande'][$num_commande]['Paiement'][1]['NoCoupon'] = '';
         }
@@ -589,32 +590,32 @@ class Wservices extends Module
     }
 
     // Envoi de statuts de commande
-    public function publishOrderState($order, $type)
-    {
-        $id_order_dubos = Db::getInstance()->getValue("SELECT `id_order_dubos` FROM `" . _DB_PREFIX_ . "orders` WHERE `id_order`='" . pSQL($order->id_order) . "'");
+    // public function publishOrderState($order, $type)
+    // {
+    //     $id_order_dubos = Db::getInstance()->getValue("SELECT `id_order_dubos` FROM `" . _DB_PREFIX_ . "orders` WHERE `id_order`='" . pSQL($order->id_order) . "'");
 
-        $trans = array(
-            'NoJSON'          => '',
-            'IdTransaction'   => md5(microtime()),
-            'Modèle'          => 'RCM',
-            'Type'            => $type,
-            'DateTransaction' => date('Y-m-d H:i:s'),
-            'Transaction'     => array(
-                '0' => array(
-                    'retour_commande' => array(
-                        $id_order_dubos => array(
-                            'IdSynchro'    => $id_order_dubos,
-                            'EtatCommande' => $order->id_order_state
-                        ),
-                    ),
-                ),
-            )
-        );
+    //     $trans = array(
+    //         'NoJSON'          => '',
+    //         'IdTransaction'   => md5(microtime()),
+    //         'Modèle'          => 'RCM',
+    //         'Type'            => $type,
+    //         'DateTransaction' => date('Y-m-d H:i:s'),
+    //         'Transaction'     => array(
+    //             '0' => array(
+    //                 'retour_commande' => array(
+    //                     $id_order_dubos => array(
+    //                         'IdSynchro'    => $id_order_dubos,
+    //                         'EtatCommande' => $order->id_order_state
+    //                     ),
+    //                 ),
+    //             ),
+    //         )
+    //     );
 
-        $trans['NoJSON'] = $this->add($trans, 'set');
+    //     $trans['NoJSON'] = $this->add($trans, 'set');
 
-        return $this->publish($trans);
-    }
+    //     return $this->publish($trans);
+    // }
 
     // Envoi d'erreur
     public function publishError($data, $err)
