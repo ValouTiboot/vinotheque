@@ -11,7 +11,7 @@ class Category extends CategoryCore
 
 	public function __construct($idCategory = null, $idLang = null, $idShop = null)
     {
-    	Category::$definition['fields']['highlight_type'] = array('type' => self::TYPE_STRING, 'validate' => 'isString', 'values' => array('best_seller', 'promo', 'none'), 'default' => 'best_seller');
+    	Category::$definition['fields']['highlight_type'] = array('type' => self::TYPE_STRING, 'validate' => 'isString', 'values' => array('best_seller', 'promo', 'wine', 'none'), 'default' => 'none');
 
     	Category::$definition['fields']['id_category_dubos'] = array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => false);
         
