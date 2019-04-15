@@ -33,6 +33,7 @@ class CategoryController extends CategoryControllerCore
         );
         $category['image_highlight'] = $this->getHighlightImage();
         $category['best_seller'] = $this->getBestSeller();
+        $category['last_wine'] = $this->getLastWine();
 
         return $category;
     }
@@ -53,6 +54,43 @@ class CategoryController extends CategoryControllerCore
             return false;
 
         $product = $products[rand(0,count($products)-1)];
+
+        $productSettings = $this->getProductPresentationSettings();
+        $presenter = $this->getProductPresenter();
+        $assembler = new ProductAssembler(Context::getContext());
+
+        return $presenter->present(
+            $productSettings,
+            $assembler->assembleProduct($product),
+            $this->context->language
+        );
+    }
+
+    public function getLastWine()
+    {
+        $sub = [];
+        $categories = [$this->category->id];
+        $sub_categories = $this->category->getAllChildren();
+
+        if ($sub_categories)
+        foreach ($sub_categories as $scat)
+            $sub[] = $scat->id;
+
+        $categories = array_merge($categories, $sub);
+
+        $sql = "SELECT p.* FROM `"._DB_PREFIX_."product` p
+            LEFT JOIN `"._DB_PREFIX_."category_product` cp ON cp.`id_product`=cp.`id_product`
+            WHERE p.`active`='1'
+            AND p.`wine`='1'
+            AND p.`wine_delivery` >= NOW()
+            AND cp.`id_category` IN (".implode(',', $categories).")
+            ORDER BY p.`wine_delivery` ASC
+        ";
+
+        $product = \Db::getInstance()->getRow($sql);
+
+        if (!$product)
+            return false;
 
         $productSettings = $this->getProductPresentationSettings();
         $presenter = $this->getProductPresenter();

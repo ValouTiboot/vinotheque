@@ -67,51 +67,51 @@
 									Possibilité d'ajouter des formats en BO dans la gestion des images
 									-->
                                     <img src="{$category.image_highlight.category_default}" />
-								{elseif isset($category.best_seller) && count($category.best_seller) && $category.highlight_type == 'best_seller' && isset($category.best_seller.cover) && $category.link_rewrite == 'primeurs'}
+								{elseif $category.highlight_type == 'wine' && $category.last_wine && count($category.last_wine)}
                                     <div id="best_seller" class="container">
                                         <div class="row">
                                             <div class="best_seller_image col-6 col-sm-3 col-lg-2">
                                                 <img
-                                                        src="{$category.best_seller.cover.bySize.large_default.url}"
-                                                        alt="{$category.best_seller.cover.legend}"
-                                                        title="{$category.best_seller.cover.legend}"
+                                                        src="{$category.last_wine.cover.bySize.large_default.url}"
+                                                        alt="{$category.last_wine.cover.legend}"
+                                                        title="{$category.last_wine.cover.legend}"
                                                 >
                                             </div>
                                             <div class="best_seller_picto col-6 col-sm-3 col-lg-2">
                                                 <img src="{$urls.img_url|escape:'html':'UTF-8'}derniere_sortie.png" alt="{l s='Dernière sortie' d='Shop.Theme.Actions'}">
                                             </div>
                                             <div class="best_seller_name col-sm-6 col-lg-4">
-                                                <div class="category-name">{if isset($category.best_seller.last_cat)}{$category.best_seller.last_cat.name}{else}{$category.best_seller.category_name}{/if}</div>
+                                                <div class="category-name">{if isset($category.last_wine.last_cat)}{$category.last_wine.last_cat.name}{else}{$category.last_wine.category_name}{/if}</div>
                                                 <h1>
-                                                    <a href="{$category.best_seller.url}">{$category.best_seller.name}</a>
+                                                    <a href="{$category.last_wine.url}">{$category.last_wine.name}</a>
                                                 </h1>
                                                 <div class="feature-name">
-                                                    {if isset($category.best_seller.features[3].value) && isset($category.best_seller.features[1].value)}
-                                                        {$category.best_seller.features[3].value} - {$category.best_seller.features[1].value}
+                                                    {if isset($category.last_wine.features[3].value) && isset($category.last_wine.features[1].value)}
+                                                        {$category.last_wine.features[3].value} - {$category.last_wine.features[1].value}
                                                     {/if}
                                                 </div>
                                                 <div class="primeur">{l s='Primeurs' d='Shop.Theme.Actions'}</div>
                                                 <div class="wine_delivery">
-													{l s='Livraison prévue' d='Shop.Theme.Actions'} : {dateFormat date=$category.best_seller.wine_delivery}
+													{l s='Livraison prévue' d='Shop.Theme.Actions'} : {dateFormat date=$category.last_wine.wine_delivery}
                                                 </div>
                                                 <div class="product-price-and-shipping">
-													{l s='A partir de' d='Shop.Theme.Actions'}{if $category.best_seller.has_discount} <span class="regular-price">{$category.best_seller.regular_price}</span>{/if} <span class="price">{$category.best_seller.price}</span>
+													{l s='A partir de' d='Shop.Theme.Actions'}{if $category.last_wine.has_discount} <span class="regular-price">{$category.last_wine.regular_price}</span>{/if} <span class="price">{$category.last_wine.price}</span>
                                                 </div>
                                             </div>
                                             <div class="best_seller_buttons col-md-12 col-lg-4">
-                                                <a class="btn btn-primary" href="{$category.best_seller.url}">{l s='En savoir plus' d='Shop.Theme.Actions'}</a>
+                                                <a class="btn btn-primary" href="{$category.last_wine.url}">{l s='En savoir plus' d='Shop.Theme.Actions'}</a>
                                                 <div>
-													{if $category.best_seller.add_to_cart_url}
+													{if $category.last_wine.add_to_cart_url}
                                                         <a
                                                                 class = "add-to-cart btn btn-primary"
-                                                                href  = "{$category.best_seller.add_to_cart_url}"
+                                                                href  = "{$category.last_wine.add_to_cart_url}"
                                                                 rel   = "nofollow"
-                                                                data-id-product="{$category.best_seller.id_product}"
-                                                                data-id-product-attribute="{$category.best_seller.id_product_attribute}"
+                                                                data-id-product="{$category.last_wine.id_product}"
+                                                                data-id-product-attribute="{$category.last_wine.id_product_attribute}"
                                                                 data-link-action="add-to-cart"
                                                         ><i class="icon-v-cart"></i></a>
 													{/if}
-													{hook h='displayProductListFunctionalButtons' product=$category.best_seller}
+													{hook h='displayProductListFunctionalButtons' product=$category.last_wine}
                                                 </div>
                                             </div>
                                         </div>
