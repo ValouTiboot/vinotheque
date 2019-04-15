@@ -278,7 +278,7 @@ class AdminCategoriesController extends AdminCategoriesControllerCore
                             ),
                             array(
                                 'value' => 'wine',
-                                'name' => $this->trans('Wine', array(), 'Admin.Catalog.Feature'),
+                                'name' => $this->trans('Sortie primeur', array(), 'Admin.Catalog.Feature'),
                             ),
                             array(
                                 'value' => 'none',
