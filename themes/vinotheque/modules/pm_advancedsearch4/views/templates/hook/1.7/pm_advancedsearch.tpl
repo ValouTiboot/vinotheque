@@ -1,5 +1,5 @@
 {if isset($as_searchs) || ((isset($listing.products) && count($listing.products)) || (isset($products) && count($products)))}
-<div id="search_filters">
+<div id="as4_search_filters">
 	<div id="search_filters_wrapper" class="{if $hookName eq 'leftcolumn' || $hookName eq 'rightcolumn'}col-12{/if} hidden-sm-down">
 	{if isset($hideAS4Form) && $hideAS4Form == true}<div id="PM_ASFormContainerHidden" style="display: none">{/if}
 	{foreach from=$as_searchs item=as_search name=as_searchs}
