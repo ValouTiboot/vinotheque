@@ -159,7 +159,6 @@ class FrontController extends FrontControllerCore
             $assembler->assembleProduct($product_last_wine),
             $this->context->language
         );
-    }
 
         return $category;
     }
