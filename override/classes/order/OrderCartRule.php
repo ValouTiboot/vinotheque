@@ -10,7 +10,7 @@ class OrderCartRule extends OrderCartRuleCore
 {
     /*
     * module: orderfees
-    * date: 2018-03-27 19:30:01
+    * date: 2018-11-19 10:30:57
     * version: 1.8.9
     */
     public function __construct($id = null)
@@ -23,7 +23,7 @@ class OrderCartRule extends OrderCartRuleCore
     }
     /*
     * module: orderfees
-    * date: 2018-03-27 19:30:01
+    * date: 2018-11-19 10:30:57
     * version: 1.8.9
     */
     public function isFee()
