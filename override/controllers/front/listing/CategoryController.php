@@ -82,9 +82,9 @@ class CategoryController extends CategoryControllerCore
             LEFT JOIN `"._DB_PREFIX_."category_product` cp ON cp.`id_product`=cp.`id_product`
             WHERE p.`active`='1'
             AND p.`wine`='1'
-            AND p.`wine_delivery` >= NOW()
+            AND p.`wine_date` <= NOW()
             AND cp.`id_category` IN (".implode(',', $categories).")
-            ORDER BY p.`wine_delivery` ASC
+            ORDER BY p.`wine_date` DESC
         ";
 
         $product = \Db::getInstance()->getRow($sql);
