@@ -127,8 +127,10 @@ class FrontController extends FrontControllerCore
         // last wine
         $category['last_wine'] = 0;
         $sub = [];
-        $categories = [$this->category->id];
-        $sub_categories = $this->category->getAllChildren();
+        $id_category = Tools::getIsset('id_category') ? Tools::getValue('id_category') : Tools::getValue('id_category_search');
+        $categories = [$id_category];
+        $oj_category = new Category($id_category);
+        $sub_categories = $oj_category->getAllChildren();
 
         if ($sub_categories)
         foreach ($sub_categories as $scat)
