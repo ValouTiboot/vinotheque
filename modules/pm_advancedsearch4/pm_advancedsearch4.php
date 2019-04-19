@@ -4121,7 +4121,7 @@ class PM_AdvancedSearch4 extends AdvancedSearchWidgetProxy
         $order_by  = Validate::isOrderBy($order_by)   ? Tools::strtolower($order_by)  : 'position';
         $order_way = Validate::isOrderWay($order_way) ? Tools::strtoupper($order_way) : 'ASC';
         $order_by_prefix = false;
-        if ($order_by == 'id_product' || $order_by == 'date_add' || $order_by == 'date_upd') {
+        if ($order_by == 'id_product' || $order_by == 'date_add' || $order_by == 'date_upd' || $order_by == 'wine_date') {
             $order_by_prefix = 'p';
         } elseif ($order_by == 'name') {
             $order_by_prefix = 'pl';

@@ -13,6 +13,7 @@
  *
  ****/
 
+use PrestaShop\PrestaShop\Core\Product\Search\SortOrder;
 use PrestaShop\PrestaShop\Core\Product\Search\ProductSearchProviderInterface;
 use PrestaShop\PrestaShop\Core\Product\Search\ProductSearchContext;
 use PrestaShop\PrestaShop\Core\Product\Search\ProductSearchQuery;
@@ -38,6 +39,18 @@ class As4FullTreeSearchProvider implements ProductSearchProviderInterface
         $result->setAvailableSortOrders(
             $this->sortOrderFactory->getDefaultSortOrders()
         );
+        
+        $result->addAvailableSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
+        
+        // seulement si c'est un primeur
+        if (($encodedSortOrder = Tools::getValue('order'))) {
+            $query->setSortOrder(SortOrder::newFromString(
+                $encodedSortOrder
+            ));
+        }
+        else
+            $query->setSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
+        
         $continue = true;
         $realContext = Context::getContext();
         if (As4SearchEngine::isSPAModuleActive()) {

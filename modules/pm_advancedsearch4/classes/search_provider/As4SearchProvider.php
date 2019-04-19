@@ -64,6 +64,7 @@ class As4SearchProvider implements ProductSearchProviderInterface
         $sortOrders[] = (new SortOrder('product', 'date_add', 'asc'))->setLabel($this->module->l('Old products first', 'as4searchprovider'));
         $sortOrders[] = (new SortOrder('product', 'date_upd', 'desc'))->setLabel($this->module->l('Latest updated products first', 'as4searchprovider'));
         $sortOrders[] = (new SortOrder('product', 'date_upd', 'asc'))->setLabel($this->module->l('Oldest updated products first', 'as4searchprovider'));
+        $sortOrders[] = (new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider'));
         $result->setAvailableSortOrders(
             $sortOrders
         );
