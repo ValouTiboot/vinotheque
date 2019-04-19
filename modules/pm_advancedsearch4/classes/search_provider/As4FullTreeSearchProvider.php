@@ -42,6 +42,8 @@ class As4FullTreeSearchProvider implements ProductSearchProviderInterface
 
         $is_cat_primeur = [22];
         $cat_primeur = new Category(22);
+        $is_cat_primeur = [77];
+        $cat_primeur = new Category(77);
         $sub_categories = $cat_primeur->getAllChildren();
 
         if ($sub_categories)
