@@ -31,6 +31,7 @@ class CategoryController extends CategoryControllerCore
             $this->category,
             $this->category->id_image
         );
+        // see front controller
         $category['image_highlight'] = $this->getHighlightImage();
         $category['best_seller'] = $this->getBestSeller();
         $category['last_wine'] = $this->getLastWine();
