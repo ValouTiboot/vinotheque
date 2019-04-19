@@ -96,6 +96,7 @@ class FrontController extends FrontControllerCore
 
         $category['image_highlight'] = $images;
         
+        // best seller
         $sql = "SELECT P.`id_product`, SUM(OD.`product_quantity`) as mq
             FROM `" . _DB_PREFIX_ . "product` P
             RIGHT JOIN `" . _DB_PREFIX_ . "order_detail` OD ON OD.`product_id`=P.`id_product`
@@ -122,6 +123,43 @@ class FrontController extends FrontControllerCore
                 $this->context->language
             );
         }
+
+        // last wine
+        $category['last_wine'] = 0;
+        $sub = [];
+        $categories = [$this->category->id];
+        $sub_categories = $this->category->getAllChildren();
+
+        if ($sub_categories)
+        foreach ($sub_categories as $scat)
+            $sub[] = $scat->id;
+
+        $categories = array_merge($categories, $sub);
+
+        $sql = "SELECT p.* FROM `"._DB_PREFIX_."product` p
+            LEFT JOIN `"._DB_PREFIX_."category_product` cp ON cp.`id_product`=cp.`id_product`
+            WHERE p.`active`='1'
+            AND p.`wine`='1'
+            AND p.`wine_date` <= NOW()
+            AND cp.`id_category` IN (".implode(',', $categories).")
+            ORDER BY p.`wine_date` DESC
+        ";
+
+        $product_last_wine = \Db::getInstance()->getRow($sql);
+
+        if (!$product_last_wine)
+            return false;
+
+        $productSettings = $this->getProductPresentationSettings();
+        $presenter = $this->getProductPresenter();
+        $assembler = new ProductAssembler(Context::getContext());
+
+        $category['last_wine'] = $presenter->present(
+            $productSettings,
+            $assembler->assembleProduct($product_last_wine),
+            $this->context->language
+        );
+    }
 
         return $category;
     }
