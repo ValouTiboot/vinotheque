@@ -28,7 +28,7 @@ abstract class As4SearchEngine
     public static $productFilterListData = false;
     public static $productFilterListSource = false;
     public static $productFilterListQuery = false;
-    public static $orderByValues = array(0 => 'name', 1 => 'price', 2 => 'date_add', 3 => 'date_upd', 4 => 'position', 5 => 'manufacturer_name', 6 => 'quantity', 7 => 'reference', 8 => 'sales');
+    public static $orderByValues = array(0 => 'name', 1 => 'price', 2 => 'date_add', 3 => 'date_upd', 4 => 'position', 5 => 'manufacturer_name', 6 => 'quantity', 7 => 'reference', 8 => 'sales', 9 => 'wine_date');
     public static $orderWayValues = array(0 => 'asc', 1 => 'desc');
     public static function getCMSAssociation($id_search, $id_lang)
     {
@@ -1444,7 +1444,7 @@ abstract class As4SearchEngine
             $orderByPrefix = 'ps';
         } elseif ($orderBy == 'quantity') {
             $orderByPrefix = null;
-        } elseif ($orderBy == 'id_product' || $orderBy == 'date_upd' || $orderBy == 'date_add' || $orderBy == 'reference') {
+        } elseif ($orderBy == 'id_product' || $orderBy == 'date_upd' || $orderBy == 'date_add' || $orderBy == 'reference' || $orderBy == 'wine_date') {
             $orderByPrefix = 'p';
         } elseif ($orderBy == 'name') {
             $orderByPrefix = 'pl';
