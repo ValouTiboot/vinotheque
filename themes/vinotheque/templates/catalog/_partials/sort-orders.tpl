@@ -41,9 +41,10 @@
     {if isset($listing.sort_selected)}{$listing.sort_selected}{else}{l s='Select' d='Shop.Theme.Actions'}{/if}
     <i class="material-icons pull-xs-right">&#xE5C5;</i>
   </a>
+  
   <div class="dropdown-menu">
 	  {foreach from=$listing.sort_orders item=sort_order}
-      {if $sort_order.field == 'name' || $sort_order.field == 'price' || ($sort_order.field == 'position' && $sort_order.direction == 'asc')}
+      {if $sort_order.field == 'name' || $sort_order.field == 'price' || $sort_order.field == 'wine_date' || ($sort_order.field == 'position' && $sort_order.direction == 'asc')}
         <a
                 rel="nofollow"
                 href="{$sort_order.url}"
