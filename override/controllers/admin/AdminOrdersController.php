@@ -10,7 +10,7 @@ class AdminOrdersController extends AdminOrdersControllerCore
 {
     /*
     * module: orderfees
-    * date: 2018-11-19 10:31:06
+    * date: 2018-03-27 19:30:06
     * version: 1.8.9
     */
     public function setHelperDisplay(Helper $helper)
