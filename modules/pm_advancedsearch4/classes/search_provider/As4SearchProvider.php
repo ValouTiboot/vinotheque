@@ -76,7 +76,23 @@ class As4SearchProvider implements ProductSearchProviderInterface
             } else {
                 $defaultSortOrder = As4SearchEngine::getOrderByValue($currentSearchEngine);
                 $defaultSortWay = As4SearchEngine::getOrderWayValue($currentSearchEngine);
+
+                $is_cat_primeur = [22];
+                $cat_primeur = new Category(22);
+                $sub_categories = $cat_primeur->getAllChildren();
+
+                if ($sub_categories)
+                foreach ($sub_categories as $scat)
+                    $is_cat_primeur[] = $scat->id;
+                
+                // seulement si c'est un primeur
+                if (in_array(Tools::getValue('id_category_search'), $is_cat_primeur))
+                {
+                    $defaultSortOrder = 'wine_date';
+                    $defaultSortWay = 'asc';
+                }
             }
+
             $sortOrderSet = false;
             foreach ($sortOrders as $sortOrder) {
                 if ($sortOrder->getField() == $defaultSortOrder) {

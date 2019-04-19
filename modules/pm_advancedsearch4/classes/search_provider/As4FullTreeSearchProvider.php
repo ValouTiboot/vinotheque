@@ -39,17 +39,28 @@ class As4FullTreeSearchProvider implements ProductSearchProviderInterface
         $result->setAvailableSortOrders(
             $this->sortOrderFactory->getDefaultSortOrders()
         );
-        
-        $result->addAvailableSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
-        
+
+        $is_cat_primeur = [22];
+        $cat_primeur = new Category(22);
+        $sub_categories = $cat_primeur->getAllChildren();
+
+        if ($sub_categories)
+        foreach ($sub_categories as $scat)
+            $is_cat_primeur[] = $scat->id;
+
         // seulement si c'est un primeur
-        if (($encodedSortOrder = Tools::getValue('order'))) {
-            $query->setSortOrder(SortOrder::newFromString(
-                $encodedSortOrder
-            ));
+        if (in_array(Context::getContext()->controller->getCategory()->id_category, $is_cat_primeur))
+        {        
+            $result->addAvailableSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
+
+            if (($encodedSortOrder = Tools::getValue('order'))) {
+                $query->setSortOrder(SortOrder::newFromString(
+                    $encodedSortOrder
+                ));
+            }
+            else
+                $query->setSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
         }
-        else
-            $query->setSortOrder((new SortOrder('product', 'wine_date', 'asc'))->setLabel($this->module->l('Date de sortie', 'as4searchprovider')));
         
         $continue = true;
         $realContext = Context::getContext();
