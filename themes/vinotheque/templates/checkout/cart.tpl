@@ -31,7 +31,7 @@
 
     <div class="cart_navigation row">
         {block name='continue_shopping'}
-          <a class="btn btn-secondary" href="{$urls.pages.index}">
+          <a class="btn btn-secondary" href="{$back_to_last_product}">
               < {l s='Continue shopping' d='Shop.Theme.Actions'}
           </a>
         <a class="btn btn-secondary pull-right" href="#">
@@ -45,7 +45,7 @@
 			{block name='cart_overview'}
 				{include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
 			{/block}
-			{hook h='displayShoppingCartDetailFooter'}
+      {hook h='displayShoppingCartDetailFooter'}
         </div>
         <div id="cart_details" class="col-12 col-lg-4">
 			{block name='cart_totals'}
