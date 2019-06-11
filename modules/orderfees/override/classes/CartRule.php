@@ -27,7 +27,34 @@ class CartRule extends CartRuleCore
         $use_cache = true
     ) {
         $current_filter = $filter;
-        
+
+        $products = Context::getContext()->cart->getProducts();
+        $add_price = 0;
+        $add_price_tax_exc = 0;
+        if (preg_match('@primeur@i', $this->name))
+        {
+            foreach ($products as $product)
+            {
+                if ($product['wine'])
+                {
+                    if ($use_tax)
+                    {
+                        $add_price += (($product['total']*1.5)/100)*1.2;
+                        $add_price_tax_exc += ($product['total']*1.5)/100;
+                    }
+                }
+            }
+
+            $reduction_amount = (15*1.2)+$add_price;
+            if ($use_tax && $this->reduction_amount != $reduction_amount)
+            {
+                $this->unit_value_tax_exc -= 15+$add_price_tax_exc;
+                $this->reduction_amount += $add_price;
+                // $this->unit_value_tax_inc -= $this->reduction_amount;
+                $this->unit_value_real -= $this->reduction_amount;
+            }
+        }
+
         $results = Hook::exec('actionCartRuleGetContextualValueBefore', array(
             'object' => &$this,
             'context' => &$context,
@@ -47,7 +74,7 @@ class CartRule extends CartRuleCore
         }
         
         $contextual_value = parent::getContextualValue($use_tax, $context, $filter, $package, $use_cache);
-        
+
         $results = Hook::exec('actionCartRuleGetContextualValueAfter', array(
             'object' => &$this,
             'context' => &$context,

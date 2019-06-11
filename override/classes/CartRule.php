@@ -52,7 +52,8 @@ class CartRule extends CartRuleCore
                 }
             }
 
-            if ($use_tax)
+            $reduction_amount = (15*1.2)+$add_price;
+            if ($use_tax && $this->reduction_amount != $reduction_amount)
             {
                 $this->unit_value_tax_exc -= 15+$add_price_tax_exc;
                 $this->reduction_amount += $add_price;
