@@ -154,7 +154,7 @@ class ProductController extends ProductControllerCore
     {
         $categorie = new Category($this->product->id_category_default);
 
-        $sql = "SELECT `id_product` 
+        $sql = "SELECT cp.`id_product` 
             FROM `" . _DB_PREFIX_ . "category_product` cp
             RIGHT JOIN `"._DB_PREFIX_."product` p ON p.`id_product`=cp.`id_product`
             WHERE cp.`id_category`='" . pSQL($categorie->id_parent == 2 || $categorie->id == 2 ? $categorie->id : $categorie->id_parent) . "'
