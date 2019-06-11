@@ -101,4 +101,22 @@ Class CartController extends CartControllerCore
         $removed = CartRule::autoRemoveFromCart();
         CartRule::autoAddToCart();
     }
+
+    public function getTemplateVarPage()
+    {
+        $page = parent::getTemplateVarPage();
+        $presenter = new CartPresenter();
+        $presented_cart = $presenter->present($this->context->cart);
+
+        if (count($presented_cart['products']) == 0) {
+            $page['body_classes']['cart-empty'] = true;
+        }
+        else
+        {
+            $revert = array_reverse($presented_cart['products']);
+            $this->context->smarty->assign('back_to_last_product', $revert[0]['url']);
+        }
+
+        return $page;
+    }
 }
