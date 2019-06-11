@@ -144,7 +144,7 @@ class OrderFeesOverride extends OrderFees
                 'price' => $price_formatter
             ));
             
-            // return $this->display(__FILE__, '1.7/' . $template);
+            return $this->display(__FILE__, '1.7/' . $template);
         }
         
         return $this->display(__FILE__, $template);

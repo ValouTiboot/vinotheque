@@ -107,6 +107,7 @@ Class CartController extends CartControllerCore
         $page = parent::getTemplateVarPage();
         $presenter = new CartPresenter();
         $presented_cart = $presenter->present($this->context->cart);
+        $this->context->smarty->assign('back_to_last_product', '/');
 
         if (count($presented_cart['products']) == 0) {
             $page['body_classes']['cart-empty'] = true;
