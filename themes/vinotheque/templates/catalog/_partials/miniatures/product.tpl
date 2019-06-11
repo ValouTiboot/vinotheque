@@ -91,17 +91,14 @@
 
               {if ((isset($customer.is_logged) && $customer.is_logged) || (isset($customer.logged) && $customer.logged)) || isset($product.is_private_sale_product) && !$product.is_private_sale_product}
                 {l s='A partir de' d='Shop.Theme.Actions'}{if $product.has_discount} <span class="regular-price">{$product.regular_price}</span>{/if} <span itemprop="price" class="price">{$product.price}</span>
+        				{if $product.wine} {* Primeurs *}
+                    <span class="red"><strong>HT</strong></span>
+        				{/if}
               {else}
                 {l s='Access to'}
                 <br />
                 <a class="private-sale-link" href="{$link->getCMSLink(7)}">{l s='private sale'}</a>
               {/if}
-
-				{if isset($category) && is_array($category) && $category.id == '22'} {* Primeurs *}
-					{if $configuration.display_taxes_label}
-                        <span class="red"><strong>HT</strong></span>
-					{/if}
-				{/if}
 
               {hook h='displayProductPriceBlock' product=$product type="unit_price"}
 
@@ -118,10 +115,10 @@
                   <br>
               {/if}
             {/if}
-            {*foreach from=$product.flags item=flag}
+            {foreach from=$product.flags item=flag}
               <li class="{$flag.type}">{$flag.label}</li>
                 <br>
-            {/foreach*}
+            {/foreach}
           </ul>
         {/block}
 
