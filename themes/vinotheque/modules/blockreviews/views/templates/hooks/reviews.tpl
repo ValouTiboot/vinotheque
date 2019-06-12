@@ -47,7 +47,7 @@
                         {/if}
                     {/if}
                 {/if}
-                <span class="prfb-time">{$review.date_add|date_format|escape:'htmlall':'UTF-8'}</span>
+                <span class="prfb-time">{$review.date_add|date_format:'%d/%m/%Y'}</span>
                 {if $review.active == 1}
                 <div class="rating-total-for-item">
                     <div class="rating-total-for-item-part-l">

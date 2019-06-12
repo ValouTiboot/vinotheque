@@ -21,16 +21,16 @@
   {if $blockreviewshooktodisplay == "extra_left"}
     <div id="review_block" class="review_block_left clearfix">
       <div class="rating_container">
-        {l s='Reviews' mod='blockreviews'}
+        {l s='Avis clients' mod='blockreviews'}
         <div class="rating">{$avg_rating|escape:'htmlall':'UTF-8'}</div>
       </div>
 	    <div class="rev-text">
 	    	<span id="avg_decimal">
           {*$avg_decimal|escape:'htmlall':'UTF-8'}</span>/<span>5</span> - <span id="count_review_main">{$nbReviews|escape:'htmlall':'UTF-8'}</span> {$textReview|escape:'htmlall':'UTF-8'*}
           {if $nbReviews}
-          <a href="#idTab666">{l s='Read comments' mod='blockreviews'}({$nbReviews})</a>
+          <a href="#idTab666">{l s='Lire les avis' mod='blockreviews'}({$nbReviews})</a>
           {else}
-          {l s='Read comments' mod='blockreviews'}({$nbReviews})
+          {l s='Lire les avis' mod='blockreviews'}({$nbReviews})
           {/if}
 	    </div>
       <div class="rev-link">
