@@ -1,0 +1,19 @@
+<?php
+$_html = '';
+if(version_compare(_PS_VERSION_, '1.7', '>')) {
+    $_html .= '<div class="span">
+                          <p>
+                             <span style="font-weight: bold; font-size: 15px;" class="question">
+                             	- ' . $this->l('How can I add Stars in Category and Search pages?') . '
+                             </span>
+                             <br/><br/>
+                             <span style="color: black;" class="answer">
+                             	   ' . $this->l('You just need to add a line of code in the tpl file /themes/{YOUR_CURRENT_THEME}/templates/catalog/_partials/miniatures/product.tpl.') . '
+                                   <pre>{hook h=\'displayProductListReviews\' product=$product}</pre>
+                              </span>
+                         </p>
+                       </div><br/><br/>';
+}
+
+echo $_html;
+?>

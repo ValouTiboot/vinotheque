@@ -1,0 +1,130 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(../img/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+
+
+.owl_blockreviews_reviews_type_carousel .owl-controls .owl-nav
+{
+    bottom: 100%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    min-height: 20px;
+    min-width: 20px;
+    position: absolute;
+    right: -2px;
+}
+
+.owl-carousel img:hover, .blockreviews-articles-block .blockreviews-item-block img:hover{transform: scale(1.04);}
+.owl-carousel img, .blockreviews-articles-block .blockreviews-item-block img{transition: all 0.7s ease 0s;}
+
+
+.owl_blockreviews_reviews_type_carousel{overflow: hidden;}
+.owl_blockreviews_reviews_type_carousel .owl-controls .owl-nav
+{
+    display: none;
+}
+
+
+.owl_blockreviews_home_reviews_type_carousel{overflow: hidden}
+.owl_blockreviews_home_reviews_type_carousel .owl-controls .owl-nav{
+    bottom: 100%;
+    margin-bottom: 10px;
+    margin-right:10px;
+    margin-top: 0;
+    min-height: 20px;
+    min-width: 20px;
+    position: absolute;
+    right: -2px;
+}
+
+
+/* for ps 16 */
+.blockmanufacturer16 .owl-controls .owl-nav{
+    margin-bottom: 25px!important;
+}
+/* for ps 16 */
+
+.owl_blockreviews_home_reviews_type_carousel ul.owl-carousel{position:relative!important;}
+
+.owl_blockreviews_home_reviews_type_carousel .owl-carousel a.item-article{
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: underline;
+}
+
+.owl_blockreviews_home_reviews_type_carousel h4{margin-bottom: 10px!important;}
+
+
+
+
+
+
+

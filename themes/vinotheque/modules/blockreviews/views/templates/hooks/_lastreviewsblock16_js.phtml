@@ -1,0 +1,42 @@
+<?php
+
+$_html = '';
+
+
+$_html .= "<script type=\"text/javascript\">
+    	$('document').ready( function() {
+
+
+			$( \"label[for='brev_slider_on']\" ).click(function() {
+                $( \"#brev_sl\" ).parent().parent().show(200);
+			});
+
+            $( \"label[for='brev_slider_off']\" ).click(function() {
+    	        $( \"#brev_sl\" ).parent().parent().hide(200);
+    	    });
+
+    	    if(".(int)Configuration::get($this->name.'brev_slider')." == 0){
+    	        $( \"#brev_sl\" ).parent().parent().hide(200);
+    	    }
+
+
+    	    $( \"label[for='brev_sliderh_on']\" ).click(function() {
+                $( \"#brev_slh\" ).parent().parent().show(200);
+			});
+
+            $( \"label[for='brev_sliderh_off']\" ).click(function() {
+    	        $( \"#brev_slh\" ).parent().parent().hide(200);
+    	    });
+
+    	    if(".(int)Configuration::get($this->name.'brev_sliderh')." == 0){
+    	        $( \"#brev_slh\" ).parent().parent().hide(200);
+    	    }
+
+
+
+    	});
+    	</script>
+    	";
+
+echo $_html;
+?>

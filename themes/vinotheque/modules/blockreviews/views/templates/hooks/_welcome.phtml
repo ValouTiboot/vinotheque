@@ -1,0 +1,25 @@
+<?php
+
+
+$_html  = '';
+
+            $_html .= '<div class="panel">
+
+                <div class="panel-heading"><i class="fa fa-home fa-lg"></i>&nbsp;'.$this->l('Welcome').'</div>';
+
+
+        $_html .=  '<p class="alert alert-info">'.$this->l('Welcome and thank you for purchasing our module.').'</p>';
+
+$_html .= '<br/><p class="alert alert-info"><b>Version</b> : '.$this->version.'</p>';
+
+
+$_html .= '<br/><p class="alert alert-info">';
+$_html .= $this->l('To configure module please read').'&nbsp;<b><a style="text-decoration:underline" id="tab-menu-110" onclick="tabs_custom(110)" href="javascript:void(0)">'.$this->l('Help / Documentation').'</a></b>';
+$_html .= '</p><br/>';
+
+
+
+$_html .= '</div>';
+
+echo $_html;
+        ?>
