@@ -1,0 +1,33 @@
+<?php
+$_html = '';
+
+$_html .= '<div class="panel">
+
+				<div class="panel-heading"><i class="fa fa-tasks fa-lg"></i>&nbsp;'.$this->l('CRON HELP').'</div>';
+
+$_html .= '<p class="hint clear" style="display: block; font-size: 12px; width: 95%;position:relative">';
+
+$_html .= '<b>';
+$_html .= $this->l('You can configure sending email messages through cron. You have 2 possibilities:');
+$_html .= '</b>';
+$_html .= '<br/><br/><br/>';
+$_html .= '<b>1.</b> '.$this->l('You can enter the following url in your browser: ');
+$_html .= '<b>'.$cron_url.$delimeter_rewrite.'token='.$this->getokencron().'</b>';
+$_html .= '<br/><br/><br/>';
+$_html .= '<b>2.</b> '.$this->l('You can set a cron\'s task (a recursive task that fulfills the sending of reminders)');
+$_html .= '<br/><br/>';
+$_html .= $this->l('The task run every hour').':&nbsp;&nbsp;&nbsp; <b>* */1 * * * /usr/bin/wget -O - -q '.$cron_url.$delimeter_rewrite.'token='.$this->getokencron().'</b>';
+$_html .= '<br/><br/><br/>';
+$_html .= '<b>'.$this->l('How to configure a cron task ?').'</b>';
+$_html .= '<br/><br/>';
+$_html .= $this->l('On your server, the interface allows you to configure cron\'s tasks');
+$_html .= '<br/>';
+$_html .= $this->l('About CRON').'&nbsp;&nbsp;&nbsp;<a href=http://en.wikipedia.org/wiki/Cron target=_blank>http://en.wikipedia.org/wiki/Cron</a>';
+$_html .= '</p>';
+
+
+
+$_html .= '</div>';
+
+echo $_html;
+?>

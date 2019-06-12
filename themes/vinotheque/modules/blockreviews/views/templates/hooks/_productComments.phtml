@@ -1,0 +1,29 @@
+<?php
+
+
+$_html = '';
+
+$_html .= '<div class="panel">
+		<div class="panel-heading"><i class="fa fa-comments-o fa-lg"></i>&nbsp;'.$this->l('Import Product Comments').'</div>';
+
+$_html .= '<p class="hint clear" style="display: block; font-size: 12px; width: 95%;position:relative">
+
+    				'.$this->l('If you are already using PrestaShop "Product comments" module, you can import all your existing ratings and comments so as not to lose any of your history. ').'
+                     <br/><br/>';
+
+if($is_count_comments>0){
+    $_html .= $this->l('You have').' <b>'.$count_comments.'</b> '.$this->l('comments').' &nbsp;&nbsp;&nbsp; ';
+    $_html .= '<input type="submit" value="'.$this->l('Import Product comments').'" name="submitcomments"
+        	                class="'.(version_compare(_PS_VERSION_, '1.6', '>')?'btn btn-primary pull':'button').'"/>';
+} else{
+
+    $_html .= '<b>'.$this->l('Your database no contains Product comments for imports').'</b>';
+
+}
+
+$_html .= '</p>';
+$_html .= '</div>';
+
+echo $_html;
+
+?>

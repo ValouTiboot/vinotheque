@@ -1,0 +1,34 @@
+<?php
+
+$_html = '';
+
+$btabs_type = (int)Configuration::get($this->name.'ptabs_type');
+$text_17 = "<span id='help-tabs-".$this->name."17' style='color:red;font-weight:bold'><br/>".
+    $this->l('Read Step 7 "How to configure product tabs for Prestashop 1.7.x.x ?" in the').
+    " <a target='_blank' href='../modules/".$this->name."/Installation_Guid.pdf' style='text-decoration:underline;font-weight:bold'>Installation_Guid.pdf</a>"
+    ."<br/></span>";
+
+$_html .= "<script type=\"text/javascript\">
+    	$('document').ready( function() {
+    		if(".$btabs_type." == 3){
+    				$( \"#ptabs_type\" ).after(\"".$text_17."\");
+    		} else {
+    				$( \"#help-tabs-".$this->name."17\" ).remove();
+    		}
+
+
+    		$( \"#ptabs_type\" ).change(function() {
+  				    if($( \"#ptabs_type option:selected\" ).val() == 3){
+      				    $( \"#ptabs_type\" ).after(\"".$text_17."\");
+		    		} else {
+		    			$( \"#help-tabs-".$this->name."17\" ).remove();
+		    		}
+			});
+
+
+    	});
+    	</script>
+    	";
+
+echo $_html;
+?>

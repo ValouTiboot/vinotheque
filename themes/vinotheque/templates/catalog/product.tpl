@@ -139,6 +139,10 @@
                             </div>
                             {/block}
 
+                            {block name='reviews'}
+                              {hook h='extraLeft' mod='blockreviews' product=$product}
+                            {/block}
+
                             {*{block name='product_quantities'}*}
                               {*{if $product.show_quantities}*}
                                 {*<p id="product-quantities">{$product.quantity} {$product.quantity_label}</p>*}
@@ -201,7 +205,7 @@
 
                                 {block name='product_add_to_cart'}
                                   {include file='catalog/_partials/product-add-to-cart.tpl'}
-                                  {/block}
+                                {/block}
 
                                 {block name='hook_display_reassurance'}
                                   {hook h='displayReassurance'}
@@ -355,7 +359,9 @@
           </div>
 
           {block name='product_footer'}
-            {hook h='displayFooterProduct' product=$product category=$category}
+            <div class="container">
+              {hook h='displayFooterProduct' product=$product category=$category}
+            </div>
           {/block}
 
           {block name='product_images_modal'}

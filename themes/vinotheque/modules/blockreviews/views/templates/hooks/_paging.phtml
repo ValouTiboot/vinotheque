@@ -1,0 +1,55 @@
+<?php
+
+$res = '';
+$res .= '<div class="pages margin-top-10">';
+$res .= '<span>'.$page_text.': </span>';
+$res .= '<span class="nums">';
+
+$start1 = $start;
+for ($start1 = ($start - $step*4 >= 0 ? $start - $step*4 : 0); $start1 < ($start + $step*5 < $count ? $start + $step*5 : $count); $start1 += $step)
+{
+    $par = (int)($start1 / $step) + 1;
+    if ($start1 == $start)
+    {
+
+        $res .= '<b>'. $par .'</b>';
+    }
+    else
+    {
+        $delimeter_rewrite = "&";
+        if(Configuration::get('PS_REWRITING_SETTINGS')){
+            $delimeter_rewrite = "?";
+        }
+        if($all) {
+            //$res .= '<a href="javascript:void(0)" onclick="paging_blockreviews_all( '.($start1 ? $start1 : 0).' )">'.$par.'</a>';
+            $product_url = isset($data['product_url']) ? $data['product_url'] : '';
+
+
+            $rp = ($start1 ? $delimeter_rewrite . 'rp=' . $par : '');
+
+            $res .= '<a href="' . $product_url . $rp . '" title="' . $par . '">' . $par . '</a>';
+        } elseif($is_product_page){
+            $res .= '<a href="javascript:void(0)" onclick="PageNav( '.($start1 ? $start1 : 0).','.$id_product.' )">'.$par.'</a>';
+
+        } elseif($all_my){
+            //$res .= '<a href="javascript:void(0)" onclick="paging_blockreviews_all_my( '.($start1 ? $start1 : 0).' )">'.$par.'</a>';
+            $product_url = isset($data['product_url'])?$data['product_url']:'';
+            $rp = ($start1 ? $delimeter_rewrite.'rp='.$par : '');
+
+            $res .= '<a href="'.$product_url.$rp.'" title="'.$par.'">'.$par.'</a>';
+
+        } elseif($_admin){
+            $currentIndex = $data['currentIndex'];
+            $token = $data['token'];
+            $res .= '<a href="'.$currentIndex.'&page='.($start1 ? $start1 : 0).$token.'" >'.$par.'</a>';
+        }else {
+            $res .= '<a href="javascript:void(0)" onclick="paging_blockreviews( '.($start1 ? $start1 : 0).','.$id_product.' )">'.$par.'</a>';
+        }
+    }
+}
+
+$res .= '</span>';
+$res .= '</div>';
+echo $res;
+
+?>

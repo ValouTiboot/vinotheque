@@ -1,0 +1,48 @@
+<?php
+$_html = '';
+
+$_html .= '<div class="row">
+    				<div class="col-lg-12">
+    					<div class="row">';
+
+$_html .= '<div class="productTabs col-lg-2 col-md-3">
+
+			<div class="list-group">
+				<ul class="nav nav-pills nav-stacked" id="reviewsnavtabs16">
+				    <li class="active"><a href="#globalsettings" data-toggle="tab" class="list-group-item"><i class="fa fa-cogs fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_glob_set'].'</a></li>
+
+				    <li><a href="#handlingreviews" data-toggle="tab" class="list-group-item"><i class="fa fa-star fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_hand_rev'].'</a></li>
+				    <li><a href="#staroncategorypage" data-toggle="tab" class="list-group-item"><i class="fa fa-bars fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_prod_stars_list'].'</a></li>
+				    <li><a href="#lastreviewsblock" data-toggle="tab" class="list-group-item"><i class="fa fa-list-alt fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_last_rev_set'].'</a></li>
+				    <li><a href="#fieldsinaddreviewform" data-toggle="tab" class="list-group-item"><i class="fa fa-check-square fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_fields_in_add_rev_f'].'</a></li>
+                    <li><a href="#rssfeed" data-toggle="tab" class="list-group-item"><i class="fa fa-rss fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_rss_feed'].'</a></li>
+                    <li><a href="#notisettings" data-toggle="tab" class="list-group-item"><i class="fa fa-exclamation-triangle fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_noti_set'].'</a></li>
+                    <li><a href="#customerreminder" data-toggle="tab" class="list-group-item"><i class="fa fa-bell-o fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_cust_rem_set'].'</a></li>
+                    <li><a href="#importcomments" data-toggle="tab" class="list-group-item"><i class="fa fa-comments-o fa-lg"></i>&nbsp;'.$this->_data_translate_custom['_modulesettings16_imp_prod_com'].'</a></li>
+
+				  </ul>
+				  </div>
+		</div>';
+
+$_html .= '<div class="tab-content col-lg-10 col-md-9">';
+$_html .= '<div class="tab-pane active" id="globalsettings">'.$this->_global16().'</div>';
+$_html .= '<div class="tab-pane" id="handlingreviews">'.$this->_handlingreviews16().'</div>';
+$_html .= '<div class="tab-pane" id="staroncategorypage">'.$this->_staroncategorypage16().'</div>';
+$_html .= '<div class="tab-pane" id="lastreviewsblock">'.$this->_lastreviewsblock16().'</div>';
+
+$_html .= '<div class="tab-pane" id="fieldsinaddreviewform">'.$this->_fieldsinaddreviewform16().'</div>';
+$_html .= '<div class="tab-pane" id="rssfeed">'.$this->_rssfeed16().'</div>';
+
+$_html .= '<div class="tab-pane" id="notisettings">'.$this->_notisettings16().'</div>';
+$_html .= '<div class="tab-pane" id="customerreminder">'.$this->_customerreminder16().'</div>';
+$_html .= '<div class="tab-pane" id="importcomments">'.$this->_importcomments16().'</div>';
+
+
+$_html .= '</div>';
+
+
+
+$_html .= '</div></div></div>';
+
+echo $_html;
+?>

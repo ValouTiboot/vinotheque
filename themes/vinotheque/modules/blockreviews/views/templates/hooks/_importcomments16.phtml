@@ -1,0 +1,23 @@
+<?php
+
+$_html = '';
+
+
+if ($obj->ifExsitsTableProductcomments()){
+    $_html .= '<form method="post" action="'.Tools::safeOutput($_SERVER['REQUEST_URI']).'">';
+    $_html .= '<input type="hidden" value="1" name="importcommentssettings"/>';
+    $_html .= $this->_productComments();
+    $_html .= '</form>';
+} else{
+    $_html .= '<div class="panel">
+            	<div class="panel-heading"><i class="fa fa-comments-o fa-lg"></i>&nbsp;'.$this->l('Import Product Comments').'</div>';
+
+    $_html .= '<b>'.$this->l('Your database no contains Product comments for imports').'</b>';
+    $_html .= '</div>';
+
+
+}
+
+echo $_html;
+
+?>

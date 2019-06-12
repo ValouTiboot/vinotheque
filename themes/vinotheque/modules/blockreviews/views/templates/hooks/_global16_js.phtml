@@ -1,0 +1,55 @@
+<?php
+
+$_html = '';
+$_html .= "<script type=\"text/javascript\">
+    	$('document').ready( function() {
+
+    		$( \"label[for='reviewson_on']\" ).click(function() {
+                $( \"a[href='#handlingreviews']\" ).css('display','block');
+                $( \"a[href='#staroncategorypage']\" ).css('display','block');
+                $( \"a[href='#lastreviewsblock']\" ).css('display','block');
+                $( \"a[href='#fieldsinaddreviewform']\" ).css('display','block');
+                $( \"a[href='#rssfeed']\" ).css('display','block');
+                $( \"a[href='#notisettings']\" ).css('display','block');
+                $( \"a[href='#customerreminder']\" ).css('display','block');
+                $( \"a[href='#importcomments']\" ).css('display','block');
+
+
+
+
+
+			});
+
+            $( \"label[for='reviewson_off']\" ).click(function() {
+    	        $( \"a[href='#handlingreviews']\" ).css('display','none');
+                $( \"a[href='#staroncategorypage']\" ).css('display','none');
+                $( \"a[href='#lastreviewsblock']\" ).css('display','none');
+                $( \"a[href='#fieldsinaddreviewform']\" ).css('display','none');
+                $( \"a[href='#rssfeed']\" ).css('display','none');
+                $( \"a[href='#notisettings']\" ).css('display','none');
+                $( \"a[href='#customerreminder']\" ).css('display','none');
+                $( \"a[href='#importcomments']\" ).css('display','none');
+
+
+    	    });
+
+    	    if(".(int)Configuration::get($this->name.'reviewson')." == 0){
+    	       $( \"a[href='#handlingreviews']\" ).css('display','none');
+                $( \"a[href='#staroncategorypage']\" ).css('display','none');
+                $( \"a[href='#lastreviewsblock']\" ).css('display','none');
+                $( \"a[href='#fieldsinaddreviewform']\" ).css('display','none');
+                $( \"a[href='#rssfeed']\" ).css('display','none');
+                $( \"a[href='#notisettings']\" ).css('display','none');
+                $( \"a[href='#customerreminder']\" ).css('display','none');
+                $( \"a[href='#importcomments']\" ).css('display','none');
+
+
+    	    }
+
+    	});
+
+    	</script>";
+
+echo $_html;
+
+?>
