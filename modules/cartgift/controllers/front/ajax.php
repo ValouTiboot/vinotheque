@@ -24,9 +24,9 @@ class CartgiftAjaxModuleFrontController extends ModuleFrontController
 			);
 
 			if ($ret)
-				$msg = $this->module->l('Message saved.');
+				$msg = $this->l('Message saved.','ajax');
 			else
-				$msg = $this->module->l('An error occured.');
+				$msg = $this->l('An error occured.','ajax');
 
 			die(Tools::jsonEncode(array('msg' => $msg)));
 		}
