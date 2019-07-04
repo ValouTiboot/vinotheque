@@ -20,7 +20,7 @@
                     <div id="recette" class="col-lg-5">
                         <p id="recette_title">{$RecipeNews.title}</p>
                         <div id="recette_content">
-                            {$RecipeNews.paragraph}<br>
+                            {PrestaBlogContent return=$RecipeNews.paragraph}<br>
                         </div>
                         <a id="read_more" href="{PrestaBlogUrl id=$RecipeNews.id_prestablog_news seo=$RecipeNews.link_rewrite titre=$RecipeNews.title}">
                             {l s='Lire la suite' mod='prestablog'}
