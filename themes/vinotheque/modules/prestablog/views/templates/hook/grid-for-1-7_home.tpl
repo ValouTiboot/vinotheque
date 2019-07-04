@@ -70,7 +70,6 @@
                                 {/block}
 
                                 {block name='category_name'}
-                                {$product.last_cat|var_dump}
                                   <div class="category-name">{if !empty($product.last_cat)}{$product.last_cat.name}{else}{$product.category_name}{/if}</div>
                                 {/block}
 
