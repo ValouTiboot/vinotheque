@@ -48,7 +48,7 @@ class GiftCardOverride extends GiftCard
         $model = new Gift();
         $languages = Language::getLanguages(true);
 
-        if ($id_customer != $this->context->cookie->id_customer)
+        if ($id_customer != Context::getContext()->cookie->id_customer)
             return;
 
         $paid = true;
