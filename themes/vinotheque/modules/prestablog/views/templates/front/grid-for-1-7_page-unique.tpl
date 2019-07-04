@@ -19,9 +19,9 @@
 {if isset($news)}
     <div class="prestablog_article_unique col-sm-12 col-md-10">
         <a name="article"></a>
-        <h1 id="prestablog_article"{if isset($news->categories[2])} class="recette"{/if} data-referenceid="{$news->id|intval}">{$news->title|escape:'htmlall':'UTF-8'}</h1>
+        <h1 id="prestablog_article"{if isset($news->categories[1000])} class="recette"{/if} data-referenceid="{$news->id|intval}">{$news->title|escape:'htmlall':'UTF-8'}</h1>
     <!-- If we are in Recette catégory -->
-    {if isset($news->categories[2])}
+    {if isset($news->categories[1000])}
     </div>
 </div>
 </div>
@@ -45,7 +45,7 @@
         {/if}
         </div>
     <!-- If we are in Recette catégory -->
-    {if isset($news->categories[2])}
+    {if isset($news->categories[1000])}
     </div>
     </div>
     </div>
