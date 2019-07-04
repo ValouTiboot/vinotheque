@@ -380,6 +380,9 @@ class GiftCard extends Module
         $model = new Gift();
         $languages = Language::getLanguages(true);
 
+        if ($id_customer != Context::getContext()->cookie->id_customer)
+            return;
+
         $paid = true;
         if ($callee == 'front') {
             $paid = $order->hasBeenPaid();
