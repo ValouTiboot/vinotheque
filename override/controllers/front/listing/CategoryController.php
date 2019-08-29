@@ -17,6 +17,9 @@ class CategoryController extends CategoryControllerCore
         $images = [];
         $ext = pathinfo($this->category->id_image_highlight, PATHINFO_EXTENSION);
 
+        if (file_exists(_PS_CAT_IMG_DIR_.'highlight/'.$this->category->id.'.'.$ext))
+            $images['original'] = $this->context->link->getMediaLink('/img/c/highlight/'.$this->category->id.'.'.$ext);
+
         foreach ($images_types as $k => $image_type)
         if (file_exists(_PS_CAT_IMG_DIR_.'highlight/'.$this->category->id.'-'.$image_type['name'].'.'.$ext))
             $images[$image_type['name']] = $this->context->link->getMediaLink('/img/c/highlight/'.$this->category->id.'-'.$image_type['name'].'.'.$ext);
