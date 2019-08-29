@@ -292,7 +292,13 @@
                       <div class="{if $product.property_picture}col-8{else}col-12{/if}">
                         <div>{$product.property nofilter}</div>
                         {if !empty($product.property_link)}
+                        {if $product.property_picture}
                         <a class="btn btn-secondary" href="{$product.property_link nofilter}">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
+                        {else}
+                        <div class="text-center">
+                          <a class="btn btn-secondary" href="{$product.property_link nofilter}">{l s='Voir tous les vins de cette propriété' d='Shop.Theme.Catalog'}</a>
+                        </div>
+                        {/if}
                         {/if}
                       </div>
                     </div>
@@ -317,7 +323,7 @@
                                     <div class="modal-body">
 										                  {assign var=imagesCount value=$product.images|count}
                                        <figure>
-                                        <img width="100%" src="/ftp/Images/{$product.calling_picture_big}">
+                                        <img width="100%" src="{$product.calling_picture_big}">
                                       </figure>
                                     </div>
                                 </div><!-- /.modal-content -->

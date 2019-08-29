@@ -109,6 +109,7 @@ class ProductController extends ProductControllerCore
 
         $categories = Product::getProductCategories($product['id_product']);
         $product_full['property'] = '';
+        $product_full['property_link'] = '';
 
         if (count($categories) > 0)
         foreach ($categories as $cat)
@@ -119,7 +120,10 @@ class ProductController extends ProductControllerCore
             if (preg_match('@propriete@', $parent->link_rewrite))
             {
                 $product_full['property'] = $category->description;
-                $product_full['property_link'] = $this->context->link->getCategoryLink($category);
+                $cat_products = $category->getProducts($this->context->language->id, 1, 20);
+                
+                if (count($cat_products) > 1)
+                    $product_full['property_link'] = $this->context->link->getCategoryLink($category);
             }
         }
 

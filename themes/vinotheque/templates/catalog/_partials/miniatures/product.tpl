@@ -113,11 +113,16 @@
               {if $product.discount_type === 'percentage'}
                   <li class="discount-percentage">{$product.discount_percentage}</li>
                   <br>
+              {else if $product.discount_type === 'amount'}
+                  <li class="discount-percentage">-{$product.discount_amount}</li>
+                  <br>
               {/if}
             {/if}
             {foreach from=$product.flags item=flag}
+              {if $flag.type != 'discount'}
               <li class="{$flag.type}">{$flag.label}</li>
                 <br>
+              {/if}
             {/foreach}
           </ul>
         {/block}

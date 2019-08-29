@@ -35,7 +35,7 @@ class Product extends ProductCore
         parent::__construct($id_product, $full, $id_lang, $id_shop, $context);
         foreach (array('property_picture','calling_picture_big','calling_picture_small') as $pics)
         {        
-            if (file_exists(_PS_ROOT_DIR_.'/ftp/Images/'.$this->{$pics}))
+            if ($this->{$pics} != '' && $this->{$pics} != null && file_exists(_PS_ROOT_DIR_.'/ftp/Images/'.$this->{$pics}))
                 $this->{$pics} = '/ftp/Images/'.$this->{$pics};
             else
                 $this->{$pics} = false;

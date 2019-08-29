@@ -55,15 +55,17 @@
   {hook h='displayProductPictos' mod='pictogram' product=$product}
 
   {block name='discount'}
-      {if $product.discount_percentage}
+    {if $product.has_discount}
+      {if $product.discount_type === 'percentage'}
         <div id="discount_flag">
           {$product.discount_percentage}
         </div>
-      {elseif $product.discount_amount}
+      {else if $product.discount_type === 'amount'}
         <div id="discount_flag">
-          {$product.discount_amount}
+          -{$product.discount_amount}
         </div>
       {/if}
+    {/if}
   {/block}
 </div>
 {hook h='displayAfterProductThumbs'}

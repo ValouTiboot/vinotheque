@@ -63,7 +63,9 @@ class AdminCategoriesController extends AdminCategoriesControllerCore
             if ($_FILES[$name]['name'] != null) 
             {
                 if ($error = ImageManager::validateUpload($_FILES[$name], Tools::getMaxUploadSize())) 
-                    $this->errors[] = $error;
+                    $this->errors = $error;
+                elseif (!mkdir(_PS_CAT_IMG_DIR_.'highlight/', 0755, true))
+                    $this->errors = $this->trans('Can\'t create folder category highlight image.', array(), 'Admin.Catalog.Notification');
                 elseif (!move_uploaded_file($_FILES[$name]['tmp_name'], _PS_CAT_IMG_DIR_.'highlight/'.$id_category.'.'.$this->imageType))
                     $ret = false;
 
