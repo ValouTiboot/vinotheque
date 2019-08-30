@@ -22,6 +22,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+
 {block name='order_confirmation_table'}
   <div id='order-items'>
 
@@ -79,7 +80,7 @@
             {hook h='displayProductPriceBlock' product=$product type="unit_price"}
           </td>
           <td>{$product.quantity}</td>
-          <td>{$product.price}</td>
+          <td>{Tools::displayPrice($product.unit_price_tax_incl)}</td>
         </tr>
       {/foreach}
     </table>

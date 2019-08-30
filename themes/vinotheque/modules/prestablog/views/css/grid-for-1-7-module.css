@@ -708,12 +708,12 @@ a.bloc-rss:hover img {
 	margin-bottom: 15px;
 }
 
-#prestablogfont ul li {
+/*#prestablogfont ul li {
 	list-style: square;
     font-size: 0.9375rem;
     color: #878787;
     font-weight: 400;
-}
+}*/
 
 #prestablogfont ol {
 	list-style: decimal;
@@ -1264,4 +1264,80 @@ img.news {
 	margin-bottom: 45px;
 	line-height: 30px;
 	font-size: 17px;
+}
+
+.prestablog_article_unique #prestablogfont h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+	text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.prestablog_article_unique #prestablogfont h2 {
+    color: #b61f38;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+	text-transform: uppercase;
+}
+.prestablog_article_unique #prestablogfont h2::after {
+    content: '';
+    width: 190px;
+    padding-top: 18px;
+    border-bottom: 9px solid;
+    display: block;
+    margin: auto;
+}
+
+.prestablog_article_unique #prestablogfont h3 {
+    font-size: 27px;
+	font-weight: 300;
+}
+
+.prestablog_article_unique #prestablogfont blockquote {
+    background: #ebebeb;
+    line-height: 1.875rem;
+	padding: 2.5rem 2rem 1rem;
+    position: relative;
+}
+
+.prestablog_article_unique #prestablogfont blockquote::before {
+    background: url(../../../../assets/css/f478b21dab5657d44902d3fa9f6e06ed.png) repeat-x white;
+    height: 22px;
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prestablog_article_unique #prestablogfont ul {
+	line-height: 1.875rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    list-style-image: url(../../../../assets/css/e7e977e3a50dfb988410397bb18f095a.png);
+    padding-left: 1.0625rem;
+}
+
+.prestablog_article_unique #prestablogfont .btn.btn-default {
+    display: block;
+    text-align: center;
+    border: 2px solid #76ccaa;
+    background-color: white;
+    color: #76ccaa;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    padding: 15px 0 10px;
+}
+
+.prestablog_article_unique #prestablogfont .btn.btn-default:hover {
+	color: white;
+    background-color: #76ccaa;
+    text-decoration: none;
 }

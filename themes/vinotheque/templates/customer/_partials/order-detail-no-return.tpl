@@ -22,6 +22,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+ 
 {block name='order_products_table'}
   <div class="box hidden-sm-down">
     <table id="order-products" class="table table-bordered">
@@ -99,8 +100,8 @@
               {$product.quantity}
             {/if}
           </td>
-          <td class="text-right">{$product.price}</td>
-          <td class="text-right">{$product.total}</td>
+          <td class="text-right">{Tools::displayPrice($product.unit_price_tax_incl)}</td>
+          <td class="text-right">{Tools::displayPrice($product.total_price_tax_incl)}</td>
         </tr>
       {/foreach}
       <tfoot>

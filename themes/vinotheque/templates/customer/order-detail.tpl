@@ -162,7 +162,7 @@
                 <td>{$line.shipping_date}</td>
                 <td>{$line.carrier_name}</td>
                 {*}<td>{$line.shipping_weight}</td>{*}
-                <td>{$line.shipping_cost}</td>
+                <td>{Tools::displayPrice($line.shipping_cost_tax_incl)}</td>
                 <td>{$line.tracking}</td>
               </tr>
             {/foreach}
@@ -182,7 +182,7 @@
                   <strong>{l s='Weight' d='Shop.Theme.Checkout'}</strong> {$line.shipping_weight}
                 </li>
                 <li>
-                  <strong>{l s='Shipping cost' d='Shop.Theme.Checkout'}</strong> {$line.shipping_cost}
+                  <strong>{l s='Shipping cost' d='Shop.Theme.Checkout'}</strong> {Tools::displayPrice($line.shipping_cost_tax_incl)}
                 </li>
                 <li>
                   <strong>{l s='Tracking number' d='Shop.Theme.Checkout'}</strong> {$line.tracking}
