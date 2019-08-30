@@ -225,7 +225,7 @@
                             <span class="prestablog_title">{$slide.title}</span>
                         </a>
                         <div class="prestablog_paragraph">
-							{$slide.paragraph}
+							{$slide.paragraph|strip_tags}
                         </div>
                     </div>
                 {foreachelse}

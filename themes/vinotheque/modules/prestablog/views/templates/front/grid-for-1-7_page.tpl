@@ -42,7 +42,7 @@
 						{if isset($tpl_menu_cat) && $tpl_menu_cat}
 							<div id="prestablog_description" class="col-8">
 								<p class="caveat text-center">Amatrices, amateurs de vin,</p>
-								<p>Que pourrez-vous trouver sur notre page d’actualités ? … et bien tout ce qui concerne le vin et son univers : nos évènements, nos dégustations, les actualités des propriétés avec lesquelles nous travaillons, des recettes, etc. bref un peu de lecture et de découverte autour de ce qui nous rassemble : le Vin ! Le but n’étant pas d’inciter à quelconque abus mais bien de promouvoir la richesse de nos terroirs, l’investissement des femmes et des hommes qui font le vin, leur savoir-faire, etc. Et comme le vin s’accompagne toujours d’un bon repas, une touche de gastronomie avec notre partenaire Cuisine et Vins de France pour des accords mets et vins vraiment réussis.</p>
+								<p>Que pourrez-vous trouver sur notre page d’actualités ? … et bien tout ce qui concerne le vin et son univers : nos évènements, nos dégustations, les actualités des propriétés avec lesquelles nous travaillons, des recettes, etc. bref un peu de lecture et de découverte autour de ce qui nous rassemble : le Vin ! Le but n’étant pas d’inciter à quelconque abus mais bien de promouvoir la richesse de nos terroirs, l’investissement des femmes et des hommes qui font le vin, leur savoir-faire, etc. Et comme le vin s’accompagne toujours d’un bon repas, une touche de gastronomie avec nos amis restaurateurs : découvrez chaque mois une de leur recette et un accord met et vin digne des plus grandes tables.</p>
 								<p class="caveat text-center">Bonne vinolecture !</p>
 							</div>
 							{PrestaBlogContent return=$tpl_menu_cat}
