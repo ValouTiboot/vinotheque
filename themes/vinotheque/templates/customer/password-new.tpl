@@ -34,6 +34,12 @@
     {block name='page_content'}
       <form action="{block name='form_new_password_actionurl'}{$urls.pages.password}{/block}" method="post">
 
+        <ul class="ps-alert-error">
+          {foreach $errors as $error}
+            <li class="item"><p>{$error}</p></li>
+          {/foreach}
+        </ul>
+
         {block name='form_new_password_form_fields'}
           <section>
 
@@ -47,14 +53,18 @@
             <div class="form-group row">            
               <label class="col-md-3 form-control-label">{l s='New password' d='Shop.Forms.Labels'}</label>
               <div class="col-md-6">
-                <input class="form-control" type="password" data-validate="isPasswd" name="passwd" value="">
+                <input class="form-control" type="password" data-validate="isPasswd" name="passwd" value="" title="{l s='Your password must be at least %min% characters long.'
+                    sprintf=['%min%' => Validate::PASSWORD_LENGTH]
+                    d='Shop.Forms.Help'}" pattern="{literal}.{5,}{/literal}">
               </div>
             </div>
 
             <div class="form-group row">
               <label class="form-control-label col-md-3">{l s='Confirmation' d='Shop.Forms.Labels'}</label>
               <div class="col-md-6">
-                <input class="form-control" type="password" data-validate="isPasswd" name="confirmation" value="">
+                <input class="form-control" type="password" data-validate="isPasswd" name="confirmation" value="" title="{l s='Your password must be at least %min% characters long.'
+                    sprintf=['%min%' => Validate::PASSWORD_LENGTH]
+                    d='Shop.Forms.Help'}" pattern="{literal}.{5,}{/literal}">
               </div>
             </div>
 

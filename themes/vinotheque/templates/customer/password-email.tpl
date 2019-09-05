@@ -33,6 +33,12 @@
     {block name='page_content'}
       <form action="{block name='form_new_password_actionurl'}{$urls.pages.password}{/block}" method="post">
 
+        <ul class="ps-alert-error">
+          {foreach $errors as $error}
+            <li class="item"><p>{$error}</p></li>
+          {/foreach}
+        </ul>
+
         {block name='form_new_password_header'}
           <header>
             <p>{l s='Please enter the email address you used to register. You will receive a temporary link to reset your password.' d='Shop.Theme.Customeraccount'}</p>
