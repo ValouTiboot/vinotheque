@@ -1,9 +1,7 @@
 <?php
+
 class Cart extends CartCore
 {
-    
-    
-    
     public function getProducts($refresh = false, $id_product = false, $id_country = null)
     {
         if (!$this->id) {
@@ -561,7 +559,7 @@ class Cart extends CartCore
 
                     $position += $carrier_collection[$id_carrier]->position;
 
-                    foreach (Context::getContext()->cart->getProducts() as $product)
+                    foreach ($this->getProducts() as $product)
                     {
                         // 7 = livraison primeur
                         // 8 = magasin primeur
