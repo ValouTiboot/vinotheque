@@ -35,7 +35,7 @@ class CartRule extends CartRuleCore
     ) {
         $current_filter = $filter;
 
-        $products = Context::getContext()->cart->getProducts();
+        $products = $context->cart->getProducts();
         $add_price = 0;
         $add_price_tax_exc = 0;
         if (preg_match('@primeur@i', $this->name))
