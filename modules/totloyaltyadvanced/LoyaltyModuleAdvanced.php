@@ -21,13 +21,10 @@ require_once dirname(__FILE__).'/classes/TotLoyalty.php';
 
 class LoyaltyModuleAdvanced extends TotLoyalty
 {
-
     public function save($null_values = false, $autodate = true)
     {
         parent::save($null_values, $autodate);
     }
-
-
 
     public static function getOrderNbPoints($order)
     {
@@ -133,16 +130,14 @@ class LoyaltyModuleAdvanced extends TotLoyalty
         return Db::getInstance()->executeS($query);
     }
 
-
-
     /* Register all transaction in a specific history table */
-
     private function historize()
     {
         Db::getInstance()->execute('
           INSERT INTO `'._DB_PREFIX_.'totloyalty_history` (`id_loyalty`, `id_loyalty_state`, `points`, `date_add`)
           VALUES ('.(int)($this->id).', '.(int)($this->id_loyalty_state).', '.(int)($this->points).', NOW())');
     }
+
     public static function transformPoints($redirect = null)
     {
         $customer_points = (int)TotLoyalty::getPointsByCustomer((int)Context::getContext()->customer->id);
@@ -166,14 +161,14 @@ class LoyaltyModuleAdvanced extends TotLoyalty
 
             // If merchandise returns are allowed, the voucher musn't be usable before this max return date
             $date_from = Db::getInstance()->getValue('
-			SELECT UNIX_TIMESTAMP(date_add) n
-			FROM '._DB_PREFIX_.'totloyalty
-			WHERE id_cart_rule = 0 AND id_customer = '.(int)Context::getContext()->cookie->id_customer.'
-			ORDER BY date_add DESC');
+            SELECT UNIX_TIMESTAMP(date_add) n
+            FROM '._DB_PREFIX_.'totloyalty
+            WHERE id_cart_rule = 0 AND id_customer = '.(int)Context::getContext()->cookie->id_customer.'
+            ORDER BY date_add DESC');
 
-            if (Configuration::get('PS_ORDER_RETURN')) {
-                $date_from += 60 * 60 * 24 * (int)Configuration::get('PS_ORDER_RETURN_NB_DAYS');
-            }
+            // if (Configuration::get('PS_ORDER_RETURN')) {
+            //     $date_from += 60 * 60 * 24 * (int)Configuration::get('PS_ORDER_RETURN_NB_DAYS');
+            // }
             //$validvoucher = (int)Configuration::get('PS_LOYALTY_VALIDITY_PERIOD');
             $cart_rule->date_from = date('Y-m-d H:i:s', $date_from);
             //$cart_rule->date_to = date('Y-m-d H:i:s', strtotime($cart_rule->date_from .' + '.$validvoucher.' days'));
@@ -230,11 +225,15 @@ class LoyaltyModuleAdvanced extends TotLoyalty
                 Db::getInstance()->execute($sql);
             }
 
-
-
             // Register order(s) which contributed to create this voucher
             if (!TotLoyalty::registerDiscount($cart_rule)) {
                 $cart_rule->delete();
+            }
+
+            if (\Module::isInstalled('wservices') && \Module::isEnabled('wservices'))
+            {
+                $wservices = \Module::getInstanceByName('wservices');
+                $wservices->publishCustomer(new Customer((int)Context::getContext()->customer->id), 'UPD');
             }
 
             Tools::redirect(
