@@ -93,6 +93,9 @@
   max-width: 100%;
   flex: 0 0 100%;
 }
+.mm_block_type_product .product-miniature .product-thumbnail-box a {
+  color: #fff !important;
+}
 .ets-dir-rtl .mm_block_type_product .product-miniature {
   clear: right;
 }
