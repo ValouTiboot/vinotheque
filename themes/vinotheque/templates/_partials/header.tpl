@@ -51,9 +51,9 @@
 			  </div>
 			{/block}
 			{hook h='displayTop'}
+  			{hook h='displayNavFullWidth'}
 		  </div>
 	  </div>
   </div>
 
-  {hook h='displayNavFullWidth'}
 {/block}
