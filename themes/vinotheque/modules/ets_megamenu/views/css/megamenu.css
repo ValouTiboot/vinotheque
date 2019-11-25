@@ -1401,12 +1401,12 @@ span.mm_alert.alert-warning:before {
     -webkit-backface-visibility: hidden;
 }
 
-.ets_mm_block_content img:hover {
+/*.ets_mm_block_content img:hover {
     transform: scale(1.05);
     -o-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
-}
+}*/
 
 .ets-dir-rtl .mm_columns_li {
     float: right;
