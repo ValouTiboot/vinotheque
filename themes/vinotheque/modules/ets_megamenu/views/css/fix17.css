@@ -130,6 +130,14 @@
 .hook-default.layout_layout5:not(.scroll_heading) .mm_bubble_text {
   top: -5px;
 }
+.ets_mm_block [class^="icon-"] {
+  font-size: 1.75rem;
+}
+.ets_mm_megamenu.hook-default .mm_columns_ul {display: flex;}
+.ets_mm_megamenu.hook-default .mm_columns_ul .mm_columns_li:nth-child(3) {
+  background-color: #ddf2ea;
+  min-height: 100%
+}
 @media (min-width: 768px) and (max-width: 1199px){
     .changestatus .mm_extra_item .cart-preview a {
       display: block;
